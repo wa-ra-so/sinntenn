@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T21:57:41.016Z",
+  "generatedAt": "2026-07-12T03:05:23.751Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 7
+      "count": 8
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -36,11 +36,194 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 37
+      "count": 36
     }
   ],
   "itemCount": 38,
-  "hotpepper": {},
+  "hotpepper": {
+    "コナズ珈琲": {
+      "storeName": "コナズ珈琲",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:20.427Z"
+    },
+    "全東信": {
+      "storeName": "全東信",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:20.436Z"
+    },
+    "サンズ・タケリア": {
+      "storeName": "サンズ・タケリア",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:20.967Z"
+    },
+    "ガーデンプールレストラン": {
+      "storeName": "ガーデンプールレストラン",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:21.157Z"
+    },
+    "焼鳥蕎麦二尺五寸": {
+      "storeName": "焼鳥 蕎麦 二尺五寸",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:21.345Z"
+    },
+    "芯": {
+      "storeName": "芯",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:21.411Z"
+    },
+    "佐倉市立美術館": {
+      "storeName": "佐倉市立美術館",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:21.526Z"
+    },
+    "藁焼き酒場わらいち": {
+      "storeName": "藁焼き酒場 わらいち",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004633975/?vos=nhppalsa000016",
+      "shopName": "藁焼き酒場 わらいち 柏西口店",
+      "checkedAt": "2026-07-12T03:05:21.534Z"
+    },
+    "焼肉きんぐマーヴ浦安店": {
+      "storeName": "焼肉きんぐ マーヴ浦安店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:21.773Z"
+    },
+    "寿司一丁八千代緑が丘店": {
+      "storeName": "寿司一丁 八千代緑が丘店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:21.893Z"
+    },
+    "pronto成田空港第2ターミナル店": {
+      "storeName": "PRONTO 成田空港第２ターミナル店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:21.949Z"
+    },
+    "ハー・グエン": {
+      "storeName": "ハー・グエン",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:22.142Z"
+    },
+    "和食居酒屋大安": {
+      "storeName": "和食居酒屋 大安",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:22.257Z"
+    },
+    "元祖焼豚センターうる寅商店": {
+      "storeName": "元祖焼豚センター うる寅商店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:22.506Z"
+    },
+    "古民家カフェハナレヤ": {
+      "storeName": "古民家カフェ ハナレヤ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:22.635Z"
+    },
+    "なのわ": {
+      "storeName": "なのわ",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003649532/?vos=nhppalsa000016",
+      "shopName": "いなのわ 千葉駅前店",
+      "checkedAt": "2026-07-12T03:05:22.702Z"
+    },
+    "メレンゲ": {
+      "storeName": "メレンゲ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:22.874Z"
+    },
+    "merengue": {
+      "storeName": "Merengue",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:22.995Z"
+    },
+    "大衆割烹まるは": {
+      "storeName": "大衆割烹まるは",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004612468/?vos=nhppalsa000016",
+      "shopName": "大衆割烹 まるは船橋店",
+      "checkedAt": "2026-07-12T03:05:23.061Z"
+    },
+    "中華そば煮干の五郎": {
+      "storeName": "中華そば煮干の五郎",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:23.069Z"
+    },
+    "diningtamaki": {
+      "storeName": "Dining Tamaki",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:23.184Z"
+    },
+    "dayswithkofushowa": {
+      "storeName": "DAYS with KofuShowa",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:23.245Z"
+    },
+    "華和居": {
+      "storeName": "華和居",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004633217/?vos=nhppalsa000016",
+      "shopName": "中華料理 華和居",
+      "checkedAt": "2026-07-12T03:05:23.364Z"
+    },
+    "野菜泥棒3104": {
+      "storeName": "野菜泥棒3104",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:23.422Z"
+    },
+    "不慣れ": {
+      "storeName": "不慣れ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:23.622Z"
+    },
+    "goodie!(グッティ!)": {
+      "storeName": "goodie!（グッティ！）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:05:23.751Z"
+    }
+  },
   "items": [
     {
       "title": "東京・池袋 ガールズバー売春強要事件 店長の男に懲役8年を求刑（ANNニュース）",
