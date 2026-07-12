@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T04:53:46.687Z",
+  "generatedAt": "2026-07-12T21:40:46.533Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 8
+      "count": 6
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 58
+      "count": 38
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 48,
+  "itemCount": 52,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -317,6 +317,58 @@
       "capacity": 20,
       "open": "月～金、祝前日: 15:00～23:30 （料理L.O. 22:30 ドリンクL.O. 23:00）土、日、祝日: 12:00～23:30 （料理L.O. 22:30 ドリンクL.O. 23:00）",
       "checkedAt": "2026-07-12T03:52:46.221Z"
+    },
+    "とんかつ神楽坂さくら君津店": {
+      "storeName": "とんかつ神楽坂さくら 君津店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001281852/?vos=nhppalsa000016",
+      "shopName": "とんかつ 神楽坂 さくら 君津店",
+      "address": "千葉県君津市南子安３－６－１２",
+      "access": "JR内房線 君津 徒歩23分",
+      "genre": "和食",
+      "budget": "2001～3000円",
+      "capacity": 59,
+      "open": "月～日、祝日: 11:00～22:00 （料理L.O. 21:30 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-12T21:40:45.613Z"
+    },
+    "とんかつ神楽坂さくら八千代大和田店": {
+      "storeName": "とんかつ神楽坂さくら 八千代大和田店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003763708/?vos=nhppalsa000016",
+      "shopName": "とんかつ 神楽坂 さくら 八千代大和田店",
+      "address": "千葉県八千代市大和田新田３７４－１―２",
+      "access": "東葉高速鉄道八千代中央駅出口より徒歩約24分",
+      "genre": "居酒屋",
+      "budget": "1501～2000円",
+      "capacity": 57,
+      "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:30 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-12T21:40:45.754Z"
+    },
+    "丁字屋": {
+      "storeName": "丁字屋",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001053065/?vos=nhppalsa000016",
+      "shopName": "丁字屋 KASHIWA-NO-HA",
+      "address": "千葉県柏市柏の葉６-5-2　三井ガーデンホテル パークサイド1F",
+      "access": "つくばｴｸｽﾌﾟﾚｽ柏の葉ｷｬﾝﾊﾟｽ駅より徒歩約30分",
+      "genre": "イタリアン・フレンチ",
+      "budget": "7001～8000円",
+      "capacity": 60,
+      "open": "火～日: 11:30～15:00 （料理L.O. 13:30 ドリンクL.O. 14:30）17:30～21:00 （料理L.O. 19:30 ドリンクL.O. 20:30）",
+      "checkedAt": "2026-07-12T21:40:45.814Z"
+    },
+    "金東(kaneto)": {
+      "storeName": "金東（KANETO）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-12T21:40:46.295Z"
     }
   },
   "market": {
@@ -415,9 +467,33 @@
     "市川市|カフェ": {
       "count": 24,
       "checkedAt": "2026-07-12T03:52:48.189Z"
+    },
+    "柏市|フレンチ": {
+      "count": 8,
+      "checkedAt": "2026-07-12T21:40:46.486Z"
+    },
+    "君津市|レストラン": {
+      "count": 2,
+      "checkedAt": "2026-07-12T21:40:46.491Z"
+    },
+    "柏市|中華": {
+      "count": 21,
+      "checkedAt": "2026-07-12T21:40:46.533Z"
     }
   },
   "items": [
+    {
+      "title": "南柏駅から徒歩15分ほどの所に中華料理「金東（KANETO）」が5/29（木）オープン",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QX09hN3BkeXk3dU1XRnFxenhFZ0pIbmNleWhTRmIyQnM3U0p1RFJqano2Ti1rcE4zLWIxYjNPOUhndFhmdkZGTUFrMmM5cW8?oc=5",
+      "source": "柏つうしん",
+      "pubDate": "Sun, 12 Jul 2026 00:53:48 GMT",
+      "area": "柏市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-12T21:40:41.849Z"
+    },
     {
       "title": "「Barおいでやす」オープニングスタッフ募集（ホール/バーテンダー/店長・マネージャー候補 完全新規OPE…）",
       "link": "http://s.baitoru.com/DW05mzmZ",
@@ -473,6 +549,40 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:36:45.027Z"
+    },
+    {
+      "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/口コミ高評価の繁盛…）",
+      "link": "https://foods-labo.com/offers/65264?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Fri, 10 Jul 2026 07:06:06 GMT",
+      "area": "君津市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T21:40:41.776Z"
+    },
+    {
+      "title": "「とんかつ神楽坂さくら 八千代大和田店」オープニングスタッフ募集（和食/店長・店長候補/ゼロからお店を作り上げてみませんか）",
+      "link": "https://foods-labo.com/offers/65271?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Fri, 10 Jul 2026 07:06:06 GMT",
+      "area": "八千代市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T21:40:41.777Z"
+    },
+    {
+      "title": "「丁字屋」オープニングスタッフ募集（創作フレンチ店のホールスタッフ）",
+      "link": "https://clients.itszai.jp/4e4463794f413d3d/recruitments/40055",
+      "source": "求人ボックス（株式会社アガーノ）",
+      "pubDate": "Fri, 10 Jul 2026 06:00:44 GMT",
+      "area": "柏市",
+      "genres": [
+        "フレンチ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T21:40:41.776Z"
     },
     {
       "title": "株式会社WONDER CREW 海鮮居酒屋 うおっと函館店 オープニングスタッフ募集（飲食店の店舗スタッフ）",
@@ -549,6 +659,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:29:32.899Z"
+    },
+    {
+      "title": "株式会社エムアンドエムサービス オープニングスタッフ募集（ホール オープニング ホテルのホールスタッフ/おんじゅく保養…）",
+      "link": "https://www.baitoru.com/op540023/job145660432/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 08 Jul 2026 05:13:36 GMT",
+      "area": "御宿町",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T21:40:41.776Z"
     },
     {
       "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
@@ -962,18 +1082,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T04:53:44.275Z"
-    },
-    {
-      "title": "高校生レストランが野田市役所にオープン 初日120食完売 接客も高評価、生徒ら意欲",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96MHBUeGpOUnlhMW1tMTlfcmUxdm4tanhlb1NKWVR3UXR1eC00dGhkVHluRXhsOGs1bVhxYVVOelI5MnNhUUlqVWlFMEE5a0NhSTFN?oc=5",
-      "source": "東京新聞デジタル",
-      "pubDate": "Wed, 13 May 2026 07:00:00 GMT",
-      "area": "野田市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
     }
   ]
 }
