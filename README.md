@@ -2,18 +2,19 @@
 
 千葉県の新規開店情報（予約業態の飲食店）を毎朝自動収集し、GitHub Pagesで一覧表示するサイト。
 
-- **公開URL**: https://wa-ra-so.github.io/sinntenn/shinten.html
-- 提案書ジェネレーター（提案書セイセイ君）: https://wa-ra-so.github.io/sinntenn/index.html
+- **公開URL**: https://wa-ra-so.github.io/sinntenn/ （新店リサーチ）
+- 提案書ジェネレーター（提案書セイセイ君）: https://wa-ra-so.github.io/sinntenn/seiseikun.html
 
 ## 仕組み
 
 | ファイル | 役割 |
 |---|---|
-| `shinten.html` | 新店リサーチの画面（ダッシュボード・絞り込み・店舗詳細） |
+| `index.html` | 新店リサーチの画面（ダッシュボード・絞り込み・店舗詳細） |
 | `scripts/fetch-stores.mjs` | Googleニュース検索RSS（開店ニュース）＋求人ボックス・Indeed（オープニングスタッフ求人）から収集し `data/stores.json` を更新 |
 | `.github/workflows/update-shinten.yml` | 毎朝6:00 JST頃に自動実行（Actionsのcron） |
 | `data/stores.json` | 収集済みデータ（直近60日分・自動コミット） |
-| `index.html` | 提案書セイセイ君（独立ツール） |
+| `seiseikun.html` | 提案書セイセイ君（独立ツール） |
+| `shinten.html` | 旧URLからのリダイレクト用スタブ |
 
 ## ホットペッパー掲載チェック（●×表示）を有効にする
 
@@ -42,4 +43,4 @@
   タウンワークは検索ページがログインセッション必須のため直接収集していないが、
   掲載分の多くは求人ボックス経由でカバーされる
 - 店名・開店日はニュース見出しから自動抽出しています。抽出ロジックは
-  `scripts/fetch-stores.mjs` と `shinten.html` の `extractStoreName` を同一に保つこと
+  `scripts/fetch-stores.mjs` と `index.html` の `extractStoreName` を同一に保つこと

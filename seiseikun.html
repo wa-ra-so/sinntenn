@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>提案書セイセイ君 — 新規獲得版</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Noto+Serif+JP:wght@400;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --ink:#1e293b;--mid:#64748b;--light:#94a3b8;--faint:#e2e8f0;
+  --bg:#f1f5f9;--white:#fff;
+  --blue:#2563eb;--blue-light:#dbeafe;--blue-pale:#eff6ff;
+  --green:#16a34a;--amber:#d97706;--red:#dc2626;
+  --radius:8px;
+}
+body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;}
+.app{max-width:700px;margin:0 auto;padding:32px 16px 80px;}
+.app-header{margin-bottom:28px;display:flex;align-items:center;gap:14px;}
+.app-icon{width:44px;height:44px;background:var(--blue);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;}
+.app-title{font-size:20px;font-weight:700;letter-spacing:-.02em;}
+.app-sub{font-size:11.5px;color:var(--mid);margin-top:2px;}
+.stepper{display:flex;align-items:center;margin-bottom:24px;}
+.step-num{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;border:2px solid var(--faint);background:var(--white);color:var(--light);}
+.step-num.active{background:var(--blue);border-color:var(--blue);color:white;}
+.step-num.done{background:var(--blue);border-color:var(--blue);color:white;}
+.step-line{flex:1;height:1px;background:var(--faint);margin:0 8px;}
+.card{background:var(--white);border-radius:var(--radius);padding:22px;border:1px solid var(--faint);margin-bottom:12px;}
+.card-title{font-size:13px;font-weight:700;margin-bottom:16px;}
+.form-row{display:grid;gap:12px;margin-bottom:12px;}
+.form-row.col2{grid-template-columns:1fr 1fr;}
+.form-row.col3{grid-template-columns:1fr 1fr 1fr;}
+.field label{display:block;font-size:10.5px;font-weight:600;color:var(--mid);margin-bottom:5px;letter-spacing:.04em;text-transform:uppercase;}
+.field input,.field select{width:100%;padding:10px 12px;border:1.5px solid var(--faint);border-radius:6px;font-size:14px;font-family:inherit;color:var(--ink);background:var(--white);transition:border-color .15s;-webkit-appearance:none;outline:none;box-sizing:border-box;}
+.field input:focus,.field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,.1);}
+.field .hint{font-size:10px;color:var(--light);margin-top:3px;}
+/* SLIDER */
+.slider-wrap{padding:4px 0;}
+input[type=range]{width:100%;height:4px;border-radius:2px;appearance:none;background:var(--faint);outline:none;border:none;padding:0;}
+input[type=range]::-webkit-slider-thumb{appearance:none;width:18px;height:18px;border-radius:50%;background:var(--blue);cursor:pointer;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.2);}
+.slider-labels{display:flex;justify-content:space-between;font-size:10px;color:var(--light);margin-top:4px;}
+.slider-val{font-size:13px;font-weight:700;color:var(--blue);text-align:center;margin-bottom:4px;}
+/* PLAN CARDS */
+.plan-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;}
+.plan-card{border:2px solid var(--faint);border-radius:6px;padding:11px;cursor:pointer;transition:all .15s;display:flex;flex-direction:column;gap:3px;}
+.plan-card.selected{border-color:var(--blue);background:var(--blue-pale);}
+.plan-card-hd{display:flex;align-items:center;gap:7px;}
+.plan-radio{width:14px;height:14px;border-radius:50%;border:2px solid var(--faint);flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+.plan-card.selected .plan-radio{border-color:var(--blue);background:var(--blue);}
+.plan-card.selected .plan-radio::after{content:'';width:5px;height:5px;background:white;border-radius:50%;}
+.plan-name{font-size:11.5px;font-weight:700;}
+.plan-badge{font-size:8px;font-weight:700;background:var(--blue);color:white;padding:1px 6px;border-radius:8px;}
+.plan-fee{font-size:10px;color:var(--mid);}
+/* SCENARIO MINI */
+.scenario-mini{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:14px;}
+.sc-card{border-radius:6px;padding:10px;text-align:center;}
+.sc-card.pessimist{background:#fef3c7;border:1px solid #fde68a;}
+.sc-card.neutral{background:var(--blue);border:1px solid var(--blue);}
+.sc-card.optimist{background:#dcfce7;border:1px solid #86efac;}
+.sc-label{font-size:9px;font-weight:600;margin-bottom:3px;color:var(--mid);}
+.sc-card.neutral .sc-label{color:rgba(255,255,255,.7);}
+.sc-val{font-size:17px;font-weight:900;color:var(--ink);letter-spacing:-.02em;}
+.sc-card.neutral .sc-val{color:white;}
+.sc-sub{font-size:9px;color:var(--mid);margin-top:2px;}
+.sc-card.neutral .sc-sub{color:rgba(255,255,255,.6);}
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:11px 22px;border-radius:6px;font-size:13px;font-weight:700;border:none;cursor:pointer;transition:all .15s;font-family:inherit;}
+.btn-primary{background:var(--blue);color:white;}
+.btn-primary:hover{background:#1d4ed8;}
+.btn-primary:disabled{background:var(--faint);color:var(--light);cursor:not-allowed;}
+.btn-ghost{background:transparent;color:var(--mid);border:1.5px solid var(--faint);}
+.btn-ghost:hover{border-color:var(--mid);color:var(--ink);}
+.btn-print{background:var(--blue);color:white;font-size:14px;padding:12px 28px;border-radius:7px;}
+.btn-print:hover{background:#1d4ed8;}
+.btn-row{display:flex;gap:10px;margin-top:20px;justify-content:flex-end;}
+.error-box{background:#fff3f3;border:1px solid #fcc;border-radius:6px;padding:12px 14px;font-size:12px;color:#c00;margin-bottom:12px;}
+.preview-wrap{overflow-x:auto;}
+.preview-scale{transform-origin:top left;transform:scale(0.72);width:210mm;margin-bottom:-84mm;}
+@media print{@page{size:A4;margin:10mm 12mm;}}
+</style>
+</head>
+<body>
+<div class="app" id="app-root"></div>
+<script>
+const fmt = n => Math.round(Number(n)).toLocaleString('ja-JP');
+const BASIC_CTR = 0.10;
+
+const AREA_DATA = {
+  "いすみ・御宿・大多喜": { net:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, light:{avgAccess:5000,cvr:{p25:0.17,med:0.29,p75:0.41}}, basic:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:0 },
+  "中央区":               { net:{avgAccess:1000,cvr:{p25:0.25,med:0.33,p75:0.41}}, light:{avgAccess:4000,cvr:{p25:0.33,med:0.50,p75:0.62}}, basic:{avgAccess:5000,cvr:{p25:0.22,med:0.35,p75:0.50}}, basicImpIncrease:21000 },
+  "九十九里浜中部":       { net:{avgAccess:1000,cvr:{p25:0.17,med:0.29,p75:0.41}}, light:{avgAccess:2000,cvr:{p25:0.12,med:0.20,p75:0.28}}, basic:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:5500 },
+  "九十九里浜北部":       { net:{avgAccess:0,cvr:{p25:0.30,med:0.50,p75:0.70}}, light:{avgAccess:2000,cvr:{p25:0,med:0,p75:0}}, basic:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:0 },
+  "九十九里浜南部":       { net:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, light:{avgAccess:1000,cvr:{p25:0,med:0,p75:0}}, basic:{avgAccess:3000,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:6000 },
+  "佐倉・印旛沼":         { net:{avgAccess:1000,cvr:{p25:0.37,med:0.61,p75:0.85}}, light:{avgAccess:1000,cvr:{p25:0.20,med:0.33,p75:0.46}}, basic:{avgAccess:1000,cvr:{p25:0.60,med:1.0,p75:1.4}}, basicImpIncrease:9000 },
+  "佐原・水郷":           { net:{avgAccess:1500,cvr:{p25:0.19,med:0.22,p75:0.31}}, light:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, basic:{avgAccess:6000,cvr:{p25:0.15,med:0.25,p75:0.35}}, basicImpIncrease:7000 },
+  "八街・両総台地":       { net:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, light:{avgAccess:1500,cvr:{p25:0,med:0,p75:0}}, basic:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:0 },
+  "勝浦市":               { net:{avgAccess:1000,cvr:{p25:0,med:0,p75:0}}, light:{avgAccess:9000,cvr:{p25:0,med:0,p75:0}}, basic:{avgAccess:7000,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:3000 },
+  "南房総・館山":         { net:{avgAccess:1000,cvr:{p25:0,med:0,p75:0}}, light:{avgAccess:3000,cvr:{p25:0.09,med:0.15,p75:0.21}}, basic:{avgAccess:12000,cvr:{p25:0.34,med:0.56,p75:0.78}}, basicImpIncrease:6000 },
+  "君津・富津・鋸南":     { net:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, light:{avgAccess:1000,cvr:{p25:0.30,med:0.50,p75:0.70}}, basic:{avgAccess:2500,cvr:{p25:0.20,med:0.33,p75:0.46}}, basicImpIncrease:5000 },
+  "市原":                 { net:{avgAccess:1000,cvr:{p25:0.30,med:0.50,p75:0.70}}, light:{avgAccess:1000,cvr:{p25:0.22,med:0.33,p75:0.50}}, basic:{avgAccess:2000,cvr:{p25:0.50,med:0.58,p75:0.67}}, basicImpIncrease:10500 },
+  "市川":                 { net:{avgAccess:1000,cvr:{p25:0.27,med:0.42,p75:0.50}}, light:{avgAccess:4000,cvr:{p25:0.27,med:0.41,p75:0.53}}, basic:{avgAccess:4000,cvr:{p25:0.33,med:0.48,p75:0.69}}, basicImpIncrease:36000 },
+  "幕張":                 { net:{avgAccess:3000,cvr:{p25:0.12,med:0.17,p75:0.32}}, light:{avgAccess:5000,cvr:{p25:0.24,med:0.33,p75:0.48}}, basic:{avgAccess:6000,cvr:{p25:0.29,med:0.37,p75:0.56}}, basicImpIncrease:30000 },
+  "成田":                 { net:{avgAccess:1000,cvr:{p25:0.20,med:0.33,p75:0.46}}, light:{avgAccess:2000,cvr:{p25:0.50,med:0.50,p75:0.57}}, basic:{avgAccess:4000,cvr:{p25:0.33,med:0.40,p75:0.62}}, basicImpIncrease:23000 },
+  "我孫子・印西":         { net:{avgAccess:1000,cvr:{p25:0.45,med:0.75,p75:1.05}}, light:{avgAccess:2000,cvr:{p25:0.33,med:0.50,p75:1.00}}, basic:{avgAccess:2000,cvr:{p25:0.46,med:0.50,p75:0.75}}, basicImpIncrease:12000 },
+  "木更津・袖ヶ浦":       { net:{avgAccess:1000,cvr:{p25:0.42,med:0.50,p75:0.55}}, light:{avgAccess:2000,cvr:{p25:0.27,med:0.71,p75:0.88}}, basic:{avgAccess:1000,cvr:{p25:0.20,med:0.28,p75:0.33}}, basicImpIncrease:11000 },
+  "松戸":                 { net:{avgAccess:1000,cvr:{p25:0.33,med:0.38,p75:0.50}}, light:{avgAccess:3000,cvr:{p25:0.30,med:0.33,p75:0.50}}, basic:{avgAccess:3000,cvr:{p25:0.33,med:0.48,p75:0.67}}, basicImpIncrease:18500 },
+  "柏":                   { net:{avgAccess:1000,cvr:{p25:0.21,med:0.42,p75:0.50}}, light:{avgAccess:4000,cvr:{p25:0.25,med:0.40,p75:0.50}}, basic:{avgAccess:5000,cvr:{p25:0.27,med:0.39,p75:0.65}}, basicImpIncrease:21000 },
+  "浦安・東京ディズニーリゾート": { net:{avgAccess:3000,cvr:{p25:0.25,med:0.35,p75:0.47}}, light:{avgAccess:5000,cvr:{p25:0.33,med:0.55,p75:0.73}}, basic:{avgAccess:5000,cvr:{p25:0.32,med:0.50,p75:0.92}}, basicImpIncrease:39500 },
+  "稲毛区・花見川区":     { net:{avgAccess:2000,cvr:{p25:0.20,med:0.33,p75:0.46}}, light:{avgAccess:3000,cvr:{p25:0.33,med:0.43,p75:0.88}}, basic:{avgAccess:2000,cvr:{p25:0.67,med:1.00,p75:1.00}}, basicImpIncrease:13000 },
+  "美浜区":               { net:{avgAccess:0,cvr:{p25:0.08,med:0.14,p75:0.20}}, light:{avgAccess:7000,cvr:{p25:0.16,med:0.27,p75:0.38}}, basic:{avgAccess:1000,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:15500 },
+  "習志野・八千代":       { net:{avgAccess:1000,cvr:{p25:0.38,med:0.58,p75:0.92}}, light:{avgAccess:3000,cvr:{p25:0.43,med:0.50,p75:0.73}}, basic:{avgAccess:3000,cvr:{p25:0.33,med:0.45,p75:0.56}}, basicImpIncrease:19500 },
+  "船橋":                 { net:{avgAccess:1000,cvr:{p25:0.23,med:0.34,p75:0.50}}, light:{avgAccess:3000,cvr:{p25:0.36,med:0.50,p75:0.67}}, basic:{avgAccess:8000,cvr:{p25:0.33,med:0.50,p75:0.62}}, basicImpIncrease:25000 },
+  "若葉区・緑区":         { net:{avgAccess:1000,cvr:{p25:0.33,med:0.67,p75:1.00}}, light:{avgAccess:2000,cvr:{p25:0.19,med:0.32,p75:0.45}}, basic:{avgAccess:1000,cvr:{p25:0.60,med:1.00,p75:1.40}}, basicImpIncrease:7500 },
+  "野田・流山":           { net:{avgAccess:1000,cvr:{p25:0.50,med:0.50,p75:0.75}}, light:{avgAccess:4000,cvr:{p25:0.33,med:0.46,p75:0.60}}, basic:{avgAccess:5500,cvr:{p25:0.31,med:0.45,p75:0.96}}, basicImpIncrease:21500 },
+  "銚子・犬吠埼":         { net:{avgAccess:1000,cvr:{p25:0,med:0,p75:0}}, light:{avgAccess:1000,cvr:{p25:0,med:0,p75:0}}, basic:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:4000 },
+  "鎌ヶ谷・白井":         { net:{avgAccess:1000,cvr:{p25:0.20,med:0.33,p75:0.46}}, light:{avgAccess:4000,cvr:{p25:0.32,med:0.53,p75:0.74}}, basic:{avgAccess:4000,cvr:{p25:0.75,med:0.80,p75:1.00}}, basicImpIncrease:6000 },
+  "鴨川":                 { net:{avgAccess:2000,cvr:{p25:0.15,med:0.25,p75:0.35}}, light:{avgAccess:4000,cvr:{p25:0,med:0,p75:0}}, basic:{avgAccess:0,cvr:{p25:0,med:0,p75:0}}, basicImpIncrease:2000 },
+};
+
+const PLANS = [
+  { id:'net',   name:'ネット予約のみ', monthlyFee:0,     rate:0.3, badge:null,      desc:'固定費なし・従量料金のみ' },
+  { id:'light', name:'PRライトプラン', monthlyFee:10000, rate:0.5, badge:null,      desc:'月額10,000円・アクセスアップ機能' },
+  { id:'basic', name:'PRベーシック',   monthlyFee:25000, rate:0.7, badge:'優先表示', desc:'月額25,000円・優先表示・新規集客' },
+];
+
+function getAreaData(area, planId) {
+  const d = AREA_DATA[area];
+  if (!d) return null;
+  const key = planId === 'net' ? 'net' : planId === 'light' ? 'light' : 'basic';
+  return d[key];
+}
+
+function getBasicAccessIncrease(area) {
+  const d = AREA_DATA[area];
+  return d ? d.basicImpIncrease * BASIC_CTR : 2600;
+}
+
+// cvrPct = 0〜100の数値
+function calcOne(access, cvrPct, plan, area, price) {
+  const basicIncrease = getBasicAccessIncrease(area);
+  const effectiveAccess = plan.id === 'basic' ? access + basicIncrease : access;
+  const reservations = effectiveAccess * (cvrPct / 100) * plan.rate;
+  const people = reservations * 2.5;
+  const volCost = people * 50;
+  const totalCost = plan.monthlyFee + volCost;
+  const revenue = people * price;
+  const profit = revenue - totalCost;
+  // 損益分岐来店人数
+  const breakeven = plan.monthlyFee > 0
+    ? Math.ceil(plan.monthlyFee / Math.max(price - 50, 1))
+    : 0;
+  return { reservations, people, volCost, totalCost, revenue, profit, breakeven, effectiveAccess };
+}
+
+function calcScenarios(form, plan) {
+  const access = +form.access || 0;
+  const price  = +form.price  || 0;
+  const area   = form.area || '';
+  const ad = getAreaData(area, plan.id);
+  const cvrMed = +form.cvr || (ad ? ad.cvr.med : 0);
+  const cvrP25 = ad ? ad.cvr.p25 : Math.max(cvrMed * 0.6, 0);
+  const cvrP75 = ad ? ad.cvr.p75 : cvrMed * 1.4;
+  return {
+    pessimist: calcOne(access, cvrP25, plan, area, price),
+    neutral:   calcOne(access, cvrMed, plan, area, price),
+    optimist:  calcOne(access, cvrP75, plan, area, price),
+    cvrMed, cvrP25, cvrP75,
+  };
+}
+
+function calcCurrent(form) {
+  const access = +form.access || 0;
+  const cvr    = +form.cvr / 100 || 0;
+  const price  = +form.price || 0;
+  const seats  = +form.seats || 0;
+  const lostR  = access * cvr;
+  const lostP  = lostR * 2.5;
+  return {
+    lostReservations: lostR,
+    lostPeople: lostP,
+    lostMonthly: lostP * price,
+    lostHalf: lostP * price * 6,
+    turns: seats > 0 ? lostP / seats : null,
+  };
+}
+
+// ── PROPOSAL HTML ──
+function buildProposal(form) {
+  const { storeName, month, planId, area } = form;
+  const plan   = PLANS.find(p => p.id === planId) || PLANS[1];
+  const cur    = calcCurrent(form);
+  const sc     = calcScenarios(form, plan);
+  const access = +form.access || 0;
+  const tel    = +form.tel    || 0;
+  const bm     = +form.bm     || 0;
+  const cvr    = +form.cvr    || 0;
+  const price  = +form.price  || 0;
+  const seats  = +form.seats  || 0;
+  const ad     = getAreaData(area, planId);
+  const areaAvgAccess = ad ? ad.avgAccess : 0;
+  const accessVsArea  = areaAvgAccess > 0
+    ? (access >= areaAvgAccess ? `<span style="color:#16a34a;font-weight:700;">エリア中央値以上 ✓</span>` : `<span style="color:#d97706;">エリア中央値（${fmt(areaAvgAccess)}）以下</span>`)
+    : '';
+
+  const GROUP = 2.5;
+  const basicInc = getBasicAccessIncrease(area);
+
+  // 6ヶ月推移（中央シナリオ）
+  let totalCost6=0, totalRev6=0;
+  const rows6 = Array.from({length:6},(_,i)=>{
+    const mo = i+1;
+    const fee = mo<=3 ? 0 : plan.monthlyFee;
+    const cost = fee + sc.neutral.volCost;
+    const rowProfit = sc.neutral.revenue - cost;
+    totalCost6 += cost; totalRev6 += sc.neutral.revenue;
+    return `<tr style="border-bottom:1px solid #e2e8f0;background:${mo<=3?'#f0fdf4':'#f8faff'};">
+      <td style="padding:4px 7px;font-weight:700;color:#1e293b;font-size:8.5px;text-align:center;">${mo}<br><span style="font-size:7px;color:${mo<=3?'#16a34a':'#94a3b8'};font-weight:400;">${mo<=3?'無料':'固定費'}</span></td>
+      <td style="padding:4px 7px;text-align:center;font-size:8.5px;color:#64748b;">${fee===0?'<span style="color:#16a34a;font-weight:700;">0円</span>':fmt(fee)+'円'}</td>
+      <td style="padding:4px 7px;text-align:center;font-size:8.5px;color:#64748b;">${fmt(sc.neutral.volCost)}円</td>
+      <td style="padding:4px 7px;text-align:center;font-size:8.5px;color:#64748b;">${fmt(cost)}円</td>
+      <td style="padding:4px 7px;text-align:center;font-size:8.5px;font-weight:700;color:#2563eb;">${fmt(sc.neutral.revenue)}円</td>
+      <td style="padding:4px 7px;text-align:center;font-size:8.5px;font-weight:700;color:${rowProfit>=0?'#2563eb':'#dc2626'};">${rowProfit>=0?'+':''}${fmt(rowProfit)}円</td>
+    </tr>`;
+  }).join('');
+
+  const seatsCard = seats > 0 ? `
+    <div style="border:1px solid #e2e8f0;border-radius:5px;padding:7px 10px;text-align:center;background:white;">
+      <div style="font-size:7.5px;color:#94a3b8;margin-bottom:2px;">取りこぼし回転数（月）</div>
+      <div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(cur.turns)}<span style="font-size:9px;font-weight:400;">回転</span></div>
+    </div>` : '';
+
+  // 損益分岐
+  const be = sc.neutral.breakeven;
+  const beRow = be > 0 ? `
+    <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:5px;padding:7px 12px;margin-top:7px;display:flex;align-items:center;justify-content:space-between;">
+      <div style="font-size:8.5px;color:#92400e;font-weight:600;">📌 損益分岐点</div>
+      <div style="font-size:8.5px;color:#92400e;">月額固定費を回収するのに必要な来店人数：<strong>${fmt(be)}人</strong></div>
+      <div style="font-size:8.5px;color:${sc.neutral.people>=be?'#16a34a':'#d97706'};font-weight:700;">${sc.neutral.people>=be?'✓ 達成見込み':'要確認'}</div>
+    </div>` : '';
+
+  return `
+<div style="display:flex;justify-content:space-between;align-items:flex-start;padding:12px 18px 10px;border-bottom:1px solid #e2e8f0;flex-shrink:0;">
+  <div>
+    <div style="font-size:7.5px;letter-spacing:.12em;color:#94a3b8;text-transform:uppercase;margin-bottom:2px;">食べログ 営業提案書</div>
+    <div style="font-family:'Noto Serif JP',serif;font-size:14px;font-weight:700;margin-bottom:1px;color:#1e293b;">ネット予約導入のご提案</div>
+    <div style="font-size:8px;color:#94a3b8;">アクセスデータをもとにした機会損失シミュレーション</div>
+  </div>
+  <div style="text-align:right;flex-shrink:0;margin-left:12px;white-space:nowrap;">
+    <div style="font-size:13px;font-weight:700;margin-bottom:2px;color:#1e293b;">${storeName} 様</div>
+    <div style="font-size:8px;color:#94a3b8;line-height:1.7;">実績月：${month}　エリア：${area||'—'}</div>
+  </div>
+</div>
+
+<div style="background:linear-gradient(135deg,#1d4ed8,#3b82f6);padding:13px 18px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-shrink:0;">
+  <div>
+    <div style="font-size:7.5px;letter-spacing:.1em;color:rgba(255,255,255,.55);margin-bottom:3px;">OPPORTUNITY LOSS</div>
+    <div style="font-size:9.5px;color:rgba(255,255,255,.9);">月間推定機会損失額（中央シナリオ）</div>
+  </div>
+  <div style="text-align:right;flex-shrink:0;">
+    <div style="font-size:8px;color:rgba(255,255,255,.65);margin-bottom:1px;">推定損失額（月・試算）</div>
+    <div style="font-size:34px;font-weight:900;letter-spacing:-.04em;line-height:1;color:#fff;white-space:nowrap;">${fmt(cur.lostMonthly)}<span style="font-size:14px;font-weight:500;margin-left:1px;">円</span></div>
+    <div style="font-size:7.5px;color:rgba(255,255,255,.5);margin-top:2px;">半年累計 ${fmt(cur.lostHalf)}円</div>
+  </div>
+</div>
+
+<div style="padding:7px 18px;font-size:9px;color:#475569;line-height:1.7;border-bottom:1px solid #e2e8f0;background:#f8faff;flex-shrink:0;">
+  ${month}のアクセスデータをもとにした推定値です。「${plan.name}」を導入した場合の予測を<strong>悲観・中央・楽観の3シナリオ</strong>でご提示します。
+</div>
+
+<div style="padding:9px 18px 0;flex:1;display:flex;flex-direction:column;gap:7px;">
+
+  <div>
+    <div style="font-size:9px;font-weight:700;border-bottom:1px solid #e2e8f0;padding-bottom:3px;margin-bottom:5px;display:flex;align-items:center;gap:5px;color:#1e293b;">
+      <span style="background:#2563eb;color:white;width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;flex-shrink:0;">1</span>
+      貴店の現状データ${area?`　<span style="font-size:7.5px;color:#94a3b8;font-weight:400;">エリア：${area}</span>`:''}
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr${seats>0?' 1fr':''};gap:5px;margin-bottom:5px;">
+      <div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:4px;padding:5px 7px;text-align:center;">
+        <div style="font-size:7px;color:#64748b;margin-bottom:1px;">アクセス数</div>
+        <div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(access)}<span style="font-size:8px;font-weight:400;">回</span></div>
+        ${accessVsArea ? `<div style="font-size:7px;margin-top:1px;">${accessVsArea}</div>` : ''}
+      </div>
+      <div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:4px;padding:5px 7px;text-align:center;">
+        <div style="font-size:7px;color:#64748b;margin-bottom:1px;">電話クリック数</div>
+        <div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(tel)}<span style="font-size:8px;font-weight:400;">件</span></div>
+      </div>
+      <div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:4px;padding:5px 7px;text-align:center;">
+        <div style="font-size:7px;color:#64748b;margin-bottom:1px;">ブックマーク数</div>
+        <div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(bm)}<span style="font-size:8px;font-weight:400;">件</span></div>
+      </div>
+      ${seats>0?`<div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:4px;padding:5px 7px;text-align:center;"><div style="font-size:7px;color:#64748b;margin-bottom:1px;">席数</div><div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(seats)}<span style="font-size:8px;font-weight:400;">席</span></div></div>`:''}
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr${seats>0?' 1fr':''};gap:5px;">
+      <div style="border:1px solid #e2e8f0;border-radius:4px;padding:5px 7px;text-align:center;background:white;">
+        <div style="font-size:7px;color:#94a3b8;margin-bottom:1px;">月間取りこぼし予約</div>
+        <div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(cur.lostReservations)}<span style="font-size:8px;font-weight:400;">組</span></div>
+      </div>
+      <div style="border:1px solid #e2e8f0;border-radius:4px;padding:5px 7px;text-align:center;background:white;">
+        <div style="font-size:7px;color:#94a3b8;margin-bottom:1px;">取りこぼし来店人数</div>
+        <div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(cur.lostPeople)}<span style="font-size:8px;font-weight:400;">人</span></div>
+      </div>
+      <div style="border:2px solid #2563eb;border-radius:4px;padding:5px 7px;text-align:center;background:linear-gradient(135deg,#1d4ed8,#3b82f6);">
+        <div style="font-size:7px;color:rgba(255,255,255,.65);margin-bottom:1px;">半年間の機会損失</div>
+        <div style="font-size:14px;font-weight:900;color:#fff;">${fmt(cur.lostHalf)}<span style="font-size:8px;font-weight:500;">円</span></div>
+      </div>
+      ${seats>0?`<div style="border:1px solid #e2e8f0;border-radius:4px;padding:5px 7px;text-align:center;background:white;"><div style="font-size:7px;color:#94a3b8;margin-bottom:1px;">取りこぼし回転数</div><div style="font-size:14px;font-weight:900;color:#1e293b;">${fmt(cur.turns)}<span style="font-size:8px;font-weight:400;">回転</span></div></div>`:''}
+    </div>
+  </div>
+
+  <div>
+    <div style="font-size:9px;font-weight:700;border-bottom:1px solid #e2e8f0;padding-bottom:3px;margin-bottom:5px;display:flex;align-items:center;gap:5px;color:#1e293b;">
+      <span style="background:#2563eb;color:white;width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;flex-shrink:0;">2</span>
+      シナリオ別シミュレーション（月次・${plan.name}）
+      <span style="font-size:7px;color:#94a3b8;font-weight:400;">CVR 悲観${sc.cvrP25}% / 中央${sc.cvrMed}% / 楽観${sc.cvrP75}%</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:8.5px;table-layout:fixed;">
+      <colgroup><col style="width:22%"><col style="width:26%"><col style="width:26%"><col style="width:26%"></colgroup>
+      <thead>
+        <tr>
+          <th style="padding:4px 7px;text-align:left;font-weight:600;font-size:8px;color:white;background:#334155;"></th>
+          <th style="padding:4px 7px;text-align:center;font-weight:600;font-size:8px;color:#92400e;background:#fef3c7;">😟 悲観シナリオ</th>
+          <th style="padding:4px 7px;text-align:center;font-weight:600;font-size:8px;color:white;background:#2563eb;">😐 中央シナリオ</th>
+          <th style="padding:4px 7px;text-align:center;font-weight:600;font-size:8px;color:#166534;background:#dcfce7;">😊 楽観シナリオ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #e2e8f0;background:#fafafa;">
+          <td style="padding:4px 7px;font-weight:600;font-size:7.5px;color:#475569;">エリアCVR</td>
+          <td style="padding:4px 7px;text-align:center;color:#92400e;">${sc.cvrP25}%</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:#2563eb;">${sc.cvrMed}%</td>
+          <td style="padding:4px 7px;text-align:center;color:#166534;">${sc.cvrP75}%</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e2e8f0;background:#f8faff;">
+          <td style="padding:4px 7px;font-weight:700;font-size:7.5px;color:#1e293b;">推定来店人数</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:#92400e;">${fmt(sc.pessimist.people)}人</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:#2563eb;">${fmt(sc.neutral.people)}人</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:#166534;">${fmt(sc.optimist.people)}人</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e2e8f0;">
+          <td style="padding:4px 7px;font-weight:600;font-size:7.5px;color:#475569;">月額費用</td>
+          <td style="padding:4px 7px;text-align:center;color:#64748b;">${fmt(sc.pessimist.totalCost)}円</td>
+          <td style="padding:4px 7px;text-align:center;color:#64748b;">${fmt(sc.neutral.totalCost)}円</td>
+          <td style="padding:4px 7px;text-align:center;color:#64748b;">${fmt(sc.optimist.totalCost)}円</td>
+        </tr>
+        <tr style="border-bottom:1px solid #e2e8f0;background:#f8faff;">
+          <td style="padding:4px 7px;font-weight:700;font-size:7.5px;color:#1e293b;">推定売上（月）</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:#92400e;">${fmt(sc.pessimist.revenue)}円</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:#2563eb;">${fmt(sc.neutral.revenue)}円</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:#166534;">${fmt(sc.optimist.revenue)}円</td>
+        </tr>
+        <tr>
+          <td style="padding:4px 7px;font-weight:700;font-size:7.5px;color:#1e293b;">純利益（月）</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:${sc.pessimist.profit>=0?'#16a34a':'#dc2626'};">${sc.pessimist.profit>=0?'+':''}${fmt(sc.pessimist.profit)}円</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:${sc.neutral.profit>=0?'#2563eb':'#dc2626'};">${sc.neutral.profit>=0?'+':''}${fmt(sc.neutral.profit)}円</td>
+          <td style="padding:4px 7px;text-align:center;font-weight:700;color:${sc.optimist.profit>=0?'#16a34a':'#dc2626'};">${sc.optimist.profit>=0?'+':''}${fmt(sc.optimist.profit)}円</td>
+        </tr>
+      </tbody>
+    </table>
+    ${beRow}
+  </div>
+
+  <div>
+    <div style="font-size:9px;font-weight:700;border-bottom:1px solid #e2e8f0;padding-bottom:3px;margin-bottom:5px;display:flex;align-items:center;gap:5px;color:#1e293b;">
+      <span style="background:#2563eb;color:white;width:14px;height:14px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;flex-shrink:0;">3</span>
+      6ヶ月推移（中央シナリオ・${plan.name}）
+      <span style="font-size:7px;color:#94a3b8;font-weight:400;">アクセス${fmt(sc.neutral.effectiveAccess)}${plan.id==='basic'?` (+${fmt(basicInc)})`:''}</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:8.5px;table-layout:fixed;">
+      <colgroup><col style="width:14%"><col style="width:14%"><col style="width:15%"><col style="width:15%"><col style="width:21%"><col style="width:21%"></colgroup>
+      <thead>
+        <tr>
+          <th style="padding:4px 6px;text-align:center;font-weight:600;font-size:8px;color:white;background:#334155;">月</th>
+          <th style="padding:4px 6px;text-align:center;font-weight:600;font-size:8px;color:white;background:#475569;">固定費</th>
+          <th style="padding:4px 6px;text-align:center;font-weight:600;font-size:8px;color:white;background:#475569;">従量費用</th>
+          <th style="padding:4px 6px;text-align:center;font-weight:600;font-size:8px;color:white;background:#475569;">月額費用</th>
+          <th style="padding:4px 6px;text-align:center;font-weight:600;font-size:8px;color:white;background:#2563eb;">推定売上</th>
+          <th style="padding:4px 6px;text-align:center;font-weight:600;font-size:8px;color:white;background:#1d4ed8;">純利益</th>
+        </tr>
+      </thead>
+      <tbody>${rows6}
+        <tr style="background:#eff6ff;border-top:2px solid #2563eb;">
+          <td style="padding:4px 6px;font-weight:700;color:#1e293b;font-size:8px;text-align:center;" colspan="3">6ヶ月合計</td>
+          <td style="padding:4px 6px;text-align:center;font-weight:700;color:#64748b;font-size:8.5px;">${fmt(totalCost6)}円</td>
+          <td style="padding:4px 6px;text-align:center;font-weight:700;color:#2563eb;font-size:8.5px;">${fmt(totalRev6)}円</td>
+          <td style="padding:4px 6px;text-align:center;font-weight:700;font-size:8.5px;color:${totalRev6-totalCost6>=0?'#2563eb':'#dc2626'};">${totalRev6-totalCost6>=0?'+':''}${fmt(totalRev6-totalCost6)}円</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div style="border:1px solid #bfdbfe;border-top:2px solid #2563eb;border-radius:0 0 4px 4px;padding:6px 12px;flex:1;background:#f8faff;">
+    <div style="font-size:8.5px;font-weight:700;margin-bottom:4px;color:#1e293b;">▶ 導入のポイント</div>
+    <ul style="padding-left:12px;list-style:disc;font-size:8px;color:#475569;line-height:1.85;">
+      <li>ネット予約導入により、営業時間外・満席時でも予約を受け付けられます。</li>
+      <li>${plan.name}の検索上位表示・広告非表示機能が実質手出しゼロで半年間利用できます。</li>
+      <li>${plan.id==='basic'?`PRベーシックは優先表示機能により約${fmt(basicInc)}件のアクセス増が見込め、新規顧客獲得効果が期待できます。`:`中央シナリオで月${fmt(sc.neutral.people)}人の来店が見込まれ、半年で${fmt(totalRev6)}円の売上が期待できます。`}</li>
+      <li style="color:#94a3b8;">本資料の数値はエリア平均データに基づく推定値です。実際の効果は店舗状況により異なります。</li>
+    </ul>
+  </div>
+</div>
+
+<div style="background:#f1f5f9;border-top:1px solid #e2e8f0;padding:5px 18px;font-size:8px;color:#94a3b8;display:flex;justify-content:space-between;align-items:center;flex-shrink:0;margin-top:auto;">
+  <div><strong style="color:#64748b;">食べログ</strong> 営業担当：菅原　｜　ご不明点はお気軽にお問い合わせください</div>
+  <div>※本試算は${month}の実績をもとにした推定値です。税別表示。</div>
+</div>`;
+}
+
+// ── STATE ──
+let state = {
+  step: 'configure',
+  form: { storeName:'', month:'2026年5月度', area:'', access:'', tel:'', bm:'', cvr:'', price:'', seats:'', planId:'light' }
+};
+
+function setState(patch) { state={...state,...patch}; render(); }
+
+function updateForm(key, val) {
+  state.form = {...state.form, [key]: val};
+  if (key==='area' || key==='planId') {
+    const ad = getAreaData(state.form.area, state.form.planId);
+    if (ad && ad.cvr.med > 0) state.form = {...state.form, cvr: String(ad.cvr.med)};
+  }
+  const fid = document.activeElement?.id;
+  render();
+  if (fid) document.getElementById(fid)?.focus();
+}
+
+function isValid() {
+  const f = state.form;
+  return f.storeName && f.access && f.tel && f.bm && f.cvr && f.price;
+}
+
+function doPrint() {
+  const html = buildProposal(state.form);
+  const win = window.open('','_blank');
+  if (!win) { alert('ポップアップをブロックされています。アドレスバーから許可してください。'); return; }
+  win.document.write(`<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8">
+<title>提案書_${state.form.storeName}_${state.form.month}</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+<style>*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}@page{size:A4;margin:10mm 12mm;}body{background:#e2e8f0;display:flex;justify-content:center;padding:20px 0;}
+#w{width:210mm;height:297mm;background:white;overflow:hidden;font-family:'Noto Sans JP',sans-serif;font-size:11px;color:#1e293b;line-height:1.5;display:flex;flex-direction:column;box-sizing:border-box;box-shadow:0 4px 32px rgba(0,0,0,.15);}
+@media print{body{background:none;padding:0;}#w{box-shadow:none;}}</style>
+</head><body><div id="w">${html}</div>
+<script>window.addEventListener('load',()=>setTimeout(()=>window.print(),600));<\/script>
+</body></html>`);
+  win.document.close();
+}
+
+// ── RENDER ──
+function render() {
+  const root = document.getElementById('app-root');
+  const {step, form} = state;
+  const plan = PLANS.find(p=>p.id===form.planId)||PLANS[1];
+  const sc = (form.access && form.cvr && form.price) ? calcScenarios(form, plan) : null;
+  const ad = getAreaData(form.area, form.planId);
+
+  const steps = [{id:'configure',label:'内容入力'},{id:'preview',label:'プレビュー・印刷'}];
+  const si = steps.findIndex(s=>s.id===step);
+
+  const inp = (id,type,val,ph) =>
+    `<input id="${id}" type="${type}" value="${val||''}" onchange="updateForm('${id}',this.value)" placeholder="${ph}"
+      style="width:100%;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:6px;font-size:14px;font-family:inherit;color:#1e293b;background:#fff;outline:none;box-sizing:border-box;">`;
+  const lbl = (t,req=true) =>
+    `<label style="display:block;font-size:10.5px;font-weight:600;color:#64748b;margin-bottom:5px;letter-spacing:.04em;text-transform:uppercase;">${t}${req?'':' <span style="font-weight:400;color:#94a3b8;">任意</span>'}</label>`;
+
+  const stepperHTML = `<div class="stepper">
+    ${steps.map((s,i)=>`
+      <div style="display:flex;align-items:center;gap:8px;${i<steps.length-1?'flex:1':''}">
+        <div class="step-num ${i<si?'done':i===si?'active':''}">${i<si?'✓':i+1}</div>
+        <span style="font-size:11px;font-weight:${i===si?600:500};color:${i===si?'#1e293b':'#94a3b8'};">${s.label}</span>
+        ${i<steps.length-1?'<div class="step-line"></div>':''}
+      </div>`).join('')}
+  </div>`;
+
+  let content = '';
+  if (step==='configure') {
+    // CVR range for slider
+    const cvrMin = ad ? Math.max(ad.cvr.p25 * 0.5, 0) : 0;
+    const cvrMax = ad ? Math.min(ad.cvr.p75 * 2, 5) : 3;
+    const cvrCur = +form.cvr || (ad ? ad.cvr.med : 0.5);
+    const priceMin = 1000, priceMax = 30000, priceCur = +form.price || 5000;
+
+    content = `
+      <div class="card">
+        <div class="card-title">店舗情報</div>
+        <div class="form-row col2">
+          <div class="field">${lbl('店舗名')}${inp('storeName','text',form.storeName,'例：Ocean table')}</div>
+          <div class="field">${lbl('実績月')}${inp('month','text',form.month,'2026年5月度')}</div>
+        </div>
+        <div class="form-row" style="grid-template-columns:1fr;">
+          <div class="field">
+            ${lbl('エリア')}
+            <select id="area" onchange="updateForm('area',this.value)"
+              style="width:100%;padding:10px 12px;border:1.5px solid #e2e8f0;border-radius:6px;font-size:14px;font-family:inherit;color:#1e293b;background:#fff;outline:none;">
+              <option value="">── エリアを選択してください ──</option>
+              ${Object.keys(AREA_DATA).map(a=>`<option value="${a}" ${form.area===a?'selected':''}>${a}</option>`).join('')}
+            </select>
+            ${form.area && ad ? `<div style="margin-top:5px;display:flex;gap:6px;flex-wrap:wrap;">
+              ${['net','light','basic'].map(k=>{
+                const d = AREA_DATA[form.area][k];
+                return `<span style="font-size:9.5px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:4px;padding:2px 8px;">
+                  ${k==='net'?'ネット予約':k==='light'?'PRライト':'PRベーシック'}：avg ${fmt(d.avgAccess)}アクセス / CVR中央 ${d.cvr.med}%
+                </span>`;
+              }).join('')}
+            </div>` : ''}
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">アクセスデータ</div>
+        <div class="form-row col2">
+          <div class="field">${lbl('アクセス数')}${inp('access','number',form.access,'例：1200')}</div>
+          <div class="field">${lbl('電話クリック数')}${inp('tel','number',form.tel,'例：45')}</div>
+        </div>
+        <div class="form-row col2">
+          <div class="field">${lbl('ブックマーク数')}${inp('bm','number',form.bm,'例：30')}</div>
+          <div class="field">${lbl('席数',false)}${inp('seats','number',form.seats,'例：30')}<div class="hint">入力時に回転数を表示</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">感度分析パラメータ</div>
+        <div class="form-row col2">
+          <div class="field">
+            ${lbl('エリア予約CVR')}
+            <div class="slider-val" id="cvr-display">${cvrCur}%</div>
+            <div class="slider-wrap">
+              <input type="range" id="cvr" min="${cvrMin.toFixed(2)}" max="${cvrMax.toFixed(2)}" step="0.01"
+                value="${cvrCur}"
+                oninput="document.getElementById('cvr-display').textContent=parseFloat(this.value).toFixed(2)+'%';document.getElementById('cvr2_dummy').value=parseFloat(this.value).toFixed(2);"
+                onchange="updateForm('cvr',parseFloat(this.value).toFixed(2))">
+            </div>
+            <div class="slider-labels">
+              <span>悲観 ${ad?ad.cvr.p25:'—'}%</span>
+              <span>中央 ${ad?ad.cvr.med:'—'}%</span>
+              <span>楽観 ${ad?ad.cvr.p75:'—'}%</span>
+            </div>
+          </div>
+          <div class="field">
+            ${lbl('客単価')}
+            <div class="slider-val" id="price-display">${fmt(priceCur)}円</div>
+            <div class="slider-wrap">
+              <input type="range" id="price" min="${priceMin}" max="${priceMax}" step="500"
+                value="${priceCur}"
+                oninput="document.getElementById('price-display').textContent=parseInt(this.value).toLocaleString('ja-JP')+'円';document.getElementById('price2_dummy').value=this.value;"
+                onchange="updateForm('price',this.value)">
+            </div>
+            <div class="slider-labels"><span>${fmt(priceMin)}円</span><span>${fmt(priceMax)}円</span></div>
+          </div>
+        </div>
+        <div class="form-row col2" style="margin-top:8px;">
+          <div class="field">${lbl('CVR（直接入力も可）')}<div style="position:relative;">${inp('cvr2_dummy','number',form.cvr,'例：0.5')}</div><div class="hint">スライダーと連動</div></div>
+          <div class="field">${lbl('客単価（直接入力も可）')}<div style="position:relative;">${inp('price2_dummy','number',form.price,'例：5000')}</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">プラン選択</div>
+        <div class="plan-grid">
+          ${PLANS.map(p=>`
+            <div class="plan-card ${form.planId===p.id?'selected':''}" onclick="updateForm('planId','${p.id}')">
+              <div class="plan-card-hd">
+                <div class="plan-radio"></div>
+                <span class="plan-name">${p.name}</span>
+                ${p.badge?`<span class="plan-badge">${p.badge}</span>`:''}
+              </div>
+              <div class="plan-fee">${p.desc}</div>
+            </div>`).join('')}
+        </div>
+        ${sc ? `<div class="scenario-mini">
+          <div class="sc-card pessimist">
+            <div class="sc-label">😟 悲観（CVR ${sc.cvrP25}%）</div>
+            <div class="sc-val">${fmt(sc.pessimist.revenue)}<span style="font-size:11px;font-weight:400;">円</span></div>
+            <div class="sc-sub">月間推定売上</div>
+          </div>
+          <div class="sc-card neutral">
+            <div class="sc-label">😐 中央（CVR ${sc.cvrMed}%）</div>
+            <div class="sc-val">${fmt(sc.neutral.revenue)}<span style="font-size:11px;font-weight:400;">円</span></div>
+            <div class="sc-sub">月間推定売上</div>
+          </div>
+          <div class="sc-card optimist">
+            <div class="sc-label">😊 楽観（CVR ${sc.cvrP75}%）</div>
+            <div class="sc-val">${fmt(sc.optimist.revenue)}<span style="font-size:11px;font-weight:400;">円</span></div>
+            <div class="sc-sub">月間推定売上</div>
+          </div>
+        </div>` : ''}
+      </div>
+
+      <div class="btn-row">
+        <button style="background:${isValid()?'#2563eb':'#e2e8f0'};color:${isValid()?'white':'#94a3b8'};border:none;padding:11px 24px;border-radius:6px;font-size:13px;font-weight:700;cursor:${isValid()?'pointer':'not-allowed'};font-family:inherit;"
+          onclick="${isValid()?'setState({step:\'preview\'})':''}">
+          提案書を生成する →
+        </button>
+      </div>`;
+  }
+
+  else if (step==='preview') {
+    content = `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+        <button class="btn btn-ghost" onclick="setState({step:'configure'})">← 編集に戻る</button>
+        <button class="btn btn-print" onclick="doPrint()">🖨️ 印刷 / PDF保存</button>
+      </div>
+      <div class="preview-wrap">
+        <div class="preview-scale">
+          <div id="proposal-inner" style="width:210mm;height:297mm;background:white;overflow:hidden;font-family:'Noto Sans JP',sans-serif;font-size:11px;color:#1e293b;line-height:1.5;display:flex;flex-direction:column;box-sizing:border-box;box-shadow:0 4px 32px rgba(0,0,0,.12);"></div>
+        </div>
+      </div>`;
+  }
+
+  root.innerHTML = `
+    <div class="app-header">
+      <div class="app-icon">📊</div>
+      <div>
+        <div class="app-title">提案書セイセイ君 <span style="font-size:12px;font-weight:500;color:#64748b;background:#e2e8f0;padding:2px 8px;border-radius:10px;margin-left:4px;">新規獲得版</span></div>
+        <div class="app-sub">ネット予約未利用店舗への導入提案書ジェネレーター</div>
+      </div>
+    </div>
+    ${stepperHTML}${content}`;
+
+  if (step==='preview') {
+    const el = document.getElementById('proposal-inner');
+    if (el) el.innerHTML = buildProposal(state.form);
+  }
+
+  // スライダーとテキスト入力の同期
+  const cvrInp = document.getElementById('cvr2_dummy');
+  if (cvrInp) cvrInp.onchange = e => {
+    updateForm('cvr', e.target.value);
+    const sl = document.getElementById('cvr');
+    if (sl) sl.value = e.target.value;
+    const disp = document.getElementById('cvr-display');
+    if (disp) disp.textContent = e.target.value + '%';
+  };
+  const priceInp = document.getElementById('price2_dummy');
+  if (priceInp) priceInp.onchange = e => {
+    updateForm('price', e.target.value);
+    const sl = document.getElementById('price');
+    if (sl) sl.value = e.target.value;
+    const disp = document.getElementById('price-display');
+    if (disp) disp.textContent = parseInt(e.target.value).toLocaleString('ja-JP') + '円';
+  };
+}
+
+render();
+</script>
+</body>
+</html>

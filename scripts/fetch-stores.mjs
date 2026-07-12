@@ -229,7 +229,7 @@ async function mapWithConcurrency(list, limit, fn) {
 
 const RESOLVE_CONCURRENCY = 8;
 
-// ── 店名・開店日の抽出（shinten.html と同一ロジックを維持すること） ──
+// ── 店名・開店日の抽出（index.html（新店リサーチ）と同一ロジックを維持すること） ──
 function extractStoreName(title) {
   const quotes = [...title.matchAll(/[「『]([^」』]{1,30})[」』]/g)].map(m => m[1]);
   if (quotes.length === 0) return '';
