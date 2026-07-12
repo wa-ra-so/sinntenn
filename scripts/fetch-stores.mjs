@@ -22,6 +22,29 @@ const OPEN_SIGNAL = ['オープン', '新規開店', 'グランドオープン',
 // オープン前の求人告知（オープニングスタッフ募集）からも新店を検出する
 const HIRE_SIGNAL = ['オープニングスタッフ', 'オープニング募集', 'オープニングスタッフ募集'];
 
+// ── 除外ワード（犯罪・事件ニュースや飲食店以外の業態を弾く） ──
+// Googleニュース検索は記事本文にもマッチするため、「千葉県」が本文に出るだけの
+// 他県の事件記事などが混入する。タイトルにこれらの語を含む記事は収集対象外。
+const EXCLUDE_KEYWORDS = [
+  // 事件・犯罪・行政処分系
+  '逮捕', '容疑', '摘発', '書類送検', '起訴', '判決', '求刑', '被告', '実刑', '有罪', '無罪',
+  '強盗', '殺人', '傷害', '窃盗', '詐欺', '恐喝', '脅迫', '暴行', '売春', '買春', 'わいせつ',
+  '違法', '無許可', '立ち入り調査', '営業停止', '行政処分', '風営法', '食中毒', '火災', '放火',
+  // 飲食店の新店提案対象外の業態
+  'ガールズバー', 'キャバクラ', 'キャバ嬢', 'ホストクラブ', 'セクキャバ', 'ラウンジ嬢',
+  'メンズエステ', 'パチンコ', 'パチスロ', '風俗',
+];
+
+function hasExcludeKeyword(title) {
+  return EXCLUDE_KEYWORDS.some(w => title.includes(w));
+}
+
+// タイトルに千葉県の要素（「千葉」または県内の市区町村・駅名）が無い記事は、
+// 本文だけに「千葉県」が出てくる他県ニュースの可能性が高いため除外する
+function isChibaRelevant(title) {
+  return title.includes('千葉') || detectArea(title) !== '';
+}
+
 // ── 大手チェーン（既にネット予約導入済み・優先度が低いため除外） ──
 const CHAIN_BLOCKLIST = [
   'マクドナルド', 'モスバーガー', 'バーガーキング', 'ロッテリア', 'ケンタッキー', 'KFC',
@@ -125,13 +148,13 @@ function parseRssItems(xml) {
   return items;
 }
 
-async function fetchWithTimeout(url, ms) {
+async function fetchWithTimeout(url, ms, userAgent) {
   const ctrl = new AbortController();
   const t = setTimeout(() => ctrl.abort(), ms);
   try {
     const res = await fetch(url, {
       signal: ctrl.signal,
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; ChibaShintenBot/1.0)' },
+      headers: { 'User-Agent': userAgent || 'Mozilla/5.0 (compatible; ChibaShintenBot/1.0)' },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.text();
@@ -296,6 +319,85 @@ async function enrichHotpepper(items, prevMap) {
   return map;
 }
 
+// ── 求人ボックス（オープニングスタッフ求人）収集 ──
+// Googleニュースはタウンワーク等の求人サイトの掲載を拾えないため、
+// オープン前店舗の検出用に求人ボックスの検索結果から直接収集する。
+// 検索結果の各求人カードには data-func-show-arg 属性に構造化JSON
+// （title / company / workArea / updatedAt / url / allFeatureTags）が埋まっている。
+const KYUJINBOX_HOST = 'https://xn--pckua2a7gp15o89zb.com'; // 求人ボックス.com
+const KYUJINBOX_SEARCHES = [
+  'オープニングスタッフ-飲食店の仕事-千葉県',
+];
+
+function parseKyujinboxJobs(html) {
+  const jobs = [];
+  const re = /data-func-show-arg='([^']+)'/g;
+  let m;
+  while ((m = re.exec(html))) {
+    try {
+      const outer = JSON.parse(m[1]);
+      if (!outer.json) continue;
+      jobs.push(JSON.parse(outer.json));
+    } catch { /* 構造が変わったカードはスキップ */ }
+  }
+  return jobs;
+}
+
+function truncate(str, max) {
+  return str.length > max ? str.slice(0, max) + '…' : str;
+}
+
+function kyujinboxToItem(job) {
+  const jobTitle = (job.title || '').trim();
+  const company = (job.company || '').trim();
+  const workArea = job.workArea || '';
+  if (!company || !workArea.includes('千葉県')) return null;
+  const tags = [...(job.allFeatureTags || []), ...(job.featureTagSp || [])];
+  const isOpening = tags.includes('オープニング') || /オープニング|新規オープン|NEW\s*OPEN/i.test(jobTitle);
+  if (!isOpening) return null;
+  const combined = `${company} ${jobTitle}`;
+  if (isChain(combined) || hasExcludeKeyword(combined)) return null;
+  // 会社名（株式会社等）でなく店舗名らしければ「」で囲み、店名抽出（extractStoreName）を効かせる
+  const isCorporate = /株式会社|有限会社|合同会社|\(株\)|（株）/.test(company);
+  const title = isCorporate
+    ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
+    : `「${truncate(company, 30)}」オープニングスタッフ募集（${truncate(jobTitle, 30)}）`;
+  let pubDate = null;
+  if (job.updatedAt) {
+    const d = new Date(job.updatedAt.replace(' ', 'T') + '+09:00');
+    if (!Number.isNaN(d.getTime())) pubDate = d.toUTCString();
+  }
+  return {
+    title,
+    link: job.url || '',
+    source: job.siteName ? `求人ボックス（${job.siteName}）` : '求人ボックス',
+    pubDate,
+    area: detectArea(workArea) || detectArea(combined),
+    genres: detectGenres(combined),
+    signal: 'hiring',
+    firstSeenAt: new Date().toISOString(),
+  };
+}
+
+async function collectKyujinbox() {
+  const items = [];
+  const runLog = [];
+  for (const search of KYUJINBOX_SEARCHES) {
+    const url = `${KYUJINBOX_HOST}/${encodeURIComponent(search)}`;
+    try {
+      const html = await fetchWithTimeout(url, FETCH_TIMEOUT_MS, BROWSER_USER_AGENT);
+      const jobs = parseKyujinboxJobs(html);
+      const converted = jobs.map(kyujinboxToItem).filter(Boolean);
+      runLog.push({ label: `求人ボックス（${search}）`, query: url, ok: true, count: converted.length });
+      items.push(...converted);
+    } catch (err) {
+      runLog.push({ label: `求人ボックス（${search}）`, query: url, ok: false, error: String(err && err.message || err) });
+      console.warn(`[warn] kyujinbox failed: ${search} — ${err}`);
+    }
+  }
+  return { items, runLog };
+}
+
 async function collect() {
   const queries = buildQueries();
   const collected = [];
@@ -338,6 +440,8 @@ async function loadExisting() {
 
 async function main() {
   const { collected, runLog } = await collect();
+  const kyujinbox = await collectKyujinbox();
+  runLog.push(...kyujinbox.runLog);
 
   const filtered = [];
   const seenLinks = new Set();
@@ -345,6 +449,8 @@ async function main() {
   for (const it of collected) {
     if (!it.title) continue;
     if (isChain(it.title)) continue;
+    if (hasExcludeKeyword(it.title)) continue; // 事件・犯罪ニュースや飲食店以外の業態を除外
+    if (!isChibaRelevant(it.title)) continue;  // 本文だけ「千葉県」の他県記事を除外
     if (seenLinks.has(it.link)) continue;
     const norm = normalizeForDedupe(it.title);
     if (seenTitles.has(norm)) continue;
@@ -362,6 +468,16 @@ async function main() {
     });
   }
 
+  // 求人ボックスの収集分をマージ（リンク・タイトルで重複排除）
+  for (const it of kyujinbox.items) {
+    if (!it.link || seenLinks.has(it.link)) continue;
+    const norm = normalizeForDedupe(it.title);
+    if (seenTitles.has(norm)) continue;
+    seenLinks.add(it.link);
+    seenTitles.add(norm);
+    filtered.push(it);
+  }
+
   // Googleニュースのリンクを実記事URLへ解決（社給アカウント等でnews.google.comが
   // 開けない環境でも記事を確認できるようにするため）
   await mapWithConcurrency(filtered, RESOLVE_CONCURRENCY, async (it) => {
@@ -369,13 +485,19 @@ async function main() {
   });
 
   const prev = await loadExisting();
-  const existingRaw = prev.items.filter(it => !isChain(it.title));
+  // 既存データにも新しい除外基準を適用（過去に混入した事件記事等を掃除）
+  const existingRaw = prev.items.filter(it =>
+    !isChain(it.title) &&
+    !hasExcludeKeyword(it.title) &&
+    (it.area || isChibaRelevant(it.title))
+  );
   await mapWithConcurrency(
     existingRaw.filter(it => it.link && it.link.includes('news.google.com')),
     RESOLVE_CONCURRENCY,
     async (it) => { it.link = await resolveArticleUrl(it.link); }
   );
-  const existing = existingRaw.map(it => ({ ...it, area: detectArea(it.title), genres: detectGenres(it.title) }));
+  // area はタイトルから再検出しつつ、求人由来（勤務地から判定済み）の値は保持する
+  const existing = existingRaw.map(it => ({ ...it, area: detectArea(it.title) || it.area || '', genres: detectGenres(it.title) }));
   const merged = new Map();
   for (const it of existing) merged.set(it.link, it);
   for (const it of filtered) {
