@@ -1,0 +1,50 @@
+name: 千葉県新店情報の毎朝更新
+
+on:
+  schedule:
+    # 21:00 UTC = 06:00 JST
+    - cron: '0 21 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      # 収集ロジックやワークフローが更新されたら即座に再収集する
+      - 'scripts/fetch-stores.mjs'
+      - '.github/workflows/update-shinten.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-stores:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch new store data
+        run: node scripts/fetch-stores.mjs
+        env:
+          # リクルートWebサービス（https://webservice.recruit.co.jp/）の無料APIキー。
+          # リポジトリの Settings > Secrets and variables > Actions に登録すると
+          # ホットペッパー掲載チェック（●×表示）が有効になる。未設定ならスキップ。
+          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/stores.json; then
+            echo "No changes"
+          else
+            git add data/stores.json
+            git commit -m "chore: 新店情報を自動更新 ($(date -u +%Y-%m-%d))"
+            git push
+          fi

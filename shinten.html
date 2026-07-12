@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>千葉県 新店リサーチ — 毎朝更新</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --ink:#1e293b;--mid:#64748b;--light:#94a3b8;--faint:#e2e8f0;--hairline:#eef2f7;
+  --bg:#f4f6fa;--white:#fff;
+  --blue:#2563eb;--blue-light:#dbeafe;--blue-pale:#eff6ff;
+  --green:#16a34a;--amber:#d97706;--amber-pale:#fffbeb;--amber-line:#fde68a;
+  --radius:10px;
+  --shadow:0 1px 2px rgba(15,23,42,.04),0 1px 3px rgba(15,23,42,.06);
+}
+body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;}
+.app{max-width:960px;margin:0 auto;padding:28px 16px 80px;}
+
+/* ── HEADER ── */
+.app-header{margin-bottom:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+.app-icon{width:42px;height:42px;background:var(--blue);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:21px;flex-shrink:0;}
+.app-title{font-size:19px;font-weight:700;letter-spacing:-.02em;}
+.app-sub{font-size:11.5px;color:var(--mid);margin-top:2px;}
+.header-meta{margin-left:auto;text-align:right;font-size:10.5px;color:var(--light);line-height:1.7;}
+.header-meta strong{color:var(--mid);font-weight:600;}
+
+/* ── KPI ROW ── */
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px;}
+@media(max-width:640px){.kpi-row{grid-template-columns:1fr 1fr;}}
+.kpi{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);position:relative;}
+.kpi.clickable{cursor:pointer;transition:border-color .12s, box-shadow .12s;}
+.kpi.clickable:hover{border-color:var(--blue);}
+.kpi.active{border-color:var(--blue);background:var(--blue-pale);}
+.kpi-label{font-size:10.5px;font-weight:600;color:var(--mid);display:flex;align-items:center;gap:6px;}
+.kpi-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+.kpi-value{font-size:26px;font-weight:600;letter-spacing:-.02em;margin-top:6px;color:var(--ink);}
+.kpi-value .unit{font-size:12px;font-weight:500;color:var(--light);margin-left:2px;}
+.kpi-note{font-size:10px;color:var(--light);margin-top:2px;}
+.kpi.active .kpi-note{color:var(--blue);font-weight:600;}
+
+/* ── FILTER ── */
+.filter-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px;box-shadow:var(--shadow);}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;align-items:center;}
+.filter-row:last-child{margin-bottom:0;}
+.filter-row input[type=text]{flex:1;min-width:180px;padding:9px 12px;border:1.5px solid var(--faint);border-radius:8px;font-size:13px;font-family:inherit;color:var(--ink);background:var(--white);outline:none;transition:border-color .12s;}
+.filter-row input[type=text]:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,.08);}
+.filter-label{font-size:10px;font-weight:700;color:var(--light);margin:2px 0 6px;letter-spacing:.05em;}
+.chip{padding:5px 11px;border-radius:15px;border:1.5px solid var(--faint);font-size:11px;font-weight:600;color:var(--mid);cursor:pointer;background:var(--white);white-space:nowrap;transition:all .12s;}
+.chip:hover{border-color:var(--light);}
+.chip.active{background:var(--blue);border-color:var(--blue);color:white;}
+.clear-btn{margin-left:auto;font-size:11px;color:var(--light);cursor:pointer;background:none;border:none;font-family:inherit;text-decoration:underline;}
+.clear-btn:hover{color:var(--mid);}
+
+/* ── LIST ── */
+.result-count{font-size:11px;color:var(--mid);margin-bottom:8px;padding-left:2px;}
+.list-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
+.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .1s;}
+.store-row:last-child{border-bottom:none;}
+.store-row:hover{background:#f8fafc;}
+.row-date{flex-shrink:0;width:52px;text-align:center;padding-top:2px;}
+.row-date .d-day{font-size:15px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;line-height:1.2;}
+.row-date .d-mo{font-size:9.5px;color:var(--light);font-weight:600;}
+.row-date .d-new{display:inline-block;margin-top:3px;font-size:8.5px;font-weight:700;color:var(--blue);background:var(--blue-pale);border:1px solid var(--blue-light);border-radius:8px;padding:1px 6px;}
+.row-main{flex:1;min-width:0;}
+.row-title{font-size:13.5px;font-weight:600;line-height:1.55;}
+.row-title a{color:var(--ink);text-decoration:none;}
+.row-title a:hover{color:var(--blue);text-decoration:underline;}
+.tag-row{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px;}
+.tag{font-size:9.5px;font-weight:700;padding:2px 8px;border-radius:9px;}
+.tag-area{background:var(--blue-pale);color:var(--blue);border:1px solid var(--blue-light);}
+.tag-genre{background:#f0fdf4;color:var(--green);border:1px solid #bbf7d0;}
+.tag-source{background:var(--bg);color:var(--mid);border:1px solid var(--faint);font-weight:500;}
+.tag-hiring{background:var(--amber-pale);color:var(--amber);border:1px solid var(--amber-line);}
+.tag-hp-yes{background:#f0fdf4;color:var(--green);border:1px solid #86efac;}
+.tag-hp-no{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;}
+
+.tag-count{background:var(--white);color:var(--light);border:1px solid var(--faint);font-weight:600;}
+.store-row{cursor:pointer;}
+.row-title a{pointer-events:none;}
+
+.empty-state{background:var(--white);border:1px dashed var(--faint);border-radius:var(--radius);padding:40px 20px;text-align:center;color:var(--mid);font-size:13px;line-height:1.8;}
+.loading{padding:40px 20px;text-align:center;color:var(--light);font-size:13px;}
+
+/* ── DETAIL MODAL ── */
+.modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.4);z-index:50;display:flex;align-items:flex-start;justify-content:center;padding:24px 12px;overflow-y:auto;}
+.modal{background:var(--white);border-radius:14px;max-width:560px;width:100%;box-shadow:0 20px 60px rgba(15,23,42,.25);margin:auto 0;animation:modalIn .16s ease-out;}
+@keyframes modalIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:none;}}
+.modal-head{padding:18px 20px 14px;border-bottom:1px solid var(--hairline);display:flex;align-items:flex-start;gap:12px;}
+.modal-store{font-size:17px;font-weight:700;line-height:1.4;flex:1;}
+.modal-close{flex-shrink:0;width:30px;height:30px;border-radius:8px;border:1px solid var(--faint);background:var(--white);color:var(--mid);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:inherit;}
+.modal-close:hover{border-color:var(--light);color:var(--ink);}
+.modal-body{padding:16px 20px 20px;}
+.modal-section{margin-bottom:16px;}
+.modal-section:last-child{margin-bottom:0;}
+.modal-sec-title{font-size:10.5px;font-weight:700;color:var(--light);letter-spacing:.05em;margin-bottom:8px;}
+.modal-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px;}
+.open-date-box{background:var(--blue-pale);border:1px solid var(--blue-light);border-radius:8px;padding:9px 13px;font-size:12.5px;color:var(--ink);display:flex;align-items:center;gap:8px;}
+.open-date-box strong{color:var(--blue);font-size:14px;}
+.link-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+@media(max-width:480px){.link-grid{grid-template-columns:1fr;}}
+.check-link{display:flex;align-items:center;gap:9px;padding:10px 13px;border:1.5px solid var(--faint);border-radius:9px;text-decoration:none;color:var(--ink);font-size:12.5px;font-weight:600;transition:all .12s;background:var(--white);}
+.check-link:hover{border-color:var(--blue);background:var(--blue-pale);}
+.check-link .cl-icon{font-size:16px;flex-shrink:0;}
+.check-link .cl-sub{display:block;font-size:9.5px;color:var(--light);font-weight:500;margin-top:1px;}
+.modal-hint{font-size:10.5px;color:var(--light);line-height:1.7;margin-top:8px;}
+.article-item{display:block;padding:10px 12px;border:1px solid var(--faint);border-radius:8px;text-decoration:none;margin-bottom:6px;transition:border-color .12s;}
+.article-item:hover{border-color:var(--blue);}
+.article-item .a-title{font-size:12px;font-weight:600;color:var(--ink);line-height:1.5;}
+.article-item:hover .a-title{color:var(--blue);}
+.article-item .a-meta{font-size:10px;color:var(--light);margin-top:3px;}
+</style>
+</head>
+<body>
+<div class="app" id="app-root">
+  <div class="loading">読み込み中…</div>
+</div>
+<script>
+const NEW_DAYS = 7; // 「新着」とみなす日数
+
+let state = {
+  data: null,
+  error: null,
+  q: '',
+  areas: new Set(),
+  genres: new Set(),
+  recentOnly: false,
+  hiringOnly: false,
+  hpChanceOnly: false, // ホットペッパー未掲載のみ表示
+  detail: null, // 詳細表示中のグループ
+};
+
+// タイトルの「」『』内から店名を抽出。「〜が...オープン」の直前の引用を優先する
+function extractStoreName(title) {
+  const quotes = [...title.matchAll(/[「『]([^」』]{1,30})[」』]/g)].map(m => m[1]);
+  if (quotes.length === 0) return '';
+  const beforeOpen = title.match(/[「『]([^」』]{1,30})[」』][^「『]{0,20}(?:が|を)?[^「『]{0,15}オープン/);
+  return (beforeOpen ? beforeOpen[1] : quotes[0]).trim();
+}
+
+// タイトルから開店日を抽出（6/30、6月30日 等）。pubDateに最も近い年を採用
+function extractOpenDate(title, baseDateMs) {
+  const m = title.match(/(?:(\d{4})年)?\s*(\d{1,2})[\/月]\s*(\d{1,2})日?/);
+  if (!m) return null;
+  const mo = +m[2], day = +m[3];
+  if (mo < 1 || mo > 12 || day < 1 || day > 31) return null;
+  if (m[1]) return new Date(+m[1], mo - 1, day).getTime();
+  const base = new Date(Number.isFinite(baseDateMs) && baseDateMs > 0 ? baseDateMs : Date.now());
+  const candidates = [base.getFullYear() - 1, base.getFullYear(), base.getFullYear() + 1]
+    .map(y => new Date(y, mo - 1, day).getTime());
+  return candidates.reduce((a, b) => Math.abs(b - base.getTime()) < Math.abs(a - base.getTime()) ? b : a);
+}
+
+function normalizeStoreName(name) {
+  return name.normalize('NFKC').replace(/\s+/g, '').toLowerCase();
+}
+
+// 同一店舗（抽出した店名が一致）の記事を1グループにまとめる
+function buildGroups(items, hpMap) {
+  const groups = [];
+  const byName = new Map();
+  for (const it of items) {
+    const name = extractStoreName(it.title);
+    const key = name ? normalizeStoreName(name) : `__link:${it.link}`;
+    if (byName.has(key)) {
+      byName.get(key).articles.push(it);
+    } else {
+      const g = { key, storeName: name, articles: [it] };
+      byName.set(key, g);
+      groups.push(g);
+    }
+  }
+  for (const g of groups) {
+    g.articles.sort((a, b) => itemDate(b) - itemDate(a));
+    const primary = g.articles[0];
+    g.primary = primary;
+    g.area = g.articles.map(a => a.area).find(Boolean) || '';
+    g.genres = [...new Set(g.articles.flatMap(a => a.genres || []))];
+    g.signal = g.articles.some(a => a.signal === 'hiring') && !g.articles.some(a => a.signal !== 'hiring') ? 'hiring'
+      : g.articles.some(a => a.signal === 'hiring') ? 'mixed' : 'opening';
+    g.openDate = g.articles.map(a => extractOpenDate(a.title, itemDate(a))).find(d => d != null) ?? null;
+    g.hp = (hpMap && g.storeName && hpMap[g.key]) || null; // ホットペッパー掲載チェック結果
+  }
+  return groups;
+}
+
+function toggleInSet(set, value) {
+  const next = new Set(set);
+  if (next.has(value)) next.delete(value); else next.add(value);
+  return next;
+}
+
+function itemDate(it) {
+  const d = Date.parse(it.pubDate || it.firstSeenAt);
+  return Number.isFinite(d) ? d : 0;
+}
+
+function isRecent(it) {
+  return Date.now() - itemDate(it) <= NEW_DAYS * 24 * 60 * 60 * 1000;
+}
+
+function fmtDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return '';
+  return `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function setState(patch) { state = {...state, ...patch}; render(); }
+
+async function load() {
+  try {
+    const res = await fetch('./data/stores.json', {cache:'no-store'});
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    setState({ data });
+  } catch (err) {
+    setState({ error: String(err) });
+  }
+}
+
+function render() {
+  const root = document.getElementById('app-root');
+  const { data, error } = state;
+
+  const updatedText = data && data.generatedAt
+    ? `${fmtDate(data.generatedAt)} ${new Date(data.generatedAt).toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'})}`
+    : '未実行';
+
+  const header = `
+    <div class="app-header">
+      <div class="app-icon">🏪</div>
+      <div>
+        <div class="app-title">千葉県 新店リサーチ</div>
+        <div class="app-sub">ネット予約・未導入の新規開店店舗を毎朝自動収集</div>
+      </div>
+      <div class="header-meta">最終更新 <strong>${updatedText}</strong><br>毎朝6:00頃（JST）自動更新</div>
+    </div>`;
+
+  if (error) {
+    root.innerHTML = header + `<div class="empty-state">データの読み込みに失敗しました。<br>${error}</div>`;
+    return;
+  }
+  if (!data) {
+    root.innerHTML = header + `<div class="loading">読み込み中…</div>`;
+    return;
+  }
+
+  const items = data.items || [];
+  const areaOptions = [...new Set(items.map(i => i.area).filter(Boolean))].sort();
+  const genreOptions = [...new Set(items.flatMap(i => i.genres || []))].sort();
+
+  const recentCount = items.filter(isRecent).length;
+  const hiringCount = items.filter(i => i.signal === 'hiring').length;
+  const areaCount = areaOptions.length;
+  const hpMap = data.hotpepper || {};
+  const hpEnabled = Object.keys(hpMap).length > 0;
+  const hpChanceCount = hpEnabled ? buildGroups(items, hpMap).filter(g => g.hp && !g.hp.listed).length : 0;
+
+  const filtered = items.filter(it => {
+    if (state.q && !it.title.includes(state.q)) return false;
+    if (state.areas.size > 0 && !state.areas.has(it.area)) return false;
+    if (state.genres.size > 0 && !(it.genres || []).some(g => state.genres.has(g))) return false;
+    if (state.recentOnly && !isRecent(it)) return false;
+    if (state.hiringOnly && it.signal !== 'hiring') return false;
+    return true;
+  });
+
+  const kpiRow = `
+    <div class="kpi-row">
+      <div class="kpi">
+        <div class="kpi-label">掲載中の新店情報</div>
+        <div class="kpi-value">${items.length}<span class="unit">件</span></div>
+        <div class="kpi-note">直近${data.ttlDays || 60}日分</div>
+      </div>
+      <div class="kpi clickable ${state.recentOnly?'active':''}" id="kpi-recent">
+        <div class="kpi-label"><span class="kpi-dot" style="background:var(--blue);"></span>新着（${NEW_DAYS}日以内）</div>
+        <div class="kpi-value">${recentCount}<span class="unit">件</span></div>
+        <div class="kpi-note">${state.recentOnly?'✓ 絞り込み中':'クリックで絞り込み'}</div>
+      </div>
+      <div class="kpi clickable ${state.hiringOnly?'active':''}" id="kpi-hiring">
+        <div class="kpi-label"><span class="kpi-dot" style="background:var(--amber);"></span>オープン前・求人段階</div>
+        <div class="kpi-value">${hiringCount}<span class="unit">件</span></div>
+        <div class="kpi-note">${state.hiringOnly?'✓ 絞り込み中':'クリックで絞り込み'}</div>
+      </div>
+      ${hpEnabled ? `
+      <div class="kpi clickable ${state.hpChanceOnly?'active':''}" id="kpi-hp">
+        <div class="kpi-label"><span class="kpi-dot" style="background:var(--green);"></span>HP未掲載（狙い目）</div>
+        <div class="kpi-value">${hpChanceCount}<span class="unit">店</span></div>
+        <div class="kpi-note">${state.hpChanceOnly?'✓ 絞り込み中':'クリックで絞り込み'}</div>
+      </div>` : `
+      <div class="kpi">
+        <div class="kpi-label">エリア判定済み</div>
+        <div class="kpi-value">${areaCount}<span class="unit">エリア</span></div>
+        <div class="kpi-note">見出しから市区町村を推定</div>
+      </div>`}
+    </div>`;
+
+  const hasFilter = state.q || state.areas.size > 0 || state.genres.size > 0 || state.recentOnly || state.hiringOnly || state.hpChanceOnly;
+  const filterCard = `
+    <div class="filter-card">
+      <div class="filter-row">
+        <input type="text" id="q-input" placeholder="店名・キーワードで検索" value="${state.q.replace(/"/g,'&quot;')}">
+        ${hasFilter ? `<button class="clear-btn" id="clear-filters">すべて解除</button>` : ''}
+      </div>
+      <div class="filter-label">エリア（複数選択可）</div>
+      <div class="filter-row">
+        <span class="chip ${state.areas.size===0?'active':''}" data-group="area" data-value="">すべて</span>
+        ${areaOptions.map(a => `<span class="chip ${state.areas.has(a)?'active':''}" data-group="area" data-value="${a}">${a}</span>`).join('')}
+      </div>
+      <div class="filter-label">ジャンル（複数選択可）</div>
+      <div class="filter-row">
+        <span class="chip ${state.genres.size===0?'active':''}" data-group="genre" data-value="">すべて</span>
+        ${genreOptions.map(g => `<span class="chip ${state.genres.has(g)?'active':''}" data-group="genre" data-value="${g}">${g}</span>`).join('')}
+      </div>
+    </div>`;
+
+  let groups = buildGroups(filtered, hpMap);
+  if (state.hpChanceOnly) groups = groups.filter(g => g.hp && !g.hp.listed);
+
+  let listHtml;
+  if (items.length === 0) {
+    listHtml = `<div class="empty-state">
+      まだデータがありません。<br>
+      GitHub Actions のワークフロー「千葉県新店情報の毎朝更新」が初回実行されると、ここに一覧が表示されます。
+    </div>`;
+  } else if (groups.length === 0) {
+    listHtml = `<div class="empty-state">条件に一致する新店情報がありません。フィルターを変更してください。</div>`;
+  } else {
+    listHtml = `<div class="result-count">${groups.length}店舗表示中（記事${filtered.length}件／全${items.length}件）</div>
+    <div class="list-card">
+      ${groups.map((g, gi) => {
+        const it = g.primary;
+        const d = new Date(itemDate(it));
+        const day = isNaN(d.getTime()) ? '—' : String(d.getDate());
+        const mo = isNaN(d.getTime()) ? '' : `${d.getMonth()+1}月`;
+        return `
+        <div class="store-row" data-group="${gi}">
+          <div class="row-date">
+            <div class="d-day">${day}</div>
+            <div class="d-mo">${mo}</div>
+            ${g.articles.some(isRecent) ? `<span class="d-new">NEW</span>` : ''}
+          </div>
+          <div class="row-main">
+            <div class="row-title"><a href="${it.link}">${g.storeName ? `${g.storeName}<span style="font-weight:500;color:var(--mid);font-size:12px;"> — ${it.title}</span>` : it.title}</a></div>
+            <div class="tag-row">
+              ${g.hp ? (g.hp.listed
+                ? `<span class="tag tag-hp-yes">HP掲載 ●</span>`
+                : `<span class="tag tag-hp-no">HP未掲載 ×</span>`) : ''}
+              ${g.signal !== 'opening' ? `<span class="tag tag-hiring">🧑‍🍳 オープン前・求人段階</span>` : ''}
+              ${g.area ? `<span class="tag tag-area">📍 ${g.area}</span>` : ''}
+              ${g.genres.map(x => `<span class="tag tag-genre">${x}</span>`).join('')}
+              ${it.source ? `<span class="tag tag-source">${it.source}</span>` : ''}
+              ${g.articles.length > 1 ? `<span class="tag tag-count">📰 記事${g.articles.length}件</span>` : ''}
+            </div>
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  }
+
+  root.innerHTML = header + kpiRow + filterCard + listHtml + renderDetail(groups);
+
+  const qInput = document.getElementById('q-input');
+  if (qInput) {
+    qInput.oninput = e => { state.q = e.target.value; renderListOnly(); };
+  }
+  const clearBtn = document.getElementById('clear-filters');
+  if (clearBtn) clearBtn.onclick = () =>
+    setState({ q:'', areas:new Set(), genres:new Set(), recentOnly:false, hiringOnly:false, hpChanceOnly:false });
+  const kpiRecent = document.getElementById('kpi-recent');
+  if (kpiRecent) kpiRecent.onclick = () => setState({ recentOnly: !state.recentOnly });
+  const kpiHiring = document.getElementById('kpi-hiring');
+  if (kpiHiring) kpiHiring.onclick = () => setState({ hiringOnly: !state.hiringOnly });
+  const kpiHp = document.getElementById('kpi-hp');
+  if (kpiHp) kpiHp.onclick = () => setState({ hpChanceOnly: !state.hpChanceOnly });
+  root.querySelectorAll('.chip').forEach(chip => {
+    chip.onclick = () => {
+      const group = chip.dataset.group;
+      const value = chip.dataset.value;
+      if (value === '') {
+        setState(group === 'area' ? { areas: new Set() } : { genres: new Set() });
+      } else if (group === 'area') {
+        setState({ areas: toggleInSet(state.areas, value) });
+      } else {
+        setState({ genres: toggleInSet(state.genres, value) });
+      }
+    };
+  });
+  root.querySelectorAll('.store-row').forEach(row => {
+    row.onclick = () => {
+      const g = groups[+row.dataset.group];
+      if (g) setState({ detail: g.key });
+    };
+  });
+  const backdrop = document.getElementById('modal-backdrop');
+  if (backdrop) {
+    backdrop.onclick = e => { if (e.target === backdrop) setState({ detail: null }); };
+    const closeBtn = document.getElementById('modal-close');
+    if (closeBtn) closeBtn.onclick = () => setState({ detail: null });
+  }
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && state.detail) setState({ detail: null });
+});
+
+// ── 詳細モーダル ──
+function renderDetail(groups) {
+  if (!state.detail) return '';
+  const g = groups.find(x => x.key === state.detail);
+  if (!g) return '';
+  const name = g.storeName;
+  const areaQ = g.area || '千葉県';
+  const q = name ? `${name} ${areaQ}` : '';
+  const enc = encodeURIComponent;
+
+  const openDateHtml = g.openDate ? (() => {
+    const d = new Date(g.openDate);
+    const days = Math.ceil((g.openDate - Date.now()) / 86400000);
+    const status = days > 0 ? `オープンまであと${days}日` : days > -30 ? 'オープン済み' : '';
+    return `<div class="modal-section">
+      <div class="open-date-box">📅 オープン（予定）日：<strong>${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()}</strong>${status ? `<span style="color:var(--mid);font-size:11px;">${status}</span>` : ''}</div>
+      <div class="modal-hint">※記事タイトルからの自動抽出です。正確な日付は記事本文でご確認ください。</div>
+    </div>`;
+  })() : '';
+
+  const hpStatus = g.hp ? `
+    <div class="modal-section">
+      <div class="modal-sec-title">ホットペッパー掲載状況（自動チェック）</div>
+      ${g.hp.listed
+        ? `<div class="open-date-box" style="background:#f0fdf4;border-color:#86efac;">● 掲載あり${g.hp.shopName && g.hp.shopName !== name ? `（${g.hp.shopName}）` : ''}${g.hp.url ? `　<a href="${g.hp.url}" target="_blank" rel="noopener" style="color:var(--green);font-weight:700;">店舗ページを開く →</a>` : ''}</div>`
+        : `<div class="open-date-box" style="background:#fef2f2;border-color:#fecaca;">× 掲載なし<span style="color:var(--mid);font-size:11px;">（${fmtDate(g.hp.checkedAt)}時点・ネット予約未導入の可能性大）</span></div>`}
+    </div>` : '';
+
+  const checkLinks = name ? `
+    ${hpStatus}
+    <div class="modal-section">
+      <div class="modal-sec-title">ネット予約・掲載状況をチェック</div>
+      <div class="link-grid">
+        <a class="check-link" href="${g.hp && g.hp.listed && g.hp.url ? g.hp.url : `https://www.hotpepper.jp/CSP/psh010/doBasic?FWT=${enc(q)}`}" target="_blank" rel="noopener"><span class="cl-icon">🍽️</span><span>ホットペッパー<span class="cl-sub">${g.hp ? (g.hp.listed ? '掲載あり ●（店舗ページへ）' : '掲載なし ×（手動でも確認可）') : '掲載・ネット予約の有無を確認'}</span></span></a>
+        <a class="check-link" href="https://r.gnavi.co.jp/area/jp/rs/?fw=${enc(name)}" target="_blank" rel="noopener"><span class="cl-icon">🍴</span><span>ぐるなび<span class="cl-sub">掲載・ネット予約の有無を確認</span></span></a>
+        <a class="check-link" href="https://tabelog.com/rst/rstsearch/?sk=${enc(name)}&sa=${enc(areaQ)}" target="_blank" rel="noopener"><span class="cl-icon">📖</span><span>食べログ<span class="cl-sub">既存掲載ページを確認</span></span></a>
+        <a class="check-link" href="https://www.google.com/maps/search/${enc(q)}" target="_blank" rel="noopener"><span class="cl-icon">📍</span><span>Googleマップ<span class="cl-sub">場所・電話番号・営業時間</span></span></a>
+        <a class="check-link" href="https://www.google.com/search?q=${enc(q + ' 電話番号')}" target="_blank" rel="noopener"><span class="cl-icon">📞</span><span>電話番号を検索<span class="cl-sub">連絡先をGoogleで調べる</span></span></a>
+        <a class="check-link" href="https://www.google.com/search?q=${enc(q + ' Instagram')}" target="_blank" rel="noopener"><span class="cl-icon">📷</span><span>SNSを検索<span class="cl-sub">Instagram等の公式アカウント</span></span></a>
+      </div>
+      <div class="modal-hint">💡 ホットペッパー・ぐるなびで店舗ページが見つかれば競合サイトで集客中。どこにも掲載がなければ完全な新規開拓チャンスです。電話番号はGoogleマップの店舗情報に載っていることが多いです。</div>
+    </div>` : `
+    <div class="modal-section">
+      <div class="modal-hint">記事タイトルから店名を特定できなかったため、記事本文で店名を確認してから各サイトで検索してください。</div>
+    </div>`;
+
+  const articles = `
+    <div class="modal-section">
+      <div class="modal-sec-title">掲載元の記事（${g.articles.length}件）</div>
+      ${g.articles.map(a => `
+        <a class="article-item" href="${a.link}" target="_blank" rel="noopener">
+          <span class="a-title">${a.title}</span>
+          <span class="a-meta">${a.source || '出典不明'}　${fmtDate(a.pubDate || a.firstSeenAt)}</span>
+        </a>`).join('')}
+    </div>`;
+
+  return `
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="modal" id="modal-panel">
+      <div class="modal-head">
+        <div>
+          <div class="modal-store">${name || g.primary.title}</div>
+          <div class="modal-tags">
+            ${g.signal !== 'opening' ? `<span class="tag tag-hiring">🧑‍🍳 オープン前・求人段階</span>` : ''}
+            ${g.area ? `<span class="tag tag-area">📍 ${g.area}</span>` : ''}
+            ${g.genres.map(x => `<span class="tag tag-genre">${x}</span>`).join('')}
+          </div>
+        </div>
+        <button class="modal-close" id="modal-close">✕</button>
+      </div>
+      <div class="modal-body">
+        ${openDateHtml}
+        ${checkLinks}
+        ${articles}
+      </div>
+    </div>
+  </div>`;
+}
+
+// 検索入力のたびに全体再描画するとフォーカスが外れるため、簡易デバウンス再描画
+let debounceTimer = null;
+function renderListOnly() {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => {
+    const focused = document.activeElement && document.activeElement.id;
+    render();
+    if (focused) {
+      const el = document.getElementById(focused);
+      if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); }
+    }
+  }, 200);
+}
+
+load();
+render();
+</script>
+</body>
+</html>

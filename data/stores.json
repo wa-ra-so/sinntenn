@@ -1,0 +1,502 @@
+{
+  "generatedAt": "2026-07-11T21:57:41.016Z",
+  "ttlDays": 60,
+  "runLog": [
+    {
+      "label": "居酒屋・ダイニング系（開店ニュース）",
+      "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "label": "専門料理系（開店ニュース）",
+      "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "label": "カフェ・バー系（開店ニュース）",
+      "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "label": "居酒屋・ダイニング系（オープニング求人）",
+      "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "label": "専門料理系（オープニング求人）",
+      "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "label": "カフェ・バー系（オープニング求人）",
+      "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
+      "ok": true,
+      "count": 37
+    }
+  ],
+  "itemCount": 38,
+  "hotpepper": {},
+  "items": [
+    {
+      "title": "東京・池袋 ガールズバー売春強要事件 店長の男に懲役8年を求刑（ANNニュース）",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02VURDS0ZLN1poLUg0Z2ZrVzZmNjBNekU3ZUo3bFl0YnBfX0R6X09KRVZQZ2VtUkhfN2tUTFN3RW1uSUFMV01lZGhIYV9lVU1ZNHhMOHlSTGdtX0FfMmpwT1h0Tng?oc=5",
+      "source": "nagoyatv.com",
+      "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-11T21:57:37.269Z"
+    },
+    {
+      "title": "兵庫県警が西宮でガールズバーなどの立ち入り調査",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZRll0c1FzOUpVZVoyNHdJZXRmSUE0MW9aM1prYk1TdDB3Z3I3ZjRRaFNoM3pYZVlYSmc2bHltY29uZ0xmc3FiTkxlVmx3LThsSXpmWG9FRU9EWHBUNlZ0UGl4N3pCN2p1cW5sbzlpcDk?oc=5",
+      "source": "Excite エキサイト",
+      "pubDate": "Fri, 10 Jul 2026 03:41:00 GMT",
+      "area": "",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-10T22:11:59.818Z"
+    },
+    {
+      "title": "東京・池袋 ガールズバー売春強要事件 店長の男に懲役8年を求刑 最新の社会ニュース【随時更新】",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EaVBhWktRMVpBMVhHOXdZcVBfWXRHa1M1TUZXYkVCWWZNd3JRUTMyeXVfOFkzVWRTaXpDcFRqMXdtZGdEaVZQdzg2OXdrT253UGZCYm1LSzVQWUE?oc=5",
+      "source": "ABEMA",
+      "pubDate": "Thu, 09 Jul 2026 16:46:57 GMT",
+      "area": "",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-11T21:57:37.269Z"
+    },
+    {
+      "title": "1259億破綻「全東信」で夜の街が悲鳴！クレカ停止と売上未入金で連鎖倒産危機",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jUGtBNUdmeVlnNG1DVW15ejhmX3RMM2VqZmdsdm1Kd3ZoMzF6ZkJVZ1JIWVh1bU1pYTV3M3RBWGJuanliNUR5eTEyUmNTYXVudnZGYTNMUmszQ3lEc2JPallUSEpjakJvT0tvMUJ6OVYyUkNNVnB3VtIBjAFBVV95cUxPLWlwbmszNFFDTHRXdnc0YjJzbEVjV0JvXzNrR0EydU1NZjNBal9hS2M3czNfZU1IY3lOTUM1T043SjM2cnhneDJMSWgyRjJlaDh6VFdfVGk1RWVIUWpNcGMyNFk5enJwYXd5UlBXWmhJdzl2OERpSnpPX3RmNmUweXJjTm8wUG1LQWhhNA?oc=5",
+      "source": "zakⅡ",
+      "pubDate": "Thu, 09 Jul 2026 02:29:30 GMT",
+      "area": "",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-10T07:58:53.264Z"
+    },
+    {
+      "title": "ハワイアン カフェ・レストラン「コナズ珈琲」愛知県4店舗目は、名古屋市内！コナズ珈琲 大高インター店2026年7月23日（木）10時オープン | 株式会社 KONA'Sのプレスリリース",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nTC0yZUdUUkZXYzVRbXFlNEgtbHl0bkdxUGdUZk0yYmt5a3dKRkZZT05CNDlSYkFSTzNtaDR4Tk5YOTg2T2FIQmYwZ0ItWlEwM1JwR2pWMlFDc1VDT2dTaXBzOGxCbEtSRUE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 09 Jul 2026 02:00:02 GMT",
+      "area": "",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-11T21:57:37.267Z"
+    },
+    {
+      "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VaVVPdVpRT1NqRkpMSC10a0QyZlY4RmtzZ2l4WUZFdFdzQUtEWEw2U2ExT3dBclpQQW9acjhVMWlKY3p3MTl4UTBsZ2hFMXhVNlE?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Wed, 08 Jul 2026 08:37:32 GMT",
+      "area": "船橋市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-11T21:57:37.267Z"
+    },
+    {
+      "title": "ヒルトン東京ベイ「ガーデンプールレストラン」グランドオープン！プールサイドで楽しむナイトビアガーデン【体験レポート】",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15cS1jRnJsQXhQbllyLXFyVW10YTR0VjFjUXk0dUdMMzVYSE9Ta3RZTUQzS2RLUHNaRnZXb3lKUkI4WDlCcEQ4Z09MU1g?oc=5",
+      "source": "Precious.jp",
+      "pubDate": "Mon, 06 Jul 2026 12:00:00 GMT",
+      "area": "",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Fri, 03 Jul 2026 02:27:49 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVHQzYXlsM0loc3VUUTlxajVESHU5QjJ0a3NYVXBDUUVvakdXYlJKSjZqV3l2WGc4T0JtQV9fS3UwbkRJZldrN05KckZJUzJEbklTX1VvZ3NoUFo3ekVvZ2JrUGhfbWt4RmdSdjZDaWg2akxLUnMzUkdKR3NCQdIBgwFBVV95cUxOVGlQbzM1c0M5Z1BxYmZVSUpiNkRjTDJNeXVRTGZlYlBCaGx6ODNxa2NlR1hZTXEtaXNiN3Q5bHJjN3IxS0VudERBakhIeFN4MFBNcnI0RmY0NDNzVURKOExFS2swNzlhRTZzdTVBeUFpWTQ0aklKdThBRVBVdkpMTC1LVQ?oc=5",
+      "source": "ｄメニューニュース",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "area": "成田市",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
+      "source": "千葉日報オンライン",
+      "pubDate": "Fri, 26 Jun 2026 09:57:21 GMT",
+      "area": "成田市",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-10T08:25:43.437Z"
+    },
+    {
+      "title": "【千葉県初出店】「焼鳥 蕎麦 二尺五寸」マーヴ浦安店を2026年6月30日(火)オープンいたします。",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QdXp1b2N5YUlNcXVQaUtTYWhiVEZiU05Qd0MtZmtRNzVHNnY5QVhYX1FCRU4zZFFjZWZ3Yk1DSjVySEU4LTdzSTE5bXFTUjNleUJwbjIzOXJQWDNRVER3NzFwejBfbU1GdEE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ | チバテレ＋プラス",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53cFBPZFRmZzZfUVk1WlVibWxvalFYM2ZzNTI1U1p5S1lhLXNLWVNjQWFzWVVjenFoeEhsUWxMaGNWR1Nxb1U1NmI3UlJka2FUYVR5ZkYzR1BOU2NRRmtz0gFkQVVfeXFMUEh1cnNkRmpJTENZYkp6dXI5bUpfR1ZhUmFNS2dwd0thWVd6b2NfZTVrVFAxb09BZUdjUEIxZmRUVjR1N2swekNIWUpSZF9Zd2kzY3VEYWFKaXVvaWhWWUFoYzFUMQ?oc=5",
+      "source": "千葉テレビ放送",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "area": "佐倉市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "【待望の西口進出】柏の人気店「藁焼き酒場 わらいち」がオープン予定！柏市場直送のカツオを五感で楽しむ居酒屋",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iQ1FZZFBXeEt6bmwwbi1WaVlWdUM4SFN2eDNiNTJ6NFRsblJsRUZTNmNXTVFKTmtGUVBMdFVkbFR3V1ZseGRYT3BmeXJPbVFxVE1MNzFmemFZRFJzeUt4cnJfTFE?oc=5",
+      "source": "gummaumaimono.info",
+      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "area": "柏市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "物語コーポレーション／千葉県浦安市に「焼肉きんぐ マーヴ浦安店」6月30日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ydmt6Y2lnLUE5aVZ2V1hGczFFVjZmVGlEV2paZ1NIeTR6dWdiZkdFd3lCUWwzSVFGQnNKR203aXhqbWpBTUFfT29ZZGlUREM3dEQ1MQ?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "area": "浦安市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "【焼肉きんぐ】『焼肉きんぐ マーヴ浦安店』が2026年6月30日(火)グランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAydnJWUVkzbGkwLWtfNzNGMnlDeFNmNXhGVzRxanpiN2RfaVR6Z2ZlVktBTm1xNDVIVHNuQTluYWYwNVdaMUZwb2pRM0QwWFlVaFBTTGdkSFM4OHc?oc=5",
+      "source": "朝日新聞",
+      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "area": "浦安市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "【焼肉きんぐ】『焼肉きんぐ マーヴ浦安店』が2026年6⽉30⽇(火)グランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lWFRNZXg4YWdCMS1zYm92VThDcld4WG5qcFZTRzhqYW9kNVlkckZRM2RxSzB3OTZhNVB5YmtCNlJvQzlfdXo4eko0Tkt2b1l3aUZ0dVhGWExBNkVjS04zXzBUZnF3dkJxWXc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "area": "浦安市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "【焼肉きんぐ】『焼肉きんぐ マーヴ浦安店』が2026年6月30日(火)グランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hQlIxcnRYS01nZG81QUdPSktPeDNBNUM2SUVXWHZ2TnZ1UTdXaXJHNk5yUnd0ZWVLaXp3d1BDYlJzRTd6NUs5U2k2MGFJeFF3MVp0bWp6TQ?oc=5",
+      "source": "千葉日報オンライン",
+      "pubDate": "Tue, 16 Jun 2026 02:01:56 GMT",
+      "area": "浦安市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-10T08:25:43.435Z"
+    },
+    {
+      "title": "【寿司一丁】回らない本格寿司を日常価格で！「寿司一丁 八千代緑が丘店」が6/9(火)グランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xanBpeWQzbmkwNHhULUlrOUpCQjZuZUtlSUFSOG1YcDkwWWxqY3lKMXZDMmtGaGFQVjJPMXBhaE9JQXp3RVhQSUxudGFyNkFLanBoWHVtbzdpRnhwak9LaVI4ckFvQXg0SFE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "area": "八千代市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "【新店】「PRONTO 成田空港第２ターミナル店」が2026年7月17日(金)オープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vSDV0ZzdJUDdMd0JvMF9ucXM5UE9aSloyUF9JZUtwZU9rTFBqcWVTc00wakZKcXdGN2lyWnBtbnVhTnhDaG9WNzJXdngxMEF5OGJnZzhDeTZSWXhTNzJWZ3ZuWl9LQXh2RGc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "元山駅近く、五香南1丁目で何やら飲食店がオープンするかも、ベトナムカフェ「ハー・グエン」跡地",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZZ0U2OTFTTUJYSVF0bHVuZWJYaUpnVWVPOE1jSGRqX0tPOUYyemJrVkRPenNsbTRZV0xmN043TnhTYjZrVWo5RFJ1T1NwaGM?oc=5",
+      "source": "松戸つうしん",
+      "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
+      "area": "松戸市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "南柏駅西口すぐに「和食居酒屋 大安」が2/9（月）オープン",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUTUJiaXozR0FKZjN3Zm4yTE4tdzEwc2NNeFlyQnVzbzhKYWZqSmhkT3pydElycjE1R1F1Y3YxbGVOM3lNSHVQcGtBMFlhQ0U?oc=5",
+      "source": "柏つうしん",
+      "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
+      "area": "柏市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "馬橋駅東口前に複合型サポート施設「なのわ」がオープン、モバイル通信・就労支援・カフェを併設",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qYlRjZk5lcWQxMFViWUlmbkJVWHdpY3BTM3htUzNpazBERG5hSXZ2c0dWOWNaYjhsVHNXSUlKWnNPNkQyNTRIbk5TU0NMUmc?oc=5",
+      "source": "松戸つうしん",
+      "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
+      "area": "松戸市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "【新業態が判明】流山街道沿いの「らぁ麺 はやし田」は「元祖焼豚センター うる寅商店」になって6/26（金）オープン！懐かしい中華そばにボリューミーなチャーシュー",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wTWtpT0pFbFdCU2NtclJlVDBXa2wzVEFKMm9fa290b3MzTTA3MVlzeGdvSE83Tzl2R3N6R0VVa2xuS1ZfNjNLRDlSY0xXTWc?oc=5",
+      "source": "松戸つうしん",
+      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
+      "area": "流山市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "習志野市谷津に「古民家カフェ ハナレヤ」が6/14（日）オープン予定",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DaWNMZTcyajNVNlN1SDdWQXpnRXFSaDc4UUxYenJEcEowRDNQVFNsdjhvbWctMi0yQm5WeHZhUFVObzYwdDRTWFVSenQ5MWpVY1E?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
+      "area": "習志野市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "元旅館の思い継ぐ古民家カフェ 館山市見物に5日オープン 家族4人で1年かけDIY（千葉県）（房日新聞）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rUXJ4elVsWERTU1A1WkJSbkhKTkZYNWtxcEE4N3ByU0NsS0VVTVFjdVJESTlmdmZwZzhKV3RCVUs1SlVJYWhhUWROQUVHRmotWWs5TkJySGk0THRpc21wSklibFVqNGVGbzBaN01jUFNKMXpacDBfT1NPbTByR28?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "area": "館山市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "ハワイアンカフェ＆レストラン「メレンゲ」千葉市幕張エリアのホテル内にオープン｜レッツエンジョイ東京",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPWWpWek9xWkhGUTBoRmdoaV93RU94MXhNTUpGelU1VHFNZHBaWjR4eXV1bVFCTFk4eklZcmtQNmNzQTdkSlhXWWdlVE5zMlE?oc=5",
+      "source": "レッツエンジョイ東京",
+      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "area": "千葉市美浜区",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "ハワイアンカフェ＆レストラン『Merengue』が千葉市幕張エリア初、ホテル内に初出店！2026年6月11日、KOKO HOTEL Premier 東京ベイ幕張にグランドオープン！ | 株式会社RYコーポレーションのプレスリリース",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SNWxZMUJJTHEyR0FJNFdJYWlteHdxRUt3Sld1VzZvdGdMcEVSOEwxVG11d3lncGhocFF6NjBmTWVXd3BxLVhrQ0ZjWi1mWWdTaTBnU2RrUUF5bGpuaEJpNDdqdnc2dkVMREE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "area": "千葉市美浜区",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "【千葉県佐倉市】佐倉市立美術館に新しいカフェがオープン（6/10）",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBINU91cU9yNFBBQXFlc0ZscUFnRzNIM1BnLWYtNGhyTF9qQ0FTS2VtcmNHUDZ6T05MMVJxZG13SEg4MGZHcGFpYzdxeXNJWFgxcmNMRDJJdm1hSlplT29GQnBLSWFTTnJuZkE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "佐倉市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "西船橋駅北口近くにラーメン店「中華そば煮干の五郎」が6/10（水）オープン予定",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5clpLRDctS3dQMUc4OERVdFdOVVI3OFAzQVVZczlRZTBtMEVGVTR2SEdMeG9HRGhFUWZrYjJ4aU1lRXNVLUFzdGdxSDhreWh1akE?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ｜レッツエンジョイ東京",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ZXhGQVF3WkxuLXNIYUdxR1pzSldNOUdVeXVXVlVUQU4yZzgyX29ZTV9QU1gwekRkZjR6TFMwR09OTXVtTUdTRlZybk9PREE?oc=5",
+      "source": "レッツエンジョイ東京",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "佐倉市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "【オープン日判明】京成船橋駅近くの居酒屋「大衆割烹まるは」5/28（木）14時からオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfeWk0YWhzUEVDcnAtd1JGQUpqNmVsa1RtU0hjMlQwRllZbnZjenM5MzJ4NmVNQmtqRVZuQVJYWWpWbm4yMEFlRzZnSklPb2V4dUE?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋",
+        "割烹"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "東上町にカジュアルダイニング「Dining Tamaki」が3/5（木）オープン",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGenpwTDBZN19jQ3ZKMzE3bEdXOWNNaDB2ZS0zRzFxTkNfWnIwU0MyTFMyNV9rVlBNZFFQSDQyOHdhTEhNbkN0emZacW1kdG8?oc=5",
+      "source": "柏つうしん",
+      "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "高根公団駅近くに居酒屋「野菜泥棒3104」がオープン、12時から営業",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5MUZZRUpnMXRlUkJPX2pSUURyWVJJVjE5Z2xUWVVjWUstWV9qY0lKRGJwQk5reGwwNTkzeWNPQ3NLYTQ2RXk2allUNUpLYkgyX3c?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "ウィザースホーム、カフェ併設の「DAYS with KofuShowa」をグランドオープン「モデルハウス・カフェ・民泊施設」が一体となった新しい体験型複合施設",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XUkgxcnhQdEdMRWVzdUxFWGtxZ2pSUGQ5Z2RBUjZlNlJTZUl4Y3Jla2dJMmNmZVF4c1BJWkx6X2xSMG82Mk95Tl84NTRvZHQyTkdKNWJjeldDSzZ0anY4cE9oQ2ZpczBUMnc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "五香駅東口徒歩2分に本格中華料理店「華和居」がオープン、ランチからちょい飲み、宴会まで幅広く使える",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xVXJLcG10OGhHQ3hiSnhzNFhvNm9lRnRjX09oanVxb0Z5b09qYkJ3N19qelBvV2hwbGRRVnFqaTJOOGpZcURxWFpLQTd5WWc?oc=5",
+      "source": "松戸つうしん",
+      "pubDate": "Thu, 21 May 2026 07:00:00 GMT",
+      "area": "松戸市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "「不慣れ」だけど経験の場に 千葉・野田の「高校生レストラン」開店 [千葉県]",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xUDJLZXdSTWsyMTV6WjdzTEFrRWlUT3U5Rm41aXlwY1doWjA1YWlBTHRid2ZmY0xMVUdLVXVZRVZWSXpKV1VJZEk5d1U5d1l3c2VNYVRGa3BaMU9qQTN3UXB2aDEyTDQ?oc=5",
+      "source": "朝日新聞",
+      "pubDate": "Tue, 19 May 2026 07:00:00 GMT",
+      "area": "野田市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "下総中山駅近くにCAFE&SHOP「goodie!（グッティ！）」が5/19（火）オープン、市川市のクリエイティブスタジオによる一軒家カフェ",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CT0V6YTM3SV9tdWN0UFFnWVRRanNXODBYanlidnlSOUxlVEYybGVMT2tSR0pJNHREcG91YThCNW5ldkpyeXpzdVFjb1FVdzFTT3c?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
+      "area": "市川市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "高校生レストランが野田市役所にオープン 初日120食完売 接客も高評価、生徒ら意欲",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE96MHBUeGpOUnlhMW1tMTlfcmUxdm4tanhlb1NKWVR3UXR1eC00dGhkVHluRXhsOGs1bVhxYVVOelI5MnNhUUlqVWlFMEE5a0NhSTFN?oc=5",
+      "source": "東京新聞デジタル",
+      "pubDate": "Wed, 13 May 2026 07:00:00 GMT",
+      "area": "野田市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    }
+  ]
+}

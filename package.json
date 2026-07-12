@@ -1,0 +1,11 @@
+{
+  "name": "sinntenn",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch-stores": "node scripts/fetch-stores.mjs"
+  }
+}
