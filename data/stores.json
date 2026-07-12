@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-07-12T03:29:37.385Z",
+  "generatedAt": "2026-07-12T03:37:14.890Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ・バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 36
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 19
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 51,
+  "itemCount": 53,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -331,6 +331,18 @@
       "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
+      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/レストランサービス・ホールスタッフ/油そば専門店で…）",
+      "link": "https://foods-labo.com/offers/92676?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Fri, 10 Jul 2026 07:06:07 GMT",
+      "area": "松戸市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:36:45.027Z"
+    },
+    {
       "title": "「しゃぶしゃぶ温野菜 稲毛山王店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/全国NO.1のマネ…）",
       "link": "https://foods-labo.com/offers/65269?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
@@ -397,6 +409,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社紅フーズコーポレーション オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ 駅徒歩1分!新橋やきと…）",
+      "link": "https://en-gage.net/user/search/desc/13398147/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:16:25 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:36:45.028Z"
     },
     {
       "title": "株式会社紅フーズコーポレーション オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ 駅徒歩1分!新橋やきと…）",
