@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T03:20:41.820Z",
+  "generatedAt": "2026-07-12T03:25:34.164Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,10 +42,16 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 18
+      "count": 20
+    },
+    {
+      "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
+      "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
+      "ok": false,
+      "error": "HTTP 403"
     }
   ],
-  "itemCount": 44,
+  "itemCount": 47,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -249,6 +255,13 @@
       "url": "",
       "shopName": "",
       "checkedAt": "2026-07-12T03:20:41.820Z"
+    },
+    "今日和千葉本店": {
+      "storeName": "今日和 千葉本店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003944002/?vos=nhppalsa000016",
+      "shopName": "今日和　千葉本店",
+      "checkedAt": "2026-07-12T03:25:34.164Z"
     }
   },
   "items": [
@@ -287,11 +300,21 @@
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
+      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/店長・店長候補/油そばの人気ブランド「元祖油堂」店…）",
+      "link": "https://foods-labo.com/offers/92675?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Fri, 10 Jul 2026 07:06:07 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:25:30.174Z"
+    },
+    {
       "title": "「しゃぶしゃぶ温野菜 稲毛山王店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/全国NO.1のマネ…）",
       "link": "https://foods-labo.com/offers/65269?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
       "pubDate": "Fri, 10 Jul 2026 07:06:06 GMT",
-      "area": "四街道市",
+      "area": "千葉市稲毛区",
       "genres": [
         "レストラン"
       ],
@@ -353,6 +376,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "株式会社ミライル オープニングスタッフ募集（一般事務・OA事務/お仕事給料プライベート全部があなたにあっ…）",
+      "link": "https://www.hatarako.net/job/156122557/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Tue, 30 Jun 2026 17:05:59 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
       "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
@@ -732,6 +765,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 09:30:36 GMT",
+      "area": "",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
       "title": "「不慣れ」だけど経験の場に 千葉・野田の「高校生レストラン」開店 [千葉県]",
