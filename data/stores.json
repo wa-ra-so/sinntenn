@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T03:25:34.164Z",
+  "generatedAt": "2026-07-12T03:29:37.385Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 47,
+  "itemCount": 51,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -262,6 +262,27 @@
       "url": "https://www.hotpepper.jp/strJ003944002/?vos=nhppalsa000016",
       "shopName": "今日和　千葉本店",
       "checkedAt": "2026-07-12T03:25:34.164Z"
+    },
+    "テレフォンオペレーター": {
+      "storeName": "テレフォンオペレーター",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:29:36.534Z"
+    },
+    "焼肉りんざんえん": {
+      "storeName": "焼肉りんざんえん",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ002648224/?vos=nhppalsa000016",
+      "shopName": "焼肉りんざんえん",
+      "checkedAt": "2026-07-12T03:29:36.696Z"
+    },
+    "海鮮和食魚まみれ仲々小林店": {
+      "storeName": "海鮮和食 魚まみれ 仲々 小林店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:29:37.385Z"
     }
   },
   "items": [
@@ -334,6 +355,18 @@
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
+      "title": "「海鮮和食 魚まみれ 仲々 小林店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/未…）",
+      "link": "https://job.tabelog.com/restaurants?id=12041842#job-info-90747",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 09 Jul 2026 09:30:36 GMT",
+      "area": "印西市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:29:32.899Z"
+    },
+    {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VaVVPdVpRT1NqRkpMSC10a0QyZlY4RmtzZ2l4WUZFdFdzQUtEWEw2U2ExT3dBclpQQW9acjhVMWlKY3p3MTl4UTBsZ2hFMXhVNlE?oc=5",
       "source": "船橋つうしん",
@@ -366,6 +399,16 @@
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
+      "title": "株式会社紅フーズコーポレーション オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ 駅徒歩1分!新橋やきと…）",
+      "link": "https://en-gage.net/user/search/desc/13398094/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:15:51 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:29:32.899Z"
+    },
+    {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
       "source": "船橋つうしん",
@@ -376,6 +419,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "株式会社ミライル オープニングスタッフ募集（コールセンター「テレフォンオペレーター」/お仕事給料プライベ…）",
+      "link": "https://www.hatarako.net/job/156122308/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Tue, 30 Jun 2026 17:25:59 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:29:32.899Z"
     },
     {
       "title": "株式会社ミライル オープニングスタッフ募集（一般事務・OA事務/お仕事給料プライベート全部があなたにあっ…）",
@@ -777,6 +830,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:25:30.174Z"
+    },
+    {
+      "title": "「焼肉りんざんえん」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
+      "link": "https://job.tabelog.com/restaurants?id=12053881#job-info-94084",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 09:30:35 GMT",
+      "area": "船橋市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:29:32.899Z"
     },
     {
       "title": "「不慣れ」だけど経験の場に 千葉・野田の「高校生レストラン」開店 [千葉県]",
