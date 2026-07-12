@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T03:52:48.189Z",
+  "generatedAt": "2026-07-12T04:53:46.687Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 36
+      "count": 58
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 16
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 47,
+  "itemCount": 48,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -952,6 +952,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "佐倉 市 求人 TEL 0222477887 仙台市名坂店 TEL 0223735665 仙台 千葉県竜巻注意情報",
+      "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOcGt4eVVLUUI1T2lHTGhmcW9BbGkyTlNXRWludFo4T2tXZGtVT1V5OGhvNWx0RzNtZnVpQjBqN2doeVJxNUJQcEpjVDdKd2p4R252MVN1cDc4cDlRVU1qeExveXJFRFlRQlZaVVdobXFzeE1HSFR6QXlIQ3EtN2xWeVZfMmtkUV9BQ2lGNGFQOWZwdHZsOWVTZW5JQXJVNFNuajk0YnJiRV83RmpqYUw3OHpUOGlYZVp3ZGFWV1RzY3lOQ2ROQ1pfTmxfUVFsVFdhUlNWaVM3LVF3Z2pxRzNjci1zWG5oemZ6dlVUV1VIamI5Q0tpb01GWEJIQ3J4eWc3Y0JrQWNvWUZiV1A4UFBablBISTd2YnZIU0M5VHNkbUotR2cwY3k1LWpNQXZhTXlpU3V4YzI5bDBoYlBOSFV5dDh2T0JsdGpLbVZBdWZHcWk0MkRvYnNodkNBYk1jZFpTeGtZV1B4ckR4Z3F1QzZKWnhaNHRTR09lSXhYSjRERmlQUlhvYTJBYy1BNkR1UjJ2VGZRTVB5b2xMTTllZVlheGgxVVFjQWZQ?oc=5",
+      "source": "Baha'is of the United States",
+      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
+      "area": "佐倉市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T04:53:44.275Z"
     },
     {
       "title": "高校生レストランが野田市役所にオープン 初日120食完売 接客も高評価、生徒ら意欲",
