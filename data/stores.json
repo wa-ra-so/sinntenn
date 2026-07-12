@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T03:05:23.751Z",
+  "generatedAt": "2026-07-12T03:20:41.820Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -37,37 +37,22 @@
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
       "count": 36
+    },
+    {
+      "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
+      "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
+      "ok": true,
+      "count": 18
     }
   ],
-  "itemCount": 38,
+  "itemCount": 44,
   "hotpepper": {
-    "コナズ珈琲": {
-      "storeName": "コナズ珈琲",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:20.427Z"
-    },
-    "全東信": {
-      "storeName": "全東信",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:20.436Z"
-    },
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
       "listed": false,
       "url": "",
       "shopName": "",
       "checkedAt": "2026-07-12T03:05:20.967Z"
-    },
-    "ガーデンプールレストラン": {
-      "storeName": "ガーデンプールレストラン",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:21.157Z"
     },
     "焼鳥蕎麦二尺五寸": {
       "storeName": "焼鳥 蕎麦 二尺五寸",
@@ -181,20 +166,6 @@
       "shopName": "",
       "checkedAt": "2026-07-12T03:05:23.069Z"
     },
-    "diningtamaki": {
-      "storeName": "Dining Tamaki",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:23.184Z"
-    },
-    "dayswithkofushowa": {
-      "storeName": "DAYS with KofuShowa",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:23.245Z"
-    },
     "華和居": {
       "storeName": "華和居",
       "listed": true,
@@ -222,67 +193,122 @@
       "url": "",
       "shopName": "",
       "checkedAt": "2026-07-12T03:05:23.751Z"
+    },
+    "barおいでやす": {
+      "storeName": "Barおいでやす",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:20:40.955Z"
+    },
+    "元祖油堂松戸東口店": {
+      "storeName": "元祖油堂 松戸東口店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:20:41.036Z"
+    },
+    "しゃぶしゃぶ温野菜稲毛山王店": {
+      "storeName": "しゃぶしゃぶ温野菜 稲毛山王店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004469000/?vos=nhppalsa000016",
+      "shopName": "温野菜 稲毛山王店",
+      "checkedAt": "2026-07-12T03:20:41.206Z"
+    },
+    "koalatreecafeanddining": {
+      "storeName": "Koala Tree Cafe and Dining",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:20:41.263Z"
+    },
+    "おでん屋たけし船橋駅南口店": {
+      "storeName": "おでん屋たけし 船橋駅南口店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:20:41.334Z"
+    },
+    "ホルモン酒場ばぁ場": {
+      "storeName": "ホルモン酒場 ばぁ場",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003879008/?vos=nhppalsa000016",
+      "shopName": "ホルモン酒場ばぁ場",
+      "checkedAt": "2026-07-12T03:20:41.378Z"
+    },
+    "七輪炭羊蔵nozawa": {
+      "storeName": "七輪炭羊蔵NOZAWA",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:20:41.564Z"
+    },
+    "味自慢": {
+      "storeName": "味自慢",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "checkedAt": "2026-07-12T03:20:41.820Z"
     }
   },
   "items": [
     {
-      "title": "東京・池袋 ガールズバー売春強要事件 店長の男に懲役8年を求刑（ANNニュース）",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02VURDS0ZLN1poLUg0Z2ZrVzZmNjBNekU3ZUo3bFl0YnBfX0R6X09KRVZQZ2VtUkhfN2tUTFN3RW1uSUFMV01lZGhIYV9lVU1ZNHhMOHlSTGdtX0FfMmpwT1h0Tng?oc=5",
-      "source": "nagoyatv.com",
-      "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
-      "area": "",
+      "title": "「Barおいでやす」オープニングスタッフ募集（ホール/バーテンダー/店長・マネージャー候補 完全新規OPE…）",
+      "link": "http://s.baitoru.com/DW05mzmZ",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Fri, 10 Jul 2026 18:02:33 GMT",
+      "area": "市川市",
       "genres": [
         "バー"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-11T21:57:37.269Z"
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
-      "title": "兵庫県警が西宮でガールズバーなどの立ち入り調査",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZRll0c1FzOUpVZVoyNHdJZXRmSUE0MW9aM1prYk1TdDB3Z3I3ZjRRaFNoM3pYZVlYSmc2bHltY29uZ0xmc3FiTkxlVmx3LThsSXpmWG9FRU9EWHBUNlZ0UGl4N3pCN2p1cW5sbzlpcDk?oc=5",
-      "source": "Excite エキサイト",
-      "pubDate": "Fri, 10 Jul 2026 03:41:00 GMT",
-      "area": "",
+      "title": "「おでん屋たけし 船橋駅南口店」オープニングスタッフ募集（和食, 居酒屋/店長・店長候補/成長中ブランドで早期キャリア…）",
+      "link": "https://foods-labo.com/offers/98632?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Fri, 10 Jul 2026 07:06:08 GMT",
+      "area": "船橋市",
       "genres": [
-        "バー"
+        "居酒屋"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-10T22:11:59.818Z"
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
-      "title": "東京・池袋 ガールズバー売春強要事件 店長の男に懲役8年を求刑 最新の社会ニュース【随時更新】",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EaVBhWktRMVpBMVhHOXdZcVBfWXRHa1M1TUZXYkVCWWZNd3JRUTMyeXVfOFkzVWRTaXpDcFRqMXdtZGdEaVZQdzg2OXdrT253UGZCYm1LSzVQWUE?oc=5",
-      "source": "ABEMA",
-      "pubDate": "Thu, 09 Jul 2026 16:46:57 GMT",
-      "area": "",
-      "genres": [
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-11T21:57:37.269Z"
-    },
-    {
-      "title": "1259億破綻「全東信」で夜の街が悲鳴！クレカ停止と売上未入金で連鎖倒産危機",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jUGtBNUdmeVlnNG1DVW15ejhmX3RMM2VqZmdsdm1Kd3ZoMzF6ZkJVZ1JIWVh1bU1pYTV3M3RBWGJuanliNUR5eTEyUmNTYXVudnZGYTNMUmszQ3lEc2JPallUSEpjakJvT0tvMUJ6OVYyUkNNVnB3VtIBjAFBVV95cUxPLWlwbmszNFFDTHRXdnc0YjJzbEVjV0JvXzNrR0EydU1NZjNBal9hS2M3czNfZU1IY3lOTUM1T043SjM2cnhneDJMSWgyRjJlaDh6VFdfVGk1RWVIUWpNcGMyNFk5enJwYXd5UlBXWmhJdzl2OERpSnpPX3RmNmUweXJjTm8wUG1LQWhhNA?oc=5",
-      "source": "zakⅡ",
-      "pubDate": "Thu, 09 Jul 2026 02:29:30 GMT",
-      "area": "",
+      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/エリアマネージャー/油そば専門店「元祖油堂」を運営…）",
+      "link": "https://foods-labo.com/offers/92673?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Fri, 10 Jul 2026 07:06:07 GMT",
+      "area": "松戸市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-10T07:58:53.264Z"
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
-      "title": "ハワイアン カフェ・レストラン「コナズ珈琲」愛知県4店舗目は、名古屋市内！コナズ珈琲 大高インター店2026年7月23日（木）10時オープン | 株式会社 KONA'Sのプレスリリース",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nTC0yZUdUUkZXYzVRbXFlNEgtbHl0bkdxUGdUZk0yYmt5a3dKRkZZT05CNDlSYkFSTzNtaDR4Tk5YOTg2T2FIQmYwZ0ItWlEwM1JwR2pWMlFDc1VDT2dTaXBzOGxCbEtSRUE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Thu, 09 Jul 2026 02:00:02 GMT",
-      "area": "",
+      "title": "「しゃぶしゃぶ温野菜 稲毛山王店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/全国NO.1のマネ…）",
+      "link": "https://foods-labo.com/offers/65269?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Fri, 10 Jul 2026 07:06:06 GMT",
+      "area": "四街道市",
       "genres": [
-        "レストラン",
-        "カフェ"
+        "レストラン"
       ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-11T21:57:37.267Z"
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社WONDER CREW 海鮮居酒屋 うおっと函館店 オープニングスタッフ募集（飲食店の店舗スタッフ）",
+      "link": "https://recruit-wondercrew.com/recruits/18892841",
+      "source": "求人ボックス（株式会社WONDER CREW）",
+      "pubDate": "Thu, 09 Jul 2026 12:48:43 GMT",
+      "area": "佐倉市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
@@ -297,16 +323,24 @@
       "firstSeenAt": "2026-07-11T21:57:37.267Z"
     },
     {
-      "title": "ヒルトン東京ベイ「ガーデンプールレストラン」グランドオープン！プールサイドで楽しむナイトビアガーデン【体験レポート】",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15cS1jRnJsQXhQbllyLXFyVW10YTR0VjFjUXk0dUdMMzVYSE9Ta3RZTUQzS2RLUHNaRnZXb3lKUkI4WDlCcEQ4Z09MU1g?oc=5",
-      "source": "Precious.jp",
-      "pubDate": "Mon, 06 Jul 2026 12:00:00 GMT",
-      "area": "",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
+      "title": "株式会社紅フーズコーポレーション オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ 駅徒歩1分!新橋やきと…）",
+      "link": "https://en-gage.net/user/search/desc/13398070/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:19:19 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社ゲート オープニングスタッフ募集（定食屋スタッフ/2026年4月下旬NEW OPEN オープニ…）",
+      "link": "https://en-gage.net/user/search/desc/16946291/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:18:39 GMT",
+      "area": "我孫子市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
@@ -334,6 +368,18 @@
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
     },
     {
+      "title": "「Koala Tree Cafe and Dining」オープニングスタッフ募集（調理師・調理スタッフ/カフェ/カフェ・喫茶店/飲食店/交通費…）",
+      "link": "https://job.tabelog.com/restaurants?id=12067260#job-info-106939",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sat, 27 Jun 2026 09:30:38 GMT",
+      "area": "習志野市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
       "source": "千葉日報オンライン",
@@ -355,6 +401,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
+      "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 25 Jun 2026 09:30:40 GMT",
+      "area": "南房総市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ | チバテレ＋プラス",
@@ -427,6 +485,48 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-10T08:25:43.435Z"
+    },
+    {
+      "title": "「ホルモン酒場 ばぁ場」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
+      "link": "https://job.tabelog.com/restaurants?id=12060078#job-info-31790",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Wed, 10 Jun 2026 09:30:33 GMT",
+      "area": "市川市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社テンポスホールディングス オープニングスタッフ募集（飲食店用品の販売スタッフ 未経験OK）",
+      "link": "https://en-gage.net/user/search/desc/15726904/",
+      "source": "求人ボックス（株式会社テンポスホールディングス）",
+      "pubDate": "Tue, 09 Jun 2026 14:34:15 GMT",
+      "area": "野田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",
+      "link": "https://en-gage.net/user/search/desc/16946291/",
+      "source": "求人ボックス（株式会社ゲート）",
+      "pubDate": "Tue, 09 Jun 2026 12:40:31 GMT",
+      "area": "我孫子市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社チェリー オープニングスタッフ募集（飲食店スタッフ オープニング募集/未経験でも月収30万円～/…）",
+      "link": "https://en-gage.net/user/search/desc/3254777/",
+      "source": "求人ボックス（株式会社チェリー）",
+      "pubDate": "Tue, 09 Jun 2026 11:32:43 GMT",
+      "area": "柏市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "【寿司一丁】回らない本格寿司を日常価格で！「寿司一丁 八千代緑が丘店」が6/9(火)グランドオープン！",
@@ -598,18 +698,6 @@
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
     },
     {
-      "title": "東上町にカジュアルダイニング「Dining Tamaki」が3/5（木）オープン",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGenpwTDBZN19jQ3ZKMzE3bEdXOWNNaDB2ZS0zRzFxTkNfWnIwU0MyTFMyNV9rVlBNZFFQSDQyOHdhTEhNbkN0emZacW1kdG8?oc=5",
-      "source": "柏つうしん",
-      "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
       "title": "高根公団駅近くに居酒屋「野菜泥棒3104」がオープン、12時から営業",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5MUZZRUpnMXRlUkJPX2pSUURyWVJJVjE5Z2xUWVVjWUstWV9qY0lKRGJwQk5reGwwNTkzeWNPQ3NLYTQ2RXk2allUNUpLYkgyX3c?oc=5",
       "source": "船橋つうしん",
@@ -622,18 +710,6 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
-      "title": "ウィザースホーム、カフェ併設の「DAYS with KofuShowa」をグランドオープン「モデルハウス・カフェ・民泊施設」が一体となった新しい体験型複合施設",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XUkgxcnhQdEdMRWVzdUxFWGtxZ2pSUGQ5Z2RBUjZlNlJTZUl4Y3Jla2dJMmNmZVF4c1BJWkx6X2xSMG82Mk95Tl84NTRvZHQyTkdKNWJjeldDSzZ0anY4cE9oQ2ZpczBUMnc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
       "title": "五香駅東口徒歩2分に本格中華料理店「華和居」がオープン、ランチからちょい飲み、宴会まで幅広く使える",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xVXJLcG10OGhHQ3hiSnhzNFhvNm9lRnRjX09oanVxb0Z5b09qYkJ3N19qelBvV2hwbGRRVnFqaTJOOGpZcURxWFpLQTd5WWc?oc=5",
       "source": "松戸つうしん",
@@ -644,6 +720,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "「七輪炭羊蔵NOZAWA」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジンギスカン/焼肉・ホルモ…）",
+      "link": "https://job.tabelog.com/restaurants?id=12063113#job-info-65132",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 09:30:38 GMT",
+      "area": "富里市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "「不慣れ」だけど経験の場に 千葉・野田の「高校生レストラン」開店 [千葉県]",
