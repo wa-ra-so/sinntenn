@@ -6,6 +6,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "fetch-stores": "node scripts/fetch-stores.mjs"
+    "fetch-stores": "node scripts/fetch-stores.mjs",
+    "test": "node scripts/test-filters.mjs --audit"
   }
 }

@@ -6,7 +6,7 @@
 // 依存パッケージなし（Node 20+ の組み込み fetch のみ使用）。
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, '..', 'data', 'stores.json');
@@ -37,13 +37,13 @@ const EXCLUDE_KEYWORDS = [
   'メンズエステ', 'パチンコ', 'パチスロ', '風俗',
 ];
 
-function hasExcludeKeyword(title) {
+export function hasExcludeKeyword(title) {
   return EXCLUDE_KEYWORDS.some(w => title.includes(w));
 }
 
 // タイトルに千葉県の要素（「千葉」または県内の市区町村・駅名）が無い記事は、
 // 本文だけに「千葉県」が出てくる他県ニュースの可能性が高いため除外する
-function isChibaRelevant(title) {
+export function isChibaRelevant(title) {
   return title.includes('千葉') || detectArea(title) !== '';
 }
 
@@ -166,7 +166,7 @@ async function fetchWithTimeout(url, ms, userAgent) {
   }
 }
 
-function detectArea(title) {
+export function detectArea(title) {
   for (const area of CHIBA_AREAS) {
     if (title.includes(area)) return area;
   }
@@ -181,7 +181,7 @@ function detectGenres(title) {
   return [...new Set(all.filter(k => title.includes(k)))];
 }
 
-function isChain(title) {
+export function isChain(title) {
   return CHAIN_BLOCKLIST.some(name => title.includes(name));
 }
 
@@ -392,7 +392,7 @@ const NONFOOD_JOB_KEYWORDS = [
   '清掃', '介護', '警備', '軽作業', '工場', 'ドライバー', '配送', '引越', 'コンビニ',
 ];
 
-function isNonFoodJob(jobTitle) {
+export function isNonFoodJob(jobTitle) {
   return NONFOOD_JOB_KEYWORDS.some(w => jobTitle.includes(w));
 }
 
@@ -710,7 +710,10 @@ async function main() {
   console.log(`Wrote ${items.length} items to ${OUT_PATH}`);
 }
 
-main().catch(err => {
-  console.error(err);
-  process.exit(1);
-});
+// 直接実行されたときのみ収集を実行（test-filters.mjs からの import 時は動かさない）
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
+}

@@ -10,6 +10,7 @@ on:
     paths:
       # 収集ロジックやワークフローが更新されたら即座に再収集する
       - 'scripts/fetch-stores.mjs'
+      - 'scripts/test-filters.mjs'
       - '.github/workflows/update-shinten.yml'
 
 permissions:
@@ -29,6 +30,11 @@ jobs:
         with:
           node-version: '20'
 
+      # フィルタの単体テスト。失敗したら収集せずに止める
+      # （事件ニュース・対象外業態・チェーン・他県記事が掲載されない基準を守る）
+      - name: Test filters
+        run: node scripts/test-filters.mjs
+
       - name: Fetch new store data
         run: node scripts/fetch-stores.mjs
         env:
@@ -36,6 +42,11 @@ jobs:
           # リポジトリの Settings > Secrets and variables > Actions に登録すると
           # ホットペッパー掲載チェック（●×表示）が有効になる。未設定ならスキップ。
           HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
+
+      # 公開前の最終監査。収集後のデータに不適切な掲載が1件でもあれば
+      # ここで失敗し、コミット（＝サイトへの公開）が行われない
+      - name: Audit collected data
+        run: node scripts/test-filters.mjs --audit
 
       - name: Commit and push if changed
         run: |
