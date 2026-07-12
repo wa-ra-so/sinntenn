@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-07-12T03:37:14.890Z",
+  "generatedAt": "2026-07-12T03:52:48.189Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "カフェ・バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 8
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 8
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 36
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 53,
+  "itemCount": 47,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -86,14 +86,13 @@
       "listed": true,
       "url": "https://www.hotpepper.jp/strJ004633975/?vos=nhppalsa000016",
       "shopName": "藁焼き酒場 わらいち 柏西口店",
-      "checkedAt": "2026-07-12T03:05:21.534Z"
-    },
-    "焼肉きんぐマーヴ浦安店": {
-      "storeName": "焼肉きんぐ マーヴ浦安店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:21.773Z"
+      "address": "千葉県柏市旭町１－１１－３　バロンビル１Ｆ",
+      "access": "東武野田線,JR『柏駅』東口より徒歩約4分",
+      "genre": "居酒屋",
+      "budget": "4001～5000円",
+      "capacity": 33,
+      "open": "月～金: 16:00～翌0:00 （料理L.O. 23:30 ドリンクL.O. 23:30）土、日、祝日: 15:00～翌0:00 （料理L.O. 23:30 ドリンクL.O. 23:30）",
+      "checkedAt": "2026-07-12T03:52:46.223Z"
     },
     "寿司一丁八千代緑が丘店": {
       "storeName": "寿司一丁 八千代緑が丘店",
@@ -142,7 +141,13 @@
       "listed": true,
       "url": "https://www.hotpepper.jp/strJ003649532/?vos=nhppalsa000016",
       "shopName": "いなのわ 千葉駅前店",
-      "checkedAt": "2026-07-12T03:05:22.702Z"
+      "address": "千葉県千葉市中央区富士見２-4-15 第一東和ビル５階",
+      "access": "千葉駅徒歩2分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 160,
+      "open": "月～木、日、祝日、祝前日: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）金、土: 12:00～翌4:30 （料理L.O. 翌3:30 ドリンクL.O. 翌4:00）",
+      "checkedAt": "2026-07-12T03:52:47.123Z"
     },
     "メレンゲ": {
       "storeName": "メレンゲ",
@@ -163,7 +168,13 @@
       "listed": true,
       "url": "https://www.hotpepper.jp/strJ004612468/?vos=nhppalsa000016",
       "shopName": "大衆割烹 まるは船橋店",
-      "checkedAt": "2026-07-12T03:05:23.061Z"
+      "address": "千葉県船橋市本町１‐32-3 H1323ビル1F",
+      "access": "京成本線京成船橋駅西口より徒歩約1分 ",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 24,
+      "open": "月～金: 14:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）土、日: 13:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）祝日: 13:00～23:00 （料理L.O. 21:30 ドリンクL.O. 22:00）",
+      "checkedAt": "2026-07-12T03:52:46.340Z"
     },
     "中華そば煮干の五郎": {
       "storeName": "中華そば煮干の五郎",
@@ -177,7 +188,13 @@
       "listed": true,
       "url": "https://www.hotpepper.jp/strJ004633217/?vos=nhppalsa000016",
       "shopName": "中華料理 華和居",
-      "checkedAt": "2026-07-12T03:05:23.364Z"
+      "address": "千葉県松戸市金ケ作４２２",
+      "access": "京成松戸線五香駅より徒歩約3分",
+      "genre": "中華",
+      "budget": "2001～3000円",
+      "capacity": 100,
+      "open": "月～日、祝日、祝前日: 11:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～23:30 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-12T03:52:46.346Z"
     },
     "野菜泥棒3104": {
       "storeName": "野菜泥棒3104",
@@ -214,13 +231,6 @@
       "shopName": "",
       "checkedAt": "2026-07-12T03:20:41.036Z"
     },
-    "しゃぶしゃぶ温野菜稲毛山王店": {
-      "storeName": "しゃぶしゃぶ温野菜 稲毛山王店",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004469000/?vos=nhppalsa000016",
-      "shopName": "温野菜 稲毛山王店",
-      "checkedAt": "2026-07-12T03:20:41.206Z"
-    },
     "koalatreecafeanddining": {
       "storeName": "Koala Tree Cafe and Dining",
       "listed": false,
@@ -240,7 +250,13 @@
       "listed": true,
       "url": "https://www.hotpepper.jp/strJ003879008/?vos=nhppalsa000016",
       "shopName": "ホルモン酒場ばぁ場",
-      "checkedAt": "2026-07-12T03:20:41.378Z"
+      "address": "千葉県市川市八幡２-7-21",
+      "access": "総武線本八幡駅から徒歩3分",
+      "genre": "焼肉・ホルモン",
+      "budget": "4001～5000円",
+      "capacity": 17,
+      "open": "月、水～金、祝前日: 17:30～翌0:30 （料理L.O. 23:30 ドリンクL.O. 翌0:00）土、日、祝日: 12:00～翌0:30 （料理L.O. 23:30 ドリンクL.O. 翌0:00）",
+      "checkedAt": "2026-07-12T03:52:46.228Z"
     },
     "七輪炭羊蔵nozawa": {
       "storeName": "七輪炭羊蔵NOZAWA",
@@ -261,21 +277,26 @@
       "listed": true,
       "url": "https://www.hotpepper.jp/strJ003944002/?vos=nhppalsa000016",
       "shopName": "今日和　千葉本店",
-      "checkedAt": "2026-07-12T03:25:34.164Z"
-    },
-    "テレフォンオペレーター": {
-      "storeName": "テレフォンオペレーター",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:29:36.534Z"
+      "address": "千葉県千葉市中央区富士見１－１２－１７　ネクストサイト千葉ビル１０２",
+      "access": "JR千葉駅徒歩5分  栄町駅徒歩3分  京成千葉駅徒歩8分 ",
+      "genre": "イタリアン・フレンチ",
+      "budget": "3001～4000円",
+      "capacity": 62,
+      "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-12T03:52:46.457Z"
     },
     "焼肉りんざんえん": {
       "storeName": "焼肉りんざんえん",
       "listed": true,
       "url": "https://www.hotpepper.jp/strJ002648224/?vos=nhppalsa000016",
       "shopName": "焼肉りんざんえん",
-      "checkedAt": "2026-07-12T03:29:36.696Z"
+      "address": "千葉県船橋市三咲３-1-14",
+      "access": "三咲駅から徒歩4分",
+      "genre": "焼肉・ホルモン",
+      "budget": "4001～5000円",
+      "capacity": 30,
+      "open": "火、水、金～日、祝日、祝前日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
+      "checkedAt": "2026-07-12T03:52:46.464Z"
     },
     "海鮮和食魚まみれ仲々小林店": {
       "storeName": "海鮮和食 魚まみれ 仲々 小林店",
@@ -283,6 +304,117 @@
       "url": "",
       "shopName": "",
       "checkedAt": "2026-07-12T03:29:37.385Z"
+    },
+    "イタリアン&ワイン食堂vivi": {
+      "storeName": "イタリアン&ワイン食堂 ViVi",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001295496/?vos=nhppalsa000016",
+      "shopName": "イタリアン&ワイン食堂　ViVi",
+      "address": "千葉県船橋市本町１丁目11-27時田ビル１F",
+      "access": "船橋駅徒歩3分 京成船橋駅徒歩1分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 20,
+      "open": "月～金、祝前日: 15:00～23:30 （料理L.O. 22:30 ドリンクL.O. 23:00）土、日、祝日: 12:00～23:30 （料理L.O. 22:30 ドリンクL.O. 23:00）",
+      "checkedAt": "2026-07-12T03:52:46.221Z"
+    }
+  },
+  "market": {
+    "船橋市|居酒屋": {
+      "count": 176,
+      "checkedAt": "2026-07-12T03:52:47.252Z"
+    },
+    "松戸市|レストラン": {
+      "count": 17,
+      "checkedAt": "2026-07-12T03:52:47.281Z"
+    },
+    "市川市|バー": {
+      "count": 43,
+      "checkedAt": "2026-07-12T03:52:47.283Z"
+    },
+    "佐倉市|居酒屋": {
+      "count": 18,
+      "checkedAt": "2026-07-12T03:52:47.381Z"
+    },
+    "印西市|居酒屋": {
+      "count": 7,
+      "checkedAt": "2026-07-12T03:52:47.411Z"
+    },
+    "船橋市|カフェ": {
+      "count": 44,
+      "checkedAt": "2026-07-12T03:52:47.426Z"
+    },
+    "船橋市|イタリアン": {
+      "count": 26,
+      "checkedAt": "2026-07-12T03:52:47.521Z"
+    },
+    "成田市|カフェ": {
+      "count": 12,
+      "checkedAt": "2026-07-12T03:52:47.544Z"
+    },
+    "習志野市|カフェ": {
+      "count": 13,
+      "checkedAt": "2026-07-12T03:52:47.554Z"
+    },
+    "南房総市|レストラン": {
+      "count": 4,
+      "checkedAt": "2026-07-12T03:52:47.640Z"
+    },
+    "佐倉市|カフェ": {
+      "count": 11,
+      "checkedAt": "2026-07-12T03:52:47.665Z"
+    },
+    "柏市|居酒屋": {
+      "count": 104,
+      "checkedAt": "2026-07-12T03:52:47.683Z"
+    },
+    "市川市|焼肉": {
+      "count": 30,
+      "checkedAt": "2026-07-12T03:52:47.756Z"
+    },
+    "八千代市|寿司": {
+      "count": 5,
+      "checkedAt": "2026-07-12T03:52:47.784Z"
+    },
+    "松戸市|カフェ": {
+      "count": 29,
+      "checkedAt": "2026-07-12T03:52:47.816Z"
+    },
+    "流山市|中華": {
+      "count": 5,
+      "checkedAt": "2026-07-12T03:52:47.871Z"
+    },
+    "館山市|カフェ": {
+      "count": 9,
+      "checkedAt": "2026-07-12T03:52:47.910Z"
+    },
+    "千葉市美浜区|レストラン": {
+      "count": 8,
+      "checkedAt": "2026-07-12T03:52:47.944Z"
+    },
+    "船橋市|中華": {
+      "count": 34,
+      "checkedAt": "2026-07-12T03:52:48.028Z"
+    },
+    "松戸市|中華": {
+      "count": 36,
+      "checkedAt": "2026-07-12T03:52:48.031Z"
+    },
+    "富里市|焼肉": {
+      "count": 4,
+      "checkedAt": "2026-07-12T03:52:48.059Z"
+    },
+    "船橋市|焼肉": {
+      "count": 62,
+      "checkedAt": "2026-07-12T03:52:48.150Z"
+    },
+    "野田市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-12T03:52:48.159Z"
+    },
+    "市川市|カフェ": {
+      "count": 24,
+      "checkedAt": "2026-07-12T03:52:48.189Z"
     }
   },
   "items": [
@@ -341,18 +473,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:36:45.027Z"
-    },
-    {
-      "title": "「しゃぶしゃぶ温野菜 稲毛山王店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/全国NO.1のマネ…）",
-      "link": "https://foods-labo.com/offers/65269?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Fri, 10 Jul 2026 07:06:06 GMT",
-      "area": "千葉市稲毛区",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "株式会社WONDER CREW 海鮮居酒屋 うおっと函館店 オープニングスタッフ募集（飲食店の店舗スタッフ）",
@@ -431,6 +551,18 @@
       "firstSeenAt": "2026-07-12T03:29:32.899Z"
     },
     {
+      "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
+      "link": "https://job.tabelog.com/restaurants?id=12054861#job-info-10333",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 03 Jul 2026 09:30:32 GMT",
+      "area": "船橋市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:52:40.959Z"
+    },
+    {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
       "source": "船橋つうしん",
@@ -441,26 +573,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "株式会社ミライル オープニングスタッフ募集（コールセンター「テレフォンオペレーター」/お仕事給料プライベ…）",
-      "link": "https://www.hatarako.net/job/156122308/",
-      "source": "求人ボックス（はたらこねっと）",
-      "pubDate": "Tue, 30 Jun 2026 17:25:59 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:29:32.899Z"
-    },
-    {
-      "title": "株式会社ミライル オープニングスタッフ募集（一般事務・OA事務/お仕事給料プライベート全部があなたにあっ…）",
-      "link": "https://www.hatarako.net/job/156122557/",
-      "source": "求人ボックス（はたらこねっと）",
-      "pubDate": "Tue, 30 Jun 2026 17:05:59 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
       "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
@@ -545,54 +657,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "物語コーポレーション／千葉県浦安市に「焼肉きんぐ マーヴ浦安店」6月30日オープン",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ydmt6Y2lnLUE5aVZ2V1hGczFFVjZmVGlEV2paZ1NIeTR6dWdiZkdFd3lCUWwzSVFGQnNKR203aXhqbWpBTUFfT29ZZGlUREM3dEQ1MQ?oc=5",
-      "source": "流通ニュース",
-      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-      "area": "浦安市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
-      "title": "【焼肉きんぐ】『焼肉きんぐ マーヴ浦安店』が2026年6月30日(火)グランドオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAydnJWUVkzbGkwLWtfNzNGMnlDeFNmNXhGVzRxanpiN2RfaVR6Z2ZlVktBTm1xNDVIVHNuQTluYWYwNVdaMUZwb2pRM0QwWFlVaFBTTGdkSFM4OHc?oc=5",
-      "source": "朝日新聞",
-      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-      "area": "浦安市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
-      "title": "【焼肉きんぐ】『焼肉きんぐ マーヴ浦安店』が2026年6⽉30⽇(火)グランドオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lWFRNZXg4YWdCMS1zYm92VThDcld4WG5qcFZTRzhqYW9kNVlkckZRM2RxSzB3OTZhNVB5YmtCNlJvQzlfdXo4eko0Tkt2b1l3aUZ0dVhGWExBNkVjS04zXzBUZnF3dkJxWXc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-      "area": "浦安市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
-      "title": "【焼肉きんぐ】『焼肉きんぐ マーヴ浦安店』が2026年6月30日(火)グランドオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hQlIxcnRYS01nZG81QUdPSktPeDNBNUM2SUVXWHZ2TnZ1UTdXaXJHNk5yUnd0ZWVLaXp3d1BDYlJzRTd6NUs5U2k2MGFJeFF3MVp0bWp6TQ?oc=5",
-      "source": "千葉日報オンライン",
-      "pubDate": "Tue, 16 Jun 2026 02:01:56 GMT",
-      "area": "浦安市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-10T08:25:43.435Z"
     },
     {
       "title": "「ホルモン酒場 ばぁ場」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
