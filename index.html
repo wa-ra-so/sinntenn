@@ -75,6 +75,12 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .tag-hiring{background:var(--amber-pale);color:var(--amber);border:1px solid var(--amber-line);}
 .tag-hp-yes{background:#f0fdf4;color:var(--green);border:1px solid #86efac;}
 .tag-hp-no{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;}
+.tag-week{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;font-weight:700;}
+.tag-month{background:var(--blue-pale);color:var(--blue);border:1px solid var(--blue-light);}
+.tag-upcoming{background:#faf5ff;color:#9333ea;border:1px solid #e9d5ff;font-weight:700;}
+.hp-info{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin-top:8px;padding:10px 12px;background:var(--bg);border:1px solid var(--faint);border-radius:8px;font-size:12px;}
+.hp-info dt{color:var(--mid);font-weight:600;white-space:nowrap;}
+.hp-info dd{margin:0;color:var(--ink,#111);}
 
 .tag-count{background:var(--white);color:var(--light);border:1px solid var(--faint);font-weight:600;}
 .store-row{cursor:pointer;}
@@ -181,8 +187,25 @@ function buildGroups(items, hpMap) {
       : g.articles.some(a => a.signal === 'hiring') ? 'mixed' : 'opening';
     g.openDate = g.articles.map(a => extractOpenDate(a.title, itemDate(a))).find(d => d != null) ?? null;
     g.hp = (hpMap && g.storeName && hpMap[g.key]) || null; // ホットペッパー掲載チェック結果
+    g.stage = computeStage(g); // 開店タイミング（アプローチ優先度の目安）
   }
   return groups;
+}
+
+// 開店タイミングを判定。openDate（タイトル抽出）があれば優先し、
+// 無ければ最初の開店記事の日付を開店時期の近似として使う
+function computeStage(g) {
+  if (g.signal === 'hiring') return null; // 求人段階タグが既に付くため対象外
+  const ref = g.openDate ?? (() => {
+    const opening = g.articles.filter(a => a.signal !== 'hiring');
+    return opening.length ? Math.min(...opening.map(itemDate)) : null;
+  })();
+  if (ref == null || !Number.isFinite(ref) || ref === 0) return null;
+  const days = (Date.now() - ref) / 86400000;
+  if (days < 0) return { cls: 'tag-upcoming', label: `📅 オープン予定（あと${Math.ceil(-days)}日）` };
+  if (days <= 7) return { cls: 'tag-week', label: '🔥 開店1週間以内' };
+  if (days <= 30) return { cls: 'tag-month', label: '開店1ヶ月以内' };
+  return null;
 }
 
 function toggleInSet(set, value) {
@@ -349,6 +372,7 @@ function render() {
                 ? `<span class="tag tag-hp-yes">HP掲載 ●</span>`
                 : `<span class="tag tag-hp-no">HP未掲載 ×</span>`) : ''}
               ${g.signal !== 'opening' ? `<span class="tag tag-hiring">🧑‍🍳 オープン前・求人段階</span>` : ''}
+              ${g.stage ? `<span class="tag ${g.stage.cls}">${g.stage.label}</span>` : ''}
               ${g.area ? `<span class="tag tag-area">📍 ${g.area}</span>` : ''}
               ${g.genres.map(x => `<span class="tag tag-genre">${x}</span>`).join('')}
               ${it.source ? `<span class="tag tag-source">${it.source}</span>` : ''}
@@ -426,12 +450,36 @@ function renderDetail(groups) {
     </div>`;
   })() : '';
 
+  // 掲載店はAPIから取得済みの店舗詳細（住所・アクセス等）を下調べ用に表示
+  const hpDetailRows = g.hp && g.hp.listed ? [
+    ['住所', g.hp.address], ['アクセス', g.hp.access], ['ジャンル', g.hp.genre],
+    ['予算', g.hp.budget], ['席数', g.hp.capacity ? `${g.hp.capacity}席` : ''], ['営業時間', g.hp.open],
+  ].filter(([, v]) => v) : [];
+  const hpDetailHtml = hpDetailRows.length
+    ? `<dl class="hp-info">${hpDetailRows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`
+    : '';
+
   const hpStatus = g.hp ? `
     <div class="modal-section">
       <div class="modal-sec-title">ホットペッパー掲載状況（自動チェック）</div>
       ${g.hp.listed
         ? `<div class="open-date-box" style="background:#f0fdf4;border-color:#86efac;">● 掲載あり${g.hp.shopName && g.hp.shopName !== name ? `（${g.hp.shopName}）` : ''}${g.hp.url ? `　<a href="${g.hp.url}" target="_blank" rel="noopener" style="color:var(--green);font-weight:700;">店舗ページを開く →</a>` : ''}</div>`
         : `<div class="open-date-box" style="background:#fef2f2;border-color:#fecaca;">× 掲載なし<span style="color:var(--mid);font-size:11px;">（${fmtDate(g.hp.checkedAt)}時点・ネット予約未導入の可能性大）</span></div>`}
+      ${hpDetailHtml}
+    </div>` : '';
+
+  // 商圏データ：同エリア×同ジャンルのホットペッパー掲載店舗数（提案トークの数字）
+  const marketMap = (state.data && state.data.market) || {};
+  const marketHits = g.area
+    ? g.genres.map(genre => ({ genre, m: marketMap[`${g.area}|${genre}`] })).filter(x => x.m)
+    : [];
+  const marketHtml = marketHits.length ? `
+    <div class="modal-section">
+      <div class="modal-sec-title">商圏データ（ホットペッパー掲載店舗数）</div>
+      ${marketHits.map(({ genre, m }) =>
+        `<div class="open-date-box">📊 ${g.area} × ${genre}：<strong>${m.count}店</strong>が掲載中<span style="color:var(--mid);font-size:11px;">（${fmtDate(m.checkedAt)}時点）</span></div>`
+      ).join('')}
+      <div class="modal-hint">💡 「このエリアの${marketHits[0].genre}は既に${marketHits[0].m.count}店がネット予約で集客中」という提案の裏付けに使えます。</div>
     </div>` : '';
 
   const checkLinks = name ? `
@@ -470,6 +518,7 @@ function renderDetail(groups) {
           <div class="modal-store">${name || g.primary.title}</div>
           <div class="modal-tags">
             ${g.signal !== 'opening' ? `<span class="tag tag-hiring">🧑‍🍳 オープン前・求人段階</span>` : ''}
+            ${g.stage ? `<span class="tag ${g.stage.cls}">${g.stage.label}</span>` : ''}
             ${g.area ? `<span class="tag tag-area">📍 ${g.area}</span>` : ''}
             ${g.genres.map(x => `<span class="tag tag-genre">${x}</span>`).join('')}
           </div>
@@ -479,6 +528,7 @@ function renderDetail(groups) {
       <div class="modal-body">
         ${openDateHtml}
         ${checkLinks}
+        ${marketHtml}
         ${articles}
       </div>
     </div>
