@@ -398,6 +398,97 @@ async function collectKyujinbox() {
   return { items, runLog };
 }
 
+// ── Indeed（オープニングスタッフ求人）収集 ──
+// 検索結果ページの埋め込みJSON（window.mosaic.providerData "mosaic-provider-jobcards"）から
+// jobkey / タイトル / 社名 / 勤務地 / 掲載日を抽出する。
+// Indeedはbot対策が強く、Actionsランナーからはブロックされる場合がある（その場合はスキップ）。
+// ※タウンワークは検索ページがセッションCookie必須のため単体収集は見送り。
+//   タウンワーク掲載分の多くは求人ボックス経由で収集される。
+const INDEED_SEARCH_URL = 'https://jp.indeed.com/jobs?q=' +
+  encodeURIComponent('オープニングスタッフ 飲食店') + '&l=' + encodeURIComponent('千葉県');
+
+// text[from]（'{'）から対応する'}'までを、文字列リテラルを考慮して切り出す
+function extractJsonObject(text, from) {
+  let depth = 0, inStr = false, esc = false;
+  for (let i = from; i < text.length; i++) {
+    const c = text[i];
+    if (inStr) {
+      if (esc) esc = false;
+      else if (c === '\\') esc = true;
+      else if (c === '"') inStr = false;
+    } else if (c === '"') inStr = true;
+    else if (c === '{') depth++;
+    else if (c === '}') { depth--; if (depth === 0) return text.slice(from, i + 1); }
+  }
+  return null;
+}
+
+function parseIndeedJobs(html) {
+  const marker = 'window.mosaic.providerData["mosaic-provider-jobcards"]';
+  const at = html.indexOf(marker);
+  if (at === -1) return [];
+  const jsonStart = html.indexOf('{', at);
+  if (jsonStart === -1) return [];
+  const raw = extractJsonObject(html, jsonStart);
+  if (!raw) return [];
+  try {
+    const data = JSON.parse(raw);
+    const results = data && data.metaData && data.metaData.mosaicProviderJobCardsModel
+      && data.metaData.mosaicProviderJobCardsModel.results;
+    return Array.isArray(results) ? results : [];
+  } catch {
+    return [];
+  }
+}
+
+function indeedToItem(job) {
+  if (!job.jobkey) return null;
+  const jobTitle = (job.displayTitle || job.title || '').trim();
+  const company = (typeof job.company === 'string' ? job.company : (job.companyName || '')).trim();
+  const loc = job.formattedLocation || '';
+  if (!jobTitle || !company) return null;
+  if (!/オープニング|新規\s*オープン|新規\s*OPEN|NEW\s*OPEN|完全新規/i.test(jobTitle)) return null;
+  const combined = `${company} ${jobTitle} ${loc}`;
+  if (isChain(combined) || hasExcludeKeyword(combined)) return null;
+  const area = detectArea(loc) || detectArea(combined);
+  if (!loc.includes('千葉') && !area) return null; // 千葉県外の求人を除外
+  const isCorporate = /株式会社|有限会社|合同会社|\(株\)|（株）/.test(company);
+  const title = isCorporate
+    ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
+    : `「${truncate(company, 30)}」オープニングスタッフ募集（${truncate(jobTitle, 30)}）`;
+  let pubDate = null;
+  if (typeof job.pubDate === 'number') {
+    const d = new Date(job.pubDate);
+    if (!Number.isNaN(d.getTime())) pubDate = d.toUTCString();
+  }
+  return {
+    title,
+    link: `https://jp.indeed.com/viewjob?jk=${job.jobkey}`,
+    source: 'Indeed',
+    pubDate,
+    area,
+    genres: detectGenres(combined),
+    signal: 'hiring',
+    firstSeenAt: new Date().toISOString(),
+  };
+}
+
+async function collectIndeed() {
+  const items = [];
+  const runLog = [];
+  try {
+    const html = await fetchWithTimeout(INDEED_SEARCH_URL, FETCH_TIMEOUT_MS, BROWSER_USER_AGENT);
+    const jobs = parseIndeedJobs(html);
+    const converted = jobs.map(indeedToItem).filter(Boolean);
+    runLog.push({ label: 'Indeed（オープニングスタッフ 飲食店 千葉県）', query: INDEED_SEARCH_URL, ok: true, count: converted.length });
+    items.push(...converted);
+  } catch (err) {
+    runLog.push({ label: 'Indeed（オープニングスタッフ 飲食店 千葉県）', query: INDEED_SEARCH_URL, ok: false, error: String(err && err.message || err) });
+    console.warn(`[warn] indeed failed: ${err}`);
+  }
+  return { items, runLog };
+}
+
 async function collect() {
   const queries = buildQueries();
   const collected = [];
@@ -441,7 +532,9 @@ async function loadExisting() {
 async function main() {
   const { collected, runLog } = await collect();
   const kyujinbox = await collectKyujinbox();
-  runLog.push(...kyujinbox.runLog);
+  const indeed = await collectIndeed();
+  runLog.push(...kyujinbox.runLog, ...indeed.runLog);
+  const jobItems = [...kyujinbox.items, ...indeed.items];
 
   const filtered = [];
   const seenLinks = new Set();
@@ -468,8 +561,8 @@ async function main() {
     });
   }
 
-  // 求人ボックスの収集分をマージ（リンク・タイトルで重複排除）
-  for (const it of kyujinbox.items) {
+  // 求人サイト（求人ボックス・Indeed）の収集分をマージ（リンク・タイトルで重複排除）
+  for (const it of jobItems) {
     if (!it.link || seenLinks.has(it.link)) continue;
     const norm = normalizeForDedupe(it.title);
     if (seenTitles.has(norm)) continue;
