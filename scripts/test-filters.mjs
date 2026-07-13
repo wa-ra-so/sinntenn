@@ -10,6 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   hasExcludeKeyword, isChibaRelevant, isChain, isNonFoodJob, detectArea,
+  isOpeningJobTitle, connectorJobToItem,
 } from './fetch-stores.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -31,6 +32,7 @@ const MUST_EXCLUDE = [
   '船橋にガールズバーが新規開店',
   // 大手チェーン
   '物語コーポレーション／千葉県浦安市に「焼肉きんぐ マーヴ浦安店」6月30日オープン',
+  '市川市に定食チェーン「大戸屋ごはん処」がオープン',
   '「しゃぶしゃぶ温野菜 稲毛山王店」オープニングスタッフ募集',
   'スシローが千葉市中央区に新店舗をオープン',
   // タイトルに千葉要素が無い他県ニュース（本文だけ「千葉県」のケース）
@@ -88,7 +90,48 @@ for (const t of MUST_KEEP_JOBS) {
 check(detectArea('船橋駅前に居酒屋オープン') === '船橋市', 'エリア判定: 船橋→船橋市');
 check(detectArea('津田沼にカフェ開店') === '習志野市', 'エリア判定: 津田沼→習志野市');
 
-const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2;
+// ── オープニング求人タイトル判定（Indeed実データ由来のケース） ──
+const OPENING_TITLES = [
+  '【立ち飲み屋】オープニングスタッフ',
+  '8月オープン 話題のダイニング ホール・キッチン',
+  '8月オープン。スイーツづくりを楽しむセントラルキッチンクルー',
+  '近日オープンのカフェ ホールスタッフ',
+];
+const NOT_OPENING_TITLES = [
+  '駅チカレストランのキッチンスタッフ',      // 既存店の通常求人
+  'オムライス専門店のホール|yellow 千葉',   // 既存店の通常求人
+  'オープンキッチンでの調理補助',            // 「オープン」を含むが新店ではない
+  '7月リニューアルオープンの居酒屋スタッフ', // 改装は新店ではない
+];
+for (const t of OPENING_TITLES) {
+  check(isOpeningJobTitle(t), `オープニング求人が誤って除外: ${t}`);
+}
+for (const t of NOT_OPENING_TITLES) {
+  check(!isOpeningJobTitle(t), `通常求人がオープニング扱い: ${t}`);
+}
+
+// ── Indeedコネクタ形式の変換（merge-indeed.mjs 用） ──
+const kept = connectorJobToItem({
+  title: '【立ち飲み屋】オープニングスタッフ', company: '株式会社　山商',
+  location: '習志野市 津田沼', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test1',
+});
+check(kept && kept.area === '習志野市' && kept.signal === 'hiring',
+  'コネクタ変換: 千葉のオープニング求人が掲載される');
+check(connectorJobToItem({
+  title: '大戸屋(和食レストラン)のオープニングディナー店舗スタッフ', company: '株式会社大戸屋',
+  location: '市川市 市川', postedOn: 'May 01, 2026', url: 'https://to.indeed.com/test2',
+}) === null, 'コネクタ変換: 大手チェーン（大戸屋）が除外される');
+check(connectorJobToItem({
+  title: 'オープニングスタッフ募集 カフェホール', company: '株式会社テスト',
+  location: 'さいたま市 大宮', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test3',
+}) === null, 'コネクタ変換: 千葉県外の求人が除外される');
+check(connectorJobToItem({
+  title: 'オープニングスタッフ（コールセンター）', company: '株式会社テスト',
+  location: '千葉市 中央', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test4',
+}) === null, 'コネクタ変換: 飲食以外の職種が除外される');
+
+const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
+  + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 4;
 console.log(`${total - failures}/${total} 件パス`);
 
 // ── 公開データの監査（--audit 時のみ） ──

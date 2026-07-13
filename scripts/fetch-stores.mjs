@@ -52,7 +52,7 @@ const CHAIN_BLOCKLIST = [
   'マクドナルド', 'モスバーガー', 'バーガーキング', 'ロッテリア', 'ケンタッキー', 'KFC',
   'ミスタードーナツ', 'スターバックス', 'スタバ', 'ドトール', 'タリーズ', 'エクセルシオール',
   'サンマルクカフェ', 'コメダ珈琲', '星乃珈琲', '上島珈琲',
-  'すき家', '吉野家', '松屋', 'なか卯', '餃子の王将', '日高屋', '丸亀製麺', 'はなまるうどん',
+  'すき家', '吉野家', '松屋', 'なか卯', '餃子の王将', '日高屋', '丸亀製麺', 'はなまるうどん', '大戸屋',
   '富士そば', 'てんや', 'かっぱ寿司', 'スシロー', 'くら寿司', 'はま寿司', 'がってん寿司',
   'ペッパーランチ', 'ステーキのどん', 'いきなりステーキ',
   'サイゼリヤ', 'ガスト', 'バーミヤン', 'ジョナサン', 'デニーズ', 'ロイヤルホスト', 'ジョイフル', 'ココス',
@@ -414,13 +414,20 @@ function truncate(str, max) {
   return str.length > max ? str.slice(0, max) + '…' : str;
 }
 
+// 求人タイトルが「新規オープンの店」の募集かどうか。
+// 「7月オープン」「近日オープン」型も拾うが、「リニューアルオープン」「オープンキッチン」は拾わない
+export function isOpeningJobTitle(jobTitle) {
+  if (/オープニング|新規\s*オープン|新規\s*OPEN|NEW\s*OPEN|完全新規/i.test(jobTitle)) return true;
+  return /(\d{1,2}月|近日|今[春夏秋冬])[にの]?(グランド)?オープン/.test(jobTitle);
+}
+
 function kyujinboxToItem(job) {
   const jobTitle = (job.title || '').trim();
   const company = (job.company || '').trim();
   const workArea = job.workArea || '';
   if (!company || !workArea.includes('千葉県')) return null;
   const tags = [...(job.allFeatureTags || []), ...(job.featureTagSp || [])];
-  const isOpening = tags.includes('オープニング') || /オープニング|新規オープン|NEW\s*OPEN/i.test(jobTitle);
+  const isOpening = tags.includes('オープニング') || isOpeningJobTitle(jobTitle);
   if (!isOpening) return null;
   if (isNonFoodJob(jobTitle)) return null;
   const combined = `${company} ${jobTitle}`;
@@ -515,7 +522,7 @@ function indeedToItem(job) {
   const company = (typeof job.company === 'string' ? job.company : (job.companyName || '')).trim();
   const loc = job.formattedLocation || '';
   if (!jobTitle || !company) return null;
-  if (!/オープニング|新規\s*オープン|新規\s*OPEN|NEW\s*OPEN|完全新規/i.test(jobTitle)) return null;
+  if (!isOpeningJobTitle(jobTitle)) return null;
   if (isNonFoodJob(jobTitle)) return null;
   const combined = `${company} ${jobTitle} ${loc}`;
   if (isChain(combined) || hasExcludeKeyword(combined)) return null;
@@ -533,6 +540,42 @@ function indeedToItem(job) {
   return {
     title,
     link: `https://jp.indeed.com/viewjob?jk=${job.jobkey}`,
+    source: 'Indeed',
+    pubDate,
+    area,
+    genres: detectGenres(combined),
+    signal: 'hiring',
+    firstSeenAt: new Date().toISOString(),
+  };
+}
+
+// Indeed公式コネクタ（Claude MCP）経由で取得した求人を既存アイテム形式へ変換する。
+// スクレイピング版 indeedToItem と同じフィルタ・タイトル生成規則を適用すること。
+// job: { title, company, location, postedOn, url } （merge-indeed.mjs 参照）
+export function connectorJobToItem(job) {
+  const jobTitle = (job.title || '').trim();
+  const company = (job.company || '').trim();
+  const loc = (job.location || '').trim();
+  const link = (job.url || '').trim();
+  if (!jobTitle || !company || !link) return null;
+  if (!isOpeningJobTitle(jobTitle)) return null;
+  if (isNonFoodJob(jobTitle)) return null;
+  const combined = `${company} ${jobTitle} ${loc}`;
+  if (isChain(combined) || hasExcludeKeyword(combined)) return null;
+  const area = detectArea(loc) || detectArea(combined);
+  if (!loc.includes('千葉') && !area) return null; // 千葉県外の求人を除外
+  const isCorporate = /株式会社|有限会社|合同会社|\(株\)|（株）/.test(company);
+  const title = isCorporate
+    ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
+    : `「${truncate(company, 30)}」オープニングスタッフ募集（${truncate(jobTitle, 30)}）`;
+  let pubDate = null;
+  if (job.postedOn) {
+    const d = new Date(job.postedOn);
+    if (!Number.isNaN(d.getTime())) pubDate = d.toUTCString();
+  }
+  return {
+    title,
+    link,
     source: 'Indeed',
     pubDate,
     area,
@@ -581,7 +624,7 @@ async function collect() {
   return { collected, runLog };
 }
 
-function normalizeForDedupe(title) {
+export function normalizeForDedupe(title) {
   return title.replace(/\s+/g, '').replace(/[！!？?「」『』【】\[\]（）()]/g, '');
 }
 

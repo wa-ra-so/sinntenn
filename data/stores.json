@@ -49,9 +49,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 0,
+      "mergedAt": "2026-07-13T08:44:35.741Z"
     }
   ],
-  "itemCount": 52,
+  "itemCount": 56,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -609,6 +615,18 @@
       "firstSeenAt": "2026-07-12T03:29:32.899Z"
     },
     {
+      "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",
+      "link": "https://to.indeed.com/aa4h6kghmx4n",
+      "source": "Indeed",
+      "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T08:44:24.485Z"
+    },
+    {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VaVVPdVpRT1NqRkpMSC10a0QyZlY4RmtzZ2l4WUZFdFdzQUtEWEw2U2ExT3dBclpQQW9acjhVMWlKY3p3MTl4UTBsZ2hFMXhVNlE?oc=5",
       "source": "船橋つうしん",
@@ -671,6 +689,16 @@
       "firstSeenAt": "2026-07-12T21:40:41.776Z"
     },
     {
+      "title": "合同会社CROP オープニングスタッフ募集（オープニングスタッフ大募集!✨「ちゃん系ラーメン店」の運営ス…）",
+      "link": "https://to.indeed.com/aan6lmwr4fgm",
+      "source": "Indeed",
+      "pubDate": "Wed, 08 Jul 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T08:44:24.485Z"
+    },
+    {
       "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
       "link": "https://job.tabelog.com/restaurants?id=12054861#job-info-10333",
       "source": "求人ボックス（食べログ求人）",
@@ -706,6 +734,26 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "株式会社　山商 オープニングスタッフ募集（【立ち飲み屋】オープニングスタッフ）",
+      "link": "https://to.indeed.com/aagw62czcwfh",
+      "source": "Indeed",
+      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T08:44:24.476Z"
+    },
+    {
+      "title": "株式会社HFPカンパニー オープニングスタッフ募集（8月オープン。スイーツづくりを楽しむセントラルキッチンクルー）",
+      "link": "https://to.indeed.com/aa4phlwy8md6",
+      "source": "Indeed",
+      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "area": "茂原市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T08:44:24.485Z"
     },
     {
       "title": "「Koala Tree Cafe and Dining」オープニングスタッフ募集（調理師・調理スタッフ/カフェ/カフェ・喫茶店/飲食店/交通費…）",

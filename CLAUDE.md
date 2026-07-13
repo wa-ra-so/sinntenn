@@ -15,6 +15,7 @@
 | `shinten.html` | 旧URL向けリダイレクトスタブ（削除しない） |
 | `scripts/fetch-stores.mjs` | 収集スクリプト。Actionsから毎朝6:00 JST頃実行 |
 | `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査。失敗すると公開が止まる |
+| `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人をstores.jsonへマージ。毎朝のClaudeルーティンから実行 |
 | `data/stores.json` | 収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
 
 ## データソース（fetch-stores.mjs）
@@ -23,7 +24,11 @@
 2. **求人ボックス** — オープニングスタッフ求人。検索結果の `data-func-show-arg` 属性の
    埋め込みJSONをパース。タウンワーク・バイトル等の掲載もここ経由で入る
 3. **Indeed** — 埋め込みJSON（mosaic-provider-jobcards）をパース。
-   **Actionsランナーからは403でブロックされることが多い**が、仕様どおりスキップされる
+   **Actionsランナーからは403でブロックされることが多い**が、仕様どおりスキップされる。
+   このため主経路はIndeed公式コネクタ（Claude MCP）：毎朝のClaudeルーティンが
+   `search_jobs`（オープニングスタッフ 飲食店 × 千葉県）で検索し、結果JSONを
+   `scripts/merge-indeed.mjs` で `stores.json` にマージする（フィルタは
+   fetch-stores.mjs の `connectorJobToItem` に集約、収集基準は他ソースと同一）
 4. **ホットペッパーAPI**（`HOTPEPPER_API_KEY` シークレット設定時のみ）—
    掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ（エリア×ジャンル別の掲載店数）
 
