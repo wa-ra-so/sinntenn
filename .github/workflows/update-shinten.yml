@@ -1,4 +1,4 @@
-name: 千葉県新店情報の毎朝更新
+name: 新店情報の毎朝更新
 
 on:
   schedule:
@@ -10,6 +10,7 @@ on:
     paths:
       # 収集ロジックやワークフローが更新されたら即座に再収集する
       - 'scripts/fetch-stores.mjs'
+      - 'scripts/prefectures.mjs'
       - 'scripts/test-filters.mjs'
       - '.github/workflows/update-shinten.yml'
 
@@ -35,15 +36,23 @@ jobs:
       - name: Test filters
         run: node scripts/test-filters.mjs
 
+      # 4県分を順に収集。1県が失敗しても他県は収集を続ける
+      # （スクリプト内部でも、ソース単位の失敗は他ソースに影響しない設計）
       - name: Fetch new store data
-        run: node scripts/fetch-stores.mjs
+        run: |
+          failed=0
+          for pref in chiba tokyo kanagawa saitama; do
+            echo "=== ${pref} ==="
+            node scripts/fetch-stores.mjs --pref=${pref} || failed=1
+          done
+          exit ${failed}
         env:
           # リクルートWebサービス（https://webservice.recruit.co.jp/）の無料APIキー。
           # リポジトリの Settings > Secrets and variables > Actions に登録すると
           # ホットペッパー掲載チェック（●×表示）が有効になる。未設定ならスキップ。
           HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
 
-      # 公開前の最終監査。収集後のデータに不適切な掲載が1件でもあれば
+      # 公開前の最終監査（全県分）。収集後のデータに不適切な掲載が1件でもあれば
       # ここで失敗し、コミット（＝サイトへの公開）が行われない
       - name: Audit collected data
         run: node scripts/test-filters.mjs --audit
@@ -52,10 +61,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data/stores.json; then
+          git add data/
+          if git diff --cached --quiet; then
             echo "No changes"
           else
-            git add data/stores.json
             git commit -m "chore: 新店情報を自動更新 ($(date -u +%Y-%m-%d))"
             git push
           fi
