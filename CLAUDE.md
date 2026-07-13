@@ -1,22 +1,25 @@
-# 千葉県 新店リサーチ
+# 新店リサーチ（千葉・東京・神奈川・埼玉）
 
-食べログ営業（千葉チーム）のメンバーが使う営業支援ツール。千葉県の新規開店飲食店を
+食べログ営業のメンバーが使う営業支援ツール。対象都県の新規開店飲食店を
 毎朝自動収集し、GitHub Pagesで一覧表示する。**依存パッケージなし**（Node 20+の組み込みfetchのみ）。
 
-- 公開URL: https://wa-ra-so.github.io/sinntenn/ （新店リサーチ）
+- 公開URL: https://wa-ra-so.github.io/sinntenn/ （千葉県・デフォルト）
+  - 東京都: `?pref=tokyo` / 神奈川県: `?pref=kanagawa` / 埼玉県: `?pref=saitama`
 - 提案書セイセイ君: https://wa-ra-so.github.io/sinntenn/seiseikun.html （独立ツール）
 
 ## 構成
 
 | ファイル | 役割 |
 |---|---|
-| `index.html` | 新店リサーチ画面（一覧・絞り込み・店舗詳細モーダル）。ビルドなしの素のHTML+JS |
+| `index.html` | 新店リサーチ画面（一覧・絞り込み・店舗詳細モーダル）。ビルドなしの素のHTML+JS。`?pref=`で県切替 |
 | `seiseikun.html` | 提案書セイセイ君（独立ツール、新店リサーチとは無関係） |
 | `shinten.html` | 旧URL向けリダイレクトスタブ（削除しない） |
-| `scripts/fetch-stores.mjs` | 収集スクリプト。Actionsから毎朝6:00 JST頃実行 |
-| `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査。失敗すると公開が止まる |
-| `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人をstores.jsonへマージ。毎朝のClaudeルーティンから実行 |
-| `data/stores.json` | 収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
+| `scripts/prefectures.mjs` | 県設定（市区町村・駅名エイリアス・データファイル名）。**index.htmlのPREFSと対応を保つ** |
+| `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから毎朝6:00 JST頃、4県分実行 |
+| `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査（全県分）。失敗すると公開が止まる |
+| `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人を県別データへマージ。毎朝のClaudeルーティンから実行 |
+| `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
+| `data/stores-tokyo.json` ほか | 東京・神奈川（`-kanagawa`）・埼玉（`-saitama`）の収集済みデータ（同上） |
 
 ## データソース（fetch-stores.mjs）
 
@@ -26,8 +29,8 @@
 3. **Indeed** — 埋め込みJSON（mosaic-provider-jobcards）をパース。
    **Actionsランナーからは403でブロックされることが多い**が、仕様どおりスキップされる。
    このため主経路はIndeed公式コネクタ（Claude MCP）：毎朝のClaudeルーティンが
-   `search_jobs`（オープニングスタッフ 飲食店 × 千葉県）で検索し、結果JSONを
-   `scripts/merge-indeed.mjs` で `stores.json` にマージする（フィルタは
+   `search_jobs`（オープニングスタッフ 飲食店 × 各都県）で4県分検索し、結果JSONを
+   `scripts/merge-indeed.mjs --pref=◯◯` で県別データにマージする（フィルタは
    fetch-stores.mjs の `connectorJobToItem` に集約、収集基準は他ソースと同一）
 4. **ホットペッパーAPI**（`HOTPEPPER_API_KEY` シークレット設定時のみ）—
    掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ（エリア×ジャンル別の掲載店数）
@@ -36,6 +39,8 @@
 
 - **店名抽出 `extractStoreName` は `scripts/fetch-stores.mjs` と `index.html` の両方にあり、
   必ず同一ロジックを保つこと**（片方だけ変えるとHP掲載チェックのキーがずれる）
+- 県を追加するとき: `scripts/prefectures.mjs` に県設定を足し、`index.html` の `PREFS` と
+  ワークフローの県ループ、毎朝のClaudeルーティンの検索対象にも同じ県を足す（4箇所）
 - 収集フィルタの判定順: チェーン除外 → 除外ワード → 千葉関連性。
   既存 `data/stores.json` にも毎回同じ基準を適用する（基準を強化すると過去の混入も自動で消える）
 - 外部サイトのHTML構造変化で収集が失敗しても、他のソースは動き続ける設計
@@ -51,7 +56,7 @@
 - ガールズバー・キャバクラ等の飲食店以外の業態
 - 大手チェーン（本部一括契約のため提案対象外）
 - 飲食以外の職種求人（過去にテレフォンオペレーター求人が混入した）
-- タイトルに千葉要素がない他県ニュース
+- タイトルに対象県の要素がない他県ニュース（各県のデータには当該県の情報のみ載せる）
 
 新しい混入を見つけたら：`EXCLUDE_KEYWORDS` / `CHAIN_BLOCKLIST` / `NONFOOD_JOB_KEYWORDS`
 （fetch-stores.mjs）に追加し、**そのタイトルを `test-filters.mjs` のテストケースにも追加**して再発防止する。

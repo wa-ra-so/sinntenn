@@ -1,11 +1,11 @@
-// Indeed公式コネクタ（Claude MCP）で収集した求人を data/stores.json にマージする。
+// Indeed公式コネクタ（Claude MCP）で収集した求人を data/ 配下の県別JSONにマージする。
 // GitHub ActionsからのIndeedスクレイピングは403でブロックされるため、
 // Claudeセッション（毎朝のルーティン）がコネクタで検索した結果をこのスクリプトで取り込む。
 //
-//   node scripts/merge-indeed.mjs <raw-jobs.json> [stores.json のパス]
+//   node scripts/merge-indeed.mjs <raw-jobs.json> [stores.json のパス] [--pref=tokyo]
 //
-// 第2引数を省略すると data/stores.json を更新する。ルーティンから main の
-// stores.json に対してマージする場合は取り出したファイルのパスを渡す。
+// --pref を省略すると千葉県。第2引数を省略すると data/<県のdataFile> を更新する。
+// ルーティンから main のデータに対してマージする場合は取り出したファイルのパスを渡す。
 //
 // <raw-jobs.json> は次の形式の配列:
 //   [{ "title": "求人タイトル", "company": "社名/店名", "location": "習志野市 津田沼",
@@ -17,13 +17,16 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { connectorJobToItem, normalizeForDedupe } from './fetch-stores.mjs';
+import { getPrefFromArgv } from './prefectures.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_PATH = process.argv[3] || path.join(__dirname, '..', 'data', 'stores.json');
+const pref = getPrefFromArgv();
+const positional = process.argv.slice(2).filter(a => !a.startsWith('--'));
+const rawPath = positional[0];
+const DATA_PATH = positional[1] || path.join(__dirname, '..', 'data', pref.dataFile);
 
-const rawPath = process.argv[2];
 if (!rawPath) {
-  console.error('usage: node scripts/merge-indeed.mjs <raw-jobs.json>');
+  console.error('usage: node scripts/merge-indeed.mjs <raw-jobs.json> [stores.json のパス] [--pref=tokyo]');
   process.exit(1);
 }
 
@@ -33,9 +36,15 @@ if (!Array.isArray(jobs)) {
   process.exit(1);
 }
 
-const data = JSON.parse(await readFile(DATA_PATH, 'utf-8'));
+let data;
+try {
+  data = JSON.parse(await readFile(DATA_PATH, 'utf-8'));
+} catch {
+  // 新設県の初回はデータファイルが無いので空で始める
+  data = { generatedAt: null, ttlDays: 60, runLog: [], itemCount: 0, hotpepper: {}, market: {}, items: [] };
+}
 if (!Array.isArray(data.items)) {
-  console.error('data/stores.json に items がありません（破損？）— 中断します');
+  console.error(`${DATA_PATH} に items がありません（破損？）— 中断します`);
   process.exit(1);
 }
 
@@ -46,7 +55,7 @@ const seenTitles = new Set(data.items.map(it => normalizeForDedupe(it.title)));
 
 let added = 0, filteredOut = 0, dup = 0, stale = 0;
 for (const job of jobs) {
-  const item = connectorJobToItem(job);
+  const item = connectorJobToItem(job, pref);
   if (!item) { filteredOut++; continue; }
   const d = item.pubDate ? Date.parse(item.pubDate) : NaN;
   if (Number.isFinite(d) && d < cutoff) { stale++; continue; }
@@ -66,12 +75,13 @@ data.items.sort((a, b) => {
 });
 data.items = data.items.slice(0, 300);
 data.itemCount = data.items.length;
+if (!data.generatedAt) data.generatedAt = new Date().toISOString();
 if (Array.isArray(data.runLog)) {
   // 同ラベルの古いエントリを差し替え（毎日実行してもログが増殖しないように）
-  const label = 'Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）';
+  const label = `Indeedコネクタ（オープニングスタッフ 飲食店 ${pref.name}）`;
   data.runLog = data.runLog.filter(r => r.label !== label);
   data.runLog.push({ label, ok: true, count: added, mergedAt: new Date().toISOString() });
 }
 
 await writeFile(DATA_PATH, JSON.stringify(data, null, 2) + '\n', 'utf-8');
-console.log(`追加 ${added} 件 / フィルタ除外 ${filteredOut} 件 / 重複 ${dup} 件 / 期限切れ ${stale} 件 → 計 ${data.itemCount} 件`);
+console.log(`[${pref.name}] 追加 ${added} 件 / フィルタ除外 ${filteredOut} 件 / 重複 ${dup} 件 / 期限切れ ${stale} 件 → 計 ${data.itemCount} 件`);

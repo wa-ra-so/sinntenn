@@ -9,12 +9,12 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
-  hasExcludeKeyword, isChibaRelevant, isChain, isNonFoodJob, detectArea,
+  hasExcludeKeyword, isChibaRelevant, isPrefRelevant, isChain, isNonFoodJob, detectArea,
   isOpeningJobTitle, connectorJobToItem,
 } from './fetch-stores.mjs';
+import { PREFECTURES } from './prefectures.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_PATH = path.join(__dirname, '..', 'data', 'stores.json');
 
 // ── 除外されるべきタイトル（掲載されたらNG） ──
 const MUST_EXCLUDE = [
@@ -89,6 +89,14 @@ for (const t of MUST_KEEP_JOBS) {
 // エリア判定の基本動作
 check(detectArea('船橋駅前に居酒屋オープン') === '船橋市', 'エリア判定: 船橋→船橋市');
 check(detectArea('津田沼にカフェ開店') === '習志野市', 'エリア判定: 津田沼→習志野市');
+// 他県のエリア判定・関連性判定
+check(detectArea('新宿にビストロがオープン', PREFECTURES.tokyo) === '新宿区', 'エリア判定: 新宿→新宿区（東京）');
+check(detectArea('吉祥寺の焼肉店', PREFECTURES.tokyo) === '武蔵野市', 'エリア判定: 吉祥寺→武蔵野市（東京）');
+check(detectArea('武蔵小杉にバル開店', PREFECTURES.kanagawa) === '川崎市中原区', 'エリア判定: 武蔵小杉→川崎市中原区（神奈川）');
+check(detectArea('大宮駅前に居酒屋', PREFECTURES.saitama) === 'さいたま市大宮区', 'エリア判定: 大宮→さいたま市大宮区（埼玉）');
+check(isPrefRelevant('池袋に大型居酒屋がオープン', PREFECTURES.tokyo), '関連性: 池袋は東京都で掲載される');
+check(!isPrefRelevant('横浜・関内に話題のイタリアンレストランが開店', PREFECTURES.tokyo), '関連性: 横浜の記事は東京都で除外される');
+check(isPrefRelevant('横浜・関内に話題のイタリアンレストランが開店', PREFECTURES.kanagawa), '関連性: 横浜の記事は神奈川県で掲載される');
 
 // ── オープニング求人タイトル判定（Indeed実データ由来のケース） ──
 const OPENING_TITLES = [
@@ -125,20 +133,34 @@ check(connectorJobToItem({
   title: 'オープニングスタッフ募集 カフェホール', company: '株式会社テスト',
   location: 'さいたま市 大宮', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test3',
 }) === null, 'コネクタ変換: 千葉県外の求人が除外される');
+const saitamaKept = connectorJobToItem({
+  title: 'オープニングスタッフ募集 カフェホール', company: '株式会社テスト',
+  location: 'さいたま市 大宮', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test3',
+}, PREFECTURES.saitama);
+check(saitamaKept && saitamaKept.area.startsWith('さいたま市'),
+  'コネクタ変換: さいたまの求人は埼玉県で掲載される');
 check(connectorJobToItem({
   title: 'オープニングスタッフ（コールセンター）', company: '株式会社テスト',
   location: '千葉市 中央', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test4',
 }) === null, 'コネクタ変換: 飲食以外の職種が除外される');
 
 const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
-  + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 4;
+  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 5;
 console.log(`${total - failures}/${total} 件パス`);
 
-// ── 公開データの監査（--audit 時のみ） ──
+// ── 公開データの監査（--audit 時のみ、全県分） ──
 if (process.argv.includes('--audit')) {
-  console.log('── data/stores.json 監査 ──');
-  try {
-    const json = JSON.parse(await readFile(DATA_PATH, 'utf-8'));
+  for (const pref of Object.values(PREFECTURES)) {
+    const dataPath = path.join(__dirname, '..', 'data', pref.dataFile);
+    console.log(`── data/${pref.dataFile} 監査（${pref.name}） ──`);
+    let json;
+    try {
+      json = JSON.parse(await readFile(dataPath, 'utf-8'));
+    } catch (err) {
+      // 新設県の初回はファイルが無いためスキップ（千葉は既存なので通常ここに来ない）
+      console.warn(`[warn] 監査スキップ: ${err.message}`);
+      continue;
+    }
     const items = Array.isArray(json.items) ? json.items : [];
     let bad = 0;
     for (const it of items) {
@@ -146,7 +168,7 @@ if (process.argv.includes('--audit')) {
       if (hasExcludeKeyword(it.title)) problems.push('除外ワード');
       if (isChain(it.title)) problems.push('大手チェーン');
       if (it.signal === 'hiring' && isNonFoodJob(it.title)) problems.push('飲食以外の求人');
-      if (!it.area && !isChibaRelevant(it.title)) problems.push('千葉要素なし');
+      if (!it.area && !isPrefRelevant(it.title, pref)) problems.push(`${pref.short}要素なし`);
       if (problems.length) {
         bad++;
         console.error(`  ✗ [${problems.join('・')}] ${it.title}`);
@@ -158,8 +180,6 @@ if (process.argv.includes('--audit')) {
     } else {
       console.log(`全 ${items.length} 件クリーン`);
     }
-  } catch (err) {
-    console.warn(`[warn] data/stores.json を監査できませんでした: ${err.message}`);
   }
 }
 

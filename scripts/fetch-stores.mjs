@@ -1,5 +1,6 @@
-// 千葉県の新規開店情報（予約業態）を Google ニュース検索RSS から収集し、
-// data/stores.json を更新するスクリプト。GitHub Actions から毎朝実行される想定。
+// 新規開店情報（予約業態）を Google ニュース検索RSS 等から収集し、
+// data/ 配下の県別JSONを更新するスクリプト。GitHub Actions から毎朝実行される想定。
+// 対象の県は --pref=chiba|tokyo|kanagawa|saitama で指定（省略時は千葉県）。
 // ホットペッパー掲載チェックは Actions シークレット HOTPEPPER_API_KEY 設定時のみ実行。
 // （シークレットを削除・再作成後、再実行トリガー）
 //
@@ -7,9 +8,13 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { PREFECTURES, getPrefFromArgv } from './prefectures.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const OUT_PATH = path.join(__dirname, '..', 'data', 'stores.json');
+// このプロセスの収集対象県（import時は千葉がデフォルトになるが、
+// 県依存の関数はすべて pref 引数で上書きできる）
+const ACTIVE_PREF = getPrefFromArgv();
+const OUT_PATH = path.join(__dirname, '..', 'data', ACTIVE_PREF.dataFile);
 
 // ── 収集対象ジャンル（予約ニーズの高い飲食業態。チェーンは後段で除外） ──
 const GENRE_GROUPS = [
@@ -41,10 +46,15 @@ export function hasExcludeKeyword(title) {
   return EXCLUDE_KEYWORDS.some(w => title.includes(w));
 }
 
-// タイトルに千葉県の要素（「千葉」または県内の市区町村・駅名）が無い記事は、
-// 本文だけに「千葉県」が出てくる他県ニュースの可能性が高いため除外する
+// タイトルに対象県の要素（県名または県内の市区町村・駅名）が無い記事は、
+// 本文だけに県名が出てくる他県ニュースの可能性が高いため除外する
+export function isPrefRelevant(title, pref = ACTIVE_PREF) {
+  return title.includes(pref.short) || detectArea(title, pref) !== '';
+}
+
+// 後方互換（テスト等から利用）: 千葉県固定の関連性判定
 export function isChibaRelevant(title) {
-  return title.includes('千葉') || detectArea(title) !== '';
+  return isPrefRelevant(title, PREFECTURES.chiba);
 }
 
 // ── 大手チェーン（既にネット予約導入済み・優先度が低いため除外） ──
@@ -63,43 +73,6 @@ const CHAIN_BLOCKLIST = [
   'セブンイレブン', 'ファミリーマート', 'ローソン', 'ユニクロ', '無印良品', 'イオン', 'ドン・キホーテ',
 ];
 
-// ── エリアタグ付け用の市区町村（長い名称を優先してマッチ） ──
-const CHIBA_AREAS = [
-  '千葉市中央区', '千葉市稲毛区', '千葉市美浜区', '千葉市若葉区', '千葉市緑区', '千葉市花見川区',
-  '銚子市', '市川市', '船橋市', '館山市', '木更津市', '松戸市', '野田市', '茂原市', '成田市', '佐倉市',
-  '東金市', '旭市', '習志野市', '柏市', '勝浦市', '市原市', '流山市', '八千代市', '我孫子市', '鴨川市',
-  '鎌ケ谷市', '君津市', '富津市', '浦安市', '四街道市', '袖ケ浦市', '八街市', '印西市', '白井市', '富里市',
-  '南房総市', '匝瑳市', '香取市', '山武市', 'いすみ市', '大網白里市',
-  '酒々井町', '栄町', '神崎町', '多古町', '東庄町', '九十九里町', '芝山町', '横芝光町',
-  '一宮町', '睦沢町', '長生村', '白子町', '長柄町', '長南町', '大多喜町', '御宿町', '鋸南町',
-];
-
-// 「市」等の付かない略称・駅名・地名からエリアを推定（長い候補を優先してマッチ）
-const AREA_ALIASES = {
-  '船橋':'船橋市', '柏':'柏市', '市川':'市川市', '松戸':'松戸市', '習志野':'習志野市', '八千代':'八千代市',
-  '我孫子':'我孫子市', '印西':'印西市', '成田':'成田市', '佐倉':'佐倉市', '浦安':'浦安市', '市原':'市原市',
-  '流山':'流山市', '野田':'野田市', '鴨川':'鴨川市', '富津':'富津市', '君津':'君津市', '木更津':'木更津市',
-  '袖ケ浦':'袖ケ浦市', '袖ヶ浦':'袖ケ浦市', '八街':'八街市', '白井':'白井市', '鎌ケ谷':'鎌ケ谷市', '鎌ヶ谷':'鎌ケ谷市',
-  '南房総':'南房総市', '館山':'館山市', '香取':'香取市', 'いすみ':'いすみ市', '匝瑳':'匝瑳市', '旭':'旭市',
-  '銚子':'銚子市', '東金':'東金市', '山武':'山武市', '大網白里':'大網白里市', '四街道':'四街道市', '富里':'富里市',
-  '中央区':'千葉市中央区', '稲毛区':'千葉市稲毛区', '美浜区':'千葉市美浜区', '若葉区':'千葉市若葉区',
-  '緑区':'千葉市緑区', '花見川区':'千葉市花見川区',
-  '幕張':'千葉市美浜区', '海浜幕張':'千葉市美浜区', '幕張本郷':'千葉市花見川区',
-  '西船橋':'船橋市', '京成船橋':'船橋市', '下総中山':'船橋市', '東船橋':'船橋市', '高根公団':'船橋市', '北習志野':'船橋市',
-  '津田沼':'習志野市', '新津田沼':'習志野市', '実籾':'習志野市',
-  '八千代台':'八千代市', '勝田台':'八千代市', '東葉勝田台':'八千代市',
-  '南柏':'柏市', '新柏':'柏市', '北柏':'柏市', '柏の葉キャンパス':'柏市',
-  '五香':'松戸市', '元山':'松戸市', '馬橋':'松戸市', '新松戸':'松戸市', '北松戸':'松戸市', '八柱':'松戸市', '新八柱':'松戸市', '六実':'松戸市',
-  '本八幡':'市川市', '妙典':'市川市', '行徳':'市川市', '南行徳':'市川市',
-  '新浦安':'浦安市', '舞浜':'浦安市', '東京ディズニーリゾート':'浦安市', '東京ディズニーランド':'浦安市', '東京ディズニーシー':'浦安市',
-  '新鎌ケ谷':'鎌ケ谷市',
-  '成田空港':'成田市', '成田国際空港':'成田市',
-  '天王台':'我孫子市',
-  '稲毛':'千葉市稲毛区', '稲毛海岸':'千葉市美浜区', '検見川浜':'千葉市美浜区', '新検見川':'千葉市花見川区',
-  '蘇我':'千葉市中央区', '鎌取':'千葉市緑区', '土気':'千葉市緑区', '誉田':'千葉市緑区',
-};
-const AREA_ALIAS_KEYS = Object.keys(AREA_ALIASES).sort((a, b) => b.length - a.length);
-
 const FEED_TTL_DAYS = 60; // 何日分の情報を一覧に残すか
 const FETCH_TIMEOUT_MS = 15000;
 
@@ -108,12 +81,12 @@ function buildQueries() {
   const hirePart = `(${HIRE_SIGNAL.join(' OR ')})`;
   const openQueries = GENRE_GROUPS.map(g => ({
     label: `${g.label}（開店ニュース）`,
-    query: `千葉県 ${openPart} (${g.keywords.join(' OR ')})`,
+    query: `${ACTIVE_PREF.name} ${openPart} (${g.keywords.join(' OR ')})`,
     signal: 'opening',
   }));
   const hireQueries = GENRE_GROUPS.map(g => ({
     label: `${g.label}（オープニング求人）`,
-    query: `千葉県 ${hirePart} (${g.keywords.join(' OR ')})`,
+    query: `${ACTIVE_PREF.name} ${hirePart} (${g.keywords.join(' OR ')})`,
     signal: 'hiring',
   }));
   return [...openQueries, ...hireQueries];
@@ -166,12 +139,12 @@ async function fetchWithTimeout(url, ms, userAgent) {
   }
 }
 
-export function detectArea(title) {
-  for (const area of CHIBA_AREAS) {
+export function detectArea(title, pref = ACTIVE_PREF) {
+  for (const area of pref.areas) {
     if (title.includes(area)) return area;
   }
-  for (const key of AREA_ALIAS_KEYS) {
-    if (title.includes(key)) return AREA_ALIASES[key];
+  for (const key of pref.aliasKeys) {
+    if (title.includes(key)) return pref.aliases[key];
   }
   return '';
 }
@@ -263,8 +236,8 @@ function matchShop(shops, storeName) {
   const norm = normalizeStoreName(storeName);
   return shops.find(s => {
     const sn = normalizeStoreName(s.name || '');
-    const inChiba = (s.address || '').includes('千葉県');
-    return inChiba && (sn.includes(norm) || norm.includes(sn));
+    const inPref = (s.address || '').includes(ACTIVE_PREF.name);
+    return inPref && (sn.includes(norm) || norm.includes(sn));
   }) || null;
 }
 
@@ -383,7 +356,7 @@ async function enrichHotpepper(items, prevMap) {
 // （title / company / workArea / updatedAt / url / allFeatureTags）が埋まっている。
 const KYUJINBOX_HOST = 'https://xn--pckua2a7gp15o89zb.com'; // 求人ボックス.com
 const KYUJINBOX_SEARCHES = [
-  'オープニングスタッフ-飲食店の仕事-千葉県',
+  `オープニングスタッフ-飲食店の仕事-${ACTIVE_PREF.name}`,
 ];
 
 // 求人検索は「飲食店」で絞っていても事務・コールセンター等の求人が混ざるため、職種名で弾く
@@ -425,7 +398,7 @@ function kyujinboxToItem(job) {
   const jobTitle = (job.title || '').trim();
   const company = (job.company || '').trim();
   const workArea = job.workArea || '';
-  if (!company || !workArea.includes('千葉県')) return null;
+  if (!company || !workArea.includes(ACTIVE_PREF.name)) return null;
   const tags = [...(job.allFeatureTags || []), ...(job.featureTagSp || [])];
   const isOpening = tags.includes('オープニング') || isOpeningJobTitle(jobTitle);
   if (!isOpening) return null;
@@ -480,7 +453,8 @@ async function collectKyujinbox() {
 // ※タウンワークは検索ページがセッションCookie必須のため単体収集は見送り。
 //   タウンワーク掲載分の多くは求人ボックス経由で収集される。
 const INDEED_SEARCH_URL = 'https://jp.indeed.com/jobs?q=' +
-  encodeURIComponent('オープニングスタッフ 飲食店') + '&l=' + encodeURIComponent('千葉県');
+  encodeURIComponent('オープニングスタッフ 飲食店') + '&l=' + encodeURIComponent(ACTIVE_PREF.name);
+const INDEED_LABEL = `Indeed（オープニングスタッフ 飲食店 ${ACTIVE_PREF.name}）`;
 
 // text[from]（'{'）から対応する'}'までを、文字列リテラルを考慮して切り出す
 function extractJsonObject(text, from) {
@@ -527,7 +501,7 @@ function indeedToItem(job) {
   const combined = `${company} ${jobTitle} ${loc}`;
   if (isChain(combined) || hasExcludeKeyword(combined)) return null;
   const area = detectArea(loc) || detectArea(combined);
-  if (!loc.includes('千葉') && !area) return null; // 千葉県外の求人を除外
+  if (!loc.includes(ACTIVE_PREF.short) && !area) return null; // 対象県外の求人を除外
   const isCorporate = /株式会社|有限会社|合同会社|\(株\)|（株）/.test(company);
   const title = isCorporate
     ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
@@ -552,7 +526,7 @@ function indeedToItem(job) {
 // Indeed公式コネクタ（Claude MCP）経由で取得した求人を既存アイテム形式へ変換する。
 // スクレイピング版 indeedToItem と同じフィルタ・タイトル生成規則を適用すること。
 // job: { title, company, location, postedOn, url } （merge-indeed.mjs 参照）
-export function connectorJobToItem(job) {
+export function connectorJobToItem(job, pref = ACTIVE_PREF) {
   const jobTitle = (job.title || '').trim();
   const company = (job.company || '').trim();
   const loc = (job.location || '').trim();
@@ -562,8 +536,9 @@ export function connectorJobToItem(job) {
   if (isNonFoodJob(jobTitle)) return null;
   const combined = `${company} ${jobTitle} ${loc}`;
   if (isChain(combined) || hasExcludeKeyword(combined)) return null;
-  const area = detectArea(loc) || detectArea(combined);
-  if (!loc.includes('千葉') && !area) return null; // 千葉県外の求人を除外
+  // 勤務地は「川崎市 中原区」のように分かち書きされるため、スペースを除去して区レベルまで判定する
+  const area = detectArea(loc.replace(/\s+/g, ''), pref) || detectArea(combined, pref);
+  if (!loc.includes(pref.short) && !area) return null; // 対象県外の求人を除外
   const isCorporate = /株式会社|有限会社|合同会社|\(株\)|（株）/.test(company);
   const title = isCorporate
     ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
@@ -592,10 +567,10 @@ async function collectIndeed() {
     const html = await fetchWithTimeout(INDEED_SEARCH_URL, FETCH_TIMEOUT_MS, BROWSER_USER_AGENT);
     const jobs = parseIndeedJobs(html);
     const converted = jobs.map(indeedToItem).filter(Boolean);
-    runLog.push({ label: 'Indeed（オープニングスタッフ 飲食店 千葉県）', query: INDEED_SEARCH_URL, ok: true, count: converted.length });
+    runLog.push({ label: INDEED_LABEL, query: INDEED_SEARCH_URL, ok: true, count: converted.length });
     items.push(...converted);
   } catch (err) {
-    runLog.push({ label: 'Indeed（オープニングスタッフ 飲食店 千葉県）', query: INDEED_SEARCH_URL, ok: false, error: String(err && err.message || err) });
+    runLog.push({ label: INDEED_LABEL, query: INDEED_SEARCH_URL, ok: false, error: String(err && err.message || err) });
     console.warn(`[warn] indeed failed: ${err}`);
   }
   return { items, runLog };
@@ -656,7 +631,7 @@ async function main() {
     if (!it.title) continue;
     if (isChain(it.title)) continue;
     if (hasExcludeKeyword(it.title)) continue; // 事件・犯罪ニュースや飲食店以外の業態を除外
-    if (!isChibaRelevant(it.title)) continue;  // 本文だけ「千葉県」の他県記事を除外
+    if (!isPrefRelevant(it.title)) continue;   // 本文だけに県名が出る他県記事を除外
     if (seenLinks.has(it.link)) continue;
     const norm = normalizeForDedupe(it.title);
     if (seenTitles.has(norm)) continue;
@@ -696,7 +671,7 @@ async function main() {
     !isChain(it.title) &&
     !hasExcludeKeyword(it.title) &&
     !(it.signal === 'hiring' && isNonFoodJob(it.title)) &&
-    (it.area || isChibaRelevant(it.title))
+    (it.area || isPrefRelevant(it.title))
   );
   await mapWithConcurrency(
     existingRaw.filter(it => it.link && it.link.includes('news.google.com')),
