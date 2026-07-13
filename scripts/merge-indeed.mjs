@@ -2,7 +2,10 @@
 // GitHub ActionsからのIndeedスクレイピングは403でブロックされるため、
 // Claudeセッション（毎朝のルーティン）がコネクタで検索した結果をこのスクリプトで取り込む。
 //
-//   node scripts/merge-indeed.mjs <raw-jobs.json>
+//   node scripts/merge-indeed.mjs <raw-jobs.json> [stores.json のパス]
+//
+// 第2引数を省略すると data/stores.json を更新する。ルーティンから main の
+// stores.json に対してマージする場合は取り出したファイルのパスを渡す。
 //
 // <raw-jobs.json> は次の形式の配列:
 //   [{ "title": "求人タイトル", "company": "社名/店名", "location": "習志野市 津田沼",
@@ -16,7 +19,7 @@ import { fileURLToPath } from 'node:url';
 import { connectorJobToItem, normalizeForDedupe } from './fetch-stores.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_PATH = path.join(__dirname, '..', 'data', 'stores.json');
+const DATA_PATH = process.argv[3] || path.join(__dirname, '..', 'data', 'stores.json');
 
 const rawPath = process.argv[2];
 if (!rawPath) {
