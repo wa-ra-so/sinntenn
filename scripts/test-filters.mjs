@@ -33,6 +33,7 @@ const MUST_EXCLUDE = [
   // 大手チェーン
   '物語コーポレーション／千葉県浦安市に「焼肉きんぐ マーヴ浦安店」6月30日オープン',
   '市川市に定食チェーン「大戸屋ごはん処」がオープン',
+  '株式会社グルメ杵屋 オープニングスタッフ募集（「店舗スタッフ」/未経験OK）',
   '「しゃぶしゃぶ温野菜 稲毛山王店」オープニングスタッフ募集',
   'スシローが千葉市中央区に新店舗をオープン',
   // タイトルに千葉要素が無い他県ニュース（本文だけ「千葉県」のケース）
@@ -55,6 +56,7 @@ const MUST_EXCLUDE_JOBS = [
   '株式会社ミライル オープニングスタッフ募集（コールセンター「テレフォンオペレーター」）',
   '株式会社ミライル オープニングスタッフ募集（一般事務・OA事務）',
   'オープニングスタッフ募集（倉庫内軽作業・データ入力）',
+  '株式会社Ryumake オープニングスタッフ募集（「イルミネーション・イベント施工スタッフ」あなたの手で街に彩…）',
 ];
 const MUST_KEEP_JOBS = [
   '「海鮮和食 魚まみれ 仲々 小林店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋）',
@@ -143,9 +145,13 @@ check(connectorJobToItem({
   title: 'オープニングスタッフ（コールセンター）', company: '株式会社テスト',
   location: '千葉市 中央', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test4',
 }) === null, 'コネクタ変換: 飲食以外の職種が除外される');
+check(connectorJobToItem({
+  title: 'オープニングスタッフ募集 カフェホール', company: '株式会社テスト',
+  location: '埼玉県', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test5',
+}, PREFECTURES.saitama) === null, 'コネクタ変換: 勤務地が県名のみ（市区町村不明）は掲載しない（監査と同一基準）');
 
 const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
-  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 5;
+  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 6;
 console.log(`${total - failures}/${total} 件パス`);
 
 // ── 公開データの監査（--audit 時のみ、全県分） ──
