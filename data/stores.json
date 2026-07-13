@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T21:40:46.533Z",
+  "generatedAt": "2026-07-13T15:05:22.166Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,22 +42,16 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 19
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
-      "ok": true,
-      "count": 4,
-      "mergedAt": "2026-07-13T09:07:42.688Z"
     }
   ],
-  "itemCount": 56,
+  "itemCount": 67,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -375,6 +369,123 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-12T21:40:46.295Z"
+    },
+    "tule~aqua": {
+      "storeName": "Tule ~AQUA",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:20.519Z"
+    },
+    "美容室イレブンカットコトエ流山おおたかの森店": {
+      "storeName": "美容室イレブンカット コトエ流山おおたかの森店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:20.685Z"
+    },
+    "店舗運営": {
+      "storeName": "店舗運営",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:20.865Z"
+    },
+    "ちゃん系ラーメン店": {
+      "storeName": "ちゃん系ラーメン店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:21.024Z"
+    },
+    "店舗スタッフ": {
+      "storeName": "店舗スタッフ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:21.205Z"
+    },
+    "地方創生/館山": {
+      "storeName": "地方創生/館山",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:21.378Z"
+    },
+    "クラップジュニア": {
+      "storeName": "クラップ ジュニア",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:21.551Z"
+    },
+    "未経験ok": {
+      "storeName": "未経験OK",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:21.724Z"
+    },
+    "成田市": {
+      "storeName": "成田市",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:21.825Z"
     }
   },
   "market": {
@@ -485,9 +596,55 @@
     "柏市|中華": {
       "count": 21,
       "checkedAt": "2026-07-12T21:40:46.533Z"
+    },
+    "船橋市|ダイニング": {
+      "count": 27,
+      "checkedAt": "2026-07-13T15:05:22.001Z"
+    },
+    "松戸市|バル": {
+      "count": 11,
+      "checkedAt": "2026-07-13T15:05:22.002Z"
+    },
+    "船橋市|レストラン": {
+      "count": 16,
+      "checkedAt": "2026-07-13T15:05:22.019Z"
+    },
+    "館山市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-13T15:05:22.166Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ホットスタッフ成田 オープニングスタッフ募集（日払いOKで即日収入/梱包/「成田市」「時給1,600円〜」…）",
+      "link": "https://baitona-joshi.jp/shop/2183469/",
+      "source": "求人ボックス（バイトな女子）",
+      "pubDate": "Mon, 13 Jul 2026 10:05:23 GMT",
+      "area": "酒々井町",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/社員募集/7月13日更新）",
+      "link": "https://relax-job.com/job/B5080528/sid/881293?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Mon, 13 Jul 2026 05:35:41 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "「美容室イレブンカット コトエ流山おおたかの森店」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月13日更新）",
+      "link": "https://relax-job.com/job/B1858208/sid/722762?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Mon, 13 Jul 2026 05:33:10 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
     {
       "title": "南柏駅から徒歩15分ほどの所に中華料理「金東（KANETO）」が5/29（木）オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QX09hN3BkeXk3dU1XRnFxenhFZ0pIbmNleWhTRmIyQnM3U0p1RFJqano2Ti1rcE4zLWIxYjNPOUhndFhmdkZGTUFrMmM5cW8?oc=5",
@@ -511,6 +668,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11101",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Fri, 10 Jul 2026 11:31:11 GMT",
+      "area": "松戸市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "「おでん屋たけし 船橋駅南口店」オープニングスタッフ募集（和食, 居酒屋/店長・店長候補/成長中ブランドで早期キャリア…）",
@@ -627,6 +796,16 @@
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
     },
     {
+      "title": "株式会社スタッフサービス オープニングスタッフ募集（営業・販売/ファッション・コスメ関連 複数名の大募集 残業ほ…）",
+      "link": "https://www.staffservice.co.jp/job/detail/SSO_22-04421340?vos=nssgpkbox_C02_ASSO_22-04421340",
+      "source": "求人ボックス（STAFFSERVICE GROUP）",
+      "pubDate": "Wed, 08 Jul 2026 13:04:07 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VaVVPdVpRT1NqRkpMSC10a0QyZlY4RmtzZ2l4WUZFdFdzQUtEWEw2U2ExT3dBclpQQW9acjhVMWlKY3p3MTl4UTBsZ2hFMXhVNlE?oc=5",
       "source": "船橋つうしん",
@@ -699,6 +878,31 @@
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
     },
     {
+      "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-334491-3-12-1/?utm_source=kyujinbox&utm_medium=display&utm_term=14100",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Tue, 07 Jul 2026 11:31:16 GMT",
+      "area": "船橋市",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Mon, 06 Jul 2026 22:30:54 GMT",
+      "area": "館山市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.996Z"
+    },
+    {
       "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
       "link": "https://job.tabelog.com/restaurants?id=12054861#job-info-10333",
       "source": "求人ボックス（食べログ求人）",
@@ -709,6 +913,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:52:40.959Z"
+    },
+    {
+      "title": "「クラップ ジュニア」オープニングスタッフ募集（児童発達支援管理責任者/放課後等デイサービス/未経験OK/昇…）",
+      "link": "https://www.asuka-hu.co.jp/Areas/work/659835",
+      "source": "求人ボックス（アスカグループ）",
+      "pubDate": "Fri, 03 Jul 2026 07:02:42 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
@@ -791,6 +1005,16 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
+      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
+      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Thu, 25 Jun 2026 10:45:13 GMT",
+      "area": "東金市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
       "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
       "source": "求人ボックス（食べログ求人）",
@@ -869,6 +1093,16 @@
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
+      "title": "株式会社ブラスト オープニングスタッフ募集（整体師）",
+      "link": "https://www.guppy.jp/bwt/975880?utm_source=kyujinbox&utm_medium=organic&utm_content=975880_1",
+      "source": "求人ボックス（GUPPY）",
+      "pubDate": "Mon, 08 Jun 2026 12:45:10 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
       "title": "【寿司一丁】回らない本格寿司を日常価格で！「寿司一丁 八千代緑が丘店」が6/9(火)グランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xanBpeWQzbmkwNHhULUlrOUpCQjZuZUtlSUFSOG1YcDkwWWxqY3lKMXZDMmtGaGFQVjJPMXBhaE9JQXp3RVhQSUxudGFyNkFLanBoWHVtbzdpRnhwak9LaVI4ckFvQXg0SFE?oc=5",
       "source": "PR TIMES",
@@ -927,6 +1161,16 @@
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
     },
     {
+      "title": "【6月26日オープン】千葉・松戸に「元祖焼豚センター うる寅商店」が降臨！はやし田跡地で「ちゃん系」の衝撃と焼豚の山に圧倒される。",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tQWtMV3V6emk4cmF4WWZ4MUNBSDB5OEhXN19hQXVhejB0RHNERUljM3NSMndOODZ4bEJTRVpKd0ZLWWxlOE1FUm5za1N5MWYwYUl3ckotNHd6WVM2U3p6NmlScHI?oc=5",
+      "source": "gummaumaimono.info",
+      "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:17.031Z"
+    },
+    {
       "title": "【新業態が判明】流山街道沿いの「らぁ麺 はやし田」は「元祖焼豚センター うる寅商店」になって6/26（金）オープン！懐かしい中華そばにボリューミーなチャーシュー",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wTWtpT0pFbFdCU2NtclJlVDBXa2wzVEFKMm9fa290b3MzTTA3MVlzeGdvSE83Tzl2R3N6R0VVa2xuS1ZfNjNLRDlSY0xXTWc?oc=5",
       "source": "松戸つうしん",
@@ -963,7 +1207,7 @@
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
     },
     {
-      "title": "ハワイアンカフェ＆レストラン「メレンゲ」千葉市幕張エリアのホテル内にオープン｜レッツエンジョイ東京",
+      "title": "ハワイアンカフェ＆レストラン「メレンゲ」千葉市幕張エリアのホテル内にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPWWpWek9xWkhGUTBoRmdoaV93RU94MXhNTUpGelU1VHFNZHBaWjR4eXV1bVFCTFk4eklZcmtQNmNzQTdkSlhXWWdlVE5zMlE?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
@@ -1013,7 +1257,7 @@
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
     },
     {
-      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ｜レッツエンジョイ東京",
+      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ZXhGQVF3WkxuLXNIYUdxR1pzSldNOUdVeXVXVlVUQU4yZzgyX29ZTV9QU1gwekRkZjR6TFMwR09OTXVtTUdTRlZybk9PREE?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 29 May 2026 07:00:00 GMT",

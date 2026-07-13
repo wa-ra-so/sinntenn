@@ -1,0 +1,524 @@
+{
+  "generatedAt": "2026-07-13T15:05:47.138Z",
+  "ttlDays": 60,
+  "runLog": [
+    {
+      "label": "居酒屋・ダイニング系（開店ニュース）",
+      "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
+      "ok": true,
+      "count": 97
+    },
+    {
+      "label": "専門料理系（開店ニュース）",
+      "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "label": "カフェ・バー系（開店ニュース）",
+      "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "label": "居酒屋・ダイニング系（オープニング求人）",
+      "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "label": "専門料理系（オープニング求人）",
+      "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "label": "カフェ・バー系（オープニング求人）",
+      "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
+      "ok": true,
+      "count": 41
+    },
+    {
+      "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
+      "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
+      "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+      "ok": false,
+      "error": "HTTP 403"
+    }
+  ],
+  "itemCount": 23,
+  "hotpepper": {
+    "鯉恋横丁(こいこいよこちょう)": {
+      "storeName": "鯉恋横丁（こいこいよこちょう）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:44.756Z"
+    },
+    "新規開業バー/インセンティブ": {
+      "storeName": "新規開業バー/インセンティブ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:45.112Z"
+    },
+    "ビーフキッチンスタンドはなれ": {
+      "storeName": "ビーフキッチンスタンド はなれ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:45.112Z"
+    },
+    "個室焼鳥あか峯横浜店": {
+      "storeName": "個室焼鳥 あか峯 横浜店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:45.463Z"
+    },
+    "エーアイアールグループ": {
+      "storeName": "エーアイアールグループ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:45.470Z"
+    },
+    "森乃音茶寮-moco-": {
+      "storeName": "森乃音茶寮-MOCO-",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:45.678Z"
+    },
+    "東北老式麻辣湯": {
+      "storeName": "東北老式 麻辣湯",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:45.800Z"
+    },
+    "reicafé(レイカフェ)": {
+      "storeName": "REI Café（レイカフェ）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:46.044Z"
+    },
+    "レストラン北條": {
+      "storeName": "レストラン北條",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:46.146Z"
+    },
+    "神奈川": {
+      "storeName": "神奈川",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:46.231Z"
+    },
+    "うしこぞう横浜店": {
+      "storeName": "うしこぞう横浜店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:46.382Z"
+    },
+    "salvatorecuomo": {
+      "storeName": "SALVATORE CUOMO",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000816979/?vos=nhppalsa000016",
+      "shopName": "サルヴァトーレ クオモ SALVATORE CUOMO センター南",
+      "address": "神奈川県横浜市都筑区茅ケ崎中央2-1　オズマークスセンター南　１Ｆ",
+      "access": "市営地下鉄横浜線 ｾﾝﾀｰ南駅 1番出口から徒歩約1分",
+      "genre": "イタリアン・フレンチ",
+      "budget": "5001～6000円",
+      "capacity": 40,
+      "open": "月～金、祝前日: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00）17:00～22:30 （料理L.O. 22:00 ドリンクL.O. 22:00）土、日、祝日: 11:30～22:30 （料理L.O. 22:00 ドリンクL.O. 22:00）",
+      "checkedAt": "2026-07-13T15:05:46.413Z"
+    },
+    "情緒個室dining楓横浜駅前店": {
+      "storeName": "情緒個室Dining 楓 横浜駅前店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T15:05:46.516Z"
+    }
+  },
+  "market": {
+    "横浜市|居酒屋": {
+      "count": 761,
+      "checkedAt": "2026-07-13T15:05:46.682Z"
+    },
+    "横浜市中区|中華": {
+      "count": 229,
+      "checkedAt": "2026-07-13T15:05:46.702Z"
+    },
+    "相模原市|バー": {
+      "count": 45,
+      "checkedAt": "2026-07-13T15:05:46.703Z"
+    },
+    "平塚市|中華": {
+      "count": 8,
+      "checkedAt": "2026-07-13T15:05:46.868Z"
+    },
+    "三浦市|レストラン": {
+      "count": 2,
+      "checkedAt": "2026-07-13T15:05:46.888Z"
+    },
+    "横浜市|レストラン": {
+      "count": 164,
+      "checkedAt": "2026-07-13T15:05:46.911Z"
+    },
+    "横浜市|焼肉": {
+      "count": 290,
+      "checkedAt": "2026-07-13T15:05:47.049Z"
+    },
+    "鎌倉市|レストラン": {
+      "count": 26,
+      "checkedAt": "2026-07-13T15:05:47.053Z"
+    },
+    "横浜市|イタリアン": {
+      "count": 200,
+      "checkedAt": "2026-07-13T15:05:47.138Z"
+    }
+  },
+  "items": [
+    {
+      "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rX0hCU2FYN3pxTURvNU5VS0ZJMERjeU1Gb3djdjc2bjJlLVg0aWVDbk9hNnlYWWUtQnRIUG4wZUNSek0wNkU4WU5USkIyVXlLbnF2NGtTMXlvMUxXSlV6M1g1X2NqRGtOMWc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 09 Jul 2026 23:00:01 GMT",
+      "area": "横浜市中区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "合同会社AP オープニングスタッフ募集（「新規開業バー/インセンティブ」オープニングバーテンダーの募…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=8880129&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BEAP",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Wed, 08 Jul 2026 22:30:55 GMT",
+      "area": "相模原市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
+      "link": "https://www.baitoru.com/op555010/job161187170/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（株式会社凪スピリッツジャパン）",
+      "pubDate": "Wed, 08 Jul 2026 05:32:30 GMT",
+      "area": "大和市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.933Z"
+    },
+    {
+      "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13104",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Tue, 07 Jul 2026 11:31:22 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "株式会社サーズ オープニングスタッフ募集（「神奈川」販売スタッフ/オープニング募集）",
+      "link": "https://mynavi-agent.jp/entry/?jno=10597267",
+      "source": "求人ボックス（マイナビエージェント- 登録エントリー）",
+      "pubDate": "Tue, 07 Jul 2026 05:01:09 GMT",
+      "area": "海老名市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03Q1lyTVhEUWdXRmIxckRKb01xam5IWVBKdVl3U3dWb2JiSko4ZWptZVpxeUtja0prdk5jci1wZTU3clBIcTlucGhQcTYxOTVzOFE5MEdjdHJubXpWSTVmZkplVl9za3NSc3c?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.964Z"
+    },
+    {
+      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 30 Jun 2026 15:02:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "「エーアイアールグループ」オープニングスタッフ募集（ルームアドバイザー/クリエイト蒲田「新店舗で心機一転スタート…）",
+      "link": "https://en-gage.net/user/search/desc/16737344/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Mon, 29 Jun 2026 10:46:24 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "株式会社フォンスCB オープニングスタッフ募集（レストランのホールスタッフ/「横浜駅に8月OPEN/オープニ…）",
+      "link": "https://en-gage.net/user/search/desc/17372121/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Sat, 27 Jun 2026 01:44:38 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "【平塚市】中華の新店がオープン！紅谷町の「東北老式 麻辣湯」は2026年6月22日まで全品20％割引＋緑茶orコーラ等サービス中です！",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOWFVON04wNlA2NUtGNXh5VTVJVExwRDZhcU93aTVUdFVIZXZ6UHdQaEVHLXc2TXdHTXV5MVpoRDI5elpTaGdTWHN1a0xzcFcwV0YxUmxaR1VKTUY4a21xUV9n?oc=5",
+      "source": "地域ニュースサイト号外NET",
+      "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
+      "area": "平塚市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jYThrRGZjaENwekJBQjc5TEJERzgtbG5fWHlnYXN0MDhQSGpXQkZLZW8xYmRUN2NhQzFZa2RrZ0hIX29FaUVqa1Z1U0lTRGFaek1sWU5KZlpQekZ5VFA5SEhWcHl5Rks0a1E?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.969Z"
+    },
+    {
+      "title": "OJI株式会社 オープニングスタッフ募集（オープニングスタッフ大募集!未経験OK!飲食店の正社員大募集）",
+      "link": "https://en-gage.net/user/search/desc/9996586/",
+      "source": "求人ボックス（OJI株式会社）",
+      "pubDate": "Tue, 09 Jun 2026 09:47:10 GMT",
+      "area": "藤沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "【ＰＲ記事】 横浜東急REIホテル、9階レストラン「アンコール」をラウンジスペース「REI Café（レイカフェ）」としてオープン 神奈川県横浜市",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlVEQtTFpvanREWG4zS1hGTVVnQ0tJaUxaVkthUEg2MWdvSVQ2Rm1BeUh5dFI2WXVuWjIxVnd0QXNiS3JZVFdIajBSVkg5bjNrdE1VNVE1YkFHYTZRYk1yUVhn?oc=5",
+      "source": "遊都総研",
+      "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.966Z"
+    },
+    {
+      "title": "【三浦市】「レストラン北條」が2026年5月1日グランドオープン！葉山牛専門店「奥鎌倉北條」プロデュース",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUjNGR1p3bFdqQkxIYlYyQllWZXUxU2d5UjJaWXBxYnFjRXZvakFuNDlzWWxJd1k2N3RORnhBUkdDVFk1RzEzSEtfQjJTRER6WFJwNDFoajhXSHFuOF9IMHFmWGdTU2UyRnpV?oc=5",
+      "source": "湘南人",
+      "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
+      "area": "三浦市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.965Z"
+    },
+    {
+      "title": "【神奈川県横浜市】最高の肉質を適正価格で、卸出身の肉のプロが横浜に焼肉「うしこぞう横浜店」をOPEN",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KUWxPb3AzV1ZnS01udi1LalQyRFd6VWlLbXZhbllKbjZhU0Z1bEFWQUVhNUhpQ0stam51dUVoTURudWJkSVNFakR1Z1llM1VGLWpj?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "鎌倉のニューオープンカフェ＆レストラン10選。朝から夜まで楽しめるひとり散歩ガイド",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX3k2Y1Nid1lYbktPVUlGSHF4YjRGZ3dZaVE1QWlkelkwNWdvNTU0UXFDMm5VWUEtU1Aya3NZYkl4TFlkVEhZS0RPcEJjWDdwZVhXa2UxT01pYjF4U3lmQmJqanJQRURMV3J6WHRBTWFnOUpZZDh1OF9kM1RTRkx3UmVNTlR4UlV1dldlMWY1SzVhQUx2YlE?oc=5",
+      "source": "ELLE",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "鎌倉市",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.965Z"
+    },
+    {
+      "title": "「肉のプロ」が地元・横浜に凱旋出店。焼肉「うしこぞう横浜店」6月1日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42dXlMZ3RCYmRGWlBnaTdEVVg5WTFFVnBsNlFLS3RTV3lZaWM4ZmFoXzBCWEp6bThtQTVmbTN6UnZGQjNQS0RWcnpxUjBGenlfejViNEMtRFpJMzFsVTdla3J2b0RONWZmRVE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "有限会社品川配ぜん人紹介所 オープニングスタッフ募集（ホテルのモーニングスタッフのお仕事!横浜駅!面倒な履歴書提出…）",
+      "link": "https://hibaraito.jp/kyujin/3279785",
+      "source": "求人ボックス（ヒバライト.）",
+      "pubDate": "Thu, 28 May 2026 01:14:22 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "マロリーポークステーキ 横須賀中央店",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0N1JKelFaWk10b2M5c3lyNGtKUElCUzZCajdRNDJHRG9pWDhEOHo5YU03cEZoVlJOREtWMlVSZzY2czBhUnhOLWZ6elBCNVha?oc=5",
+      "source": "ホットペッパーグルメ",
+      "pubDate": "Wed, 27 May 2026 21:52:58 GMT",
+      "area": "横須賀市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.966Z"
+    },
+    {
+      "title": "【神奈川県横浜市】カジュアルイタリアン「SALVATORE CUOMO」の新店舗が新横浜に！記念キャンペーン実施",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yT3hCS0xtMC03b21GOGFPN2RIN0pIWjdNdWZwNFVKQ1pyNVF5THI5YzZXbmpSRGtrTWJ1bkNsdnYxNTNWS3hoNFhtSlNYcTVFVW1J?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "Tavernetta Salvatore 新横浜 2026年6月1日(月)グランドオープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTXF1eHFNMjgwYXMwSWt4MHZZcnhiZmtMX0VpeHZENkJoc1YyYWhfV1c2Q2pkcnJDbi15NHV5RjNLR3NuVUhVLVJsZ3dySWwzaTRVaTExZHNYTkRWUnpRdU1wT3VERFRCTFE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
+      "area": "横浜市港北区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "神奈川県横浜市のライブハウスF.A.D YOKOHAMA、オープン30周年で豪華ライブ続々",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1CcC1XZGMyVHZMT1RYRC1zRXNvbDAxQ0UyVUgySVc1cWg2Tjd2WmRqT29sYjF5dHEtNmVsSDhCWlFyWkgwdTVEeTdFR0E?oc=5",
+      "source": "ナタリー",
+      "pubDate": "Tue, 19 May 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    }
+  ]
+}
