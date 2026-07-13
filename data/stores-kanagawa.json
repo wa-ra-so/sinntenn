@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T15:05:47.138Z",
+  "generatedAt": "2026-07-13T21:46:56.034Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 41
+      "count": 35
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 15
+      "count": 23
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 23,
+  "itemCount": 34,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -221,6 +221,71 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:46.516Z"
+    },
+    "火鍋としゃぶしゃぶしゃぶ山": {
+      "storeName": "火鍋としゃぶしゃぶ しゃぶ山",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004558134/?vos=nhppalsa000016",
+      "shopName": "火鍋としゃぶしゃぶ　しゃぶ山",
+      "address": "神奈川県横浜市中区相生町３－６０泰生ビル１階 108",
+      "access": "JR京浜東北･根岸線･ﾌﾞﾙｰﾗｲﾝ関内駅 徒歩3分",
+      "genre": "和食",
+      "budget": "5001～6000円",
+      "capacity": 26,
+      "open": "月～日、祝日、祝前日: 11:00～21:30 （料理L.O. 21:00 ドリンクL.O. 21:00）",
+      "checkedAt": "2026-07-13T21:46:54.599Z"
+    },
+    "アイスは別腹横浜中華街店": {
+      "storeName": "アイスは別腹 横浜中華街店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:54.815Z"
+    },
+    "こぶたとカモメ": {
+      "storeName": "こぶたとカモメ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:55.147Z"
+    },
+    "桃園眷村川崎店": {
+      "storeName": "桃園眷村 川崎店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:55.171Z"
+    },
+    "天ぷらとワインからり。武蔵小杉店": {
+      "storeName": "天ぷらとワイン からり。 武蔵小杉店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:55.673Z"
     }
   },
   "market": {
@@ -259,9 +324,50 @@
     "横浜市|イタリアン": {
       "count": 200,
       "checkedAt": "2026-07-13T15:05:47.138Z"
+    },
+    "横浜市|中華": {
+      "count": 413,
+      "checkedAt": "2026-07-13T21:46:55.848Z"
+    },
+    "川崎市|居酒屋": {
+      "count": 403,
+      "checkedAt": "2026-07-13T21:46:55.852Z"
+    },
+    "三浦市|カフェ": {
+      "count": 8,
+      "checkedAt": "2026-07-13T21:46:55.871Z"
+    },
+    "川崎市|中華": {
+      "count": 98,
+      "checkedAt": "2026-07-13T21:46:56.034Z"
     }
   },
   "items": [
+    {
+      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
+      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96515",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 09:30:35 GMT",
+      "area": "横浜市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
+      "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
+      "link": "https://foods-labo.com/offers/111913?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Mon, 13 Jul 2026 07:33:08 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン",
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
     {
       "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rX0hCU2FYN3pxTURvNU5VS0ZJMERjeU1Gb3djdjc2bjJlLVg0aWVDbk9hNnlYWWUtQnRIUG4wZUNSek0wNkU4WU5USkIyVXlLbnF2NGtTMXlvMUxXSlV6M1g1X2NqRGtOMWc?oc=5",
@@ -273,6 +379,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ・配膳/神奈川県/オープニング第二期募集 20…）",
+      "link": "https://hibarai.net/search/job-detail/641152752",
+      "source": "求人ボックス（ヒバライドット）",
+      "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
       "title": "合同会社AP オープニングスタッフ募集（「新規開業バー/インセンティブ」オープニングバーテンダーの募…）",
@@ -287,6 +405,16 @@
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
+      "title": "株式会社リラフル オープニングスタッフ募集（キッチン/洗い場/販売 早朝オープニングスタッフ まかないに…）",
+      "link": "http://s.baitoru.com/DW0aWSxQ",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Wed, 08 Jul 2026 09:36:22 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
       "link": "https://www.baitoru.com/op555010/job161187170/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
       "source": "求人ボックス（株式会社凪スピリッツジャパン）",
@@ -295,6 +423,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.933Z"
+    },
+    {
+      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
+      "link": "https://www.baitoru.com/op555010/job161187371/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 08 Jul 2026 05:10:45 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
       "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
@@ -307,6 +445,16 @@
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
+      "title": "「火鍋としゃぶしゃぶ しゃぶ山」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/しゃぶしゃぶ/和食/飲食店…）",
+      "link": "https://job.tabelog.com/restaurants?id=14101592#job-info-92680",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 07 Jul 2026 09:30:39 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
       "title": "株式会社サーズ オープニングスタッフ募集（「神奈川」販売スタッフ/オープニング募集）",
       "link": "https://mynavi-agent.jp/entry/?jno=10597267",
       "source": "求人ボックス（マイナビエージェント- 登録エントリー）",
@@ -315,6 +463,28 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",
+      "link": "https://job.tabelog.com/restaurants?id=14072696#job-info-91025",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 06 Jul 2026 09:30:35 GMT",
+      "area": "三浦市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
+      "title": "株式会社HITOWA フードサービスカンパニー オープニングスタッフ募集（給食スタッフ/キッチン/調理・栄養関連 調理STAFF募集 …）",
+      "link": "http://s.baitoru.com/DW0aWqPy",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Fri, 03 Jul 2026 17:58:26 GMT",
+      "area": "藤沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
       "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
@@ -327,10 +497,20 @@
       "firstSeenAt": "2026-07-13T15:05:41.964Z"
     },
     {
+      "title": "カネカ食品株式会社 オープニングスタッフ募集（キッチン/レジ打ち/惣菜・スイーツ販売 オープニングスタッフ…）",
+      "link": "http://s.baitoru.com/DW0ayiH4",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Wed, 01 Jul 2026 03:20:40 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 30 Jun 2026 15:02:00 GMT",
+      "pubDate": "Tue, 30 Jun 2026 09:30:30 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
@@ -371,6 +551,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "「天ぷらとワイン からり。 武蔵小杉店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/天ぷら/和食/飲食店/ネイ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4462",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
       "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
@@ -435,7 +625,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
+      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
@@ -509,6 +699,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "「桃園眷村 川崎店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/中華料理/中華料理/飲食店…）",
+      "link": "https://job.tabelog.com/restaurants?id=14100291#job-info-80005",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 09:30:32 GMT",
+      "area": "川崎市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
       "title": "神奈川県横浜市のライブハウスF.A.D YOKOHAMA、オープン30周年で豪華ライブ続々",

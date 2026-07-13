@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T15:05:22.166Z",
+  "generatedAt": "2026-07-13T21:46:40.593Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 7
+      "count": 9
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 38
+      "count": 37
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 16
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 67,
+  "itemCount": 77,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -486,6 +486,58 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:21.825Z"
+    },
+    "彦酉幕張ベイパーク彦酉": {
+      "storeName": "彦酉 幕張ベイパーク 彦酉",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004026134/?vos=nhppalsa000016",
+      "shopName": "幕張ベイパーク 彦酉",
+      "address": "千葉県千葉市美浜区若葉３丁目2-7-2 ヴィレッジVI",
+      "access": "JR京葉線海浜幕張駅公園口より徒歩約5分 ",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 84,
+      "open": "月～金、祝前日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-13T21:46:39.642Z"
+    },
+    "flowercheerscafe": {
+      "storeName": "FLOWER CHEERS CAFE",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:39.822Z"
+    },
+    "ビッグシェフ亭野田店": {
+      "storeName": "ビッグシェフ亭 野田店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:40.188Z"
+    },
+    "ラーメン事業部らぁ麺はやし田アトレ新浦安店": {
+      "storeName": "ラーメン事業部 らぁ麺 はやし田 アトレ新浦安店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:40.391Z"
     }
   },
   "market": {
@@ -609,21 +661,89 @@
       "count": 16,
       "checkedAt": "2026-07-13T15:05:22.019Z"
     },
-    "館山市|レストラン": {
-      "count": 6,
-      "checkedAt": "2026-07-13T15:05:22.166Z"
+    "千葉市美浜区|居酒屋": {
+      "count": 40,
+      "checkedAt": "2026-07-13T21:46:40.576Z"
+    },
+    "習志野市|寿司": {
+      "count": 4,
+      "checkedAt": "2026-07-13T21:46:40.593Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Mon, 13 Jul 2026 20:08:06 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
     {
       "title": "株式会社ホットスタッフ成田 オープニングスタッフ募集（日払いOKで即日収入/梱包/「成田市」「時給1,600円〜」…）",
       "link": "https://baitona-joshi.jp/shop/2183469/",
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Mon, 13 Jul 2026 10:05:23 GMT",
-      "area": "酒々井町",
+      "area": "成田市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "「ラーメン事業部 らぁ麺 はやし田 アトレ新浦安店」オープニングスタッフ募集（ラーメン/キッチンスタッフ/月給26万円～ 年4回昇格チャン…）",
+      "link": "https://foods-labo.com/offers/95134?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Mon, 13 Jul 2026 07:49:37 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.524Z"
+    },
+    {
+      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/レストランサービス・ホールスタッフ/油そば専門店で…）",
+      "link": "https://foods-labo.com/offers/92676?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Mon, 13 Jul 2026 07:49:36 GMT",
+      "area": "松戸市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:36:45.027Z"
+    },
+    {
+      "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/店長・店長候補/口コミ高評価の繁盛店店長候補を大募集）",
+      "link": "https://foods-labo.com/offers/65263?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Mon, 13 Jul 2026 07:49:34 GMT",
+      "area": "君津市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.524Z"
+    },
+    {
+      "title": "「彦酉 幕張ベイパーク 彦酉」オープニングスタッフ募集（焼き鳥, 居酒屋/キッチンスタッフ/キッチンスタッフを募集）",
+      "link": "https://foods-labo.com/offers/78747?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Mon, 13 Jul 2026 07:49:32 GMT",
+      "area": "千葉市美浜区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.524Z"
+    },
+    {
+      "title": "「ビッグシェフ亭 野田店」オープニングスタッフ募集（ステーキ・鉄板焼き, ファミレス/店長・店長候補/創業期から…）",
+      "link": "https://foods-labo.com/offers/117263?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Mon, 13 Jul 2026 07:48:34 GMT",
+      "area": "野田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.524Z"
     },
     {
       "title": "「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/社員募集/7月13日更新）",
@@ -644,6 +764,19 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "千葉駅徒歩圏内にカフェダイニング「FLOWER CHEERS CAFE」が7月28日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bEtGS0FxRzkyZEFpcko2S0NhLURFRU1EUUtWcHBBclNkdW1HOEhReDIzQllyZVFJejhJeTR5TnJGYWM2MzZCWjkxZFpNX0szNzI3UHM0OXd5aWV4QVlOUFdQbjhlYkE?oc=5",
+      "source": "J-CAST ニュース",
+      "pubDate": "Mon, 13 Jul 2026 00:45:00 GMT",
+      "area": "",
+      "genres": [
+        "ダイニング",
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T21:46:36.585Z"
     },
     {
       "title": "南柏駅から徒歩15分ほどの所に中華料理「金東（KANETO）」が5/29（木）オープン",
@@ -714,18 +847,6 @@
       "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
-      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/レストランサービス・ホールスタッフ/油そば専門店で…）",
-      "link": "https://foods-labo.com/offers/92676?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Fri, 10 Jul 2026 07:06:07 GMT",
-      "area": "松戸市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:36:45.027Z"
-    },
-    {
       "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/口コミ高評価の繁盛…）",
       "link": "https://foods-labo.com/offers/65264?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
@@ -758,6 +879,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T21:40:41.776Z"
+    },
+    {
+      "title": "日本給食株式会社 オープニングスタッフ募集（船橋市の施設の給食調理補助スタッフ）",
+      "link": "https://nikkyu-job.jp/detail/chiba/ct_204/13635404/",
+      "source": "求人ボックス（日本給食株式会社）",
+      "pubDate": "Thu, 09 Jul 2026 17:57:20 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "株式会社WONDER CREW 海鮮居酒屋 うおっと函館店 オープニングスタッフ募集（飲食店の店舗スタッフ）",
@@ -796,6 +927,16 @@
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
     },
     {
+      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/7/27リニューアルオープン器用じゃなくても…）",
+      "link": "https://www.hatarako.net/job/9000907229/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Wed, 08 Jul 2026 17:19:36 GMT",
+      "area": "四街道市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.524Z"
+    },
+    {
       "title": "株式会社スタッフサービス オープニングスタッフ募集（営業・販売/ファッション・コスメ関連 複数名の大募集 残業ほ…）",
       "link": "https://www.staffservice.co.jp/job/detail/SSO_22-04421340?vos=nssgpkbox_C02_ASSO_22-04421340",
       "source": "求人ボックス（STAFFSERVICE GROUP）",
@@ -804,6 +945,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "株式会社弁慶 オープニングスタッフ募集（寿司屋の調理/週2日休み/寿司以外の調理はしない）",
+      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbd2d8f029e",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 08 Jul 2026 11:00:17 GMT",
+      "area": "習志野市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.524Z"
     },
     {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
@@ -896,9 +1049,7 @@
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
       "pubDate": "Mon, 06 Jul 2026 22:30:54 GMT",
       "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.996Z"
     },
@@ -1257,7 +1408,7 @@
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
     },
     {
-      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ",
+      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ZXhGQVF3WkxuLXNIYUdxR1pzSldNOUdVeXVXVlVUQU4yZzgyX29ZTV9QU1gwekRkZjR6TFMwR09OTXVtTUdTRlZybk9PREE?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
@@ -1280,6 +1431,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
+    },
+    {
+      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ラーメン/中華そば店のキッチン・ホールスタッフ／なぎちゃんラ…）",
+      "link": "https://ramenshugyo.com/work/4603/",
+      "source": "求人ボックス（キンキンラーメン修行道）",
+      "pubDate": "Mon, 25 May 2026 22:00:08 GMT",
+      "area": "船橋市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "高根公団駅近くに居酒屋「野菜泥棒3104」がオープン、12時から営業",

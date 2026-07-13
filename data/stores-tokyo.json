@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T15:05:38.508Z",
+  "generatedAt": "2026-07-13T21:46:48.468Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 15
+      "count": 17
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 31
+      "count": 30
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 59
+      "count": 61
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 19
+      "count": 21
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 79,
+  "itemCount": 90,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -832,6 +832,84 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:36.360Z"
+    },
+    "レコードブック浅草": {
+      "storeName": "レコードブック浅草",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:47.602Z"
+    },
+    "スシスミビ自由が丘": {
+      "storeName": "スシスミビ 自由が丘",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:47.643Z"
+    },
+    "レコードブック両国": {
+      "storeName": "レコードブック両国",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:47.971Z"
+    },
+    "さくら餃子酒場神田店": {
+      "storeName": "さくら餃子酒場 神田店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:48.014Z"
+    },
+    "ガールズバンドクライ": {
+      "storeName": "ガールズバンドクライ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:48.143Z"
+    },
+    "ebizo": {
+      "storeName": "EBIZO",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-13T21:46:48.248Z"
     }
   },
   "market": {
@@ -962,6 +1040,18 @@
     "新宿区|バル": {
       "count": 117,
       "checkedAt": "2026-07-13T15:05:38.508Z"
+    },
+    "千代田区|居酒屋": {
+      "count": 565,
+      "checkedAt": "2026-07-13T21:46:48.445Z"
+    },
+    "渋谷区|レストラン": {
+      "count": 78,
+      "checkedAt": "2026-07-13T21:46:48.464Z"
+    },
+    "渋谷区|居酒屋": {
+      "count": 402,
+      "checkedAt": "2026-07-13T21:46:48.468Z"
     }
   },
   "items": [
@@ -991,6 +1081,18 @@
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
+      "title": "株式会社絶好調 オープニングスタッフ募集（炉端居酒屋の店舗スタッフ/オープニング/若手活躍中）",
+      "link": "https://grsta.jp/manuscript/0a0600d7-9f45-1c9e-819f-480a237d1052",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 10 Jul 2026 11:00:23 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
       "title": "7月15日(水)、伊勢丹新宿店 洋菓子エリアにガラス張りの厨房を備えたライブ感あふれる空間「マ・パティスリー」誕生！「カフェ エ シュクレ」は全33ブランドフルオープン | 株式会社 三越伊勢丹ホールディングスのプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvMzVVcHlKa21fVHc3Sk94bks1enRaaEQ1OERVX3VLX0FlNmc3MVlsYVczZnpvdERfZ0ZwRWw4TndreG5OY1YyNXRVemxzenNnRmU4S1pNOGFtVnpUakNBczVtUWV3SS02b0E?oc=5",
       "source": "PR TIMES",
@@ -1001,6 +1103,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
+    },
+    {
+      "title": "「スシスミビ 自由が丘」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/月…）",
+      "link": "https://job.tabelog.com/restaurants?id=13300208#job-info-108139",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 10 Jul 2026 01:30:45 GMT",
+      "area": "目黒区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "【東京都品川区】新スタイルのイタリアンバル「SOSTA ～pizza＆legame～」が五反田にオープン",
@@ -1048,6 +1162,16 @@
       "firstSeenAt": "2026-07-13T15:05:26.047Z"
     },
     {
+      "title": "「レコードブック浅草」オープニングスタッフ募集（トレーナー 無資格可 オープニングスタッフ）",
+      "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4911.html",
+      "source": "求人ボックス（株式会社三和薬品）",
+      "pubDate": "Tue, 07 Jul 2026 21:33:52 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
       "title": "飲茶＆スイーツが食べ放題！東京都初上陸「THE BUFFET 点心甜心」が三鷹にオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03UHdKTEhXSUk3aGF2VXRhOFNFNzFJR3dwOVAyWGRNNXRIMXlOTkFEcG91WWdIZHZCWE1LamJlc1lwcVNyeXN2OVhDaV9NU0s0U2c?oc=5",
       "source": "いこーよニュース",
@@ -1066,6 +1190,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "「EBIZO」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
+      "link": "https://job.tabelog.com/restaurants?id=13207106#job-info-106974",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 07 Jul 2026 09:30:41 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
@@ -1102,6 +1238,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.044Z"
+    },
+    {
+      "title": "株式会社LFCRD オープニングスタッフ募集（月島もんじゃの店舗スタッフ/オープニング/1年後に年収500…）",
+      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-336ff50d1177",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Mon, 06 Jul 2026 11:00:19 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（店長候補・マネージャー/焼き鳥・串焼・鳥料理/和食/飲食店/…）",
@@ -1148,6 +1294,38 @@
       "firstSeenAt": "2026-07-13T15:05:25.995Z"
     },
     {
+      "title": "「レコードブック両国」オープニングスタッフ募集（トレーナー 無資格可 オープニングスタッフ）",
+      "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4889.html",
+      "source": "求人ボックス（株式会社三和薬品）",
+      "pubDate": "Sun, 05 Jul 2026 21:34:13 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
+      "title": "「さくら餃子酒場 神田店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=13297710#job-info-31539",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 05 Jul 2026 01:30:44 GMT",
+      "area": "千代田区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
+      "title": "株式会社ヴィクセス オープニングスタッフ募集（馬肉料理酒場の店舗スタッフ/オープニング/おしゃれ自由）",
+      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-292382c20d88",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Sat, 04 Jul 2026 11:00:17 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uam12MzUzd1FUcnhtVmh1aTJqaDI2N3VfT3h2T2hQcE45YTg2cjY2bEVJVkgwMkhsZ3lMSFNpcVVISWVKQkF6Y2gyT3JyNWc?oc=5",
       "source": "newscast.jp",
@@ -1156,6 +1334,16 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
+    },
+    {
+      "title": "株式会社ジュンバタンメラ オープニングスタッフ募集（エスニックデリ惣菜の販売スタッフ/オープニング）",
+      "link": "https://grsta.jp/manuscript/0a060052-9f22-1d32-819f-23fd79da02db",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 03 Jul 2026 11:00:19 GMT",
+      "area": "世田谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン",
@@ -1439,6 +1627,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
+      "title": "-真天地開闢集団-ジグザグ×サンリオキャラクターズ初のカフェが東京・大阪で開催決定！「ジグザグ×サンリオキャラクタァズCAFE」期間限定オープン！！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jV0dxbWpOcUpFak9zSzFhNUY2RG9YdmdtcmQxc3hVQmhKYjB5c1ZQdjZNbU8xWG1oVmpheklGTG1NaVIxaHZtOVhXY1JIYVZ4aWdGQXZha1c3M2VGUDNVbndPbTNqN2xrMWc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T21:46:44.288Z"
+    },
+    {
       "title": "Anique株式会社 オープニングスタッフ募集（「新宿」エンタメコンテンツカフェのオープニング店長・店舗運営…）",
       "link": "https://mynavi-agent.jp/entry/?jno=10657061",
       "source": "求人ボックス（マイナビエージェント- 登録エントリー）",
@@ -1527,6 +1727,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "TVアニメ『ガールズバンドクライ』アイスクリームガールズカフェ at 洒落CAFE 東京＆大阪&福岡で開催決定！「アイスクリームガールズ」をテーマにした米村雅人新規描き下ろしイラストが登場！",
+      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPSWViMkJ3YXJ3ZzVPWEtUYk1VVlRVM043dFdoQnpzRGVwZEN5eFQzVGhMOWVvcUsyS0QyMnhXelNpNEE5MEhPTWNXX0s3SFA1LTJXLXl2UUZ2ZS0wTC12Zmx2MnY0XzFuNDh3XzBEdFpnZzZ6MlVLYXFWcThSdXk0aFVMcjVSY2tBWEkzT3V4YVNyaExNWFMzYkU1ajl0LWliRVdZS3pLUzI2MjY5bUxtbjRJUUlDdFg5eHBuckdvdUlOLWlzcnUxZ0lRLTFlbnFEcTlxT2lnNnpmT1Y0c1Jpc0ZENGs4M010M1Zfb1IyeUp2dlg4bjhDd013ZjhISngzRUNiNWtZdkxDc0hQeVRrRk1yQXMyNHc5NVdtX254ckM1dGNOR1BtclFoeFhuZWZ1QW1JZlJUeFA0bWEzQXVpelpxanE0d05MVWxiS0JtVQ?oc=5",
+      "source": "ラブすぽ",
+      "pubDate": "Wed, 10 Jun 2026 09:43:39 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.289Z"
     },
     {
       "title": "倉庫をリノベしたベーカリーカフェ「パークスタンド トーキョー」清澄白河にオープン｜レッツエンジョイ東京",
