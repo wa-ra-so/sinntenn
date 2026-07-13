@@ -63,6 +63,7 @@ const CHAIN_BLOCKLIST = [
   'ミスタードーナツ', 'スターバックス', 'スタバ', 'ドトール', 'タリーズ', 'エクセルシオール',
   'サンマルクカフェ', 'コメダ珈琲', '星乃珈琲', '上島珈琲',
   'すき家', '吉野家', '松屋', 'なか卯', '餃子の王将', '日高屋', '丸亀製麺', 'はなまるうどん', '大戸屋',
+  'グルメ杵屋', '杵屋うどん',
   '富士そば', 'てんや', 'かっぱ寿司', 'スシロー', 'くら寿司', 'はま寿司', 'がってん寿司',
   'ペッパーランチ', 'ステーキのどん', 'いきなりステーキ',
   'サイゼリヤ', 'ガスト', 'バーミヤン', 'ジョナサン', 'デニーズ', 'ロイヤルホスト', 'ジョイフル', 'ココス',
@@ -363,6 +364,7 @@ const KYUJINBOX_SEARCHES = [
 const NONFOOD_JOB_KEYWORDS = [
   'コールセンター', 'テレフォンオペレーター', '事務', '受付', 'データ入力',
   '清掃', '介護', '警備', '軽作業', '工場', 'ドライバー', '配送', '引越', 'コンビニ',
+  '施工', 'イルミネーション',
 ];
 
 export function isNonFoodJob(jobTitle) {
@@ -394,12 +396,19 @@ export function isOpeningJobTitle(jobTitle) {
   return /(\d{1,2}月|近日|今[春夏秋冬])[にの]?(グランド)?オープン/.test(jobTitle);
 }
 
+// タグ欄はサイト側の都合で配列/文字列が揺れる（東京の検索結果で文字列が観測された）
+function toTagArray(v) {
+  if (Array.isArray(v)) return v;
+  if (typeof v === 'string' && v) return [v];
+  return [];
+}
+
 function kyujinboxToItem(job) {
   const jobTitle = (job.title || '').trim();
   const company = (job.company || '').trim();
   const workArea = job.workArea || '';
   if (!company || !workArea.includes(ACTIVE_PREF.name)) return null;
-  const tags = [...(job.allFeatureTags || []), ...(job.featureTagSp || [])];
+  const tags = [...toTagArray(job.allFeatureTags), ...toTagArray(job.featureTagSp)];
   const isOpening = tags.includes('オープニング') || isOpeningJobTitle(jobTitle);
   if (!isOpening) return null;
   if (isNonFoodJob(jobTitle)) return null;
@@ -410,6 +419,9 @@ function kyujinboxToItem(job) {
   const title = isCorporate
     ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
     : `「${truncate(company, 30)}」オープニングスタッフ募集（${truncate(jobTitle, 30)}）`;
+  const area = detectArea(workArea) || detectArea(combined);
+  // 監査と同一基準: エリア不明かつタイトルに県要素なし（勤務地が「県名のみ」等）は掲載しない
+  if (!area && !isPrefRelevant(title)) return null;
   let pubDate = null;
   if (job.updatedAt) {
     const d = new Date(job.updatedAt.replace(' ', 'T') + '+09:00');
@@ -420,7 +432,7 @@ function kyujinboxToItem(job) {
     link: job.url || '',
     source: job.siteName ? `求人ボックス（${job.siteName}）` : '求人ボックス',
     pubDate,
-    area: detectArea(workArea) || detectArea(combined),
+    area,
     genres: detectGenres(combined),
     signal: 'hiring',
     firstSeenAt: new Date().toISOString(),
@@ -506,6 +518,8 @@ function indeedToItem(job) {
   const title = isCorporate
     ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
     : `「${truncate(company, 30)}」オープニングスタッフ募集（${truncate(jobTitle, 30)}）`;
+  // 監査と同一基準: エリア不明かつタイトルに県要素なし（勤務地が「県名のみ」等）は掲載しない
+  if (!area && !isPrefRelevant(title)) return null;
   let pubDate = null;
   if (typeof job.pubDate === 'number') {
     const d = new Date(job.pubDate);
@@ -543,6 +557,8 @@ export function connectorJobToItem(job, pref = ACTIVE_PREF) {
   const title = isCorporate
     ? `${company} オープニングスタッフ募集（${truncate(jobTitle, 30)}）`
     : `「${truncate(company, 30)}」オープニングスタッフ募集（${truncate(jobTitle, 30)}）`;
+  // 監査と同一基準: エリア不明かつタイトルに県要素なし（勤務地が「県名のみ」等）は掲載しない
+  if (!area && !isPrefRelevant(title, pref)) return null;
   let pubDate = null;
   if (job.postedOn) {
     const d = new Date(job.postedOn);
