@@ -58,8 +58,10 @@ jobs:
       - name: Audit collected data
         run: node scripts/test-filters.mjs --audit
 
-      # ホットペッパー掲載台帳の更新（千葉のみ・掲載終了店＝予約不可店の検出用）。
-      # 失敗しても新店リサーチの公開は止めない
+      # ホットペッパー掲載台帳の更新（千葉のみ）。全掲載店（数千件）を毎朝取得し、
+      # 未チェック・チェックが古い店から一部ずつ店舗ページのネット予約表示を確認する
+      # （店舗数が多いため数日かけてローテーションで一巡）。失敗しても新店リサーチの
+      # 公開は止めない
       - name: Update HotPepper roster (chiba)
         run: node scripts/hotpepper-roster.mjs --pref=chiba || echo "::warning::HotPepper roster update failed"
         env:
@@ -76,12 +78,3 @@ jobs:
             git commit -m "chore: 新店情報を自動更新 ($(date -u +%Y-%m-%d))"
             git push
           fi
-
-  diag-reserve:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - run: node scripts/_diag-reserve.mjs

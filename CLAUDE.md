@@ -5,7 +5,7 @@
 
 - 公開URL: https://wa-ra-so.github.io/sinntenn/ （千葉県・デフォルト）
   - 東京都: `?pref=tokyo` / 神奈川県: `?pref=kanagawa` / 埼玉県: `?pref=saitama`
-- アタックリスト: https://wa-ra-so.github.io/sinntenn/attack.html （HP掲載終了店。現状千葉のみ収集）
+- アタックリスト: https://wa-ra-so.github.io/sinntenn/attack.html （ネット予約不可店。現状千葉のみ収集）
 - 提案書セイセイ君: https://wa-ra-so.github.io/sinntenn/seiseikun.html （独立ツール）
 
 ## 構成
@@ -13,18 +13,18 @@
 | ファイル | 役割 |
 |---|---|
 | `index.html` | 新店リサーチ画面（一覧・絞り込み・店舗詳細モーダル）。ビルドなしの素のHTML+JS。`?pref=`で県切替 |
-| `attack.html` | HP掲載終了アタックリスト画面（期間・エリア・ジャンル絞り込み、CSV保存）。`data/hotpepper-delisted*.json` を表示 |
+| `attack.html` | ネット予約不可アタックリスト画面（期間・エリア・ジャンル絞り込み、CSV保存）。`data/hotpepper-reservation-lost*.json` を表示 |
 | `seiseikun.html` | 提案書セイセイ君（独立ツール、新店リサーチとは無関係） |
 | `shinten.html` | 旧URL向けリダイレクトスタブ（削除しない） |
 | `scripts/prefectures.mjs` | 県設定（市区町村・駅名エイリアス・データファイル名）。**index.htmlのPREFSと対応を保つ** |
 | `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから毎朝6:00 JST頃、4県分実行 |
 | `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査（全県分）。失敗すると公開が止まる |
 | `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人を県別データへマージ。毎朝のClaudeルーティンから実行 |
-| `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新（現状千葉のみ・Actionsから毎朝実行）。掲載終了店の検出用 |
-| `scripts/list-delisted.mjs` | 台帳から掲載終了店（＝HP予約ができなくなった店）をアタックリストとして出力。`--csv=` でCSV書き出し |
+| `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新＋ネット予約可否チェック（現状千葉のみ・Actionsから毎朝実行） |
+| `scripts/list-reservation-lost.mjs` | 台帳からネット予約不可になった店をアタックリストとして出力。`--csv=` でCSV書き出し |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
-| `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt。Actionsが自動コミット） |
-| `data/hotpepper-delisted.json` | 台帳から抽出した掲載終了店のみの軽量版（attack.html が読む） |
+| `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt / reservable / reservableCheckedAt / reservationLostAt。Actionsが自動コミット） |
+| `data/hotpepper-reservation-lost.json` | 台帳から抽出したネット予約不可店のみの軽量版（attack.html が読む） |
 | `data/stores-tokyo.json` ほか | 東京・神奈川（`-kanagawa`）・埼玉（`-saitama`）の収集済みデータ（同上） |
 
 ## データソース（fetch-stores.mjs）
@@ -40,10 +40,14 @@
    fetch-stores.mjs の `connectorJobToItem` に集約、収集基準は他ソースと同一）
 4. **ホットペッパーAPI**（`HOTPEPPER_API_KEY` シークレット設定時のみ）—
    掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ（エリア×ジャンル別の掲載店数）。
-   加えて `hotpepper-roster.mjs` が県内全掲載店の台帳を毎朝更新し、台帳から消えた店
-   ＝掲載終了（HP予約不可になった）店を検出できる（`list-delisted.mjs`）。
-   ※APIにネット予約可否のフィールドは無いため「掲載終了」で判定する。台帳の記録は
-   2026-07-14 開始で、それ以前には遡れない
+   加えて `hotpepper-roster.mjs` が県内全掲載店（千葉は約5,200店）の台帳を毎朝更新する。
+   ※グルメサーチAPIにネット予約可否のフィールドは無いため、店舗ページ本体を取得し
+   `<title>` タグの「＜ネット予約可＞」表記の有無で判定している（実ページで確認済み。
+   Actionsランナーからhotpepper.jpへの直接アクセスは通る＝Indeedと違いブロックされない）。
+   全店を毎日チェックすると重いため、未チェック・チェックが古い店から1日800件ずつ
+   ローテーションで確認（約6〜7日で一巡）。ネット予約可→不可に変わった店を
+   `reservationLostAt` に記録し、`list-reservation-lost.mjs` でアタックリスト出力できる。
+   台帳の記録は2026-07-14開始で、それ以前には遡れない
 
 ## 重要な設計ルール
 
