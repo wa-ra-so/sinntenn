@@ -76,3 +76,12 @@ jobs:
             git commit -m "chore: 新店情報を自動更新 ($(date -u +%Y-%m-%d))"
             git push
           fi
+
+  diag-reserve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: node scripts/_diag-reserve.mjs
