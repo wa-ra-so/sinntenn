@@ -261,6 +261,8 @@ async function checkHotpepper(storeName, area) {
       budget: hit && hit.budget ? (hit.budget.name || hit.budget.average || '') : '',
       capacity: hit ? (hit.capacity || '') : '',
       open: hit ? (hit.open || '') : '',
+      reserve: hit ? (hit.reserve !== false && hit.reserve !== undefined) : false,
+      coupon: hit ? (hit.coupon !== false && hit.coupon !== undefined) : false,
       checkedAt: new Date().toISOString(),
     };
   } catch (err) {
