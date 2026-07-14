@@ -202,12 +202,14 @@ function render() {
 
 function row(it) {
   const d = fmtDate(it.reservationLostAt);
+  const lastOk = fmtDate(it.lastReservableAt);
   const stillListed = it.lastSeenAt === DATA.updatedAt;
+  const rangeLabel = lastOk ? `${lastOk} 〜 ${d} の間に変化` : `${d} 以前から予約不可`;
   return `<div class="store-row">
     <div class="row-date">
       <div class="d-day">${d.slice(8, 10)}日</div>
       <div class="d-mo">${d.slice(0, 7).replace('-', '/')}</div>
-      <div class="d-badge">予約不可</div>
+      <div class="d-badge">予約不可検出</div>
     </div>
     <div class="row-main">
       <div class="row-title"><a href="${esc(it.url || `https://www.hotpepper.jp/str${it.id}/`)}" target="_blank" rel="noopener">${esc(it.name)}</a></div>
@@ -217,15 +219,16 @@ function row(it) {
         ${it.genre ? `<span class="tag tag-genre">${esc(it.genre)}</span>` : ''}
         <span class="tag tag-listed">${stillListed ? 'HP掲載は継続中（予約のみ不可）' : 'HP掲載自体も終了'}</span>
       </div>
+      <div class="tag-row"><span class="tag tag-listed">${rangeLabel}（数日おきのチェックのため正確な日は不明）</span></div>
     </div>
   </div>`;
 }
 
 function downloadCsv(items) {
-  const cols = ['店名', 'ジャンル', 'エリア', '住所', 'ネット予約不可検出日', 'ホットペッパーURL'];
+  const cols = ['店名', 'ジャンル', 'エリア', '住所', '予約可能を最後に確認した日', 'ネット予約不可を検出した日', 'ホットペッパーURL'];
   const escCsv = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
   const rows = [cols.map(escCsv).join(',')].concat(items.map(it =>
-    [it.name, it.genre, it.area, it.address, fmtDate(it.reservationLostAt), it.url || `https://www.hotpepper.jp/str${it.id}/`].map(escCsv).join(',')));
+    [it.name, it.genre, it.area, it.address, fmtDate(it.lastReservableAt), fmtDate(it.reservationLostAt), it.url || `https://www.hotpepper.jp/str${it.id}/`].map(escCsv).join(',')));
   const blob = new Blob(['\uFEFF' + rows.join('\r\n')], { type: 'text/csv;charset=utf-8' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);

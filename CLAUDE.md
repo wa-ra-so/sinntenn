@@ -23,7 +23,7 @@
 | `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新＋ネット予約可否チェック（現状千葉のみ・Actionsから毎朝実行） |
 | `scripts/list-reservation-lost.mjs` | 台帳からネット予約不可になった店をアタックリストとして出力。`--csv=` でCSV書き出し |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
-| `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt / reservable / reservableCheckedAt / reservationLostAt。Actionsが自動コミット） |
+| `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt / reservable / reservableCheckedAt / lastReservableAt / reservationLostAt。Actionsが自動コミット） |
 | `data/hotpepper-reservation-lost.json` | 台帳から抽出したネット予約不可店のみの軽量版（attack.html が読む） |
 | `data/stores-tokyo.json` ほか | 東京・神奈川（`-kanagawa`）・埼玉（`-saitama`）の収集済みデータ（同上） |
 
@@ -45,8 +45,12 @@
    `<title>` タグの「＜ネット予約可＞」表記の有無で判定している（実ページで確認済み。
    Actionsランナーからhotpepper.jpへの直接アクセスは通る＝Indeedと違いブロックされない）。
    全店を毎日チェックすると重いため、未チェック・チェックが古い店から1日800件ずつ
-   ローテーションで確認（約6〜7日で一巡）。ネット予約可→不可に変わった店を
-   `reservationLostAt` に記録し、`list-reservation-lost.mjs` でアタックリスト出力できる。
+   ローテーションで確認（約6〜7日で一巡）。ネット予約可→不可に変わった店を検出し、
+   `lastReservableAt`（予約可能を最後に確認した日）と `reservationLostAt`
+   （不可を検出した日）を記録する。**ローテーションのため「正確にいつ変わったか」は
+   わからず、この2つの日付の間のどこかとしてしか特定できない**（掲載自体が終了した
+   場合は台帳の掲載有無チェックが毎日走るため、その部分は1日単位で正確）。
+   `list-reservation-lost.mjs` でアタックリスト出力できる。
    台帳の記録は2026-07-14開始で、それ以前には遡れない
 
 ## 重要な設計ルール

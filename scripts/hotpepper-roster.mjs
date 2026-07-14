@@ -10,6 +10,11 @@
 // チェックすると重いため、未チェック・チェックが古い店から順に1日
 // RESERVE_CHECK_BATCH 件だけ確認するローテーション方式。
 //
+// 注意: ローテーションのため「予約できなくなった正確な日」はわからない。
+// 記録できるのは lastReservableAt（予約可能を最後に確認した日）〜
+// reservationLostAt（予約不可を検出した日）という"幅"のみ
+// （チェック間隔が約6〜7日あるため、実際の変化はこの間のどこか）。
+//
 // 「予約できなくなった店」＝ reservable が true→false に変わった店、または
 // 掲載自体が終了した店（true だった場合のみ）。reservationLostAt に検出日時を
 // 記録し、data/hotpepper-reservation-lost*.json に軽量抽出する。
@@ -188,31 +193,44 @@ async function main() {
     checkedOk++;
     const wasReservable = s.reservable;
     shops[id] = { ...s, reservable: result, reservableCheckedAt: stamp };
-    if (result === false) {
-      if (wasReservable === true) {
-        shops[id].reservationLostAt = stamp;
-        reservationLostNow.push({ id, ...shops[id] });
-      }
-      // wasReservable が undefined（初回チェック）の場合は「元々ネット予約なし」の
-      // 可能性が高く、予約"できなくなった"わけではないため対象外
-    } else if (result === true && s.reservationLostAt) {
-      delete shops[id].reservationLostAt; // 再びネット予約可能に戻った
+    if (result === true) {
+      shops[id].lastReservableAt = stamp; // 「予約可能を最後に確認した日」を更新
+      if (s.reservationLostAt) delete shops[id].reservationLostAt; // 再びネット予約可能に戻った
+    } else if (wasReservable === true) {
+      // s.lastReservableAt は前回チェック時点で既に「予約可能を最後に確認した日」
+      // として記録済み（今回は false なので更新しない）。実際に変わったのはこの日から
+      // 今回検出した stamp までのどこか
+      shops[id].reservationLostAt = stamp;
+      reservationLostNow.push({ id, ...shops[id] });
     }
+    // wasReservable が undefined（初回チェック）で result が false の場合は
+    // 「元々ネット予約なし」の可能性が高く、予約"できなくなった"わけではないため対象外
   });
   console.log(`[info] ネット予約チェック結果: 成功 ${checkedOk} / 失敗 ${checkFailed}`);
   if (reservationLostNow.length > 0) {
     console.log(`[info] 今回新たにネット予約不可を検出: ${reservationLostNow.length} 店`);
-    for (const s of reservationLostNow) console.log(`  - ${s.name}（${s.area || s.address}） ${s.url}`);
+    for (const s of reservationLostNow) {
+      const range = s.lastReservableAt ? `${s.lastReservableAt.slice(0, 10)} 〜 ${s.reservationLostAt.slice(0, 10)}` : `〜${s.reservationLostAt.slice(0, 10)}`;
+      console.log(`  - ${s.name}（${s.area || s.address}） ${range} ${s.url}`);
+    }
   }
 
   // 掲載終了店（台帳から消えた店）は、予約可だった場合のみ「予約できなくなった」に計上する
   const newlyDelisted = Object.entries(shops).filter(([, s]) =>
     s.lastSeenAt === prev.updatedAt && prev.updatedAt !== '' && prev.updatedAt !== stamp);
+  const newlyDelistedLost = [];
   for (const [id, s] of newlyDelisted) {
     if (s.reservable === true) {
       shops[id] = { ...s, reservable: false, reservationLostAt: stamp };
       reservationLostNow.push({ id, ...shops[id] });
-      console.log(`  - ${s.name}（掲載終了） ${s.url}`);
+      newlyDelistedLost.push(shops[id]);
+    }
+  }
+  if (newlyDelistedLost.length > 0) {
+    console.log(`[info] 今回新たに掲載終了（予約可だった店）: ${newlyDelistedLost.length} 店`);
+    for (const s of newlyDelistedLost) {
+      const range = s.lastReservableAt ? `${s.lastReservableAt.slice(0, 10)} 〜 ${s.reservationLostAt.slice(0, 10)}` : `〜${s.reservationLostAt.slice(0, 10)}`;
+      console.log(`  - ${s.name}（${s.area || s.address}） ${range} ${s.url}`);
     }
   }
 
