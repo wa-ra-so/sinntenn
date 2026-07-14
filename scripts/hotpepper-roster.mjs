@@ -20,6 +20,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ACTIVE_PREF = getPrefFromArgv();
 // stores.json → hotpepper-roster.json / stores-tokyo.json → hotpepper-roster-tokyo.json
 const ROSTER_PATH = path.join(__dirname, '..', 'data', ACTIVE_PREF.dataFile.replace(/^stores/, 'hotpepper-roster'));
+// attack.html が読む軽量版（掲載終了店のみの抽出。台帳本体は大きいため）
+const DELISTED_PATH = path.join(__dirname, '..', 'data', ACTIVE_PREF.dataFile.replace(/^stores/, 'hotpepper-delisted'));
 
 const HOTPEPPER_API_KEY = process.env.HOTPEPPER_API_KEY || '';
 const API_BASE = 'https://webservice.recruit.co.jp/hotpepper';
@@ -144,17 +146,27 @@ async function main() {
     }
   }
 
-  const delistedTotal = Object.values(shops).filter(s => s.lastSeenAt !== stamp).length;
+  const delistedAll = Object.entries(shops)
+    .filter(([, s]) => s.lastSeenAt !== stamp)
+    .map(([id, s]) => ({ id, ...s }))
+    .sort((a, b) => (a.lastSeenAt < b.lastSeenAt ? 1 : -1));
   await mkdir(path.dirname(ROSTER_PATH), { recursive: true });
   await writeFile(ROSTER_PATH, JSON.stringify({
     updatedAt: stamp,
     pref: ACTIVE_PREF.id,
     activeCount: current.size,
-    delistedCount: delistedTotal,
+    delistedCount: delistedAll.length,
     shops,
   }, null, 1));
-  console.log(`[info] 台帳更新: 掲載中 ${current.size} / 新規 ${added} / 掲載終了(累計) ${delistedTotal} / 掃除 ${pruned}`);
-  console.log(`[info] wrote ${ROSTER_PATH}`);
+  // アタックリスト画面（attack.html）用の軽量抽出
+  await writeFile(DELISTED_PATH, JSON.stringify({
+    updatedAt: stamp,
+    pref: ACTIVE_PREF.id,
+    activeCount: current.size,
+    items: delistedAll,
+  }, null, 1));
+  console.log(`[info] 台帳更新: 掲載中 ${current.size} / 新規 ${added} / 掲載終了(累計) ${delistedAll.length} / 掃除 ${pruned}`);
+  console.log(`[info] wrote ${ROSTER_PATH} / ${DELISTED_PATH}`);
 }
 
 main().catch(err => {

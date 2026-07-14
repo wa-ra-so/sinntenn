@@ -5,6 +5,7 @@
 
 - 公開URL: https://wa-ra-so.github.io/sinntenn/ （千葉県・デフォルト）
   - 東京都: `?pref=tokyo` / 神奈川県: `?pref=kanagawa` / 埼玉県: `?pref=saitama`
+- アタックリスト: https://wa-ra-so.github.io/sinntenn/attack.html （HP掲載終了店。現状千葉のみ収集）
 - 提案書セイセイ君: https://wa-ra-so.github.io/sinntenn/seiseikun.html （独立ツール）
 
 ## 構成
@@ -12,6 +13,7 @@
 | ファイル | 役割 |
 |---|---|
 | `index.html` | 新店リサーチ画面（一覧・絞り込み・店舗詳細モーダル）。ビルドなしの素のHTML+JS。`?pref=`で県切替 |
+| `attack.html` | HP掲載終了アタックリスト画面（期間・エリア・ジャンル絞り込み、CSV保存）。`data/hotpepper-delisted*.json` を表示 |
 | `seiseikun.html` | 提案書セイセイ君（独立ツール、新店リサーチとは無関係） |
 | `shinten.html` | 旧URL向けリダイレクトスタブ（削除しない） |
 | `scripts/prefectures.mjs` | 県設定（市区町村・駅名エイリアス・データファイル名）。**index.htmlのPREFSと対応を保つ** |
@@ -22,6 +24,7 @@
 | `scripts/list-delisted.mjs` | 台帳から掲載終了店（＝HP予約ができなくなった店）をアタックリストとして出力。`--csv=` でCSV書き出し |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
 | `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt。Actionsが自動コミット） |
+| `data/hotpepper-delisted.json` | 台帳から抽出した掲載終了店のみの軽量版（attack.html が読む） |
 | `data/stores-tokyo.json` ほか | 東京・神奈川（`-kanagawa`）・埼玉（`-saitama`）の収集済みデータ（同上） |
 
 ## データソース（fetch-stores.mjs）
