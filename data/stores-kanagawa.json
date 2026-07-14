@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-14T21:49:36.974Z",
+  "generatedAt": "2026-07-14T23:28:03.128Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 92
+      "count": 93
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 9
+      "count": 8
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 39
+      "count": 37
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 19
+      "count": 22
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 36,
+  "itemCount": 41,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -299,6 +299,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-14T21:49:36.974Z"
+    },
+    "焼き鳥ゑびす横浜関内店": {
+      "storeName": "焼き鳥ゑびす 横浜関内店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004089352/?vos=nhppalsa000016",
+      "shopName": "焼き鳥ゑびす 横浜関内店",
+      "address": "神奈川県横浜市中区相生町２丁目33-3",
+      "access": "横浜市営地下鉄ﾌﾞﾙｰﾗｲﾝ関内駅出口3より徒歩約5分",
+      "genre": "和食",
+      "budget": "4001～5000円",
+      "capacity": 26,
+      "open": "月～木: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）金、土、祝前日: 17:00～23:30 （料理L.O. 22:30 ドリンクL.O. 23:00）",
+      "checkedAt": "2026-07-14T23:28:01.669Z"
+    },
+    "溝口クラフトビールとオイスター麦髭屋": {
+      "storeName": "溝口クラフトビールとオイスター 麦髭屋",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T23:28:02.577Z"
     }
   },
   "market": {
@@ -338,10 +364,6 @@
       "count": 200,
       "checkedAt": "2026-07-13T15:05:47.138Z"
     },
-    "川崎市|居酒屋": {
-      "count": 403,
-      "checkedAt": "2026-07-13T21:46:55.852Z"
-    },
     "三浦市|カフェ": {
       "count": 8,
       "checkedAt": "2026-07-13T21:46:55.871Z"
@@ -349,9 +371,33 @@
     "川崎市|中華": {
       "count": 98,
       "checkedAt": "2026-07-13T21:46:56.034Z"
+    },
+    "横浜市|中華": {
+      "count": 413,
+      "checkedAt": "2026-07-14T23:28:02.776Z"
+    },
+    "川崎市|レストラン": {
+      "count": 55,
+      "checkedAt": "2026-07-14T23:28:02.786Z"
+    },
+    "川崎市|ダイニング": {
+      "count": 66,
+      "checkedAt": "2026-07-14T23:28:03.128Z"
     }
   },
   "items": [
+    {
+      "title": "「溝口クラフトビールとオイスター 麦髭屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14084543#job-info-54322",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
+      "area": "川崎市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:58.562Z"
+    },
     {
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
@@ -378,6 +424,16 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
+      "title": "株式会社サーズ オープニングスタッフ募集（「神奈川」販売スタッフ オープニング募集）",
+      "link": "https://mynavi-agent.jp/entry/?jno=10688488",
+      "source": "求人ボックス（マイナビエージェント- 登録エントリー）",
+      "pubDate": "Tue, 14 Jul 2026 05:01:09 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:58.562Z"
+    },
+    {
       "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96515",
       "source": "求人ボックス（食べログ求人）",
@@ -388,6 +444,30 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
+      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
+      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96505",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 01:30:48 GMT",
+      "area": "横浜市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:58.563Z"
+    },
+    {
+      "title": "株式会社コロワイドダイニング オープニングスタッフ募集（ホール/キッチン/洗い場 7/24OPEN 365酒場オープ…）",
+      "link": "http://s.baitoru.com/DW0aXePF",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Sun, 12 Jul 2026 17:36:49 GMT",
+      "area": "川崎市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:58.563Z"
     },
     {
       "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
@@ -407,9 +487,7 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -556,6 +634,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "「焼き鳥ゑびす 横浜関内店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=14041867#job-info-26491",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 28 Jun 2026 01:30:46 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:58.563Z"
     },
     {
       "title": "株式会社フォンスCB オープニングスタッフ募集（レストランのホールスタッフ/「横浜駅に8月OPEN/オープニ…）",

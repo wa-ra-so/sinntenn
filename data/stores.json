@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T21:49:19.117Z",
+  "generatedAt": "2026-07-14T23:27:46.724Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 86,
+  "itemCount": 87,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -711,6 +711,10 @@
     "八千代市|レストラン": {
       "count": 4,
       "checkedAt": "2026-07-14T21:49:19.117Z"
+    },
+    "旭市|イタリアン": {
+      "count": 4,
+      "checkedAt": "2026-07-14T23:27:46.724Z"
     }
   },
   "items": [
@@ -1148,6 +1152,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:14.221Z"
+    },
+    {
+      "title": "株式会社オリーブの丘ホールディングス オープニングスタッフ募集（ホール ホール 柔軟シフト 土日祝は時給UP 本格派イタリア…）",
+      "link": "https://saiyo.page/452305/job/161056631/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 08 Jul 2026 05:10:25 GMT",
+      "area": "旭市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },
     {
       "title": "合同会社CROP オープニングスタッフ募集（オープニングスタッフ大募集!✨「ちゃん系ラーメン店」の運営ス…）",

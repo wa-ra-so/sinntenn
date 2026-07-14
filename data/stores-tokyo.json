@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T21:49:28.856Z",
+  "generatedAt": "2026-07-14T23:27:55.116Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 18
+      "count": 17
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 62
+      "count": 64
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 19
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 101,
+  "itemCount": 102,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -988,6 +988,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-14T21:49:28.625Z"
+    },
+    "大衆酒場スシスミビ下北沢店": {
+      "storeName": "大衆酒場スシスミビ 下北沢店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T23:27:54.923Z"
     }
   },
   "market": {
@@ -1138,6 +1151,10 @@
     "目黒区|バー": {
       "count": 102,
       "checkedAt": "2026-07-14T21:49:28.856Z"
+    },
+    "世田谷区|居酒屋": {
+      "count": 223,
+      "checkedAt": "2026-07-14T23:27:55.116Z"
     }
   },
   "items": [
@@ -1260,6 +1277,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
     },
     {
+      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/月…）",
+      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-107431",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 09 Jul 2026 01:30:44 GMT",
+      "area": "世田谷区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:50.461Z"
+    },
+    {
       "title": "【NEW OPEN】西麻布にカウンター6席限定の特等席。大人の女性を満たす次世代和食「蓮雀（れんじゃく）」が2026年7月10日（金）グランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3dVVQOGpuX05sN283RTcxU0RBNU96SVJNY0dlNkFoT2szSERZQXM4Yk1FY1VDQnJVNEZqZkpibWZYV3dyVkl6WVdKakFFWmNIcVRMS2NFNWtOdm0xcS0zYjk4Z1RuYVFWbUE?oc=5",
       "source": "PR TIMES",
@@ -1306,7 +1335,7 @@
       "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4916.html",
       "source": "求人ボックス（株式会社三和薬品）",
       "pubDate": "Tue, 07 Jul 2026 21:34:09 GMT",
-      "area": "台東区",
+      "area": "墨田区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
