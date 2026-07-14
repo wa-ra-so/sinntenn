@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>千葉県 HP掲載終了アタックリスト</title>
+<title>千葉県 ネット予約不可アタックリスト</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
@@ -91,8 +91,8 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
   <div class="app-header">
     <div class="app-icon">📞</div>
     <div>
-      <div class="app-title" id="pageTitle">HP掲載終了アタックリスト</div>
-      <div class="app-sub">ホットペッパーの掲載が終了した（＝HP予約ができなくなった）店舗。毎朝自動更新</div>
+      <div class="app-title" id="pageTitle">ネット予約不可アタックリスト</div>
+      <div class="app-sub">ホットペッパーのネット予約カレンダーが使えなくなった店舗。毎朝自動更新</div>
     </div>
     <div class="header-meta">
       <div><a href="./index.html" id="backLink">← 新店リサーチへ</a></div>
@@ -106,16 +106,16 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 
 <script>
 const PREFS = {
-  chiba:    { label: '千葉県',   file: 'hotpepper-delisted.json' },
-  tokyo:    { label: '東京都',   file: 'hotpepper-delisted-tokyo.json' },
-  kanagawa: { label: '神奈川県', file: 'hotpepper-delisted-kanagawa.json' },
-  saitama:  { label: '埼玉県',   file: 'hotpepper-delisted-saitama.json' },
+  chiba:    { label: '千葉県',   file: 'hotpepper-reservation-lost.json' },
+  tokyo:    { label: '東京都',   file: 'hotpepper-reservation-lost-tokyo.json' },
+  kanagawa: { label: '神奈川県', file: 'hotpepper-reservation-lost-kanagawa.json' },
+  saitama:  { label: '埼玉県',   file: 'hotpepper-reservation-lost-saitama.json' },
 };
 const prefParam = new URLSearchParams(location.search).get('pref');
 const PREF_ID = Object.prototype.hasOwnProperty.call(PREFS, prefParam) ? prefParam : 'chiba';
 const PREF = PREFS[PREF_ID];
-document.title = `${PREF.label} HP掲載終了アタックリスト`;
-document.getElementById('pageTitle').textContent = `${PREF.label} HP掲載終了アタックリスト`;
+document.title = `${PREF.label} ネット予約不可アタックリスト`;
+document.getElementById('pageTitle').textContent = `${PREF.label} ネット予約不可アタックリスト`;
 document.getElementById('backLink').href = PREF_ID === 'chiba' ? './index.html' : `./index.html?pref=${PREF_ID}`;
 document.getElementById('prefTabs').innerHTML = Object.entries(PREFS).map(([id, p]) =>
   `<a class="pref-tab${id === PREF_ID ? ' active' : ''}" href="?pref=${id}">${p.label}</a>`).join('');
@@ -141,7 +141,7 @@ function withinDays(iso, days) {
 
 function filtered() {
   return DATA.items.filter(it =>
-    withinDays(it.lastSeenAt, state.days) &&
+    withinDays(it.reservationLostAt, state.days) &&
     (!state.area || it.area === state.area) &&
     (!state.genre || it.genre === state.genre) &&
     (!state.q || (it.name + it.address).toLowerCase().includes(state.q.toLowerCase()))
@@ -157,15 +157,15 @@ function render() {
   if (!DATA) return;
   const items = filtered();
   const counts = {
-    d7:  DATA.items.filter(it => withinDays(it.lastSeenAt, 7)).length,
-    d30: DATA.items.filter(it => withinDays(it.lastSeenAt, 30)).length,
+    d7:  DATA.items.filter(it => withinDays(it.reservationLostAt, 7)).length,
+    d30: DATA.items.filter(it => withinDays(it.reservationLostAt, 30)).length,
   };
   const areas  = [...new Set(DATA.items.map(it => it.area).filter(Boolean))].sort();
   const genres = [...new Set(DATA.items.map(it => it.genre).filter(Boolean))].sort();
 
   el.innerHTML = `
   <div class="kpi-row">
-    <div class="kpi"><div class="kpi-label">掲載終了（累計）</div><div class="kpi-value">${DATA.items.length}<span class="unit">店</span></div><div class="kpi-note">記録開始以降</div></div>
+    <div class="kpi"><div class="kpi-label">ネット予約不可（累計）</div><div class="kpi-value">${DATA.items.length}<span class="unit">店</span></div><div class="kpi-note">記録開始以降</div></div>
     <div class="kpi"><div class="kpi-label">直近30日</div><div class="kpi-value">${counts.d30}<span class="unit">店</span></div><div class="kpi-note">直近7日: ${counts.d7}店</div></div>
     <div class="kpi"><div class="kpi-label">現在の掲載店数</div><div class="kpi-value">${DATA.activeCount ?? '—'}<span class="unit">店</span></div><div class="kpi-note">${esc(PREF.label)}のHP掲載</div></div>
     <div class="kpi"><div class="kpi-label">台帳更新</div><div class="kpi-value" style="font-size:16px;padding-top:8px;">${fmtDate(DATA.updatedAt)}</div><div class="kpi-note">毎朝6時ごろ自動更新</div></div>
@@ -184,7 +184,7 @@ function render() {
   </div></div>
   <div class="result-count">${items.length} 店を表示</div>
   ${items.length === 0
-    ? `<div class="empty-state">条件に合う掲載終了店はありません。<br>台帳の記録は 2026-07-14 開始のため、掲載終了店は記録開始の翌日以降から少しずつ検出されます。</div>`
+    ? `<div class="empty-state">条件に合うネット予約不可店はありません。<br>台帳の記録は 2026-07-14 開始で、全店舗を数日かけて順にチェックするため、検出には少し時間がかかります。</div>`
     : `<div class="list-card">${items.map(row).join('')}</div>`}
   `;
 
@@ -201,30 +201,34 @@ function render() {
 }
 
 function row(it) {
-  const d = fmtDate(it.lastSeenAt);
+  const d = fmtDate(it.reservationLostAt);
+  const lastOk = fmtDate(it.lastReservableAt);
+  const stillListed = it.lastSeenAt === DATA.updatedAt;
+  const rangeLabel = lastOk ? `${lastOk} 〜 ${d} の間に変化` : `${d} 以前から予約不可`;
   return `<div class="store-row">
     <div class="row-date">
       <div class="d-day">${d.slice(8, 10)}日</div>
       <div class="d-mo">${d.slice(0, 7).replace('-', '/')}</div>
-      <div class="d-badge">掲載終了</div>
+      <div class="d-badge">予約不可検出</div>
     </div>
     <div class="row-main">
-      <div class="row-title"><a href="https://www.hotpepper.jp/str${esc(it.id)}/" target="_blank" rel="noopener">${esc(it.name)}</a></div>
+      <div class="row-title"><a href="${esc(it.url || `https://www.hotpepper.jp/str${it.id}/`)}" target="_blank" rel="noopener">${esc(it.name)}</a></div>
       <div class="row-addr">${esc(it.address)}</div>
       <div class="tag-row">
         ${it.area ? `<span class="tag tag-area">${esc(it.area)}</span>` : ''}
         ${it.genre ? `<span class="tag tag-genre">${esc(it.genre)}</span>` : ''}
-        <span class="tag tag-listed">掲載確認 ${fmtDate(it.firstSeenAt)} 〜 ${d}</span>
+        <span class="tag tag-listed">${stillListed ? 'HP掲載は継続中（予約のみ不可）' : 'HP掲載自体も終了'}</span>
       </div>
+      <div class="tag-row"><span class="tag tag-listed">${rangeLabel}（数日おきのチェックのため正確な日は不明）</span></div>
     </div>
   </div>`;
 }
 
 function downloadCsv(items) {
-  const cols = ['店名', 'ジャンル', 'エリア', '住所', '掲載終了日(推定)', '旧ホットペッパーURL'];
+  const cols = ['店名', 'ジャンル', 'エリア', '住所', '予約可能を最後に確認した日', 'ネット予約不可を検出した日', 'ホットペッパーURL'];
   const escCsv = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
   const rows = [cols.map(escCsv).join(',')].concat(items.map(it =>
-    [it.name, it.genre, it.area, it.address, fmtDate(it.lastSeenAt), `https://www.hotpepper.jp/str${it.id}/`].map(escCsv).join(',')));
+    [it.name, it.genre, it.area, it.address, fmtDate(it.lastReservableAt), fmtDate(it.reservationLostAt), it.url || `https://www.hotpepper.jp/str${it.id}/`].map(escCsv).join(',')));
   const blob = new Blob(['\uFEFF' + rows.join('\r\n')], { type: 'text/csv;charset=utf-8' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);

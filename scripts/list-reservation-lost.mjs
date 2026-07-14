@@ -1,10 +1,11 @@
-// 掲載台帳（data/hotpepper-roster*.json）から「ホットペッパーの掲載が終了した店」
-// ＝HP予約ができなくなった店をアタックリストとして出力する。
+// 掲載台帳（data/hotpepper-roster*.json）から「ネット予約ができなくなった店」
+// ＝以前はホットペッパーのネット予約カレンダーが使えたのに、今は使えなくなった店を
+// アタックリストとして出力する。
 //
 // 使い方:
-//   node scripts/list-delisted.mjs --pref=chiba            # 直近90日に掲載終了した店を表示
-//   node scripts/list-delisted.mjs --pref=chiba --days=30  # 期間を変更
-//   node scripts/list-delisted.mjs --pref=chiba --csv=attack-list.csv  # CSVも書き出す
+//   node scripts/list-reservation-lost.mjs --pref=chiba            # 直近90日を表示
+//   node scripts/list-reservation-lost.mjs --pref=chiba --days=30  # 期間を変更
+//   node scripts/list-reservation-lost.mjs --pref=chiba --csv=attack-list.csv  # CSVも書き出す
 //
 // APIキー不要（台帳を読むだけ）。台帳は scripts/hotpepper-roster.mjs が毎朝更新する。
 import { readFile, writeFile } from 'node:fs/promises';
@@ -39,34 +40,34 @@ async function main() {
   const { updatedAt = '', shops = {} } = roster;
   const cutoff = Date.now() - DAYS * 24 * 60 * 60 * 1000;
 
-  // 掲載終了 = 最新実行で見えなかった店（lastSeenAt が updatedAt より古い）
-  const delisted = Object.entries(shops)
-    .filter(([, s]) => s.lastSeenAt !== updatedAt && Date.parse(s.lastSeenAt || 0) >= cutoff)
+  const lost = Object.entries(shops)
+    .filter(([, s]) => s.reservationLostAt && Date.parse(s.reservationLostAt) >= cutoff)
     .map(([id, s]) => ({
       id,
       name: s.name,
       address: s.address,
       genre: s.genre,
       area: s.area,
-      listedSince: fmtDate(s.firstSeenAt),
-      delistedOn: fmtDate(s.lastSeenAt), // 最後に掲載を確認した日（この直後に終了）
-      url: `https://www.hotpepper.jp/str${id}/`,
+      lastReservableOn: fmtDate(s.lastReservableAt),
+      lostOn: fmtDate(s.reservationLostAt),
+      url: s.url || `https://www.hotpepper.jp/str${id}/`,
     }))
-    .sort((a, b) => (a.delistedOn < b.delistedOn ? 1 : -1));
+    .sort((a, b) => (a.lostOn < b.lostOn ? 1 : -1));
 
-  console.log(`■ ${ACTIVE_PREF.name} ホットペッパー掲載終了店（直近${DAYS}日 / 台帳更新: ${fmtDate(updatedAt)}）`);
-  console.log(`  該当: ${delisted.length} 店\n`);
-  for (const s of delisted) {
+  console.log(`■ ${ACTIVE_PREF.name} ネット予約不可になった店（直近${DAYS}日 / 台帳更新: ${fmtDate(updatedAt)}）`);
+  console.log(`  該当: ${lost.length} 店\n`);
+  for (const s of lost) {
+    const range = s.lastReservableOn ? `${s.lastReservableOn} 〜 ${s.lostOn} の間` : `${s.lostOn} 以前`;
     console.log(`・${s.name}${s.genre ? `（${s.genre}）` : ''}`);
     console.log(`   ${s.address}`);
-    console.log(`   掲載終了: ${s.delistedOn} ごろ / 旧ページ: ${s.url}`);
+    console.log(`   ネット予約不可になった時期: ${range}（正確な日は特定できません。チェックは数日おきのため） / ページ: ${s.url}`);
   }
 
   if (CSV_PATH) {
     const esc = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
     const rows = [
-      ['店名', 'ジャンル', 'エリア', '住所', '掲載終了日(推定)', '旧ホットペッパーURL'].map(esc).join(','),
-      ...delisted.map(s => [s.name, s.genre, s.area, s.address, s.delistedOn, s.url].map(esc).join(',')),
+      ['店名', 'ジャンル', 'エリア', '住所', '予約可能を最後に確認した日', 'ネット予約不可を検出した日', 'ホットペッパーURL'].map(esc).join(','),
+      ...lost.map(s => [s.name, s.genre, s.area, s.address, s.lastReservableOn, s.lostOn, s.url].map(esc).join(',')),
     ];
     // Excelで文字化けしないようBOM付きUTF-8で出力
     await writeFile(CSV_PATH, '\uFEFF' + rows.join('\r\n'));

@@ -363,7 +363,7 @@ const KYUJINBOX_SEARCHES = [
 // 求人検索は「飲食店」で絞っていても事務・コールセンター等の求人が混ざるため、職種名で弾く
 const NONFOOD_JOB_KEYWORDS = [
   'コールセンター', 'テレフォンオペレーター', '事務', '受付', 'データ入力',
-  '清掃', '介護', '警備', '軽作業', '工場', 'ドライバー', '配送', '引越', 'コンビニ',
+  '清掃', '介護', '看護', '警備', '軽作業', '工場', 'ドライバー', '配送', '引越', 'コンビニ',
   '施工', 'イルミネーション',
 ];
 
@@ -411,8 +411,9 @@ function kyujinboxToItem(job) {
   const tags = [...toTagArray(job.allFeatureTags), ...toTagArray(job.featureTagSp)];
   const isOpening = tags.includes('オープニング') || isOpeningJobTitle(jobTitle);
   if (!isOpening) return null;
-  if (isNonFoodJob(jobTitle)) return null;
   const combined = `${company} ${jobTitle}`;
+  // 監査と同一基準: 会社名が介護施設等のケースがあるため、職種名だけでなく会社名も含めて判定
+  if (isNonFoodJob(combined)) return null;
   if (isChain(combined) || hasExcludeKeyword(combined)) return null;
   // 会社名（株式会社等）でなく店舗名らしければ「」で囲み、店名抽出（extractStoreName）を効かせる
   const isCorporate = /株式会社|有限会社|合同会社|\(株\)|（株）/.test(company);
@@ -509,7 +510,8 @@ function indeedToItem(job) {
   const loc = job.formattedLocation || '';
   if (!jobTitle || !company) return null;
   if (!isOpeningJobTitle(jobTitle)) return null;
-  if (isNonFoodJob(jobTitle)) return null;
+  // 監査と同一基準: 会社名が介護施設等のケースがあるため、職種名だけでなく会社名も含めて判定
+  if (isNonFoodJob(`${company} ${jobTitle}`)) return null;
   const combined = `${company} ${jobTitle} ${loc}`;
   if (isChain(combined) || hasExcludeKeyword(combined)) return null;
   const area = detectArea(loc) || detectArea(combined);
@@ -547,7 +549,8 @@ export function connectorJobToItem(job, pref = ACTIVE_PREF) {
   const link = (job.url || '').trim();
   if (!jobTitle || !company || !link) return null;
   if (!isOpeningJobTitle(jobTitle)) return null;
-  if (isNonFoodJob(jobTitle)) return null;
+  // 監査と同一基準: 会社名が介護施設等のケースがあるため、職種名だけでなく会社名も含めて判定
+  if (isNonFoodJob(`${company} ${jobTitle}`)) return null;
   const combined = `${company} ${jobTitle} ${loc}`;
   if (isChain(combined) || hasExcludeKeyword(combined)) return null;
   // 勤務地は「川崎市 中原区」のように分かち書きされるため、スペースを除去して区レベルまで判定する

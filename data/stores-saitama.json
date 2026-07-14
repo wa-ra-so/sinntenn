@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T21:49:45.296Z",
+  "generatedAt": "2026-07-14T23:28:09.583Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 47
+      "count": 48
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 19
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 54,
+  "itemCount": 59,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -684,21 +684,45 @@
       "count": 10,
       "checkedAt": "2026-07-14T21:49:45.267Z"
     },
-    "所沢市|レストラン": {
-      "count": 8,
-      "checkedAt": "2026-07-14T21:49:45.296Z"
+    "さいたま市大宮区|バル": {
+      "count": 20,
+      "checkedAt": "2026-07-14T23:28:09.565Z"
+    },
+    "所沢市|創作料理": {
+      "count": 2,
+      "checkedAt": "2026-07-14T23:28:09.583Z"
     }
   },
   "items": [
+    {
+      "title": "ランスタッド株式会社 オープニングスタッフ募集（販売/世界的ジュエリーブランドでワンランク上のホスピタリティ…）",
+      "link": "https://jobs.recruiting-cloud.jp/kitanihon_area/kj28872545.html?rmc=A0012",
+      "source": "求人ボックス（ランスタッド株式会社_東日本）",
+      "pubDate": "Tue, 14 Jul 2026 20:05:57 GMT",
+      "area": "川越市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:28:06.441Z"
+    },
     {
       "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットの品出しスタッフ/食品/オープニング）",
       "link": "https://job-gear.net/omiyaichiba2/AE0417483700/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
       "pubDate": "Tue, 14 Jul 2026 19:08:38 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/omiyaichiba2/AE0417483709/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー大宮市場店）",
+      "pubDate": "Tue, 14 Jul 2026 19:08:38 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
       "title": "「ファミリー食堂 山田うどん食堂 北中店」オープニングスタッフ募集（うどん食堂のキッチン・ホールスタッフ）",
@@ -729,6 +753,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットのベーカリースタッフ/オープニング）",
+      "link": "https://job-gear.net/koshigayagamou2/AE0617287415/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
+      "pubDate": "Tue, 14 Jul 2026 18:53:45 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:28:06.440Z"
     },
     {
       "title": "株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）",
@@ -792,7 +826,7 @@
       "link": "https://foods-labo.com/offers/85781?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
       "pubDate": "Tue, 14 Jul 2026 08:19:52 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [
         "バル",
         "バー"
@@ -821,16 +855,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:40.791Z"
-    },
-    {
-      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニングスタッフ）",
-      "link": "https://job-gear.net/omiyaichiba2/AE0417483709/MDkyujin_d.htm",
-      "source": "求人ボックス（ヤオコー大宮市場店）",
-      "pubDate": "Mon, 13 Jul 2026 18:37:56 GMT",
-      "area": "さいたま市大宮区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
       "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの寿司スタッフ/オープニングスタッフ）",
@@ -884,7 +908,6 @@
       "pubDate": "Mon, 13 Jul 2026 01:30:44 GMT",
       "area": "所沢市",
       "genres": [
-        "レストラン",
         "創作料理"
       ],
       "signal": "hiring",
@@ -971,6 +994,16 @@
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
     },
     {
+      "title": "和幸株式会社 オープニングスタッフ募集（ホール/キッチン/惣菜・スイーツ販売 オープニング的にSta…）",
+      "link": "https://www.baitoru.com/op195682/job98337913/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 08 Jul 2026 05:13:44 GMT",
+      "area": "草加市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:28:06.441Z"
+    },
+    {
       "title": "株式会社ViSTA オープニングスタッフ募集（20代～30代活躍中/カフェのオープンを企画「カフェスタッフ…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-450302-2-3-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11101",
       "source": "求人ボックス（マイナビ転職.）",
@@ -1006,6 +1039,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
+      "title": "株式会社平山 オープニングスタッフ募集（機械オペレーター/2交代/トラックの足回り部品/即入寮・即入…）",
+      "link": "https://monoppu.com/job/26056346",
+      "source": "求人ボックス（ものっぷ）",
+      "pubDate": "Fri, 03 Jul 2026 20:32:36 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:28:06.440Z"
     },
     {
       "title": "「海鮮すし居酒屋 愉快 八木崎店」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/完全週休2日制）",
@@ -1074,6 +1117,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.270Z"
+    },
+    {
+      "title": "株式会社トーコー オープニングスタッフ募集（お菓子のピッキング作業）",
+      "link": "https://www.e-aidem.com/aps/00_AE0619375056_detail.htm",
+      "source": "求人ボックス（イーアイデム）",
+      "pubDate": "Fri, 19 Jun 2026 15:02:41 GMT",
+      "area": "熊谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:28:06.441Z"
     },
     {
       "title": "【焼きたてのかるび】6月22日(月)埼玉県朝霞市に38店舗目をオープン！",
