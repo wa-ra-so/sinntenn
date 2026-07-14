@@ -150,6 +150,8 @@ let state = {
   recentOnly: false,
   hiringOnly: false,
   hpChanceOnly: false, // ホットペッパー未掲載のみ表示
+  months: new Set(),   // 情報の時期（記事・求人の日付の年月）で絞り込み
+  sigType: '',         // '' | 'opening'（開店ニュース） | 'hiring'（オープン前・求人）
   detail: null, // 詳細表示中のグループ
 };
 
@@ -239,6 +241,19 @@ function isRecent(it) {
   return Date.now() - itemDate(it) <= NEW_DAYS * 24 * 60 * 60 * 1000;
 }
 
+// 記事・求人の日付の「年月」キー（例: '2026-07'）。日付不明は '' を返す
+function monthKeyOf(it) {
+  const t = itemDate(it);
+  if (!t) return '';
+  const d = new Date(t);
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+}
+
+function monthLabel(key) {
+  const [y, m] = key.split('-');
+  return +y === new Date().getFullYear() ? `${+m}月` : `${y}年${+m}月`;
+}
+
 function fmtDate(iso) {
   if (!iso) return '';
   const d = new Date(iso);
@@ -305,12 +320,17 @@ function render() {
   const hpEnabled = Object.keys(hpMap).length > 0;
   const hpChanceCount = hpEnabled ? buildGroups(items, hpMap).filter(g => g.hp && !g.hp.listed).length : 0;
 
+  const monthOptions = [...new Set(items.map(monthKeyOf).filter(Boolean))].sort().reverse();
+
   const filtered = items.filter(it => {
     if (state.q && !it.title.includes(state.q)) return false;
     if (state.areas.size > 0 && !state.areas.has(it.area)) return false;
     if (state.genres.size > 0 && !(it.genres || []).some(g => state.genres.has(g))) return false;
     if (state.recentOnly && !isRecent(it)) return false;
     if (state.hiringOnly && it.signal !== 'hiring') return false;
+    if (state.months.size > 0 && !state.months.has(monthKeyOf(it))) return false;
+    if (state.sigType === 'hiring' && it.signal !== 'hiring') return false;
+    if (state.sigType === 'opening' && it.signal === 'hiring') return false;
     return true;
   });
 
@@ -344,7 +364,8 @@ function render() {
       </div>`}
     </div>`;
 
-  const hasFilter = state.q || state.areas.size > 0 || state.genres.size > 0 || state.recentOnly || state.hiringOnly || state.hpChanceOnly;
+  const hasFilter = state.q || state.areas.size > 0 || state.genres.size > 0 || state.recentOnly || state.hiringOnly || state.hpChanceOnly
+    || state.months.size > 0 || state.sigType;
   const filterCard = `
     <div class="filter-card">
       <div class="filter-row">
@@ -360,6 +381,17 @@ function render() {
       <div class="filter-row">
         <span class="chip ${state.genres.size===0?'active':''}" data-group="genre" data-value="">すべて</span>
         ${genreOptions.map(g => `<span class="chip ${state.genres.has(g)?'active':''}" data-group="genre" data-value="${g}">${g}</span>`).join('')}
+      </div>
+      <div class="filter-label">情報の種類</div>
+      <div class="filter-row">
+        <span class="chip ${state.sigType===''?'active':''}" data-group="sig" data-value="">すべて</span>
+        <span class="chip ${state.sigType==='opening'?'active':''}" data-group="sig" data-value="opening">🏪 開店ニュース</span>
+        <span class="chip ${state.sigType==='hiring'?'active':''}" data-group="sig" data-value="hiring">🧑‍🍳 オープン前・求人段階</span>
+      </div>
+      <div class="filter-label">情報の時期（記事・求人の日付、複数選択可）</div>
+      <div class="filter-row">
+        <span class="chip ${state.months.size===0?'active':''}" data-group="month" data-value="">すべて</span>
+        ${monthOptions.map(m => `<span class="chip ${state.months.has(m)?'active':''}" data-group="month" data-value="${m}">${monthLabel(m)}</span>`).join('')}
       </div>
     </div>`;
 
@@ -416,7 +448,7 @@ function render() {
   }
   const clearBtn = document.getElementById('clear-filters');
   if (clearBtn) clearBtn.onclick = () =>
-    setState({ q:'', areas:new Set(), genres:new Set(), recentOnly:false, hiringOnly:false, hpChanceOnly:false });
+    setState({ q:'', areas:new Set(), genres:new Set(), recentOnly:false, hiringOnly:false, hpChanceOnly:false, months:new Set(), sigType:'' });
   const kpiRecent = document.getElementById('kpi-recent');
   if (kpiRecent) kpiRecent.onclick = () => setState({ recentOnly: !state.recentOnly });
   const kpiHiring = document.getElementById('kpi-hiring');
@@ -427,12 +459,16 @@ function render() {
     chip.onclick = () => {
       const group = chip.dataset.group;
       const value = chip.dataset.value;
-      if (value === '') {
-        setState(group === 'area' ? { areas: new Set() } : { genres: new Set() });
+      if (group === 'sig') {
+        setState({ sigType: value === state.sigType ? '' : value });
+      } else if (value === '') {
+        setState(group === 'area' ? { areas: new Set() } : group === 'genre' ? { genres: new Set() } : { months: new Set() });
       } else if (group === 'area') {
         setState({ areas: toggleInSet(state.areas, value) });
-      } else {
+      } else if (group === 'genre') {
         setState({ genres: toggleInSet(state.genres, value) });
+      } else {
+        setState({ months: toggleInSet(state.months, value) });
       }
     };
   });
