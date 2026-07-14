@@ -18,7 +18,10 @@
 | `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから毎朝6:00 JST頃、4県分実行 |
 | `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査（全県分）。失敗すると公開が止まる |
 | `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人を県別データへマージ。毎朝のClaudeルーティンから実行 |
+| `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新（現状千葉のみ・Actionsから毎朝実行）。掲載終了店の検出用 |
+| `scripts/list-delisted.mjs` | 台帳から掲載終了店（＝HP予約ができなくなった店）をアタックリストとして出力。`--csv=` でCSV書き出し |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
+| `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt。Actionsが自動コミット） |
 | `data/stores-tokyo.json` ほか | 東京・神奈川（`-kanagawa`）・埼玉（`-saitama`）の収集済みデータ（同上） |
 
 ## データソース（fetch-stores.mjs）
@@ -33,7 +36,11 @@
    `scripts/merge-indeed.mjs --pref=◯◯` で県別データにマージする（フィルタは
    fetch-stores.mjs の `connectorJobToItem` に集約、収集基準は他ソースと同一）
 4. **ホットペッパーAPI**（`HOTPEPPER_API_KEY` シークレット設定時のみ）—
-   掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ（エリア×ジャンル別の掲載店数）
+   掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ（エリア×ジャンル別の掲載店数）。
+   加えて `hotpepper-roster.mjs` が県内全掲載店の台帳を毎朝更新し、台帳から消えた店
+   ＝掲載終了（HP予約不可になった）店を検出できる（`list-delisted.mjs`）。
+   ※APIにネット予約可否のフィールドは無いため「掲載終了」で判定する。台帳の記録は
+   2026-07-14 開始で、それ以前には遡れない
 
 ## 重要な設計ルール
 
