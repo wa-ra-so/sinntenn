@@ -77,6 +77,7 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .tag-genre{background:#f0fdf4;color:var(--green);border:1px solid #bbf7d0;}
 .tag-source{background:var(--bg);color:var(--mid);border:1px solid var(--faint);font-weight:500;}
 .tag-hiring{background:var(--amber-pale);color:var(--amber);border:1px solid var(--amber-line);}
+.tag-openmonth{background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;}
 .tag-hp-yes{background:#f0fdf4;color:var(--green);border:1px solid #86efac;}
 .tag-hp-no{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;}
 .tag-week{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;font-weight:700;}
@@ -152,6 +153,7 @@ let state = {
   hpChanceOnly: false, // ホットペッパー未掲載のみ表示
   months: new Set(),   // 情報の時期（記事・求人の日付の年月）で絞り込み
   sigType: '',         // '' | 'opening'（開店ニュース） | 'hiring'（オープン前・求人）
+  openMonths: new Set(), // オープン予定月（タイトルから抽出）で絞り込み
   detail: null, // 詳細表示中のグループ
 };
 
@@ -174,6 +176,27 @@ function extractOpenDate(title, baseDateMs) {
   const candidates = [base.getFullYear() - 1, base.getFullYear(), base.getFullYear() + 1]
     .map(y => new Date(y, mo - 1, day).getTime());
   return candidates.reduce((a, b) => Math.abs(b - base.getTime()) < Math.abs(a - base.getTime()) ? b : a);
+}
+
+// タイトルから「オープン予定月」を推定して 'YYYY-MM' で返す。
+// 「5/29(木)オープン」のような日付表記に加え、「8月オープン」「9月下旬OPEN」のような
+// 月のみの表記にも対応（年は記事日付に最も近い年で解釈）
+function extractOpenMonth(title, baseDateMs) {
+  const full = extractOpenDate(title, baseDateMs);
+  if (full != null) {
+    const d = new Date(full);
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
+  }
+  const m = title.match(/(\d{1,2})月(?:上旬|中旬|下旬|末|初旬|頃)?[^0-9]{0,8}?(?:オープン|OPEN|開店|開業)/i);
+  if (!m) return null;
+  const mo = +m[1];
+  if (mo < 1 || mo > 12) return null;
+  const base = new Date(Number.isFinite(baseDateMs) && baseDateMs > 0 ? baseDateMs : Date.now());
+  const best = [base.getFullYear()-1, base.getFullYear(), base.getFullYear()+1]
+    .map(y => new Date(y, mo - 1, 15).getTime())
+    .reduce((a, b) => Math.abs(b - base.getTime()) < Math.abs(a - base.getTime()) ? b : a);
+  const d = new Date(best);
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}`;
 }
 
 function normalizeStoreName(name) {
@@ -204,6 +227,7 @@ function buildGroups(items, hpMap) {
     g.signal = g.articles.some(a => a.signal === 'hiring') && !g.articles.some(a => a.signal !== 'hiring') ? 'hiring'
       : g.articles.some(a => a.signal === 'hiring') ? 'mixed' : 'opening';
     g.openDate = g.articles.map(a => extractOpenDate(a.title, itemDate(a))).find(d => d != null) ?? null;
+    g.openMonth = g.articles.map(a => extractOpenMonth(a.title, itemDate(a))).find(k => k != null) ?? null;
     g.hp = (hpMap && g.storeName && hpMap[g.key]) || null; // ホットペッパー掲載チェック結果
     g.stage = computeStage(g); // 開店タイミング（アプローチ優先度の目安）
   }
@@ -318,7 +342,9 @@ function render() {
   const areaCount = areaOptions.length;
   const hpMap = data.hotpepper || {};
   const hpEnabled = Object.keys(hpMap).length > 0;
-  const hpChanceCount = hpEnabled ? buildGroups(items, hpMap).filter(g => g.hp && !g.hp.listed).length : 0;
+  const allGroups = buildGroups(items, hpMap);
+  const hpChanceCount = hpEnabled ? allGroups.filter(g => g.hp && !g.hp.listed).length : 0;
+  const openMonthOptions = [...new Set(allGroups.map(g => g.openMonth).filter(Boolean))].sort();
 
   const monthOptions = [...new Set(items.map(monthKeyOf).filter(Boolean))].sort().reverse();
 
@@ -365,7 +391,7 @@ function render() {
     </div>`;
 
   const hasFilter = state.q || state.areas.size > 0 || state.genres.size > 0 || state.recentOnly || state.hiringOnly || state.hpChanceOnly
-    || state.months.size > 0 || state.sigType;
+    || state.months.size > 0 || state.sigType || state.openMonths.size > 0;
   const filterCard = `
     <div class="filter-card">
       <div class="filter-row">
@@ -393,10 +419,17 @@ function render() {
         <span class="chip ${state.months.size===0?'active':''}" data-group="month" data-value="">すべて</span>
         ${monthOptions.map(m => `<span class="chip ${state.months.has(m)?'active':''}" data-group="month" data-value="${m}">${monthLabel(m)}</span>`).join('')}
       </div>
+      ${openMonthOptions.length ? `
+      <div class="filter-label">オープン予定月（タイトルから自動抽出、複数選択可）</div>
+      <div class="filter-row">
+        <span class="chip ${state.openMonths.size===0?'active':''}" data-group="openmonth" data-value="">すべて</span>
+        ${openMonthOptions.map(m => `<span class="chip ${state.openMonths.has(m)?'active':''}" data-group="openmonth" data-value="${m}">${monthLabel(m)}オープン</span>`).join('')}
+      </div>` : ''}
     </div>`;
 
   let groups = buildGroups(filtered, hpMap);
   if (state.hpChanceOnly) groups = groups.filter(g => g.hp && !g.hp.listed);
+  if (state.openMonths.size > 0) groups = groups.filter(g => g.openMonth && state.openMonths.has(g.openMonth));
 
   let listHtml;
   if (items.length === 0) {
@@ -428,6 +461,7 @@ function render() {
                 ? `<span class="tag tag-hp-yes">HP掲載 ●</span>`
                 : `<span class="tag tag-hp-no">HP未掲載 ×</span>`) : ''}
               ${g.signal !== 'opening' ? `<span class="tag tag-hiring">🧑‍🍳 オープン前・求人段階</span>` : ''}
+              ${g.openMonth ? `<span class="tag tag-openmonth">📅 ${monthLabel(g.openMonth)}オープン</span>` : ''}
               ${g.stage ? `<span class="tag ${g.stage.cls}">${g.stage.label}</span>` : ''}
               ${g.area ? `<span class="tag tag-area">📍 ${g.area}</span>` : ''}
               ${g.genres.map(x => `<span class="tag tag-genre">${x}</span>`).join('')}
@@ -448,7 +482,7 @@ function render() {
   }
   const clearBtn = document.getElementById('clear-filters');
   if (clearBtn) clearBtn.onclick = () =>
-    setState({ q:'', areas:new Set(), genres:new Set(), recentOnly:false, hiringOnly:false, hpChanceOnly:false, months:new Set(), sigType:'' });
+    setState({ q:'', areas:new Set(), genres:new Set(), recentOnly:false, hiringOnly:false, hpChanceOnly:false, months:new Set(), sigType:'', openMonths:new Set() });
   const kpiRecent = document.getElementById('kpi-recent');
   if (kpiRecent) kpiRecent.onclick = () => setState({ recentOnly: !state.recentOnly });
   const kpiHiring = document.getElementById('kpi-hiring');
@@ -462,11 +496,16 @@ function render() {
       if (group === 'sig') {
         setState({ sigType: value === state.sigType ? '' : value });
       } else if (value === '') {
-        setState(group === 'area' ? { areas: new Set() } : group === 'genre' ? { genres: new Set() } : { months: new Set() });
+        setState(group === 'area' ? { areas: new Set() }
+          : group === 'genre' ? { genres: new Set() }
+          : group === 'openmonth' ? { openMonths: new Set() }
+          : { months: new Set() });
       } else if (group === 'area') {
         setState({ areas: toggleInSet(state.areas, value) });
       } else if (group === 'genre') {
         setState({ genres: toggleInSet(state.genres, value) });
+      } else if (group === 'openmonth') {
+        setState({ openMonths: toggleInSet(state.openMonths, value) });
       } else {
         setState({ months: toggleInSet(state.months, value) });
       }
@@ -578,6 +617,7 @@ function renderDetail(groups) {
           <div class="modal-store">${name || g.primary.title}</div>
           <div class="modal-tags">
             ${g.signal !== 'opening' ? `<span class="tag tag-hiring">🧑‍🍳 オープン前・求人段階</span>` : ''}
+              ${g.openMonth ? `<span class="tag tag-openmonth">📅 ${monthLabel(g.openMonth)}オープン</span>` : ''}
             ${g.stage ? `<span class="tag ${g.stage.cls}">${g.stage.label}</span>` : ''}
             ${g.area ? `<span class="tag tag-area">📍 ${g.area}</span>` : ''}
             ${g.genres.map(x => `<span class="tag tag-genre">${x}</span>`).join('')}
