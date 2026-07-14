@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-13T21:46:56.034Z",
+  "generatedAt": "2026-07-14T21:49:36.974Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 97
+      "count": 92
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 35
+      "count": 39
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 23
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 34,
+  "itemCount": 36,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -286,6 +286,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T21:46:55.673Z"
+    },
+    "油そば専門店ぶらぶら大船駅前店": {
+      "storeName": "油そば専門店 ぶらぶら 大船駅前店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:36.974Z"
     }
   },
   "market": {
@@ -325,10 +338,6 @@
       "count": 200,
       "checkedAt": "2026-07-13T15:05:47.138Z"
     },
-    "横浜市|中華": {
-      "count": 413,
-      "checkedAt": "2026-07-13T21:46:55.848Z"
-    },
     "川崎市|居酒屋": {
       "count": 403,
       "checkedAt": "2026-07-13T21:46:55.852Z"
@@ -344,26 +353,38 @@
   },
   "items": [
     {
-      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
-      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96515",
+      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 13 Jul 2026 09:30:35 GMT",
+      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
       "area": "横浜市",
       "genres": [
-        "中華"
+        "居酒屋"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
       "link": "https://foods-labo.com/offers/111913?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Mon, 13 Jul 2026 07:33:08 GMT",
+      "pubDate": "Tue, 14 Jul 2026 08:15:08 GMT",
       "area": "横浜市",
       "genres": [
         "レストラン",
         "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
+      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
+      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96515",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 09:30:35 GMT",
+      "area": "横浜市中区",
+      "genres": [
+        "中華"
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
@@ -417,8 +438,8 @@
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
       "link": "https://www.baitoru.com/op555010/job161187170/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
-      "source": "求人ボックス（株式会社凪スピリッツジャパン）",
-      "pubDate": "Wed, 08 Jul 2026 05:32:30 GMT",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 08 Jul 2026 05:10:45 GMT",
       "area": "大和市",
       "genres": [],
       "signal": "hiring",
@@ -487,6 +508,26 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
+      "title": "株式会社HITOWA フードサービスカンパニー オープニングスタッフ募集（給食スタッフ/キッチン/調理・栄養関連 調理STAFF募集 …）",
+      "link": "http://s.baitoru.com/DW0aWqQT",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Fri, 03 Jul 2026 17:58:26 GMT",
+      "area": "海老名市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:32.530Z"
+    },
+    {
+      "title": "「油そば専門店 ぶらぶら 大船駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/油そば・まぜそば/ラーメン…）",
+      "link": "https://job.tabelog.com/restaurants?id=14096432#job-info-97177",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 03 Jul 2026 09:30:35 GMT",
+      "area": "鎌倉市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:32.529Z"
+    },
+    {
       "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03Q1lyTVhEUWdXRmIxckRKb01xam5IWVBKdVl3U3dWb2JiSko4ZWptZVpxeUtja0prdk5jci1wZTU3clBIcTlucGhQcTYxOTVzOFE5MEdjdHJubXpWSTVmZkplVl9za3NSc3c?oc=5",
       "source": "PR TIMES",
@@ -505,18 +546,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
-    },
-    {
-      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 30 Jun 2026 09:30:30 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「エーアイアールグループ」オープニングスタッフ募集（ルームアドバイザー/クリエイト蒲田「新店舗で心機一転スタート…）",
@@ -557,7 +586,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4462",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市",
+      "area": "川崎市中原区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T21:47:04.833Z",
+  "generatedAt": "2026-07-14T21:49:45.296Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 50
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 48,
+  "itemCount": 54,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -391,32 +391,6 @@
       "open": "",
       "checkedAt": "2026-07-13T15:05:58.349Z"
     },
-    "anellacafe(アネラカフェ)南浦和店": {
-      "storeName": "ANELLA CAFE（アネラカフェ）南浦和店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:58.686Z"
-    },
-    "居酒屋心": {
-      "storeName": "居酒屋 心",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:58.938Z"
-    },
     "ヤオコー大宮市場店": {
       "storeName": "ヤオコー 大宮市場店",
       "listed": false,
@@ -546,6 +520,71 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T21:47:04.475Z"
+    },
+    "津久司": {
+      "storeName": "津久司",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:44.139Z"
+    },
+    "スパゲッティーのパンチョ新座店野火止店": {
+      "storeName": "スパゲッティーのパンチョ 新座店野火止店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:44.345Z"
+    },
+    "和ごころふれんち樹樹hanare": {
+      "storeName": "和ごころふれんち 樹樹HANARE",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:44.536Z"
+    },
+    "daenzo": {
+      "storeName": "DA ENZO",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:44.723Z"
+    },
+    "カフェ・ド・デイジイ": {
+      "storeName": "カフェ・ド・デイジイ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:45.073Z"
     }
   },
   "market": {
@@ -625,10 +664,6 @@
       "count": 15,
       "checkedAt": "2026-07-13T15:06:00.239Z"
     },
-    "さいたま市浦和区|カフェ": {
-      "count": 12,
-      "checkedAt": "2026-07-13T15:06:00.265Z"
-    },
     "越谷市|寿司": {
       "count": 20,
       "checkedAt": "2026-07-13T21:47:04.646Z"
@@ -644,24 +679,32 @@
     "春日部市|居酒屋": {
       "count": 40,
       "checkedAt": "2026-07-13T21:47:04.833Z"
+    },
+    "川口市|バル": {
+      "count": 10,
+      "checkedAt": "2026-07-14T21:49:45.267Z"
+    },
+    "所沢市|レストラン": {
+      "count": 8,
+      "checkedAt": "2026-07-14T21:49:45.296Z"
     }
   },
   "items": [
     {
-      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニングスタッフ）",
-      "link": "https://job-gear.net/omiyaichiba2/AE0417483709/MDkyujin_d.htm",
+      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットの品出しスタッフ/食品/オープニング）",
+      "link": "https://job-gear.net/omiyaichiba2/AE0417483700/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
-      "pubDate": "Mon, 13 Jul 2026 18:37:56 GMT",
+      "pubDate": "Tue, 14 Jul 2026 19:08:38 GMT",
       "area": "さいたま市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.586Z"
+      "firstSeenAt": "2026-07-14T21:49:40.742Z"
     },
     {
       "title": "「ファミリー食堂 山田うどん食堂 北中店」オープニングスタッフ募集（うどん食堂のキッチン・ホールスタッフ）",
       "link": "https://job-gear.net/yamadaudon2/AE0703866564/MDkyujin_d.htm",
       "source": "求人ボックス（山田食品産業株式会社）",
-      "pubDate": "Mon, 13 Jul 2026 18:36:29 GMT",
+      "pubDate": "Tue, 14 Jul 2026 19:07:19 GMT",
       "area": "所沢市",
       "genres": [],
       "signal": "hiring",
@@ -671,8 +714,120 @@
       "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニングスタッフ）",
       "link": "https://job-gear.net/irumatoyooka2/AE0630723500/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー 入間豊岡店）",
-      "pubDate": "Mon, 13 Jul 2026 18:25:01 GMT",
+      "pubDate": "Tue, 14 Jul 2026 19:02:29 GMT",
       "area": "入間市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.586Z"
+    },
+    {
+      "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの鮮魚スタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/koshigayagamou2/AE0617287404/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
+      "pubDate": "Tue, 14 Jul 2026 18:53:45 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）",
+      "link": "https://job-gear.net/kyuusyokuwakana2/AE0710026099/MDdetail.htm",
+      "source": "求人ボックス（株式会社若菜）",
+      "pubDate": "Tue, 14 Jul 2026 18:53:21 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
+      "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
+      "source": "求人ボックス（ベネミール）",
+      "pubDate": "Tue, 14 Jul 2026 18:52:44 GMT",
+      "area": "狭山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "「創作ダイニング心」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
+      "link": "https://job.tabelog.com/restaurants?id=11064533#job-info-56891",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
+      "area": "川越市",
+      "genres": [
+        "ダイニング",
+        "レストラン",
+        "創作料理"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
+      "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
+      "link": "https://foods-labo.com/offers/85983?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Tue, 14 Jul 2026 08:19:52 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "バル",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「ワインの酒場。DiPUNTO 大宮西口店」オープニングスタッフ募集（バル・バー/店長・店長候補/ワイン酒場の店長候補募集）",
+      "link": "https://foods-labo.com/offers/85781?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Tue, 14 Jul 2026 08:19:52 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "バル",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「スパゲッティーのパンチョ 新座店野火止店」オープニングスタッフ募集（洋食・西洋料理, ファストフード/料理長・料理長候補/新規オ…）",
+      "link": "https://foods-labo.com/offers/69464?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Tue, 14 Jul 2026 08:19:45 GMT",
+      "area": "新座市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.743Z"
+    },
+    {
+      "title": "『オモウマい店SP』能登の寿司店「津久司」再オープンに密着 埼玉の卵食べ放題食堂も（TV LIFE web）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OR3pBY18tdksxNzBnQlFJLS1ZeHpfQVZUVVJPM1pOZW1lYmxHLWQ3LTktUDNhRDdtZVc3a0NfZTR4ME5IcUpHd1pnMnJGYnQtck1vYU1Oa3hsYUhORDU0cXh4aFNRR0NCUm1wVTJzM3BFaFZ3R1lCNDRGNXFtbUE?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Mon, 13 Jul 2026 22:01:39 GMT",
+      "area": "",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:40.791Z"
+    },
+    {
+      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/omiyaichiba2/AE0417483709/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー大宮市場店）",
+      "pubDate": "Mon, 13 Jul 2026 18:37:56 GMT",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
@@ -690,16 +845,6 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
-      "title": "株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）",
-      "link": "https://job-gear.net/kyuusyokuwakana2/AE0710026099/MDdetail.htm",
-      "source": "求人ボックス（株式会社若菜）",
-      "pubDate": "Mon, 13 Jul 2026 18:11:00 GMT",
-      "area": "さいたま市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
       "title": "「顎で喰らえ北越谷店」オープニングスタッフ募集（飲食店のホールスタッフ/ラーメン屋オープニングスタッフ募集!…）",
       "link": "https://baitonet.jp/job_2061181/",
       "source": "求人ボックス（バイトネット）",
@@ -708,32 +853,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
-    },
-    {
-      "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
-      "link": "https://foods-labo.com/offers/85983?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Mon, 13 Jul 2026 07:49:34 GMT",
-      "area": "さいたま市",
-      "genres": [
-        "バル",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
-      "title": "「ワインの酒場。DiPUNTO 大宮西口店」オープニングスタッフ募集（バル・バー/店長・店長候補/ワイン酒場の店長候補募集）",
-      "link": "https://foods-labo.com/offers/85781?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Mon, 13 Jul 2026 07:49:34 GMT",
-      "area": "さいたま市",
-      "genres": [
-        "バル",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.587Z"
     },
     {
       "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 越谷レイ…」オープニングスタッフ募集（美容師・アシスタント/越谷レイクタウン駅/社員募集/7月13…）",
@@ -757,6 +876,19 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
+    },
+    {
+      "title": "「和ごころふれんち 樹樹HANARE」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
+      "link": "https://job.tabelog.com/restaurants?id=11065319#job-info-68414",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 01:30:44 GMT",
+      "area": "所沢市",
+      "genres": [
+        "レストラン",
+        "創作料理"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.743Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -805,20 +937,6 @@
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
     },
     {
-      "title": "「創作ダイニング心」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
-      "link": "https://job.tabelog.com/restaurants?id=11064533#job-info-56891",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 10 Jul 2026 01:30:45 GMT",
-      "area": "川越市",
-      "genres": [
-        "ダイニング",
-        "レストラン",
-        "創作料理"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
       "title": "アパホテル株式会社 オープニングスタッフ募集（日勤フロントスタッフ）",
       "link": "https://apahotel-recruit.net/jobfind-pc/job/All/6585",
       "source": "求人ボックス（アパホテル株式会社）",
@@ -851,16 +969,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 08 Jul 2026 09:30:36 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "株式会社ViSTA オープニングスタッフ募集（20代～30代活躍中/カフェのオープンを企画「カフェスタッフ…）",
@@ -926,7 +1034,7 @@
       "link": "https://en-gage.net/user/search/desc/17291505/",
       "source": "求人ボックス（株式会社アルパジャパン）",
       "pubDate": "Sun, 28 Jun 2026 23:36:51 GMT",
-      "area": "さいたま市",
+      "area": "川口市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
@@ -1000,6 +1108,18 @@
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
     },
     {
+      "title": "【川口市】リリアにグランドオープンした「カフェ・ド・デイジイ」で『ふわとろ卵のオムハッシュ』を食べてきたよ",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xME5qdGxrSjM5SzJrSnR6Znk1LVc3dllvZmRVMFZQN0V1UkY4YnozOHA2TDJNeDZMNWlPemltOUFQMFlQMzdaUUNlbkJWRjdrTmczZFBjdmxQZw?oc=5",
+      "source": "川口マガジン",
+      "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "area": "川口市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:40.793Z"
+    },
+    {
       "title": "【川越市】「焼肉定食ぎゅうまおう」の跡地に新しいお店がオープンすることがわかりました♪",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NYVFxOFVvaGhiUWtHR0hKaHlZSGNjTVFfUTd5b3IyaDRhYlBYVzFXektUMDZkSUlQT0VQeC1wSEdhclZ3SEx1SmdXMXZOZUoyUU16RFc2XzJia1VpOEk1U1oteHdoTE1YMFE?oc=5",
       "source": "埼玉マガジン",
@@ -1010,6 +1130,19 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.268Z"
+    },
+    {
+      "title": "西川口にイタリアンバル「DA ENZO」が新オープンしたみたい！現役ラガーマンが営むお店とメニューを見てきたよ",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uQ0dSbE5WVW5hOVBpOXhfRVNrQVBra3IxT0lOd0UzWm1BQ1dNa3ZZeEZmOF9QTXRHdkRqR2JPZTJLSkd0QUZpb2tYdXJBSURua2lRUXpWUVhVQQ?oc=5",
+      "source": "川口マガジン",
+      "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
+      "area": "川口市",
+      "genres": [
+        "バル",
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:40.789Z"
     },
     {
       "title": "【全国200店舗】東京で行列の居酒屋『新時代』が大宮に2店舗目を出店 2026年6月27日(土)グランドオープン",
@@ -1064,7 +1197,7 @@
       "genres": [
         "中華"
       ],
-      "signal": "opening",
+      "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.272Z"
     },
     {
@@ -1169,30 +1302,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.271Z"
-    },
-    {
-      "title": "【川口市】柳崎に「居酒屋 心」が新オープンしていました！店内の様子とメニューも！",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DLTA2Zk5FM1pxTlRiRTdrVEpobTZFUmZOS3pXc3ltdXNSZXppYXhSUXNsaVhWOU51R2RPb1NQaE4zUHpialF3T0Z4cnpScFBrSFQtTTBkeFI2dw?oc=5",
-      "source": "川口マガジン",
-      "pubDate": "Fri, 15 May 2026 07:00:00 GMT",
-      "area": "川口市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.264Z"
-    },
-    {
-      "title": "可愛い保護犬猫とふれあえる！「ANELLA CAFE（アネラカフェ）南浦和店」5月15日(金)オープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43QkpuUk9TeUlLZ3BSaVlYNGxjaThsTEd6Z0tURFRPdW82cFFFTHAtSk9YRFlXMlZLNDdsSF9zRElfejJRSVk1TGltN1MxN1gzczZxYjZoM09XZml5b04zdmJLanBpSndNV2c?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 15 May 2026 07:00:00 GMT",
-      "area": "さいたま市浦和区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.270Z"
     }
   ]
 }

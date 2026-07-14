@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T21:46:48.468Z",
+  "generatedAt": "2026-07-14T21:49:28.856Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 17
+      "count": 18
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 30
+      "count": 29
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 61
+      "count": 62
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 21
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 90,
+  "itemCount": 101,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -820,19 +820,6 @@
       "open": "",
       "checkedAt": "2026-07-13T15:05:36.136Z"
     },
-    "ななつらぼし": {
-      "storeName": "ななつらぼし",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:36.360Z"
-    },
     "レコードブック浅草": {
       "storeName": "レコードブック浅草",
       "listed": false,
@@ -910,6 +897,97 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T21:46:48.248Z"
+    },
+    "sushireona/玲桜奈東京23区に出店予定": {
+      "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:27.666Z"
+    },
+    "ペーパーボーイ": {
+      "storeName": "ペーパーボーイ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:27.869Z"
+    },
+    "保護猫カフェ": {
+      "storeName": "保護猫カフェ",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003806666/?vos=nhppalsa000016",
+      "shopName": "保護猫カフェ にゃんちゅーる",
+      "address": "東京都新宿区百人町１-12-1 ウエストウッドビル1階",
+      "access": "大久保駅から徒歩五分",
+      "genre": "カフェ・スイーツ",
+      "budget": "2001～3000円",
+      "capacity": 12,
+      "open": "月～日、祝日、祝前日: 12:00～22:00",
+      "checkedAt": "2026-07-14T21:49:28.228Z"
+    },
+    "vol.": {
+      "storeName": "Vol.",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:28.239Z"
+    },
+    "ネオナイスバーガー": {
+      "storeName": "ネオナイスバーガー",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:28.289Z"
+    },
+    "東京インテリア": {
+      "storeName": "東京インテリア",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:28.455Z"
+    },
+    "焼飯と麺": {
+      "storeName": "焼飯と麺",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-14T21:49:28.625Z"
     }
   },
   "market": {
@@ -1052,14 +1130,32 @@
     "渋谷区|居酒屋": {
       "count": 402,
       "checkedAt": "2026-07-13T21:46:48.468Z"
+    },
+    "千代田区|中華": {
+      "count": 142,
+      "checkedAt": "2026-07-14T21:49:28.834Z"
+    },
+    "目黒区|バー": {
+      "count": 102,
+      "checkedAt": "2026-07-14T21:49:28.856Z"
     }
   },
   "items": [
     {
+      "title": "株式会社ジョージーズ オープニングスタッフ募集（肉料理店の飲食店スタッフ/高月給/髪色自由/未経験可）",
+      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5a2177590729",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 14 Jul 2026 11:00:23 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:23.355Z"
+    },
+    {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Mon, 13 Jul 2026 09:52:33 GMT",
+      "pubDate": "Tue, 14 Jul 2026 09:53:41 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1067,6 +1163,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "「Sushi REONA/玲桜奈 東京23区に出店予定」オープニングスタッフ募集（和食, 寿司・鮨/店長・店長候補/インバウンドビジネスの最前…）",
+      "link": "https://foods-labo.com/offers/83830?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
+      "source": "求人ボックス（フーズラボ）",
+      "pubDate": "Tue, 14 Jul 2026 08:19:51 GMT",
+      "area": "中央区",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:23.355Z"
     },
     {
       "title": "「炭焼き屋 こもれ火」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/交…）",
@@ -1081,6 +1189,18 @@
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
+      "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83X1dTQWVBY09uNWRhNlU3dEd1U25wZzFPWGtfNDdqNkFwOGVhby1uZEtaTm51Rm5NTFhvam9KRmVKa0diOTIzLU1TYXRIYXpseERwXzZWcmpseXhrYkNsRUtn?oc=5",
+      "source": "Excite エキサイト",
+      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:23.396Z"
+    },
+    {
       "title": "株式会社絶好調 オープニングスタッフ募集（炉端居酒屋の店舗スタッフ/オープニング/若手活躍中）",
       "link": "https://grsta.jp/manuscript/0a0600d7-9f45-1c9e-819f-480a237d1052",
       "source": "求人ボックス（グルスタ）",
@@ -1091,6 +1211,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
+      "title": "株式会社絶好調 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/オープニング/若手活躍中）",
+      "link": "https://grsta.jp/manuscript/0a0600d7-9f45-1c9e-819f-480a23461051",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 10 Jul 2026 11:00:23 GMT",
+      "area": "新宿区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:23.354Z"
     },
     {
       "title": "7月15日(水)、伊勢丹新宿店 洋菓子エリアにガラス張りの厨房を備えたライブ感あふれる空間「マ・パティスリー」誕生！「カフェ エ シュクレ」は全33ブランドフルオープン | 株式会社 三越伊勢丹ホールディングスのプレスリリース",
@@ -1152,6 +1282,16 @@
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
+      "title": "株式会社ジュンバタンメラ オープニングスタッフ募集（エスニックデリの販売スタッフ/オープニング/未経験可）",
+      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbd9a390442",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 08 Jul 2026 11:00:19 GMT",
+      "area": "世田谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:23.354Z"
+    },
+    {
       "title": "画像・写真 | 今田耕司、“東京で初めて購入した車”明かす「イタリア車が好きで…」 1枚目",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93azNCLTBJb2VOWVo5OUc3ZGJMakFGTWlGMXlhZXVlLUh6M1FwaWlabmhnVExCMWZFZU9kdUlyNGRDN2VjM2ZDclVpSklzVWotN0lBbGd6ZS1iUQ?oc=5",
       "source": "オリコンニュース",
@@ -1162,6 +1302,16 @@
       "firstSeenAt": "2026-07-13T15:05:26.047Z"
     },
     {
+      "title": "「レコードブック両国」オープニングスタッフ募集（デイサービスの運動指導員 無資格可 オープニングスタッフ）",
+      "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4916.html",
+      "source": "求人ボックス（株式会社三和薬品）",
+      "pubDate": "Tue, 07 Jul 2026 21:34:09 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:23.355Z"
+    },
+    {
       "title": "「レコードブック浅草」オープニングスタッフ募集（トレーナー 無資格可 オープニングスタッフ）",
       "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4911.html",
       "source": "求人ボックス（株式会社三和薬品）",
@@ -1170,6 +1320,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
+      "title": "「レコードブック浅草」オープニングスタッフ募集（デイサービスの運動指導員 無資格可 オープニングスタッフ）",
+      "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4915.html",
+      "source": "求人ボックス（株式会社三和薬品）",
+      "pubDate": "Tue, 07 Jul 2026 21:33:52 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:23.355Z"
     },
     {
       "title": "飲茶＆スイーツが食べ放題！東京都初上陸「THE BUFFET 点心甜心」が三鷹にオープン",
@@ -1197,9 +1357,7 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Tue, 07 Jul 2026 09:30:41 GMT",
       "area": "渋谷区",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -1275,7 +1433,7 @@
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FdVR4SWI5Z0Z6UTRuQ3hCNUJqek53enR0dDFiWDRKb0U1bm5VbFNvWnlVVjh0MlF2V0IwaUdQYTAxNi0ydlh2Vm9QYmpIU2UtMWlHUlFzbnM2REJBMXkwZ2twOUR6djM3Zmc?oc=5",
       "source": "PR TIMES",
-      "pubDate": "Mon, 06 Jul 2026 00:00:01 GMT",
+      "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
         "中華"
@@ -1298,7 +1456,7 @@
       "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4889.html",
       "source": "求人ボックス（株式会社三和薬品）",
       "pubDate": "Sun, 05 Jul 2026 21:34:13 GMT",
-      "area": "台東区",
+      "area": "墨田区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
@@ -1346,7 +1504,7 @@
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
-      "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン",
+      "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VOEN2dmptM1pBRkR5Ry1VWl9veWhFWGVmbk5oY25oRkVWV2Q1WkNVTTI1Ykc4YjBjbm9OaVJPU2ZZZEN0aGhSTVJLNDRwRFU?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
@@ -1390,6 +1548,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
+    },
+    {
+      "title": "【特集】縁もゆかりもない街で「保護猫カフェ」オープン 東京から陸前高田市に移住した男性",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FZUhnRHBNSDFFWTl0ZVgwNlJ6OHNUU0c1MWNMczJRNlg4T0VDZ0RLUVB3aWtFMWdVclowZ2xyM3BnSUExNWZCZ3FLMHJpVDNST08yQWRXSEpkTVBpZkhtUTRQRnhjN1M3RThyY3ZWS2gzazhuem9BMEpWQUxrdTQ?oc=5",
+      "source": "日テレNEWS NNN",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:23.402Z"
     },
     {
       "title": "イフスコヘルスケア株式会社 オープニングスタッフ募集（調理師/「調理師」調理師or栄養士免許を活かせるオープニング…）",
@@ -1555,6 +1725,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
+      "title": "日本初の常設店！パリ発の人気カフェ「ペーパーボーイ」千駄ヶ谷にオープン｜レッツエンジョイ東京",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuRG45RUFJRjRhbEoweUozVGFKeU5aMy1NMzVQc1YzN2d4RW15b0ZraGdGcUt4RHZ5SVpRZkZVMFBFU2oxRVhRdlFubDYzd28?oc=5",
+      "source": "レッツエンジョイ東京",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:23.402Z"
+    },
+    {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJWHNzcmJjSTlLaDhKN29fTF9Zbm5TN1EzS1lEM1Z4eFFXYWxBOXMzcUVPRWtJSVl4dUZ1bnY5T0ttbHdTVzhMQzhiRU1QMmM?oc=5",
       "source": "レッツエンジョイ東京",
@@ -1579,7 +1761,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
-      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン",
+      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0cHl0TE1TZWw5Zk9hMUtKTU1PYUZEbW1WMDluSk5MTDNTZkVCeThLR08weWNWa3FoLVNuRVphdGN4eVV5ejlTckpCbHE1X2M?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
@@ -1589,6 +1771,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
+    },
+    {
+      "title": "peace put／自由が丘に「ネオナイスバーガー」など3ブランド複合店6月18日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1URm8yZDBOOEJXRUhxS1BWZENzWFpUUkdKQjVQSFd1VWhYV05Xb2xwTFFJeHFYODFUVnNfbldDRlRLWVlkU2lLV1lvRmRybFFwOXduTw?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "area": "目黒区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:23.403Z"
     },
     {
       "title": "人形町『居酒屋ノスケ』｜日本料理店が手がける新店居酒屋",
@@ -1649,6 +1843,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.995Z"
+    },
+    {
+      "title": "【東京都千代田区】中華そばと焼飯を一緒に食べる満足感を届ける「焼飯と麺」が東京・神田へ進出",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xel9SMEI0bVM5QXpHMXBDYWItWWQ1RHB1Rk8wOG1mR3p4ZWZIa3BaUld3MnZCdG0zeno2dEFpMENhR2d3TjJRUEhVRQ?oc=5",
+      "source": "ガジェット通信",
+      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
+      "area": "千代田区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:23.402Z"
     },
     {
       "title": "谷中銀座に古民家リノベカフェ 「八三六（Hachi San Roku）」が2026年6月11日オープン",
@@ -1890,6 +2096,16 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
+      "title": "【追加情報】『東京インテリア』5/29プレオープン開催！チラシ＆現地の様子も紹介",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oUUk5TnhicnBpTmpSYUN1aVFGMlpfMnJUX2VIdmY3YlRKNkJFM3pXVlNCV291b2h0SFQzQ3l6czRrT2ZUU0toYzUxRmp2OHpoQ1NTS1lSQ0RwWjgxQzNDdVQ3dTc?oc=5",
+      "source": "八王子ジャーニー",
+      "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:23.403Z"
+    },
+    {
       "title": "まんまる酒場(上野/居酒屋)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA3VDR4dXNwZ1FMZlhCOWdZWUJoTFlweWc2UWxzd1Rqa3hNZEFaZkM2MzNwdmJVMGdpaXUwVVo5RXVSNGZlRldPT2lBdHJDbTVB?oc=5",
       "source": "ホットペッパーグルメ",
@@ -2077,16 +2293,6 @@
         "居酒屋",
         "焼肉"
       ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
-    },
-    {
-      "title": "六本木に、カレーとパスタ&昼飲みができる店「ななつらぼし」がオープン",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9fdVY1M2RlUGdKNk5qbzlWRC16ZUZQNGVkR0ZmVkp3YkdONDBhMWpaTVdHQVNFalhjbDdOM2hpRXNRYUpKNjdR?oc=5",
-      "source": "newscast.jp",
-      "pubDate": "Fri, 15 May 2026 07:00:00 GMT",
-      "area": "港区",
-      "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.041Z"
     }
