@@ -78,6 +78,18 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .tag-source{background:var(--bg);color:var(--mid);border:1px solid var(--faint);font-weight:500;}
 .tag-hiring{background:var(--amber-pale);color:var(--amber);border:1px solid var(--amber-line);}
 .tag-openmonth{background:#f5f3ff;color:#7c3aed;border:1px solid #ddd6fe;}
+/* 絞り込みプルダウン */
+.dd{position:relative;}
+.dd summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:600;color:var(--mid);background:var(--white);border:1px solid var(--faint);border-radius:8px;padding:6px 10px;user-select:none;white-space:nowrap;}
+.dd summary::-webkit-details-marker{display:none;}
+.dd summary .dd-val{color:var(--ink);font-weight:700;max-width:130px;overflow:hidden;text-overflow:ellipsis;}
+.dd summary.dd-active{border-color:var(--blue);background:var(--blue-pale);}
+.dd summary.dd-active .dd-val{color:var(--blue);}
+.dd-arrow{font-size:9px;color:var(--light);}
+.dd[open] .dd-arrow{transform:rotate(180deg);}
+.dd-panel{position:absolute;top:calc(100% + 6px);left:0;z-index:30;background:var(--white);border:1px solid var(--faint);border-radius:10px;box-shadow:0 8px 24px rgba(15,23,42,.14);padding:10px;display:flex;flex-wrap:wrap;gap:6px;min-width:270px;max-width:min(92vw,560px);max-height:50vh;overflow-y:auto;}
+.dd-hint{width:100%;font-size:10px;color:var(--light);}
+.dd-row{position:relative;}
 .tag-hp-yes{background:#f0fdf4;color:var(--green);border:1px solid #86efac;}
 .tag-hp-no{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;}
 .tag-week{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;font-weight:700;}
@@ -154,6 +166,7 @@ let state = {
   months: new Set(),   // 情報の時期（記事・求人の日付の年月）で絞り込み
   sigType: '',         // '' | 'opening'（開店ニュース） | 'hiring'（オープン前・求人）
   openMonths: new Set(), // オープン予定月（タイトルから抽出）で絞り込み
+  openDD: '',            // 開いているプルダウンのID（表示状態のみ、絞り込みには影響しない）
   detail: null, // 詳細表示中のグループ
 };
 
@@ -392,39 +405,39 @@ function render() {
 
   const hasFilter = state.q || state.areas.size > 0 || state.genres.size > 0 || state.recentOnly || state.hiringOnly || state.hpChanceOnly
     || state.months.size > 0 || state.sigType || state.openMonths.size > 0;
+  // プルダウン1個分のHTML。開閉状態は state.openDD で保持（チップ選択の再描画後も開いたまま）
+  const dd = (id, label, valText, hint, chipsHtml, isActive) => `
+    <details class="dd" data-dd="${id}" ${state.openDD===id?'open':''}>
+      <summary class="${isActive?'dd-active':''}">${label}<span class="dd-val">${valText}</span><span class="dd-arrow">▾</span></summary>
+      <div class="dd-panel">${hint ? `<div class="dd-hint">${hint}</div>` : ''}${chipsHtml}</div>
+    </details>`;
+
+  const areaChips = `<span class="chip ${state.areas.size===0?'active':''}" data-group="area" data-value="">すべて</span>`
+    + areaOptions.map(a => `<span class="chip ${state.areas.has(a)?'active':''}" data-group="area" data-value="${a}">${a}</span>`).join('');
+  const genreChips = `<span class="chip ${state.genres.size===0?'active':''}" data-group="genre" data-value="">すべて</span>`
+    + genreOptions.map(g => `<span class="chip ${state.genres.has(g)?'active':''}" data-group="genre" data-value="${g}">${g}</span>`).join('');
+  const sigChips = `<span class="chip ${state.sigType===''?'active':''}" data-group="sig" data-value="">すべて</span>`
+    + `<span class="chip ${state.sigType==='opening'?'active':''}" data-group="sig" data-value="opening">🏪 開店ニュース</span>`
+    + `<span class="chip ${state.sigType==='hiring'?'active':''}" data-group="sig" data-value="hiring">🧑‍🍳 オープン前・求人段階</span>`;
+  const monthChips = `<span class="chip ${state.months.size===0?'active':''}" data-group="month" data-value="">すべて</span>`
+    + monthOptions.map(m => `<span class="chip ${state.months.has(m)?'active':''}" data-group="month" data-value="${m}">${monthLabel(m)}</span>`).join('');
+  const openMonthChips = `<span class="chip ${state.openMonths.size===0?'active':''}" data-group="openmonth" data-value="">すべて</span>`
+    + openMonthOptions.map(m => `<span class="chip ${state.openMonths.has(m)?'active':''}" data-group="openmonth" data-value="${m}">${monthLabel(m)}オープン</span>`).join('');
+
+  const setSummary = (set, fmt) => set.size === 0 ? 'すべて' : [...set].slice(0,2).map(fmt).join('・') + (set.size > 2 ? ` 他${set.size-2}` : '');
   const filterCard = `
     <div class="filter-card">
       <div class="filter-row">
         <input type="text" id="q-input" placeholder="店名・キーワードで検索" value="${state.q.replace(/"/g,'&quot;')}">
         ${hasFilter ? `<button class="clear-btn" id="clear-filters">すべて解除</button>` : ''}
       </div>
-      <div class="filter-label">エリア（複数選択可）</div>
-      <div class="filter-row">
-        <span class="chip ${state.areas.size===0?'active':''}" data-group="area" data-value="">すべて</span>
-        ${areaOptions.map(a => `<span class="chip ${state.areas.has(a)?'active':''}" data-group="area" data-value="${a}">${a}</span>`).join('')}
+      <div class="filter-row dd-row">
+        ${dd('area', 'エリア', setSummary(state.areas, a => a), '複数選択可', areaChips, state.areas.size > 0)}
+        ${dd('genre', 'ジャンル', setSummary(state.genres, g => g), '複数選択可', genreChips, state.genres.size > 0)}
+        ${dd('sig', '種類', state.sigType==='opening' ? '開店ニュース' : state.sigType==='hiring' ? '求人段階' : 'すべて', '', sigChips, !!state.sigType)}
+        ${dd('month', '情報の時期', setSummary(state.months, monthLabel), '記事・求人の日付／複数選択可', monthChips, state.months.size > 0)}
+        ${openMonthOptions.length ? dd('openmonth', 'オープン月', setSummary(state.openMonths, m => monthLabel(m)), 'タイトルから自動抽出／複数選択可', openMonthChips, state.openMonths.size > 0) : ''}
       </div>
-      <div class="filter-label">ジャンル（複数選択可）</div>
-      <div class="filter-row">
-        <span class="chip ${state.genres.size===0?'active':''}" data-group="genre" data-value="">すべて</span>
-        ${genreOptions.map(g => `<span class="chip ${state.genres.has(g)?'active':''}" data-group="genre" data-value="${g}">${g}</span>`).join('')}
-      </div>
-      <div class="filter-label">情報の種類</div>
-      <div class="filter-row">
-        <span class="chip ${state.sigType===''?'active':''}" data-group="sig" data-value="">すべて</span>
-        <span class="chip ${state.sigType==='opening'?'active':''}" data-group="sig" data-value="opening">🏪 開店ニュース</span>
-        <span class="chip ${state.sigType==='hiring'?'active':''}" data-group="sig" data-value="hiring">🧑‍🍳 オープン前・求人段階</span>
-      </div>
-      <div class="filter-label">情報の時期（記事・求人の日付、複数選択可）</div>
-      <div class="filter-row">
-        <span class="chip ${state.months.size===0?'active':''}" data-group="month" data-value="">すべて</span>
-        ${monthOptions.map(m => `<span class="chip ${state.months.has(m)?'active':''}" data-group="month" data-value="${m}">${monthLabel(m)}</span>`).join('')}
-      </div>
-      ${openMonthOptions.length ? `
-      <div class="filter-label">オープン予定月（タイトルから自動抽出、複数選択可）</div>
-      <div class="filter-row">
-        <span class="chip ${state.openMonths.size===0?'active':''}" data-group="openmonth" data-value="">すべて</span>
-        ${openMonthOptions.map(m => `<span class="chip ${state.openMonths.has(m)?'active':''}" data-group="openmonth" data-value="${m}">${monthLabel(m)}オープン</span>`).join('')}
-      </div>` : ''}
     </div>`;
 
   let groups = buildGroups(filtered, hpMap);
@@ -489,6 +502,24 @@ function render() {
   if (kpiHiring) kpiHiring.onclick = () => setState({ hiringOnly: !state.hiringOnly });
   const kpiHp = document.getElementById('kpi-hp');
   if (kpiHp) kpiHp.onclick = () => setState({ hpChanceOnly: !state.hpChanceOnly });
+  // プルダウンの開閉管理（チップ選択の再描画後も開いたままにする・同時に1つだけ開く）
+  root.querySelectorAll('.dd').forEach(d => {
+    d.addEventListener('toggle', () => {
+      if (d.open) {
+        state.openDD = d.dataset.dd;
+        root.querySelectorAll('.dd').forEach(o => { if (o !== d) o.open = false; });
+      } else if (state.openDD === d.dataset.dd) {
+        state.openDD = '';
+      }
+    });
+  });
+  // パネル外をクリックしたら閉じる
+  document.onclick = (e) => {
+    if (!e.target.closest('.dd')) {
+      const od = root.querySelector('.dd[open]');
+      if (od) od.open = false;
+    }
+  };
   root.querySelectorAll('.chip').forEach(chip => {
     chip.onclick = () => {
       const group = chip.dataset.group;
