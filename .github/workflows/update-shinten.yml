@@ -12,6 +12,7 @@ on:
       - 'scripts/fetch-stores.mjs'
       - 'scripts/prefectures.mjs'
       - 'scripts/test-filters.mjs'
+      - 'scripts/hotpepper-roster.mjs'
       - '.github/workflows/update-shinten.yml'
 
 permissions:
@@ -56,6 +57,13 @@ jobs:
       # ここで失敗し、コミット（＝サイトへの公開）が行われない
       - name: Audit collected data
         run: node scripts/test-filters.mjs --audit
+
+      # ホットペッパー掲載台帳の更新（千葉のみ・掲載終了店＝予約不可店の検出用）。
+      # 失敗しても新店リサーチの公開は止めない
+      - name: Update HotPepper roster (chiba)
+        run: node scripts/hotpepper-roster.mjs --pref=chiba || echo "::warning::HotPepper roster update failed"
+        env:
+          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
 
       - name: Commit and push if changed
         run: |
