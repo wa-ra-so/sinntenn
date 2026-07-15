@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:21:59.514Z",
+  "generatedAt": "2026-07-15T14:08:23.713Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 10
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 65,
+  "itemCount": 54,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -520,45 +520,6 @@
       "capacity": 80,
       "open": "月～日、祝日、祝前日: 16:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
       "checkedAt": "2026-07-15T05:11:56.005Z"
-    },
-    "carelly髪質改善トリートメント&ヘッドスパ志木": {
-      "storeName": "Carelly 髪質改善トリートメント&ヘッドスパ 志木",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T09:53:35.314Z"
-    },
-    "店舗staff": {
-      "storeName": "店舗STAFF",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T13:21:59.010Z"
-    },
-    "carelly髪質改善トリートメント&ヘッドスパ東浦和": {
-      "storeName": "Carelly 髪質改善トリートメント&ヘッドスパ 東浦和",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T13:21:59.513Z"
     }
   },
   "market": {
@@ -665,16 +626,6 @@
   },
   "items": [
     {
-      "title": "株式会社ゾフ オープニングスタッフ募集（Zoffの「店舗STAFF」賞与2回・残業10h未満・転勤な…）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-33041-1-133-1/?utm_source=kyujinbox&utm_medium=display&utm_term=25206",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Wed, 15 Jul 2026 11:31:30 GMT",
-      "area": "さいたま市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:55.891Z"
-    },
-    {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
@@ -693,66 +644,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 浦和美園…」オープニングスタッフ募集（美容師/浦和美園駅/社員募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B6019079/sid/731948?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:37 GMT",
-      "area": "さいたま市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:26.069Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 越谷レイ…」オープニングスタッフ募集（美容師/越谷レイクタウン駅/社員募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B6019079/sid/766882?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:37 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:38.887Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 志木」オープニングスタッフ募集（美容師・スタイリスト/志木駅/パート募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B2638203/sid/887133?employment=arbeit",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "志木市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:30.748Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 浦和美園…」オープニングスタッフ募集（美容師・スタイリスト/浦和美園駅/パート募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B2638203/sid/731948?employment=arbeit",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "さいたま市浦和区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T10:18:42.014Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 志木」オープニングスタッフ募集（美容師・アシスタント/志木駅/社員募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B3742319/sid/887133?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "新座市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:55.890Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 東浦和」オープニングスタッフ募集（美容師・スタイリスト/東浦和駅/社員募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B2638203/sid/868597?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "さいたま市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:55.890Z"
     },
     {
       "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
@@ -842,16 +733,6 @@
       "link": "https://baitonet.jp/job_2061181/",
       "source": "求人ボックス（バイトネット）",
       "pubDate": "Mon, 13 Jul 2026 12:00:21 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.218Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 越谷レイ…」オープニングスタッフ募集（美容師・アシスタント/越谷レイクタウン駅/社員募集/7月13…）",
-      "link": "https://relax-job.com/job/B3742319/sid/766882?employment=contract-employee",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Mon, 13 Jul 2026 05:35:39 GMT",
       "area": "越谷市",
       "genres": [],
       "signal": "hiring",
@@ -999,16 +880,6 @@
       "firstSeenAt": "2026-07-15T08:30:26.069Z"
     },
     {
-      "title": "豚山 与野本町店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/539283/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "さいたま市中央区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:26.069Z"
-    },
-    {
       "title": "「はかた商店 せんげん台」オープニングスタッフ募集（店長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505385/10_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1034,16 +905,6 @@
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
       "area": "越谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:30.748Z"
-    },
-    {
-      "title": "町田商店 所沢店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364865/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "所沢市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T09:53:30.748Z"
@@ -1083,16 +944,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:23:26.650Z"
-    },
-    {
-      "title": "和幸株式会社 オープニングスタッフ募集（ホール/キッチン/惣菜・スイーツ販売 オープニング的にSta…）",
-      "link": "https://www.baitoru.com/op195682/job98337913/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
-      "source": "求人ボックス（採用ページコボット）",
-      "pubDate": "Wed, 08 Jul 2026 05:13:44 GMT",
-      "area": "草加市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:28:06.441Z"
     },
     {
       "title": "株式会社ViSTA オープニングスタッフ募集（20代～30代活躍中/カフェのオープンを企画「カフェスタッフ…）",
@@ -1142,16 +993,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
-    },
-    {
-      "title": "株式会社丸千代山岡家 オープニングスタッフ募集（山岡家のキッチン/残業代100%支給/オープニング/連休可）",
-      "link": "https://grsta.jp/manuscript/0a0600cb-9f1c-126a-819f-1ed79cd70401",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 02 Jul 2026 11:00:16 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:23:26.650Z"
     },
     {
       "title": "「海鮮すし居酒屋 愉快 八木崎店」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/完全週休2日制）",
@@ -1347,6 +1188,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
+      "title": "越谷レイクタウンに新エリアがオープン サクラレイクの湖畔に、県内初出店の飲食店など10店舗 アクティビティやイベントも充実",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vVHlxOGxTZEw3S3VyU3BIbGpQbTB2aXZGQUdqNl90NVltVy02blFMbHRZSE82NXhhT3F5V05GaFNIdWJGUGExSFB3alNPSkZGekI1RDg0TlBpQnZzOXdZODJCTzRSUQ?oc=5",
+      "source": "埼玉新聞",
+      "pubDate": "Wed, 27 May 2026 04:53:31 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T14:08:20.508Z"
     },
     {
       "title": "“越谷レイクタウン”に「水辺の新エリア」が5/30オープン！埼玉初出店カフェなど「LAKESIDE DINING」全店舗＆アクセス情報まとめ",

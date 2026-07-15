@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:21:37.878Z",
+  "generatedAt": "2026-07-15T14:08:02.753Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 16
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 113,
+  "itemCount": 94,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -224,13 +224,6 @@
       "shopName": "",
       "checkedAt": "2026-07-12T03:20:40.955Z"
     },
-    "元祖油堂松戸東口店": {
-      "storeName": "元祖油堂 松戸東口店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:20:41.036Z"
-    },
     "koalatreecafeanddining": {
       "storeName": "Koala Tree Cafe and Dining",
       "listed": false,
@@ -369,32 +362,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-12T21:40:46.295Z"
-    },
-    "tule~aqua": {
-      "storeName": "Tule ~AQUA",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:20.519Z"
-    },
-    "美容室イレブンカットコトエ流山おおたかの森店": {
-      "storeName": "美容室イレブンカット コトエ流山おおたかの森店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:20.685Z"
     },
     "店舗運営": {
       "storeName": "店舗運営",
@@ -604,19 +571,6 @@
       "open": "",
       "checkedAt": "2026-07-15T05:11:33.248Z"
     },
-    "3名の大募集": {
-      "storeName": "3名の大募集",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T07:18:45.261Z"
-    },
     "原価酒場はかた商店松戸西口": {
       "storeName": "原価酒場はかた商店 松戸西口",
       "listed": false,
@@ -629,29 +583,12 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T09:53:10.501Z"
-    },
-    "髪質改善carelly海浜幕張": {
-      "storeName": "髪質改善 Carelly 海浜幕張",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T13:21:37.877Z"
     }
   },
   "market": {
     "船橋市|居酒屋": {
       "count": 176,
       "checkedAt": "2026-07-12T03:52:47.252Z"
-    },
-    "松戸市|レストラン": {
-      "count": 17,
-      "checkedAt": "2026-07-12T03:52:47.281Z"
     },
     "市川市|バー": {
       "count": 43,
@@ -792,76 +729,6 @@
   },
   "items": [
     {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 流山おお…」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B6019079/sid/735752?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:37 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:34.450Z"
-    },
-    {
-      "title": "「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/パート募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B5080528/sid/881293?employment=arbeit",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:29 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:06.055Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 八千代緑…」オープニングスタッフ募集（美容師・スタイリスト/八千代緑が丘駅/パート募集/7月15日…）",
-      "link": "https://relax-job.com/job/B2638203/sid/735749?employment=arbeit",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "八千代市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:34.450Z"
-    },
-    {
-      "title": "「髪質改善 Carelly 海浜幕張」オープニングスタッフ募集（美容師/海浜幕張駅/社員募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B1715127/sid/795031?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "千葉市美浜区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:34.450Z"
-    },
-    {
-      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 千葉ニュ…」オープニングスタッフ募集（美容師・アシスタント/千葉ニュータウン中央駅/社員募集/7月…）",
-      "link": "https://relax-job.com/job/B3742319/sid/735750?employment=contract-employee",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "印西市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:34.450Z"
-    },
-    {
-      "title": "「AUSTIN 髪質改善トリートメント&ヘッドスパ 流山おおた…」オープニングスタッフ募集（美容師・スタイリスト/流山おおたかの森駅/パート募集/7月1…）",
-      "link": "https://relax-job.com/job/B3613965/sid/753033?employment=arbeit",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:24 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:34.450Z"
-    },
-    {
-      "title": "「美容室イレブンカット コトエ流山おおたかの森店」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月15日更新）",
-      "link": "https://relax-job.com/job/B1858208/sid/722762?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Wed, 15 Jul 2026 05:25:10 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
@@ -904,18 +771,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/レストランサービス・ホールスタッフ/油そば専門店で…）",
-      "link": "https://foods-labo.com/offers/92676?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Tue, 14 Jul 2026 08:19:54 GMT",
-      "area": "松戸市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:36:45.027Z"
     },
     {
       "title": "「ラーメン事業部 らぁ麺 はやし田 アトレ新浦安店」オープニングスタッフ募集（ラーメン/店長・店長候補/1回1万円昇給×年4回のチャンス有…）",
@@ -1036,16 +891,6 @@
       "firstSeenAt": "2026-07-13T21:46:36.524Z"
     },
     {
-      "title": "「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/社員募集/7月13日更新）",
-      "link": "https://relax-job.com/job/B5080528/sid/881293?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Mon, 13 Jul 2026 05:35:41 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
       "title": "千葉駅徒歩圏内にカフェダイニング「FLOWER CHEERS CAFE」が7月28日オープン",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bEtGS0FxRzkyZEFpcko2S0NhLURFRU1EUUtWcHBBclNkdW1HOEhReDIzQllyZVFJejhJeTR5TnJGYWM2MzZCWjkxZFpNX0szNzI3UHM0OXd5aWV4QVlOUFdQbjhlYkE?oc=5",
       "source": "J-CAST ニュース",
@@ -1083,16 +928,6 @@
       "firstSeenAt": "2026-07-12T21:40:41.849Z"
     },
     {
-      "title": "株式会社スタッフサービス オープニングスタッフ募集（時給1700円/「3名の大募集」残業ほぼなし/リカバリーウェ…）",
-      "link": "https://haken.en-japan.com/w_111437913/?utm_source=kyujinbox&utm_medium=ad&utm_term=kyujinbox_pcsp_banner_kyujin_12207_sales_2040_170_111437913",
-      "source": "求人ボックス（en エン派遣）",
-      "pubDate": "Sat, 11 Jul 2026 03:09:07 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T07:18:42.088Z"
-    },
-    {
       "title": "「Barおいでやす」オープニングスタッフ募集（ホール/バーテンダー/店長・マネージャー候補 完全新規OPE…）",
       "link": "http://s.baitoru.com/DW05mzmZ",
       "source": "求人ボックス（baitoru）",
@@ -1115,26 +950,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
-      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/エリアマネージャー/油そば専門店「元祖油堂」を運営…）",
-      "link": "https://foods-labo.com/offers/92673?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Fri, 10 Jul 2026 07:06:07 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "「元祖油堂 松戸東口店」オープニングスタッフ募集（ラーメン/店長・店長候補/油そばの人気ブランド「元祖油堂」店…）",
-      "link": "https://foods-labo.com/offers/92675?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Fri, 10 Jul 2026 07:06:07 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
       "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/口コミ高評価の繁盛…）",
@@ -1235,16 +1050,6 @@
       "firstSeenAt": "2026-07-15T05:11:29.186Z"
     },
     {
-      "title": "元祖油堂 柏西口店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/632592/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "柏市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:29.186Z"
-    },
-    {
       "title": "「はかた商店 海浜幕張」オープニングスタッフ募集（ホールスタッフ）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505387/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1260,16 +1065,6 @@
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
       "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T07:18:42.088Z"
-    },
-    {
-      "title": "町田商店 野田店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/539760/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "野田市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T07:18:42.088Z"
@@ -1295,41 +1090,11 @@
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
-      "title": "元祖油堂 新松戸店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/632593/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:05.569Z"
-    },
-    {
-      "title": "町田商店 柏沼南町店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/539259/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "柏市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:05.569Z"
-    },
-    {
       "title": "「成田食堂」オープニングスタッフ募集（SV）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
       "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:17.709Z"
-    },
-    {
-      "title": "町田商店 行徳店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364867/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "市川市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:37:17.709Z"
@@ -1375,26 +1140,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
-    },
-    {
-      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/7/27リニューアルオープン器用じゃなくても…）",
-      "link": "https://www.hatarako.net/job/9000907229/",
-      "source": "求人ボックス（はたらこねっと）",
-      "pubDate": "Wed, 08 Jul 2026 17:19:36 GMT",
-      "area": "四街道市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.524Z"
-    },
-    {
-      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/7/27リニューアルオープン もりつけから少…）",
-      "link": "https://www.hatarako.net/job/9000905699/",
-      "source": "求人ボックス（はたらこねっと）",
-      "pubDate": "Wed, 08 Jul 2026 17:19:28 GMT",
-      "area": "四街道市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:14.220Z"
     },
     {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の接客/残業月10H/年休110日/社宅あり）",

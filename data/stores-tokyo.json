@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:21:45.613Z",
+  "generatedAt": "2026-07-15T14:08:11.264Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 14
+      "count": 15
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 17
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 122,
+  "itemCount": 125,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1144,6 +1144,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T13:21:45.348Z"
+    },
+    "肉屋の台所飯田橋店": {
+      "storeName": "肉屋の台所 飯田橋店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000860585/?vos=nhppalsa000016",
+      "shopName": "肉屋の台所 飯田橋店",
+      "address": "東京都千代田区飯田橋４丁目９－８　飯田橋プラザ８階",
+      "access": "JR飯田橋駅&地下鉄A4出口徒歩30秒/JR水道橋駅徒歩10分",
+      "genre": "焼肉・ホルモン",
+      "budget": "4001～5000円",
+      "capacity": 120,
+      "open": "月～日: 12:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-15T14:08:10.853Z"
+    },
+    "肉屋の台所五反田店": {
+      "storeName": "肉屋の台所 五反田店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001186102/?vos=nhppalsa000016",
+      "shopName": "肉屋の台所 五反田店",
+      "address": "東京都品川区西五反田１-5-2 トラヤビル4階",
+      "access": "五反田駅徒歩1分 ﾗﾝﾁ定食/焼肉食べ放題/完全個室",
+      "genre": "焼肉・ホルモン",
+      "budget": "4001～5000円",
+      "capacity": 108,
+      "open": "月～金: 12:00～15:0016:00～23:00土、日: 12:00～23:00",
+      "checkedAt": "2026-07-15T14:08:10.854Z"
+    },
+    "もつなべきむら屋品川港南口": {
+      "storeName": "もつなべきむら屋 品川港南口",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T14:08:11.263Z"
     }
   },
   "market": {
@@ -1591,7 +1630,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/624130/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "中央区",
+      "area": "新宿区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T13:21:41.378Z"
@@ -1619,6 +1658,36 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T13:21:41.378Z"
+    },
+    {
+      "title": "「肉屋の台所 五反田店」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505356/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "品川区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T14:08:06.149Z"
+    },
+    {
+      "title": "「肉屋の台所 飯田橋店」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505352/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "千代田区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T14:08:06.149Z"
+    },
+    {
+      "title": "「もつなべきむら屋 品川港南口」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623890/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T14:08:06.150Z"
     },
     {
       "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
@@ -1719,10 +1788,10 @@
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
-      "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XdHJHTk4zVUwwekFwVFBRZ21ETllXQzVwQ29kem5iSUdWR0Vlc0ZGOUtNVkZlNnNldjNJc2ktMUhBRy1rRE1XY3dHbEFyUmFJcThnUmRn?oc=5",
-      "source": "フーズチャネル",
-      "pubDate": "Mon, 06 Jul 2026 15:25:49 GMT",
+      "title": "都内初進出！ 飲茶＆中華/スイーツ食べ放題の「THE BUFFET（ザ ブッフェ）点心甜心 三鷹店」オープン（グルメ Watch）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TUjdiQUItY1VBb1dOcUZ5aFVjVGtoVm1uUS16V3lPM1Q3SWlJWldLcWM1V1A1NDhpb0JSQmtKWXFXQThBdlk1cU1veXljUV9sVm53alJPMmJWQ1h0cDhzd2lxU055RTdQbUU4SG0tTVJ5M0xuYmNBYXQwYUpNUWs?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
         "中華"
@@ -1731,10 +1800,10 @@
       "firstSeenAt": "2026-07-13T15:05:26.043Z"
     },
     {
-      "title": "都内初進出！ 飲茶＆中華/スイーツ食べ放題の「THE BUFFET（ザ ブッフェ）点心甜心 三鷹店」オープン（グルメ Watch）",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TUjdiQUItY1VBb1dOcUZ5aFVjVGtoVm1uUS16V3lPM1Q3SWlJWldLcWM1V1A1NDhpb0JSQmtKWXFXQThBdlk1cU1veXljUV9sVm53alJPMmJWQ1h0cDhzd2lxU055RTdQbUU4SG0tTVJ5M0xuYmNBYXQwYUpNUWs?oc=5",
-      "source": "Yahoo!ニュース",
-      "pubDate": "Mon, 06 Jul 2026 15:00:00 GMT",
+      "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XdHJHTk4zVUwwekFwVFBRZ21ETllXQzVwQ29kem5iSUdWR0Vlc0ZGOUtNVkZlNnNldjNJc2ktMUhBRy1rRE1XY3dHbEFyUmFJcThnUmRn?oc=5",
+      "source": "フーズチャネル",
+      "pubDate": "Mon, 06 Jul 2026 15:25:49 GMT",
       "area": "三鷹市",
       "genres": [
         "中華"
