@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:19:44.661Z",
+  "generatedAt": "2026-07-15T02:23:12.494Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 96,
+  "itemCount": 98,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -732,6 +732,10 @@
     "成田市|居酒屋": {
       "count": 36,
       "checkedAt": "2026-07-14T23:59:24.552Z"
+    },
+    "館山市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-15T02:23:12.494Z"
     }
   },
   "items": [
@@ -756,6 +760,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
+    },
+    {
+      "title": "株式会社INGS オープニングスタッフ募集（らぁ麺はやし田の接客/昇給年3回/年休110日）",
+      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca30b290974",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 14 Jul 2026 11:00:22 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:09.616Z"
     },
     {
       "title": "「おでん屋たけし 船橋駅南口店」オープニングスタッフ募集（和食, 居酒屋/店長・店長候補/成長中ブランドで早期キャリア…）",
@@ -844,6 +858,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:14.270Z"
+    },
+    {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Mon, 13 Jul 2026 22:31:03 GMT",
+      "area": "館山市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.996Z"
     },
     {
       "title": "株式会社ホットスタッフ成田 オープニングスタッフ募集（日払いOKで即日収入/梱包/「成田市」「時給1,600円〜」…）",
@@ -1131,6 +1157,18 @@
       "firstSeenAt": "2026-07-14T23:59:20.599Z"
     },
     {
+      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
+      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbd6a9c0396",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 08 Jul 2026 11:00:18 GMT",
+      "area": "成田市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:09.616Z"
+    },
+    {
       "title": "株式会社弁慶 オープニングスタッフ募集（寿司屋の調理/週2日休み/寿司以外の調理はしない）",
       "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbd2d8f029e",
       "source": "求人ボックス（グルスタ）",
@@ -1268,16 +1306,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
-      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
-      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
-      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
-      "pubDate": "Mon, 06 Jul 2026 22:30:54 GMT",
-      "area": "館山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.996Z"
     },
     {
       "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:19:54.317Z",
+  "generatedAt": "2026-07-15T02:23:18.488Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 21
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 107,
+  "itemCount": 109,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1241,6 +1241,18 @@
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
     },
     {
+      "title": "「炭焼き屋 こもれ火」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/交…）",
+      "link": "https://job.tabelog.com/restaurants?id=13312229#job-info-103421",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
+      "area": "港区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
       "title": "「Sushi REONA/玲桜奈 東京23区に出店予定」オープニングスタッフ募集（和食, 寿司・鮨/店長・店長候補/インバウンドビジネスの最前…）",
       "link": "https://foods-labo.com/offers/83830?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
@@ -1251,18 +1263,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
-    },
-    {
-      "title": "「炭焼き屋 こもれ火」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/交…）",
-      "link": "https://job.tabelog.com/restaurants?id=13312229#job-info-103421",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 13 Jul 2026 09:30:37 GMT",
-      "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
@@ -1356,6 +1356,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:50.461Z"
+    },
+    {
+      "title": "「スシスミビ 自由が丘」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/月8日以上休み…）",
+      "link": "https://job.tabelog.com/restaurants?id=13300208#job-info-107450",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 09 Jul 2026 01:30:44 GMT",
+      "area": "目黒区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:15.476Z"
     },
     {
       "title": "【NEW OPEN】西麻布にカウンター6席限定の特等席。大人の女性を満たす次世代和食「蓮雀（れんじゃく）」が2026年7月10日（金）グランドオープン！",
@@ -2077,6 +2089,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.289Z"
+    },
+    {
+      "title": "株式会社ノーステーブル オープニングスタッフ募集（飲食店でのオープニングスタッフ）",
+      "link": "https://en-gage.net/user/search/desc/14757837/",
+      "source": "求人ボックス（株式会社ノーステーブル）",
+      "pubDate": "Tue, 09 Jun 2026 11:03:01 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:15.476Z"
     },
     {
       "title": "倉庫をリノベしたベーカリーカフェ「パークスタンド トーキョー」清澄白河にオープン｜レッツエンジョイ東京",

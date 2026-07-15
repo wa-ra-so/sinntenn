@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:20:02.031Z",
+  "generatedAt": "2026-07-15T02:23:23.583Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 47,
+  "itemCount": 48,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -468,7 +468,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96515",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Mon, 13 Jul 2026 09:30:35 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "中華"
       ],
@@ -480,7 +480,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96505",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Mon, 13 Jul 2026 01:30:48 GMT",
-      "area": "横浜市中区",
+      "area": "横浜市",
       "genres": [
         "中華"
       ],
@@ -510,6 +510,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.563Z"
+    },
+    {
+      "title": "株式会社コロワイドダイニング オープニングスタッフ募集（ホール/キッチン/洗い場 新店オープニングスタッフ 週3日~…）",
+      "link": "http://s.baitoru.com/DW0aXePG",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Sun, 12 Jul 2026 17:36:49 GMT",
+      "area": "川崎市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:21.375Z"
     },
     {
       "title": "「REGA STRADA」オープニングスタッフ募集（パティシエ/イタリアン/洋食・西洋料理/飲食店/ボーナス・賞…）",

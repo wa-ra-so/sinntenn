@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:20:12.969Z",
+  "generatedAt": "2026-07-15T02:23:29.726Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 18
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 67,
+  "itemCount": 70,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -708,6 +708,10 @@
     "富士見市|居酒屋": {
       "count": 14,
       "checkedAt": "2026-07-15T02:20:12.969Z"
+    },
+    "川越市|居酒屋": {
+      "count": 98,
+      "checkedAt": "2026-07-15T02:23:29.726Z"
     }
   },
   "items": [
@@ -726,7 +730,7 @@
       "link": "https://job-gear.net/omiyaichiba2/AE0417483715/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
       "pubDate": "Tue, 14 Jul 2026 19:08:39 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:20:08.091Z"
@@ -750,6 +754,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
+    },
+    {
+      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットのベーカリースタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/omiyaichiba2/AE0417483711/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー大宮市場店）",
+      "pubDate": "Tue, 14 Jul 2026 19:08:38 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:26.650Z"
     },
     {
       "title": "「ファミリー食堂 山田うどん食堂 北中店」オープニングスタッフ募集（うどん食堂のキッチン・ホールスタッフ）",
@@ -1071,6 +1085,18 @@
       "firstSeenAt": "2026-07-14T23:59:43.608Z"
     },
     {
+      "title": "株式会社築地スタイル オープニングスタッフ募集（居酒屋の接客/オープニング/賞与2回/年休126日）",
+      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbdaec0048c",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 08 Jul 2026 11:00:17 GMT",
+      "area": "川越市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:26.650Z"
+    },
+    {
       "title": "和幸株式会社 オープニングスタッフ募集（ホール/キッチン/惣菜・スイーツ販売 オープニング的にSta…）",
       "link": "https://www.baitoru.com/op195682/job98337913/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
       "source": "求人ボックス（採用ページコボット）",
@@ -1138,6 +1164,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:28:06.440Z"
+    },
+    {
+      "title": "株式会社丸千代山岡家 オープニングスタッフ募集（山岡家のキッチン/残業代100%支給/オープニング/連休可）",
+      "link": "https://grsta.jp/manuscript/0a0600cb-9f1c-126a-819f-1ed79cd70401",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Thu, 02 Jul 2026 11:00:16 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:26.650Z"
     },
     {
       "title": "「海鮮すし居酒屋 愉快 八木崎店」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/完全週休2日制）",
