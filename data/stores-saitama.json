@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:37:41.355Z",
+  "generatedAt": "2026-07-15T09:53:35.315Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 50
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 19
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 85,
+  "itemCount": 87,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -611,6 +611,19 @@
       "capacity": 80,
       "open": "月～日、祝日、祝前日: 16:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
       "checkedAt": "2026-07-15T05:11:56.005Z"
+    },
+    "carelly髪質改善トリートメント&ヘッドスパ志木": {
+      "storeName": "Carelly 髪質改善トリートメント&ヘッドスパ 志木",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T09:53:35.314Z"
     }
   },
   "market": {
@@ -817,6 +830,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:37:38.887Z"
+    },
+    {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 志木」オープニングスタッフ募集（美容師・スタイリスト/志木駅/パート募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B2638203/sid/887133?employment=arbeit",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
+      "area": "新座市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:30.748Z"
     },
     {
       "title": "ランスタッド株式会社 オープニングスタッフ募集（販売/世界的ジュエリーブランドでワンランク上のホスピタリティ…）",
@@ -1213,6 +1236,36 @@
       "firstSeenAt": "2026-07-15T08:37:38.887Z"
     },
     {
+      "title": "「はかた商店 越谷西口駅前」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505384/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:30.748Z"
+    },
+    {
+      "title": "「はかた商店 せんげん台」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505385/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:30.748Z"
+    },
+    {
+      "title": "町田商店 所沢店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364865/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "所沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:30.748Z"
+    },
+    {
       "title": "埼玉県初！天然黒潮海水を使った水族館「アクアパーク川越」が誕生！かわいい生き物形の限定ドーナツが楽しめるカフェも併設",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SamtjS3I1U25IeWVyNGU1WWdUVzZjaDd2X3d2aFV6MmNMVFVYbmVqVW9RRGwteHFuV29DWi05bzJPR3pHMTdaQlpYWERTOVJSN1VtMjlR0gFbQVVfeXFMTXlrQXF4b0hOeFBVMDFaR3dxQldTYUhlUDdmcFlJYW5RY2ViMnR3MTFDNjczb1c4SmpHV1ctcFZXbVRIdDdWNHlBR3YyMzRwbm9qdG9fcXRqSHF4VQ?oc=5",
       "source": "ウォーカープラス",
@@ -1235,16 +1288,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
-    },
-    {
-      "title": "株式会社ワン&オンリーキャスティング オープニングスタッフ募集（仕分け・シール貼り 単発 サクッと登録 スキマ時間で出勤 日…）",
-      "link": "https://saiyo.page/97062/job/148491738/?media=ad_dx_agent_comp_kyujin_box&utm_source=kyujin_box&utm_source=ad_kyujin_box&utm_medium=alliance",
-      "source": "求人ボックス（採用ページコボット.）",
-      "pubDate": "Wed, 08 Jul 2026 20:02:04 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:59:43.608Z"
     },
     {
       "title": "株式会社築地スタイル オープニングスタッフ募集（居酒屋の接客/オープニング/賞与2回/年休126日）",
@@ -1414,16 +1457,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.270Z"
-    },
-    {
-      "title": "株式会社トーコー オープニングスタッフ募集（お菓子のピッキング作業）",
-      "link": "https://www.e-aidem.com/aps/00_AE0619375056_detail.htm",
-      "source": "求人ボックス（イーアイデム）",
-      "pubDate": "Fri, 19 Jun 2026 15:02:41 GMT",
-      "area": "熊谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:28:06.441Z"
     },
     {
       "title": "川口リリアに新オープンした「カフェ・ド・デイジイ」で大人な甘さの『チョコレートパフェ』を食べてきた！贅沢なおやつタイムを堪能",

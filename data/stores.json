@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:37:20.187Z",
+  "generatedAt": "2026-07-15T09:53:10.501Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 16
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 112,
+  "itemCount": 113,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -474,19 +474,6 @@
       "open": "",
       "checkedAt": "2026-07-13T15:05:21.724Z"
     },
-    "成田市": {
-      "storeName": "成田市",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:21.825Z"
-    },
     "彦酉幕張ベイパーク彦酉": {
       "storeName": "彦酉 幕張ベイパーク 彦酉",
       "listed": true,
@@ -642,6 +629,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T07:18:45.261Z"
+    },
+    "原価酒場はかた商店松戸西口": {
+      "storeName": "原価酒場はかた商店 松戸西口",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T09:53:10.501Z"
     }
   },
   "market": {
@@ -792,6 +792,16 @@
   },
   "items": [
     {
+      "title": "「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/パート募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B5080528/sid/881293?employment=arbeit",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:29 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:06.055Z"
+    },
+    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
@@ -922,16 +932,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.996Z"
-    },
-    {
-      "title": "株式会社ホットスタッフ成田 オープニングスタッフ募集（日払いOKで即日収入/梱包/「成田市」「時給1,600円〜」…）",
-      "link": "https://baitona-joshi.jp/shop/2183469/",
-      "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Mon, 13 Jul 2026 10:05:23 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "「ラーメン事業部 らぁ麺 はやし田 アトレ新浦安店」オープニングスタッフ募集（ラーメン/キッチンスタッフ/月給26万円～ 年4回昇格チャン…）",
@@ -1285,6 +1285,26 @@
       "firstSeenAt": "2026-07-15T08:37:17.709Z"
     },
     {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:06.055Z"
+    },
+    {
+      "title": "「原価酒場はかた商店 松戸西口」オープニングスタッフ募集（調理見習い）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/506142/23_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:06.055Z"
+    },
+    {
       "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",
       "link": "https://to.indeed.com/aa4h6kghmx4n",
       "source": "Indeed",
@@ -1556,16 +1576,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "株式会社ジェイウェイブ オープニングスタッフ募集（倉庫内で検品やデータ登録）",
-      "link": "https://www.workof-japan.com/jobs/62400",
-      "source": "求人ボックス（Jwork）",
-      "pubDate": "Thu, 02 Jul 2026 03:37:23 GMT",
-      "area": "木更津市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:59:20.598Z"
     },
     {
       "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
@@ -1959,6 +1969,18 @@
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
     },
     {
+      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 15:05:42 GMT",
+      "area": "",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:25:30.174Z"
+    },
+    {
       "title": "「七輪炭羊蔵NOZAWA」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジンギスカン/焼肉・ホルモ…）",
       "link": "https://job.tabelog.com/restaurants?id=12063113#job-info-65132",
       "source": "求人ボックス（食べログ求人）",
@@ -1969,18 +1991,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 09:30:36 GMT",
-      "area": "",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
       "title": "「焼肉りんざんえん」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",

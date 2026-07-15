@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-15T08:37:35.771Z",
+  "generatedAt": "2026-07-15T09:53:27.240Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 92
+      "count": 93
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 41
+      "count": 40
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 21
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 57,
+  "itemCount": 61,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -416,6 +416,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T08:30:22.158Z"
+    },
+    "マルミヤ酒場": {
+      "storeName": "マルミヤ酒場",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001292901/?vos=nhppalsa000016",
+      "shopName": "居酒屋 マルミヤ酒場 横浜駅前西口",
+      "address": "神奈川県横浜市西区南幸１-5-24",
+      "access": "横浜駅相鉄口から徒歩30秒/西口五番街内",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 60,
+      "open": "月～日、祝日、祝前日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-15T09:53:26.558Z"
+    },
+    "焼肉ドリルズ": {
+      "storeName": "焼肉 ドリルズ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T09:53:26.788Z"
+    },
+    "酔い処よこちゃん": {
+      "storeName": "酔い処よこちゃん",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004591063/?vos=nhppalsa000016",
+      "shopName": "酔い処 よこちゃん",
+      "address": "神奈川県川崎市中原区新丸子町767－2階",
+      "access": "武蔵小杉駅から徒歩5分/東横線 新丸子駅から徒歩3分",
+      "genre": "居酒屋",
+      "budget": "2001～3000円",
+      "capacity": 48,
+      "open": "月～金、祝前日: 11:00～14:5915:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）土、日、祝日: 11:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
+      "checkedAt": "2026-07-15T09:53:27.057Z"
     }
   },
   "market": {
@@ -482,6 +521,10 @@
     "横浜市中区|イタリアン": {
       "count": 58,
       "checkedAt": "2026-07-15T08:37:35.771Z"
+    },
+    "川崎市|焼肉": {
+      "count": 149,
+      "checkedAt": "2026-07-15T09:53:27.240Z"
     }
   },
   "items": [
@@ -673,8 +716,8 @@
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
       "link": "https://www.baitoru.com/op555010/job161187170/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
-      "source": "求人ボックス（採用ページコボット）",
-      "pubDate": "Wed, 08 Jul 2026 05:10:45 GMT",
+      "source": "求人ボックス（株式会社凪スピリッツジャパン）",
+      "pubDate": "Wed, 08 Jul 2026 05:32:30 GMT",
       "area": "大和市",
       "genres": [],
       "signal": "hiring",
@@ -734,7 +777,7 @@
       "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",
       "link": "https://job.tabelog.com/restaurants?id=14072696#job-info-91025",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 06 Jul 2026 09:30:35 GMT",
+      "pubDate": "Mon, 06 Jul 2026 15:04:45 GMT",
       "area": "三浦市",
       "genres": [
         "カフェ"
@@ -845,6 +888,30 @@
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
+      "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
+      "link": "https://job.tabelog.com/restaurants?id=14077507#job-info-90412",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 28 Jun 2026 15:04:18 GMT",
+      "area": "川崎市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:22.920Z"
+    },
+    {
+      "title": "「マルミヤ酒場」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/月8日以上休み…）",
+      "link": "https://job.tabelog.com/restaurants?id=14086725#job-info-9705",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 28 Jun 2026 15:01:48 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:22.920Z"
+    },
+    {
       "title": "「焼き鳥ゑびす 横浜関内店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
       "link": "https://job.tabelog.com/restaurants?id=14041867#job-info-26491",
       "source": "求人ボックス（食べログ求人）",
@@ -911,6 +978,18 @@
       "firstSeenAt": "2026-07-15T08:30:18.128Z"
     },
     {
+      "title": "「酔い処よこちゃん」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/交…）",
+      "link": "https://job.tabelog.com/restaurants?id=14102315#job-info-94571",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 19 Jun 2026 15:07:34 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:22.920Z"
+    },
+    {
       "title": "「天ぷらとワイン からり。 武蔵小杉店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/天ぷら/和食/飲食店/ネイ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4462",
       "source": "求人ボックス（食べログ求人）",
@@ -925,7 +1004,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市",
+      "area": "川崎市中原区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -951,6 +1030,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "S.H.N株式会社 オープニングスタッフ募集（オープニングスタッフ募集/居酒屋のホール・キッチン/時給13…）",
+      "link": "https://en-gage.net/user/search/desc/14861835/",
+      "source": "求人ボックス（S.H.N株式会社）",
+      "pubDate": "Tue, 09 Jun 2026 09:27:53 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:22.919Z"
     },
     {
       "title": "【ＰＲ記事】 横浜東急REIホテル、9階レストラン「アンコール」をラウンジスペース「REI Café（レイカフェ）」としてオープン 神奈川県横浜市",

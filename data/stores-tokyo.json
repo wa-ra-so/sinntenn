@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:37:29.098Z",
+  "generatedAt": "2026-07-15T09:53:19.479Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,19 +24,19 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 14
+      "count": 9
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 30
+      "count": 28
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 62
+      "count": 61
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 122,
+  "itemCount": 125,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -78,19 +78,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:29.436Z"
-    },
-    "イタリア車が好きで...": {
-      "storeName": "イタリア車が好きで…",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:29.610Z"
     },
     "sosta~pizza&legame~": {
       "storeName": "SOSTA ～pizza＆legame～",
@@ -1131,6 +1118,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T08:37:28.887Z"
+    },
+    "カフェタナカ": {
+      "storeName": "カフェタナカ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T09:53:18.747Z"
+    },
+    "crêpedujour": {
+      "storeName": "Crêpe du jour",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T09:53:19.248Z"
     }
   },
   "market": {
@@ -1301,6 +1314,10 @@
     "文京区|バー": {
       "count": 53,
       "checkedAt": "2026-07-15T08:37:29.098Z"
+    },
+    "武蔵野市|フレンチ": {
+      "count": 9,
+      "checkedAt": "2026-07-15T09:53:19.479Z"
     }
   },
   "items": [
@@ -1585,16 +1602,6 @@
       "firstSeenAt": "2026-07-14T21:49:23.354Z"
     },
     {
-      "title": "画像・写真 | 今田耕司、“東京で初めて購入した車”明かす「イタリア車が好きで…」 1枚目",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93azNCLTBJb2VOWVo5OUc3ZGJMakFGTWlGMXlhZXVlLUh6M1FwaWlabmhnVExCMWZFZU9kdUlyNGRDN2VjM2ZDclVpSklzVWotN0lBbGd6ZS1iUQ?oc=5",
-      "source": "オリコンニュース",
-      "pubDate": "Wed, 08 Jul 2026 09:00:00 GMT",
-      "area": "",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:26.047Z"
-    },
-    {
       "title": "「レコードブック両国」オープニングスタッフ募集（デイサービスの運動指導員 無資格可 オープニングスタッフ）",
       "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4916.html",
       "source": "求人ボックス（株式会社三和薬品）",
@@ -1767,6 +1774,18 @@
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
+      "title": "「さくら餃子酒場 神田店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=13297710#job-info-31539",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 05 Jul 2026 15:02:09 GMT",
+      "area": "千代田区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
       "title": "「nyuly」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/フレンチ/洋食・西洋料理/…）",
       "link": "https://job.tabelog.com/restaurants?id=13131135#job-info-107610",
       "source": "求人ボックス（食べログ求人）",
@@ -1777,18 +1796,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:48.139Z"
-    },
-    {
-      "title": "「さくら餃子酒場 神田店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=13297710#job-info-31539",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 05 Jul 2026 01:30:44 GMT",
-      "area": "千代田区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "株式会社ヴィクセス オープニングスタッフ募集（馬肉料理酒場の店舗スタッフ/オープニング/おしゃれ自由）",
@@ -1804,7 +1811,7 @@
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uam12MzUzd1FUcnhtVmh1aTJqaDI2N3VfT3h2T2hQcE45YTg2cjY2bEVJVkgwMkhsZ3lMSFNpcVVISWVKQkF6Y2gyT3JyNWc?oc=5",
       "source": "newscast.jp",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
+      "pubDate": "Sat, 04 Jul 2026 00:00:00 GMT",
       "area": "新宿区",
       "genres": [],
       "signal": "opening",
@@ -1951,6 +1958,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
+      "title": "【東京都中野区】新たな中華酒場「餃子のイペコ」オープン！対象ドリンク100円キャンペーンを開催",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1FTHpFc19HVnhTTDFJSDFiWFgxTEU1X1RrcU9tOGRHUUdKclpMc1o1QUVEQTNKRmJwc1VVbV9Sc3hmZF9LN3hkSlFqZw?oc=5",
+      "source": "ガジェット通信",
+      "pubDate": "Thu, 25 Jun 2026 10:45:45 GMT",
+      "area": "中野区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T09:53:14.178Z"
+    },
+    {
       "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」東京都・港区/調理・キッ…）",
       "link": "https://en-gage.net/user/search/desc/16651191/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -1995,6 +2014,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.044Z"
+    },
+    {
+      "title": "【続報】吉祥寺にフレンチシェフが作るクレープ＆ガレットの専門店「Crêpe du jour」がオープン",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FNDBjOTl6RktyUFhYV2tuUnMwNEJrOEpXeXBQWlE4eWhUdnZXaUIzUGU5NU0xVFpRUTBYUDVOdUlEaEdQcldlMV94QW1qUkF4UWp6MF9wdkVIUQ?oc=5",
+      "source": "吉祥寺ファンページ",
+      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
+      "area": "武蔵野市",
+      "genres": [
+        "フレンチ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T09:53:14.178Z"
     },
     {
       "title": "【2026・東京】NEWオープンの商業施設＆最新グルメスポット30選｜注目の新名所が続々誕生！",
@@ -2308,6 +2339,16 @@
       "firstSeenAt": "2026-07-15T07:18:48.627Z"
     },
     {
+      "title": "株式会社チェリー オープニングスタッフ募集（飲食店スタッフ オープニング募集/未経験でも月収30万円～/…）",
+      "link": "https://en-gage.net/user/search/desc/3254777/",
+      "source": "求人ボックス（株式会社チェリー）",
+      "pubDate": "Tue, 09 Jun 2026 11:32:43 GMT",
+      "area": "豊島区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:14.108Z"
+    },
+    {
       "title": "株式会社ノーステーブル オープニングスタッフ募集（飲食店でのオープニングスタッフ）",
       "link": "https://en-gage.net/user/search/desc/14757837/",
       "source": "求人ボックス（株式会社ノーステーブル）",
@@ -2340,7 +2381,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
     },
     {
-      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
+      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
@@ -2545,6 +2586,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
+    },
+    {
+      "title": "【東京都新宿区】名古屋発祥のカフェ＆パティスリー「カフェタナカ」関東2号店が伊勢丹新宿店に誕生",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZLXNhZThZMWxQX2Q3ZkdmVWI5X3Z1RWtPTE5JNjQ4ZGlLc0xCakg2LXRSVk5iTHc2XzFHTElOekhDSWxCTU1mZTloeGhqNEpCN2xr?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
+      "area": "新宿区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T09:53:14.180Z"
     },
     {
       "title": "「回転寿司ABURI百貫」が六本木にオープン！“炙り”にこだわったお寿司が魅力｜レッツエンジョイ東京",
