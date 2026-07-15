@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T23:27:46.724Z",
+  "generatedAt": "2026-07-14T23:59:24.552Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 15
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 87,
+  "itemCount": 91,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -712,9 +712,13 @@
       "count": 4,
       "checkedAt": "2026-07-14T21:49:19.117Z"
     },
-    "旭市|イタリアン": {
-      "count": 4,
-      "checkedAt": "2026-07-14T23:27:46.724Z"
+    "松戸市|居酒屋": {
+      "count": 77,
+      "checkedAt": "2026-07-14T23:59:24.547Z"
+    },
+    "成田市|居酒屋": {
+      "count": 36,
+      "checkedAt": "2026-07-14T23:59:24.552Z"
     }
   },
   "items": [
@@ -1040,6 +1044,16 @@
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
     },
     {
+      "title": "健康コミュニケーションズ株式会社 オープニングスタッフ募集（携帯販売/PRスタッフ/イベントスタッフ スマホ好き必見 1…）",
+      "link": "https://saiyo.page/659059/job/158937136/?media=ad_dx_agent_comp_kyujin_box&utm_source=kyujin_box&utm_source=ad_kyujin_box&utm_medium=alliance",
+      "source": "求人ボックス（採用ページコボット.）",
+      "pubDate": "Wed, 08 Jul 2026 20:01:08 GMT",
+      "area": "鴨川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:20.599Z"
+    },
+    {
       "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/7/27リニューアルオープン器用じゃなくても…）",
       "link": "https://www.hatarako.net/job/9000907229/",
       "source": "求人ボックス（はたらこねっと）",
@@ -1068,6 +1082,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の接客/残業月10H/年休110日/社宅あり）",
+      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbd54d60340",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 08 Jul 2026 11:00:18 GMT",
+      "area": "成田市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:20.599Z"
     },
     {
       "title": "株式会社弁慶 オープニングスタッフ募集（寿司屋の調理/週2日休み/寿司以外の調理はしない）",
@@ -1159,9 +1185,7 @@
       "source": "求人ボックス（採用ページコボット）",
       "pubDate": "Wed, 08 Jul 2026 05:10:25 GMT",
       "area": "旭市",
-      "genres": [
-        "イタリアン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },
@@ -1199,6 +1223,18 @@
       "firstSeenAt": "2026-07-13T15:05:16.996Z"
     },
     {
+      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c66a136d",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
+      "area": "松戸市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:20.599Z"
+    },
+    {
       "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
       "link": "https://job.tabelog.com/restaurants?id=12054861#job-info-10333",
       "source": "求人ボックス（食べログ求人）",
@@ -1231,6 +1267,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "株式会社ジェイウェイブ オープニングスタッフ募集（倉庫内で検品やデータ登録）",
+      "link": "https://www.workof-japan.com/jobs/62400",
+      "source": "求人ボックス（Jwork）",
+      "pubDate": "Thu, 02 Jul 2026 03:37:23 GMT",
+      "area": "木更津市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:20.598Z"
     },
     {
       "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T23:27:55.116Z",
+  "generatedAt": "2026-07-14T23:59:32.368Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,19 +24,19 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 17
+      "count": 18
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 29
+      "count": 28
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 64
+      "count": 62
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 102,
+  "itemCount": 104,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1159,6 +1159,19 @@
   },
   "items": [
     {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Tue, 14 Jul 2026 20:52:59 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
       "title": "株式会社ジョージーズ オープニングスタッフ募集（肉料理店の飲食店スタッフ/高月給/髪色自由/未経験可）",
       "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5a2177590729",
       "source": "求人ボックス（グルスタ）",
@@ -1167,19 +1180,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
-    },
-    {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Tue, 14 Jul 2026 09:53:41 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "「Sushi REONA/玲桜奈 東京23区に出店予定」オープニングスタッフ募集（和食, 寿司・鮨/店長・店長候補/インバウンドビジネスの最前…）",
@@ -1886,6 +1886,18 @@
       "firstSeenAt": "2026-07-14T21:49:23.402Z"
     },
     {
+      "title": "【東京都千代田区】中華そばと焼飯を一緒に食べる満足感を届ける「焼飯と麺」が東京・神田へ進出",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QTVJqanJPVEtXUEljSUs2RVpJUVVxNVFLRkRNclQtUnRXZmtSS1RZcnVsTVNCZ3dfU29zMUYtTHNLSFVrbjlIQ2wtQzBtOGNnV2lV?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
+      "area": "千代田区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T23:59:28.256Z"
+    },
+    {
       "title": "谷中銀座に古民家リノベカフェ 「八三六（Hachi San Roku）」が2026年6月11日オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WemxnT0h0aEFsdUczbm16dGtjdHRCbzJsSkh5Z2RJcDk4VFB5N2NqR1BDa1lQNnF6S01hb05malFfSmpJeGVYd0xNbk9NM1dvWXptY2ZPeURrYzN4dUFaaHdrbmFjMGJVbWc?oc=5",
       "source": "PR TIMES",
@@ -1952,6 +1964,16 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
+    },
+    {
+      "title": "「KARU RUKA」オープニングスタッフ募集（未経験者歓迎 飲食店キッチン調理オープニングスタッフ募集）",
+      "link": "https://en-gage.net/user/search/desc/17218301/",
+      "source": "求人ボックス（KARU RUKA）",
+      "pubDate": "Wed, 10 Jun 2026 17:47:06 GMT",
+      "area": "世田谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:28.148Z"
     },
     {
       "title": "「KARU RUKA」オープニングスタッフ募集（未経験者歓迎 飲食店ホール オープニングスタッフ募集）",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T23:28:03.128Z",
+  "generatedAt": "2026-07-14T23:59:40.137Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 37
+      "count": 39
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 22
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 41,
+  "itemCount": 45,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -325,6 +325,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-14T23:28:02.577Z"
+    },
+    "regastrada": {
+      "storeName": "REGA STRADA",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003624262/?vos=nhppalsa000016",
+      "shopName": "REGA STRADA レガストラーダ",
+      "address": "神奈川県横浜市西区みなとみらい３-3-3",
+      "access": "みなとみらいｰ徒歩5分",
+      "genre": "イタリアン・フレンチ",
+      "budget": "10001～12000円",
+      "capacity": 30,
+      "open": "月、火、木～日、祝日、祝前日: 11:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～22:00 （料理L.O. 19:00 ドリンクL.O. 19:00）",
+      "checkedAt": "2026-07-14T23:59:40.136Z"
     }
   },
   "market": {
@@ -450,12 +463,24 @@
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96505",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Mon, 13 Jul 2026 01:30:48 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "中華"
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.563Z"
+    },
+    {
+      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
+      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-88594",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 01:30:47 GMT",
+      "area": "横浜市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:36.218Z"
     },
     {
       "title": "株式会社コロワイドダイニング オープニングスタッフ募集（ホール/キッチン/洗い場 7/24OPEN 365酒場オープ…）",
@@ -468,6 +493,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.563Z"
+    },
+    {
+      "title": "「REGA STRADA」オープニングスタッフ募集（パティシエ/イタリアン/洋食・西洋料理/飲食店/ボーナス・賞…）",
+      "link": "https://job.tabelog.com/restaurants?id=14092553#job-info-27305",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 12 Jul 2026 09:30:38 GMT",
+      "area": "横浜市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:36.218Z"
     },
     {
       "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
@@ -576,6 +613,18 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
+      "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",
+      "link": "https://job.tabelog.com/restaurants?id=14072696#job-info-91023",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 06 Jul 2026 09:30:35 GMT",
+      "area": "三浦市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:36.217Z"
+    },
+    {
       "title": "株式会社HITOWA フードサービスカンパニー オープニングスタッフ募集（給食スタッフ/キッチン/調理・栄養関連 調理STAFF募集 …）",
       "link": "http://s.baitoru.com/DW0aWqPy",
       "source": "求人ボックス（baitoru）",
@@ -624,6 +673,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
+    },
+    {
+      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 時給1500円 オープニングスタッ…）",
+      "link": "http://s.baitoru.com/DW0aLgEO",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Wed, 01 Jul 2026 03:17:08 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:59:36.218Z"
     },
     {
       "title": "「エーアイアールグループ」オープニングスタッフ募集（ルームアドバイザー/クリエイト蒲田「新店舗で心機一転スタート…）",
