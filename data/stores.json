@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:53:10.501Z",
+  "generatedAt": "2026-07-15T10:18:24.355Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 48
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 18
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 113,
+  "itemCount": 107,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -448,19 +448,6 @@
       "open": "",
       "checkedAt": "2026-07-13T15:05:21.378Z"
     },
-    "クラップジュニア": {
-      "storeName": "クラップ ジュニア",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:21.551Z"
-    },
     "未経験ok": {
       "storeName": "未経験OK",
       "listed": false,
@@ -802,6 +789,16 @@
       "firstSeenAt": "2026-07-15T09:53:06.055Z"
     },
     {
+      "title": "「美容室イレブンカット コトエ流山おおたかの森店」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B1858208/sid/722762?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:10 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
@@ -976,16 +973,6 @@
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
-      "title": "「美容室イレブンカット コトエ流山おおたかの森店」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月13日更新）",
-      "link": "https://relax-job.com/job/B1858208/sid/722762?employment=regular-member",
-      "source": "求人ボックス（リジョブ）",
-      "pubDate": "Mon, 13 Jul 2026 05:33:10 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
       "title": "千葉駅徒歩圏内にカフェダイニング「FLOWER CHEERS CAFE」が7月28日オープン",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bEtGS0FxRzkyZEFpcko2S0NhLURFRU1EUUtWcHBBclNkdW1HOEhReDIzQllyZVFJejhJeTR5TnJGYWM2MzZCWjkxZFpNX0szNzI3UHM0OXd5aWV4QVlOUFdQbjhlYkE?oc=5",
       "source": "J-CAST ニュース",
@@ -1109,16 +1096,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T21:40:41.776Z"
-    },
-    {
-      "title": "日本給食株式会社 オープニングスタッフ募集（船橋市の施設の給食調理補助スタッフ）",
-      "link": "https://nikkyu-job.jp/detail/chiba/ct_204/13635404/",
-      "source": "求人ボックス（日本給食株式会社）",
-      "pubDate": "Thu, 09 Jul 2026 17:57:20 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "株式会社WONDER CREW 海鮮居酒屋 うおっと函館店 オープニングスタッフ募集（飲食店の店舗スタッフ）",
@@ -1305,6 +1282,16 @@
       "firstSeenAt": "2026-07-15T09:53:06.055Z"
     },
     {
+      "title": "「原価酒場はかた商店 松戸西口」オープニングスタッフ募集（店長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/506142/10_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:22.218Z"
+    },
+    {
       "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",
       "link": "https://to.indeed.com/aa4h6kghmx4n",
       "source": "Indeed",
@@ -1315,16 +1302,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
-    },
-    {
-      "title": "健康コミュニケーションズ株式会社 オープニングスタッフ募集（携帯販売/PRスタッフ/イベントスタッフ スマホ好き必見 1…）",
-      "link": "https://saiyo.page/659059/job/158937136/?media=ad_dx_agent_comp_kyujin_box&utm_source=kyujin_box&utm_source=ad_kyujin_box&utm_medium=alliance",
-      "source": "求人ボックス（採用ページコボット.）",
-      "pubDate": "Wed, 08 Jul 2026 20:01:08 GMT",
-      "area": "鴨川市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:59:20.599Z"
     },
     {
       "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/7/27リニューアルオープン器用じゃなくても…）",
@@ -1345,16 +1322,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:14.220Z"
-    },
-    {
-      "title": "株式会社スタッフサービス オープニングスタッフ募集（営業・販売/ファッション・コスメ関連 複数名の大募集 残業ほ…）",
-      "link": "https://www.staffservice.co.jp/job/detail/SSO_22-04421340?vos=nssgpkbox_C02_ASSO_22-04421340",
-      "source": "求人ボックス（STAFFSERVICE GROUP）",
-      "pubDate": "Wed, 08 Jul 2026 13:04:07 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の接客/残業月10H/年休110日/社宅あり）",
@@ -1556,16 +1523,6 @@
       "firstSeenAt": "2026-07-12T03:52:40.959Z"
     },
     {
-      "title": "「クラップ ジュニア」オープニングスタッフ募集（児童発達支援管理責任者/放課後等デイサービス/未経験OK/昇…）",
-      "link": "https://www.asuka-hu.co.jp/Areas/work/659835",
-      "source": "求人ボックス（アスカグループ）",
-      "pubDate": "Fri, 03 Jul 2026 07:02:42 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
       "source": "船橋つうしん",
@@ -1704,16 +1661,6 @@
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
-      "title": "株式会社テンポスホールディングス オープニングスタッフ募集（飲食店用品の販売スタッフ 未経験OK）",
-      "link": "https://en-gage.net/user/search/desc/15726904/",
-      "source": "求人ボックス（株式会社テンポスホールディングス）",
-      "pubDate": "Tue, 09 Jun 2026 14:34:15 GMT",
-      "area": "野田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
       "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",
       "link": "https://en-gage.net/user/search/desc/16946291/",
       "source": "求人ボックス（株式会社ゲート）",
@@ -1732,16 +1679,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "株式会社ブラスト オープニングスタッフ募集（整体師）",
-      "link": "https://www.guppy.jp/bwt/975880?utm_source=kyujinbox&utm_medium=organic&utm_content=975880_1",
-      "source": "求人ボックス（GUPPY）",
-      "pubDate": "Mon, 08 Jun 2026 12:45:10 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "【寿司一丁】回らない本格寿司を日常価格で！「寿司一丁 八千代緑が丘店」が6/9(火)グランドオープン！",
@@ -2027,16 +1964,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
-      "title": "佐倉 市 求人 TEL 0222477887 仙台市名坂店 TEL 0223735665 仙台 千葉県竜巻注意情報",
-      "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOcGt4eVVLUUI1T2lHTGhmcW9BbGkyTlNXRWludFo4T2tXZGtVT1V5OGhvNWx0RzNtZnVpQjBqN2doeVJxNUJQcEpjVDdKd2p4R252MVN1cDc4cDlRVU1qeExveXJFRFlRQlZaVVdobXFzeE1HSFR6QXlIQ3EtN2xWeVZfMmtkUV9BQ2lGNGFQOWZwdHZsOWVTZW5JQXJVNFNuajk0YnJiRV83RmpqYUw3OHpUOGlYZVp3ZGFWV1RzY3lOQ2ROQ1pfTmxfUVFsVFdhUlNWaVM3LVF3Z2pxRzNjci1zWG5oemZ6dlVUV1VIamI5Q0tpb01GWEJIQ3J4eWc3Y0JrQWNvWUZiV1A4UFBablBISTd2YnZIU0M5VHNkbUotR2cwY3k1LWpNQXZhTXlpU3V4YzI5bDBoYlBOSFV5dDh2T0JsdGpLbVZBdWZHcWk0MkRvYnNodkNBYk1jZFpTeGtZV1B4ckR4Z3F1QzZKWnhaNHRTR09lSXhYSjRERmlQUlhvYTJBYy1BNkR1UjJ2VGZRTVB5b2xMTTllZVlheGgxVVFjQWZQ?oc=5",
-      "source": "Baha'is of the United States",
-      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
-      "area": "佐倉市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T04:53:44.275Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:53:27.240Z",
+  "generatedAt": "2026-07-15T10:18:38.403Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 21
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 61,
+  "itemCount": 64,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -104,19 +104,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:45.463Z"
-    },
-    "エーアイアールグループ": {
-      "storeName": "エーアイアールグループ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:45.470Z"
     },
     "森乃音茶寮-moco-": {
       "storeName": "森乃音茶寮-MOCO-",
@@ -455,6 +442,71 @@
       "capacity": 48,
       "open": "月～金、祝前日: 11:00～14:5915:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）土、日、祝日: 11:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
       "checkedAt": "2026-07-15T09:53:27.057Z"
+    },
+    "はかた商店湘南台": {
+      "storeName": "はかた商店 湘南台",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003433504/?vos=nhppalsa000016",
+      "shopName": "はかた商店湘南台東口店",
+      "address": "神奈川県藤沢市湘南台１－１２－１５",
+      "access": "小田急江ﾉ島線､湘南台駅東口より徒歩約1分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 150,
+      "open": "月～木、祝前日: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）金、土: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:00）日、祝日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-15T10:18:37.916Z"
+    },
+    "はかた商店藤沢": {
+      "storeName": "はかた商店 藤沢",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003851723/?vos=nhppalsa000016",
+      "shopName": "はかた商店藤沢店",
+      "address": "神奈川県藤沢市鵠沼石上１-3-3 相模第5ビル 5F",
+      "access": "江ﾉ島電鉄線藤沢駅出口より徒歩約3分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 91,
+      "open": "月～金: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 15:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-15T10:18:38.099Z"
+    },
+    "茶き茶き溝の口": {
+      "storeName": "茶き茶き 溝の口",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000743296/?vos=nhppalsa000016",
+      "shopName": "茶き茶き 溝の口駅前",
+      "address": "神奈川県川崎市高津区溝口１－１２－１０　ウエストキャニオンビル２Ｆ",
+      "access": "全席喫煙可!溝の口駅徒歩2分 ﾏﾙｲ･ﾄﾞﾝｷﾎｰﾃ近",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 114,
+      "open": "月～日: 11:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
+      "checkedAt": "2026-07-15T10:18:38.211Z"
+    },
+    "はかた商店衣笠": {
+      "storeName": "はかた商店 衣笠",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001246859/?vos=nhppalsa000016",
+      "shopName": "はかた商店 衣笠店",
+      "address": "神奈川県横須賀市衣笠栄町１-70　加賀屋ビル2F",
+      "access": "衣笠駅2分 衣笠十字路ﾊﾞｽ停から徒歩3分★原価酒場★",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 138,
+      "open": "月～木: 11:30～22:30金、土、祝前日: 12:00～23:30日: 12:00～22:30",
+      "checkedAt": "2026-07-15T10:18:38.288Z"
+    },
+    "ホルモン番長もつ関ちゃん登戸駅前": {
+      "storeName": "ホルモン番長もつ関ちゃん 登戸駅前",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T10:18:38.402Z"
     }
   },
   "market": {
@@ -692,6 +744,56 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
+      "title": "「はかた商店 湘南台」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505390/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "藤沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.820Z"
+    },
+    {
+      "title": "「ホルモン番長もつ関ちゃん 登戸駅前」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
+      "title": "「茶き茶き 溝の口」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505479/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
+      "title": "「はかた商店 藤沢」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623898/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "藤沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
+      "title": "「はかた商店 衣笠」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505381/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "横須賀市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
       "title": "合同会社AP オープニングスタッフ募集（「新規開業バー/インセンティブ」オープニングバーテンダーの募…）",
       "link": "https://www.bizreach.jp/lp/members_register/?job_id=8880129&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BEAP",
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
@@ -798,36 +900,6 @@
       "firstSeenAt": "2026-07-14T23:59:36.217Z"
     },
     {
-      "title": "株式会社HITOWA フードサービスカンパニー オープニングスタッフ募集（給食スタッフ/キッチン/調理・栄養関連 調理STAFF募集 …）",
-      "link": "http://s.baitoru.com/DW0aWqPy",
-      "source": "求人ボックス（baitoru）",
-      "pubDate": "Fri, 03 Jul 2026 17:58:26 GMT",
-      "area": "藤沢市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:51.774Z"
-    },
-    {
-      "title": "株式会社HITOWA フードサービスカンパニー オープニングスタッフ募集（給食スタッフ/キッチン/調理・栄養関連 調理STAFF募集 …）",
-      "link": "http://s.baitoru.com/DW0aWqQT",
-      "source": "求人ボックス（baitoru）",
-      "pubDate": "Fri, 03 Jul 2026 17:58:26 GMT",
-      "area": "海老名市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:32.530Z"
-    },
-    {
-      "title": "株式会社HITOWA フードサービスカンパニー オープニングスタッフ募集（給食スタッフ/キッチン/調理・栄養関連 調理STAFF募集 …）",
-      "link": "http://s.baitoru.com/DW0aWqVa",
-      "source": "求人ボックス（baitoru）",
-      "pubDate": "Fri, 03 Jul 2026 17:58:26 GMT",
-      "area": "藤沢市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:57.337Z"
-    },
-    {
       "title": "「油そば専門店 ぶらぶら 大船駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/油そば・まぜそば/ラーメン…）",
       "link": "https://job.tabelog.com/restaurants?id=14096432#job-info-97177",
       "source": "求人ボックス（食べログ求人）",
@@ -878,14 +950,24 @@
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
     },
     {
-      "title": "「エーアイアールグループ」オープニングスタッフ募集（ルームアドバイザー/クリエイト蒲田「新店舗で心機一転スタート…）",
-      "link": "https://en-gage.net/user/search/desc/16737344/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Mon, 29 Jun 2026 10:46:24 GMT",
-      "area": "川崎市",
+      "title": "株式会社ゼンショーファストホールディングス オープニングスタッフ募集（ホールスタッフ/8月リニューアル 週2日・1日2hOK 初バ…）",
+      "link": "https://www.hatarako.net/job/9000941822/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Tue, 30 Jun 2026 17:40:49 GMT",
+      "area": "横浜市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
+      "title": "WAKO GROUP HOLDINGS株式会社 オープニングスタッフ募集（キッチンスタッフ/リニューアルオープン短時間?土日休?生活に…）",
+      "link": "https://www.hatarako.net/job/9000919861/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Tue, 30 Jun 2026 17:17:12 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
     },
     {
       "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
