@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T23:59:47.138Z",
+  "generatedAt": "2026-07-15T02:20:12.969Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 62,
+  "itemCount": 67,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -585,6 +585,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-14T21:49:45.073Z"
+    },
+    "24時間冷凍餃子販売所×唐揚げ専門店はかた商店": {
+      "storeName": "24時間冷凍餃子販売所×唐揚げ専門店はかた商店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T02:20:12.826Z"
     }
   },
   "market": {
@@ -691,6 +704,10 @@
     "所沢市|創作料理": {
       "count": 2,
       "checkedAt": "2026-07-14T23:28:09.583Z"
+    },
+    "富士見市|居酒屋": {
+      "count": 14,
+      "checkedAt": "2026-07-15T02:20:12.969Z"
     }
   },
   "items": [
@@ -705,11 +722,21 @@
       "firstSeenAt": "2026-07-14T23:28:06.441Z"
     },
     {
+      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットの青果スタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/omiyaichiba2/AE0417483715/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー大宮市場店）",
+      "pubDate": "Tue, 14 Jul 2026 19:08:39 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:20:08.091Z"
+    },
+    {
       "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットの品出しスタッフ/食品/オープニング）",
       "link": "https://job-gear.net/omiyaichiba2/AE0417483700/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
       "pubDate": "Tue, 14 Jul 2026 19:08:38 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
@@ -745,6 +772,16 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
+      "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットの惣菜製造スタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/irumatoyooka2/AE0630723501/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 入間豊岡店）",
+      "pubDate": "Tue, 14 Jul 2026 19:02:29 GMT",
+      "area": "入間市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:20:08.091Z"
+    },
+    {
       "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの鮮魚スタッフ/オープニングスタッフ）",
       "link": "https://job-gear.net/koshigayagamou2/AE0617287404/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
@@ -773,6 +810,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:43.608Z"
+    },
+    {
+      "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケット社員食堂の昼食調理スタッフ/オープニング）",
+      "link": "https://job-gear.net/koshigayagamou2/AE0617287421/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
+      "pubDate": "Tue, 14 Jul 2026 18:53:45 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:20:08.091Z"
     },
     {
       "title": "株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）",
@@ -980,6 +1027,16 @@
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
     },
     {
+      "title": "「24時間冷凍餃子販売所×唐揚げ専門店はかた商店」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505389/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:20:08.092Z"
+    },
+    {
       "title": "埼玉県初！天然黒潮海水を使った水族館「アクアパーク川越」が誕生！かわいい生き物形の限定ドーナツが楽しめるカフェも併設",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SamtjS3I1U25IeWVyNGU1WWdUVzZjaDd2X3d2aFV6MmNMVFVYbmVqVW9RRGwteHFuV29DWi05bzJPR3pHMTdaQlpYWERTOVJSN1VtMjlR0gFbQVVfeXFMTXlrQXF4b0hOeFBVMDFaR3dxQldTYUhlUDdmcFlJYW5RY2ViMnR3MTFDNjczb1c4SmpHV1ctcFZXbVRIdDdWNHlBR3YyMzRwbm9qdG9fcXRqSHF4VQ?oc=5",
       "source": "ウォーカープラス",
@@ -1047,6 +1104,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
+    },
+    {
+      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c8351371",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
+      "area": "富士見市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:20:08.092Z"
     },
     {
       "title": "「地鶏と網焼き 個室居酒屋 鶏匠 アズ熊谷店」オープニングスタッフ募集（調理師・調理スタッフ/焼き鳥・串焼・鳥料理/和食/飲食店/ボ…）",

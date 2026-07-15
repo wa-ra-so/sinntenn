@@ -92,7 +92,7 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
     <div class="app-icon">📞</div>
     <div>
       <div class="app-title" id="pageTitle">ネット予約不可アタックリスト</div>
-      <div class="app-sub">ホットペッパーのネット予約カレンダーが使えなくなった店舗。毎朝自動更新</div>
+      <div class="app-sub">ホットペッパーのネット予約カレンダーが使えなくなった店舗。1日3回自動更新</div>
     </div>
     <div class="header-meta">
       <div><a href="./index.html" id="backLink">← 新店リサーチへ</a></div>
@@ -167,8 +167,8 @@ function render() {
   <div class="kpi-row">
     <div class="kpi"><div class="kpi-label">ネット予約不可（累計）</div><div class="kpi-value">${DATA.items.length}<span class="unit">店</span></div><div class="kpi-note">記録開始以降</div></div>
     <div class="kpi"><div class="kpi-label">直近30日</div><div class="kpi-value">${counts.d30}<span class="unit">店</span></div><div class="kpi-note">直近7日: ${counts.d7}店</div></div>
-    <div class="kpi"><div class="kpi-label">現在の掲載店数</div><div class="kpi-value">${DATA.activeCount ?? '—'}<span class="unit">店</span></div><div class="kpi-note">${esc(PREF.label)}のHP掲載</div></div>
-    <div class="kpi"><div class="kpi-label">台帳更新</div><div class="kpi-value" style="font-size:16px;padding-top:8px;">${fmtDate(DATA.updatedAt)}</div><div class="kpi-note">毎朝6時ごろ自動更新</div></div>
+    <div class="kpi"><div class="kpi-label">HP掲載店数（API）</div><div class="kpi-value">${DATA.activeCount ?? '—'}<span class="unit">店</span></div><div class="kpi-note">サイト検索の件数とは集計基準が異なります</div></div>
+    <div class="kpi"><div class="kpi-label">台帳更新</div><div class="kpi-value" style="font-size:16px;padding-top:8px;">${fmtDate(DATA.updatedAt)}</div><div class="kpi-note">1日3回（6時/14時/22時ごろ）自動更新</div></div>
   </div>
   <div class="filter-card"><div class="filter-row">
     ${PERIODS.map(p => `<button class="chip ${state.days === p.days ? 'active' : ''}" data-days="${p.days}">${p.label}</button>`).join('')}
@@ -248,7 +248,7 @@ async function load() {
     render();
   } catch {
     el.innerHTML = `<div class="empty-state">${esc(PREF.label)}の掲載台帳はまだありません。<br>
-      台帳は毎朝の自動更新で作成されます（現在は千葉県のみ収集。記録開始: 2026-07-14）。</div>`;
+      台帳は1日3回の自動更新で作成されます（現在は千葉県のみ収集。記録開始: 2026-07-14）。</div>`;
   }
 }
 load();

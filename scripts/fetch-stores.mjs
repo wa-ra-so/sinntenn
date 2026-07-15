@@ -1,5 +1,5 @@
 // 新規開店情報（予約業態）を Google ニュース検索RSS 等から収集し、
-// data/ 配下の県別JSONを更新するスクリプト。GitHub Actions から毎朝実行される想定。
+// data/ 配下の県別JSONを更新するスクリプト。GitHub Actions から1日3回実行される想定。
 // 対象の県は --pref=chiba|tokyo|kanagawa|saitama で指定（省略時は千葉県）。
 // ホットペッパー掲載チェックは Actions シークレット HOTPEPPER_API_KEY 設定時のみ実行。
 // （シークレットを削除・再作成後、再実行トリガー）

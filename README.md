@@ -1,6 +1,6 @@
 # 千葉県 新店リサーチ
 
-千葉県の新規開店情報（予約業態の飲食店）を毎朝自動収集し、GitHub Pagesで一覧表示するサイト。
+千葉県の新規開店情報（予約業態の飲食店）を1日3回自動収集し、GitHub Pagesで一覧表示するサイト。
 
 - **公開URL**: https://wa-ra-so.github.io/sinntenn/ （新店リサーチ）
 - 提案書ジェネレーター（提案書セイセイ君）: https://wa-ra-so.github.io/sinntenn/seiseikun.html
@@ -11,14 +11,14 @@
 |---|---|
 | `index.html` | 新店リサーチの画面（ダッシュボード・絞り込み・店舗詳細） |
 | `scripts/fetch-stores.mjs` | Googleニュース検索RSS（開店ニュース）＋求人ボックス・Indeed（オープニングスタッフ求人）から収集し `data/stores.json` を更新 |
-| `.github/workflows/update-shinten.yml` | 毎朝6:00 JST頃に自動実行（Actionsのcron） |
+| `.github/workflows/update-shinten.yml` | 1日3回（6:00/14:00/22:00 JST頃）自動実行（Actionsのcron） |
 | `data/stores.json` | 収集済みデータ（直近60日分・自動コミット） |
 | `seiseikun.html` | 提案書セイセイ君（独立ツール） |
 | `shinten.html` | 旧URLからのリダイレクト用スタブ |
 
 ## ホットペッパー掲載チェック（●×表示）を有効にする
 
-各店舗がホットペッパーグルメに掲載済みか（＝ネット予約導入済みの可能性）を毎朝自動チェックし、一覧に「HP掲載 ●／HP未掲載 ×」を表示できます。
+各店舗がホットペッパーグルメに掲載済みか（＝ネット予約導入済みの可能性）を1日3回自動チェックし、一覧に「HP掲載 ●／HP未掲載 ×」を表示できます。
 
 1. [リクルートWebサービス](https://webservice.recruit.co.jp/) でAPIキーを無料発行（メール登録のみ）
 2. このリポジトリの **Settings → Secrets and variables → Actions → New repository secret** で
@@ -37,7 +37,7 @@
   `GENRE_GROUPS` / `CHAIN_BLOCKLIST` / `CHIBA_AREAS` / `AREA_ALIASES` を編集
 - **事件ニュース・対象外業態（ガールズバー等）の除外**は同ファイルの `EXCLUDE_KEYWORDS` を編集。
   タイトルに千葉要素（「千葉」または県内市区町村・駅名）が無い記事も自動除外される
-- **掲載品質の自動テスト**：毎朝の実行時に `scripts/test-filters.mjs` が
+- **掲載品質の自動テスト**：毎回の実行時に `scripts/test-filters.mjs` が
   ①フィルタの単体テスト（過去に混入した事件記事等が再び通らないか）
   ②収集後データの全件監査 を行い、不適切な掲載が1件でもあれば公開前に失敗して止まる。
   新たな混入を見つけたら、このファイルのテストケースにタイトルを追加しておくと再発防止になる
