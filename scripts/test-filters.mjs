@@ -103,6 +103,8 @@ const MUST_EXCLUDE_JOBS = [
   '「Carelly 髪質改善トリートメント&ヘッドスパ 流山おお…」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月15日更新）',
   '「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/パート募集/7月15日更新）',
   '「ひと席だけ美容室 ケルン」オープニングスタッフ募集（美容師・スタイリスト/たまプラーザ駅/社員募集/7月15日更…）',
+  // 2026-07-15 求人ボックス再精査で検出（アパレル・眼鏡等の非飲食小売求人）
+  '株式会社スタッフサービス オープニングスタッフ募集（時給1700円/「3名の大募集」残業ほぼなし/リカバリーウェ…）',
 ];
 const MUST_KEEP_JOBS = [
   '「海鮮和食 魚まみれ 仲々 小林店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋）',
@@ -213,8 +215,21 @@ check(kyujinboxToItem({
   workArea: '千葉県船橋市', siteName: '食べログ求人', allFeatureTags: ['オープニング'], url: 'https://tabelog.com/test1',
 }) !== null, '求人ボックス変換: 食べログ求人経由の飲食店求人は掲載元名で除外されない（誤爆検知）');
 
+// 2026-07-15 求人ボックス再精査で発覚: サイト側が「オープニング」タグを付与していても、
+// タイトル自体が「リニューアルオープン」（改装・既存店の再オープン）の場合は新規開店ではない。
+// タグ判定がこの除外をバイパスしていたため、はなまるうどん・すき家（ゼンショー系列）等の
+// 改装求人が「オープニングスタッフ募集」として混入していた
+check(kyujinboxToItem({
+  title: 'ホールスタッフ/7/27リニューアルオープン器用じゃなくても大丈夫', company: '株式会社はなまる',
+  workArea: '千葉県船橋市', siteName: 'はたらこねっと', allFeatureTags: ['オープニング'], url: 'https://example.com/test2',
+}) === null, '求人ボックス変換: 「オープニング」タグがあってもリニューアルオープンは除外される（はなまるうどん）');
+check(kyujinboxToItem({
+  title: 'キッチンスタッフ/8月リニューアル 週2日・1日2hOK', company: '株式会社ゼンショーファストホールディングス',
+  workArea: '神奈川県横浜市', siteName: 'はたらこねっと', allFeatureTags: ['オープニング'], url: 'https://example.com/test3',
+}) === null, '求人ボックス変換: 「オープニング」タグがあってもリニューアルは除外される（すき家/ゼンショー系列）');
+
 const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
-  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 6 + 1 + 2;
+  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 6 + 1 + 2 + 2;
 console.log(`${total - failures}/${total} 件パス`);
 
 // ── 公開データの監査（--audit 時のみ、全県分） ──
@@ -237,6 +252,7 @@ if (process.argv.includes('--audit')) {
       if (hasExcludeKeyword(it.title)) problems.push('除外ワード');
       if (isChain(it.title)) problems.push('大手チェーン');
       if (it.signal === 'hiring' && isNonFoodJob(it.title)) problems.push('飲食以外の求人');
+      if (it.signal === 'hiring' && /リニューアル/.test(it.title)) problems.push('リニューアル（新規開店ではない）');
       if (!it.area && !isPrefRelevant(it.title, pref)) problems.push(`${pref.short}要素なし`);
       if (problems.length) {
         bad++;
