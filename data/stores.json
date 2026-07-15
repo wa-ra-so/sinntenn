@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T10:18:24.355Z",
+  "generatedAt": "2026-07-15T13:21:37.878Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 47
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 107,
+  "itemCount": 113,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -629,6 +629,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T09:53:10.501Z"
+    },
+    "髪質改善carelly海浜幕張": {
+      "storeName": "髪質改善 Carelly 海浜幕張",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:37.877Z"
     }
   },
   "market": {
@@ -779,6 +792,16 @@
   },
   "items": [
     {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 流山おお…」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B6019079/sid/735752?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:37 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:34.450Z"
+    },
+    {
       "title": "「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/パート募集/7月15日更新）",
       "link": "https://relax-job.com/job/B5080528/sid/881293?employment=arbeit",
       "source": "求人ボックス（リジョブ）",
@@ -787,6 +810,46 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T09:53:06.055Z"
+    },
+    {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 八千代緑…」オープニングスタッフ募集（美容師・スタイリスト/八千代緑が丘駅/パート募集/7月15日…）",
+      "link": "https://relax-job.com/job/B2638203/sid/735749?employment=arbeit",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
+      "area": "八千代市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:34.450Z"
+    },
+    {
+      "title": "「髪質改善 Carelly 海浜幕張」オープニングスタッフ募集（美容師/海浜幕張駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B1715127/sid/795031?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
+      "area": "千葉市美浜区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:34.450Z"
+    },
+    {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 千葉ニュ…」オープニングスタッフ募集（美容師・アシスタント/千葉ニュータウン中央駅/社員募集/7月…）",
+      "link": "https://relax-job.com/job/B3742319/sid/735750?employment=contract-employee",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
+      "area": "印西市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:34.450Z"
+    },
+    {
+      "title": "「AUSTIN 髪質改善トリートメント&ヘッドスパ 流山おおた…」オープニングスタッフ募集（美容師・スタイリスト/流山おおたかの森駅/パート募集/7月1…）",
+      "link": "https://relax-job.com/job/B3613965/sid/753033?employment=arbeit",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:24 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:34.450Z"
     },
     {
       "title": "「美容室イレブンカット コトエ流山おおたかの森店」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月15日更新）",
@@ -917,6 +980,16 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:14.270Z"
+    },
+    {
+      "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54TG1FcXpZTzV0TXFqZU1iVFg3QUk0QnZjc1BCRG82VXVDYU52RTVFdUxsLXczTmJLb2oxNkRtZjdacEFwYk9xejYxSXNiRDlVUGxKc2JrUXEwQmh1V0huUGZ5Y19VUGxMeEE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 14 Jul 2026 01:00:02 GMT",
+      "area": "鴨川市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T13:21:34.512Z"
     },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",

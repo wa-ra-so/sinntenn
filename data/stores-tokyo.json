@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T10:18:31.388Z",
+  "generatedAt": "2026-07-15T13:21:45.613Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 29
+      "count": 27
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 14
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 115,
+  "itemCount": 122,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1066,6 +1066,84 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T09:53:19.248Z"
+    },
+    "地鶏黒木屋銀座一丁目": {
+      "storeName": "地鶏黒木屋 銀座一丁目",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:44.955Z"
+    },
+    "すたみな太郎next上野アメ横店": {
+      "storeName": "すたみな太郎NEXT 上野アメ横店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:45.072Z"
+    },
+    "串とメシにはサケキタル。": {
+      "storeName": "串とメシにはサケキタル。",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:45.097Z"
+    },
+    "肉屋の台所新宿東口新店": {
+      "storeName": "肉屋の台所 新宿東口新店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:45.182Z"
+    },
+    "飯田橋大衆焼肉ばりとんっ": {
+      "storeName": "飯田橋大衆焼肉 ばりとんっ",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000761775/?vos=nhppalsa000016",
+      "shopName": "大衆焼肉 ばりとんっ",
+      "address": "東京都千代田区飯田橋４-９-７",
+      "access": "ﾒﾄﾛ､都営大江戸線飯田橋駅約1分/JR飯田橋駅約1分",
+      "genre": "焼肉・ホルモン",
+      "budget": "3001～4000円",
+      "capacity": 16,
+      "open": "火～金: 11:30～13:30 （料理L.O. 13:30 ドリンクL.O. 13:30）17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日: 11:30～14:00 （料理L.O. 14:00 ドリンクL.O. 14:00）17:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）祝日: 11:30～14:00 （料理L.O. 14:00）17:00～22:00 （料理L.O. 21:00）祝前日: 11:30～13:30 （料理L.O. 13:30 ドリンクL.O. 13:30）17:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-15T13:21:45.196Z"
+    },
+    "シュラスコ&ビアバーゴッチバッタ門前仲町": {
+      "storeName": "シュラスコ&ビアバー ゴッチバッタ門前仲町",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:45.348Z"
     }
   },
   "market": {
@@ -1240,9 +1318,50 @@
     "武蔵野市|フレンチ": {
       "count": 9,
       "checkedAt": "2026-07-15T09:53:19.479Z"
+    },
+    "台東区|焼肉": {
+      "count": 104,
+      "checkedAt": "2026-07-15T13:21:45.479Z"
+    },
+    "墨田区|居酒屋": {
+      "count": 145,
+      "checkedAt": "2026-07-15T13:21:45.490Z"
+    },
+    "千代田区|焼肉": {
+      "count": 92,
+      "checkedAt": "2026-07-15T13:21:45.498Z"
+    },
+    "江東区|バー": {
+      "count": 97,
+      "checkedAt": "2026-07-15T13:21:45.613Z"
     }
   },
   "items": [
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Wed, 15 Jul 2026 09:51:17 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "東京・関東“おしゃれでおいしい”カフェ＆スイーツ特集、2026年オープンのおすすめグルメスポット",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZZ3ZKeUhoWGhXUWhWT21FX0dLTzJaOTJxT1hocHNPLXpRYnJqUlpLbS1pY3RaS1pvaW93Zmo5MFhTOWlCSi1GSFNIYk1kMXA3SFVN?oc=5",
+      "source": "ファッションプレス",
+      "pubDate": "Wed, 15 Jul 2026 07:50:43 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T13:21:41.402Z"
+    },
     {
       "title": "南青山のモダンフレンチ「L’AS」が東京駅エリア初進出。新複合施設「TOFROM YAESU」に『L’AS TOKYO』を9月10日オープン",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qcXVSaU44NUlCckl1WWQ2LTluMGVka3dEejN4QWhNblBTYm5JbTBCLW5SWnoyOFRQTjduQXpLRE5KdU0zb2xhdy1UOF93enRJZGdtTHFxeGNxR2d6eVFWVE14UVc2ZUNHckxFUHNUVHd1V1g1d1pfYmhwbw?oc=5",
@@ -1304,19 +1423,6 @@
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Tue, 14 Jul 2026 20:52:59 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
       "title": "株式会社ジョージーズ オープニングスタッフ募集（肉料理店の飲食店スタッフ/高月給/髪色自由/未経験可）",
       "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5a2177590729",
       "source": "求人ボックス（グルスタ）",
@@ -1349,6 +1455,31 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
+    },
+    {
+      "title": "焼肉、寿司食べ放題の「すたみな太郎NEXT 上野アメ横店」が7/18(土)全面改装オープン！「すたみな太郎 PREMIUM BUFFET上野アメ横店」として再始動！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PdXdtV1g0eHNXVXU3NVhjaXZfRl8waHBnX1NoWkxLaWx1YjhUZEtaN250SzVjQXgzR1hScEdJRVRNdzdJV3ppeWJBYnY0MjI1VmRjS0lHRm9FeG0zVDhhMGlqcE13MjhISVE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 14 Jul 2026 01:10:02 GMT",
+      "area": "台東区",
+      "genres": [
+        "焼肉",
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T13:21:41.406Z"
+    },
+    {
+      "title": "【錦糸町駅前に新規OPEN】毎日赤字覚悟の激安次世代居酒屋『串とメシにはサケキタル。』が遂に爆誕！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VcjFqdnNpbnFlWTB4cWFncDBwY1dYbWhrUmI0UWY2MUQxQkVBSHlLNHlyMVVtd3FSZzNseTJRQXc3dEhrZlUzOGN4RFhTUUEzdGhzNHoxUTNkNW4tRk1GZ3dQYmRtNVJybkE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 13 Jul 2026 00:00:02 GMT",
+      "area": "墨田区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T13:21:41.402Z"
     },
     {
       "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
@@ -1444,6 +1575,50 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
+    },
+    {
+      "title": "「地鶏黒木屋 銀座一丁目」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505293/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:41.378Z"
+    },
+    {
+      "title": "「肉屋の台所 新宿東口新店」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/624130/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:41.378Z"
+    },
+    {
+      "title": "「飯田橋大衆焼肉 ばりとんっ」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505330/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "千代田区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:41.378Z"
+    },
+    {
+      "title": "「シュラスコ&ビアバー ゴッチバッタ門前仲町」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505306/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "江東区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:41.378Z"
     },
     {
       "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
@@ -1673,7 +1848,7 @@
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uam12MzUzd1FUcnhtVmh1aTJqaDI2N3VfT3h2T2hQcE45YTg2cjY2bEVJVkgwMkhsZ3lMSFNpcVVISWVKQkF6Y2gyT3JyNWc?oc=5",
       "source": "newscast.jp",
-      "pubDate": "Sat, 04 Jul 2026 00:00:00 GMT",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [],
       "signal": "opening",
@@ -2223,7 +2398,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
     },
     {
-      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン",
+      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
@@ -2306,7 +2481,7 @@
     {
       "title": "東京国立博物館、館内レストラン3店舗をリニューアル 2026年夏～秋にかけて順次オープン",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxY2h5WGE3VUd1NWFQUGpWXzVTcmlFemNyREs3YkhQeld6amgzQkhZdG0tbjlkTzFsVHlJdHd3WlBrbVhxek8zLTFjbzl0Zw?oc=5",
-      "source": "アットプレス",
+      "source": "atpress.ne.jp",
       "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
       "area": "国立市",
       "genres": [
@@ -2366,7 +2541,7 @@
     {
       "title": "出雲出身の店主が着物で迎える和のおもてなし。日本橋馬喰町にバー「与楽」オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAteXNNSTJCNDlOUkdNRWI3eEMydy1QR3h2UVZEUmxNdVVLZHN6anM3RFBLQ2tDVFBLRFozYXZoVXhpZ2VuSUI2eW5mZXVSZ1U?oc=5",
-      "source": "アットプレス",
+      "source": "atpress.ne.jp",
       "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [
@@ -2390,7 +2565,7 @@
     {
       "title": "【大森】ジャークチキン×ココナッツ香る「Good Day Curry」オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaV2RoLUZQZkdDVno5TWFuY2FLdVd0TlVDbEdmV1JiVmxDNTJZUmw1b2dZbnktQkJ6alRqOUVCdVNkUFVwUzZwaGNWSzRjbGs?oc=5",
-      "source": "アットプレス",
+      "source": "atpress.ne.jp",
       "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
       "area": "大田区",
       "genres": [],

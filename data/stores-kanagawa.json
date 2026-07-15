@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-15T10:18:38.403Z",
+  "generatedAt": "2026-07-15T13:21:52.319Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 93
+      "count": 94
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 64,
+  "itemCount": 69,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -507,6 +507,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T10:18:38.402Z"
+    },
+    "ひと席だけ美容室ケルン": {
+      "storeName": "ひと席だけ美容室 ケルン",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:51.724Z"
+    },
+    "cut&styleclown横浜": {
+      "storeName": "Cut&Style CLOWN 横浜",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:52.318Z"
+    },
+    "ひと席だけ美容室ケルン別邸": {
+      "storeName": "ひと席だけ美容室 ケルン 別邸",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:52.318Z"
     }
   },
   "market": {
@@ -580,6 +619,36 @@
     }
   },
   "items": [
+    {
+      "title": "「ひと席だけ美容室 ケルン 別邸」オープニングスタッフ募集（美容師・スタイリスト/たまプラーザ駅/7月15日更新）",
+      "link": "https://relax-job.com/job/B0498972/sid/734127?employment=other",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:23 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:48.956Z"
+    },
+    {
+      "title": "「ひと席だけ美容室 ケルン」オープニングスタッフ募集（美容師・スタイリスト/たまプラーザ駅/社員募集/7月15日更…）",
+      "link": "https://relax-job.com/job/B0498972/sid/685243?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:23 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:48.957Z"
+    },
+    {
+      "title": "「Cut&Style CLOWN 横浜」オープニングスタッフ募集（美容師・アシスタント/横浜駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B9532607/sid/640790?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:09 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:48.956Z"
+    },
     {
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
@@ -758,7 +827,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/2_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "川崎市",
+      "area": "川崎市多摩区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:34.821Z"
@@ -768,7 +837,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505479/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "川崎市",
+      "area": "川崎市高津区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:34.821Z"
@@ -968,6 +1037,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
+      "title": "WAKO GROUP HOLDINGS株式会社 オープニングスタッフ募集（キッチンスタッフ/リニューアルオープン50代から始める方も …）",
+      "link": "https://www.hatarako.net/job/9000919862/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Tue, 30 Jun 2026 17:17:12 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:48.956Z"
     },
     {
       "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
@@ -1208,6 +1287,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "有限会社品川配ぜん人紹介所 オープニングスタッフ募集（ホテルのモーニングスタッフをお任せ!横浜市西区!履歴書不要!…）",
+      "link": "https://hibaraito.jp/kyujin/3280666",
+      "source": "求人ボックス（ヒバライト.）",
+      "pubDate": "Thu, 28 May 2026 01:14:22 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:48.956Z"
     },
     {
       "title": "マロリーポークステーキ 横須賀中央店",

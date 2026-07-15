@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T10:18:44.238Z",
+  "generatedAt": "2026-07-15T13:21:59.514Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 10
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 61,
+  "itemCount": 65,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -533,6 +533,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T09:53:35.314Z"
+    },
+    "店舗staff": {
+      "storeName": "店舗STAFF",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:59.010Z"
+    },
+    "carelly髪質改善トリートメント&ヘッドスパ東浦和": {
+      "storeName": "Carelly 髪質改善トリートメント&ヘッドスパ 東浦和",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T13:21:59.513Z"
     }
   },
   "market": {
@@ -639,6 +665,16 @@
   },
   "items": [
     {
+      "title": "株式会社ゾフ オープニングスタッフ募集（Zoffの「店舗STAFF」賞与2回・残業10h未満・転勤な…）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-33041-1-133-1/?utm_source=kyujinbox&utm_medium=display&utm_term=25206",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Wed, 15 Jul 2026 11:31:30 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:55.891Z"
+    },
+    {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
@@ -663,7 +699,7 @@
       "link": "https://relax-job.com/job/B6019079/sid/731948?employment=regular-member",
       "source": "求人ボックス（リジョブ）",
       "pubDate": "Wed, 15 Jul 2026 05:25:37 GMT",
-      "area": "さいたま市浦和区",
+      "area": "さいたま市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:26.069Z"
@@ -693,10 +729,30 @@
       "link": "https://relax-job.com/job/B2638203/sid/731948?employment=arbeit",
       "source": "求人ボックス（リジョブ）",
       "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市浦和区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:42.014Z"
+    },
+    {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 志木」オープニングスタッフ募集（美容師・アシスタント/志木駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B3742319/sid/887133?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
+      "area": "新座市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:55.890Z"
+    },
+    {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 東浦和」オープニングスタッフ募集（美容師・スタイリスト/東浦和駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B2638203/sid/868597?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:28 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:55.890Z"
     },
     {
       "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
@@ -707,6 +763,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
+      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=39201",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Tue, 14 Jul 2026 11:31:10 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T13:21:55.891Z"
     },
     {
       "title": "「創作ダイニング心」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
