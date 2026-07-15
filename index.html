@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>千葉県 新店リサーチ — 毎朝更新</title>
+<title>千葉県 新店リサーチ — 1日3回更新</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
@@ -150,7 +150,7 @@ const PREFS = {
 const prefParam = new URLSearchParams(location.search).get('pref');
 const PREF_ID = Object.prototype.hasOwnProperty.call(PREFS, prefParam) ? prefParam : 'chiba';
 const PREF = PREFS[PREF_ID];
-document.title = `${PREF.label} 新店リサーチ — 毎朝更新`;
+document.title = `${PREF.label} 新店リサーチ — 1日3回更新`;
 
 const NEW_DAYS = 7; // 「新着」とみなす日数
 
@@ -329,12 +329,12 @@ function render() {
       <div class="app-icon">🏪</div>
       <div>
         <div class="app-title">${PREF.label} 新店リサーチ</div>
-        <div class="app-sub">ネット予約・未導入の新規開店店舗を毎朝自動収集</div>
+        <div class="app-sub">ネット予約・未導入の新規開店店舗を1日3回自動収集</div>
       </div>
       <div class="pref-tabs">${Object.entries(PREFS).map(([id, p]) =>
         `<a class="pref-tab${id === PREF_ID ? ' active' : ''}" href="${id === 'chiba' ? location.pathname : location.pathname + '?pref=' + id}">${p.label}</a>`
       ).join('')}</div>
-      <div class="header-meta">最終更新 <strong>${updatedText}</strong><br>毎朝6:00頃（JST）自動更新</div>
+      <div class="header-meta">最終更新 <strong>${updatedText}</strong><br>1日3回（6:00/14:00/22:00頃 JST）自動更新</div>
     </div>`;
 
   if (error) {
@@ -448,7 +448,7 @@ function render() {
   if (items.length === 0) {
     listHtml = `<div class="empty-state">
       まだデータがありません。<br>
-      GitHub Actions のワークフロー「新店情報の毎朝更新」が${PREF.label}分を初回収集すると、ここに一覧が表示されます。
+      GitHub Actions のワークフロー「新店情報の自動更新」が${PREF.label}分を初回収集すると、ここに一覧が表示されます。
     </div>`;
   } else if (groups.length === 0) {
     listHtml = `<div class="empty-state">条件に一致する新店情報がありません。フィルターを変更してください。</div>`;

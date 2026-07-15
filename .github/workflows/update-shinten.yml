@@ -1,9 +1,10 @@
-name: 新店情報の毎朝更新
+name: 新店情報の自動更新
 
 on:
   schedule:
-    # 21:00 UTC = 06:00 JST
-    - cron: '0 21 * * *'
+    # 1日3回実行（ホットペッパーのネット予約チェックのローテーションを速めるため）。
+    # 21:00 UTC=06:00 JST / 5:00 UTC=14:00 JST / 13:00 UTC=22:00 JST
+    - cron: '0 21,5,13 * * *'
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -58,10 +59,10 @@ jobs:
       - name: Audit collected data
         run: node scripts/test-filters.mjs --audit
 
-      # ホットペッパー掲載台帳の更新（千葉のみ）。全掲載店（数千件）を毎朝取得し、
+      # ホットペッパー掲載台帳の更新（千葉のみ）。全掲載店（数千件）を毎回取得し、
       # 未チェック・チェックが古い店から一部ずつ店舗ページのネット予約表示を確認する
-      # （店舗数が多いため数日かけてローテーションで一巡）。失敗しても新店リサーチの
-      # 公開は止めない
+      # （1日3回実行×800件/回のローテーションで、店舗数が多くても数日で一巡）。
+      # 失敗しても新店リサーチの公開は止めない
       - name: Update HotPepper roster (chiba)
         run: node scripts/hotpepper-roster.mjs --pref=chiba || echo "::warning::HotPepper roster update failed"
         env:
@@ -75,6 +76,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: 新店情報を自動更新 ($(date -u +%Y-%m-%d))"
+            git commit -m "chore: 新店情報を自動更新 ($(date -u +%Y-%m-%dT%H:%M) UTC)"
             git push
           fi

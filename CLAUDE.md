@@ -1,7 +1,7 @@
 # 新店リサーチ（千葉・東京・神奈川・埼玉）
 
 食べログ営業のメンバーが使う営業支援ツール。対象都県の新規開店飲食店を
-毎朝自動収集し、GitHub Pagesで一覧表示する。**依存パッケージなし**（Node 20+の組み込みfetchのみ）。
+1日3回自動収集し、GitHub Pagesで一覧表示する。**依存パッケージなし**（Node 20+の組み込みfetchのみ）。
 
 - 公開URL: https://wa-ra-so.github.io/sinntenn/ （千葉県・デフォルト）
   - 東京都: `?pref=tokyo` / 神奈川県: `?pref=kanagawa` / 埼玉県: `?pref=saitama`
@@ -17,10 +17,10 @@
 | `seiseikun.html` | 提案書セイセイ君（独立ツール、新店リサーチとは無関係） |
 | `shinten.html` | 旧URL向けリダイレクトスタブ（削除しない） |
 | `scripts/prefectures.mjs` | 県設定（市区町村・駅名エイリアス・データファイル名）。**index.htmlのPREFSと対応を保つ** |
-| `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから毎朝6:00 JST頃、4県分実行 |
+| `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから1日3回（6:00/14:00/22:00 JST頃）、4県分実行 |
 | `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査（全県分）。失敗すると公開が止まる |
 | `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人を県別データへマージ。毎朝のClaudeルーティンから実行 |
-| `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新＋ネット予約可否チェック（現状千葉のみ・Actionsから毎朝実行） |
+| `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新＋ネット予約可否チェック（現状千葉のみ・Actionsから1日3回実行） |
 | `scripts/list-reservation-lost.mjs` | 台帳からネット予約不可になった店をアタックリストとして出力。`--csv=` でCSV書き出し |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
 | `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt / reservable / reservableCheckedAt / lastReservableAt / reservationLostAt。Actionsが自動コミット） |
@@ -40,12 +40,13 @@
    fetch-stores.mjs の `connectorJobToItem` に集約、収集基準は他ソースと同一）
 4. **ホットペッパーAPI**（`HOTPEPPER_API_KEY` シークレット設定時のみ）—
    掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ（エリア×ジャンル別の掲載店数）。
-   加えて `hotpepper-roster.mjs` が県内全掲載店（千葉は約5,200店）の台帳を毎朝更新する。
+   加えて `hotpepper-roster.mjs` が県内全掲載店（千葉は約5,200店）の台帳を1日3回更新する。
    ※グルメサーチAPIにネット予約可否のフィールドは無いため、店舗ページ本体を取得し
    `<title>` タグの「＜ネット予約可＞」表記の有無で判定している（実ページで確認済み。
    Actionsランナーからhotpepper.jpへの直接アクセスは通る＝Indeedと違いブロックされない）。
-   全店を毎日チェックすると重いため、未チェック・チェックが古い店から1日800件ずつ
-   ローテーションで確認（約6〜7日で一巡）。ネット予約可→不可に変わった店を検出し、
+   全店を毎回チェックすると重いため、未チェック・チェックが古い店から1回の実行につき800件
+   ローテーションで確認（1日3回×800件＝2,400件／日、約2〜3日で一巡）。ネット予約可→不可に
+   変わった店を検出し、
    `lastReservableAt`（予約可能を最後に確認した日）と `reservationLostAt`
    （不可を検出した日）を記録する。**ローテーションのため「正確にいつ変わったか」は
    わからず、この2つの日付の間のどこかとしてしか特定できない**（掲載自体が終了した
