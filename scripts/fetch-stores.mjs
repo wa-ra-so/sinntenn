@@ -379,6 +379,7 @@ const NONFOOD_JOB_KEYWORDS = [
   // 飲食店以外の小売・サービス業（求人ボックス等の求人集約サイトから混入）
   '携帯', 'ジュエリー', '整体師', 'ルームアドバイザー', '機械オペレーター',
   '食品スーパー', 'スーパーマーケット', 'ファッション・コスメ', 'テンポス',
+  '美容師', '美容室', 'ネイリスト', 'エステティシャン',
   // 医療・福祉・教育系施設（飲食店ではない給食・療育・保育系求人）
   '言語聴覚士', '児童発達支援', '給食', '栄養士',
 ];
@@ -419,11 +420,18 @@ function toTagArray(v) {
   return [];
 }
 
-function kyujinboxToItem(job) {
+// 美容業界専門の求人サイト（掲載元がここに一致する求人は、職種名の書き方に関わらず
+// ほぼ確実に美容師・ネイリスト等の美容系求人＝飲食店ではないため、掲載元名で丸ごと除外する。
+// 「美容師」等のキーワード一致に頼るより確実（求人票の言い回しに左右されない）
+const NONFOOD_SITE_NAMES = ['リジョブ'];
+
+export function kyujinboxToItem(job) {
   const jobTitle = (job.title || '').trim();
   const company = (job.company || '').trim();
   const workArea = job.workArea || '';
   if (!company || !workArea.includes(ACTIVE_PREF.name)) return null;
+  const siteName = (job.siteName || '').trim();
+  if (NONFOOD_SITE_NAMES.includes(siteName)) return null;
   const tags = [...toTagArray(job.allFeatureTags), ...toTagArray(job.featureTagSp)];
   const isOpening = tags.includes('オープニング') || isOpeningJobTitle(jobTitle);
   if (!isOpening) return null;
