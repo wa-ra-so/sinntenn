@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T23:59:40.137Z",
+  "generatedAt": "2026-07-15T02:20:02.031Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 8
+      "count": 9
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 39
+      "count": 38
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 21
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 45,
+  "itemCount": 47,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -338,6 +338,19 @@
       "capacity": 30,
       "open": "月、火、木～日、祝日、祝前日: 11:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～22:00 （料理L.O. 19:00 ドリンクL.O. 19:00）",
       "checkedAt": "2026-07-14T23:59:40.136Z"
+    },
+    "鮮度の極み魚もつ川崎居酒屋": {
+      "storeName": "鮮度の極み 魚もつ 川崎居酒屋",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T02:20:01.879Z"
     }
   },
   "market": {
@@ -396,6 +409,10 @@
     "川崎市|ダイニング": {
       "count": 66,
       "checkedAt": "2026-07-14T23:28:03.128Z"
+    },
+    "川崎市|居酒屋": {
+      "count": 403,
+      "checkedAt": "2026-07-15T02:20:02.031Z"
     }
   },
   "items": [
@@ -451,7 +468,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96515",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Mon, 13 Jul 2026 09:30:35 GMT",
-      "area": "横浜市中区",
+      "area": "横浜市",
       "genres": [
         "中華"
       ],
@@ -475,7 +492,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-88594",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Mon, 13 Jul 2026 01:30:47 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "中華"
       ],
@@ -505,6 +522,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
+    },
+    {
+      "title": "「鮮度の極み 魚もつ 川崎居酒屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/交…）",
+      "link": "https://job.tabelog.com/restaurants?id=14099977#job-info-75512",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sat, 11 Jul 2026 09:30:32 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:19:57.337Z"
     },
     {
       "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
@@ -643,6 +672,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:32.530Z"
+    },
+    {
+      "title": "株式会社HITOWA フードサービスカンパニー オープニングスタッフ募集（給食スタッフ/キッチン/調理・栄養関連 調理STAFF募集 …）",
+      "link": "http://s.baitoru.com/DW0aWqVa",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Fri, 03 Jul 2026 17:58:26 GMT",
+      "area": "藤沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:19:57.337Z"
     },
     {
       "title": "「油そば専門店 ぶらぶら 大船駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/油そば・まぜそば/ラーメン…）",
