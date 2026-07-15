@@ -167,7 +167,7 @@ function render() {
   <div class="kpi-row">
     <div class="kpi"><div class="kpi-label">ネット予約不可（累計）</div><div class="kpi-value">${DATA.items.length}<span class="unit">店</span></div><div class="kpi-note">記録開始以降</div></div>
     <div class="kpi"><div class="kpi-label">直近30日</div><div class="kpi-value">${counts.d30}<span class="unit">店</span></div><div class="kpi-note">直近7日: ${counts.d7}店</div></div>
-    <div class="kpi"><div class="kpi-label">現在の掲載店数</div><div class="kpi-value">${DATA.activeCount ?? '—'}<span class="unit">店</span></div><div class="kpi-note">${esc(PREF.label)}のHP掲載</div></div>
+    <div class="kpi"><div class="kpi-label">HP掲載店数（API）</div><div class="kpi-value">${DATA.activeCount ?? '—'}<span class="unit">店</span></div><div class="kpi-note">サイト検索の件数とは集計基準が異なります</div></div>
     <div class="kpi"><div class="kpi-label">台帳更新</div><div class="kpi-value" style="font-size:16px;padding-top:8px;">${fmtDate(DATA.updatedAt)}</div><div class="kpi-note">1日3回（6時/14時/22時ごろ）自動更新</div></div>
   </div>
   <div class="filter-card"><div class="filter-row">

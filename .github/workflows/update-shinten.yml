@@ -80,13 +80,3 @@ jobs:
             git push
           fi
 
-  diag-count:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - run: node scripts/_diag-count.mjs
-        env:
-          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
