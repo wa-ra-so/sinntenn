@@ -82,6 +82,7 @@ const CHAIN_BLOCKLIST = [
   'しゃぶしゃぶ温野菜', '温野菜', '焼肉きんぐ', '丸源ラーメン', 'ゆず庵', '牛角', 'しゃぶ葉',
   'セブンイレブン', 'ファミリーマート', 'ローソン', 'ユニクロ', '無印良品', 'イオン', 'ドン・キホーテ',
   'ヤオコー', 'アパホテル',
+  '山岡家', '町田商店', '豚山', '元祖油堂', 'Zoff', 'ゾフ',
 ];
 
 const FEED_TTL_DAYS = 60; // 何日分の情報を一覧に残すか
@@ -378,7 +379,7 @@ const NONFOOD_JOB_KEYWORDS = [
   'デイサービス', '運動指導員', 'レコードブック',
   // 飲食店以外の小売・サービス業（求人ボックス等の求人集約サイトから混入）
   '携帯', 'ジュエリー', '整体師', 'ルームアドバイザー', '機械オペレーター',
-  '食品スーパー', 'スーパーマーケット', 'ファッション・コスメ', 'テンポス',
+  '食品スーパー', 'スーパーマーケット', 'ファッション・コスメ', 'テンポス', 'リカバリーウェ',
   '美容師', '美容室', 'ネイリスト', 'エステティシャン',
   // 医療・福祉・教育系施設（飲食店ではない給食・療育・保育系求人）
   '言語聴覚士', '児童発達支援', '給食', '栄養士',
@@ -432,6 +433,11 @@ export function kyujinboxToItem(job) {
   if (!company || !workArea.includes(ACTIVE_PREF.name)) return null;
   const siteName = (job.siteName || '').trim();
   if (NONFOOD_SITE_NAMES.includes(siteName)) return null;
+  // 求人サイトが求人カードに「オープニング」タグを付けていても、タイトル自体が
+  // 「リニューアルオープン」（改装・既存店の再オープン）の場合は新規開店ではないため、
+  // タグの有無に関わらず必ず除外する（タグ判定がisOpeningJobTitleのリニューアル除外を
+  // バイパスしてしまい、はなまるうどん・すき家（ゼンショー系列）等の改装求人が混入していた）
+  if (/リニューアル/.test(jobTitle)) return null;
   const tags = [...toTagArray(job.allFeatureTags), ...toTagArray(job.featureTagSp)];
   const isOpening = tags.includes('オープニング') || isOpeningJobTitle(jobTitle);
   if (!isOpening) return null;
@@ -714,6 +720,7 @@ async function main() {
     !isChain(it.title) &&
     !hasExcludeKeyword(it.title) &&
     !(it.signal === 'hiring' && isNonFoodJob(it.title)) &&
+    !(it.signal === 'hiring' && /リニューアル/.test(it.title)) &&
     (it.area || isPrefRelevant(it.title))
   );
   await mapWithConcurrency(
