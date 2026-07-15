@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:23:12.494Z",
+  "generatedAt": "2026-07-15T05:11:33.249Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 43
+      "count": 48
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 98,
+  "itemCount": 102,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -590,6 +590,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T02:19:44.661Z"
+    },
+    "はかた商店海浜幕張": {
+      "storeName": "はかた商店 海浜幕張",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001276885/?vos=nhppalsa000016",
+      "shopName": "はかた商店 海浜幕張店",
+      "address": "千葉県千葉市美浜区ひび野１丁目9番地　スーク海浜幕張3階",
+      "access": "JR京葉線海浜幕張駅北口より徒歩約2分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 100,
+      "open": "月～木、土、日、祝日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）金: 16:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-15T05:11:32.712Z"
+    },
+    "はかた商店新浦安": {
+      "storeName": "はかた商店 新浦安",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004493549/?vos=nhppalsa000016",
+      "shopName": "はかた商店 新浦安店",
+      "address": "千葉県浦安市入船１-5-1　 MONA新浦安A館4階　401区画",
+      "access": "JR京葉線新浦安駅北口より徒歩約3分★",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 82,
+      "open": "月～日、祝日、祝前日: 11:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-15T05:11:32.899Z"
+    },
+    "成田食堂": {
+      "storeName": "成田食堂",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T05:11:33.248Z"
     }
   },
   "market": {
@@ -1091,6 +1130,46 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
+      "title": "「はかた商店 海浜幕張」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505387/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "千葉市美浜区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
+      "title": "「はかた商店 新浦安」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/695618/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
+      "title": "元祖油堂 柏西口店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/632592/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "柏市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:29.186Z"
     },
     {
       "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",

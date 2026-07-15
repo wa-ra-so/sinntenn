@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:23:29.726Z",
+  "generatedAt": "2026-07-15T05:11:56.006Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 48
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 70,
+  "itemCount": 76,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -598,6 +598,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T02:20:12.826Z"
+    },
+    "はかた商店越谷西口駅前": {
+      "storeName": "はかた商店 越谷西口駅前",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001234617/?vos=nhppalsa000016",
+      "shopName": "はかた商店 越谷西口駅前店",
+      "address": "埼玉県越谷市赤山本町2-8 吾山ビル4階",
+      "access": "東武伊勢崎線越谷駅西口より徒歩約0分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 110,
+      "open": "月～木: 17:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）金、土: 17:00～翌3:00 （料理L.O. 翌2:00 ドリンクL.O. 翌2:30）日、祝日: 15:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-15T05:11:55.952Z"
+    },
+    "はかた商店せんげん台": {
+      "storeName": "はかた商店 せんげん台",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001001692/?vos=nhppalsa000016",
+      "shopName": "はかた商店 せんげん台店",
+      "address": "埼玉県越谷市千間台東１-1-3　川口ビル2F",
+      "access": "東武伊勢崎線せんげん台駅東口より徒歩約2分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 80,
+      "open": "月～日、祝日、祝前日: 16:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
+      "checkedAt": "2026-07-15T05:11:56.005Z"
     }
   },
   "market": {
@@ -736,6 +762,16 @@
       "firstSeenAt": "2026-07-15T02:20:08.091Z"
     },
     {
+      "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケット社員食堂の昼食調理スタッフ/オープニングス…）",
+      "link": "https://job-gear.net/omiyaichiba2/AE0417483717/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー大宮市場店）",
+      "pubDate": "Tue, 14 Jul 2026 19:08:39 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.637Z"
+    },
+    {
       "title": "「ヤオコー 大宮市場店」オープニングスタッフ募集（スーパーマーケットの品出しスタッフ/食品/オープニング）",
       "link": "https://job-gear.net/omiyaichiba2/AE0417483700/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
@@ -760,7 +796,7 @@
       "link": "https://job-gear.net/omiyaichiba2/AE0417483711/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
       "pubDate": "Tue, 14 Jul 2026 19:08:38 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:23:26.650Z"
@@ -794,6 +830,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:20:08.091Z"
+    },
+    {
+      "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニング）",
+      "link": "https://job-gear.net/irumatoyooka2/AE0630723499/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 入間豊岡店）",
+      "pubDate": "Tue, 14 Jul 2026 19:02:29 GMT",
+      "area": "入間市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.637Z"
     },
     {
       "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの鮮魚スタッフ/オープニングスタッフ）",
@@ -856,6 +902,16 @@
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
     },
     {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
       "title": "「創作ダイニング心」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
       "link": "https://job.tabelog.com/restaurants?id=11064533#job-info-56891",
       "source": "求人ボックス（食べログ求人）",
@@ -863,21 +919,10 @@
       "area": "川越市",
       "genres": [
         "ダイニング",
-        "レストラン",
         "創作料理"
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -1049,6 +1094,46 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:20:08.092Z"
+    },
+    {
+      "title": "「24時間冷凍餃子販売所×唐揚げ専門店はかた商店」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505389/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "「はかた商店 越谷西口駅前」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505384/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "「はかた商店 せんげん台」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505385/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "新座市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.638Z"
     },
     {
       "title": "埼玉県初！天然黒潮海水を使った水族館「アクアパーク川越」が誕生！かわいい生き物形の限定ドーナツが楽しめるカフェも併設",

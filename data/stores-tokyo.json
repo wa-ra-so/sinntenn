@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T02:23:18.488Z",
+  "generatedAt": "2026-07-15T05:11:41.872Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 17
+      "count": 14
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 30
+      "count": 29
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 62
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 20
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 109,
+  "itemCount": 113,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1040,6 +1040,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T02:19:54.162Z"
+    },
+    "無添蔵新宿店": {
+      "storeName": "無添蔵 新宿店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T05:11:41.184Z"
+    },
+    "港区/オープニング": {
+      "storeName": "港区/オープニング",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T05:11:41.659Z"
     }
   },
   "market": {
@@ -1202,6 +1228,10 @@
     "目黒区|フレンチ": {
       "count": 14,
       "checkedAt": "2026-07-15T02:19:54.317Z"
+    },
+    "新宿区|寿司": {
+      "count": 100,
+      "checkedAt": "2026-07-15T05:11:41.872Z"
     }
   },
   "items": [
@@ -1214,8 +1244,20 @@
       "genres": [
         "フレンチ"
       ],
-      "signal": "opening",
+      "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:48.222Z"
+    },
+    {
+      "title": "「EBIZO」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
+      "link": "https://job.tabelog.com/restaurants?id=13207106#job-info-106974",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Wed, 15 Jul 2026 01:30:42 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
@@ -1416,10 +1458,20 @@
       "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4916.html",
       "source": "求人ボックス（株式会社三和薬品）",
       "pubDate": "Tue, 07 Jul 2026 21:34:09 GMT",
-      "area": "台東区",
+      "area": "墨田区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
+    },
+    {
+      "title": "「レコードブック両国」オープニングスタッフ募集（トレーナー 無資格可 オープニングスタッフ）",
+      "link": "https://kyujinbu.com/sanwayakuhin/detail/post_4913.html",
+      "source": "求人ボックス（株式会社三和薬品）",
+      "pubDate": "Tue, 07 Jul 2026 21:34:09 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:37.034Z"
     },
     {
       "title": "「レコードブック浅草」オープニングスタッフ募集（トレーナー 無資格可 オープニングスタッフ）",
@@ -1460,16 +1512,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
-      "title": "「EBIZO」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
-      "link": "https://job.tabelog.com/restaurants?id=13207106#job-info-106974",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 07 Jul 2026 09:30:41 GMT",
-      "area": "渋谷区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
@@ -1550,6 +1592,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.043Z"
+    },
+    {
+      "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02XzVlZEwxcm4xdmwwbGdweEFzc0FJX2hkQ2l5RC1fUWROOWRNT2ZzNTFtX21tbThWZ1U2Y1NSNE1QQTNmbkdMS1c0b3RVSmxIWGwtaGktbi1sa1paWG0zUm9CbWVsenFkZm9nVENYMkRsRW4waDZGQ2h1SQ?oc=5",
+      "source": "産経ニュース",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "area": "三鷹市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T05:11:37.093Z"
     },
     {
       "title": "株式会社テンポスバスターズ 五反田店 オープニングスタッフ募集（飲食店向けの商品販売・接客 オープニングスタッフ）",
@@ -1658,6 +1712,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "プレミアム回転寿司「無添蔵 新宿店」 2026年7月9日（木）オープン",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xUFFvRjRMME84NGctSzNYMVQ3cG5tTGtrbU85SmVmVmUtMFQ0a1MzbHR0ZjJKTW1idHNVSFg5RGEySHpQQTRZbXZ4WndlNHBmUlltUWxXX3Z6U3c?oc=5",
+      "source": "共同通信PRワイヤー",
+      "pubDate": "Thu, 02 Jul 2026 01:30:00 GMT",
+      "area": "新宿区",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T05:11:37.092Z"
     },
     {
       "title": "三鷹市下連雀の住宅街にコーヒーとクラフトフードのカフェ「Banda Coffee&Goods」がオープンへ",
@@ -2123,7 +2189,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
     },
     {
-      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
+      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
@@ -2411,6 +2477,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.044Z"
+    },
+    {
+      "title": "株式会社小川珈琲クリエイツ オープニングスタッフ募集（「港区/オープニング」店舗スタッフ「レストラン」）",
+      "link": "https://mynavi-agent.jp/entry/?jno=10639022",
+      "source": "求人ボックス（マイナビエージェント- 登録エントリー）",
+      "pubDate": "Tue, 19 May 2026 05:01:21 GMT",
+      "area": "港区",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:37.034Z"
     },
     {
       "title": "看板メニューの牡蠣料理がパワーアップ！西新宿「魚介イタリアン&チーズUMIバル」リニューアルオープン",
