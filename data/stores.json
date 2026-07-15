@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T14:27:41.949Z",
+  "generatedAt": "2026-07-15T15:05:36.090Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 45
+      "count": 44
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 79,
+  "itemCount": 81,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -485,6 +485,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T05:11:33.248Z"
+    },
+    "地方創生/館山": {
+      "storeName": "地方創生/館山",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T15:05:35.868Z"
     }
   },
   "market": {
@@ -615,6 +628,10 @@
     "成田市|居酒屋": {
       "count": 36,
       "checkedAt": "2026-07-14T23:59:24.552Z"
+    },
+    "館山市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-15T15:05:36.090Z"
     }
   },
   "items": [
@@ -629,6 +646,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T14:27:39.905Z"
+    },
+    {
+      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13107",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Wed, 15 Jul 2026 11:31:30 GMT",
+      "area": "松戸市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:31.964Z"
     },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
@@ -727,6 +756,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T13:21:34.512Z"
+    },
+    {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Mon, 13 Jul 2026 22:31:03 GMT",
+      "area": "館山市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
     {
       "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/店長・店長候補/口コミ高評価の繁盛店店長候補を大募集）",

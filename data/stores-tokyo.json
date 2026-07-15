@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T14:27:48.892Z",
+  "generatedAt": "2026-07-15T15:05:45.213Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 121,
+  "itemCount": 125,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1170,6 +1170,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T14:27:48.891Z"
+    },
+    "一天張": {
+      "storeName": "一天張",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003829788/?vos=nhppalsa000016",
+      "shopName": "一天張 イッテンバリ 人形町",
+      "address": "東京都中央区日本橋人形町２-2-8",
+      "access": "日比谷線人形町駅A2出口より徒歩約3分",
+      "genre": "和食",
+      "budget": "4001～5000円",
+      "capacity": 51,
+      "open": "月～土: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）日、祝日: 17:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-15T15:05:43.953Z"
+    },
+    "tourdefrancecafé": {
+      "storeName": "Tour de France CAFÉ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T15:05:44.229Z"
+    },
+    "シュラスコ&ビアバーゴッチバッタ銀座": {
+      "storeName": "シュラスコ&ビアバー ゴッチバッタ銀座",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T15:05:45.004Z"
     }
   },
   "market": {
@@ -1356,6 +1395,10 @@
     "江東区|バー": {
       "count": 97,
       "checkedAt": "2026-07-15T13:21:45.613Z"
+    },
+    "港区|バル": {
+      "count": 129,
+      "checkedAt": "2026-07-15T15:05:45.213Z"
     }
   },
   "items": [
@@ -1683,6 +1726,28 @@
       "firstSeenAt": "2026-07-15T14:27:44.958Z"
     },
     {
+      "title": "「シュラスコ&ビアバー ゴッチバッタ銀座」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505344/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:40.080Z"
+    },
+    {
+      "title": "「一天張」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505349/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:40.080Z"
+    },
+    {
       "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
       "link": "https://www.hatarako.net/job/9001045917/",
       "source": "求人ボックス（はたらこねっと）",
@@ -1737,6 +1802,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
+    },
+    {
+      "title": "株式会社iDA オープニングスタッフ募集（ホールスタッフ/バルーンスマイルクレープ販売 表参道路面店）",
+      "link": "https://www.hatarako.net/job/9001043784/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Wed, 08 Jul 2026 17:19:29 GMT",
+      "area": "港区",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:40.080Z"
     },
     {
       "title": "株式会社ホットパレット/ロックスハンバーグ ららテラスHARUMI FLAG店 オープニングスタッフ募集（オープニングスタッフ 人気飲食店での調理・接客スタッフ募集）",
@@ -2190,6 +2267,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:23.403Z"
+    },
+    {
+      "title": "ツール・ド・フランス公認カフェ「Tour de France CAFÉ」東京、大阪、尾道（広島）3都市で今年も期間限定オープン！",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9vRUpfdTFsVW92QlNfZVY3VjdOaWMzdFE1S0RNUmYwX2FMX1JpbEpXS3ptLUNmdThSei05c2RHZWNRZmU10gFKQVVfeXFMTURpOFJhNm84TGtJblJTX3lNRWZoNmtCRFRxUzZQbTJhckpkQlFmX3VFaU45NW5iZGxZUzFFQjFvZGlSTHpleEM2R1E?oc=5",
+      "source": "スポーツマニア",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T15:05:40.118Z"
     },
     {
       "title": "人形町『居酒屋ノスケ』｜日本料理店が手がける新店居酒屋",

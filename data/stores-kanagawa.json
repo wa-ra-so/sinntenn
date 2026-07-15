@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-15T14:27:53.748Z",
+  "generatedAt": "2026-07-15T15:05:51.109Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 92
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 12
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 55,
+  "itemCount": 57,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -587,6 +587,18 @@
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
     },
     {
+      "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ESV85aWs2T1JhWUdXeDY5RkZ4Uk55ME1HSGNIa000UUQtZ0lQTllxQVVEYjFkWHc2ZWtvck10U2JIdlRyNXYtTjVCakdob3lfOGtMeWdzTEx4ZHhxUmlVai0zZngwRzdPemc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Sun, 12 Jul 2026 23:00:02 GMT",
+      "area": "横浜市中区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T15:05:48.947Z"
+    },
+    {
       "title": "株式会社コロワイドダイニング オープニングスタッフ募集（ホール/キッチン/洗い場 7/24OPEN 365酒場オープ…）",
       "link": "http://s.baitoru.com/DW0aXePF",
       "source": "求人ボックス（baitoru）",
@@ -643,6 +655,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T14:27:51.677Z"
+    },
+    {
+      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/器用じゃなくても問題ナシのシンプル業務少しず…）",
+      "link": "https://www.hatarako.net/job/9001048323/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Fri, 10 Jul 2026 17:10:42 GMT",
+      "area": "秦野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:48.913Z"
     },
     {
       "title": "「鎌倉海街テーブル」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
