@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T07:18:58.875Z",
+  "generatedAt": "2026-07-15T08:30:22.391Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 39
+      "count": 41
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 56,
+  "itemCount": 57,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -403,6 +403,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T07:18:58.743Z"
+    },
+    "宏二郎丸本店": {
+      "storeName": "宏二郎丸 本店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T08:30:22.158Z"
     }
   },
   "market": {
@@ -461,6 +474,10 @@
     "鎌倉市|カフェ": {
       "count": 48,
       "checkedAt": "2026-07-15T07:18:58.875Z"
+    },
+    "鎌倉市|イタリアン": {
+      "count": 25,
+      "checkedAt": "2026-07-15T08:30:22.391Z"
     }
   },
   "items": [
@@ -598,7 +615,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Fri, 10 Jul 2026 01:30:44 GMT",
-      "area": "横浜市",
+      "area": "鎌倉市",
       "genres": [
         "イタリアン"
       ],
@@ -878,6 +895,18 @@
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
     },
     {
+      "title": "「宏二郎丸 本店」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/ボーナス・賞与あり）",
+      "link": "https://job.tabelog.com/restaurants?id=14048504#job-info-54788",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sat, 20 Jun 2026 01:30:48 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:18.128Z"
+    },
+    {
       "title": "「天ぷらとワイン からり。 武蔵小杉店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/天ぷら/和食/飲食店/ネイ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4462",
       "source": "求人ボックス（食べログ求人）",
@@ -892,7 +921,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市",
+      "area": "川崎市中原区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"

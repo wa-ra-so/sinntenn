@@ -5,7 +5,8 @@
 
 - 公開URL: https://wa-ra-so.github.io/sinntenn/ （千葉県・デフォルト）
   - 東京都: `?pref=tokyo` / 神奈川県: `?pref=kanagawa` / 埼玉県: `?pref=saitama`
-- アタックリスト: https://wa-ra-so.github.io/sinntenn/attack.html （ネット予約不可店。現状千葉のみ収集）
+- アタックリスト: https://wa-ra-so.github.io/sinntenn/attack.html （ネット予約不可店。4県で収集）
+  - 東京都: `?pref=tokyo` / 神奈川県: `?pref=kanagawa` / 埼玉県: `?pref=saitama`
 - 提案書セイセイ君: https://wa-ra-so.github.io/sinntenn/seiseikun.html （独立ツール）
 
 ## 構成
@@ -20,12 +21,13 @@
 | `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから1日3回（6:00/14:00/22:00 JST頃）、4県分実行 |
 | `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査（全県分）。失敗すると公開が止まる |
 | `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人を県別データへマージ。毎朝のClaudeルーティンから実行 |
-| `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新＋ネット予約可否チェック（現状千葉のみ・Actionsから1日3回実行） |
+| `scripts/hotpepper-roster.mjs` | ホットペッパー全掲載店の台帳更新＋ネット予約可否チェック（`--pref=`で県指定・Actionsから1日3回、4県分実行） |
 | `scripts/list-reservation-lost.mjs` | 台帳からネット予約不可になった店をアタックリストとして出力。`--csv=` でCSV書き出し |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
 | `data/hotpepper-roster.json` | 千葉県のホットペッパー掲載台帳（店舗IDごとの firstSeenAt / lastSeenAt / reservable / reservableCheckedAt / lastReservableAt / reservationLostAt。Actionsが自動コミット） |
 | `data/hotpepper-reservation-lost.json` | 台帳から抽出したネット予約不可店のみの軽量版（attack.html が読む） |
 | `data/stores-tokyo.json` ほか | 東京・神奈川（`-kanagawa`）・埼玉（`-saitama`）の収集済みデータ（同上） |
+| `data/hotpepper-roster-tokyo.json` ほか | 東京・神奈川・埼玉のホットペッパー掲載台帳（同上） |
 
 ## データソース（fetch-stores.mjs）
 
@@ -40,19 +42,20 @@
    fetch-stores.mjs の `connectorJobToItem` に集約、収集基準は他ソースと同一）
 4. **ホットペッパーAPI**（`HOTPEPPER_API_KEY` シークレット設定時のみ）—
    掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ（エリア×ジャンル別の掲載店数）。
-   加えて `hotpepper-roster.mjs` が県内全掲載店（千葉は約5,200店）の台帳を1日3回更新する。
+   加えて `hotpepper-roster.mjs` が4県全掲載店（千葉5,228・東京33,088・神奈川9,749・
+   埼玉5,329店・2026-07時点）の台帳を1日3回更新する。
    ※グルメサーチAPIにネット予約可否のフィールドは無いため、店舗ページ本体を取得し
    `<title>` タグの「＜ネット予約可＞」表記の有無で判定している（実ページで確認済み。
    Actionsランナーからhotpepper.jpへの直接アクセスは通る＝Indeedと違いブロックされない）。
    全店を毎回チェックすると重いため、未チェック・チェックが古い店から1回の実行につき800件
-   ローテーションで確認（1日3回×800件＝2,400件／日、約2〜3日で一巡）。ネット予約可→不可に
-   変わった店を検出し、
+   ローテーションで確認（1日3回×800件＝2,400件／日／県。千葉・埼玉は約2〜3日、神奈川は
+   約4日、店舗数の多い東京は約2週間で一巡）。ネット予約可→不可に変わった店を検出し、
    `lastReservableAt`（予約可能を最後に確認した日）と `reservationLostAt`
    （不可を検出した日）を記録する。**ローテーションのため「正確にいつ変わったか」は
    わからず、この2つの日付の間のどこかとしてしか特定できない**（掲載自体が終了した
    場合は台帳の掲載有無チェックが毎日走るため、その部分は1日単位で正確）。
    `list-reservation-lost.mjs` でアタックリスト出力できる。
-   台帳の記録は2026-07-14開始で、それ以前には遡れない。
+   台帳の記録は2026-07-14開始（東京・神奈川・埼玉は2026-07-15開始）で、それ以前には遡れない。
    **掲載店数の基準について**: APIの総件数（千葉5,228店・2026-07時点）は、サイトの
    消費者向け検索の件数（同時点で約4,670件）より多い。サイトは文脈で母数が変わる
    （エリアページのジャンル別合計は未掲載店の紹介ページ込みで2.8万超）。台帳はAPI基準

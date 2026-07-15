@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T07:19:04.124Z",
+  "generatedAt": "2026-07-15T08:30:28.432Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 77,
+  "itemCount": 81,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -729,6 +729,66 @@
   },
   "items": [
     {
+      "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/irumatoyooka2/AE0630723500/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 入間豊岡店）",
+      "pubDate": "Wed, 15 Jul 2026 07:21:09 GMT",
+      "area": "入間市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.586Z"
+    },
+    {
+      "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの鮮魚スタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/koshigayagamou2/AE0617287404/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
+      "pubDate": "Wed, 15 Jul 2026 07:11:24 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
+      "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
+      "source": "求人ボックス（ベネミール）",
+      "pubDate": "Wed, 15 Jul 2026 07:10:24 GMT",
+      "area": "狭山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）",
+      "link": "https://job-gear.net/kyuusyokuwakana2/AE0710026099/MDdetail.htm",
+      "source": "求人ボックス（株式会社若菜）",
+      "pubDate": "Wed, 15 Jul 2026 07:07:51 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「ファミリー食堂 山田うどん食堂 北中店」オープニングスタッフ募集（うどん食堂のキッチン・ホールスタッフ）",
+      "link": "https://job-gear.net/yamadaudon2/AE0703866564/MDkyujin_d.htm",
+      "source": "求人ボックス（山田食品産業株式会社）",
+      "pubDate": "Wed, 15 Jul 2026 07:05:59 GMT",
+      "area": "所沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:59.586Z"
+    },
+    {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 浦和美園…」オープニングスタッフ募集（美容師/浦和美園駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B6019079/sid/731948?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:37 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:26.069Z"
+    },
+    {
       "title": "ランスタッド株式会社 オープニングスタッフ募集（販売/世界的ジュエリーブランドでワンランク上のホスピタリティ…）",
       "link": "https://jobs.recruiting-cloud.jp/kitanihon_area/kj28872545.html?rmc=A0012",
       "source": "求人ボックス（ランスタッド株式会社_東日本）",
@@ -743,7 +803,7 @@
       "link": "https://job-gear.net/omiyaichiba2/AE0417483715/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
       "pubDate": "Tue, 14 Jul 2026 19:08:39 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:20:08.091Z"
@@ -789,26 +849,6 @@
       "firstSeenAt": "2026-07-15T02:23:26.650Z"
     },
     {
-      "title": "「ファミリー食堂 山田うどん食堂 北中店」オープニングスタッフ募集（うどん食堂のキッチン・ホールスタッフ）",
-      "link": "https://job-gear.net/yamadaudon2/AE0703866564/MDkyujin_d.htm",
-      "source": "求人ボックス（山田食品産業株式会社）",
-      "pubDate": "Tue, 14 Jul 2026 19:07:19 GMT",
-      "area": "所沢市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.586Z"
-    },
-    {
-      "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニングスタッフ）",
-      "link": "https://job-gear.net/irumatoyooka2/AE0630723500/MDkyujin_d.htm",
-      "source": "求人ボックス（ヤオコー 入間豊岡店）",
-      "pubDate": "Tue, 14 Jul 2026 19:02:29 GMT",
-      "area": "入間市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.586Z"
-    },
-    {
       "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットの惣菜製造スタッフ/オープニングスタッフ）",
       "link": "https://job-gear.net/irumatoyooka2/AE0630723501/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー 入間豊岡店）",
@@ -827,16 +867,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.637Z"
-    },
-    {
-      "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの鮮魚スタッフ/オープニングスタッフ）",
-      "link": "https://job-gear.net/koshigayagamou2/AE0617287404/MDkyujin_d.htm",
-      "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
-      "pubDate": "Tue, 14 Jul 2026 18:53:45 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:40.742Z"
     },
     {
       "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットのベーカリースタッフ/オープニング）",
@@ -877,26 +907,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T07:19:01.965Z"
-    },
-    {
-      "title": "株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）",
-      "link": "https://job-gear.net/kyuusyokuwakana2/AE0710026099/MDdetail.htm",
-      "source": "求人ボックス（株式会社若菜）",
-      "pubDate": "Tue, 14 Jul 2026 18:53:21 GMT",
-      "area": "さいたま市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
-      "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
-      "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
-      "source": "求人ボックス（ベネミール）",
-      "pubDate": "Tue, 14 Jul 2026 18:52:44 GMT",
-      "area": "狭山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:40.742Z"
     },
     {
       "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
@@ -1083,6 +1093,16 @@
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
     },
     {
+      "title": "アパホテル株式会社 オープニングスタッフ募集（日勤フロントスタッフ）",
+      "link": "https://apahotel-recruit.net/jobfind-pc/job/All/6594",
+      "source": "求人ボックス（アパホテル株式会社）",
+      "pubDate": "Thu, 09 Jul 2026 20:10:44 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:26.069Z"
+    },
+    {
       "title": "「24時間冷凍餃子販売所×唐揚げ専門店はかた商店」オープニングスタッフ募集（調理師）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505389/2_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1141,6 +1161,26 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T07:19:01.965Z"
+    },
+    {
+      "title": "「はかた商店 せんげん台」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505385/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:26.069Z"
+    },
+    {
+      "title": "豚山 与野本町店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/539283/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:26.069Z"
     },
     {
       "title": "埼玉県初！天然黒潮海水を使った水族館「アクアパーク川越」が誕生！かわいい生き物形の限定ドーナツが楽しめるカフェも併設",
