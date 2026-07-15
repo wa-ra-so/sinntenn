@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T15:05:36.090Z",
+  "generatedAt": "2026-07-15T22:06:31.351Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 44
+      "count": 46
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 81,
+  "itemCount": 85,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -629,12 +629,34 @@
       "count": 36,
       "checkedAt": "2026-07-14T23:59:24.552Z"
     },
-    "館山市|レストラン": {
-      "count": 6,
-      "checkedAt": "2026-07-15T15:05:36.090Z"
+    "香取市|レストラン": {
+      "count": 0,
+      "checkedAt": "2026-07-15T22:06:30.445Z"
+    },
+    "柏市|イタリアン": {
+      "count": 22,
+      "checkedAt": "2026-07-15T22:06:30.450Z"
+    },
+    "習志野市|韓国料理": {
+      "count": 4,
+      "checkedAt": "2026-07-15T22:06:30.816Z"
+    },
+    "旭市|イタリアン": {
+      "count": 4,
+      "checkedAt": "2026-07-15T22:06:31.351Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Wed, 15 Jul 2026 20:01:42 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13113",
@@ -660,16 +682,6 @@
       "firstSeenAt": "2026-07-15T15:05:31.964Z"
     },
     {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Tue, 14 Jul 2026 19:47:57 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
-    },
-    {
       "title": "株式会社INGS オープニングスタッフ募集（イタリアンの接客/年3回昇給/年休110日/賞与あり）",
       "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca315a7099b",
       "source": "求人ボックス（グルスタ）",
@@ -680,6 +692,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
+    },
+    {
+      "title": "株式会社INGS オープニングスタッフ募集（イタリアンの接客/年3回昇給/年休110日/賞与あり）",
+      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca316d0099f",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 14 Jul 2026 11:00:22 GMT",
+      "area": "柏市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T22:06:27.312Z"
     },
     {
       "title": "「おでん屋たけし 船橋駅南口店」オープニングスタッフ募集（和食, 居酒屋/店長・店長候補/成長中ブランドで早期キャリア…）",
@@ -763,9 +787,7 @@
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
       "pubDate": "Mon, 13 Jul 2026 22:31:03 GMT",
       "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
@@ -897,6 +919,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "株式会社GOODSMILE オープニングスタッフ募集（ホールスタッフ・配膳/千葉県/レストランでのホールスタッフ）",
+      "link": "https://hibarai.net/search/job-detail/640810803",
+      "source": "求人ボックス（ヒバライドット）",
+      "pubDate": "Thu, 09 Jul 2026 12:02:08 GMT",
+      "area": "香取市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T22:06:27.312Z"
     },
     {
       "title": "「海鮮和食 魚まみれ 仲々 小林店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/未…）",
@@ -1041,6 +1075,18 @@
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
     },
     {
+      "title": "株式会社イーケーシー オープニングスタッフ募集（韓国料理のキッチン/オープニング/面接確約/未経験可）",
+      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbce91f0174",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 08 Jul 2026 11:00:17 GMT",
+      "area": "習志野市",
+      "genres": [
+        "韓国料理"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T22:06:27.312Z"
+    },
+    {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VaVVPdVpRT1NqRkpMSC10a0QyZlY4RmtzZ2l4WUZFdFdzQUtEWEw2U2ExT3dBclpQQW9acjhVMWlKY3p3MTl4UTBsZ2hFMXhVNlE?oc=5",
       "source": "船橋つうしん",
@@ -1093,6 +1139,16 @@
       "firstSeenAt": "2026-07-12T03:29:32.899Z"
     },
     {
+      "title": "株式会社エムアンドエムサービス オープニングスタッフ募集（ホール オープニング ホテルのホールスタッフ/おんじゅく保養…）",
+      "link": "https://www.baitoru.com/op540023/job145660432/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 08 Jul 2026 05:13:36 GMT",
+      "area": "御宿町",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T22:06:27.312Z"
+    },
+    {
       "title": "株式会社オリーブの丘ホールディングス オープニングスタッフ募集（キッチン キッチン 10種類以上の本格派パスタが学べる 未経…）",
       "link": "https://saiyo.page/452305/job/161056646/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
       "source": "求人ボックス（採用ページコボット）",
@@ -1108,7 +1164,9 @@
       "source": "求人ボックス（採用ページコボット）",
       "pubDate": "Wed, 08 Jul 2026 05:10:25 GMT",
       "area": "旭市",
-      "genres": [],
+      "genres": [
+        "イタリアン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },

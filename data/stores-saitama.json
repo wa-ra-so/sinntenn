@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T15:05:56.928Z",
+  "generatedAt": "2026-07-15T22:06:52.046Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 10
+      "count": 8
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 3
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 43,
+  "itemCount": 44,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -570,6 +570,10 @@
     "川越市|居酒屋": {
       "count": 98,
       "checkedAt": "2026-07-15T02:23:29.726Z"
+    },
+    "さいたま市|居酒屋": {
+      "count": 303,
+      "checkedAt": "2026-07-15T22:06:52.046Z"
     }
   },
   "items": [
@@ -577,7 +581,7 @@
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
-      "pubDate": "Wed, 15 Jul 2026 07:10:24 GMT",
+      "pubDate": "Wed, 15 Jul 2026 19:03:34 GMT",
       "area": "狭山市",
       "genres": [],
       "signal": "hiring",
@@ -592,16 +596,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -627,6 +621,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -746,6 +750,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "株式会社TPD オープニングスタッフ募集（キッチン/ホール/フード系 地域NO 1の居酒屋 未経験ok…）",
+      "link": "https://saiyo.page/526601/job/161910309/?media=ad_dx_agent_comp_kyujin_box&utm_source=kyujin_box&utm_source=ad_kyujin_box&utm_medium=alliance",
+      "source": "求人ボックス（採用ページコボット.）",
+      "pubDate": "Fri, 10 Jul 2026 18:10:04 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T22:06:49.260Z"
     },
     {
       "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",

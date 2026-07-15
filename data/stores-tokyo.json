@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T15:05:45.213Z",
+  "generatedAt": "2026-07-15T22:06:38.846Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 27
+      "count": 26
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 64
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 14
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 125,
+  "itemCount": 126,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1396,9 +1396,9 @@
       "count": 97,
       "checkedAt": "2026-07-15T13:21:45.613Z"
     },
-    "港区|バル": {
-      "count": 129,
-      "checkedAt": "2026-07-15T15:05:45.213Z"
+    "渋谷区|バル": {
+      "count": 109,
+      "checkedAt": "2026-07-15T22:06:38.845Z"
     }
   },
   "items": [
@@ -1808,7 +1808,7 @@
       "link": "https://www.hatarako.net/job/9001043784/",
       "source": "求人ボックス（はたらこねっと）",
       "pubDate": "Wed, 08 Jul 2026 17:19:29 GMT",
-      "area": "港区",
+      "area": "渋谷区",
       "genres": [
         "バル"
       ],
@@ -1860,6 +1860,16 @@
       "firstSeenAt": "2026-07-13T15:05:26.043Z"
     },
     {
+      "title": "【東京都千代田】次世代を担う料理人の挑戦。板前オープンスクールの生徒が作るランチを限定価格で提供",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KQ3dTb0lmNTA0aWhKdnR0XzRnUGJzdHZ4eTJzR2xjamdJaUlnUk9JY1VaUWlfdzZkVGV2OVQ5c0d1WDc4aUNLV0RzOTJMcVVfNFc0?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T22:06:35.295Z"
+    },
+    {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XdHJHTk4zVUwwekFwVFBRZ21ETllXQzVwQ29kem5iSUdWR0Vlc0ZGOUtNVkZlNnNldjNJc2ktMUhBRy1rRE1XY3dHbEFyUmFJcThnUmRn?oc=5",
       "source": "フーズチャネル",
@@ -1888,7 +1898,7 @@
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-336ff50d1177",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Mon, 06 Jul 2026 11:00:19 GMT",
-      "area": "中央区",
+      "area": "台東区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
@@ -1940,18 +1950,6 @@
       "firstSeenAt": "2026-07-15T05:11:37.093Z"
     },
     {
-      "title": "「さくら餃子酒場 神田店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=13297710#job-info-31539",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 05 Jul 2026 15:02:09 GMT",
-      "area": "千代田区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
-    },
-    {
       "title": "「nyuly」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/フレンチ/洋食・西洋料理/…）",
       "link": "https://job.tabelog.com/restaurants?id=13131135#job-info-107610",
       "source": "求人ボックス（食べログ求人）",
@@ -1962,6 +1960,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:48.139Z"
+    },
+    {
+      "title": "「さくら餃子酒場 神田店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=13297710#job-info-31539",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 05 Jul 2026 01:30:44 GMT",
+      "area": "千代田区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "株式会社ヴィクセス オープニングスタッフ募集（馬肉料理酒場の店舗スタッフ/オープニング/おしゃれ自由）",
