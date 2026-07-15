@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T14:08:11.264Z",
+  "generatedAt": "2026-07-15T14:27:48.892Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 125,
+  "itemCount": 121,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -273,19 +273,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:31.988Z"
-    },
-    "中華そばむぎすけ": {
-      "storeName": "中華そば むぎすけ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:32.039Z"
     },
     "シロネリ": {
       "storeName": "シロネリ",
@@ -885,19 +872,6 @@
       "open": "",
       "checkedAt": "2026-07-14T21:49:28.289Z"
     },
-    "焼飯と麺": {
-      "storeName": "焼飯と麺",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-14T21:49:28.625Z"
-    },
     "大衆酒場スシスミビ下北沢店": {
       "storeName": "大衆酒場スシスミビ 下北沢店",
       "listed": false,
@@ -1183,6 +1157,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T14:08:11.263Z"
+    },
+    "木村屋本店代々木西口": {
+      "storeName": "木村屋本店 代々木西口",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T14:27:48.891Z"
     }
   },
   "market": {
@@ -1325,10 +1312,6 @@
     "渋谷区|居酒屋": {
       "count": 402,
       "checkedAt": "2026-07-13T21:46:48.468Z"
-    },
-    "千代田区|中華": {
-      "count": 142,
-      "checkedAt": "2026-07-14T21:49:28.834Z"
     },
     "目黒区|バー": {
       "count": 102,
@@ -1690,6 +1673,16 @@
       "firstSeenAt": "2026-07-15T14:08:06.150Z"
     },
     {
+      "title": "「木村屋本店 代々木西口」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505295/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T14:27:44.958Z"
+    },
+    {
       "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
       "link": "https://www.hatarako.net/job/9001045917/",
       "source": "求人ボックス（はたらこねっと）",
@@ -1756,16 +1749,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
-      "title": "株式会社ジュンバタンメラ オープニングスタッフ募集（エスニックデリの販売スタッフ/オープニング/未経験可）",
-      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbd9a390442",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Wed, 08 Jul 2026 11:00:19 GMT",
-      "area": "世田谷区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:23.354Z"
     },
     {
       "title": "飲茶＆スイーツが食べ放題！東京都初上陸「THE BUFFET 点心甜心」が三鷹にオープン",
@@ -1924,16 +1907,6 @@
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
     },
     {
-      "title": "株式会社ジュンバタンメラ オープニングスタッフ募集（エスニックデリ惣菜の販売スタッフ/オープニング）",
-      "link": "https://grsta.jp/manuscript/0a060052-9f22-1d32-819f-23fd79da02db",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Fri, 03 Jul 2026 11:00:19 GMT",
-      "area": "世田谷区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
-    },
-    {
       "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VOEN2dmptM1pBRkR5Ry1VWl9veWhFWGVmbk5oY25oRkVWV2Q1WkNVTTI1Ykc4YjBjbm9OaVJPU2ZZZEN0aGhSTVJLNDRwRFU?oc=5",
       "source": "レッツエンジョイ東京",
@@ -2088,18 +2061,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
-    },
-    {
-      "title": "手打ち麺で味わう小麦香る一杯！八王子・明神町に『中華そば むぎすけ』6/25オープン",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBkZDZkVUhyOUNKQ3ZMcDJSSUs1LXVoUVVQdnkwbE1LcFRDU1hRcXFYZWJQb2lVYmFNZVlmd01vN1lwcF93LXV0NWV4Nl81SjA?oc=5",
-      "source": "八王子ジャーニー",
-      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
-      "area": "八王子市",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.044Z"
     },
     {
       "title": "【続報】吉祥寺にフレンチシェフが作るクレープ＆ガレットの専門店「Crêpe du jour」がオープン",
@@ -2289,30 +2250,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.995Z"
-    },
-    {
-      "title": "【東京都千代田区】中華そばと焼飯を一緒に食べる満足感を届ける「焼飯と麺」が東京・神田へ進出",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0xel9SMEI0bVM5QXpHMXBDYWItWWQ1RHB1Rk8wOG1mR3p4ZWZIa3BaUld3MnZCdG0zeno2dEFpMENhR2d3TjJRUEhVRQ?oc=5",
-      "source": "ガジェット通信",
-      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
-      "area": "千代田区",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-14T21:49:23.402Z"
-    },
-    {
-      "title": "【東京都千代田区】中華そばと焼飯を一緒に食べる満足感を届ける「焼飯と麺」が東京・神田へ進出",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QTVJqanJPVEtXUEljSUs2RVpJUVVxNVFLRkRNclQtUnRXZmtSS1RZcnVsTVNCZ3dfU29zMUYtTHNLSFVrbjlIQ2wtQzBtOGNnV2lV?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Sun, 14 Jun 2026 07:00:00 GMT",
-      "area": "千代田区",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-14T23:59:28.256Z"
     },
     {
       "title": "谷中銀座に古民家リノベカフェ 「八三六（Hachi San Roku）」が2026年6月11日オープン",

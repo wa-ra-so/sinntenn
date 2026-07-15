@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T14:08:02.753Z",
+  "generatedAt": "2026-07-15T14:27:41.949Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 94,
+  "itemCount": 79,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -175,13 +175,6 @@
       "capacity": 24,
       "open": "月～金: 14:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）土、日: 13:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）祝日: 13:00～23:00 （料理L.O. 21:30 ドリンクL.O. 22:00）",
       "checkedAt": "2026-07-12T03:52:46.340Z"
-    },
-    "中華そば煮干の五郎": {
-      "storeName": "中華そば煮干の五郎",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:23.069Z"
     },
     "華和居": {
       "storeName": "華和居",
@@ -376,19 +369,6 @@
       "open": "",
       "checkedAt": "2026-07-13T15:05:20.865Z"
     },
-    "ちゃん系ラーメン店": {
-      "storeName": "ちゃん系ラーメン店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:21.024Z"
-    },
     "店舗スタッフ": {
       "storeName": "店舗スタッフ",
       "listed": false,
@@ -401,19 +381,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:21.205Z"
-    },
-    "地方創生/館山": {
-      "storeName": "地方創生/館山",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:21.378Z"
     },
     "未経験ok": {
       "storeName": "未経験OK",
@@ -467,19 +434,6 @@
       "open": "",
       "checkedAt": "2026-07-13T21:46:40.188Z"
     },
-    "ラーメン事業部らぁ麺はやし田アトレ新浦安店": {
-      "storeName": "ラーメン事業部 らぁ麺 はやし田 アトレ新浦安店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T21:46:40.391Z"
-    },
     "ビッグシェフ亭マリンピア店": {
       "storeName": "ビッグシェフ亭 マリンピア店",
       "listed": false,
@@ -492,19 +446,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-14T21:49:18.361Z"
-    },
-    "なぎちゃんラーメン": {
-      "storeName": "なぎちゃんラーメン",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-14T21:49:18.536Z"
     },
     "marinecoffee": {
       "storeName": "MARINE COFFEE",
@@ -532,32 +473,6 @@
       "open": "",
       "checkedAt": "2026-07-15T02:19:44.661Z"
     },
-    "はかた商店海浜幕張": {
-      "storeName": "はかた商店 海浜幕張",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ001276885/?vos=nhppalsa000016",
-      "shopName": "はかた商店 海浜幕張店",
-      "address": "千葉県千葉市美浜区ひび野１丁目9番地　スーク海浜幕張3階",
-      "access": "JR京葉線海浜幕張駅北口より徒歩約2分",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 100,
-      "open": "月～木、土、日、祝日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）金: 16:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-15T05:11:32.712Z"
-    },
-    "はかた商店新浦安": {
-      "storeName": "はかた商店 新浦安",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004493549/?vos=nhppalsa000016",
-      "shopName": "はかた商店 新浦安店",
-      "address": "千葉県浦安市入船１-5-1　 MONA新浦安A館4階　401区画",
-      "access": "JR京葉線新浦安駅北口より徒歩約3分★",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 82,
-      "open": "月～日、祝日、祝前日: 11:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-15T05:11:32.899Z"
-    },
     "成田食堂": {
       "storeName": "成田食堂",
       "listed": false,
@@ -570,19 +485,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T05:11:33.248Z"
-    },
-    "原価酒場はかた商店松戸西口": {
-      "storeName": "原価酒場はかた商店 松戸西口",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T09:53:10.501Z"
     }
   },
   "market": {
@@ -642,10 +544,6 @@
       "count": 29,
       "checkedAt": "2026-07-12T03:52:47.816Z"
     },
-    "流山市|中華": {
-      "count": 5,
-      "checkedAt": "2026-07-12T03:52:47.871Z"
-    },
     "館山市|カフェ": {
       "count": 9,
       "checkedAt": "2026-07-12T03:52:47.910Z"
@@ -653,10 +551,6 @@
     "千葉市美浜区|レストラン": {
       "count": 8,
       "checkedAt": "2026-07-12T03:52:47.944Z"
-    },
-    "船橋市|中華": {
-      "count": 34,
-      "checkedAt": "2026-07-12T03:52:48.028Z"
     },
     "松戸市|中華": {
       "count": 36,
@@ -721,13 +615,21 @@
     "成田市|居酒屋": {
       "count": 36,
       "checkedAt": "2026-07-14T23:59:24.552Z"
-    },
-    "館山市|レストラン": {
-      "count": 6,
-      "checkedAt": "2026-07-15T02:23:12.494Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13113",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Wed, 15 Jul 2026 11:31:30 GMT",
+      "area": "松戸市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T14:27:39.905Z"
+    },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
@@ -751,16 +653,6 @@
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
     },
     {
-      "title": "株式会社INGS オープニングスタッフ募集（らぁ麺はやし田の接客/昇給年3回/年休110日）",
-      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca30b290974",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 14 Jul 2026 11:00:22 GMT",
-      "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:23:09.616Z"
-    },
-    {
       "title": "「おでん屋たけし 船橋駅南口店」オープニングスタッフ募集（和食, 居酒屋/店長・店長候補/成長中ブランドで早期キャリア…）",
       "link": "https://foods-labo.com/offers/98632?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
@@ -771,16 +663,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "「ラーメン事業部 らぁ麺 はやし田 アトレ新浦安店」オープニングスタッフ募集（ラーメン/店長・店長候補/1回1万円昇給×年4回のチャンス有…）",
-      "link": "https://foods-labo.com/offers/94694?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Tue, 14 Jul 2026 08:19:54 GMT",
-      "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:14.221Z"
     },
     {
       "title": "「ビッグシェフ亭 マリンピア店」オープニングスタッフ募集（ステーキ・鉄板焼き, ファミレス/店長・店長候補/やりがいを…）",
@@ -845,28 +727,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T13:21:34.512Z"
-    },
-    {
-      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
-      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
-      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
-      "pubDate": "Mon, 13 Jul 2026 22:31:03 GMT",
-      "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.996Z"
-    },
-    {
-      "title": "「ラーメン事業部 らぁ麺 はやし田 アトレ新浦安店」オープニングスタッフ募集（ラーメン/キッチンスタッフ/月給26万円～ 年4回昇格チャン…）",
-      "link": "https://foods-labo.com/offers/95134?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
-      "source": "求人ボックス（フーズラボ）",
-      "pubDate": "Mon, 13 Jul 2026 07:49:37 GMT",
-      "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.524Z"
     },
     {
       "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/店長・店長候補/口コミ高評価の繁盛店店長候補を大募集）",
@@ -1030,46 +890,6 @@
       "firstSeenAt": "2026-07-15T05:11:29.186Z"
     },
     {
-      "title": "「はかた商店 海浜幕張」オープニングスタッフ募集（料理長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505387/1_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "千葉市美浜区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:29.186Z"
-    },
-    {
-      "title": "「はかた商店 新浦安」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/695618/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:29.186Z"
-    },
-    {
-      "title": "「はかた商店 海浜幕張」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505387/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "千葉市美浜区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T07:18:42.088Z"
-    },
-    {
-      "title": "「はかた商店 新浦安」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/695618/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T07:18:42.088Z"
-    },
-    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/1_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1108,26 +928,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T09:53:06.055Z"
-    },
-    {
-      "title": "「原価酒場はかた商店 松戸西口」オープニングスタッフ募集（調理見習い）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/506142/23_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:06.055Z"
-    },
-    {
-      "title": "「原価酒場はかた商店 松戸西口」オープニングスタッフ募集（店長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/506142/10_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T10:18:22.218Z"
     },
     {
       "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",
@@ -1252,16 +1052,6 @@
       "firstSeenAt": "2026-07-12T03:29:32.899Z"
     },
     {
-      "title": "株式会社エムアンドエムサービス オープニングスタッフ募集（ホール オープニング ホテルのホールスタッフ/おんじゅく保養…）",
-      "link": "https://www.baitoru.com/op540023/job145660432/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
-      "source": "求人ボックス（採用ページコボット）",
-      "pubDate": "Wed, 08 Jul 2026 05:13:36 GMT",
-      "area": "御宿町",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T21:40:41.776Z"
-    },
-    {
       "title": "株式会社オリーブの丘ホールディングス オープニングスタッフ募集（キッチン キッチン 10種類以上の本格派パスタが学べる 未経…）",
       "link": "https://saiyo.page/452305/job/161056646/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
       "source": "求人ボックス（採用ページコボット）",
@@ -1280,16 +1070,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
-    },
-    {
-      "title": "合同会社CROP オープニングスタッフ募集（オープニングスタッフ大募集!✨「ちゃん系ラーメン店」の運営ス…）",
-      "link": "https://to.indeed.com/aan6lmwr4fgm",
-      "source": "Indeed",
-      "pubDate": "Wed, 08 Jul 2026 00:00:00 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T09:07:42.688Z"
     },
     {
       "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
@@ -1567,18 +1347,6 @@
       "firstSeenAt": "2026-07-13T15:05:17.031Z"
     },
     {
-      "title": "【新業態が判明】流山街道沿いの「らぁ麺 はやし田」は「元祖焼豚センター うる寅商店」になって6/26（金）オープン！懐かしい中華そばにボリューミーなチャーシュー",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wTWtpT0pFbFdCU2NtclJlVDBXa2wzVEFKMm9fa290b3MzTTA3MVlzeGdvSE83Tzl2R3N6R0VVa2xuS1ZfNjNLRDlSY0xXTWc?oc=5",
-      "source": "松戸つうしん",
-      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
-      "area": "流山市",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
       "title": "習志野市谷津に「古民家カフェ ハナレヤ」が6/14（日）オープン予定",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DaWNMZTcyajNVNlN1SDdWQXpnRXFSaDc4UUxYenJEcEowRDNQVFNsdjhvbWctMi0yQm5WeHZhUFVObzYwdDRTWFVSenQ5MWpVY1E?oc=5",
       "source": "船橋つうしん",
@@ -1641,18 +1409,6 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
-      "title": "西船橋駅北口近くにラーメン店「中華そば煮干の五郎」が6/10（水）オープン予定",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5clpLRDctS3dQMUc4OERVdFdOVVI3OFAzQVVZczlRZTBtMEVGVTR2SEdMeG9HRGhFUWZrYjJ4aU1lRXNVLUFzdGdxSDhreWh1akE?oc=5",
-      "source": "船橋つうしん",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "船橋市",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
       "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ZXhGQVF3WkxuLXNIYUdxR1pzSldNOUdVeXVXVlVUQU4yZzgyX29ZTV9QU1gwekRkZjR6TFMwR09OTXVtTUdTRlZybk9PREE?oc=5",
       "source": "レッツエンジョイ東京",
@@ -1676,28 +1432,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
-      "title": "【西船にちゃん系降臨！】西船橋駅北口に「なぎちゃんラーメン」6月下旬オープン予定",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rRE1JWHduVmJfbi1EbDJnd0psNWRzRXU1YVN3b3owSHZvb2JHME1hZUQ0b1Jpc1VFbWFUWmlxVFFydDQ3cng2Y0ZvakY4TFU3VWc?oc=5",
-      "source": "船橋つうしん",
-      "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-14T21:49:14.269Z"
-    },
-    {
-      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ラーメン/中華そば店のキッチン・ホールスタッフ／なぎちゃんラ…）",
-      "link": "https://ramenshugyo.com/work/4603/",
-      "source": "求人ボックス（キンキンラーメン修行道）",
-      "pubDate": "Mon, 25 May 2026 22:00:08 GMT",
-      "area": "船橋市",
-      "genres": [
-        "中華"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "高根公団駅近くに居酒屋「野菜泥棒3104」がオープン、12時から営業",

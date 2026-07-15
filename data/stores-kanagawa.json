@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T14:08:17.270Z",
+  "generatedAt": "2026-07-15T14:27:53.748Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 61,
+  "itemCount": 55,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -261,19 +261,6 @@
       "open": "",
       "checkedAt": "2026-07-13T21:46:55.673Z"
     },
-    "油そば専門店ぶらぶら大船駅前店": {
-      "storeName": "油そば専門店 ぶらぶら 大船駅前店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-14T21:49:36.974Z"
-    },
     "焼き鳥ゑびす横浜関内店": {
       "storeName": "焼き鳥ゑびす 横浜関内店",
       "listed": true,
@@ -430,32 +417,6 @@
       "open": "月～金、祝前日: 11:00～14:5915:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）土、日、祝日: 11:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
       "checkedAt": "2026-07-15T09:53:27.057Z"
     },
-    "はかた商店湘南台": {
-      "storeName": "はかた商店 湘南台",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ003433504/?vos=nhppalsa000016",
-      "shopName": "はかた商店湘南台東口店",
-      "address": "神奈川県藤沢市湘南台１－１２－１５",
-      "access": "小田急江ﾉ島線､湘南台駅東口より徒歩約1分",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 150,
-      "open": "月～木、祝前日: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）金、土: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:00）日、祝日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-15T10:18:37.916Z"
-    },
-    "はかた商店藤沢": {
-      "storeName": "はかた商店 藤沢",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ003851723/?vos=nhppalsa000016",
-      "shopName": "はかた商店藤沢店",
-      "address": "神奈川県藤沢市鵠沼石上１-3-3 相模第5ビル 5F",
-      "access": "江ﾉ島電鉄線藤沢駅出口より徒歩約3分",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 91,
-      "open": "月～金: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 15:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-15T10:18:38.099Z"
-    },
     "茶き茶き溝の口": {
       "storeName": "茶き茶き 溝の口",
       "listed": true,
@@ -468,19 +429,6 @@
       "capacity": 114,
       "open": "月～日: 11:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
       "checkedAt": "2026-07-15T10:18:38.211Z"
-    },
-    "はかた商店衣笠": {
-      "storeName": "はかた商店 衣笠",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ001246859/?vos=nhppalsa000016",
-      "shopName": "はかた商店 衣笠店",
-      "address": "神奈川県横須賀市衣笠栄町１-70　加賀屋ビル2F",
-      "access": "衣笠駅2分 衣笠十字路ﾊﾞｽ停から徒歩3分★原価酒場★",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 138,
-      "open": "月～木: 11:30～22:30金、土、祝前日: 12:00～23:30日: 12:00～22:30",
-      "checkedAt": "2026-07-15T10:18:38.288Z"
     },
     "ホルモン番長もつ関ちゃん登戸駅前": {
       "storeName": "ホルモン番長もつ関ちゃん 登戸駅前",
@@ -687,6 +635,16 @@
       "firstSeenAt": "2026-07-15T02:19:57.337Z"
     },
     {
+      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/器用じゃなくても問題ナシのシンプル業務少しず…）",
+      "link": "https://www.hatarako.net/job/9001048325/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Fri, 10 Jul 2026 17:10:52 GMT",
+      "area": "海老名市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T14:27:51.677Z"
+    },
+    {
       "title": "「鎌倉海街テーブル」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
@@ -721,16 +679,6 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
-      "title": "「はかた商店 湘南台」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505390/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "藤沢市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T10:18:34.820Z"
-    },
-    {
       "title": "「ホルモン番長もつ関ちゃん 登戸駅前」オープニングスタッフ募集（調理師）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/2_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -746,26 +694,6 @@
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
       "area": "川崎市高津区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T10:18:34.821Z"
-    },
-    {
-      "title": "「はかた商店 藤沢」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623898/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "藤沢市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T10:18:34.821Z"
-    },
-    {
-      "title": "「はかた商店 衣笠」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505381/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "横須賀市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:34.821Z"
@@ -865,16 +793,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:36.217Z"
-    },
-    {
-      "title": "「油そば専門店 ぶらぶら 大船駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/油そば・まぜそば/ラーメン…）",
-      "link": "https://job.tabelog.com/restaurants?id=14096432#job-info-97177",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 03 Jul 2026 09:30:35 GMT",
-      "area": "鎌倉市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:32.529Z"
     },
     {
       "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
@@ -1135,36 +1053,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
-    },
-    {
-      "title": "有限会社品川配ぜん人紹介所 オープニングスタッフ募集（ホテルのモーニングスタッフのお仕事!横浜市西区!履歴書不要!…）",
-      "link": "https://hibaraito.jp/kyujin/3281106",
-      "source": "求人ボックス（ヒバライト.）",
-      "pubDate": "Thu, 28 May 2026 01:14:23 GMT",
-      "area": "横浜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T14:08:14.399Z"
-    },
-    {
-      "title": "有限会社品川配ぜん人紹介所 オープニングスタッフ募集（ホテルのモーニングスタッフのお仕事!横浜駅!面倒な履歴書提出…）",
-      "link": "https://hibaraito.jp/kyujin/3279785",
-      "source": "求人ボックス（ヒバライト.）",
-      "pubDate": "Thu, 28 May 2026 01:14:22 GMT",
-      "area": "横浜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
-    },
-    {
-      "title": "有限会社品川配ぜん人紹介所 オープニングスタッフ募集（ホテルのモーニングスタッフをお任せ!横浜市西区!履歴書不要!…）",
-      "link": "https://hibaraito.jp/kyujin/3280666",
-      "source": "求人ボックス（ヒバライト.）",
-      "pubDate": "Thu, 28 May 2026 01:14:22 GMT",
-      "area": "横浜市西区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T13:21:48.956Z"
     },
     {
       "title": "マロリーポークステーキ 横須賀中央店",
