@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:30:22.391Z",
+  "generatedAt": "2026-07-15T08:37:35.771Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
@@ -478,6 +478,10 @@
     "鎌倉市|イタリアン": {
       "count": 25,
       "checkedAt": "2026-07-15T08:30:22.391Z"
+    },
+    "横浜市中区|イタリアン": {
+      "count": 58,
+      "checkedAt": "2026-07-15T08:37:35.771Z"
     }
   },
   "items": [
@@ -921,7 +925,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市中原区",
+      "area": "川崎市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -1047,7 +1051,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14006683#job-info-38816",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 27 May 2026 01:31:08 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "イタリアン"
       ],

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:30:28.432Z",
+  "generatedAt": "2026-07-15T08:37:41.355Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 81,
+  "itemCount": 85,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -739,6 +739,16 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
+      "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットの惣菜製造スタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/irumatoyooka2/AE0630723501/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 入間豊岡店）",
+      "pubDate": "Wed, 15 Jul 2026 07:21:09 GMT",
+      "area": "入間市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:20:08.091Z"
+    },
+    {
       "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの鮮魚スタッフ/オープニングスタッフ）",
       "link": "https://job-gear.net/koshigayagamou2/AE0617287404/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
@@ -747,6 +757,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットの青果スタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/koshigayagamou2/AE0617287418/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
+      "pubDate": "Wed, 15 Jul 2026 07:11:24 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:38.886Z"
     },
     {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
@@ -787,6 +807,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:26.069Z"
+    },
+    {
+      "title": "「Carelly 髪質改善トリートメント&ヘッドスパ 越谷レイ…」オープニングスタッフ募集（美容師/越谷レイクタウン駅/社員募集/7月15日更新）",
+      "link": "https://relax-job.com/job/B6019079/sid/766882?employment=regular-member",
+      "source": "求人ボックス（リジョブ）",
+      "pubDate": "Wed, 15 Jul 2026 05:25:37 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:38.887Z"
     },
     {
       "title": "ランスタッド株式会社 オープニングスタッフ募集（販売/世界的ジュエリーブランドでワンランク上のホスピタリティ…）",
@@ -847,16 +877,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:23:26.650Z"
-    },
-    {
-      "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットの惣菜製造スタッフ/オープニングスタッフ）",
-      "link": "https://job-gear.net/irumatoyooka2/AE0630723501/MDkyujin_d.htm",
-      "source": "求人ボックス（ヤオコー 入間豊岡店）",
-      "pubDate": "Tue, 14 Jul 2026 19:02:29 GMT",
-      "area": "入間市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:20:08.091Z"
     },
     {
       "title": "「ヤオコー まるひろ入間SC店」オープニングスタッフ募集（スーパーマーケットのレジスタッフ/オープニング）",
@@ -1177,10 +1197,20 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/539283/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市中央区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:26.069Z"
+    },
+    {
+      "title": "「はかた商店 せんげん台」オープニングスタッフ募集（店長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505385/10_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:38.887Z"
     },
     {
       "title": "埼玉県初！天然黒潮海水を使った水族館「アクアパーク川越」が誕生！かわいい生き物形の限定ドーナツが楽しめるカフェも併設",
@@ -1394,6 +1424,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:28:06.441Z"
+    },
+    {
+      "title": "川口リリアに新オープンした「カフェ・ド・デイジイ」で大人な甘さの『チョコレートパフェ』を食べてきた！贅沢なおやつタイムを堪能",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HOS05ZUZueXVxa1lSWW9qWlZ4eU02ajFjY25QbV9VTkZsRG5CT0ItNXdrZVdkcU5JNm82ajMtaFYwbDVYQ1FBUmp5eWFSX2pBSTItTm5mSFNuQQ?oc=5",
+      "source": "川口マガジン",
+      "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "area": "川口市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T08:37:38.937Z"
     },
     {
       "title": "【焼きたてのかるび】6月22日(月)埼玉県朝霞市に38店舗目をオープン！",

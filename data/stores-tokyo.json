@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:30:14.627Z",
+  "generatedAt": "2026-07-15T08:37:29.098Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 15
+      "count": 14
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 29
+      "count": 30
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 64
+      "count": 62
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 17
+      "count": 21
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 117,
+  "itemCount": 122,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1092,6 +1092,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T07:18:52.219Z"
+    },
+    "スタンド新橋": {
+      "storeName": "スタンド新橋",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001269744/?vos=nhppalsa000016",
+      "shopName": "ビーフキッチンスタンド 新橋店",
+      "address": "東京都港区新橋２-20-15 新橋駅前ビル 1号館　B1F",
+      "access": "都営浅草線新橋駅A2出口より徒歩約1分",
+      "genre": "洋食",
+      "budget": "1001～1500円",
+      "capacity": 35,
+      "open": "月～土、祝日、祝前日: 15:00～翌0:00",
+      "checkedAt": "2026-07-15T08:37:27.852Z"
+    },
+    "chronofake": {
+      "storeName": "Chrono Fake",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T08:37:28.297Z"
+    },
+    "並木橋みりん": {
+      "storeName": "並木橋みりん",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T08:37:28.887Z"
     }
   },
   "market": {
@@ -1258,6 +1297,10 @@
     "新宿区|寿司": {
       "count": 100,
       "checkedAt": "2026-07-15T05:11:41.872Z"
+    },
+    "文京区|バー": {
+      "count": 53,
+      "checkedAt": "2026-07-15T08:37:29.098Z"
     }
   },
   "items": [
@@ -1381,6 +1424,18 @@
       "firstSeenAt": "2026-07-14T21:49:23.396Z"
     },
     {
+      "title": "「nyuly」オープニングスタッフ募集（調理師・調理スタッフ/フレンチ/洋食・西洋料理/飲食店/月8…）",
+      "link": "https://job.tabelog.com/restaurants?id=13131135#job-info-108350",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sat, 11 Jul 2026 01:30:43 GMT",
+      "area": "目黒区",
+      "genres": [
+        "フレンチ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:23.517Z"
+    },
+    {
       "title": "株式会社絶好調 オープニングスタッフ募集（炉端居酒屋の店舗スタッフ/オープニング/若手活躍中）",
       "link": "https://grsta.jp/manuscript/0a0600d7-9f45-1c9e-819f-480a237d1052",
       "source": "求人ボックス（グルスタ）",
@@ -1401,6 +1456,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.354Z"
+    },
+    {
+      "title": "「並木橋みりん」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/月8日以上休…）",
+      "link": "https://job.tabelog.com/restaurants?id=13314247#job-info-100266",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 10 Jul 2026 09:30:37 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:23.517Z"
     },
     {
       "title": "7月15日(水)、伊勢丹新宿店 洋菓子エリアにガラス張りの厨房を備えたライブ感あふれる空間「マ・パティスリー」誕生！「カフェ エ シュクレ」は全33ブランドフルオープン | 株式会社 三越伊勢丹ホールディングスのプレスリリース",
@@ -1472,6 +1539,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:23:15.476Z"
+    },
+    {
+      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/月8日以上休みあり）",
+      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-107433",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 09 Jul 2026 01:30:44 GMT",
+      "area": "世田谷区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:23.517Z"
     },
     {
       "title": "【NEW OPEN】西麻布にカウンター6席限定の特等席。大人の女性を満たす次世代和食「蓮雀（れんじゃく）」が2026年7月10日（金）グランドオープン！",
@@ -1725,7 +1804,7 @@
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uam12MzUzd1FUcnhtVmh1aTJqaDI2N3VfT3h2T2hQcE45YTg2cjY2bEVJVkgwMkhsZ3lMSFNpcVVISWVKQkF6Y2gyT3JyNWc?oc=5",
       "source": "newscast.jp",
-      "pubDate": "Sat, 04 Jul 2026 00:00:00 GMT",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [],
       "signal": "opening",
@@ -2502,6 +2581,30 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.041Z"
+    },
+    {
+      "title": "「スタンド新橋」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=13279350#job-info-4711",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 09:30:30 GMT",
+      "area": "港区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:23.517Z"
+    },
+    {
+      "title": "「Chrono Fake」オープニングスタッフ募集（店長候補・マネージャー/バー/バー/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=13279595#job-info-4519",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 09:30:30 GMT",
+      "area": "文京区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:23.517Z"
     },
     {
       "title": "【東京・六本木】モダンチャイニーズレストラン「虎峰」移転オープンを記念した特別コースが5月28日（木）より登場",

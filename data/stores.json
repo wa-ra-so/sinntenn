@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T08:30:07.895Z",
+  "generatedAt": "2026-07-15T08:37:20.187Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 19
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 110,
+  "itemCount": 112,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -1263,6 +1263,26 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:17.709Z"
+    },
+    {
+      "title": "町田商店 行徳店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364867/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "市川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:17.709Z"
     },
     {
       "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",
