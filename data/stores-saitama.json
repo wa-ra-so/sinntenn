@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T05:11:56.006Z",
+  "generatedAt": "2026-07-15T07:19:04.124Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 49
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 20
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 76,
+  "itemCount": 77,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -377,19 +377,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:58.347Z"
-    },
-    "ごはんカフェ": {
-      "storeName": "ごはんカフェ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:58.349Z"
     },
     "ヤオコー大宮市場店": {
       "storeName": "ヤオコー 大宮市場店",
@@ -756,7 +743,7 @@
       "link": "https://job-gear.net/omiyaichiba2/AE0417483715/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
       "pubDate": "Tue, 14 Jul 2026 19:08:39 GMT",
-      "area": "さいたま市大宮区",
+      "area": "さいたま市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:20:08.091Z"
@@ -766,7 +753,7 @@
       "link": "https://job-gear.net/omiyaichiba2/AE0417483717/MDkyujin_d.htm",
       "source": "求人ボックス（ヤオコー大宮市場店）",
       "pubDate": "Tue, 14 Jul 2026 19:08:39 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.637Z"
@@ -880,6 +867,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:20:08.091Z"
+    },
+    {
+      "title": "「ヤオコー 越谷蒲生寿町店」オープニングスタッフ募集（スーパーマーケットのベーカリースタッフ/オープニングスタッフ）",
+      "link": "https://job-gear.net/koshigayagamou2/AE0617287414/MDkyujin_d.htm",
+      "source": "求人ボックス（ヤオコー 越谷蒲生寿町店）",
+      "pubDate": "Tue, 14 Jul 2026 18:53:45 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:19:01.965Z"
     },
     {
       "title": "株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）",
@@ -1130,10 +1127,20 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "新座市",
+      "area": "志木市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "「はかた商店 越谷西口駅前」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505384/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:19:01.965Z"
     },
     {
       "title": "埼玉県初！天然黒潮海水を使った水族館「アクアパーク川越」が誕生！かわいい生き物形の限定ドーナツが楽しめるカフェも併設",
@@ -1563,18 +1570,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.265Z"
-    },
-    {
-      "title": "【川口市】グリーンセンター正門前に「ごはんカフェ」が新オープンするみたい！",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YWjhHVy1FZzZKWDBwS1VrcnZvcmxhZEQ0QlFka0QyWF9yRzlmaXBFa294WmZLV0o2QVM4LWw0NFRma05NTkdSQlVYc1o4dzVWdllVUVJpNS1Bdw?oc=5",
-      "source": "川口マガジン",
-      "pubDate": "Sat, 16 May 2026 07:00:00 GMT",
-      "area": "川口市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.271Z"
     }
   ]
 }

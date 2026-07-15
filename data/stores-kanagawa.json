@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-15T05:11:49.166Z",
+  "generatedAt": "2026-07-15T07:18:58.875Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 93
+      "count": 92
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 38
+      "count": 39
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 19
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 53,
+  "itemCount": 56,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -377,6 +377,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T05:11:49.166Z"
+    },
+    "ブルーボトルコーヒー鎌倉カフェ": {
+      "storeName": "ブルーボトルコーヒー 鎌倉カフェ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T07:18:58.278Z"
+    },
+    "イタリアンpozdining関内店": {
+      "storeName": "イタリアン POZ DINING 関内店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T07:18:58.743Z"
     }
   },
   "market": {
@@ -431,6 +457,10 @@
     "川崎市|居酒屋": {
       "count": 403,
       "checkedAt": "2026-07-15T02:20:02.031Z"
+    },
+    "鎌倉市|カフェ": {
+      "count": 48,
+      "checkedAt": "2026-07-15T07:18:58.875Z"
     }
   },
   "items": [
@@ -826,6 +856,16 @@
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
     },
     {
+      "title": "「Loco's Moco's ゆめが丘ソラトス」オープニングスタッフ募集（料理長候補/アメリカ料理/洋食・西洋料理/飲食店/月8日以上…）",
+      "link": "https://job.tabelog.com/restaurants?id=14095622#job-info-66526",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 23 Jun 2026 01:30:39 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:18:55.565Z"
+    },
+    {
       "title": "【平塚市】中華の新店がオープン！紅谷町の「東北老式 麻辣湯」は2026年6月22日まで全品20％割引＋緑茶orコーラ等サービス中です！",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOWFVON04wNlA2NUtGNXh5VTVJVExwRDZhcU93aTVUdFVIZXZ6UHdQaEVHLXc2TXdHTXV5MVpoRDI5elpTaGdTWHN1a0xzcFcwV0YxUmxaR1VKTUY4a21xUV9n?oc=5",
       "source": "地域ニュースサイト号外NET",
@@ -974,6 +1014,18 @@
       "firstSeenAt": "2026-07-13T15:05:41.966Z"
     },
     {
+      "title": "「イタリアン POZ DINING 関内店」オープニングスタッフ募集（店長候補・マネージャー/イタリアン/洋食・西洋料理/飲食店/…）",
+      "link": "https://job.tabelog.com/restaurants?id=14006683#job-info-38816",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Wed, 27 May 2026 01:31:08 GMT",
+      "area": "横浜市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:18:55.565Z"
+    },
+    {
       "title": "【神奈川県横浜市】カジュアルイタリアン「SALVATORE CUOMO」の新店舗が新横浜に！記念キャンペーン実施",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yT3hCS0xtMC03b21GOGFPN2RIN0pIWjdNdWZwNFVKQ1pyNVF5THI5YzZXbmpSRGtrTWJ1bkNsdnYxNTNWS3hoNFhtSlNYcTVFVW1J?oc=5",
       "source": "STRAIGHT PRESS",
@@ -984,6 +1036,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "鎌倉駅徒歩3分「ブルーボトルコーヒー 鎌倉カフェ」が5月29日オープン！「ボールアンドチェーン」コラボの限定アイテムも販売",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qbW44ZGljVER2b1phWjhVS2JKS2dWcHZLSnJaUVVQQjJkRG9VZDBfOTZuX3o4S3VHeWtlMndwazZXSUFJUTZxVHFHTGZUUQ?oc=5",
+      "source": "HAPPY PLUS（ハピプラ）",
+      "pubDate": "Sat, 23 May 2026 07:00:00 GMT",
+      "area": "鎌倉市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T07:18:55.601Z"
     },
     {
       "title": "Tavernetta Salvatore 新横浜 2026年6月1日(月)グランドオープン",

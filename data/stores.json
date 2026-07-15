@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T05:11:33.249Z",
+  "generatedAt": "2026-07-15T07:18:45.261Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 48
+      "count": 46
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 18
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 102,
+  "itemCount": 106,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -629,6 +629,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T05:11:33.248Z"
+    },
+    "3名の大募集": {
+      "storeName": "3名の大募集",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-15T07:18:45.261Z"
     }
   },
   "market": {
@@ -1010,6 +1023,16 @@
       "firstSeenAt": "2026-07-12T21:40:41.849Z"
     },
     {
+      "title": "株式会社スタッフサービス オープニングスタッフ募集（時給1700円/「3名の大募集」残業ほぼなし/リカバリーウェ…）",
+      "link": "https://haken.en-japan.com/w_111437913/?utm_source=kyujinbox&utm_medium=ad&utm_term=kyujinbox_pcsp_banner_kyujin_12207_sales_2040_170_111437913",
+      "source": "求人ボックス（en エン派遣）",
+      "pubDate": "Sat, 11 Jul 2026 03:09:07 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:18:42.088Z"
+    },
+    {
       "title": "「Barおいでやす」オープニングスタッフ募集（ホール/バーテンダー/店長・マネージャー候補 完全新規OPE…）",
       "link": "http://s.baitoru.com/DW05mzmZ",
       "source": "求人ボックス（baitoru）",
@@ -1170,6 +1193,36 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
+      "title": "「はかた商店 海浜幕張」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505387/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "千葉市美浜区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:18:42.088Z"
+    },
+    {
+      "title": "「はかた商店 新浦安」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/695618/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:18:42.088Z"
+    },
+    {
+      "title": "町田商店 野田店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/539760/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "野田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:18:42.088Z"
     },
     {
       "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",
