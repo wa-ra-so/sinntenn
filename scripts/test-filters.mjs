@@ -10,7 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   hasExcludeKeyword, isChibaRelevant, isPrefRelevant, isChain, isNonFoodJob, detectArea,
-  isOpeningJobTitle, connectorJobToItem,
+  isOpeningJobTitle, connectorJobToItem, kyujinboxToItem,
 } from './fetch-stores.mjs';
 import { PREFECTURES } from './prefectures.mjs';
 
@@ -98,6 +98,11 @@ const MUST_EXCLUDE_JOBS = [
   '株式会社アルパジャパン オープニングスタッフ募集（オープニングスタッフ 食品スーパー鮮魚加工Staff/川口柳…）',
   '株式会社若菜 オープニングスタッフ募集（オープニング公立中学校での調理師・栄養士）',
   'ランスタッド株式会社 オープニングスタッフ募集（販売/世界的ジュエリーブランドでワンランク上のホスピタリティ…）',
+  // 2026-07-15 ユーザー報告・全県精査を再点検して検出（美容業界専門求人サイト「リジョブ」経由の美容師求人。
+  // 「全県精査」時に一覧には出ていたが見落としていた。同種16件が4県に混入）
+  '「Carelly 髪質改善トリートメント&ヘッドスパ 流山おお…」オープニングスタッフ募集（美容師/流山おおたかの森駅/社員募集/7月15日更新）',
+  '「Tule ~AQUA」オープニングスタッフ募集（美容師・スタイリスト/船橋駅/パート募集/7月15日更新）',
+  '「ひと席だけ美容室 ケルン」オープニングスタッフ募集（美容師・スタイリスト/たまプラーザ駅/社員募集/7月15日更…）',
 ];
 const MUST_KEEP_JOBS = [
   '「海鮮和食 魚まみれ 仲々 小林店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋）',
@@ -196,8 +201,20 @@ check(connectorJobToItem({
   location: '埼玉県', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test5',
 }, PREFECTURES.saitama) === null, 'コネクタ変換: 勤務地が県名のみ（市区町村不明）は掲載しない（監査と同一基準）');
 
+// ── 求人ボックス形式の変換（美容業界専門サイト「リジョブ」を掲載元名で丸ごと除外） ──
+// 2026-07-15 ユーザー報告で発覚: 「美容師」等のキーワードだけに頼ると言い回しの揺れで
+// すり抜けるため、掲載元（siteName）そのもので確実に弾く
+check(kyujinboxToItem({
+  title: '美容師/流山おおたかの森駅/社員募集', company: 'Carelly 髪質改善トリートメント&ヘッドスパ 流山おおたかの森',
+  workArea: '千葉県流山市', siteName: 'リジョブ', allFeatureTags: ['オープニング'], url: 'https://relax-job.com/test1',
+}) === null, '求人ボックス変換: リジョブ（美容業界専門サイト）経由の求人は掲載元名で除外される');
+check(kyujinboxToItem({
+  title: 'オープニングスタッフ募集 ホールスタッフ', company: '居酒屋テスト',
+  workArea: '千葉県船橋市', siteName: '食べログ求人', allFeatureTags: ['オープニング'], url: 'https://tabelog.com/test1',
+}) !== null, '求人ボックス変換: 食べログ求人経由の飲食店求人は掲載元名で除外されない（誤爆検知）');
+
 const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
-  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 6 + 1;
+  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 6 + 1 + 2;
 console.log(`${total - failures}/${total} 件パス`);
 
 // ── 公開データの監査（--audit 時のみ、全県分） ──
