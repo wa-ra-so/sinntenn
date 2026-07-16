@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:14:41.651Z",
+  "generatedAt": "2026-07-16T15:07:09.102Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 33
+      "count": 38
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 36
+      "count": 39
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 65
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 132,
+  "itemCount": 136,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -742,19 +742,6 @@
       "open": "",
       "checkedAt": "2026-07-13T15:05:36.108Z"
     },
-    "秩父焼肉ホルモン酒場まる助町田店": {
-      "storeName": "秩父焼肉ホルモン酒場 まる助 町田店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:36.136Z"
-    },
     "スシスミビ自由が丘": {
       "storeName": "スシスミビ 自由が丘",
       "listed": false,
@@ -1274,6 +1261,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-16T07:25:59.278Z"
+    },
+    "雲開キ": {
+      "storeName": "雲開キ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-16T15:07:08.391Z"
+    },
+    "銀だこハイボール酒場": {
+      "storeName": "銀だこハイボール酒場",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003964007/?vos=nhppalsa000016",
+      "shopName": "銀だこハイボール酒場上野御徒町店",
+      "address": "東京都台東区上野４-6-4 OGS　2階",
+      "access": "JR御徒町駅から徒歩3分 上中商店街",
+      "genre": "居酒屋",
+      "budget": "2001～3000円",
+      "capacity": 72,
+      "open": "月～金: 11:30～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）土、日、祝日: 11:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-16T15:07:08.423Z"
+    },
+    "東銀座・築地かわきた歯科": {
+      "storeName": "東銀座・築地 かわきた歯科",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-16T15:07:08.898Z"
     }
   },
   "market": {
@@ -1468,9 +1494,48 @@
     "千代田区|ダイニング": {
       "count": 99,
       "checkedAt": "2026-07-16T07:25:59.468Z"
+    },
+    "中央区|ビストロ": {
+      "count": 172,
+      "checkedAt": "2026-07-16T15:07:09.102Z"
     }
   },
   "items": [
+    {
+      "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
+      "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
+      "source": "求人ボックス（GUPPY）",
+      "pubDate": "Thu, 16 Jul 2026 12:45:14 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T15:07:03.945Z"
+    },
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Thu, 16 Jul 2026 09:50:56 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81N0JjNVVraWMxT3A4eW9ScXFUeHAtbnl5dEU5Sm5TQnZTblBoaG5rU3RnOEpiVlhCbHJCeGZMNDM0ZkVsYm5ZRzhrTkRaeFhzUXUxVGY5MzlBMWR3ZkhXSS1qQjVWNUV2ZHc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 16 Jul 2026 04:00:48 GMT",
+      "area": "中央区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T15:07:03.988Z"
+    },
     {
       "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（店長候補・マネージャー/焼き鳥・串焼・鳥料理/和食/飲食店/…）",
       "link": "https://job.tabelog.com/restaurants?id=13297267#job-info-100521",
@@ -1492,19 +1557,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T07:25:55.249Z"
-    },
-    {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Wed, 15 Jul 2026 20:50:19 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "「ANIKU」オープニングスタッフ募集（店長候補・マネージャー/焼肉/焼肉・ホルモン/飲食店/月8日…）",
@@ -1997,6 +2049,18 @@
       "firstSeenAt": "2026-07-15T22:06:35.295Z"
     },
     {
+      "title": "都内初進出！ 飲茶＆中華/スイーツ食べ放題の「THE BUFFET（ザ ブッフェ）点心甜心 三鷹店」オープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xUGVmNk5CcXJJR3hEa09jLThpYUtYbkxVR1lMUEFVR1hyY0Uyc2EzdVFRcDBkRjZ5Qmc2Rk1fYXVfUUh0RWlJRXRQSy02WmVPTkwtQnpWWGxuVVhZZU4wU0ZCaXN3anFwYnc?oc=5",
+      "source": "グルメ Watch",
+      "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
+      "area": "三鷹市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:26.044Z"
+    },
+    {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XdHJHTk4zVUwwekFwVFBRZ21ETllXQzVwQ29kem5iSUdWR0Vlc0ZGOUtNVkZlNnNldjNJc2ktMUhBRy1rRE1XY3dHbEFyUmFJcThnUmRn?oc=5",
       "source": "フーズチャネル",
@@ -2007,18 +2071,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.043Z"
-    },
-    {
-      "title": "都内初進出！ 飲茶＆中華/スイーツ食べ放題の「THE BUFFET（ザ ブッフェ）点心甜心 三鷹店」オープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xUGVmNk5CcXJJR3hEa09jLThpYUtYbkxVR1lMUEFVR1hyY0Uyc2EzdVFRcDBkRjZ5Qmc2Rk1fYXVfUUh0RWlJRXRQSy02WmVPTkwtQnpWWGxuVVhZZU4wU0ZCaXN3anFwYnc?oc=5",
-      "source": "グルメ Watch",
-      "pubDate": "Mon, 06 Jul 2026 15:00:00 GMT",
-      "area": "三鷹市",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.044Z"
     },
     {
       "title": "株式会社LFCRD オープニングスタッフ募集（月島もんじゃの店舗スタッフ/オープニング/1年後に年収500…）",
@@ -2219,6 +2271,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
+    },
+    {
+      "title": "株式会社マンネット オープニングスタッフ募集（キッチンスタッフ/すぐに働ける おかゆ料理専門店調理スタッフ…）",
+      "link": "https://www.hatarako.net/job/9000668976/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Fri, 26 Jun 2026 17:12:18 GMT",
+      "area": "杉並区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T15:07:03.945Z"
     },
     {
       "title": "先行潜入動画つき！『トイ・ストーリー5』カフェが東京ミッドタウン日比谷にオープン",
@@ -2632,6 +2694,19 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
+      "title": "恵比寿に「雲開キ」が開業。間借りから始まった居酒屋、渋谷「雲隠レ」に続き実店舗2店舗目。ハレの日レストランが多いエリアで鮮魚を打ち出した日常使いの居酒屋",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQR183ekhUMXVJZ1hPR1htWGZLSUFuM3loTUpUZmJxU015eVVCMnJIcVo2blhSX3BhaVU3NHl0ZWUyNWUza090aTdtYVJZTEplRlE?oc=5",
+      "source": "フードスタジアム",
+      "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "居酒屋",
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T15:07:03.990Z"
+    },
+    {
       "title": "【東中野】現役テレビマンが進化し続けるタコス店「新作タコス実験中」をオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5OQm4tdkcxQXduNzJHREtfT0pSOEZRd0pITlgta09xMThWc1djc0tMTkxsWDN6VUVLa01VUmFVNlREdi1hWlF3?oc=5",
       "source": "newscast.jp",
@@ -2853,6 +2928,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
+      "title": "人形町の新店5選｜ビストロから和洋小皿まで名店の予感を醸す話題店",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlTFJENV90dFlCZWRpWlRtQ2RyeHRlbzhKbVZOcWl1cUVyMmE3a2VETGc1MS12N3RqbHlFejd0eXFmLUxUdGNYeDdfQU92NlhIRVJQTXhXcw?oc=5",
+      "source": "おとなの週末Web",
+      "pubDate": "Thu, 21 May 2026 07:00:00 GMT",
+      "area": "中央区",
+      "genres": [
+        "ビストロ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T15:07:03.989Z"
+    },
+    {
       "title": "東京・丸の内「サンス・エ・サヴール」が2026年10月にリニューアルオープン。ジャック＆ローラン・プルセル氏の哲学を、より深く体現するレストランへ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3RFpwSnlKeEc2QVFwWHNWV2FoLUI5aThxb3ZZSFE2U2h4RW5pbnhLdng1TElGU1FEVE9OUHFqTGdjZ1JVWXdGd0RGU0RsREpndDdFYVRUQzlrN0hoZXVNMDZtR0htZG5aQ0E?oc=5",
       "source": "PR TIMES",
@@ -2983,19 +3070,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
-    },
-    {
-      "title": "町田駅エリアに2業態が同時オープン！「カラオケ居酒屋イザカラ町田店」と「秩父焼肉ホルモン酒場 まる助 町田店」が2026年5月16日（土）オープン…",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PNXFkNnluaFN5cHJJeUlQcHVEUWNRYUN0dHNqMnhnekoyT1hOZDRQTFBha1cyN0ZwQ0MxSy1WNkljUGZYbjZYa0RlVlU1NHpKZ2tTS0dR?oc=5",
-      "source": "フーズチャネル",
-      "pubDate": "Sun, 17 May 2026 09:47:39 GMT",
-      "area": "町田市",
-      "genres": [
-        "居酒屋",
-        "焼肉"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
     }
   ]
 }

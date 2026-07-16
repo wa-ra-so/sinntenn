@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-16T09:14:49.178Z",
+  "generatedAt": "2026-07-16T15:07:15.754Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 95
+      "count": 94
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 7
+      "count": 10
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 13
+      "count": 15
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 42
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 14
+      "count": 10
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 60,
+  "itemCount": 62,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -455,6 +455,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-16T09:14:48.431Z"
+    },
+    "ラスカ小田原店": {
+      "storeName": "ラスカ小田原店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004612934/?vos=nhppalsa000016",
+      "shopName": "ワイン食堂 VINSENT ヴィンセント ラスカ小田原店",
+      "address": "神奈川県小田原市栄町１-1-9　ラスカ小田原　2階",
+      "access": "東海道線小田原駅北口からすぐ｡ﾗｽｶ小田原2F｡",
+      "genre": "ダイニングバー・バル",
+      "budget": "3001～4000円",
+      "capacity": 64,
+      "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-16T15:07:15.754Z"
     }
   },
   "market": {
@@ -750,7 +763,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "川崎市",
+      "area": "川崎市多摩区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T09:14:44.599Z"
@@ -958,6 +971,16 @@
       "firstSeenAt": "2026-07-15T07:18:55.565Z"
     },
     {
+      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/器用じゃなくても問題ナシのシンプル業務少しず…）",
+      "link": "https://www.hatarako.net/job/9000820877/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Mon, 22 Jun 2026 17:40:10 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T15:07:12.601Z"
+    },
+    {
       "title": "【平塚市】中華の新店がオープン！紅谷町の「東北老式 麻辣湯」は2026年6月22日まで全品20％割引＋緑茶orコーラ等サービス中です！",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOWFVON04wNlA2NUtGNXh5VTVJVExwRDZhcU93aTVUdFVIZXZ6UHdQaEVHLXc2TXdHTXV5MVpoRDI5elpTaGdTWHN1a0xzcFcwV0YxUmxaR1VKTUY4a21xUV9n?oc=5",
       "source": "地域ニュースサイト号外NET",
@@ -1012,6 +1035,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
+    },
+    {
+      "title": "ゴンチャ／神奈川県小田原市に「ラスカ小田原店」6月25日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10YzFBYnQ4Rl9vNVFjVHBINmZVU0JkZkpJbzg2TTFlR3d3cU5nX0JaUjViVy1XT3lEQUU1TXlBckVERVVIYzhMRkhrRjJiTXl1NGdiRg?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "area": "小田原市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T15:07:12.658Z"
     },
     {
       "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
