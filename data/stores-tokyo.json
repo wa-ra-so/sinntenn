@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T07:25:59.468Z",
+  "generatedAt": "2026-07-16T09:14:41.651Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 23
+      "count": 33
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 34
+      "count": 36
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 19
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 131,
+  "itemCount": 132,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1497,7 +1497,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Wed, 15 Jul 2026 09:51:17 GMT",
+      "pubDate": "Wed, 15 Jul 2026 20:50:19 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1623,6 +1623,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
+    },
+    {
+      "title": "株式会社フィールドジャパン/ミリネヤンコプチャン上野店 オープニングスタッフ募集（店長/上野・韓国焼肉のオープニング店長/月給30万～+利益還…）",
+      "link": "https://en-gage.net/user/search/desc/17475943/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Tue, 14 Jul 2026 01:48:39 GMT",
+      "area": "台東区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T09:14:39.141Z"
     },
     {
       "title": "焼肉、寿司食べ放題の「すたみな太郎NEXT 上野アメ横店」が7/18(土)全面改装オープン！「すたみな太郎 PREMIUM BUFFET上野アメ横店」として再始動！",

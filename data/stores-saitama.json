@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T07:26:11.668Z",
+  "generatedAt": "2026-07-16T09:14:55.084Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 7
+      "count": 5
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -572,10 +572,6 @@
       "count": 20,
       "checkedAt": "2026-07-14T23:28:09.565Z"
     },
-    "所沢市|創作料理": {
-      "count": 2,
-      "checkedAt": "2026-07-14T23:28:09.583Z"
-    },
     "富士見市|居酒屋": {
       "count": 14,
       "checkedAt": "2026-07-15T02:20:12.969Z"
@@ -591,6 +587,10 @@
     "ふじみ野市|カフェ": {
       "count": 2,
       "checkedAt": "2026-07-16T07:26:11.668Z"
+    },
+    "所沢市|レストラン": {
+      "count": 8,
+      "checkedAt": "2026-07-16T09:14:55.084Z"
     }
   },
   "items": [
@@ -698,6 +698,19 @@
       "firstSeenAt": "2026-07-14T21:49:40.791Z"
     },
     {
+      "title": "「和ごころふれんち 樹樹HANARE」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
+      "link": "https://job.tabelog.com/restaurants?id=11065319#job-info-68414",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 15:03:43 GMT",
+      "area": "所沢市",
+      "genres": [
+        "レストラン",
+        "創作料理"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.743Z"
+    },
+    {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQ3ZPVDBIdWozTXhBMUNQZ0lkakk4Rm5pYmZHdnVnbHMtRl9HRDVFa1pUSzNObXU2U1VsZEFIajNVM1lIOGthOGRROTFPVldXODZ3TjZwQlZaUQ?oc=5",
       "source": "川口マガジン",
@@ -709,18 +722,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
-    },
-    {
-      "title": "「和ごころふれんち 樹樹HANARE」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
-      "link": "https://job.tabelog.com/restaurants?id=11065319#job-info-68414",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 13 Jul 2026 01:30:44 GMT",
-      "area": "所沢市",
-      "genres": [
-        "創作料理"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:40.743Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -785,7 +786,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "新座市",
+      "area": "志木市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"

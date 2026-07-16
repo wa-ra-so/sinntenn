@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T07:26:04.465Z",
+  "generatedAt": "2026-07-16T09:14:49.178Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,25 +24,25 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 43
+      "count": 42
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 58,
+  "itemCount": 60,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -442,6 +442,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-15T10:18:38.402Z"
+    },
+    "牛タン木村屋溝口本店": {
+      "storeName": "牛タン木村屋 溝口本店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-16T09:14:48.431Z"
     }
   },
   "market": {
@@ -504,6 +517,14 @@
     "川崎市|焼肉": {
       "count": 149,
       "checkedAt": "2026-07-15T09:53:27.240Z"
+    },
+    "鎌倉市|イタリアン": {
+      "count": 25,
+      "checkedAt": "2026-07-16T09:14:48.633Z"
+    },
+    "横浜市中区|イタリアン": {
+      "count": 58,
+      "checkedAt": "2026-07-16T09:14:49.178Z"
     }
   },
   "items": [
@@ -675,7 +696,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Fri, 10 Jul 2026 01:30:44 GMT",
-      "area": "横浜市",
+      "area": "鎌倉市",
       "genres": [
         "イタリアン"
       ],
@@ -723,6 +744,26 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
+      "title": "「ホルモン番長もつ関ちゃん 登戸駅前」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T09:14:44.599Z"
+    },
+    {
+      "title": "「牛タン木村屋 溝口本店」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505288/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T09:14:44.599Z"
     },
     {
       "title": "合同会社AP オープニングスタッフ募集（「新規開業バー/インセンティブ」オープニングバーテンダーの募…）",
@@ -967,7 +1008,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市",
+      "area": "川崎市中原区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -1095,7 +1136,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14006683#job-info-38816",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 27 May 2026 01:31:08 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "イタリアン"
       ],
