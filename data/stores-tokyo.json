@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:07:09.102Z",
+  "generatedAt": "2026-07-16T22:07:12.228Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 38
+      "count": 41
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 39
+      "count": 41
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 136,
+  "itemCount": 138,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1300,6 +1300,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-16T15:07:08.898Z"
+    },
+    "大衆酒場銀次西新宿小滝橋店": {
+      "storeName": "大衆酒場 銀次 西新宿小滝橋店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001027441/?vos=nhppalsa000016",
+      "shopName": "大衆酒場 銀次 西新宿小滝橋店",
+      "address": "東京都新宿区西新宿７－１０－１０　西村ビル　２Ｆ",
+      "access": "新宿大ｶﾞｰﾄﾞ交差点を渡った左側､ｺﾝﾋﾞﾆを右側すぐ",
+      "genre": "居酒屋",
+      "budget": "2001～3000円",
+      "capacity": 76,
+      "open": "月～金: 11:30～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）土: 16:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）日、祝日: 16:00～22:00 （料理L.O. 21:30 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-16T22:07:10.989Z"
+    },
+    "mirabagel": {
+      "storeName": "Mira Bagel",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-16T22:07:12.037Z"
     }
   },
   "market": {
@@ -1498,6 +1524,10 @@
     "中央区|ビストロ": {
       "count": 172,
       "checkedAt": "2026-07-16T15:07:09.102Z"
+    },
+    "武蔵野市|レストラン": {
+      "count": 12,
+      "checkedAt": "2026-07-16T22:07:12.228Z"
     }
   },
   "items": [
@@ -1535,6 +1565,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T15:07:03.988Z"
+    },
+    {
+      "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次 西新宿小滝橋店」をオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xZlVLOU1hNWpLT3BhV2R6ZTNGUGZOM0hCbWx4eHdRcXhVVm8xakVwQ1E2S2F2QXRzTURWYmpqQ0VTMTRHNWt2VFVKTUlCaUVXYzZWQjBWMGI3OEpaUXV2YzU1UG1wTmJON2c?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 16 Jul 2026 03:10:01 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T22:07:07.224Z"
     },
     {
       "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（店長候補・マネージャー/焼き鳥・串焼・鳥料理/和食/飲食店/…）",
@@ -2293,6 +2335,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
+    },
+    {
+      "title": "吉祥寺に創業52年「レストラン赤坂クーポール」監修ベーグル専門店「Mira Bagel」がオープンへ",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmTERkanZkVng4aWE3bTdKeEtnSTJ1b09rQzVxQXRsdUlKUGF4cS0wdi1lblpsYnd0Smp5YV9ySGx0M2plMTY5a2M3X2VxS0gxSWdKNA?oc=5",
+      "source": "吉祥寺ファンページ",
+      "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
+      "area": "武蔵野市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T22:07:07.225Z"
     },
     {
       "title": "【東京都中野区】新たな中華酒場「餃子のイペコ」オープン！対象ドリンク100円キャンペーンを開催",
