@@ -1,8 +1,22 @@
 {
- "updatedAt": "2026-07-15T22:16:42.470Z",
+ "updatedAt": "2026-07-16T07:50:36.723Z",
  "pref": "saitama",
- "activeCount": 5329,
+ "activeCount": 5328,
  "items": [
+  {
+   "id": "J001194277",
+   "name": "ベーカリーレストランサンマルク アトレ浦和店",
+   "address": "埼玉県さいたま市浦和区高砂１-16-12",
+   "genre": "イタリアン・フレンチ",
+   "area": "浦和駅",
+   "url": "https://www.hotpepper.jp/strJ001194277/?vos=nhppalsa000016",
+   "firstSeenAt": "2026-07-15T08:59:02.414Z",
+   "lastSeenAt": "2026-07-16T07:50:36.723Z",
+   "reservable": false,
+   "reservableCheckedAt": "2026-07-16T07:50:36.723Z",
+   "lastReservableAt": "2026-07-15T10:03:42.947Z",
+   "reservationLostAt": "2026-07-16T07:50:36.723Z"
+  },
   {
    "id": "J004492214",
    "name": "ダイナーナンバーセブン",
@@ -11,7 +25,7 @@
    "area": "川口駅",
    "url": "https://www.hotpepper.jp/strJ004492214/?vos=nhppalsa000016",
    "firstSeenAt": "2026-07-15T08:59:02.414Z",
-   "lastSeenAt": "2026-07-15T22:16:42.470Z",
+   "lastSeenAt": "2026-07-16T07:50:36.723Z",
    "reservable": false,
    "reservableCheckedAt": "2026-07-15T22:16:42.470Z",
    "lastReservableAt": "2026-07-15T10:03:42.947Z",

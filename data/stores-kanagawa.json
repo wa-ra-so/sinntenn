@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-15T22:06:45.552Z",
+  "generatedAt": "2026-07-16T07:26:04.465Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 92
+      "count": 95
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,19 +24,19 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 4
+      "count": 6
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 10
+      "count": 12
     },
     {
       "label": "カフェ・バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 39
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
@@ -501,51 +501,33 @@
       "count": 48,
       "checkedAt": "2026-07-15T07:18:58.875Z"
     },
-    "鎌倉市|イタリアン": {
-      "count": 25,
-      "checkedAt": "2026-07-15T08:30:22.391Z"
-    },
-    "横浜市中区|イタリアン": {
-      "count": 58,
-      "checkedAt": "2026-07-15T08:37:35.771Z"
-    },
     "川崎市|焼肉": {
       "count": 149,
       "checkedAt": "2026-07-15T09:53:27.240Z"
-    },
-    "横浜市|中華": {
-      "count": 413,
-      "checkedAt": "2026-07-15T22:06:45.482Z"
-    },
-    "川崎市|レストラン": {
-      "count": 56,
-      "checkedAt": "2026-07-15T22:06:45.552Z"
     }
   },
   "items": [
     {
-      "title": "「溝口クラフトビールとオイスター 麦髭屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14084543#job-info-54322",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
-      "area": "川崎市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:27:58.562Z"
-    },
-    {
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
+      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "「溝口クラフトビールとオイスター 麦髭屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14084543#job-info-54322",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:58.562Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -577,7 +559,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96513",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Mon, 13 Jul 2026 09:30:35 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "中華"
       ],
@@ -693,7 +675,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Fri, 10 Jul 2026 01:30:44 GMT",
-      "area": "鎌倉市",
+      "area": "横浜市",
       "genres": [
         "イタリアン"
       ],
@@ -718,9 +700,7 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -871,18 +851,6 @@
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
     },
     {
-      "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
-      "link": "https://job.tabelog.com/restaurants?id=14077507#job-info-90412",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 28 Jun 2026 15:04:18 GMT",
-      "area": "川崎市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:22.920Z"
-    },
-    {
       "title": "「マルミヤ酒場」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/月8日以上休み…）",
       "link": "https://job.tabelog.com/restaurants?id=14086725#job-info-9705",
       "source": "求人ボックス（食べログ求人）",
@@ -890,6 +858,18 @@
       "area": "横浜市",
       "genres": [
         "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:22.920Z"
+    },
+    {
+      "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
+      "link": "https://job.tabelog.com/restaurants?id=14077507#job-info-90412",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 28 Jun 2026 01:30:46 GMT",
+      "area": "川崎市",
+      "genres": [
+        "焼肉"
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T09:53:22.920Z"
@@ -987,7 +967,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市中原区",
+      "area": "川崎市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -1067,7 +1047,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
+      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
@@ -1115,7 +1095,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14006683#job-info-38816",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 27 May 2026 01:31:08 GMT",
-      "area": "横浜市中区",
+      "area": "横浜市",
       "genres": [
         "イタリアン"
       ],

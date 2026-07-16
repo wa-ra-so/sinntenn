@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T22:06:52.046Z",
+  "generatedAt": "2026-07-16T07:26:11.668Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "カフェ・バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
       "ok": true,
-      "count": 51
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -51,7 +51,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 44,
+  "itemCount": 45,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -468,6 +468,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-14T21:49:45.073Z"
+    },
+    "anellacafe(アネラカフェ)ふじみ野店": {
+      "storeName": "ANELLA CAFE（アネラカフェ）ふじみ野店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-16T07:26:11.465Z"
     }
   },
   "market": {
@@ -574,6 +587,10 @@
     "さいたま市|居酒屋": {
       "count": 303,
       "checkedAt": "2026-07-15T22:06:52.046Z"
+    },
+    "ふじみ野市|カフェ": {
+      "count": 2,
+      "checkedAt": "2026-07-16T07:26:11.668Z"
     }
   },
   "items": [
@@ -596,6 +613,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
+    },
+    {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -621,16 +648,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -768,7 +785,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "志木市",
+      "area": "新座市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
@@ -1042,6 +1059,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
+      "title": "譲渡実績3,500頭以上「ANELLA CAFE（アネラカフェ）ふじみ野店」2026年5月28日(木)オープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sS0FlYmFRQS00Nm9UUlB6emJKRXc2c3VOdWlrZlhUYU5CY3pBdzQtUUt1Nkk3QnFUUEpsWG5GZXl4bnZjNkMwbWRBYTdEbEVSN2NiQzJ2WUJNSVlwbXNsTzFjS21PVnpxNHc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "ふじみ野市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T07:26:07.994Z"
     },
     {
       "title": "越谷レイクタウンに新エリアがオープン サクラレイクの湖畔に、県内初出店の飲食店など10店舗 アクティビティやイベントも充実",
