@@ -13,7 +13,6 @@ on:
       - 'scripts/fetch-stores.mjs'
       - 'scripts/prefectures.mjs'
       - 'scripts/test-filters.mjs'
-      - 'scripts/hotpepper-roster.mjs'
       - '.github/workflows/update-shinten.yml'
 
 permissions:
@@ -58,31 +57,6 @@ jobs:
       # ここで失敗し、コミット（＝サイトへの公開）が行われない
       - name: Audit collected data
         run: node scripts/test-filters.mjs --audit
-
-      # ホットペッパー掲載台帳の更新（4県分）。全掲載店（千葉5,228・東京33,088・
-      # 神奈川9,749・埼玉5,329店）を毎回取得し、未チェック・チェックが古い店から
-      # 一部ずつ店舗ページのネット予約表示を確認する（1日3回実行×800件/回の
-      # ローテーションで、店舗数の少ない県は数日、店舗数が多い東京は2週間ほどで一巡）。
-      # 1県が失敗しても他県は続行し、新店リサーチの公開も止めない
-      - name: Update HotPepper roster (chiba)
-        run: node scripts/hotpepper-roster.mjs --pref=chiba || echo "::warning::HotPepper roster update failed (chiba)"
-        env:
-          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
-
-      - name: Update HotPepper roster (tokyo)
-        run: node scripts/hotpepper-roster.mjs --pref=tokyo || echo "::warning::HotPepper roster update failed (tokyo)"
-        env:
-          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
-
-      - name: Update HotPepper roster (kanagawa)
-        run: node scripts/hotpepper-roster.mjs --pref=kanagawa || echo "::warning::HotPepper roster update failed (kanagawa)"
-        env:
-          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
-
-      - name: Update HotPepper roster (saitama)
-        run: node scripts/hotpepper-roster.mjs --pref=saitama || echo "::warning::HotPepper roster update failed (saitama)"
-        env:
-          HOTPEPPER_API_KEY: ${{ secrets.HOTPEPPER_API_KEY }}
 
       - name: Commit and push if changed
         run: |
