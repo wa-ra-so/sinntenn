@@ -334,7 +334,7 @@ function render() {
       <div class="pref-tabs">${Object.entries(PREFS).map(([id, p]) =>
         `<a class="pref-tab${id === PREF_ID ? ' active' : ''}" href="${id === 'chiba' ? location.pathname : location.pathname + '?pref=' + id}">${p.label}</a>`
       ).join('')}</div>
-      <div class="header-meta">最終更新 <strong>${updatedText}</strong><br>1日3回（6:00/14:00/22:00頃 JST）自動更新</div>
+      <div class="header-meta">最終更新 <strong>${updatedText}</strong></div>
     </div>`;
 
   if (error) {
