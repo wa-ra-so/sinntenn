@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T22:07:24.734Z",
+  "generatedAt": "2026-07-17T00:06:10.215Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -15,10 +15,16 @@
       "count": 100
     },
     {
-      "label": "カフェ・バー系（開店ニュース）",
-      "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（開店ニュース）",
+      "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
       "ok": true,
       "count": 100
+    },
+    {
+      "label": "バー系（開店ニュース）",
+      "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
+      "ok": true,
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -33,10 +39,16 @@
       "count": 5
     },
     {
-      "label": "カフェ・バー系（オープニング求人）",
-      "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（オープニング求人）",
+      "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 49
+      "count": 3
+    },
+    {
+      "label": "バー系（オープニング求人）",
+      "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
+      "ok": true,
+      "count": 54
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -51,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 48,
+  "itemCount": 52,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -481,6 +493,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-16T07:26:11.465Z"
+    },
+    "ピアノバー渚": {
+      "storeName": "ピアノ バー 渚",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:06:09.773Z"
     }
   },
   "market": {
@@ -595,6 +620,14 @@
     "所沢市|レストラン": {
       "count": 8,
       "checkedAt": "2026-07-16T22:07:24.734Z"
+    },
+    "越谷市|ダイニング": {
+      "count": 16,
+      "checkedAt": "2026-07-17T00:06:09.890Z"
+    },
+    "川口市|バー": {
+      "count": 36,
+      "checkedAt": "2026-07-17T00:06:10.215Z"
     }
   },
   "items": [
@@ -607,6 +640,19 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "ファステストダイニング株式会社 オープニングスタッフ募集（焼肉店の店長候補/キャリアパス多数/年収600万円可）",
+      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-66f052930851",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Thu, 16 Jul 2026 11:09:41 GMT",
+      "area": "越谷市",
+      "genres": [
+        "ダイニング",
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T00:06:06.101Z"
     },
     {
       "title": "「蕎⻨きり みよた 与野店」オープニングスタッフ募集（ホールスタッフ/「新入生大歓迎/」店舗の雰囲気がよく長く働く…）",
@@ -939,6 +985,19 @@
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
     },
     {
+      "title": "シーシャ半額キャンペーン開催！「シーシャ カフェ&バー C.STAND（シースタンド）大宮南銀座通り店」2026年6月30日（火）グランドオープン♪シーシャ半額になるキャンペーンも開催！",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xZkp3NmhzMUx0TmtXZEpOMWZQVEk3OTlSdEpjQ3pvOVpqYjFmRjYwQU9fcUdGWkFteWxQR1lzYU9SVUVKTW02a19EbDgydV9MS2UyUTFhbVRtNjRabUtZdk9VU2g1bmZKUjdleS13?oc=5",
+      "source": "tv-tokyo.co.jp",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "area": "さいたま市大宮区",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:06:06.135Z"
+    },
+    {
       "title": "「カフェ・ラデュレ」日本2号店が大宮にオープン ドーナツを店舗限定で提供",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuRnI4UWFGMFh1YndYY3FGOHhIVGprV3l2ZzRzUmlYLWkzUk94a0trc2FZYlFNa1RKSzRJbDZrZktxYlNNd0F4b1U4eV9LUjRBQUtPb0ZmdGZEdFNFenBtUGdZV09SWDNVUWN3cUFJaUE4a2M?oc=5",
       "source": "fashionsnap.com",
@@ -1080,6 +1139,16 @@
       "firstSeenAt": "2026-07-13T15:05:52.272Z"
     },
     {
+      "title": "【BIRTHDAY BAR】埼玉初出店！「新越谷VARIE」に新店舗がオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lRzZiR3NfOUF1bDFjbzEtVVVXZTdPakRXMUkwb3psRndUZ21JNlRCaFJ6S2N1QklucTY0MWM5elRMU2xzSC0yMFgxSl9BczFSSUlrTVYxejFMS21wWDQ2R2ZwTGxMeHh2S2RNQ3Rja243b2xhaU9WdTdR?oc=5",
+      "source": "毎日キレイ",
+      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:06:06.135Z"
+    },
+    {
       "title": "「蕎⻨きり みよた レイクタウン店」オープニングスタッフ募集（ホールスタッフ/「最大時給1,563円」家庭の都合に合わせて…）",
       "link": "https://baitona-joshi.jp/shop/1414620/",
       "source": "求人ボックス（バイトな女子）",
@@ -1156,6 +1225,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.265Z"
+    },
+    {
+      "title": "【川口市】西青木に「ピアノ バー 渚」が新オープンしていました！店内の様子も♪",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoazZ4UURRZkhKYkF5Y3g2MWc3SVZJcUR0TnpVTmRJWXB5YUVhdVZZWUY3SlN2MHdmODBfb1gybFFiX3V0X01fdUJOZXhHMUVWa2ZycFNLQjhwUQ?oc=5",
+      "source": "川口マガジン",
+      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
+      "area": "川口市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:06:06.135Z"
     }
   ]
 }

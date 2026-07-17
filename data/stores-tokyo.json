@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T22:07:12.228Z",
+  "generatedAt": "2026-07-17T00:05:54.543Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -15,8 +15,14 @@
       "count": 100
     },
     {
-      "label": "カフェ・バー系（開店ニュース）",
-      "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（開店ニュース）",
+      "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "label": "バー系（開店ニュース）",
+      "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
       "count": 100
     },
@@ -24,25 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 41
+      "count": 49
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 41
+      "count": 46
     },
     {
-      "label": "カフェ・バー系（オープニング求人）",
-      "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（オープニング求人）",
+      "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 63
+      "count": 19
+    },
+    {
+      "label": "バー系（オープニング求人）",
+      "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
+      "ok": true,
+      "count": 73
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 17
+      "count": 21
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -51,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 138,
+  "itemCount": 151,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1326,6 +1338,97 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-16T22:07:12.037Z"
+    },
+    "journalstandardcafe": {
+      "storeName": "JOURNAL STANDARD CAFE",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:53.540Z"
+    },
+    "barlastword(バー・ラストワード)": {
+      "storeName": "BAR LAST WORD（バー・ラストワード）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:53.646Z"
+    },
+    "rhumblinetokyo": {
+      "storeName": "RHUMB LINE TOKYO",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:53.762Z"
+    },
+    "thenikkawhiskytokyo": {
+      "storeName": "THE NIKKA WHISKY TOKYO",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:53.763Z"
+    },
+    "百合の日": {
+      "storeName": "百合の日",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:53.776Z"
+    },
+    "bar36": {
+      "storeName": "BAR36",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004628000/?vos=nhppalsa000016",
+      "shopName": "BAR36 八重洲店",
+      "address": "東京都中央区八重洲１-8-3 RHUMB LINE TOKYO 2F",
+      "access": "東京駅から徒歩3分",
+      "genre": "バー・カクテル",
+      "budget": "3001～4000円",
+      "capacity": 14,
+      "open": "月～日: 10:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-17T00:05:53.876Z"
+    },
+    "bars(バーエス)": {
+      "storeName": "BAR S(バー エス)",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:54.378Z"
     }
   },
   "market": {
@@ -1528,9 +1631,33 @@
     "武蔵野市|レストラン": {
       "count": 12,
       "checkedAt": "2026-07-16T22:07:12.228Z"
+    },
+    "渋谷区|バー": {
+      "count": 352,
+      "checkedAt": "2026-07-17T00:05:54.522Z"
+    },
+    "新宿区|バー": {
+      "count": 392,
+      "checkedAt": "2026-07-17T00:05:54.529Z"
+    },
+    "港区|バー": {
+      "count": 419,
+      "checkedAt": "2026-07-17T00:05:54.543Z"
     }
   },
   "items": [
+    {
+      "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IaGVNRE9NWXRZcjFsWGdqanozRjgybGkyVGxlLWpHWi1nd29Fa2NUeHFQWEdURExuRG9fWWliTXprbk5ZTGxucXlQWHZ5dUlSWm5iNWFjSEI1RXc3TVF1djFieFZpYnZSdzNzcGhKalUtVzA?oc=5",
+      "source": "fashionsnap.com",
+      "pubDate": "Thu, 16 Jul 2026 16:08:36 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
     {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
       "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
@@ -2069,6 +2196,16 @@
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
+      "title": "株式会社ちゃんばら オープニングスタッフ募集（ホテル内和食料理店の店舗スタッフ/オープニング/転勤なし/賞…）",
+      "link": "https://grsta.jp/manuscript/0a060054-9f36-1707-819f-38964bc5007e",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 07 Jul 2026 11:00:12 GMT",
+      "area": "立川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T00:05:49.210Z"
+    },
+    {
       "title": "都内初進出！ 飲茶＆中華/スイーツ食べ放題の「THE BUFFET（ザ ブッフェ）点心甜心 三鷹店」オープン（グルメ Watch）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TUjdiQUItY1VBb1dOcUZ5aFVjVGtoVm1uUS16V3lPM1Q3SWlJWldLcWM1V1A1NDhpb0JSQmtKWXFXQThBdlk1cU1veXljUV9sVm53alJPMmJWQ1h0cDhzd2lxU055RTdQbUU4SG0tTVJ5M0xuYmNBYXQwYUpNUWs?oc=5",
       "source": "Yahoo!ニュース",
@@ -2103,6 +2240,16 @@
       "firstSeenAt": "2026-07-13T15:05:26.044Z"
     },
     {
+      "title": "【占いから食卓へ】おばんざいとおむすびBAR美月が武蔵小山にオープン",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxS2RzbUhBUmFiU3FkNjdGdENDNVNVWEhfaGhrSjZuVVc4dm11S2tMa3ZwaVNQTnBxTzRFLXpvV2d0Z1p4OWJ2a3o3SjRkVVV5LXhTWmtNTEI4RE5aMUZJYWJCMVZjTEJ3M2E3RnFDQm96UTdCUjlSQnRBZw?oc=5",
+      "source": "ニコニコニュース",
+      "pubDate": "Tue, 07 Jul 2026 00:03:25 GMT",
+      "area": "品川区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XdHJHTk4zVUwwekFwVFBRZ21ETllXQzVwQ29kem5iSUdWR0Vlc0ZGOUtNVkZlNnNldjNJc2ktMUhBRy1rRE1XY3dHbEFyUmFJcThnUmRn?oc=5",
       "source": "フーズチャネル",
@@ -2119,7 +2266,7 @@
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-336ff50d1177",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Mon, 06 Jul 2026 11:00:19 GMT",
-      "area": "中央区",
+      "area": "台東区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
@@ -2241,6 +2388,18 @@
       "firstSeenAt": "2026-07-15T05:11:37.092Z"
     },
     {
+      "title": "ベイクルーズ／東京・池袋に新業態カフェ「JOURNAL STANDARD CAFE」オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RbXBNSGtJZTA0X2dmYl9sTnUzS08xLWhFMDJHREEydnhuLWVMS3JSS0FXNjJEZmlTMy1SWTBoSDJRSFNSbndJNjlmS01xUVNDM2VYNw?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
+      "area": "豊島区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.248Z"
+    },
+    {
       "title": "三鷹市下連雀の住宅街にコーヒーとクラフトフードのカフェ「Banda Coffee&Goods」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90SG5mSTFoX3MzZUZaSzZVTXc1b28wSjBRcVBPU2ExTUFSZ2V6dUZqZ2QtRjI2TDhiZDdsY0Z2MFhseExFbmhocE1OQU5Wd05NVzFNNTJhVHV6QmdpYU1N?oc=5",
       "source": "吉祥寺ファンページ",
@@ -2263,6 +2422,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:23.402Z"
+    },
+    {
+      "title": "【2026年7月2日(木)グランドオープン】渋谷・神南に、シーシャラウンジ「The Boutique Shibuya Shisha Cafe & Bar」が OPEN｜渋谷駅 徒歩4分",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kMWpEQ0ZQUlRJeko1OHZvbUhDWVR2Z0dFREJfbHFnN2N4SkVBX3I4dU52SUhrSFpSVEpUWXYyUHBUZlFKaVMxYkZucEdBcHZ2MDgxZDhXRkdhUE8ybG05Sm8zRHdBZnd1OHc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
       "title": "「SAKABA Dotto. 新橋・日比谷OKUROJI」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/月8日以上休みあり）",
@@ -2347,6 +2516,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T22:07:07.225Z"
+    },
+    {
+      "title": "【Atelier LILIUM】6月25日「百合の日」、池袋の百合ブックカフェにオリジナルキャラクター姉妹「真白さつき・真白ミナ」が誕生【漫画家・ミトがデザイン】",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE55UDBwYjVPWjFua1JSaEl0X1ZqRjdDb21IbGxtWkFCbi1yZVFqQmhCUWhoNUpMTlAzckE1YU5iMjVteFRfTVFtSUh2TFpmVGFZVVVUaEVRN21PSWVnQnA4MWhYTVBKaVJGOExYWXFTOUNmRWM5Q09ZWGtn?oc=5",
+      "source": "毎日キレイ",
+      "pubDate": "Fri, 26 Jun 2026 04:06:26 GMT",
+      "area": "豊島区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T00:05:49.251Z"
     },
     {
       "title": "【東京都中野区】新たな中華酒場「餃子のイペコ」オープン！対象ドリンク100円キャンペーンを開催",
@@ -2486,6 +2667,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
+    },
+    {
+      "title": "代々木上原に音響にこだわったカフェがオープン。街の新たなハブになるかもしれない、ハイアーというお店です。",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Ha0R0dmN6UkJHNmg1TXBtVXc4X2c2emZSSVB2elNkYWFKcXpGdG11RmxMeVE2WkpaTXpIOG1VWXE1dlhCRmI0cHRLY1Brajg?oc=5",
+      "source": "houyhnhnm.jp",
+      "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.248Z"
     },
     {
       "title": "【東京都渋谷区】カフェ・オフィスからなる複合施設「B TRACK」がオープン！築57年のビルを再生",
@@ -2638,6 +2831,30 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
+    },
+    {
+      "title": "【新宿】マスター・オブ・ウイスキー静谷和典が手掛けるクラシックで重厚なオーセンティックバー「BAR LAST WORD（バー・ラストワード）」が2026年6月13日(土)グランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12TkJSVkJxMl90TkxJeFA4WVczTTBTaGJrT3g0ZXI3YlBXY0Jsc3hpYjlEY0ZOLV9QdC1nM0g5NU5xY2xqMlVkUzE1NUVXYTFLMU5XSHpGYXNkRVNmUjNHbDFlUWNuR2FqWGc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
+      "area": "新宿区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
+      "title": "南青山にニッカウヰスキーのフラッグシップバー「THE NIKKA WHISKY TOKYO」7月オープン、多様な楽しみ方を発信へ",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ndU0tbTlXcWxUa2oySHptMGozbENRcXZ1UTlNRVhWNHNSbVdVMHpnVmxHd281TUZIVlRobXJlY2hlbnJibzJRSV95VkR2WmNfUUhNRnNnZTVLQlRvOGlOWkR1cFVJUFdobWdmNlFiOGNwSEN2YWJNS285RjUwSjQ?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
+      "area": "港区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
       "title": "【西八王子】新業態「中華 西八チャオ」2026年6月18日（木）グランドオープン | GYRO HOLDINGS 株式会社のプレスリリース",
@@ -2819,6 +3036,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
+      "title": "【東京カフェ】早起きしてモーニングを満喫しよう！ 朝活にぴったりなアドレス10選",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdXdUTzNZYWx3c1A1dktibldKUmtFQVNaSDBYUTVMeFBYNDlZOTI3d21GRHBOS3B5Ykl2dTZWMk13bVBhX1RPUUxTSnJNVUg4MzRjM3FidmR5UlUwY0xmeXlaSEc5WWpJckJvMkVybF9JRUc2Q1NRV1g5TEQ5ZVU3VEdNSHBBdWlGRGNFakVGQlM?oc=5",
+      "source": "ELLE",
+      "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.248Z"
+    },
+    {
       "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
       "source": "るるぶWeb",
@@ -2862,6 +3091,42 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.041Z"
+    },
+    {
+      "title": "葛飾北斎《富嶽三十六景》着想の浮世絵バー「BAR36」が、 東京駅徒歩1分のアパートメントホテル 「RHUMB LINE TOKYO」とともに2026年5月29日(金)オープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82NHpkR2JHWXF4WG1sU2J6d0xDZ3J1YU11RGh2TjRVLUZHSHZxMWJRRk12REdjeFBqN1NjelVVbmVoeGpoeUF1Y2luUElUWHFfUlRkQXdmV0FFQ0ZHcUFqSmItRWdnTGxuUEE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
+      "title": "東京・銀座「BAR S(バー エス)」オープン11周年を記念し、希少な逸品を期間限定で展開",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EU2g5MUEyeXlxbHlHeTZqQTE4bHp2SzN6eFkwMko3MmlhY0ZLUWxSSEZONkx4UHowTXQxa0dfZWRic2JXUkZhLU5Ha2d2ZW1jYTRQZmJLR08tZzhiT2tNX2VNSk9YcEwzUXc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
+      "title": "江戸の浮世絵から着想を得たバー「BAR36」東京駅近くにオープン｜レッツエンジョイ東京",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzc0tQWDNlaHc3aXNQMHNvUGFlS0w1Nko1dzhmUjVwSmVYNVYyaW5QYnJsSjdoSkt5aEU3U015Q0k0UF9zOURTdFE1dTFLd2c?oc=5",
+      "source": "レッツエンジョイ東京",
+      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
       "title": "“大人が日常使いできる”新ビストロ「ビーテーブル」千駄ヶ谷にオープン｜レッツエンジョイ東京",

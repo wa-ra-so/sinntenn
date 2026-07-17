@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T22:07:03.100Z",
+  "generatedAt": "2026-07-17T00:05:44.838Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -15,10 +15,16 @@
       "count": 100
     },
     {
-      "label": "カフェ・バー系（開店ニュース）",
-      "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（開店ニュース）",
+      "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
       "ok": true,
       "count": 100
+    },
+    {
+      "label": "バー系（開店ニュース）",
+      "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
+      "ok": true,
+      "count": 74
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -33,16 +39,22 @@
       "count": 9
     },
     {
-      "label": "カフェ・バー系（オープニング求人）",
-      "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（オープニング求人）",
+      "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 54
+      "count": 3
+    },
+    {
+      "label": "バー系（オープニング求人）",
+      "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
+      "ok": true,
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 15
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -51,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 89,
+  "itemCount": 91,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -511,6 +523,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-16T07:25:51.535Z"
+    },
+    "大きな炎が見える": {
+      "storeName": "大きな炎が見える",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:44.399Z"
+    },
+    "theshinra": {
+      "storeName": "THE SHINRA",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:05:44.708Z"
     }
   },
   "market": {
@@ -653,6 +691,14 @@
     "習志野市|韓国料理": {
       "count": 4,
       "checkedAt": "2026-07-15T22:06:30.816Z"
+    },
+    "千葉市中央区|ダイニング": {
+      "count": 28,
+      "checkedAt": "2026-07-17T00:05:44.830Z"
+    },
+    "千葉市中央区|イタリアン": {
+      "count": 29,
+      "checkedAt": "2026-07-17T00:05:44.838Z"
     }
   },
   "items": [
@@ -837,7 +883,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bEtGS0FxRzkyZEFpcko2S0NhLURFRU1EUUtWcHBBclNkdW1HOEhReDIzQllyZVFJejhJeTR5TnJGYWM2MzZCWjkxZFpNX0szNzI3UHM0OXd5aWV4QVlOUFdQbjhlYkE?oc=5",
       "source": "J-CAST ニュース",
       "pubDate": "Mon, 13 Jul 2026 00:45:00 GMT",
-      "area": "",
+      "area": "千葉市中央区",
       "genres": [
         "ダイニング",
         "カフェ"
@@ -1580,6 +1626,26 @@
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
     },
     {
+      "title": "「大きな炎が見える」住宅1軒が半焼焼け跡から1人の遺体千葉・我孫子市",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aMHNXYlhScy1kWm5aM3FtcjdNYllxTTF1dlBXMkZWUjQ4WENweVRORVo3eHQ1MF9FV2ZsbFBLcnU0RnVBbUVJbzZJb2JCRklhaktQTzh3MFlnX1dyQUZDYjVrd251MjA?oc=5",
+      "source": "朝日放送",
+      "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
+      "area": "我孫子市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T00:05:41.122Z"
+    },
+    {
+      "title": "【千葉県館山市】ホテル「THE SHINRA」に隣接する洞窟BARオープン！洞窟×最先端建築の非日常空間で乾杯",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YOVBON2xNai03MGFNTXFmd1A2dWlxd2NLeFNnUURlNDVnbFd6MEZvVVJ1TTR1b3VSWkJ2VUVxdkZnYThSZjYtYzZkdjh0V2JxeFRB?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
+      "area": "館山市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:41.121Z"
+    },
+    {
       "title": "高根公団駅近くに居酒屋「野菜泥棒3104」がオープン、12時から営業",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5MUZZRUpnMXRlUkJPX2pSUURyWVJJVjE5Z2xUWVVjWUstWV9qY0lKRGJwQk5reGwwNTkzeWNPQ3NLYTQ2RXk2allUNUpLYkgyX3c?oc=5",
       "source": "船橋つうしん",
@@ -1620,7 +1686,7 @@
       "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Tue, 19 May 2026 09:30:36 GMT",
-      "area": "",
+      "area": "千葉市中央区",
       "genres": [
         "イタリアン"
       ],

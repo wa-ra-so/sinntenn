@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-16T22:07:17.970Z",
+  "generatedAt": "2026-07-17T00:06:02.145Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 96
+      "count": 94
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -15,10 +15,16 @@
       "count": 100
     },
     {
-      "label": "カフェ・バー系（開店ニュース）",
-      "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（開店ニュース）",
+      "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
       "ok": true,
       "count": 100
+    },
+    {
+      "label": "バー系（開店ニュース）",
+      "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
+      "ok": true,
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -33,16 +39,22 @@
       "count": 18
     },
     {
-      "label": "カフェ・バー系（オープニング求人）",
-      "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR バー OR スナック OR 創作料理)",
+      "label": "カフェ系（オープニング求人）",
+      "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 44
+      "count": 4
+    },
+    {
+      "label": "バー系（オープニング求人）",
+      "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
+      "ok": true,
+      "count": 42
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 14
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -51,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 62,
+  "itemCount": 66,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -468,6 +480,32 @@
       "capacity": 64,
       "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
       "checkedAt": "2026-07-16T15:07:15.754Z"
+    },
+    "cafe&barbuu": {
+      "storeName": "cafe&bar BUU",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T00:06:01.573Z"
+    },
+    "theocean'sbar": {
+      "storeName": "THE OCEAN'S BAR",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003298486/?vos=nhppalsa000016",
+      "shopName": "THE OCEAN'S BAR",
+      "address": "神奈川県横浜市中区新港２-3-2",
+      "access": "みなとみらい駅から徒歩8分",
+      "genre": "ダイニングバー・バル",
+      "budget": "3001～4000円",
+      "capacity": 100,
+      "open": "金～日、祝日: 17:30～21:30",
+      "checkedAt": "2026-07-17T00:06:02.017Z"
     }
   },
   "market": {
@@ -538,9 +576,29 @@
     "横浜市中区|イタリアン": {
       "count": 58,
       "checkedAt": "2026-07-16T09:14:49.178Z"
+    },
+    "横浜市|中華": {
+      "count": 413,
+      "checkedAt": "2026-07-17T00:06:02.137Z"
+    },
+    "横浜市西区|バー": {
+      "count": 52,
+      "checkedAt": "2026-07-17T00:06:02.145Z"
     }
   },
   "items": [
+    {
+      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
+      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96521",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 16 Jul 2026 01:30:49 GMT",
+      "area": "横浜市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T00:05:58.375Z"
+    },
     {
       "title": "「溝口クラフトビールとオイスター 麦髭屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
       "link": "https://job.tabelog.com/restaurants?id=14084543#job-info-54322",
@@ -734,9 +792,7 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -856,7 +912,7 @@
       "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",
       "link": "https://job.tabelog.com/restaurants?id=14072696#job-info-91025",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 06 Jul 2026 15:04:45 GMT",
+      "pubDate": "Mon, 06 Jul 2026 09:30:35 GMT",
       "area": "三浦市",
       "genres": [
         "カフェ"
@@ -875,6 +931,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:36.217Z"
+    },
+    {
+      "title": "【2026年6月最新】湘南エリア 飲食店オープン情報まとめ：ラスカ小田原の新店、鎌倉の手作りジェラートや大船の麻辣湯がOPEN！",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM3RIVTFWUWVIVnRmcVdPS2UyXzRVWEZEdXNINllwZEp0YVNHT1RRZV9iYUEwVFRTNmZNUkdlRGI0YkszeDNOZExpR3lIVWowbFROQkZZVDJRNmwtODlxaG90UlN5Q0pfT2ZhU3dtQ1NFSjVRVElyazhod1VSR1dSbnN3M01OTlo3OG81RjExRU4?oc=5",
+      "source": "湘南人",
+      "pubDate": "Mon, 06 Jul 2026 00:54:23 GMT",
+      "area": "小田原市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:58.413Z"
     },
     {
       "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
@@ -1108,6 +1174,16 @@
       "firstSeenAt": "2026-07-13T15:05:41.965Z"
     },
     {
+      "title": "【藤沢市】「cafe&bar BUU」が2026年6月3日グランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fR2g3RS03X01sdk1sbXE4WWlNTFBOdnV4eDcyOHlyLWVaR0ZyNnMxZ3JZUUNGQU5sWl9XNGMwcXJVaVF2eGdqLWhlNld1QzlrVlZHMXQtV0dIbnd1SHF1NDVRNUFJYUNJV1N3?oc=5",
+      "source": "湘南人",
+      "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT",
+      "area": "藤沢市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:58.413Z"
+    },
+    {
       "title": "【神奈川県横浜市】最高の肉質を適正価格で、卸出身の肉のプロが横浜に焼肉「うしこぞう横浜店」をOPEN",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KUWxPb3AzV1ZnS01udi1LalQyRFd6VWlLbXZhbllKbjZhU0Z1bEFWQUVhNUhpQ0stam51dUVoTURudWJkSVNFakR1Z1llM1VGLWpj?oc=5",
       "source": "STRAIGHT PRESS",
@@ -1165,6 +1241,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.966Z"
+    },
+    {
+      "title": "【2026】みなとみらいの夜景を望むルーフトップバー「THE OCEAN'S BAR」が夏季週末限定でオープン グランドオリエンタルみなとみらい",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeUR2TGpiaUJBaHZ4M3c0UTVxNFBzNGxsRUo1MFIxOTBtclVqVFRfaWM4RXJLcUhfMTlTRUdVbDBvMk9CMGM0NXJIX0RaUzNwVFhoajBkT1NrX3Z5NEtrQm50OFBHb2ttZnozUzNaSWNkZm5UM2lJb0tsNXdxbFJkajZyTzVOaGx1aUxGR0RxbjgtOHI3eU55eG53?oc=5",
+      "source": "夜景FAN",
+      "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
+      "area": "横浜市西区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:58.414Z"
     },
     {
       "title": "「イタリアン POZ DINING 関内店」オープニングスタッフ募集（店長候補・マネージャー/イタリアン/洋食・西洋料理/飲食店/…）",
