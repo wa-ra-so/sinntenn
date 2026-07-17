@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T07:21:37.977Z",
+  "generatedAt": "2026-07-17T14:47:40.499Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,13 +42,13 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 54
+      "count": 52
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 54,
+  "itemCount": 56,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -519,6 +519,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T07:21:37.772Z"
+    },
+    "串焼亭ねぎ東大宮店": {
+      "storeName": "串焼亭ねぎ 東大宮店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004612399/?vos=nhppalsa000016",
+      "shopName": "串焼亭ねぎ 東大宮店",
+      "address": "埼玉県さいたま市見沼区東大宮５丁目31-16森ビル1F",
+      "access": "東大宮駅東口から徒歩5分!",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 48,
+      "open": "月～日、祝日、祝前日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-17T14:47:39.684Z"
+    },
+    "アドバイザー": {
+      "storeName": "アドバイザー",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T14:47:40.265Z"
     }
   },
   "market": {
@@ -630,10 +656,6 @@
       "count": 44,
       "checkedAt": "2026-07-16T22:07:24.696Z"
     },
-    "所沢市|レストラン": {
-      "count": 8,
-      "checkedAt": "2026-07-16T22:07:24.734Z"
-    },
     "越谷市|ダイニング": {
       "count": 16,
       "checkedAt": "2026-07-17T00:06:09.890Z"
@@ -641,9 +663,49 @@
     "さいたま市浦和区|レストラン": {
       "count": 8,
       "checkedAt": "2026-07-17T07:21:37.977Z"
+    },
+    "さいたま市大宮区|居酒屋": {
+      "count": 160,
+      "checkedAt": "2026-07-17T14:47:40.476Z"
+    },
+    "所沢市|創作料理": {
+      "count": 2,
+      "checkedAt": "2026-07-17T14:47:40.499Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社TCG オープニングスタッフ募集（「アドバイザー」営業108名中32名が年収1000万以上実績…）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-132510-1-168-1/?utm_source=kyujinbox&utm_medium=display&utm_term=23100",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Fri, 17 Jul 2026 11:31:19 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:34.747Z"
+    },
+    {
+      "title": "「蕎⻨きり みよた 与野店」オープニングスタッフ募集（ホールスタッフ/「新入生大歓迎/」店舗の雰囲気がよく長く働く…）",
+      "link": "https://baitona-joshi.jp/shop/1440375/",
+      "source": "求人ボックス（バイトな女子）",
+      "pubDate": "Fri, 17 Jul 2026 10:17:43 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.218Z"
+    },
+    {
+      "title": "居酒屋「串焼亭ねぎ 東大宮店」がオープン 東大宮駅東口に",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9HaENiUS1ETHl3eGhObjRyTEdDb1FhS21kWEw5VFRodU5mUnUzd0ZtSWJDeENNY19aUC1CdVZEVTUzU3RONHY4?oc=5",
+      "source": "日進大宮なび",
+      "pubDate": "Fri, 17 Jul 2026 08:44:32 GMT",
+      "area": "さいたま市大宮区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:34.831Z"
+    },
     {
       "title": "【埼玉県内初ロードサイド店舗】イタリアンカフェ＆レストラン「チェントペルチェント浦和芝原店」7月17日(金)10時30分オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91RmZfcERXV3EyR0dwdDd1dFFObTBPRlN0aDkyR2tUSm84bjZIZ3pZeXYwZVNNWmt2eVNfMkdxSVdXejZpLUp3cmVqQU1FaG13ajZuTmVXeWlRcU12MHU5MnVkc3hhQmRwTXc?oc=5",
@@ -680,16 +742,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T00:06:06.101Z"
-    },
-    {
-      "title": "「蕎⻨きり みよた 与野店」オープニングスタッフ募集（ホールスタッフ/「新入生大歓迎/」店舗の雰囲気がよく長く働く…）",
-      "link": "https://baitona-joshi.jp/shop/1440375/",
-      "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Thu, 16 Jul 2026 10:03:04 GMT",
-      "area": "さいたま市中央区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.218Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -828,7 +880,6 @@
       "pubDate": "Mon, 13 Jul 2026 01:30:44 GMT",
       "area": "所沢市",
       "genres": [
-        "レストラン",
         "創作料理"
       ],
       "signal": "hiring",

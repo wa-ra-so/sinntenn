@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T07:21:20.784Z",
+  "generatedAt": "2026-07-17T14:47:20.662Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 49
+      "count": 45
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 39
+      "count": 45
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 22
+      "count": 21
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 73
+      "count": 74
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 18
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 153,
+  "itemCount": 158,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1442,6 +1442,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T07:21:20.526Z"
+    },
+    "清澄白河": {
+      "storeName": "清澄白河",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000742145/?vos=nhppalsa000016",
+      "shopName": "やきとり道場 清澄白河店",
+      "address": "東京都江東区白河１-２-５",
+      "access": "都営大江戸線清澄白河駅 A3番出口 徒歩1分 ",
+      "genre": "居酒屋",
+      "budget": "2001～3000円",
+      "capacity": 43,
+      "open": "月、火、金: 17:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:15）水、木: 17:00～23:45 （料理L.O. 23:00 ドリンクL.O. 23:15）土、日、祝日: 16:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:15）",
+      "checkedAt": "2026-07-17T14:47:20.213Z"
+    },
+    "nehana/ネハナ": {
+      "storeName": "NEHANA/ネハナ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T14:47:20.661Z"
     }
   },
   "market": {
@@ -1664,6 +1690,41 @@
   },
   "items": [
     {
+      "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
+      "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
+      "source": "求人ボックス（GUPPY）",
+      "pubDate": "Fri, 17 Jul 2026 12:45:12 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T15:07:03.945Z"
+    },
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Fri, 17 Jul 2026 09:51:54 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "セネガル料理とカフェ「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。異国の家庭料理を楽しむランチや癒やしのスイーツ時間♪＠長野県 御代田町",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
+      "source": "Web-Komachi",
+      "pubDate": "Fri, 17 Jul 2026 07:54:17 GMT",
+      "area": "港区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.066Z"
+    },
+    {
       "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IaGVNRE9NWXRZcjFsWGdqanozRjgybGkyVGxlLWpHWi1nd29Fa2NUeHFQWEdURExuRG9fWWliTXprbk5ZTGxucXlQWHZ5dUlSWm5iNWFjSEI1RXc3TVF1djFieFZpYnZSdzNzcGhKalUtVzA?oc=5",
       "source": "fashionsnap.com",
@@ -1674,6 +1735,40 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
+      "title": "【東京都台東区】熟成肉レストラン「肉だけ」で、ブラックアンガス200gとワインを含むフリードリンク付のフルコースを5,000円(税込)で提供",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iOHUxUWV1c09QN0EzVmt5aUE4ZHNZWndUZlM5SXVFQTc2bWl3dVlVTDRlT1oxUFhEeG1mWEwwM0toNDl4ZFZzZHZEMU5fSHlvYlE4?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Fri, 17 Jul 2026 04:56:35 GMT",
+      "area": "台東区",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.060Z"
+    },
+    {
+      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」東京都・港区/調理・キッ…）",
+      "link": "https://en-gage.net/user/search/desc/16651191/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Fri, 17 Jul 2026 04:52:26 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.995Z"
+    },
+    {
+      "title": "株式会社フィールドジャパン/ミリネヤンコプチャン上野店 オープニングスタッフ募集（店長/上野・韓国焼肉のオープニング店長/月給30万～+利益還…）",
+      "link": "https://en-gage.net/user/search/desc/17475943/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Fri, 17 Jul 2026 04:52:22 GMT",
+      "area": "台東区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T09:14:39.141Z"
     },
     {
       "title": "【東京都台東区】熟成肉レストラン「肉だけ」で、ブラックアンガス200gとワインを含むフリードリンク付のフルコースを5,000円(税込)で提供",
@@ -1700,27 +1795,16 @@
       "firstSeenAt": "2026-07-17T07:21:15.225Z"
     },
     {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Thu, 16 Jul 2026 20:51:46 GMT",
-      "area": "新宿区",
+      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/月8日以上休みあり）",
+      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-108837",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
+      "area": "世田谷区",
       "genres": [
-        "居酒屋",
-        "バー"
+        "居酒屋"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
-      "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
-      "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
-      "source": "求人ボックス（GUPPY）",
-      "pubDate": "Thu, 16 Jul 2026 12:45:14 GMT",
-      "area": "中央区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T15:07:03.945Z"
+      "firstSeenAt": "2026-07-17T14:47:14.010Z"
     },
     {
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
@@ -1887,19 +1971,7 @@
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
     },
     {
-      "title": "株式会社フィールドジャパン/ミリネヤンコプチャン上野店 オープニングスタッフ募集（店長/上野・韓国焼肉のオープニング店長/月給30万～+利益還…）",
-      "link": "https://en-gage.net/user/search/desc/17475943/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Tue, 14 Jul 2026 01:48:39 GMT",
-      "area": "台東区",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T09:14:39.141Z"
-    },
-    {
-      "title": "焼肉、寿司食べ放題の「すたみな太郎NEXT 上野アメ横店」が7/18(土)全面改装オープン！「すたみな太郎 PREMIUM BUFFET上野アメ横店」として再始動！",
+      "title": "焼肉、寿司食べ放題の「すたみな太郎NEXT 上野アメ横店」が7/18(土)全面改装オープン！「すたみな太郎 PREMIUM BUFFET上野アメ横店」として再始動！ | 株式会社江戸一のプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PdXdtV1g0eHNXVXU3NVhjaXZfRl8waHBnX1NoWkxLaWx1YjhUZEtaN250SzVjQXgzR1hScEdJRVRNdzdJV3ppeWJBYnY0MjI1VmRjS0lHRm9FeG0zVDhhMGlqcE13MjhISVE?oc=5",
       "source": "PR TIMES",
       "pubDate": "Tue, 14 Jul 2026 01:10:02 GMT",
@@ -2487,6 +2559,16 @@
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
+      "title": "株式会社Antway オープニングスタッフ募集（「清澄白河」未経験可 面接1回 調理スタッフ 宅配食サブスク…）",
+      "link": "https://mynavi-agent.jp/entry/?jno=10575047",
+      "source": "求人ボックス（マイナビエージェント- 登録エントリー）",
+      "pubDate": "Tue, 30 Jun 2026 05:01:29 GMT",
+      "area": "江東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:14.010Z"
+    },
+    {
       "title": "「SAKABA Dotto. 新橋・日比谷OKUROJI」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/月8日以上休みあり）",
       "link": "https://job.tabelog.com/restaurants?id=13318060#job-info-91189",
       "source": "求人ボックス（食べログ求人）",
@@ -2593,16 +2675,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T09:53:14.178Z"
-    },
-    {
-      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」東京都・港区/調理・キッ…）",
-      "link": "https://en-gage.net/user/search/desc/16651191/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Thu, 25 Jun 2026 10:45:40 GMT",
-      "area": "港区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.995Z"
     },
     {
       "title": "【東京都中野区】新たな中華酒場「餃子のイペコ」オープン！対象ドリンク100円キャンペーンを開催",
@@ -3121,6 +3193,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
+    },
+    {
+      "title": "ディズニー&ピクサーの最新作『トイ・ストーリー5』の公開にあわせてスペシャルなカフェが東京・大阪・愛知・宮城に登場！「トイ・ストーリー5」OH MY CAFE期間限定オープン！！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pUjRZQ3g2SWQtazBjdHVtczFQdjlKY3ZRb3lCcGNISFlwR3VUWTg0VUpRRGdDcmVIUGhMYTRQa2phLURwMTBLeFBGYzJObmJ1b0JqamI5aGZaUWluOXJmeHlUSEtwQmhIVEE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.067Z"
     },
     {
       "title": "話題の新店「FORME.」のレモンパイとバスクチーズケーキ【ミスター黒猫の東京スイーツトレンドVol.104】",

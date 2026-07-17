@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T07:21:29.329Z",
+  "generatedAt": "2026-07-17T14:47:30.218Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 10
+      "count": 11
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 16
+      "count": 18
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 54
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 15
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 67,
+  "itemCount": 70,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -519,6 +519,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T07:21:29.117Z"
+    },
+    "新規オープニング": {
+      "storeName": "新規オープニング",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T14:47:30.217Z"
     }
   },
   "market": {
@@ -601,6 +614,16 @@
   },
   "items": [
     {
+      "title": "合同会社プレップ湘南/おたからや オープニングスタッフ募集（買い取り専門店スタッフ/「新規オープニング」9割が未経験スタ…）",
+      "link": "https://en-gage.net/user/search/desc/17515151/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Fri, 17 Jul 2026 11:07:40 GMT",
+      "area": "秦野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:24.941Z"
+    },
+    {
       "title": "株式会社フォンスCB オープニングスタッフ募集（レストランのホールスタッフ/「横浜駅に8月OPEN/オープニ…）",
       "link": "https://en-gage.net/user/search/desc/17372121/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -635,6 +658,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:24.824Z"
+    },
+    {
+      "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Wed, 15 Jul 2026 11:31:29 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:24.941Z"
     },
     {
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
@@ -944,6 +977,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
+    },
+    {
+      "title": "株式会社物語コーポレーション オープニングスタッフ募集（ランチホールスタッフ）",
+      "link": "https://syodai-marugen-partner.net/brand-jobfind/job/All/344511",
+      "source": "求人ボックス（株式会社物語コーポレーション）",
+      "pubDate": "Mon, 06 Jul 2026 20:08:37 GMT",
+      "area": "鎌倉市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:24.941Z"
     },
     {
       "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",

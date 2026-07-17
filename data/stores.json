@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T07:21:10.820Z",
+  "generatedAt": "2026-07-17T14:47:09.474Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 52
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 91,
+  "itemCount": 95,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -542,6 +542,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T00:05:44.708Z"
+    },
+    "アドバイザー": {
+      "storeName": "アドバイザー",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T14:47:09.474Z"
     }
   },
   "market": {
@@ -696,6 +709,16 @@
   },
   "items": [
     {
+      "title": "株式会社TCG オープニングスタッフ募集（「アドバイザー」営業108名中32名が年収1000万以上実績…）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-132510-1-168-1/?utm_source=kyujinbox&utm_medium=display&utm_term=23100",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Fri, 17 Jul 2026 11:31:19 GMT",
+      "area": "千葉市中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:04.247Z"
+    },
+    {
       "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
       "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -738,6 +761,16 @@
       "firstSeenAt": "2026-07-16T22:07:01.084Z"
     },
     {
+      "title": "株式会社ジェイウェイブ オープニングスタッフ募集（夕方でササッと帰宅/フォークリフトスタッフ）",
+      "link": "https://www.workof-japan.com/jobs/61569",
+      "source": "求人ボックス（Jwork）",
+      "pubDate": "Thu, 16 Jul 2026 03:09:22 GMT",
+      "area": "山武市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:04.246Z"
+    },
+    {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13113",
       "source": "求人ボックス（マイナビ転職.）",
@@ -760,6 +793,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T15:05:31.964Z"
+    },
+    {
+      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Wed, 15 Jul 2026 11:31:18 GMT",
+      "area": "松戸市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:04.247Z"
     },
     {
       "title": "株式会社INGS オープニングスタッフ募集（イタリアンの接客/年3回昇給/年休110日/賞与あり）",
@@ -1340,6 +1385,16 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
+      "title": "株式会社物語コーポレーション オープニングスタッフ募集（ランチキッチンスタッフ）",
+      "link": "https://yakiniku-king-partner.net/brand-jobfind/job/All/354330",
+      "source": "求人ボックス（株式会社物語コーポレーション）",
+      "pubDate": "Tue, 30 Jun 2026 20:08:29 GMT",
+      "area": "鎌ケ谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:04.247Z"
+    },
+    {
       "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVHQzYXlsM0loc3VUUTlxajVESHU5QjJ0a3NYVXBDUUVvakdXYlJKSjZqV3l2WGc4T0JtQV9fS3UwbkRJZldrN05KckZJUzJEbklTX1VvZ3NoUFo3ekVvZ2JrUGhfbWt4RmdSdjZDaWg2akxLUnMzUkdKR3NCQdIBgwFBVV95cUxOVGlQbzM1c0M5Z1BxYmZVSUpiNkRjTDJNeXVRTGZlYlBCaGx6ODNxa2NlR1hZTXEtaXNiN3Q5bHJjN3IxS0VudERBakhIeFN4MFBNcnI0RmY0NDNzVURKOExFS2swNzlhRTZzdTVBeUFpWTQ0aklKdThBRVBVdkpMTC1LVQ?oc=5",
       "source": "ｄメニューニュース",
@@ -1675,6 +1730,18 @@
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
     },
     {
+      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 15:05:42 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:25:30.174Z"
+    },
+    {
       "title": "「七輪炭羊蔵NOZAWA」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジンギスカン/焼肉・ホルモ…）",
       "link": "https://job.tabelog.com/restaurants?id=12063113#job-info-65132",
       "source": "求人ボックス（食べログ求人）",
@@ -1685,18 +1752,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 09:30:36 GMT",
-      "area": "千葉市中央区",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
       "title": "「焼肉りんざんえん」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
