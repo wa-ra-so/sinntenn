@@ -20,7 +20,10 @@ const OUT_PATH = path.join(__dirname, '..', 'data', ACTIVE_PREF.dataFile);
 const GENRE_GROUPS = [
   { label: '居酒屋・ダイニング系', keywords: ['居酒屋', 'ダイニング', 'バル', 'レストラン', 'ビストロ'] },
   { label: '専門料理系',           keywords: ['焼肉', '寿司', '割烹', '懐石', '会席', '中華', '韓国料理', 'イタリアン', 'フレンチ'] },
-  { label: 'カフェ・バー系',       keywords: ['カフェ', 'バー', 'スナック', '創作料理'] },
+  { label: 'カフェ系',             keywords: ['カフェ', 'スナック', '創作料理'] },
+  // バーはカフェと同一クエリだとGoogleニュースの検索結果件数上限内でカフェ記事に
+  // 埋もれて拾えなくなるため、独立クエリに分離する（ユーザー指摘: バーの掲載が弱い）
+  { label: 'バー系',               keywords: ['バー'] },
 ];
 
 const OPEN_SIGNAL = ['オープン', '新規開店', 'グランドオープン', 'プレオープン'];
@@ -35,6 +38,7 @@ const EXCLUDE_KEYWORDS = [
   '逮捕', '容疑', '摘発', '書類送検', '起訴', '判決', '求刑', '被告', '実刑', '有罪', '無罪',
   '強盗', '殺人', '傷害', '窃盗', '詐欺', '恐喝', '脅迫', '暴行', '売春', '買春', 'わいせつ',
   '違法', '無許可', '立ち入り調査', '営業停止', '行政処分', '風営法', '食中毒', '火災', '放火',
+  'ぼったくり', '法外請求',
   // 倒産・破綻系の経済ニュース（新店情報ではない）
   '破綻', '倒産', '民事再生', '自己破産', '負債', '閉店ラッシュ', '全東信',
   // 飲食店の新店提案対象外の業態
@@ -165,7 +169,7 @@ export function detectArea(title, pref = ACTIVE_PREF) {
   return '';
 }
 
-function detectGenres(title) {
+export function detectGenres(title) {
   const all = GENRE_GROUPS.flatMap(g => g.keywords);
   return [...new Set(all.filter(k => title.includes(k)))];
 }
