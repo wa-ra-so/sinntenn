@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T00:05:54.543Z",
+  "generatedAt": "2026-07-17T07:21:20.784Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 46
+      "count": 39
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 19
+      "count": 22
     },
     {
       "label": "バー系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 21
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 151,
+  "itemCount": 153,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -741,19 +741,6 @@
       "open": "",
       "checkedAt": "2026-07-13T15:05:36.020Z"
     },
-    "魚介イタリアン&チーズumiバル": {
-      "storeName": "魚介イタリアン&チーズUMIバル",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:36.108Z"
-    },
     "スシスミビ自由が丘": {
       "storeName": "スシスミビ 自由が丘",
       "listed": false,
@@ -1429,6 +1416,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T00:05:54.378Z"
+    },
+    "肉だけ": {
+      "storeName": "肉だけ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T07:21:20.425Z"
+    },
+    "ピエール・エルメ・パリ": {
+      "storeName": "ピエール・エルメ・パリ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T07:21:20.526Z"
     }
   },
   "market": {
@@ -1556,10 +1569,6 @@
       "count": 20,
       "checkedAt": "2026-07-13T15:05:38.466Z"
     },
-    "新宿区|バル": {
-      "count": 117,
-      "checkedAt": "2026-07-13T15:05:38.508Z"
-    },
     "千代田区|居酒屋": {
       "count": 565,
       "checkedAt": "2026-07-13T21:46:48.445Z"
@@ -1643,6 +1652,14 @@
     "港区|バー": {
       "count": 419,
       "checkedAt": "2026-07-17T00:05:54.543Z"
+    },
+    "千代田区|カフェ": {
+      "count": 115,
+      "checkedAt": "2026-07-17T07:21:20.748Z"
+    },
+    "台東区|レストラン": {
+      "count": 35,
+      "checkedAt": "2026-07-17T07:21:20.784Z"
     }
   },
   "items": [
@@ -1650,13 +1667,50 @@
       "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IaGVNRE9NWXRZcjFsWGdqanozRjgybGkyVGxlLWpHWi1nd29Fa2NUeHFQWEdURExuRG9fWWliTXprbk5ZTGxucXlQWHZ5dUlSWm5iNWFjSEI1RXc3TVF1djFieFZpYnZSdzNzcGhKalUtVzA?oc=5",
       "source": "fashionsnap.com",
-      "pubDate": "Thu, 16 Jul 2026 16:08:36 GMT",
+      "pubDate": "Fri, 17 Jul 2026 05:21:26 GMT",
       "area": "渋谷区",
       "genres": [
         "バー"
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
+      "title": "【東京都台東区】熟成肉レストラン「肉だけ」で、ブラックアンガス200gとワインを含むフリードリンク付のフルコースを5,000円(税込)で提供",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBXSGs5QUpRc0hjSzQ5cERQMjhhVHBHN0NGX1B3ZUpqUFJyYnlPbUVxWkhjaTktcm5FQW8wVF8yclhOZndXd3BZb2Jaaw?oc=5",
+      "source": "ガジェット通信",
+      "pubDate": "Fri, 17 Jul 2026 04:00:59 GMT",
+      "area": "台東区",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T07:21:15.281Z"
+    },
+    {
+      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/月8日以上休…）",
+      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-108834",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
+      "area": "世田谷区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T07:21:15.225Z"
+    },
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Thu, 16 Jul 2026 20:51:46 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
@@ -1667,19 +1721,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T15:07:03.945Z"
-    },
-    {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Thu, 16 Jul 2026 09:50:56 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
@@ -2266,7 +2307,7 @@
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-336ff50d1177",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Mon, 06 Jul 2026 11:00:19 GMT",
-      "area": "台東区",
+      "area": "中央区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
@@ -2318,6 +2359,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:48.139Z"
+    },
+    {
+      "title": "「nyuly」オープニングスタッフ募集（調理師・調理スタッフ/フレンチ/洋食・西洋料理/飲食店/月8…）",
+      "link": "https://job.tabelog.com/restaurants?id=13131135#job-info-107609",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sun, 05 Jul 2026 01:30:48 GMT",
+      "area": "目黒区",
+      "genres": [
+        "フレンチ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T07:21:15.225Z"
     },
     {
       "title": "「さくら餃子酒場 神田店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
@@ -2978,6 +3031,18 @@
       "firstSeenAt": "2026-07-16T15:07:03.990Z"
     },
     {
+      "title": "カフェを併設した「ピエール・エルメ・パリ」の新店が丸の内にオープン｜レッツエンジョイ東京",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iMVQxYVp2a3h0ajE4OXVva3A5LUdqN3ItbDl2Yi1TczJmR2sxeU13RVFnNWZGbVY0NjB2em5PQlFreS1TZ253S010RlRnZlU?oc=5",
+      "source": "レッツエンジョイ東京",
+      "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
+      "area": "千代田区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T07:21:15.286Z"
+    },
+    {
       "title": "【東中野】現役テレビマンが進化し続けるタコス店「新作タコス実験中」をオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5OQm4tdkcxQXduNzJHREtfT0pSOEZRd0pITlgta09xMThWc1djc0tMTkxsWDN6VUVLa01VUmFVNlREdi1hWlF3?oc=5",
       "source": "newscast.jp",
@@ -3364,31 +3429,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:37.034Z"
-    },
-    {
-      "title": "看板メニューの牡蠣料理がパワーアップ！西新宿「魚介イタリアン&チーズUMIバル」リニューアルオープン",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9veDZGS2hnZ0hSMUpfZTZNbGxCa1I5X0dIdWtqMFYwNTNsS2VhdWpvbTBSSkIxbmpacnZ2Tmx3dnVlU0ZXdldMUkhuVQ?oc=5",
-      "source": "TABIZINE～人生に旅心を～",
-      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
-      "area": "新宿区",
-      "genres": [
-        "バル",
-        "イタリアン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.043Z"
-    },
-    {
-      "title": "東京スカイツリー／開業14周年当日に屋上カフェテラス5月22日オープン",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBxdnBZTVd0bkFlTjV2WldzSkxkenRpRXNFOHZIeUNwbHpET2xkUk9XZF8zWXBVdXV6Z0x4WG1XOER5aFI0Tnp2N2NSOXM3RkU3SGc4Zw?oc=5",
-      "source": "流通ニュース",
-      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.046Z"
     }
   ]
 }

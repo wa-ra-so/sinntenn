@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T00:05:44.838Z",
+  "generatedAt": "2026-07-17T07:21:10.820Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 8
+      "count": 9
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 52
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -214,13 +214,6 @@
       "url": "",
       "shopName": "",
       "checkedAt": "2026-07-12T03:05:23.622Z"
-    },
-    "goodie!(グッティ!)": {
-      "storeName": "goodie!（グッティ！）",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:23.751Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -632,10 +625,6 @@
       "count": 6,
       "checkedAt": "2026-07-12T03:52:48.159Z"
     },
-    "市川市|カフェ": {
-      "count": 24,
-      "checkedAt": "2026-07-12T03:52:48.189Z"
-    },
     "柏市|フレンチ": {
       "count": 8,
       "checkedAt": "2026-07-12T21:40:46.486Z"
@@ -699,9 +688,35 @@
     "千葉市中央区|イタリアン": {
       "count": 29,
       "checkedAt": "2026-07-17T00:05:44.838Z"
+    },
+    "館山市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-17T07:21:10.820Z"
     }
   },
   "items": [
+    {
+      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
+      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Fri, 17 Jul 2026 04:51:44 GMT",
+      "area": "東金市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Thu, 16 Jul 2026 22:30:53 GMT",
+      "area": "館山市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:31.963Z"
+    },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
@@ -721,16 +736,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T22:07:01.084Z"
-    },
-    {
-      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
-      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
-      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
-      "pubDate": "Wed, 15 Jul 2026 22:30:51 GMT",
-      "area": "館山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -845,6 +850,16 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:14.270Z"
+    },
+    {
+      "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5STWFyUWo4eG01MUtoOVFKMGFTWGpqR0p2R1ItSm9ScC1rdFBEVDlrSFRBUWhocUZ5WWx4WW5YaDYxQ1BWZGVzeWtJTlRpNi1PcmpaaQ?oc=5",
+      "source": "ニコニコニュース",
+      "pubDate": "Tue, 14 Jul 2026 02:48:19 GMT",
+      "area": "鴨川市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T07:21:06.949Z"
     },
     {
       "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
@@ -1393,16 +1408,6 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
-      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
-      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Thu, 25 Jun 2026 10:45:13 GMT",
-      "area": "東金市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
       "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
       "source": "求人ボックス（食べログ求人）",
@@ -1716,18 +1721,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "下総中山駅近くにCAFE&SHOP「goodie!（グッティ！）」が5/19（火）オープン、市川市のクリエイティブスタジオによる一軒家カフェ",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CT0V6YTM3SV9tdWN0UFFnWVRRanNXODBYanlidnlSOUxlVEYybGVMT2tSR0pJNHREcG91YThCNW5ldkpyeXpzdVFjb1FVdzFTT3c?oc=5",
-      "source": "船橋つうしん",
-      "pubDate": "Mon, 18 May 2026 07:00:00 GMT",
-      "area": "市川市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
     }
   ]
 }

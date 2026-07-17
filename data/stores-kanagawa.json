@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-17T00:06:02.145Z",
+  "generatedAt": "2026-07-17T07:21:29.329Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 92
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,31 +24,31 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 11
+      "count": 10
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 18
+      "count": 16
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 42
+      "count": 54
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 66,
+  "itemCount": 67,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -506,6 +506,19 @@
       "capacity": 100,
       "open": "金～日、祝日: 17:30～21:30",
       "checkedAt": "2026-07-17T00:06:02.017Z"
+    },
+    "casacabanhayama": {
+      "storeName": "Casa CABaN HAYAMA",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T07:21:29.117Z"
     }
   },
   "market": {
@@ -577,27 +590,63 @@
       "count": 58,
       "checkedAt": "2026-07-16T09:14:49.178Z"
     },
-    "横浜市|中華": {
-      "count": 413,
-      "checkedAt": "2026-07-17T00:06:02.137Z"
-    },
     "横浜市西区|バー": {
       "count": 52,
       "checkedAt": "2026-07-17T00:06:02.145Z"
+    },
+    "葉山町|イタリアン": {
+      "count": 0,
+      "checkedAt": "2026-07-17T07:21:29.329Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社フォンスCB オープニングスタッフ募集（レストランのホールスタッフ/「横浜駅に8月OPEN/オープニ…）",
+      "link": "https://en-gage.net/user/search/desc/17372121/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Fri, 17 Jul 2026 04:51:09 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
     {
       "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96521",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 16 Jul 2026 01:30:49 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "中華"
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T00:05:58.375Z"
+    },
+    {
+      "title": "葉山に「Casa CABaN HAYAMA」が新オープン イタリアンモダンの粋と自然美が融合したホテル",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WdTBYTkFhS2pCcWU2ME5UdTBIMURRc1UyMEwtNUhvaHBsa2JTcXlwODA1UFVqZmJROTFLellaa0JWZjZnR1otNU90RGNyUzdYaGEtYzdXY18?oc=5",
+      "source": "家庭画報",
+      "pubDate": "Wed, 15 Jul 2026 21:01:10 GMT",
+      "area": "葉山町",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T07:21:24.824Z"
+    },
+    {
+      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「溝口クラフトビールとオイスター 麦髭屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
@@ -608,18 +657,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.562Z"
-    },
-    {
-      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -1007,18 +1044,6 @@
       "firstSeenAt": "2026-07-14T23:27:58.563Z"
     },
     {
-      "title": "株式会社フォンスCB オープニングスタッフ募集（レストランのホールスタッフ/「横浜駅に8月OPEN/オープニ…）",
-      "link": "https://en-gage.net/user/search/desc/17372121/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Sat, 27 Jun 2026 01:44:38 GMT",
-      "area": "横浜市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
-    },
-    {
       "title": "「Loco's Moco's ゆめが丘ソラトス」オープニングスタッフ募集（調理補助・調理見習い/アメリカ料理/洋食・西洋料理/飲食店/…）",
       "link": "https://job.tabelog.com/restaurants?id=14095622#job-info-66525",
       "source": "求人ボックス（食べログ求人）",
@@ -1199,7 +1224,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
+      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
