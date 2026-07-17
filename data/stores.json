@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:47:09.474Z",
+  "generatedAt": "2026-07-17T21:58:01.367Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 74
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 49
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -705,9 +705,23 @@
     "館山市|レストラン": {
       "count": 6,
       "checkedAt": "2026-07-17T07:21:10.820Z"
+    },
+    "旭市|イタリアン": {
+      "count": 4,
+      "checkedAt": "2026-07-17T21:58:01.367Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Fri, 17 Jul 2026 18:58:17 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
     {
       "title": "株式会社TCG オープニングスタッフ募集（「アドバイザー」営業108名中32名が年収1000万以上実績…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-132510-1-168-1/?utm_source=kyujinbox&utm_medium=display&utm_term=23100",
@@ -739,16 +753,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T15:05:31.963Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Thu, 16 Jul 2026 19:09:59 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
@@ -1309,7 +1313,9 @@
       "source": "求人ボックス（採用ページコボット）",
       "pubDate": "Wed, 08 Jul 2026 05:10:25 GMT",
       "area": "旭市",
-      "genres": [],
+      "genres": [
+        "イタリアン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },
@@ -1730,18 +1736,6 @@
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
     },
     {
-      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 15:05:42 GMT",
-      "area": "千葉市中央区",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:25:30.174Z"
-    },
-    {
       "title": "「七輪炭羊蔵NOZAWA」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジンギスカン/焼肉・ホルモ…）",
       "link": "https://job.tabelog.com/restaurants?id=12063113#job-info-65132",
       "source": "求人ボックス（食べログ求人）",
@@ -1752,6 +1746,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 19 May 2026 09:30:36 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:25:30.174Z"
     },
     {
       "title": "「焼肉りんざんえん」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",

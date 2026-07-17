@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T14:47:20.662Z",
+  "generatedAt": "2026-07-17T21:58:09.674Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 45
+      "count": 50
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 45
+      "count": 46
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 21
+      "count": 23
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 74
+      "count": 70
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 16
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 158,
+  "itemCount": 159,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1468,6 +1468,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T14:47:20.661Z"
+    },
+    "camrodinnerカンボジア食堂〜アンコール〜": {
+      "storeName": "CAMRODINNER カンボジア食堂〜アンコール〜",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T21:58:09.673Z"
     }
   },
   "market": {
@@ -1725,6 +1738,18 @@
       "firstSeenAt": "2026-07-17T14:47:14.066Z"
     },
     {
+      "title": "東京・関東“おしゃれでおいしい”カフェ＆スイーツ特集、2026年オープンのおすすめグルメスポット",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZZ3ZKeUhoWGhXUWhWT21FX0dLTzJaOTJxT1hocHNPLXpRYnJqUlpLbS1pY3RaS1pvaW93Zmo5MFhTOWlCSi1GSFNIYk1kMXA3SFVN?oc=5",
+      "source": "ファッションプレス",
+      "pubDate": "Fri, 17 Jul 2026 06:50:58 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T13:21:41.402Z"
+    },
+    {
       "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IaGVNRE9NWXRZcjFsWGdqanozRjgybGkyVGxlLWpHWi1nd29Fa2NUeHFQWEdURExuRG9fWWliTXprbk5ZTGxucXlQWHZ5dUlSWm5iNWFjSEI1RXc3TVF1djFieFZpYnZSdzNzcGhKalUtVzA?oc=5",
       "source": "fashionsnap.com",
@@ -1863,18 +1888,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T07:25:55.250Z"
-    },
-    {
-      "title": "東京・関東“おしゃれでおいしい”カフェ＆スイーツ特集、2026年オープンのおすすめグルメスポット",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZZ3ZKeUhoWGhXUWhWT21FX0dLTzJaOTJxT1hocHNPLXpRYnJqUlpLbS1pY3RaS1pvaW93Zmo5MFhTOWlCSi1GSFNIYk1kMXA3SFVN?oc=5",
-      "source": "ファッションプレス",
-      "pubDate": "Wed, 15 Jul 2026 07:50:43 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T13:21:41.402Z"
     },
     {
       "title": "南青山のモダンフレンチ「L’AS」が東京駅エリア初進出。新複合施設「TOFROM YAESU」に『L’AS TOKYO』を9月10日オープン",
@@ -2379,7 +2392,7 @@
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-336ff50d1177",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Mon, 06 Jul 2026 11:00:19 GMT",
-      "area": "中央区",
+      "area": "台東区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
@@ -2397,7 +2410,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.043Z"
     },
     {
-      "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！",
+      "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！ | ニラックス株式会社のプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FdVR4SWI5Z0Z6UTRuQ3hCNUJqek53enR0dDFiWDRKb0U1bm5VbFNvWnlVVjh0MlF2V0IwaUdQYTAxNi0ydlh2Vm9QYmpIU2UtMWlHUlFzbnM2REJBMXkwZ2twOUR6djM3Zmc?oc=5",
       "source": "PR TIMES",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
@@ -2617,6 +2630,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
+    },
+    {
+      "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
+      "source": "newscast.jp",
+      "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
+      "area": "中野区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T21:58:05.668Z"
     },
     {
       "title": "株式会社マンネット オープニングスタッフ募集（キッチンスタッフ/すぐに働ける おかゆ料理専門店調理スタッフ…）",

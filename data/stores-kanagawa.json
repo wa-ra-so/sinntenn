@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-17T14:47:30.218Z",
+  "generatedAt": "2026-07-17T21:58:17.260Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 92
+      "count": 94
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,19 +24,19 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 77
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 11
+      "count": 10
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 18
+      "count": 16
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 53
+      "count": 55
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 70,
+  "itemCount": 74,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -532,6 +532,58 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T14:47:30.217Z"
+    },
+    "行きたくなる酒場浜ちゃん": {
+      "storeName": "行きたくなる酒場 浜ちゃん",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004652001/?vos=nhppalsa000016",
+      "shopName": "行きたくなる酒場 浜ちゃん 大和店",
+      "address": "神奈川県大和市大和東１丁目７－３　鈴木ビル１階",
+      "access": "相鉄線 小田急線 大和駅 徒歩3分/大和駅から162m",
+      "genre": "居酒屋",
+      "budget": "2001～3000円",
+      "capacity": 74,
+      "open": "月～日、祝日、祝前日: 15:00～翌2:00 （料理L.O. 翌1:00 ドリンクL.O. 翌1:30）",
+      "checkedAt": "2026-07-17T21:58:16.103Z"
+    },
+    "和ビストロオヘソ天王町": {
+      "storeName": "和ビストロ オヘソ 天王町",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004004579/?vos=nhppalsa000016",
+      "shopName": "和ビストロオヘソ天王町",
+      "address": "神奈川県横浜市保土ケ谷区岩間町１-6-3-101",
+      "access": "相鉄本線天王町駅東口改札より徒歩約1分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 33,
+      "open": "火、水: 11:30～14:0017:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）木: 11:00～14:0017:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）金～日、祝日、祝前日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-17T21:58:16.112Z"
+    },
+    "maibukitchen": {
+      "storeName": "MaIbu Kitchen",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T21:58:16.297Z"
+    },
+    "はなまるダイニングセレクト": {
+      "storeName": "はなまるダイニングセレクト",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-17T21:58:17.015Z"
     }
   },
   "market": {
@@ -610,6 +662,22 @@
     "葉山町|イタリアン": {
       "count": 0,
       "checkedAt": "2026-07-17T07:21:29.329Z"
+    },
+    "横浜市|中華": {
+      "count": 413,
+      "checkedAt": "2026-07-17T21:58:17.146Z"
+    },
+    "川崎市|レストラン": {
+      "count": 56,
+      "checkedAt": "2026-07-17T21:58:17.157Z"
+    },
+    "鎌倉市|バー": {
+      "count": 37,
+      "checkedAt": "2026-07-17T21:58:17.158Z"
+    },
+    "横浜市戸塚区|ダイニング": {
+      "count": 7,
+      "checkedAt": "2026-07-17T21:58:17.260Z"
     }
   },
   "items": [
@@ -634,6 +702,43 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
+      "title": "「溝口クラフトビールとオイスター 麦髭屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14084543#job-info-54322",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 16 Jul 2026 09:30:38 GMT",
+      "area": "川崎市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T23:27:58.562Z"
+    },
+    {
+      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
+      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96513",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 16 Jul 2026 09:30:37 GMT",
+      "area": "横浜市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T22:06:42.351Z"
+    },
+    {
+      "title": "「和ビストロ オヘソ 天王町」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/交…）",
+      "link": "https://job.tabelog.com/restaurants?id=14098124#job-info-108766",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 16 Jul 2026 01:30:52 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋",
+        "ビストロ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T21:58:13.480Z"
     },
     {
       "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
@@ -673,23 +778,13 @@
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
+      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
-    },
-    {
-      "title": "「溝口クラフトビールとオイスター 麦髭屋」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14084543#job-info-54322",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
-      "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:27:58.562Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -715,18 +810,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
-    },
-    {
-      "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
-      "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96513",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 13 Jul 2026 09:30:35 GMT",
-      "area": "横浜市中区",
-      "genres": [
-        "中華"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T22:06:42.351Z"
     },
     {
       "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
@@ -862,7 +945,9 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -1013,6 +1098,16 @@
       "firstSeenAt": "2026-07-14T23:59:36.217Z"
     },
     {
+      "title": "【ドリンク1杯99円】「行きたくなる酒場 浜ちゃん」が7月10日（金）に大和店をオープン！神奈川初上陸を記念して、自慢のレモンサワーなど1杯99円でご提供！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UZXFHcXNmWGpkOVBUczlSMjRzdk5QZF92dGJXN2pGaHVJZGRIS0pLY3VSWkdWOXl3Z1RYQUVoTzRMa3ZNUGtYazZ0amFRTWI4RlNITXlZc212aFFvTUtxMGhkVnA2OEtkZGc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "area": "大和市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T21:58:13.525Z"
+    },
+    {
       "title": "【2026年6月最新】湘南エリア 飲食店オープン情報まとめ：ラスカ小田原の新店、鎌倉の手作りジェラートや大船の麻辣湯がOPEN！",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNM3RIVTFWUWVIVnRmcVdPS2UyXzRVWEZEdXNINllwZEp0YVNHT1RRZV9iYUEwVFRTNmZNUkdlRGI0YkszeDNOZExpR3lIVWowbFROQkZZVDJRNmwtODlxaG90UlN5Q0pfT2ZhU3dtQ1NFSjVRVElyazhod1VSR1dSbnN3M01OTlo3OG81RjExRU4?oc=5",
       "source": "湘南人",
@@ -1041,6 +1136,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
+    },
+    {
+      "title": "「MaIbu Kitchen」オープニングスタッフ募集（ホール/キッチン/バーテンダー オープニングスタッフ 由比ヶ…）",
+      "link": "http://s.baitoru.com/DW0aT4ko",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Wed, 01 Jul 2026 03:18:37 GMT",
+      "area": "鎌倉市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T21:58:13.480Z"
     },
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 時給1500円 オープニングスタッ…）",
@@ -1085,6 +1192,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.563Z"
+    },
+    {
+      "title": "戸塚モディ／「はなまるダイニングセレクト」6月24日オープン、総菜・サラダ提供",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51WTBOQ2JoUjZISXBRZzYxdEFucG9RWU1uOVJUeVZ5M0g0RGdfQUpfLWctcHUwdTBBMm4yakszME1yYlVueWZUMjlCRm0tSmZvMVVMTA?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "area": "横浜市戸塚区",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T21:58:13.525Z"
     },
     {
       "title": "「Loco's Moco's ゆめが丘ソラトス」オープニングスタッフ募集（調理補助・調理見習い/アメリカ料理/洋食・西洋料理/飲食店/…）",
@@ -1267,7 +1386,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
+      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
