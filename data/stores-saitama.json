@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T07:02:36.517Z",
+  "generatedAt": "2026-07-18T14:22:12.810Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 53
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 58,
+  "itemCount": 61,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -546,8 +546,8 @@
       "open": "",
       "checkedAt": "2026-07-17T14:47:40.265Z"
     },
-    "ラデュレ": {
-      "storeName": "ラデュレ",
+    "フィナンシェ": {
+      "storeName": "フィナンシェ",
       "listed": false,
       "url": "",
       "shopName": "",
@@ -557,7 +557,20 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-18T07:02:36.203Z"
+      "checkedAt": "2026-07-18T14:22:12.519Z"
+    },
+    "仕入れstaff": {
+      "storeName": "仕入れSTAFF",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-18T14:22:12.809Z"
     }
   },
   "market": {
@@ -692,7 +705,19 @@
   },
   "items": [
     {
-      "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 パリの老舗パティスリーでマカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の商品も 24日オープン（埼玉新聞）",
+      "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByd3Zaek9kckE4a1ZMeV9NNGotS1pRdWhqekpXSncyaTBEYmpiRVNiMDVTdF9kSVlhY1pQZXJvbkZuY28tNGhCWUlBbw?oc=5",
+      "source": "47NEWS",
+      "pubDate": "Sat, 18 Jul 2026 01:08:00 GMT",
+      "area": "さいたま市大宮区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-18T14:22:08.032Z"
+    },
+    {
+      "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン（埼玉新聞）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pOFFteWNocF9OM1V6Yy02NFI5QTFsLXhqVmJUVVkyUWI1TlJRMG80SjJlaGc0TllGQVlpbHdTcHh1MnlDQ2hDVTVYX0thUFF2cjJzVkVKSTRXdGM2YUNFWExFckU3akQ0Z1ozaFVLTVItVkhxLXdFUHhkeDdzcmc?oc=5",
       "source": "Yahoo!ニュース",
       "pubDate": "Sat, 18 Jul 2026 01:04:04 GMT",
@@ -815,6 +840,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
+      "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-229877-1-113-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11224",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Tue, 14 Jul 2026 11:31:22 GMT",
+      "area": "戸田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T14:22:07.968Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -1115,6 +1150,19 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:06:06.135Z"
+    },
+    {
+      "title": "シーシャ半額キャンペーン開催！「シーシャ カフェ&バー C.STAND（シースタンド）大宮南銀座通り店」2026年6月30日（火）グランドオープン♪シーシャ半額になるキャンペーンも開催！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54dmk1UUYzMzAycTRUMjZSWkVWMHltUDJienh3cHNBQjFxcTVtRjNpMGxESnN1TUMyVEhQYVF2UHNnYThXSjFZYW1qTm96RFJLVFlNZDNscm52LXkyNmV2RFdmQWltYkREakE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Sun, 28 Jun 2026 07:00:00 GMT",
+      "area": "さいたま市大宮区",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-18T14:22:08.033Z"
     },
     {
       "title": "「カフェ・ラデュレ」日本2号店が大宮にオープン ドーナツを店舗限定で提供",

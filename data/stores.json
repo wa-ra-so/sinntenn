@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T07:02:13.991Z",
+  "generatedAt": "2026-07-18T14:21:45.425Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 94,
+  "itemCount": 92,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -242,45 +242,12 @@
       "open": "月、水～金、祝前日: 17:30～翌0:30 （料理L.O. 23:30 ドリンクL.O. 翌0:00）土、日、祝日: 12:00～翌0:30 （料理L.O. 23:30 ドリンクL.O. 翌0:00）",
       "checkedAt": "2026-07-12T03:52:46.228Z"
     },
-    "七輪炭羊蔵nozawa": {
-      "storeName": "七輪炭羊蔵NOZAWA",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:20:41.564Z"
-    },
     "味自慢": {
       "storeName": "味自慢",
       "listed": false,
       "url": "",
       "shopName": "",
       "checkedAt": "2026-07-12T03:20:41.820Z"
-    },
-    "今日和千葉本店": {
-      "storeName": "今日和 千葉本店",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ003944002/?vos=nhppalsa000016",
-      "shopName": "今日和　千葉本店",
-      "address": "千葉県千葉市中央区富士見１－１２－１７　ネクストサイト千葉ビル１０２",
-      "access": "JR千葉駅徒歩5分  栄町駅徒歩3分  京成千葉駅徒歩8分 ",
-      "genre": "イタリアン・フレンチ",
-      "budget": "3001～4000円",
-      "capacity": 62,
-      "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
-      "checkedAt": "2026-07-12T03:52:46.457Z"
-    },
-    "焼肉りんざんえん": {
-      "storeName": "焼肉りんざんえん",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ002648224/?vos=nhppalsa000016",
-      "shopName": "焼肉りんざんえん",
-      "address": "千葉県船橋市三咲３-1-14",
-      "access": "三咲駅から徒歩4分",
-      "genre": "焼肉・ホルモン",
-      "budget": "4001～5000円",
-      "capacity": 30,
-      "open": "火、水、金～日、祝日、祝前日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
-      "checkedAt": "2026-07-12T03:52:46.464Z"
     },
     "海鮮和食魚まみれ仲々小林店": {
       "storeName": "海鮮和食 魚まみれ 仲々 小林店",
@@ -619,14 +586,6 @@
       "count": 36,
       "checkedAt": "2026-07-12T03:52:48.031Z"
     },
-    "富里市|焼肉": {
-      "count": 4,
-      "checkedAt": "2026-07-12T03:52:48.059Z"
-    },
-    "船橋市|焼肉": {
-      "count": 62,
-      "checkedAt": "2026-07-12T03:52:48.150Z"
-    },
     "柏市|フレンチ": {
       "count": 8,
       "checkedAt": "2026-07-12T21:40:46.486Z"
@@ -687,13 +646,13 @@
       "count": 28,
       "checkedAt": "2026-07-17T00:05:44.830Z"
     },
-    "千葉市中央区|イタリアン": {
-      "count": 29,
-      "checkedAt": "2026-07-17T00:05:44.838Z"
-    },
     "館山市|レストラン": {
       "count": 6,
       "checkedAt": "2026-07-17T07:21:10.820Z"
+    },
+    "船橋市|バル": {
+      "count": 27,
+      "checkedAt": "2026-07-18T14:21:45.425Z"
     }
   },
   "items": [
@@ -768,6 +727,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T14:47:04.246Z"
+    },
+    {
+      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=12204",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Wed, 15 Jul 2026 11:31:31 GMT",
+      "area": "船橋市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T14:21:41.095Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -1717,42 +1688,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
-      "title": "「七輪炭羊蔵NOZAWA」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジンギスカン/焼肉・ホルモ…）",
-      "link": "https://job.tabelog.com/restaurants?id=12063113#job-info-65132",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 09:30:38 GMT",
-      "area": "富里市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "「今日和 千葉本店」オープニングスタッフ募集（料理長候補/イタリアン/洋食・西洋料理/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51844",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 09:30:36 GMT",
-      "area": "千葉市中央区",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:25:30.174Z"
-    },
-    {
-      "title": "「焼肉りんざんえん」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
-      "link": "https://job.tabelog.com/restaurants?id=12053881#job-info-94084",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 09:30:35 GMT",
-      "area": "船橋市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:29:32.899Z"
     }
   ]
 }

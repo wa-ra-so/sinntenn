@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T07:02:22.267Z",
+  "generatedAt": "2026-07-18T14:21:56.579Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 48
+      "count": 49
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 44
+      "count": 43
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 21
+      "count": 19
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 71
+      "count": 72
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 19
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 157,
+  "itemCount": 158,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -923,32 +923,6 @@
       "open": "",
       "checkedAt": "2026-07-15T07:18:52.219Z"
     },
-    "スタンド新橋": {
-      "storeName": "スタンド新橋",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ001269744/?vos=nhppalsa000016",
-      "shopName": "ビーフキッチンスタンド 新橋店",
-      "address": "東京都港区新橋２-20-15 新橋駅前ビル 1号館　B1F",
-      "access": "都営浅草線新橋駅A2出口より徒歩約1分",
-      "genre": "洋食",
-      "budget": "1001～1500円",
-      "capacity": 35,
-      "open": "月～土、祝日、祝前日: 15:00～翌0:00",
-      "checkedAt": "2026-07-15T08:37:27.852Z"
-    },
-    "chronofake": {
-      "storeName": "Chrono Fake",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T08:37:28.297Z"
-    },
     "並木橋みりん": {
       "storeName": "並木橋みりん",
       "listed": false,
@@ -1468,6 +1442,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-18T07:02:22.266Z"
+    },
+    "btable": {
+      "storeName": "B table",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-18T14:21:55.812Z"
+    },
+    "鉄板ダイニングまわりみち": {
+      "storeName": "鉄板ダイニングまわりみち",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-18T14:21:56.357Z"
     }
   },
   "market": {
@@ -1619,10 +1619,6 @@
       "count": 100,
       "checkedAt": "2026-07-15T05:11:41.872Z"
     },
-    "文京区|バー": {
-      "count": 53,
-      "checkedAt": "2026-07-15T08:37:29.098Z"
-    },
     "武蔵野市|フレンチ": {
       "count": 9,
       "checkedAt": "2026-07-15T09:53:19.479Z"
@@ -1678,20 +1674,42 @@
     "台東区|レストラン": {
       "count": 35,
       "checkedAt": "2026-07-17T07:21:20.784Z"
+    },
+    "練馬区|居酒屋": {
+      "count": 105,
+      "checkedAt": "2026-07-18T14:21:56.568Z"
+    },
+    "渋谷区|ビストロ": {
+      "count": 60,
+      "checkedAt": "2026-07-18T14:21:56.579Z"
     }
   },
   "items": [
     {
-      "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次 西新宿小滝橋店」をオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xZlVLOU1hNWpLT3BhV2R6ZTNGUGZOM0hCbWx4eHdRcXhVVm8xakVwQ1E2S2F2QXRzTURWYmpqQ0VTMTRHNWt2VFVKTUlCaUVXYzZWQjBWMGI3OEpaUXV2YzU1UG1wTmJON2c?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 17 Jul 2026 20:10:24 GMT",
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Sat, 18 Jul 2026 09:52:10 GMT",
       "area": "新宿区",
       "genres": [
-        "居酒屋"
+        "居酒屋",
+        "バー"
       ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-16T22:07:07.224Z"
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "「鉄板ダイニングまわりみち」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=13324524#job-info-109016",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sat, 18 Jul 2026 09:30:38 GMT",
+      "area": "練馬区",
+      "genres": [
+        "居酒屋",
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T14:21:50.140Z"
     },
     {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
@@ -1716,23 +1734,10 @@
       "firstSeenAt": "2026-07-15T13:21:41.402Z"
     },
     {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Fri, 17 Jul 2026 09:51:54 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
       "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
       "source": "Web-Komachi",
-      "pubDate": "Fri, 17 Jul 2026 08:03:08 GMT",
+      "pubDate": "Fri, 17 Jul 2026 07:54:17 GMT",
       "area": "港区",
       "genres": [
         "カフェ"
@@ -1823,6 +1828,18 @@
       "firstSeenAt": "2026-07-17T14:47:14.010Z"
     },
     {
+      "title": "「スシスミビ 自由が丘」オープニングスタッフ募集（調理補助・調理見習い/居酒屋/居酒屋/飲食店/月8日以上休み…）",
+      "link": "https://job.tabelog.com/restaurants?id=13300208#job-info-108853",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
+      "area": "目黒区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T14:21:50.140Z"
+    },
+    {
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81N0JjNVVraWMxT3A4eW9ScXFUeHAtbnl5dEU5Sm5TQnZTblBoaG5rU3RnOEpiVlhCbHJCeGZMNDM0ZkVsYm5ZRzhrTkRaeFhzUXUxVGY5MzlBMWR3ZkhXSS1qQjVWNUV2ZHc?oc=5",
       "source": "PR TIMES",
@@ -1833,6 +1850,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T15:07:03.988Z"
+    },
+    {
+      "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次 西新宿小滝橋店」をオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xZlVLOU1hNWpLT3BhV2R6ZTNGUGZOM0hCbWx4eHdRcXhVVm8xakVwQ1E2S2F2QXRzTURWYmpqQ0VTMTRHNWt2VFVKTUlCaUVXYzZWQjBWMGI3OEpaUXV2YzU1UG1wTmJON2c?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 16 Jul 2026 03:10:01 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T22:07:07.224Z"
     },
     {
       "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（店長候補・マネージャー/焼き鳥・串焼・鳥料理/和食/飲食店/…）",
@@ -2371,7 +2400,7 @@
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-336ff50d1177",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Mon, 06 Jul 2026 11:00:19 GMT",
-      "area": "台東区",
+      "area": "中央区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
@@ -3231,6 +3260,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
+      "title": "【東京都渋谷区】ビストロ「B table」OPEN！スペインやイタリア、フランスの家庭料理やワインを堪能",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5N09BT1lCOUYyTldTUXdXZ0N4OVdibDNOaVdNYURuNzlFT1Y2amVZZTdmbmF4d1BrU21IU09rWFhDdEI1MWJ5VEhnLW45ZDVrSy1Z?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "ビストロ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-18T14:21:50.205Z"
+    },
+    {
       "title": "ハワイアンカフェ＆レストラン『Merengue』が千葉市幕張エリア初、ホテル内に初出店！2026年6月11日、KOKO HOTEL Premier 東京ベイ幕張にグランドオープン！ | 株式会社RYコーポレーションのプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SNWxZMUJJTHEyR0FJNFdJYWlteHdxRUt3Sld1VzZvdGdMcEVSOEwxVG11d3lncGhocFF6NjBmTWVXd3BxLVhrQ0ZjWi1mWWdTaTBnU2RrUUF5bGpuaEJpNDdqdnc2dkVMREE?oc=5",
       "source": "PR TIMES",
@@ -3466,30 +3507,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.041Z"
-    },
-    {
-      "title": "「スタンド新橋」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=13279350#job-info-4711",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 09:30:30 GMT",
-      "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:23.517Z"
-    },
-    {
-      "title": "「Chrono Fake」オープニングスタッフ募集（店長候補・マネージャー/バー/バー/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=13279595#job-info-4519",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 19 May 2026 09:30:30 GMT",
-      "area": "文京区",
-      "genres": [
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:23.517Z"
     }
   ]
 }
