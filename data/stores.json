@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T21:58:01.367Z",
+  "generatedAt": "2026-07-18T07:02:13.991Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 16
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 95,
+  "itemCount": 94,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -207,13 +207,6 @@
       "url": "",
       "shopName": "",
       "checkedAt": "2026-07-12T03:05:23.422Z"
-    },
-    "不慣れ": {
-      "storeName": "不慣れ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "checkedAt": "2026-07-12T03:05:23.622Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -634,10 +627,6 @@
       "count": 62,
       "checkedAt": "2026-07-12T03:52:48.150Z"
     },
-    "野田市|レストラン": {
-      "count": 6,
-      "checkedAt": "2026-07-12T03:52:48.159Z"
-    },
     "柏市|フレンチ": {
       "count": 8,
       "checkedAt": "2026-07-12T21:40:46.486Z"
@@ -705,13 +694,21 @@
     "館山市|レストラン": {
       "count": 6,
       "checkedAt": "2026-07-17T07:21:10.820Z"
-    },
-    "旭市|イタリアン": {
-      "count": 4,
-      "checkedAt": "2026-07-17T21:58:01.367Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Fri, 17 Jul 2026 22:30:52 GMT",
+      "area": "館山市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:31.963Z"
+    },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
@@ -743,18 +740,6 @@
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
-      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
-      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
-      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
-      "pubDate": "Thu, 16 Jul 2026 22:30:53 GMT",
-      "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:31.963Z"
-    },
-    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/10_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -763,6 +748,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T22:07:01.084Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 16 Jul 2026 09:32:34 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:29.186Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（夕方でササッと帰宅/フォークリフトスタッフ）",
@@ -1084,16 +1079,6 @@
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
     },
     {
-      "title": "「成田食堂」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:29.186Z"
-    },
-    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/1_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1313,9 +1298,7 @@
       "source": "求人ボックス（採用ページコボット）",
       "pubDate": "Wed, 08 Jul 2026 05:10:25 GMT",
       "area": "旭市",
-      "genres": [
-        "イタリアン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },
@@ -1770,18 +1753,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:29:32.899Z"
-    },
-    {
-      "title": "「不慣れ」だけど経験の場に 千葉・野田の「高校生レストラン」開店 [千葉県]",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xUDJLZXdSTWsyMTV6WjdzTEFrRWlUT3U5Rm41aXlwY1doWjA1YWlBTHRid2ZmY0xMVUdLVXVZRVZWSXpKV1VJZEk5d1U5d1l3c2VNYVRGa3BaMU9qQTN3UXB2aDEyTDQ?oc=5",
-      "source": "朝日新聞",
-      "pubDate": "Tue, 19 May 2026 07:00:00 GMT",
-      "area": "野田市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T21:58:23.557Z",
+  "generatedAt": "2026-07-18T07:02:36.517Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 9
+      "count": 8
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 52
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 56,
+  "itemCount": 58,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -545,6 +545,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T14:47:40.265Z"
+    },
+    "ラデュレ": {
+      "storeName": "ラデュレ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-18T07:02:36.203Z"
     }
   },
   "market": {
@@ -668,12 +681,28 @@
       "count": 160,
       "checkedAt": "2026-07-17T14:47:40.476Z"
     },
-    "所沢市|レストラン": {
-      "count": 8,
-      "checkedAt": "2026-07-17T21:58:23.557Z"
+    "所沢市|ダイニング": {
+      "count": 11,
+      "checkedAt": "2026-07-18T07:02:36.331Z"
+    },
+    "所沢市|創作料理": {
+      "count": 2,
+      "checkedAt": "2026-07-18T07:02:36.517Z"
     }
   },
   "items": [
+    {
+      "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 パリの老舗パティスリーでマカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の商品も 24日オープン（埼玉新聞）",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pOFFteWNocF9OM1V6Yy02NFI5QTFsLXhqVmJUVVkyUWI1TlJRMG80SjJlaGc0TllGQVlpbHdTcHh1MnlDQ2hDVTVYX0thUFF2cjJzVkVKSTRXdGM2YUNFWExFckU3akQ0Z1ozaFVLTVItVkhxLXdFUHhkeDdzcmc?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Sat, 18 Jul 2026 01:04:04 GMT",
+      "area": "さいたま市大宮区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-18T07:02:33.160Z"
+    },
     {
       "title": "株式会社TCG オープニングスタッフ募集（「アドバイザー」営業108名中32名が年収1000万以上実績…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-132510-1-168-1/?utm_source=kyujinbox&utm_medium=display&utm_term=23100",
@@ -756,6 +785,18 @@
       "firstSeenAt": "2026-07-16T15:07:19.162Z"
     },
     {
+      "title": "株式会社ダイニングイノベーション オープニングスタッフ募集（麻辣湯麵専門店でホール/年休115日/残業ほぼなし）",
+      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-61c9c4f11a9a",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 15 Jul 2026 11:00:17 GMT",
+      "area": "所沢市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T07:02:33.116Z"
+    },
+    {
       "title": "「ファミリー食堂 山田うどん食堂 北中店」オープニングスタッフ募集（うどん食堂のキッチン・ホールスタッフ）",
       "link": "https://job-gear.net/yamadaudon2/AE0703866564/MDkyujin_d.htm",
       "source": "求人ボックス（山田食品産業株式会社）",
@@ -764,6 +805,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
+    },
+    {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -801,16 +852,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -880,7 +921,6 @@
       "pubDate": "Mon, 13 Jul 2026 01:30:44 GMT",
       "area": "所沢市",
       "genres": [
-        "レストラン",
         "創作料理"
       ],
       "signal": "hiring",
