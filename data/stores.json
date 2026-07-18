@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T14:21:45.425Z",
+  "generatedAt": "2026-07-18T21:55:59.866Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 10
+      "count": 11
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 53
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 92,
+  "itemCount": 94,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -515,6 +515,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T14:47:09.474Z"
+    },
+    "博多うずまき海浜幕張店": {
+      "storeName": "博多うずまき 海浜幕張店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004403558/?vos=nhppalsa000016",
+      "shopName": "博多うずまき 海浜幕張店",
+      "address": "千葉県千葉市美浜区ひび野１-9 スーク海浜幕張 3F",
+      "access": "JR京葉線海浜幕張駅北口(公園改札)より徒歩約3分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 126,
+      "open": "月～日、祝日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-18T21:55:59.415Z"
     }
   },
   "market": {
@@ -653,9 +666,41 @@
     "船橋市|バル": {
       "count": 27,
       "checkedAt": "2026-07-18T14:21:45.425Z"
+    },
+    "千葉市中央区|居酒屋": {
+      "count": 157,
+      "checkedAt": "2026-07-18T21:55:59.861Z"
+    },
+    "旭市|イタリアン": {
+      "count": 4,
+      "checkedAt": "2026-07-18T21:55:59.866Z"
     }
   },
   "items": [
+    {
+      "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
+      "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sat, 18 Jul 2026 09:30:37 GMT",
+      "area": "南房総市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
+    },
+    {
+      "title": "「博多うずまき 海浜幕張店」オープニングスタッフ募集（調理補助・調理見習い/居酒屋/居酒屋/飲食店/ボーナス・賞与…）",
+      "link": "https://job.tabelog.com/restaurants?id=12064208#job-info-106751",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Sat, 18 Jul 2026 09:30:37 GMT",
+      "area": "千葉市美浜区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T21:55:55.746Z"
+    },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
       "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
@@ -799,6 +844,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T22:06:27.312Z"
+    },
+    {
+      "title": "株式会社INGS オープニングスタッフ募集（居酒屋の接客/年3回昇給/年休110日/賞与あり）",
+      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca31c6e09b0",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 14 Jul 2026 11:00:22 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T21:55:55.746Z"
     },
     {
       "title": "「おでん屋たけし 船橋駅南口店」オープニングスタッフ募集（和食, 居酒屋/店長・店長候補/成長中ブランドで早期キャリア…）",
@@ -1269,7 +1326,9 @@
       "source": "求人ボックス（採用ページコボット）",
       "pubDate": "Wed, 08 Jul 2026 05:10:25 GMT",
       "area": "旭市",
-      "genres": [],
+      "genres": [
+        "イタリアン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },
@@ -1421,18 +1480,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
-      "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 25 Jun 2026 09:30:40 GMT",
-      "area": "南房総市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ | チバテレ＋プラス",

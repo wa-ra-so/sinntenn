@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T14:22:12.810Z",
+  "generatedAt": "2026-07-18T21:56:22.562Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 49
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 61,
+  "itemCount": 63,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -705,6 +705,16 @@
   },
   "items": [
     {
+      "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
+      "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
+      "source": "求人ボックス（ベネミール）",
+      "pubDate": "Sat, 18 Jul 2026 18:12:42 GMT",
+      "area": "狭山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByd3Zaek9kckE4a1ZMeV9NNGotS1pRdWhqekpXSncyaTBEYmpiRVNiMDVTdF9kSVlhY1pQZXJvbkZuY28tNGhCWUlBbw?oc=5",
       "source": "47NEWS",
@@ -775,16 +785,6 @@
       "firstSeenAt": "2026-07-17T07:21:33.242Z"
     },
     {
-      "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
-      "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
-      "source": "求人ボックス（ベネミール）",
-      "pubDate": "Thu, 16 Jul 2026 18:13:36 GMT",
-      "area": "狭山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:40.742Z"
-    },
-    {
       "title": "ファステストダイニング株式会社 オープニングスタッフ募集（焼肉店の店長候補/キャリアパス多数/年収600万円可）",
       "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-66f052930851",
       "source": "求人ボックス（グルスタ）",
@@ -832,16 +832,6 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
-    },
-    {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-229877-1-113-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11224",
       "source": "求人ボックス（マイナビ転職.）",
@@ -887,6 +877,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -1066,6 +1066,16 @@
       "firstSeenAt": "2026-07-15T02:23:26.650Z"
     },
     {
+      "title": "株式会社イークル オープニングスタッフ募集（設備管理 居心地が良いと評判/異業種から転職多数/設備管理·…）",
+      "link": "https://saiyo.page/138446/job/129758858/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 08 Jul 2026 05:13:46 GMT",
+      "area": "桶川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T21:56:19.585Z"
+    },
+    {
       "title": "株式会社ViSTA オープニングスタッフ募集（20代～30代活躍中/カフェのオープンを企画「カフェスタッフ…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-450302-2-3-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11101",
       "source": "求人ボックス（マイナビ転職.）",
@@ -1113,6 +1123,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T22:07:21.721Z"
+    },
+    {
+      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/未経験から最短3ヶ月で副店長実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370cefa1381",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
+      "area": "富士見市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T21:56:19.585Z"
     },
     {
       "title": "「地鶏と網焼き 個室居酒屋 鶏匠 アズ熊谷店」オープニングスタッフ募集（調理師・調理スタッフ/焼き鳥・串焼・鳥料理/和食/飲食店/ボ…）",

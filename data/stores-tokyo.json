@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T14:21:56.579Z",
+  "generatedAt": "2026-07-18T21:56:08.961Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 49
+      "count": 48
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 43
+      "count": 40
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 72
+      "count": 67
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 15
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 158,
+  "itemCount": 160,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1468,6 +1468,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-18T14:21:56.357Z"
+    },
+    "マモテラス": {
+      "storeName": "マモテラス",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-18T21:56:08.641Z"
+    },
+    "フレボタ": {
+      "storeName": "フレボタ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-18T21:56:08.960Z"
     }
   },
   "market": {
@@ -1804,6 +1830,18 @@
       "firstSeenAt": "2026-07-17T07:21:15.281Z"
     },
     {
+      "title": "【7/17オープン】自由が丘に新店！フレンチクルーラーとジェラートが楽しめる「フレボタ」（ベティコ） - エキスパート",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUW9ZaGRqSVFNMDN5aGtJMzhZVUFvOU1Ic3NXTTNzRzlxYm9HUFpCMmtQRDZtNzlfOUxMUVFIWFkwUXdUY0JkN3FGUE84Rk84MGRTUG1iVDBoNzJuejdIcmNxbkkxRHI5cWNqd0V5by1oRUlYMGVWRDhQRVp1WTlZNjFBSDl1UXFF?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Fri, 17 Jul 2026 03:06:24 GMT",
+      "area": "目黒区",
+      "genres": [
+        "フレンチ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-18T21:56:04.092Z"
+    },
+    {
       "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/月8日以上休…）",
       "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-108834",
       "source": "求人ボックス（食べログ求人）",
@@ -1838,6 +1876,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-18T14:21:50.140Z"
+    },
+    {
+      "title": "日本初、吉祥寺にマーモット保護・啓発複合施設「マモテラス」が8月8日にグランドオープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TN0stNHRqWTM2ZTdCb3NCUFR2bnpNRENHYnhYRS1fSWNuenhYdWNLU2RWQVRNQTRvX3lkcUZRdlRNSFQzRlhtOW9MWUloUGt3bDI5YzBPNXg2NDVhTFNJeXVPMVFIcTRZclE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 17 Jul 2026 01:00:02 GMT",
+      "area": "武蔵野市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-18T21:56:04.094Z"
     },
     {
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
