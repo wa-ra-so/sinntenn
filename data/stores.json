@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T21:55:59.866Z",
+  "generatedAt": "2026-07-19T07:29:53.706Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 16
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,35 +63,59 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 94,
+  "itemCount": 95,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:20.967Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:50.830Z"
     },
     "焼鳥蕎麦二尺五寸": {
       "storeName": "焼鳥 蕎麦 二尺五寸",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:21.345Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.168Z"
     },
     "芯": {
       "storeName": "芯",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:21.411Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.427Z"
     },
     "佐倉市立美術館": {
       "storeName": "佐倉市立美術館",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:21.526Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.478Z"
     },
     "藁焼き酒場わらいち": {
       "storeName": "藁焼き酒場 わらいち",
@@ -111,42 +135,78 @@
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:21.893Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.518Z"
     },
     "pronto成田空港第2ターミナル店": {
       "storeName": "PRONTO 成田空港第２ターミナル店",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:21.949Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.816Z"
     },
     "ハー・グエン": {
       "storeName": "ハー・グエン",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:22.142Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.836Z"
     },
     "和食居酒屋大安": {
       "storeName": "和食居酒屋 大安",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:22.257Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.874Z"
     },
     "元祖焼豚センターうる寅商店": {
       "storeName": "元祖焼豚センター うる寅商店",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:22.506Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:52.177Z"
     },
     "古民家カフェハナレヤ": {
       "storeName": "古民家カフェ ハナレヤ",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:22.635Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:52.188Z"
     },
     "なのわ": {
       "storeName": "なのわ",
@@ -166,14 +226,26 @@
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:22.874Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:52.226Z"
     },
     "merengue": {
       "storeName": "Merengue",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:22.995Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:52.528Z"
     },
     "大衆割烹まるは": {
       "storeName": "大衆割烹まるは",
@@ -206,28 +278,52 @@
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:05:23.422Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:52.561Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:20:40.955Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:50.332Z"
     },
     "koalatreecafeanddining": {
       "storeName": "Koala Tree Cafe and Dining",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:20:41.263Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:51.135Z"
     },
     "おでん屋たけし船橋駅南口店": {
       "storeName": "おでん屋たけし 船橋駅南口店",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:20:41.334Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:50.775Z"
     },
     "ホルモン酒場ばぁ場": {
       "storeName": "ホルモン酒場 ばぁ場",
@@ -247,14 +343,26 @@
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:20:41.820Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:50.474Z"
     },
     "海鮮和食魚まみれ仲々小林店": {
       "storeName": "海鮮和食 魚まみれ 仲々 小林店",
       "listed": false,
       "url": "",
       "shopName": "",
-      "checkedAt": "2026-07-12T03:29:37.385Z"
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:29:50.692Z"
     },
     "イタリアン&ワイン食堂vivi": {
       "storeName": "イタリアン&ワイン食堂 ViVi",
@@ -533,71 +641,71 @@
   "market": {
     "船橋市|居酒屋": {
       "count": 176,
-      "checkedAt": "2026-07-12T03:52:47.252Z"
+      "checkedAt": "2026-07-19T07:29:52.747Z"
     },
     "市川市|バー": {
       "count": 43,
-      "checkedAt": "2026-07-12T03:52:47.283Z"
+      "checkedAt": "2026-07-19T07:29:52.945Z"
     },
     "佐倉市|居酒屋": {
       "count": 18,
-      "checkedAt": "2026-07-12T03:52:47.381Z"
+      "checkedAt": "2026-07-19T07:29:52.939Z"
     },
     "印西市|居酒屋": {
       "count": 7,
-      "checkedAt": "2026-07-12T03:52:47.411Z"
+      "checkedAt": "2026-07-19T07:29:52.971Z"
     },
     "船橋市|カフェ": {
       "count": 44,
-      "checkedAt": "2026-07-12T03:52:47.426Z"
+      "checkedAt": "2026-07-19T07:29:53.155Z"
     },
     "船橋市|イタリアン": {
       "count": 26,
-      "checkedAt": "2026-07-12T03:52:47.521Z"
+      "checkedAt": "2026-07-19T07:29:52.781Z"
     },
     "成田市|カフェ": {
       "count": 12,
-      "checkedAt": "2026-07-12T03:52:47.544Z"
+      "checkedAt": "2026-07-19T07:29:53.137Z"
     },
     "習志野市|カフェ": {
       "count": 13,
-      "checkedAt": "2026-07-12T03:52:47.554Z"
+      "checkedAt": "2026-07-19T07:29:53.161Z"
     },
     "南房総市|レストラン": {
       "count": 4,
-      "checkedAt": "2026-07-12T03:52:47.640Z"
+      "checkedAt": "2026-07-19T07:29:52.756Z"
     },
     "佐倉市|カフェ": {
       "count": 11,
-      "checkedAt": "2026-07-12T03:52:47.665Z"
+      "checkedAt": "2026-07-19T07:29:53.316Z"
     },
     "柏市|居酒屋": {
-      "count": 104,
-      "checkedAt": "2026-07-12T03:52:47.683Z"
+      "count": 102,
+      "checkedAt": "2026-07-19T07:29:53.339Z"
     },
     "市川市|焼肉": {
       "count": 30,
-      "checkedAt": "2026-07-12T03:52:47.756Z"
+      "checkedAt": "2026-07-19T07:29:53.344Z"
     },
     "八千代市|寿司": {
       "count": 5,
-      "checkedAt": "2026-07-12T03:52:47.784Z"
+      "checkedAt": "2026-07-19T07:29:53.500Z"
     },
     "松戸市|カフェ": {
       "count": 29,
-      "checkedAt": "2026-07-12T03:52:47.816Z"
+      "checkedAt": "2026-07-19T07:29:53.526Z"
     },
     "館山市|カフェ": {
       "count": 9,
-      "checkedAt": "2026-07-12T03:52:47.910Z"
+      "checkedAt": "2026-07-19T07:29:53.524Z"
     },
     "千葉市美浜区|レストラン": {
       "count": 8,
-      "checkedAt": "2026-07-12T03:52:47.944Z"
+      "checkedAt": "2026-07-19T07:29:53.696Z"
     },
     "松戸市|中華": {
       "count": 36,
-      "checkedAt": "2026-07-12T03:52:48.031Z"
+      "checkedAt": "2026-07-19T07:29:53.706Z"
     },
     "柏市|フレンチ": {
       "count": 8,
@@ -670,18 +778,26 @@
     "千葉市中央区|居酒屋": {
       "count": 157,
       "checkedAt": "2026-07-18T21:55:59.861Z"
-    },
-    "旭市|イタリアン": {
-      "count": 4,
-      "checkedAt": "2026-07-18T21:55:59.866Z"
     }
   },
   "items": [
     {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Sat, 18 Jul 2026 22:31:04 GMT",
+      "area": "館山市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:31.963Z"
+    },
+    {
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
       "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 18 Jul 2026 09:30:37 GMT",
+      "pubDate": "Sat, 18 Jul 2026 15:05:10 GMT",
       "area": "南房総市",
       "genres": [
         "レストラン"
@@ -700,18 +816,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-18T21:55:55.746Z"
-    },
-    {
-      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
-      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
-      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
-      "pubDate": "Fri, 17 Jul 2026 22:30:52 GMT",
-      "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
@@ -742,6 +846,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/154558/657528/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 16 Jul 2026 09:32:39 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-19T07:29:45.005Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
@@ -981,7 +1095,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 00:45:00 GMT",
       "area": "",
       "genres": [
@@ -1326,9 +1440,7 @@
       "source": "求人ボックス（採用ページコボット）",
       "pubDate": "Wed, 08 Jul 2026 05:10:25 GMT",
       "area": "旭市",
-      "genres": [
-        "イタリアン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },

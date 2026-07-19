@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T21:56:08.961Z",
+  "generatedAt": "2026-07-19T07:30:05.963Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 48
+      "count": 50
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 40
+      "count": 39
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 19
+      "count": 16
     },
     {
       "label": "バー系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 20
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -688,32 +688,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:35.429Z"
-    },
-    "サンス・エ・サヴール": {
-      "storeName": "サンス・エ・サヴール",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:35.657Z"
-    },
-    "焼鳥たぬき": {
-      "storeName": "焼鳥たぬき",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:35.745Z"
     },
     "スシスミビ自由が丘": {
       "storeName": "スシスミビ 自由が丘",
@@ -1494,6 +1468,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-18T21:56:08.960Z"
+    },
+    "焼肉みゆき苑": {
+      "storeName": "焼肉みゆき苑",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T07:30:05.078Z"
     }
   },
   "market": {
@@ -1605,10 +1592,6 @@
       "count": 50,
       "checkedAt": "2026-07-13T15:05:38.162Z"
     },
-    "千代田区|レストラン": {
-      "count": 53,
-      "checkedAt": "2026-07-13T15:05:38.292Z"
-    },
     "中央区|レストラン": {
       "count": 383,
       "checkedAt": "2026-07-13T15:05:38.336Z"
@@ -1708,6 +1691,14 @@
     "渋谷区|ビストロ": {
       "count": 60,
       "checkedAt": "2026-07-18T14:21:56.579Z"
+    },
+    "武蔵野市|カフェ": {
+      "count": 44,
+      "checkedAt": "2026-07-19T07:30:05.289Z"
+    },
+    "武蔵野市|焼肉": {
+      "count": 28,
+      "checkedAt": "2026-07-19T07:30:05.963Z"
     }
   },
   "items": [
@@ -1715,7 +1706,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Sat, 18 Jul 2026 09:52:10 GMT",
+      "pubDate": "Sat, 18 Jul 2026 20:52:54 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1748,18 +1739,6 @@
       "firstSeenAt": "2026-07-16T15:07:03.945Z"
     },
     {
-      "title": "東京・関東“おしゃれでおいしい”カフェ＆スイーツ特集、2026年オープンのおすすめグルメスポット",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZZ3ZKeUhoWGhXUWhWT21FX0dLTzJaOTJxT1hocHNPLXpRYnJqUlpLbS1pY3RaS1pvaW93Zmo5MFhTOWlCSi1GSFNIYk1kMXA3SFVN?oc=5",
-      "source": "ファッションプレス",
-      "pubDate": "Fri, 17 Jul 2026 10:54:32 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T13:21:41.402Z"
-    },
-    {
       "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
       "source": "Web-Komachi",
@@ -1770,6 +1749,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T14:47:14.066Z"
+    },
+    {
+      "title": "日本初、吉祥寺に新オープン「マモテラス」雑貨やカフェ、マーモット村の複合商業施設で全3フロア詳細発表",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tWFRWeEplV1FQSUFES0I0SnhtN3ZWbGF3WkFrV1kxS3pKTnBsZjF3NGhFTTNtM25SQ002by02VExPRVBtMkR6OVhXYi12akx4WW9TOEtoQURPMjhNcjlydw?oc=5",
+      "source": "吉祥寺ファンページ",
+      "pubDate": "Fri, 17 Jul 2026 07:26:32 GMT",
+      "area": "武蔵野市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-19T07:29:58.519Z"
     },
     {
       "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
@@ -2425,7 +2416,7 @@
       "title": "【占いから食卓へ】おばんざいとおむすびBAR美月が武蔵小山にオープン",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxS2RzbUhBUmFiU3FkNjdGdENDNVNVWEhfaGhrSjZuVVc4dm11S2tMa3ZwaVNQTnBxTzRFLXpvV2d0Z1p4OWJ2a3o3SjRkVVV5LXhTWmtNTEI4RE5aMUZJYWJCMVZjTEJ3M2E3RnFDQm96UTdCUjlSQnRBZw?oc=5",
       "source": "ニコニコニュース",
-      "pubDate": "Tue, 07 Jul 2026 00:03:25 GMT",
+      "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
       "area": "品川区",
       "genres": [],
       "signal": "opening",
@@ -2538,7 +2529,7 @@
     {
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1uam12MzUzd1FUcnhtVmh1aTJqaDI2N3VfT3h2T2hQcE45YTg2cjY2bEVJVkgwMkhsZ3lMSFNpcVVISWVKQkF6Y2gyT3JyNWc?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [],
@@ -2766,6 +2757,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.044Z"
+    },
+    {
+      "title": "【Atelier LILIUM】6月25日「百合の日」、池袋の百合ブックカフェにオリジナルキャラクター姉妹「真白さつき・真白ミナ」が誕生【漫画家・ミトがデザイン】",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6NllObHIzSEJudlNXVGJzN2x5YjlOclVDX2FiTEhRU2FHbXFsTk41Q3pMb21sLXkwNkxBVlNiN0QxUDJjcHBnc3U2anN6WW1zd0p2aQ?oc=5",
+      "source": "ニコニコニュース",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "area": "豊島区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-19T07:29:58.521Z"
     },
     {
       "title": "タクラマ館(町田駅/居酒屋)＜ネット予約可",
@@ -3015,6 +3018,18 @@
       "firstSeenAt": "2026-07-18T07:02:18.436Z"
     },
     {
+      "title": "吉祥寺のあの「焼肉みゆき苑」による新業態、“生タンとハラミの専門店”が西荻高架下にオープンへ",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5RUm14QlY0QVNMSF9MXy1RV3ZMNG5waWwzTU53bXlKT0xrN0tsX2hmNVM4RElUNG5BYzVQell0VDZxUDU3ZmFvVVNoV3hrOEo0a0Q3NG5waXIzbk0xVnp5WW9wTWRCT2ZVdEUw?oc=5",
+      "source": "吉祥寺ファンページ",
+      "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
+      "area": "武蔵野市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-19T07:29:58.519Z"
+    },
+    {
       "title": "谷中銀座に古民家リノベカフェ 「八三六（Hachi San Roku）」が2026年6月11日オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WemxnT0h0aEFsdUczbm16dGtjdHRCbzJsSkh5Z2RJcDk4VFB5N2NqR1BDa1lQNnF6S01hb05malFfSmpJeGVYd0xNbk9NM1dvWXptY2ZPeURrYzN4dUFaaHdrbmFjMGJVbWc?oc=5",
       "source": "PR TIMES",
@@ -3029,7 +3044,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
@@ -3208,7 +3223,7 @@
     {
       "title": "【東中野】現役テレビマンが進化し続けるタコス店「新作タコス実験中」をオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5OQm4tdkcxQXduNzJHREtfT0pSOEZRd0pITlgta09xMThWc1djc0tMTkxsWDN6VUVLa01VUmFVNlREdi1hWlF3?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -3531,30 +3546,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T15:07:03.989Z"
-    },
-    {
-      "title": "東京・丸の内「サンス・エ・サヴール」が2026年10月にリニューアルオープン。ジャック＆ローラン・プルセル氏の哲学を、より深く体現するレストランへ",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3RFpwSnlKeEc2QVFwWHNWV2FoLUI5aThxb3ZZSFE2U2h4RW5pbnhLdng1TElGU1FEVE9OUHFqTGdjZ1JVWXdGd0RGU0RsREpndDdFYVRUQzlrN0hoZXVNMDZtR0htZG5aQ0E?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Wed, 20 May 2026 07:00:00 GMT",
-      "area": "千代田区",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
-    },
-    {
-      "title": "【東京都港区】「焼鳥たぬき」がオープン！「錦爽どり」の焼き鳥から定番居酒屋メニューまで楽しめる",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03UnZaZ0l3RXpzZ3lwSkZObjZhWmVDSkZSZ3A5V1dJcXM3SXZWWDVxUFBWcHZCTS1sZjVXaFcxejdxR1JkQjFZM2RQQ0RxdG04ellN?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Wed, 20 May 2026 07:00:00 GMT",
-      "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
     }
   ]
 }

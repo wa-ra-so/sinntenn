@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-18T21:56:15.794Z",
+  "generatedAt": "2026-07-19T07:30:13.667Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 95
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 77
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 54
+      "count": 52
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 18
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -643,10 +643,6 @@
       "count": 149,
       "checkedAt": "2026-07-15T09:53:27.240Z"
     },
-    "鎌倉市|イタリアン": {
-      "count": 25,
-      "checkedAt": "2026-07-16T09:14:48.633Z"
-    },
     "横浜市中区|イタリアン": {
       "count": 58,
       "checkedAt": "2026-07-16T09:14:49.178Z"
@@ -666,10 +662,6 @@
     "横浜市戸塚区|ダイニング": {
       "count": 7,
       "checkedAt": "2026-07-17T21:58:17.260Z"
-    },
-    "横浜市|中華": {
-      "count": 413,
-      "checkedAt": "2026-07-18T21:56:15.794Z"
     }
   },
   "items": [
@@ -678,7 +670,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96513",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Sat, 18 Jul 2026 09:30:35 GMT",
-      "area": "横浜市",
+      "area": "横浜市中区",
       "genres": [
         "中華"
       ],
@@ -778,7 +770,7 @@
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
+      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
@@ -920,7 +912,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Fri, 10 Jul 2026 01:30:44 GMT",
-      "area": "鎌倉市",
+      "area": "横浜市",
       "genres": [
         "イタリアン"
       ],
@@ -945,9 +937,7 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -1286,7 +1276,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市中原区",
+      "area": "川崎市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -1386,7 +1376,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
+      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
