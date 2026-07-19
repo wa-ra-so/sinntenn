@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T07:30:13.667Z",
+  "generatedAt": "2026-07-19T14:25:32.714Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,37 +24,37 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 77
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 15
+      "count": 14
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 52
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 73,
+  "itemCount": 77,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -584,6 +584,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-18T07:02:29.061Z"
+    },
+    "ほほえみみらい保育園": {
+      "storeName": "ほほえみみらい保育園",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T14:25:32.373Z"
+    },
+    "cafebarrieno(リエノ)": {
+      "storeName": "Cafe Bar Rieno （リエノ）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-19T14:25:32.573Z"
     }
   },
   "market": {
@@ -662,6 +688,10 @@
     "横浜市戸塚区|ダイニング": {
       "count": 7,
       "checkedAt": "2026-07-17T21:58:17.260Z"
+    },
+    "鎌倉市|イタリアン": {
+      "count": 25,
+      "checkedAt": "2026-07-19T14:25:32.714Z"
     }
   },
   "items": [
@@ -912,7 +942,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Fri, 10 Jul 2026 01:30:44 GMT",
-      "area": "横浜市",
+      "area": "鎌倉市",
       "genres": [
         "イタリアン"
       ],
@@ -1064,6 +1094,16 @@
       "firstSeenAt": "2026-07-17T14:47:24.941Z"
     },
     {
+      "title": "株式会社物語コーポレーション オープニングスタッフ募集（キッチン仕込みスタッフ）",
+      "link": "https://syodai-marugen-partner.net/brand-jobfind/job/All/344508",
+      "source": "求人ボックス（株式会社物語コーポレーション）",
+      "pubDate": "Mon, 06 Jul 2026 20:08:37 GMT",
+      "area": "鎌倉市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-19T14:25:29.043Z"
+    },
+    {
       "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",
       "link": "https://job.tabelog.com/restaurants?id=14072696#job-info-91025",
       "source": "求人ボックス（食べログ求人）",
@@ -1148,6 +1188,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
+    },
+    {
+      "title": "八十八商店株式会社 オープニングスタッフ募集（お米屋さんのおにぎり製造/主婦・主夫活躍中/04:30～08…）",
+      "link": "https://part.shufu-job.jp/kanagawa/city-kawasakishi_nakaharaku/order-17663149?cid=10335004",
+      "source": "求人ボックス（しゅふJOB.）",
+      "pubDate": "Mon, 29 Jun 2026 08:33:10 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-19T14:25:29.043Z"
     },
     {
       "title": "「マルミヤ酒場」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/月8日以上休み…）",
@@ -1276,7 +1326,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市",
+      "area": "川崎市中原区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -1290,6 +1340,26 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T15:07:12.658Z"
+    },
+    {
+      "title": "【鎌倉市】「Cafe Bar Rieno （リエノ）」が2026年6月11日OPEN！笑みがこぼれる”家庭円満ヘルシーコロッケ”",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oZnlLdmhDaldqYndkQzVMYTVhWkh2dmhCVGtaX0xpaXFjOE9nT0syTlpBXzJUcWV1Vm9BS0VzMjZyM0ZuWXEzZEZTYU4tMDB6N201VHNVZEJzYlhBcVk1RXZIQVo5RTg?oc=5",
+      "source": "湘南人",
+      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
+      "area": "鎌倉市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-19T14:25:29.082Z"
+    },
+    {
+      "title": "「ほほえみみらい保育園」オープニングスタッフ募集（保育士募集・ボーナス・賞与あり）",
+      "link": "https://job-medley.com/cw/1667452/?utm_campaign=cw&utm_medium=cpc&utm_source=box",
+      "source": "求人ボックス（ジョブメドレー）",
+      "pubDate": "Thu, 11 Jun 2026 04:15:28 GMT",
+      "area": "海老名市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-19T14:25:29.043Z"
     },
     {
       "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
