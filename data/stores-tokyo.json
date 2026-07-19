@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T14:25:25.442Z",
+  "generatedAt": "2026-07-19T21:58:30.519Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,13 +36,13 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 38
+      "count": 40
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 16
+      "count": 14
     },
     {
       "label": "バー系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 14
+      "count": 20
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -1773,18 +1773,6 @@
       "firstSeenAt": "2026-07-19T07:29:58.519Z"
     },
     {
-      "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IaGVNRE9NWXRZcjFsWGdqanozRjgybGkyVGxlLWpHWi1nd29Fa2NUeHFQWEdURExuRG9fWWliTXprbk5ZTGxucXlQWHZ5dUlSWm5iNWFjSEI1RXc3TVF1djFieFZpYnZSdzNzcGhKalUtVzA?oc=5",
-      "source": "fashionsnap.com",
-      "pubDate": "Fri, 17 Jul 2026 05:21:26 GMT",
-      "area": "渋谷区",
-      "genres": [
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:05:49.249Z"
-    },
-    {
       "title": "【東京都台東区】熟成肉レストラン「肉だけ」で、ブラックアンガス200gとワインを含むフリードリンク付のフルコースを5,000円(税込)で提供",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iOHUxUWV1c09QN0EzVmt5aUE4ZHNZWndUZlM5SXVFQTc2bWl3dVlVTDRlT1oxUFhEeG1mWEwwM0toNDl4ZFZzZHZEMU5fSHlvYlE4?oc=5",
       "source": "STRAIGHT PRESS",
@@ -1887,6 +1875,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-18T21:56:04.094Z"
+    },
+    {
+      "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IaGVNRE9NWXRZcjFsWGdqanozRjgybGkyVGxlLWpHWi1nd29Fa2NUeHFQWEdURExuRG9fWWliTXprbk5ZTGxucXlQWHZ5dUlSWm5iNWFjSEI1RXc3TVF1djFieFZpYnZSdzNzcGhKalUtVzA?oc=5",
+      "source": "fashionsnap.com",
+      "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
@@ -2003,7 +2003,9 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 15 Jul 2026 01:30:42 GMT",
       "area": "渋谷区",
-      "genres": [],
+      "genres": [
+        "レストラン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -2692,7 +2694,7 @@
     {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],

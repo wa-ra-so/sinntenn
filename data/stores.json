@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T14:25:17.716Z",
+  "generatedAt": "2026-07-19T21:58:22.939Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 11
+      "count": 13
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 52
+      "count": 56
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 95,
+  "itemCount": 96,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -427,7 +427,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-12T21:40:46.295Z"
+      "checkedAt": "2026-07-19T21:58:22.091Z"
     },
     "店舗運営": {
       "storeName": "店舗運営",
@@ -709,15 +709,15 @@
     },
     "柏市|フレンチ": {
       "count": 8,
-      "checkedAt": "2026-07-12T21:40:46.486Z"
+      "checkedAt": "2026-07-19T21:58:22.939Z"
     },
     "君津市|レストラン": {
       "count": 2,
-      "checkedAt": "2026-07-12T21:40:46.491Z"
+      "checkedAt": "2026-07-19T21:58:22.935Z"
     },
     "柏市|中華": {
       "count": 21,
-      "checkedAt": "2026-07-12T21:40:46.533Z"
+      "checkedAt": "2026-07-19T21:58:22.291Z"
     },
     "船橋市|ダイニング": {
       "count": 27,
@@ -782,6 +782,16 @@
   },
   "items": [
     {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Sun, 19 Jul 2026 19:08:03 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
       "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
@@ -797,7 +807,7 @@
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
       "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 18 Jul 2026 15:05:10 GMT",
+      "pubDate": "Sat, 18 Jul 2026 09:30:37 GMT",
       "area": "南房総市",
       "genres": [
         "レストラン"
@@ -816,16 +826,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-18T21:55:55.746Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Fri, 17 Jul 2026 18:58:17 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "株式会社TCG オープニングスタッフ募集（「アドバイザー」営業108名中32名が年収1000万以上実績…）",
@@ -1115,6 +1115,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-12T21:40:41.849Z"
+    },
+    {
+      "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
+      "link": "https://grsta.jp/manuscript/0a06020a-9f45-198c-819f-45febcb600a9",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 10 Jul 2026 23:00:25 GMT",
+      "area": "柏市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-19T21:58:18.092Z"
     },
     {
       "title": "「Barおいでやす」オープニングスタッフ募集（ホール/バーテンダー/店長・マネージャー候補 完全新規OPE…）",
