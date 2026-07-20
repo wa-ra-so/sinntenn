@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T08:09:52.283Z",
+  "generatedAt": "2026-07-20T15:15:10.797Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 15
+      "count": 14
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 72
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 16
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 161,
+  "itemCount": 162,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -89,7 +89,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:29.436Z"
+      "checkedAt": "2026-07-20T15:15:05.722Z"
     },
     "sosta~pizza&legame~": {
       "storeName": "SOSTA ～pizza＆legame～",
@@ -102,7 +102,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:29.730Z"
+      "checkedAt": "2026-07-20T15:15:05.950Z"
     },
     "thebuffet点心甜心": {
       "storeName": "THE BUFFET 点心甜心",
@@ -115,7 +115,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:29.948Z"
+      "checkedAt": "2026-07-20T15:15:06.193Z"
     },
     "thebuffet点心甜心三鷹店": {
       "storeName": "THE BUFFET 点心甜心 三鷹店",
@@ -128,7 +128,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:30.070Z"
+      "checkedAt": "2026-07-20T15:15:06.231Z"
     },
     "蓮雀(れんじゃく)": {
       "storeName": "蓮雀（れんじゃく）",
@@ -141,7 +141,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:30.280Z"
+      "checkedAt": "2026-07-20T15:15:05.977Z"
     },
     "thebuffet(ザブッフェ)点心甜心三鷹店": {
       "storeName": "THE BUFFET（ザ ブッフェ）点心甜心 三鷹店",
@@ -154,7 +154,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:30.307Z"
+      "checkedAt": "2026-07-20T15:15:06.213Z"
     },
     "焼鳥どん吉祥寺店": {
       "storeName": "焼鳥どん 吉祥寺店",
@@ -167,7 +167,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:30.442Z"
+      "checkedAt": "2026-07-20T15:15:05.694Z"
     },
     "10cmspice&buns": {
       "storeName": "10cm SPICE & BUNS",
@@ -180,7 +180,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:30.626Z"
+      "checkedAt": "2026-07-20T15:15:06.461Z"
     },
     "ドレバイシャルルアンリ": {
       "storeName": "ドレ バイ シャルルアンリ",
@@ -193,7 +193,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:30.652Z"
+      "checkedAt": "2026-07-20T15:15:06.465Z"
     },
     "bandacoffee&goods": {
       "storeName": "Banda Coffee&Goods",
@@ -206,7 +206,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:30.975Z"
+      "checkedAt": "2026-07-20T15:15:06.488Z"
     },
     "instantclassicbywcb": {
       "storeName": "Instant Classic by WCB",
@@ -219,7 +219,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:31.014Z"
+      "checkedAt": "2026-07-20T15:15:06.589Z"
     },
     "トイ・ストーリー5": {
       "storeName": "トイ・ストーリー5",
@@ -232,7 +232,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:31.343Z"
+      "checkedAt": "2026-07-20T15:15:06.732Z"
     },
     "moshburger&bar": {
       "storeName": "MOSH Burger＆Bar",
@@ -245,7 +245,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:31.371Z"
+      "checkedAt": "2026-07-20T15:15:06.740Z"
     },
     "未経験ok": {
       "storeName": "未経験OK",
@@ -258,7 +258,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:31.690Z"
+      "checkedAt": "2026-07-20T15:15:05.926Z"
     },
     "餃子のイペコ": {
       "storeName": "餃子のイペコ",
@@ -271,7 +271,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:31.735Z"
+      "checkedAt": "2026-07-20T15:15:07.002Z"
     },
     "調和": {
       "storeName": "調和",
@@ -284,7 +284,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:31.988Z"
+      "checkedAt": "2026-07-20T15:15:07.084Z"
     },
     "シロネリ": {
       "storeName": "シロネリ",
@@ -297,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.081Z"
+      "checkedAt": "2026-07-20T15:15:07.002Z"
     },
     "pochaccocafe": {
       "storeName": "POCHACCO CAFE",
@@ -310,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.254Z"
+      "checkedAt": "2026-07-20T15:15:07.224Z"
     },
     "kitainari本店": {
       "storeName": "KITAINARI本店",
@@ -323,7 +323,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.327Z"
+      "checkedAt": "2026-07-20T15:15:07.260Z"
     },
     "地元エリア人気店": {
       "storeName": "地元エリア人気店",
@@ -336,7 +336,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.404Z"
+      "checkedAt": "2026-07-20T15:15:07.262Z"
     },
     "mametokyo": {
       "storeName": "MAME Tokyo",
@@ -349,7 +349,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.437Z"
+      "checkedAt": "2026-07-20T15:15:07.349Z"
     },
     "btrack": {
       "storeName": "B TRACK",
@@ -362,7 +362,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.681Z"
+      "checkedAt": "2026-07-20T15:15:07.521Z"
     },
     "エクベリ": {
       "storeName": "エクベリ",
@@ -375,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.759Z"
+      "checkedAt": "2026-07-20T15:15:07.518Z"
     },
     "居酒屋ノスケ": {
       "storeName": "居酒屋ノスケ",
@@ -388,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.783Z"
+      "checkedAt": "2026-07-20T15:15:07.619Z"
     },
     "ジグザグ×サンリオキャラクタァズcafe": {
       "storeName": "ジグザグ×サンリオキャラクタァズCAFE",
@@ -401,7 +401,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:32.942Z"
+      "checkedAt": "2026-07-20T15:15:07.648Z"
     },
     "中華西八チャオ": {
       "storeName": "中華 西八チャオ",
@@ -414,7 +414,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:33.031Z"
+      "checkedAt": "2026-07-20T15:15:07.789Z"
     },
     "八三六(hachisanroku)": {
       "storeName": "八三六（Hachi San Roku）",
@@ -427,7 +427,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:33.303Z"
+      "checkedAt": "2026-07-20T15:15:07.876Z"
     },
     "peachhousecafe": {
       "storeName": "PEACH HOUSE CAFE",
@@ -440,7 +440,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:33.385Z"
+      "checkedAt": "2026-07-20T15:15:07.910Z"
     },
     "新宿": {
       "storeName": "新宿",
@@ -466,7 +466,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:33.642Z"
+      "checkedAt": "2026-07-20T15:15:08.052Z"
     },
     "parkstandcoffee&bakery": {
       "storeName": "PARKSTAND Coffee ＆ Bakery",
@@ -479,7 +479,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:33.735Z"
+      "checkedAt": "2026-07-20T15:15:08.137Z"
     },
     "karuruka": {
       "storeName": "KARU RUKA",
@@ -492,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:33.834Z"
+      "checkedAt": "2026-07-20T15:15:08.163Z"
     },
     "パークスタンドトーキョー": {
       "storeName": "パークスタンド トーキョー",
@@ -505,7 +505,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.012Z"
+      "checkedAt": "2026-07-20T15:15:08.315Z"
     },
     "新作タコス実験中": {
       "storeName": "新作タコス実験中",
@@ -518,7 +518,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.082Z"
+      "checkedAt": "2026-07-20T15:15:08.392Z"
     },
     "鮨よしかわ新-arata-六本木": {
       "storeName": "鮨よしかわ 新 -ARATA- 六本木",
@@ -531,7 +531,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.173Z"
+      "checkedAt": "2026-07-20T15:15:08.426Z"
     },
     "築地すしくろ名古屋haera店": {
       "storeName": "築地すしくろ名古屋HAERA店",
@@ -544,7 +544,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.401Z"
+      "checkedAt": "2026-07-20T15:15:08.617Z"
     },
     "刀剣乱舞online": {
       "storeName": "刀剣乱舞ONLINE",
@@ -557,7 +557,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.437Z"
+      "checkedAt": "2026-07-20T15:15:08.646Z"
     },
     "forme.": {
       "storeName": "FORME.",
@@ -570,7 +570,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.585Z"
+      "checkedAt": "2026-07-20T15:15:08.554Z"
     },
     "merengue": {
       "storeName": "Merengue",
@@ -583,7 +583,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.602Z"
+      "checkedAt": "2026-07-20T15:15:08.679Z"
     },
     "ビーテーブル": {
       "storeName": "ビーテーブル",
@@ -596,7 +596,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.719Z"
+      "checkedAt": "2026-07-20T15:15:08.747Z"
     },
     "boninbluecafe": {
       "storeName": "BONIN BLUE CAFE",
@@ -609,7 +609,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:34.760Z"
+      "checkedAt": "2026-07-20T15:15:08.790Z"
     },
     "帝國": {
       "storeName": "帝國",
@@ -635,7 +635,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:35.033Z"
+      "checkedAt": "2026-07-20T15:15:08.966Z"
     },
     "与楽": {
       "storeName": "与楽",
@@ -648,7 +648,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:35.068Z"
+      "checkedAt": "2026-07-20T15:15:09.001Z"
     },
     "gooddaycurry": {
       "storeName": "Good Day Curry",
@@ -661,7 +661,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:35.297Z"
+      "checkedAt": "2026-07-20T15:15:09.055Z"
     },
     "銀座quinto": {
       "storeName": "銀座quinto",
@@ -674,7 +674,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:35.390Z"
+      "checkedAt": "2026-07-20T15:15:09.219Z"
     },
     "回転寿司aburi百貫": {
       "storeName": "回転寿司ABURI百貫",
@@ -687,7 +687,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:35.429Z"
+      "checkedAt": "2026-07-20T15:15:09.262Z"
     },
     "スシスミビ自由が丘": {
       "storeName": "スシスミビ 自由が丘",
@@ -1499,115 +1499,115 @@
   "market": {
     "新宿区|居酒屋": {
       "count": 645,
-      "checkedAt": "2026-07-13T15:05:36.526Z"
+      "checkedAt": "2026-07-20T15:15:09.420Z"
     },
     "港区|居酒屋": {
       "count": 777,
-      "checkedAt": "2026-07-13T15:05:36.557Z"
+      "checkedAt": "2026-07-20T15:15:09.600Z"
     },
     "新宿区|カフェ": {
       "count": 155,
-      "checkedAt": "2026-07-13T15:05:36.605Z"
+      "checkedAt": "2026-07-20T15:15:09.771Z"
     },
     "品川区|バル": {
       "count": 41,
-      "checkedAt": "2026-07-13T15:05:36.726Z"
+      "checkedAt": "2026-07-20T15:15:09.772Z"
     },
     "三鷹市|中華": {
       "count": 6,
-      "checkedAt": "2026-07-13T15:05:36.784Z"
+      "checkedAt": "2026-07-20T15:15:09.903Z"
     },
     "中央区|バー": {
-      "count": 1603,
-      "checkedAt": "2026-07-13T15:05:36.840Z"
+      "count": 1605,
+      "checkedAt": "2026-07-20T15:15:09.895Z"
     },
     "渋谷区|フレンチ": {
       "count": 43,
-      "checkedAt": "2026-07-13T15:05:36.932Z"
+      "checkedAt": "2026-07-20T15:15:09.904Z"
     },
     "三鷹市|カフェ": {
       "count": 11,
-      "checkedAt": "2026-07-13T15:05:37.000Z"
+      "checkedAt": "2026-07-20T15:15:10.054Z"
     },
     "足立区|焼肉": {
       "count": 71,
-      "checkedAt": "2026-07-13T15:05:37.017Z"
+      "checkedAt": "2026-07-20T15:15:10.045Z"
     },
     "中央区|バル": {
-      "count": 375,
-      "checkedAt": "2026-07-13T15:05:37.097Z"
+      "count": 376,
+      "checkedAt": "2026-07-20T15:15:10.178Z"
     },
     "中野区|中華": {
       "count": 32,
-      "checkedAt": "2026-07-13T15:05:37.218Z"
+      "checkedAt": "2026-07-20T15:15:10.185Z"
     },
     "町田市|居酒屋": {
       "count": 102,
-      "checkedAt": "2026-07-13T15:05:37.224Z"
+      "checkedAt": "2026-07-20T15:15:10.206Z"
     },
     "八王子市|中華": {
       "count": 25,
-      "checkedAt": "2026-07-13T15:05:37.282Z"
+      "checkedAt": "2026-07-20T15:15:10.315Z"
     },
     "目黒区|居酒屋": {
       "count": 116,
-      "checkedAt": "2026-07-13T15:05:37.383Z"
+      "checkedAt": "2026-07-20T15:15:09.421Z"
     },
     "渋谷区|寿司": {
       "count": 53,
-      "checkedAt": "2026-07-13T15:05:37.412Z"
+      "checkedAt": "2026-07-20T15:15:09.565Z"
     },
     "渋谷区|カフェ": {
-      "count": 228,
-      "checkedAt": "2026-07-13T15:05:37.521Z"
+      "count": 227,
+      "checkedAt": "2026-07-20T15:15:10.372Z"
     },
     "中央区|カフェ": {
-      "count": 691,
-      "checkedAt": "2026-07-13T15:05:37.577Z"
+      "count": 693,
+      "checkedAt": "2026-07-20T15:15:10.443Z"
     },
     "中央区|居酒屋": {
-      "count": 2405,
-      "checkedAt": "2026-07-13T15:05:37.600Z"
+      "count": 2397,
+      "checkedAt": "2026-07-20T15:15:09.580Z"
     },
     "港区|カフェ": {
       "count": 175,
-      "checkedAt": "2026-07-13T15:05:37.754Z"
+      "checkedAt": "2026-07-20T15:15:09.449Z"
     },
     "江東区|カフェ": {
       "count": 62,
-      "checkedAt": "2026-07-13T15:05:37.787Z"
+      "checkedAt": "2026-07-20T15:15:10.479Z"
     },
     "港区|寿司": {
-      "count": 102,
-      "checkedAt": "2026-07-13T15:05:37.797Z"
+      "count": 103,
+      "checkedAt": "2026-07-20T15:15:10.515Z"
     },
     "中央区|寿司": {
       "count": 450,
-      "checkedAt": "2026-07-13T15:05:37.919Z"
+      "checkedAt": "2026-07-20T15:15:09.708Z"
     },
     "豊島区|カフェ": {
-      "count": 89,
-      "checkedAt": "2026-07-13T15:05:37.961Z"
+      "count": 88,
+      "checkedAt": "2026-07-20T15:15:10.058Z"
     },
     "国立市|レストラン": {
       "count": 4,
-      "checkedAt": "2026-07-13T15:05:37.971Z"
+      "checkedAt": "2026-07-20T15:15:10.582Z"
     },
     "台東区|居酒屋": {
       "count": 309,
-      "checkedAt": "2026-07-13T15:05:38.099Z"
+      "checkedAt": "2026-07-20T15:15:10.614Z"
     },
     "江東区|居酒屋": {
-      "count": 204,
-      "checkedAt": "2026-07-13T15:05:38.126Z"
+      "count": 203,
+      "checkedAt": "2026-07-20T15:15:10.651Z"
     },
     "世田谷区|中華": {
       "count": 50,
-      "checkedAt": "2026-07-13T15:05:38.162Z"
+      "checkedAt": "2026-07-20T15:15:10.711Z"
     },
     "中央区|レストラン": {
-      "count": 383,
-      "checkedAt": "2026-07-13T15:05:38.336Z"
+      "count": 382,
+      "checkedAt": "2026-07-20T15:15:10.797Z"
     },
     "千代田区|居酒屋": {
       "count": 565,
@@ -1715,7 +1715,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Sun, 19 Jul 2026 20:51:46 GMT",
+      "pubDate": "Mon, 20 Jul 2026 09:52:50 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1748,6 +1748,18 @@
       "firstSeenAt": "2026-07-18T14:21:50.140Z"
     },
     {
+      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
+      "source": "Web-Komachi",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "area": "港区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.066Z"
+    },
+    {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
       "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
       "source": "求人ボックス（GUPPY）",
@@ -1756,18 +1768,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T15:07:03.945Z"
-    },
-    {
-      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
-      "source": "Web-Komachi",
-      "pubDate": "Fri, 17 Jul 2026 08:03:08 GMT",
-      "area": "港区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T14:47:14.066Z"
     },
     {
       "title": "日本初、吉祥寺に新オープン「マモテラス」雑貨やカフェ、マーモット村の複合商業施設で全3フロア詳細発表",
@@ -2012,7 +2012,9 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 15 Jul 2026 01:30:42 GMT",
       "area": "渋谷区",
-      "genres": [],
+      "genres": [
+        "レストラン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -2687,6 +2689,19 @@
     },
     {
       "title": "【MOS】昼は本格バーガー、夜はバルとして楽しめる都市型新業態「MOSH Burger＆Bar」を東京・銀座にオープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wMGJTYnlwOFQ3NFg4RXBfUUM0dkhaSzhWel95dHFZRmctRVFRSm5CVDFwMkdqbjV0OVpPNnY0WVloRUhNMjZhbzhWSGRrRDZydlNaZUFuSG5pV0NaWVBOa0tMVkNYdjFYUkE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
+      "area": "中央区",
+      "genres": [
+        "バル",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-20T15:14:59.850Z"
+    },
+    {
+      "title": "【MOS】昼は本格バーガー、夜はバルとして楽しめる都市型新業態「MOSH Burger＆Bar」を東京・銀座にオープン",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NZ0R6Q0FMeWw0REU4Nk4ycEE5WEpYbDJCZmVxUG5STTFlZDFxQ0l2NlZrWXhvODFveXBTNklvemF0U0JtbUVFN0ZwalRpVDNDODNwUU5n?oc=5",
       "source": "フーズチャネル",
       "pubDate": "Mon, 29 Jun 2026 05:15:54 GMT",
@@ -3261,7 +3276,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
     },
     {
-      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン",
+      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",

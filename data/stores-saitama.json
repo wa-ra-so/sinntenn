@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T08:10:07.539Z",
+  "generatedAt": "2026-07-20T15:15:31.895Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 70
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 47
+      "count": 48
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 62,
+  "itemCount": 64,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -76,7 +76,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:55.666Z"
+      "checkedAt": "2026-07-20T15:15:29.923Z"
     },
     "店舗運営": {
       "storeName": "店舗運営",
@@ -89,7 +89,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:55.850Z"
+      "checkedAt": "2026-07-20T15:15:29.448Z"
     },
     "レストラン": {
       "storeName": "レストラン",
@@ -115,7 +115,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:56.190Z"
+      "checkedAt": "2026-07-20T15:15:29.763Z"
     },
     "み鳥": {
       "storeName": "み鳥",
@@ -154,7 +154,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:56.442Z"
+      "checkedAt": "2026-07-20T15:15:30.093Z"
     },
     "カフェ・ラデュレ": {
       "storeName": "カフェ・ラデュレ",
@@ -167,7 +167,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:56.734Z"
+      "checkedAt": "2026-07-20T15:15:30.092Z"
     },
     "369basepipi": {
       "storeName": "369BASE pipi",
@@ -180,7 +180,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:56.772Z"
+      "checkedAt": "2026-07-20T15:15:30.192Z"
     },
     "セルフカフェ": {
       "storeName": "セルフカフェ",
@@ -193,7 +193,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:56.965Z"
+      "checkedAt": "2026-07-20T15:15:30.406Z"
     },
     "焼肉定食ぎゅうまおう": {
       "storeName": "焼肉定食ぎゅうまおう",
@@ -206,7 +206,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:57.082Z"
+      "checkedAt": "2026-07-20T15:15:30.365Z"
     },
     "新越谷varie": {
       "storeName": "新越谷VARIE",
@@ -232,7 +232,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:57.330Z"
+      "checkedAt": "2026-07-20T15:15:30.467Z"
     },
     "蕎⻨きりみよた与野店": {
       "storeName": "蕎⻨きり みよた 与野店",
@@ -245,7 +245,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:57.341Z"
+      "checkedAt": "2026-07-20T15:15:29.818Z"
     },
     "担々麺と麻婆豆腐ととら": {
       "storeName": "担々麺と麻婆豆腐 ととら",
@@ -258,7 +258,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:57.595Z"
+      "checkedAt": "2026-07-20T15:15:30.668Z"
     },
     "蕎⻨きりみよたレイクタウン店": {
       "storeName": "蕎⻨きり みよた レイクタウン店",
@@ -271,7 +271,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:57.671Z"
+      "checkedAt": "2026-07-20T15:15:30.698Z"
     },
     "ビアダイニングオープニングスタッフ大募集": {
       "storeName": "ビアダイニング オープニングスタッフ大募集",
@@ -284,7 +284,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:57.925Z"
+      "checkedAt": "2026-07-20T15:15:30.767Z"
     },
     "水辺の新エリア": {
       "storeName": "水辺の新エリア",
@@ -297,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:58.008Z"
+      "checkedAt": "2026-07-20T15:15:30.967Z"
     },
     "焼鳥くりやま": {
       "storeName": "焼鳥くりやま",
@@ -310,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T15:05:58.019Z"
+      "checkedAt": "2026-07-20T15:15:31.013Z"
     },
     "ファミリー食堂山田うどん食堂北中店": {
       "storeName": "ファミリー食堂 山田うどん食堂 北中店",
@@ -563,67 +563,67 @@
   "market": {
     "川口市|居酒屋": {
       "count": 90,
-      "checkedAt": "2026-07-13T15:05:59.104Z"
+      "checkedAt": "2026-07-20T15:15:31.295Z"
     },
     "川口市|レストラン": {
       "count": 20,
-      "checkedAt": "2026-07-13T15:05:59.135Z"
+      "checkedAt": "2026-07-20T15:15:31.316Z"
     },
     "さいたま市|バル": {
       "count": 42,
-      "checkedAt": "2026-07-13T15:05:59.160Z"
+      "checkedAt": "2026-07-20T15:15:31.177Z"
     },
     "川越市|カフェ": {
       "count": 26,
-      "checkedAt": "2026-07-13T15:05:59.320Z"
+      "checkedAt": "2026-07-20T15:15:31.326Z"
     },
     "深谷市|レストラン": {
       "count": 4,
-      "checkedAt": "2026-07-13T15:05:59.324Z"
+      "checkedAt": "2026-07-20T15:15:31.454Z"
     },
     "さいたま市|カフェ": {
       "count": 74,
-      "checkedAt": "2026-07-13T15:05:59.371Z"
+      "checkedAt": "2026-07-20T15:15:31.495Z"
     },
     "熊谷市|居酒屋": {
       "count": 38,
-      "checkedAt": "2026-07-13T15:05:59.495Z"
+      "checkedAt": "2026-07-20T15:15:31.460Z"
     },
     "さいたま市大宮区|カフェ": {
       "count": 29,
-      "checkedAt": "2026-07-13T15:05:59.526Z"
+      "checkedAt": "2026-07-20T15:15:31.169Z"
     },
     "川口市|イタリアン": {
       "count": 11,
-      "checkedAt": "2026-07-13T15:05:59.555Z"
+      "checkedAt": "2026-07-20T15:15:31.604Z"
     },
     "本庄市|カフェ": {
       "count": 3,
-      "checkedAt": "2026-07-13T15:05:59.660Z"
+      "checkedAt": "2026-07-20T15:15:31.599Z"
     },
     "ふじみ野市|ビストロ": {
       "count": 1,
-      "checkedAt": "2026-07-13T15:05:59.701Z"
+      "checkedAt": "2026-07-20T15:15:31.731Z"
     },
     "川越市|焼肉": {
       "count": 20,
-      "checkedAt": "2026-07-13T15:05:59.744Z"
+      "checkedAt": "2026-07-20T15:15:31.733Z"
     },
     "熊谷市|中華": {
       "count": 9,
-      "checkedAt": "2026-07-13T15:05:59.866Z"
+      "checkedAt": "2026-07-20T15:15:31.779Z"
     },
     "東松山市|ダイニング": {
       "count": 3,
-      "checkedAt": "2026-07-13T15:05:59.918Z"
+      "checkedAt": "2026-07-20T15:15:31.875Z"
     },
     "越谷市|カフェ": {
       "count": 16,
-      "checkedAt": "2026-07-13T15:06:00.065Z"
+      "checkedAt": "2026-07-20T15:15:31.895Z"
     },
     "川口市|カフェ": {
       "count": 15,
-      "checkedAt": "2026-07-13T15:06:00.239Z"
+      "checkedAt": "2026-07-20T15:15:31.649Z"
     },
     "川越市|ダイニング": {
       "count": 11,
@@ -684,6 +684,10 @@
     "所沢市|レストラン": {
       "count": 8,
       "checkedAt": "2026-07-19T14:25:39.623Z"
+    },
+    "富士見市|バル": {
+      "count": 2,
+      "checkedAt": "2026-07-20T15:15:31.155Z"
     }
   },
   "items": [
@@ -696,6 +700,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11235",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Sat, 18 Jul 2026 11:31:17 GMT",
+      "area": "富士見市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-20T15:15:24.770Z"
     },
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
@@ -930,6 +946,19 @@
       "firstSeenAt": "2026-07-14T21:49:40.791Z"
     },
     {
+      "title": "「和ごころふれんち 樹樹HANARE」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
+      "link": "https://job.tabelog.com/restaurants?id=11065319#job-info-68414",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 15:03:43 GMT",
+      "area": "所沢市",
+      "genres": [
+        "レストラン",
+        "創作料理"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.743Z"
+    },
+    {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQ3ZPVDBIdWozTXhBMUNQZ0lkakk4Rm5pYmZHdnVnbHMtRl9HRDVFa1pUSzNObXU2U1VsZEFIajNVM1lIOGthOGRROTFPVldXODZ3TjZwQlZaUQ?oc=5",
       "source": "川口マガジン",
@@ -941,19 +970,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
-    },
-    {
-      "title": "「和ごころふれんち 樹樹HANARE」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
-      "link": "https://job.tabelog.com/restaurants?id=11065319#job-info-68414",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 13 Jul 2026 01:30:44 GMT",
-      "area": "所沢市",
-      "genres": [
-        "レストラン",
-        "創作料理"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:40.743Z"
     },
     {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
@@ -1352,6 +1368,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:33.243Z"
+    },
+    {
+      "title": "株式会社物語コーポレーション オープニングスタッフ募集（ランチキッチンスタッフ）",
+      "link": "https://syodai-marugen-partner.net/brand-jobfind/job/All/351294",
+      "source": "求人ボックス（株式会社物語コーポレーション）",
+      "pubDate": "Mon, 01 Jun 2026 20:09:30 GMT",
+      "area": "川越市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-20T15:15:24.771Z"
     },
     {
       "title": "株式会社イートウイング オープニングスタッフ募集（「ビアダイニング オープニングスタッフ大募集」土日祝時給UP）",
