@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T21:58:43.997Z",
+  "generatedAt": "2026-07-20T08:10:07.539Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 49
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 63,
+  "itemCount": 62,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -311,19 +311,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-13T15:05:58.019Z"
-    },
-    "chezvous(シェ・ヴー)": {
-      "storeName": "Chez vous（シェ・ヴー）",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-13T15:05:58.347Z"
     },
     "ファミリー食堂山田うどん食堂北中店": {
       "storeName": "ファミリー食堂 山田うどん食堂 北中店",
@@ -634,10 +621,6 @@
       "count": 16,
       "checkedAt": "2026-07-13T15:06:00.065Z"
     },
-    "所沢市|ビストロ": {
-      "count": 4,
-      "checkedAt": "2026-07-13T15:06:00.083Z"
-    },
     "川口市|カフェ": {
       "count": 15,
       "checkedAt": "2026-07-13T15:06:00.239Z"
@@ -708,7 +691,7 @@
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
-      "pubDate": "Sun, 19 Jul 2026 18:11:58 GMT",
+      "pubDate": "Mon, 20 Jul 2026 07:12:06 GMT",
       "area": "狭山市",
       "genres": [],
       "signal": "hiring",
@@ -842,6 +825,16 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-229877-1-113-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11224",
       "source": "求人ボックス（マイナビ転職.）",
@@ -887,16 +880,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -1423,18 +1406,6 @@
       "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
       "area": "さいたま市南区",
       "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.265Z"
-    },
-    {
-      "title": "【所沢市】1日1組限定のビストロ「Chez vous（シェ・ヴー）」がオープンすることがわかりました♪",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OeUVad2otbVdRbDRoWXdEMHRaWGpKQ21NVTVrODhWaHpQNEdxdFRsQkhBOWNycDJ3YlZKVGQxaDM1MEc0anNpVzUxb0NpcnQxZUY1WGFzYmxKcGhjaU1OekM1Y2pQbkgwSmNIcnl3?oc=5",
-      "source": "埼玉マガジン",
-      "pubDate": "Thu, 21 May 2026 07:00:00 GMT",
-      "area": "所沢市",
-      "genres": [
-        "ビストロ"
-      ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.265Z"
     }

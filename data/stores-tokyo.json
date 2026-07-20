@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T21:58:30.519Z",
+  "generatedAt": "2026-07-20T08:09:52.283Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 52
+      "count": 59
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 40
+      "count": 42
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 14
+      "count": 15
     },
     {
       "label": "バー系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 20
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -1481,6 +1481,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-19T07:30:05.078Z"
+    },
+    "latradition": {
+      "storeName": "La Tradition",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-20T08:09:52.283Z"
     }
   },
   "market": {
@@ -1656,10 +1669,6 @@
       "count": 99,
       "checkedAt": "2026-07-16T07:25:59.468Z"
     },
-    "中央区|ビストロ": {
-      "count": 172,
-      "checkedAt": "2026-07-16T15:07:09.102Z"
-    },
     "武蔵野市|レストラン": {
       "count": 12,
       "checkedAt": "2026-07-16T22:07:12.228Z"
@@ -1706,7 +1715,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Sun, 19 Jul 2026 09:52:07 GMT",
+      "pubDate": "Sun, 19 Jul 2026 20:51:46 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1752,7 +1761,7 @@
       "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
       "source": "Web-Komachi",
-      "pubDate": "Fri, 17 Jul 2026 07:54:17 GMT",
+      "pubDate": "Fri, 17 Jul 2026 08:03:08 GMT",
       "area": "港区",
       "genres": [
         "カフェ"
@@ -2003,9 +2012,7 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 15 Jul 2026 01:30:42 GMT",
       "area": "渋谷区",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -2949,6 +2956,16 @@
       "firstSeenAt": "2026-07-15T15:05:40.118Z"
     },
     {
+      "title": "【東京都港区】「銀座レカン」8代目料理長が手がけるフランス料理店『La Tradition』がオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PMDBoTlc3WmpaMU9Relk2YmJPQk81OHZzQkR1bHp1WXlGNmF1bElBelQ5MlNocEYxLUdiTHEyaHRkcDBmVTM0eTZpT25JLXc0eVA0?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-20T08:09:45.736Z"
+    },
+    {
       "title": "人形町『居酒屋ノスケ』｜日本料理店が手がける新店居酒屋",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2UEhja25YVzNYUG9YTDV2WGlfODQwbU5iS2l2Z2VibFZRdDlfRnRWZnpuTFloSTM2UjdndDNuOWNidEJuWTUzaVpKOEl4NVZUcHVVZkdnNA?oc=5",
       "source": "おとなの週末Web",
@@ -3244,7 +3261,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
     },
     {
-      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
+      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
@@ -3547,18 +3564,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-18T07:02:18.433Z"
-    },
-    {
-      "title": "人形町の新店5選｜ビストロから和洋小皿まで名店の予感を醸す話題店",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlTFJENV90dFlCZWRpWlRtQ2RyeHRlbzhKbVZOcWl1cUVyMmE3a2VETGc1MS12N3RqbHlFejd0eXFmLUxUdGNYeDdfQU92NlhIRVJQTXhXcw?oc=5",
-      "source": "おとなの週末Web",
-      "pubDate": "Thu, 21 May 2026 07:00:00 GMT",
-      "area": "中央区",
-      "genres": [
-        "ビストロ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-16T15:07:03.989Z"
     }
   ]
 }

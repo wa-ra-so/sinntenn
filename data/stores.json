@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T21:58:22.939Z",
+  "generatedAt": "2026-07-20T08:09:40.804Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 13
+      "count": 9
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 4
+      "count": 7
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 56
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 16
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 96,
+  "itemCount": 95,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -259,19 +259,6 @@
       "capacity": 24,
       "open": "月～金: 14:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）土、日: 13:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）祝日: 13:00～23:00 （料理L.O. 21:30 ドリンクL.O. 22:00）",
       "checkedAt": "2026-07-12T03:52:46.340Z"
-    },
-    "華和居": {
-      "storeName": "華和居",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004633217/?vos=nhppalsa000016",
-      "shopName": "中華料理 華和居",
-      "address": "千葉県松戸市金ケ作４２２",
-      "access": "京成松戸線五香駅より徒歩約3分",
-      "genre": "中華",
-      "budget": "2001～3000円",
-      "capacity": 100,
-      "open": "月～日、祝日、祝前日: 11:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～23:30 （料理L.O. 22:00 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-12T03:52:46.346Z"
     },
     "野菜泥棒3104": {
       "storeName": "野菜泥棒3104",
@@ -703,10 +690,6 @@
       "count": 8,
       "checkedAt": "2026-07-19T07:29:53.696Z"
     },
-    "松戸市|中華": {
-      "count": 36,
-      "checkedAt": "2026-07-19T07:29:53.706Z"
-    },
     "柏市|フレンチ": {
       "count": 8,
       "checkedAt": "2026-07-19T21:58:22.939Z"
@@ -807,7 +790,7 @@
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
       "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 18 Jul 2026 09:30:37 GMT",
+      "pubDate": "Sat, 18 Jul 2026 15:05:10 GMT",
       "area": "南房総市",
       "genres": [
         "レストラン"
@@ -1847,18 +1830,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "五香駅東口徒歩2分に本格中華料理店「華和居」がオープン、ランチからちょい飲み、宴会まで幅広く使える",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xVXJLcG10OGhHQ3hiSnhzNFhvNm9lRnRjX09oanVxb0Z5b09qYkJ3N19qelBvV2hwbGRRVnFqaTJOOGpZcURxWFpLQTd5WWc?oc=5",
-      "source": "松戸つうしん",
-      "pubDate": "Thu, 21 May 2026 07:00:00 GMT",
-      "area": "松戸市",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
     }
   ]
 }
