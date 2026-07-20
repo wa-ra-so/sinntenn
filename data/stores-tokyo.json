@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-07-20T15:15:10.797Z",
+  "generatedAt": "2026-07-20T22:08:37.581Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 59
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 42
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 14
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": true,
-      "count": 59
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -700,7 +700,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:46:47.643Z"
+      "checkedAt": "2026-07-20T22:08:37.427Z"
     },
     "さくら餃子酒場神田店": {
       "storeName": "さくら餃子酒場 神田店",
@@ -713,7 +713,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:46:48.014Z"
+      "checkedAt": "2026-07-20T22:08:36.929Z"
     },
     "ガールズバンドクライ": {
       "storeName": "ガールズバンドクライ",
@@ -726,7 +726,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:46:48.143Z"
+      "checkedAt": "2026-07-20T22:08:36.951Z"
     },
     "ebizo": {
       "storeName": "EBIZO",
@@ -739,7 +739,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:46:48.248Z"
+      "checkedAt": "2026-07-20T22:08:36.824Z"
     },
     "sushireona/玲桜奈東京23区に出店予定": {
       "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
@@ -1610,16 +1610,16 @@
       "checkedAt": "2026-07-20T15:15:10.797Z"
     },
     "千代田区|居酒屋": {
-      "count": 565,
-      "checkedAt": "2026-07-13T21:46:48.445Z"
+      "count": 567,
+      "checkedAt": "2026-07-20T22:08:37.573Z"
     },
     "渋谷区|レストラン": {
       "count": 78,
-      "checkedAt": "2026-07-13T21:46:48.464Z"
+      "checkedAt": "2026-07-20T22:08:37.581Z"
     },
     "渋谷区|居酒屋": {
-      "count": 402,
-      "checkedAt": "2026-07-13T21:46:48.468Z"
+      "count": 401,
+      "checkedAt": "2026-07-20T22:08:37.563Z"
     },
     "目黒区|バー": {
       "count": 102,

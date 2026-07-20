@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-07-20T15:14:55.448Z",
+  "generatedAt": "2026-07-20T22:06:01.029Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": true,
-      "count": 75
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 9
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": true,
-      "count": 42
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 95,
+  "itemCount": 96,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -479,7 +479,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:46:39.822Z"
+      "checkedAt": "2026-07-20T22:06:00.884Z"
     },
     "ビッグシェフ亭野田店": {
       "storeName": "ビッグシェフ亭 野田店",
@@ -492,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:46:40.188Z"
+      "checkedAt": "2026-07-20T22:06:00.465Z"
     },
     "ビッグシェフ亭マリンピア店": {
       "storeName": "ビッグシェフ亭 マリンピア店",
@@ -716,11 +716,11 @@
     },
     "千葉市美浜区|居酒屋": {
       "count": 40,
-      "checkedAt": "2026-07-13T21:46:40.576Z"
+      "checkedAt": "2026-07-20T22:06:01.019Z"
     },
     "習志野市|寿司": {
       "count": 4,
-      "checkedAt": "2026-07-13T21:46:40.593Z"
+      "checkedAt": "2026-07-20T22:06:01.029Z"
     },
     "八千代市|レストラン": {
       "count": 4,
@@ -750,10 +750,6 @@
       "count": 28,
       "checkedAt": "2026-07-17T00:05:44.830Z"
     },
-    "館山市|レストラン": {
-      "count": 6,
-      "checkedAt": "2026-07-17T07:21:10.820Z"
-    },
     "船橋市|バル": {
       "count": 27,
       "checkedAt": "2026-07-18T14:21:45.425Z"
@@ -768,7 +764,7 @@
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Sun, 19 Jul 2026 19:08:03 GMT",
+      "pubDate": "Mon, 20 Jul 2026 19:05:34 GMT",
       "area": "習志野市",
       "genres": [],
       "signal": "hiring",
@@ -780,9 +776,7 @@
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
       "pubDate": "Sat, 18 Jul 2026 22:31:04 GMT",
       "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
@@ -790,7 +784,7 @@
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
       "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 18 Jul 2026 15:05:10 GMT",
+      "pubDate": "Sat, 18 Jul 2026 09:30:37 GMT",
       "area": "南房総市",
       "genres": [
         "レストラン"
@@ -1485,6 +1479,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T22:07:01.084Z"
+    },
+    {
+      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
+      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c8a71372",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-20T22:05:33.170Z"
     },
     {
       "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",

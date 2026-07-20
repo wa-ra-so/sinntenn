@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-07-20T15:15:31.895Z",
+  "generatedAt": "2026-07-20T22:11:32.219Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": true,
-      "count": 71
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 5
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": true,
-      "count": 48
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 64,
+  "itemCount": 66,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -323,7 +323,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:47:03.747Z"
+      "checkedAt": "2026-07-20T22:11:31.624Z"
     },
     "ワインの酒場。dipuntoさいたま新都心店": {
       "storeName": "ワインの酒場。DiPUNTO さいたま新都心店",
@@ -336,7 +336,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:47:03.766Z"
+      "checkedAt": "2026-07-20T22:11:31.751Z"
     },
     "ワインの酒場。dipunto大宮西口店": {
       "storeName": "ワインの酒場。DiPUNTO 大宮西口店",
@@ -349,7 +349,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:47:03.846Z"
+      "checkedAt": "2026-07-20T22:11:31.665Z"
     },
     "イタリア厨房バジル": {
       "storeName": "イタリア厨房バジル",
@@ -362,7 +362,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:47:04.119Z"
+      "checkedAt": "2026-07-20T22:11:31.871Z"
     },
     "創作ダイニング心": {
       "storeName": "創作ダイニング心",
@@ -375,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:47:04.124Z"
+      "checkedAt": "2026-07-20T22:11:31.434Z"
     },
     "海鮮すし居酒屋愉快八木崎店": {
       "storeName": "海鮮すし居酒屋 愉快 八木崎店",
@@ -388,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:47:04.189Z"
+      "checkedAt": "2026-07-20T22:11:31.895Z"
     },
     "小川菊": {
       "storeName": "小川菊",
@@ -401,7 +401,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-13T21:47:04.475Z"
+      "checkedAt": "2026-07-20T22:11:31.980Z"
     },
     "津久司": {
       "storeName": "津久司",
@@ -627,15 +627,15 @@
     },
     "川越市|ダイニング": {
       "count": 11,
-      "checkedAt": "2026-07-13T21:47:04.665Z"
+      "checkedAt": "2026-07-20T22:11:32.109Z"
     },
     "熊谷市|イタリアン": {
       "count": 9,
-      "checkedAt": "2026-07-13T21:47:04.678Z"
+      "checkedAt": "2026-07-20T22:11:32.118Z"
     },
     "春日部市|居酒屋": {
       "count": 40,
-      "checkedAt": "2026-07-13T21:47:04.833Z"
+      "checkedAt": "2026-07-20T22:11:32.219Z"
     },
     "川口市|バル": {
       "count": 10,
@@ -681,13 +681,13 @@
       "count": 11,
       "checkedAt": "2026-07-18T07:02:36.331Z"
     },
-    "所沢市|レストラン": {
-      "count": 8,
-      "checkedAt": "2026-07-19T14:25:39.623Z"
-    },
     "富士見市|バル": {
       "count": 2,
       "checkedAt": "2026-07-20T15:15:31.155Z"
+    },
+    "所沢市|創作料理": {
+      "count": 2,
+      "checkedAt": "2026-07-20T22:11:32.104Z"
     }
   },
   "items": [
@@ -695,7 +695,7 @@
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
-      "pubDate": "Mon, 20 Jul 2026 07:12:06 GMT",
+      "pubDate": "Mon, 20 Jul 2026 18:17:26 GMT",
       "area": "狭山市",
       "genres": [],
       "signal": "hiring",
@@ -807,6 +807,26 @@
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
     },
     {
+      "title": "アリックス株式会社 オープニングスタッフ募集（夜勤のひなあられの製造補助スタッフ/土日祝休み/年齢不問/男…）",
+      "link": "https://entori.jp/alix-corp/job/2232859",
+      "source": "求人ボックス（アリックス株式会社）",
+      "pubDate": "Thu, 16 Jul 2026 06:33:35 GMT",
+      "area": "越谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-20T22:11:00.399Z"
+    },
+    {
+      "title": "株式会社トーコー オープニングスタッフ募集（製造スタッフ エアコンホースのカンタン組立 オープニング30…）",
+      "link": "http://s.baitoru.com/DW0aLSTv",
+      "source": "求人ボックス（バイトル）",
+      "pubDate": "Wed, 15 Jul 2026 18:48:29 GMT",
+      "area": "熊谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-20T22:11:00.399Z"
+    },
+    {
       "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
       "source": "求人ボックス（マイナビ転職.）",
@@ -839,16 +859,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
@@ -896,6 +906,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -952,7 +972,6 @@
       "pubDate": "Mon, 13 Jul 2026 15:03:43 GMT",
       "area": "所沢市",
       "genres": [
-        "レストラン",
         "創作料理"
       ],
       "signal": "hiring",
