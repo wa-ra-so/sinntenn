@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T02:30:36.711Z",
+  "generatedAt": "2026-07-21T02:45:14.186Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 39
+      "count": 38
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 96,
+  "itemCount": 90,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -416,19 +416,6 @@
       "open": "",
       "checkedAt": "2026-07-19T21:58:22.091Z"
     },
-    "店舗運営": {
-      "storeName": "店舗運営",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:14:54.773Z"
-    },
     "店舗スタッフ": {
       "storeName": "店舗スタッフ",
       "listed": false,
@@ -693,10 +680,6 @@
       "count": 27,
       "checkedAt": "2026-07-20T15:14:55.429Z"
     },
-    "松戸市|バル": {
-      "count": 11,
-      "checkedAt": "2026-07-20T15:14:55.428Z"
-    },
     "船橋市|レストラン": {
       "count": 16,
       "checkedAt": "2026-07-20T15:14:55.448Z"
@@ -736,10 +719,6 @@
     "千葉市中央区|ダイニング": {
       "count": 28,
       "checkedAt": "2026-07-17T00:05:44.830Z"
-    },
-    "船橋市|バル": {
-      "count": 27,
-      "checkedAt": "2026-07-18T14:21:45.425Z"
     },
     "千葉市中央区|居酒屋": {
       "count": 157,
@@ -842,6 +821,16 @@
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理見習い）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/23_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 16 Jul 2026 09:32:34 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T07:25:47.132Z"
+    },
+    {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（夕方でササッと帰宅/フォークリフトスタッフ）",
       "link": "https://www.workof-japan.com/jobs/61569",
       "source": "求人ボックス（Jwork）",
@@ -850,54 +839,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T14:47:04.246Z"
-    },
-    {
-      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=12204",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Wed, 15 Jul 2026 11:31:31 GMT",
-      "area": "船橋市",
-      "genres": [
-        "バル"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-18T14:21:41.095Z"
-    },
-    {
-      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13113",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Wed, 15 Jul 2026 11:31:30 GMT",
-      "area": "松戸市",
-      "genres": [
-        "バル"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T14:27:39.905Z"
-    },
-    {
-      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13107",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Wed, 15 Jul 2026 11:31:30 GMT",
-      "area": "松戸市",
-      "genres": [
-        "バル"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:31.964Z"
-    },
-    {
-      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Wed, 15 Jul 2026 11:31:18 GMT",
-      "area": "松戸市",
-      "genres": [
-        "バル"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T14:47:04.247Z"
     },
     {
       "title": "株式会社INGS オープニングスタッフ募集（イタリアンの接客/年3回昇給/年休110日/賞与あり）",
@@ -1105,18 +1046,6 @@
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
-      "title": "株式会社WDI JAPAN オープニングスタッフ募集（グローバル企業が展開する「店舗運営」）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-456413-1-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11101",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Fri, 10 Jul 2026 11:31:11 GMT",
-      "area": "松戸市",
-      "genres": [
-        "バル"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
       "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/レストランサービス・ホールスタッフ/口コミ高評価の繁盛…）",
       "link": "https://foods-labo.com/offers/65264?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
@@ -1225,16 +1154,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T09:53:06.055Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理見習い）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/23_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T07:25:47.132Z"
     },
     {
       "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（店長候補）",
@@ -1500,16 +1419,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "株式会社物語コーポレーション オープニングスタッフ募集（ランチキッチンスタッフ）",
-      "link": "https://yakiniku-king-partner.net/brand-jobfind/job/All/354330",
-      "source": "求人ボックス（株式会社物語コーポレーション）",
-      "pubDate": "Tue, 30 Jun 2026 20:08:29 GMT",
-      "area": "鎌ケ谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T14:47:04.247Z"
     },
     {
       "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",

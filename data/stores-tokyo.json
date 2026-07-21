@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T02:30:46.231Z",
+  "generatedAt": "2026-07-21T02:45:21.473Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 59
+      "count": 71
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 17
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 164,
+  "itemCount": 154,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -234,19 +234,6 @@
       "open": "",
       "checkedAt": "2026-07-20T15:15:06.732Z"
     },
-    "moshburger&bar": {
-      "storeName": "MOSH Burger＆Bar",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:06.740Z"
-    },
     "未経験ok": {
       "storeName": "未経験OK",
       "listed": false,
@@ -298,19 +285,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T15:15:07.002Z"
-    },
-    "pochaccocafe": {
-      "storeName": "POCHACCO CAFE",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:07.224Z"
     },
     "kitainari本店": {
       "storeName": "KITAINARI本店",
@@ -389,19 +363,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T15:15:07.619Z"
-    },
-    "ジグザグ×サンリオキャラクタァズcafe": {
-      "storeName": "ジグザグ×サンリオキャラクタァズCAFE",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:07.648Z"
     },
     "中華西八チャオ": {
       "storeName": "中華 西八チャオ",
@@ -714,19 +675,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T22:08:36.929Z"
-    },
-    "ガールズバンドクライ": {
-      "storeName": "ガールズバンドクライ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T22:08:36.951Z"
     },
     "ebizo": {
       "storeName": "EBIZO",
@@ -1494,19 +1442,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T08:09:52.283Z"
-    },
-    "はなまるおばけのはなまるごほうびカフェ": {
-      "storeName": "はなまるおばけのはなまるごほうびカフェ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-21T02:30:46.231Z"
     }
   },
   "market": {
@@ -1545,10 +1480,6 @@
     "足立区|焼肉": {
       "count": 71,
       "checkedAt": "2026-07-20T15:15:10.045Z"
-    },
-    "中央区|バル": {
-      "count": 376,
-      "checkedAt": "2026-07-20T15:15:10.178Z"
     },
     "中野区|中華": {
       "count": 32,
@@ -1957,19 +1888,6 @@
       "firstSeenAt": "2026-07-16T07:25:55.249Z"
     },
     {
-      "title": "この夏アペロで訪れたい、東京のおしゃれカフェ＆レストラン６選",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT29sd1RjV25UQkpVYXZqTFdIUkctckJERnNmVDhvRG95b2xPUlRYMmlFclIxU3p1c1I0RkhaQlBiRnkyMXQtcWRMZUJBNFpqc0ZvMk9RUFBMblFvYkxnWkVyZ2xTRE5oZEJJWURON1U3WWR5bm50YzJURENPUFNxc1FIdnNKcWJRcld6Qg?oc=5",
-      "source": "ELLE",
-      "pubDate": "Wed, 15 Jul 2026 09:39:15 GMT",
-      "area": "",
-      "genres": [
-        "レストラン",
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-19T14:25:21.751Z"
-    },
-    {
       "title": "「ANIKU」オープニングスタッフ募集（店長候補・マネージャー/焼肉/焼肉・ホルモン/飲食店/月8日…）",
       "link": "https://job.tabelog.com/restaurants?id=13282834#job-info-11709",
       "source": "求人ボックス（食べログ求人）",
@@ -2035,7 +1953,9 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 15 Jul 2026 01:30:42 GMT",
       "area": "渋谷区",
-      "genres": [],
+      "genres": [
+        "レストラン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -2466,18 +2386,6 @@
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
-      "title": "『特別なハナマル』をもらえる「はなまるおばけ」のテーマカフェが東京・大阪で開催決定！「はなまるおばけのはなまるごほうびカフェ」期間限定オープン！！…",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WFRYbXl4OW1KRVZkbmVuRDBHVHpiY3poZkMzcVhreTFaT2Q5LUdmT3cwTDVXUmdEWHcyUGRoWWFFUml2cjgweDNXVjRxdnl0ZGhpMXR3?oc=5",
-      "source": "フーズチャネル",
-      "pubDate": "Tue, 07 Jul 2026 06:14:04 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-21T02:30:41.384Z"
-    },
-    {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XdHJHTk4zVUwwekFwVFBRZ21ETllXQzVwQ29kem5iSUdWR0Vlc0ZGOUtNVkZlNnNldjNJc2ktMUhBRy1rRE1XY3dHbEFyUmFJcThnUmRn?oc=5",
       "source": "フーズチャネル",
@@ -2721,32 +2629,6 @@
       "firstSeenAt": "2026-07-13T15:05:26.044Z"
     },
     {
-      "title": "【MOS】昼は本格バーガー、夜はバルとして楽しめる都市型新業態「MOSH Burger＆Bar」を東京・銀座にオープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wMGJTYnlwOFQ3NFg4RXBfUUM0dkhaSzhWel95dHFZRmctRVFRSm5CVDFwMkdqbjV0OVpPNnY0WVloRUhNMjZhbzhWSGRrRDZydlNaZUFuSG5pV0NaWVBOa0tMVkNYdjFYUkE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
-      "area": "中央区",
-      "genres": [
-        "バル",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-20T15:14:59.850Z"
-    },
-    {
-      "title": "【MOS】昼は本格バーガー、夜はバルとして楽しめる都市型新業態「MOSH Burger＆Bar」を東京・銀座にオープン",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NZ0R6Q0FMeWw0REU4Nk4ycEE5WEpYbDJCZmVxUG5STTFlZDFxQ0l2NlZrWXhvODFveXBTNklvemF0U0JtbUVFN0ZwalRpVDNDODNwUU5n?oc=5",
-      "source": "フーズチャネル",
-      "pubDate": "Mon, 29 Jun 2026 05:15:54 GMT",
-      "area": "中央区",
-      "genres": [
-        "バル",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.040Z"
-    },
-    {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
       "source": "Newscast.jp",
@@ -2863,16 +2745,6 @@
       "firstSeenAt": "2026-07-15T09:53:14.178Z"
     },
     {
-      "title": "【2026・東京】NEWオープンの商業施設＆最新グルメスポット30選｜注目の新名所が続々誕生！",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBNdW45TG9nTG4zWTJzY3BSOXo2RW01LTA4NXhCQm5WbjJEZDE4Y1oya1JyczI4VkgtdmtwZ2hiQkVSZzdIT0xnNHpmdThnRXFU?oc=5",
-      "source": "るるぶWeb",
-      "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.040Z"
-    },
-    {
       "title": "学芸大学に「シロネリ」がオープン。自家製麺とラビオリ、本格焼酎の居酒屋。自由が丘「ニショク」、池尻大橋「ルリイロ」などイタリアン展開のコローリ新店舗",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ya2VEVlZYYkZnRUdiVzFfVHgwWVdNVFhPZkVtR2VDd0JnMzhmQzg3V0dCWVBpS3RrZkpFMkdtM0l3eHV5LUdzb29NVHRpdlNoOUE?oc=5",
       "source": "フードスタジアム",
@@ -2906,18 +2778,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.995Z"
-    },
-    {
-      "title": "モノクロ調のオシャレなポチャッコのテーマカフェが東京・大阪で開催決定！2026年7月2日（木）～「POCHACCO CAFE」期間限定オープン！！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mRkdVSEZHVUZuNkpQSm1UZl8xSkUtZm03VE50NDVVLXladnVBMkFINW5SYUFDMlNMMzhRR2tPemFNV21LSF9GMnI4TEhvOWZGaGJLczR0d0dZRVlseWJveTBOOTNkVll4Wnc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
       "title": "日本初の常設店！パリ発の人気カフェ「ペーパーボーイ」千駄ヶ谷にオープン｜レッツエンジョイ東京",
@@ -3036,30 +2896,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.044Z"
-    },
-    {
-      "title": "真天地開闢集団-ジグザグ×サンリオキャラクターズ初のカフェが東京・大阪で開催決定！「ジグザグ×サンリオキャラクタァズCAFE」期間限定オープン！！…",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rWFhUMC1Takpmc1JiQXdBRE0yeXpESi1LbWJfaUF0dU1OU3BaQ05oUmR4VkN3LXJoYWgxbVFmeWdDM0lVT2VOb3pOVmJ4REpCcGVHblJR?oc=5",
-      "source": "フーズチャネル",
-      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.046Z"
-    },
-    {
-      "title": "-真天地開闢集団-ジグザグ×サンリオキャラクターズ初のカフェが東京・大阪で開催決定！「ジグザグ×サンリオキャラクタァズCAFE」期間限定オープン！！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jV0dxbWpOcUpFak9zSzFhNUY2RG9YdmdtcmQxc3hVQmhKYjB5c1ZQdjZNbU8xWG1oVmpheklGTG1NaVIxaHZtOVhXY1JIYVZ4aWdGQXZha1c3M2VGUDNVbndPbTNqN2xrMWc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T21:46:44.288Z"
     },
     {
       "title": "「Fender Cafe」2号店が音楽の街・下北沢に誕生2026年7月3日（金）オープン | フェンダーミュージック株式会社のプレスリリース",
@@ -3220,18 +3056,6 @@
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
-      "title": "TVアニメ『ガールズバンドクライ』アイスクリームガールズカフェ at 洒落CAFE 東京＆大阪&福岡で開催決定！「アイスクリームガールズ」をテーマにした米村雅人新規描き下ろしイラストが登場！",
-      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPSWViMkJ3YXJ3ZzVPWEtUYk1VVlRVM043dFdoQnpzRGVwZEN5eFQzVGhMOWVvcUsyS0QyMnhXelNpNEE5MEhPTWNXX0s3SFA1LTJXLXl2UUZ2ZS0wTC12Zmx2MnY0XzFuNDh3XzBEdFpnZzZ6MlVLYXFWcThSdXk0aFVMcjVSY2tBWEkzT3V4YVNyaExNWFMzYkU1ajl0LWliRVdZS3pLUzI2MjY5bUxtbjRJUUlDdFg5eHBuckdvdUlOLWlzcnUxZ0lRLTFlbnFEcTlxT2lnNnpmT1Y0c1Jpc0ZENGs4M010M1Zfb1IyeUp2dlg4bjhDd013ZjhISngzRUNiNWtZdkxDc0hQeVRrRk1yQXMyNHc5NVdtX254ckM1dGNOR1BtclFoeFhuZWZ1QW1JZlJUeFA0bWEzQXVpelpxanE0d05MVWxiS0JtVQ?oc=5",
-      "source": "ラブすぽ",
-      "pubDate": "Wed, 10 Jun 2026 09:43:39 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.289Z"
-    },
-    {
       "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",
       "link": "https://en-gage.net/user/search/desc/16946291/",
       "source": "求人ボックス（株式会社ゲート）",
@@ -3355,18 +3179,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
-    },
-    {
-      "title": "【東京カフェ】早起きしてモーニングを満喫しよう！ 朝活にぴったりなアドレス10選",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdXdUTzNZYWx3c1A1dktibldKUmtFQVNaSDBYUTVMeFBYNDlZOTI3d21GRHBOS3B5Ykl2dTZWMk13bVBhX1RPUUxTSnJNVUg4MzRjM3FidmR5UlUwY0xmeXlaSEc5WWpJckJvMkVybF9JRUc2Q1NRV1g5TEQ5ZVU3VEdNSHBBdWlGRGNFakVGQlM?oc=5",
-      "source": "ELLE",
-      "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:05:49.248Z"
     },
     {
       "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！",

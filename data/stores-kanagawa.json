@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-21T02:30:54.614Z",
+  "generatedAt": "2026-07-21T02:45:27.773Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 93
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 77
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 14
+      "count": 15
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 48
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 18
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 80,
+  "itemCount": 76,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -585,19 +585,6 @@
       "open": "",
       "checkedAt": "2026-07-18T07:02:29.061Z"
     },
-    "ほほえみみらい保育園": {
-      "storeName": "ほほえみみらい保育園",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-19T14:25:32.373Z"
-    },
     "cafebarrieno(リエノ)": {
       "storeName": "Cafe Bar Rieno （リエノ）",
       "listed": false,
@@ -653,10 +640,6 @@
     "横浜市|焼肉": {
       "count": 290,
       "checkedAt": "2026-07-20T15:15:20.726Z"
-    },
-    "鎌倉市|レストラン": {
-      "count": 26,
-      "checkedAt": "2026-07-20T15:15:20.745Z"
     },
     "横浜市|イタリアン": {
       "count": 201,
@@ -1153,26 +1136,6 @@
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
     },
     {
-      "title": "株式会社物語コーポレーション オープニングスタッフ募集（ランチホールスタッフ）",
-      "link": "https://syodai-marugen-partner.net/brand-jobfind/job/All/344511",
-      "source": "求人ボックス（株式会社物語コーポレーション）",
-      "pubDate": "Mon, 06 Jul 2026 20:08:37 GMT",
-      "area": "鎌倉市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T14:47:24.941Z"
-    },
-    {
-      "title": "株式会社物語コーポレーション オープニングスタッフ募集（キッチン仕込みスタッフ）",
-      "link": "https://syodai-marugen-partner.net/brand-jobfind/job/All/344508",
-      "source": "求人ボックス（株式会社物語コーポレーション）",
-      "pubDate": "Mon, 06 Jul 2026 20:08:37 GMT",
-      "area": "鎌倉市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-19T14:25:29.043Z"
-    },
-    {
       "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",
       "link": "https://job.tabelog.com/restaurants?id=14072696#job-info-91025",
       "source": "求人ボックス（食べログ求人）",
@@ -1399,16 +1362,6 @@
       "firstSeenAt": "2026-07-19T14:25:29.082Z"
     },
     {
-      "title": "「ほほえみみらい保育園」オープニングスタッフ募集（保育士募集・ボーナス・賞与あり）",
-      "link": "https://job-medley.com/cw/1667452/?utm_campaign=cw&utm_medium=cpc&utm_source=box",
-      "source": "求人ボックス（ジョブメドレー）",
-      "pubDate": "Thu, 11 Jun 2026 04:15:28 GMT",
-      "area": "海老名市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-19T14:25:29.043Z"
-    },
-    {
       "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jYThrRGZjaENwekJBQjc5TEJERzgtbG5fWHlnYXN0MDhQSGpXQkZLZW8xYmRUN2NhQzFZa2RrZ0hIX29FaUVqa1Z1U0lTRGFaek1sWU5KZlpQekZ5VFA5SEhWcHl5Rks0a1E?oc=5",
       "source": "PR TIMES",
@@ -1500,19 +1453,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
-    },
-    {
-      "title": "鎌倉のニューオープンカフェ＆レストラン10選。朝から夜まで楽しめるひとり散歩ガイド",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX3k2Y1Nid1lYbktPVUlGSHF4YjRGZ3dZaVE1QWlkelkwNWdvNTU0UXFDMm5VWUEtU1Aya3NZYkl4TFlkVEhZS0RPcEJjWDdwZVhXa2UxT01pYjF4U3lmQmJqanJQRURMV3J6WHRBTWFnOUpZZDh1OF9kM1RTRkx3UmVNTlR4UlV1dldlMWY1SzVhQUx2YlE?oc=5",
-      "source": "ELLE",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "鎌倉市",
-      "genres": [
-        "レストラン",
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:41.965Z"
     },
     {
       "title": "「肉のプロ」が地元・横浜に凱旋出店。焼肉「うしこぞう横浜店」6月1日オープン",
