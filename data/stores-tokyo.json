@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T07:35:05.692Z",
+  "generatedAt": "2026-07-21T15:07:13.500Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 62
+      "count": 63
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 38
+      "count": 34
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 18
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 154,
+  "itemCount": 157,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1429,6 +1429,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-21T07:35:05.454Z"
+    },
+    "しろふわランドリー笹塚北店": {
+      "storeName": "しろふわランドリー笹塚北店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T15:07:12.927Z"
+    },
+    "飲茶・本格中華・麻辣湯": {
+      "storeName": "飲茶・本格中華・麻辣湯",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T15:07:13.499Z"
     }
   },
   "market": {
@@ -1647,6 +1673,56 @@
   },
   "items": [
     {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Tue, 21 Jul 2026 09:52:55 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "「鉄板ダイニングまわりみち」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/交通費支給）",
+      "link": "https://job.tabelog.com/restaurants?id=13324524#job-info-109016",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 21 Jul 2026 09:30:37 GMT",
+      "area": "練馬区",
+      "genres": [
+        "居酒屋",
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-18T14:21:50.140Z"
+    },
+    {
+      "title": "「EBIZO」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
+      "link": "https://job.tabelog.com/restaurants?id=13207106#job-info-106974",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 21 Jul 2026 09:30:37 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+    },
+    {
+      "title": "【東京都渋谷区】ランドリーにセルフ式カフェを併設した「しろふわランドリー笹塚北店」オープン！",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWZU12d2RGTGQyeWdfTmZ0YXRtbVBzd0ljVWVwMmJ6QjdSc1d0cnlTd3FaLWs3LVg0RUxtX3Q0Tm80M0JRVXNxRXI1NDNGcHdqNkVB?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Tue, 21 Jul 2026 05:19:34 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T15:07:07.497Z"
+    },
+    {
       "title": "西池袋に“選べるイタリアンデリ”が8月4日グランドオープン。hotel hisoca ikebukuro運営会社が手がける、前菜とメインを自由に組み合わせる「Piccola Aria」のデリボックス",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XSW9CbW1SMjRSYnZHeWFUQWtOYXRMdHRLSHRzR29xU1UzUG51M0hrWURERVR5UWJxYXh3dnR4VWpCNDYwQnpXdmEzM0ZuX1VNRGJ1RTZjcmZkeUlzVTJDTWEyY0ZWaG9TNXc?oc=5",
       "source": "PR TIMES",
@@ -1659,17 +1735,16 @@
       "firstSeenAt": "2026-07-21T07:35:00.452Z"
     },
     {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Mon, 20 Jul 2026 20:52:08 GMT",
-      "area": "新宿区",
+      "title": "【東京初出店‼7/23OPEN‼THE BUFFET 点心甜心 三鷹】『飲茶・本格中華・麻辣湯』更に選べるスイーツ！色々な「食べたい」がすべて叶う食べ放題！ペットと共に過ごせるテラス席も完備！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NMWFabXVoRmNfWHR5dk54eFRlMUpILXhVQmp6bDFnV2thTEJWZ2ZGVGlzSkh6c1JjazR4clNuN3hxY3VXT1NNNmNjUU05QUltNVB5bThHZGgyRXJhUzNzbUpBeTlfNGU2QkE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 21 Jul 2026 00:00:02 GMT",
+      "area": "三鷹市",
       "genres": [
-        "居酒屋",
-        "バー"
+        "中華"
       ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T15:07:07.495Z"
     },
     {
       "title": "株式会社ヴィクセス オープニングスタッフ募集（馬肉料理酒場の店舗スタッフ/オープニング/おしゃれ自由）",
@@ -1692,31 +1767,6 @@
       "firstSeenAt": "2026-07-13T15:05:25.995Z"
     },
     {
-      "title": "「鉄板ダイニングまわりみち」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=13324524#job-info-109016",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 18 Jul 2026 09:30:38 GMT",
-      "area": "練馬区",
-      "genres": [
-        "居酒屋",
-        "ダイニング"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-18T14:21:50.140Z"
-    },
-    {
-      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
-      "source": "Web-Komachi",
-      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
-      "area": "港区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T14:47:14.066Z"
-    },
-    {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
       "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
       "source": "求人ボックス（GUPPY）",
@@ -1725,6 +1775,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T15:07:03.945Z"
+    },
+    {
+      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
+      "source": "Web-Komachi",
+      "pubDate": "Fri, 17 Jul 2026 08:03:08 GMT",
+      "area": "港区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.066Z"
     },
     {
       "title": "日本初、吉祥寺に新オープン「マモテラス」雑貨やカフェ、マーモット村の複合商業施設で全3フロア詳細発表",
@@ -1935,7 +1997,7 @@
       "genres": [
         "フレンチ"
       ],
-      "signal": "opening",
+      "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:48.222Z"
     },
     {
@@ -1951,16 +2013,16 @@
       "firstSeenAt": "2026-07-15T07:18:48.627Z"
     },
     {
-      "title": "「EBIZO」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
-      "link": "https://job.tabelog.com/restaurants?id=13207106#job-info-106974",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 15 Jul 2026 01:30:42 GMT",
-      "area": "渋谷区",
+      "title": "東京･白金台でレストラン営んだ夫妻が“一目ぼれ”で小川村に移住 森に｢オーベルジュ｣プレオープン",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90MS1XOVdCTVpSQzFiWnhPOTRQMGZELVN3OFpSRFJCN1pUZEF3R1pTdlBZVVhHQXBuZDNycTRybGNYZkxOekM0Mk44QXJKX19ySkVsOExRVThocVYwVEktMmNrOHZwcVBWZU1DRzdtNFU?oc=5",
+      "source": "信濃毎日新聞デジタル",
+      "pubDate": "Tue, 14 Jul 2026 21:04:00 GMT",
+      "area": "",
       "genres": [
         "レストラン"
       ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T15:07:07.491Z"
     },
     {
       "title": "株式会社ジョージーズ オープニングスタッフ募集（肉料理店の飲食店スタッフ/高月給/髪色自由/未経験可）",
@@ -2134,9 +2196,7 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 09 Jul 2026 09:30:36 GMT",
       "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T07:35:00.415Z"
     },
@@ -2515,7 +2575,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
     },
     {
-      "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン｜レッツエンジョイ東京",
+      "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VOEN2dmptM1pBRkR5Ry1VWl9veWhFWGVmbk5oY25oRkVWV2Q1WkNVTTI1Ykc4YjBjbm9OaVJPU2ZZZEN0aGhSTVJLNDRwRFU?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
@@ -3148,7 +3208,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
     },
     {
-      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
+      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",

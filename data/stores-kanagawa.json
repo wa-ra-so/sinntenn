@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T07:35:15.415Z",
+  "generatedAt": "2026-07-21T15:07:22.276Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 8
+      "count": 9
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -718,9 +718,23 @@
     "大和市|焼肉": {
       "count": 23,
       "checkedAt": "2026-07-21T07:35:15.415Z"
+    },
+    "鎌倉市|イタリアン": {
+      "count": 25,
+      "checkedAt": "2026-07-21T15:07:22.276Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
+      "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
+      "source": "求人ボックス（マイナビ転職.）",
+      "pubDate": "Tue, 21 Jul 2026 11:31:10 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-17T14:47:24.941Z"
+    },
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
       "link": "http://s.baitoru.com/DW0aLgEO",
@@ -872,16 +886,6 @@
       "firstSeenAt": "2026-07-17T07:21:24.824Z"
     },
     {
-      "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Wed, 15 Jul 2026 11:31:29 GMT",
-      "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T14:47:24.941Z"
-    },
-    {
       "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
       "source": "求人ボックス（食べログ求人）",
@@ -931,6 +935,18 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
+      "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ESV85aWs2T1JhWUdXeDY5RkZ4Uk55ME1HSGNIa000UUQtZ0lQTllxQVVEYjFkWHc2ZWtvck10U2JIdlRyNXYtTjVCakdob3lfOGtMeWdzTEx4ZHhxUmlVai0zZngwRzdPemc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
+      "area": "横浜市中区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T15:05:48.947Z"
+    },
+    {
       "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
       "link": "https://job.tabelog.com/restaurants?id=14101761#job-info-96505",
       "source": "求人ボックス（食べログ求人）",
@@ -953,18 +969,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
-    },
-    {
-      "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ESV85aWs2T1JhWUdXeDY5RkZ4Uk55ME1HSGNIa000UUQtZ0lQTllxQVVEYjFkWHc2ZWtvck10U2JIdlRyNXYtTjVCakdob3lfOGtMeWdzTEx4ZHhxUmlVai0zZngwRzdPemc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Sun, 12 Jul 2026 23:00:02 GMT",
-      "area": "横浜市中区",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T15:05:48.947Z"
     },
     {
       "title": "株式会社コロワイドダイニング オープニングスタッフ募集（ホール/キッチン/洗い場 7/24OPEN 365酒場オープ…）",
@@ -1027,7 +1031,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Fri, 10 Jul 2026 01:30:44 GMT",
-      "area": "横浜市",
+      "area": "鎌倉市",
       "genres": [
         "イタリアン"
       ],
@@ -1369,7 +1373,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市",
+      "area": "川崎市中原区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
