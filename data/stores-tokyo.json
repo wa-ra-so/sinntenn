@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:07:13.500Z",
+  "generatedAt": "2026-07-21T22:07:19.469Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 63
+      "count": 60
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 34
+      "count": 35
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 63
+      "count": 64
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 157,
+  "itemCount": 159,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -687,7 +687,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:27.666Z"
+      "checkedAt": "2026-07-21T22:07:19.339Z"
     },
     "ペーパーボーイ": {
       "storeName": "ペーパーボーイ",
@@ -700,7 +700,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:27.869Z"
+      "checkedAt": "2026-07-21T22:07:19.229Z"
     },
     "保護猫カフェ": {
       "storeName": "保護猫カフェ",
@@ -726,7 +726,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:28.239Z"
+      "checkedAt": "2026-07-21T22:07:19.071Z"
     },
     "ネオナイスバーガー": {
       "storeName": "ネオナイスバーガー",
@@ -739,7 +739,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:28.289Z"
+      "checkedAt": "2026-07-21T22:07:19.313Z"
     },
     "大衆酒場スシスミビ下北沢店": {
       "storeName": "大衆酒場スシスミビ 下北沢店",
@@ -1580,7 +1580,7 @@
     },
     "目黒区|バー": {
       "count": 102,
-      "checkedAt": "2026-07-14T21:49:28.856Z"
+      "checkedAt": "2026-07-21T22:07:19.469Z"
     },
     "世田谷区|居酒屋": {
       "count": 223,
@@ -1672,6 +1672,16 @@
     }
   },
   "items": [
+    {
+      "title": "株式会社LFCRD オープニングスタッフ募集（月島もんじゃの店舗スタッフ/オープニング/1年後に年収500…）",
+      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T22:07:15.681Z"
+    },
     {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
@@ -1767,6 +1777,18 @@
       "firstSeenAt": "2026-07-13T15:05:25.995Z"
     },
     {
+      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
+      "source": "Web-Komachi",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "area": "港区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.066Z"
+    },
+    {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
       "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
       "source": "求人ボックス（GUPPY）",
@@ -1775,18 +1797,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T15:07:03.945Z"
-    },
-    {
-      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
-      "source": "Web-Komachi",
-      "pubDate": "Fri, 17 Jul 2026 08:03:08 GMT",
-      "area": "港区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T14:47:14.066Z"
     },
     {
       "title": "日本初、吉祥寺に新オープン「マモテラス」雑貨やカフェ、マーモット村の複合商業施設で全3フロア詳細発表",
@@ -1893,6 +1903,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-18T14:21:50.140Z"
+    },
+    {
+      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（調理補助・調理見習い/居酒屋/居酒屋/飲食店/月8日以上休み…）",
+      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-108838",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
+      "area": "世田谷区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T22:07:15.681Z"
     },
     {
       "title": "日本初、吉祥寺にマーモット保護・啓発複合施設「マモテラス」が8月8日にグランドオープン",

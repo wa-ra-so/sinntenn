@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:07:02.347Z",
+  "generatedAt": "2026-07-21T22:07:10.883Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 9
+      "count": 8
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 41
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 92,
+  "itemCount": 94,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -492,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:18.361Z"
+      "checkedAt": "2026-07-21T22:07:10.527Z"
     },
     "marinecoffee": {
       "storeName": "MARINE COFFEE",
@@ -505,7 +505,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:18.900Z"
+      "checkedAt": "2026-07-21T22:07:10.749Z"
     },
     "肉屋の台所セントラルキッチン": {
       "storeName": "肉屋の台所セントラルキッチン",
@@ -694,7 +694,7 @@
     },
     "八千代市|レストラン": {
       "count": 4,
-      "checkedAt": "2026-07-14T21:49:19.117Z"
+      "checkedAt": "2026-07-21T22:07:10.883Z"
     },
     "松戸市|居酒屋": {
       "count": 77,
@@ -724,16 +724,22 @@
       "count": 157,
       "checkedAt": "2026-07-18T21:55:59.861Z"
     },
-    "館山市|レストラン": {
-      "count": 6,
-      "checkedAt": "2026-07-21T07:34:56.184Z"
-    },
     "柏市|レストラン": {
       "count": 19,
       "checkedAt": "2026-07-21T15:07:02.347Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Tue, 21 Jul 2026 19:14:21 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
     {
       "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-334491-3-12-1/?utm_source=kyujinbox&utm_medium=display&utm_term=12217",
@@ -748,26 +754,26 @@
       "firstSeenAt": "2026-07-21T15:06:58.061Z"
     },
     {
+      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b006d20790",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
+      "area": "松戸市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T22:07:07.422Z"
+    },
+    {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
       "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
       "pubDate": "Mon, 20 Jul 2026 22:30:51 GMT",
       "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:31.963Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Mon, 20 Jul 2026 19:05:34 GMT",
-      "area": "習志野市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+      "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
     {
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
@@ -1281,6 +1287,16 @@
       "firstSeenAt": "2026-07-15T22:06:27.312Z"
     },
     {
+      "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場ホール/オープニング/週休2日/面接確約）",
+      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbce85b0170",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 08 Jul 2026 11:00:17 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T22:07:07.423Z"
+    },
+    {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VaVVPdVpRT1NqRkpMSC10a0QyZlY4RmtzZ2l4WUZFdFdzQUtEWEw2U2ExT3dBclpQQW9acjhVMWlKY3p3MTl4UTBsZ2hFMXhVNlE?oc=5",
       "source": "船橋つうしん",
@@ -1708,7 +1724,7 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
-      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ｜レッツエンジョイ東京",
+      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ZXhGQVF3WkxuLXNIYUdxR1pzSldNOUdVeXVXVlVUQU4yZzgyX29ZTV9QU1gwekRkZjR6TFMwR09OTXVtTUdTRlZybk9PREE?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 29 May 2026 07:00:00 GMT",

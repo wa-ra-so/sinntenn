@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:07:31.041Z",
+  "generatedAt": "2026-07-21T22:07:33.732Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 71
+      "count": 70
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 60,
+  "itemCount": 62,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -401,7 +401,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:44.139Z"
+      "checkedAt": "2026-07-21T22:07:33.223Z"
     },
     "スパゲッティーのパンチョ新座店野火止店": {
       "storeName": "スパゲッティーのパンチョ 新座店野火止店",
@@ -414,7 +414,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:44.345Z"
+      "checkedAt": "2026-07-21T22:07:33.493Z"
     },
     "和ごころふれんち樹樹hanare": {
       "storeName": "和ごころふれんち 樹樹HANARE",
@@ -427,7 +427,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:44.536Z"
+      "checkedAt": "2026-07-21T22:07:33.419Z"
     },
     "daenzo": {
       "storeName": "DA ENZO",
@@ -440,7 +440,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:44.723Z"
+      "checkedAt": "2026-07-21T22:07:33.619Z"
     },
     "カフェ・ド・デイジイ": {
       "storeName": "カフェ・ド・デイジイ",
@@ -453,7 +453,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T21:49:45.073Z"
+      "checkedAt": "2026-07-21T22:07:33.433Z"
     },
     "anellacafe(アネラカフェ)ふじみ野店": {
       "storeName": "ANELLA CAFE（アネラカフェ）ふじみ野店",
@@ -545,6 +545,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-21T07:35:23.556Z"
+    },
+    "かにや川越下広谷店": {
+      "storeName": "かにや 川越下広谷店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T22:07:33.212Z"
     }
   },
   "market": {
@@ -626,7 +639,7 @@
     },
     "川口市|バル": {
       "count": 10,
-      "checkedAt": "2026-07-14T21:49:45.267Z"
+      "checkedAt": "2026-07-21T22:07:33.732Z"
     },
     "さいたま市大宮区|バル": {
       "count": 20,
@@ -675,6 +688,16 @@
   },
   "items": [
     {
+      "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
+      "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
+      "source": "求人ボックス（ベネミール）",
+      "pubDate": "Tue, 21 Jul 2026 18:08:34 GMT",
+      "area": "狭山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
       "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-334491-3-12-1/?utm_source=kyujinbox&utm_medium=display&utm_term=28100",
       "source": "求人ボックス（マイナビ転職.）",
@@ -688,14 +711,16 @@
       "firstSeenAt": "2026-07-21T15:07:27.639Z"
     },
     {
-      "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
-      "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
-      "source": "求人ボックス（ベネミール）",
-      "pubDate": "Mon, 20 Jul 2026 18:17:26 GMT",
-      "area": "狭山市",
-      "genres": [],
+      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b008760794",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
+      "area": "富士見市",
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:40.742Z"
+      "firstSeenAt": "2026-07-21T22:07:30.304Z"
     },
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
@@ -730,6 +755,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
+    },
+    {
+      "title": "【川越市】「かにや 川越下広谷店」が2026年秋オープン予定！カフェも併設されます♪",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBclF4S1ZSc0JXMFNqWFFWLV82Nm1icXVJWVBvLWFnMXN3MEpUMzFsNTA4cTh1WDJWZW5LN1p3RFpWZlFEbTRJREdTaVUyc3I1TnUyUjhDOEVaODJzalF5YTRCLXoxc1J1dWc?oc=5",
+      "source": "埼玉マガジン",
+      "pubDate": "Fri, 17 Jul 2026 08:46:48 GMT",
+      "area": "川越市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T22:07:30.347Z"
     },
     {
       "title": "居酒屋「串焼亭ねぎ 東大宮店」がオープン 東大宮駅東口に",
@@ -813,16 +850,6 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
-    },
-    {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-229877-1-113-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11224",
       "source": "求人ボックス（マイナビ転職.）",
@@ -856,6 +883,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
+    },
+    {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",

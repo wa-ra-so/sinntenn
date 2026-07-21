@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-21T15:07:22.276Z",
+  "generatedAt": "2026-07-21T22:07:26.493Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 93
+      "count": 94
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 76,
+  "itemCount": 77,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -636,6 +636,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-21T07:35:15.171Z"
+    },
+    "分身ロボットカフェdawn": {
+      "storeName": "分身ロボットカフェDAWN",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T22:07:26.150Z"
     }
   },
   "market": {
@@ -722,6 +735,14 @@
     "鎌倉市|イタリアン": {
       "count": 25,
       "checkedAt": "2026-07-21T15:07:22.276Z"
+    },
+    "川崎市|レストラン": {
+      "count": 56,
+      "checkedAt": "2026-07-21T22:07:26.284Z"
+    },
+    "横浜市|カフェ": {
+      "count": 244,
+      "checkedAt": "2026-07-21T22:07:26.493Z"
     }
   },
   "items": [
@@ -834,7 +855,9 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 16 Jul 2026 09:30:38 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "レストラン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.562Z"
     },
@@ -886,18 +909,6 @@
       "firstSeenAt": "2026-07-17T07:21:24.824Z"
     },
     {
-      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
-    },
-    {
       "title": "「韓国屋台酒場 韓兵衛 横浜天理ビル店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/韓国料理/アジア・エスニッ…）",
       "link": "https://job.tabelog.com/restaurants?id=14100679#job-info-81496",
       "source": "求人ボックス（食べログ求人）",
@@ -908,6 +919,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T02:30:50.275Z"
+    },
+    {
+      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -1056,7 +1079,9 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -1171,6 +1196,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
+    },
+    {
+      "title": "寝たきりでも働ける「分身ロボットカフェDAWN」横浜店のオープンが決定！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51alpHM3Q3UWViYVFfSXdiaW9TWThxdFd4Yy11X3NVVW43Y0R1QTdpRFZTVFV0cXM5TUZ6bGk4SDR3aUl5c3VYT2x6bGt3LVg1eGtpZHJJYXVUQVE5SlRfeHpkQmlFaU1GNFE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T22:07:23.267Z"
     },
     {
       "title": "「こぶたとカモメ」オープニングスタッフ募集（店長候補・マネージャー/カフェ/カフェ・喫茶店/飲食店/月8…）",
@@ -1483,7 +1520,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
+      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
