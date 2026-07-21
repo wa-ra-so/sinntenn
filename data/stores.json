@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-07-20T22:06:01.029Z",
+  "generatedAt": "2026-07-21T02:30:36.711Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 5
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 10
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 8
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 39
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 15
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -598,19 +598,6 @@
       "open": "",
       "checkedAt": "2026-07-17T00:05:44.708Z"
     },
-    "アドバイザー": {
-      "storeName": "アドバイザー",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-17T14:47:09.474Z"
-    },
     "博多うずまき海浜幕張店": {
       "storeName": "博多うずまき 海浜幕張店",
       "listed": true,
@@ -805,16 +792,6 @@
       "firstSeenAt": "2026-07-18T21:55:55.746Z"
     },
     {
-      "title": "株式会社TCG オープニングスタッフ募集（「アドバイザー」営業108名中32名が年収1000万以上実績…）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-132510-1-168-1/?utm_source=kyujinbox&utm_medium=display&utm_term=23100",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Fri, 17 Jul 2026 11:31:19 GMT",
-      "area": "千葉市中央区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T14:47:04.247Z"
-    },
-    {
       "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
       "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -853,6 +830,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 16 Jul 2026 09:32:34 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（夕方でササッと帰宅/フォークリフトスタッフ）",
@@ -1210,16 +1197,6 @@
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
     },
     {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（料理長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/1_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:05.569Z"
-    },
-    {
       "title": "「成田食堂」オープニングスタッフ募集（調理見習い）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/23_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1489,6 +1466,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-20T22:05:33.170Z"
+    },
+    {
+      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
+      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c9e81375",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T02:30:34.056Z"
     },
     {
       "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",

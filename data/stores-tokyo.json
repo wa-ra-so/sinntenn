@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-07-20T22:08:37.581Z",
+  "generatedAt": "2026-07-21T02:30:46.231Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "東京都 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 66
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 36
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 12
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 162,
+  "itemCount": 164,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1494,6 +1494,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T08:09:52.283Z"
+    },
+    "はなまるおばけのはなまるごほうびカフェ": {
+      "storeName": "はなまるおばけのはなまるごほうびカフェ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T02:30:46.231Z"
     }
   },
   "market": {
@@ -1715,7 +1728,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Mon, 20 Jul 2026 09:52:50 GMT",
+      "pubDate": "Mon, 20 Jul 2026 20:52:08 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1723,6 +1736,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "株式会社ヴィクセス オープニングスタッフ募集（馬肉料理酒場の店舗スタッフ/オープニング/おしゃれ自由）",
+      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-7662dd39008e",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Sun, 19 Jul 2026 11:00:28 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T02:30:41.347Z"
     },
     {
       "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（店長候補・マネージャー/焼き鳥・串焼・鳥料理/和食/飲食店/…）",
@@ -1748,18 +1771,6 @@
       "firstSeenAt": "2026-07-18T14:21:50.140Z"
     },
     {
-      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
-      "source": "Web-Komachi",
-      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
-      "area": "港区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T14:47:14.066Z"
-    },
-    {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
       "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
       "source": "求人ボックス（GUPPY）",
@@ -1768,6 +1779,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T15:07:03.945Z"
+    },
+    {
+      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
+      "source": "Web-Komachi",
+      "pubDate": "Fri, 17 Jul 2026 08:03:08 GMT",
+      "area": "港区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.066Z"
     },
     {
       "title": "日本初、吉祥寺に新オープン「マモテラス」雑貨やカフェ、マーモット村の複合商業施設で全3フロア詳細発表",
@@ -2012,9 +2035,7 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Wed, 15 Jul 2026 01:30:42 GMT",
       "area": "渋谷区",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -2443,6 +2464,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
+      "title": "『特別なハナマル』をもらえる「はなまるおばけ」のテーマカフェが東京・大阪で開催決定！「はなまるおばけのはなまるごほうびカフェ」期間限定オープン！！…",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WFRYbXl4OW1KRVZkbmVuRDBHVHpiY3poZkMzcVhreTFaT2Q5LUdmT3cwTDVXUmdEWHcyUGRoWWFFUml2cjgweDNXVjRxdnl0ZGhpMXR3?oc=5",
+      "source": "フーズチャネル",
+      "pubDate": "Tue, 07 Jul 2026 06:14:04 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T02:30:41.384Z"
     },
     {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
@@ -2935,7 +2968,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
-      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン｜レッツエンジョイ東京",
+      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0cHl0TE1TZWw5Zk9hMUtKTU1PYUZEbW1WMDluSk5MTDNTZkVCeThLR08weWNWa3FoLVNuRVphdGN4eVV5ejlTckpCbHE1X2M?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
