@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T02:45:21.473Z",
+  "generatedAt": "2026-07-21T07:35:05.692Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 66
+      "count": 62
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 36
+      "count": 38
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 71
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 19
+      "count": 18
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -636,19 +636,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T15:15:09.219Z"
-    },
-    "回転寿司aburi百貫": {
-      "storeName": "回転寿司ABURI百貫",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:09.262Z"
     },
     "スシスミビ自由が丘": {
       "storeName": "スシスミビ 自由が丘",
@@ -1339,19 +1326,6 @@
       "open": "",
       "checkedAt": "2026-07-17T21:58:09.673Z"
     },
-    "漁港食堂三方": {
-      "storeName": "漁港食堂 三方",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004612962/?vos=nhppalsa000016",
-      "shopName": "漁港食堂 三方 多摩センター店",
-      "address": "東京都多摩市落合１-11-3 おちあい横丁 2階201号室",
-      "access": "小田急多摩ｾﾝﾀｰ駅より徒歩約3分!",
-      "genre": "居酒屋",
-      "budget": "2001～3000円",
-      "capacity": 70,
-      "open": "月～日: 11:30～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-18T07:02:21.889Z"
-    },
     "theキャラcafe東急プラザ渋谷店": {
       "storeName": "THEキャラCAFE 東急プラザ渋谷店",
       "listed": false,
@@ -1442,6 +1416,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T08:09:52.283Z"
+    },
+    "piccolaaria": {
+      "storeName": "Piccola Aria",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T07:35:05.454Z"
     }
   },
   "market": {
@@ -1652,9 +1639,25 @@
     "武蔵野市|焼肉": {
       "count": 28,
       "checkedAt": "2026-07-19T07:30:05.963Z"
+    },
+    "豊島区|イタリアン": {
+      "count": 69,
+      "checkedAt": "2026-07-21T07:35:05.692Z"
     }
   },
   "items": [
+    {
+      "title": "西池袋に“選べるイタリアンデリ”が8月4日グランドオープン。hotel hisoca ikebukuro運営会社が手がける、前菜とメインを自由に組み合わせる「Piccola Aria」のデリボックス",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XSW9CbW1SMjRSYnZHeWFUQWtOYXRMdHRLSHRzR29xU1UzUG51M0hrWURERVR5UWJxYXh3dnR4VWpCNDYwQnpXdmEzM0ZuX1VNRGJ1RTZjcmZkeUlzVTJDTWEyY0ZWaG9TNXc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 21 Jul 2026 01:00:02 GMT",
+      "area": "豊島区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T07:35:00.452Z"
+    },
     {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
@@ -1702,6 +1705,18 @@
       "firstSeenAt": "2026-07-18T14:21:50.140Z"
     },
     {
+      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
+      "source": "Web-Komachi",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "area": "港区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-17T14:47:14.066Z"
+    },
+    {
       "title": "「東銀座・築地 かわきた歯科」オープニングスタッフ募集（歯科助手/研修制度充実・完全週休2日）",
       "link": "https://www.guppy.jp/da/793760?utm_source=kyujinbox&utm_medium=organic&utm_content=793760_1",
       "source": "求人ボックス（GUPPY）",
@@ -1710,18 +1725,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T15:07:03.945Z"
-    },
-    {
-      "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
-      "source": "Web-Komachi",
-      "pubDate": "Fri, 17 Jul 2026 08:03:08 GMT",
-      "area": "港区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T14:47:14.066Z"
     },
     {
       "title": "日本初、吉祥寺に新オープン「マモテラス」雑貨やカフェ、マーモット村の複合商業施設で全3フロア詳細発表",
@@ -2124,6 +2127,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T07:25:55.250Z"
+    },
+    {
+      "title": "「Btaps 虎ノ門ヒルズ店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ビアガーデン・ビアホール/…）",
+      "link": "https://job.tabelog.com/restaurants?id=13295062#job-info-33741",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 09 Jul 2026 09:30:36 GMT",
+      "area": "港区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T07:35:00.415Z"
     },
     {
       "title": "「地鶏黒木屋 銀座一丁目」オープニングスタッフ募集（ホールスタッフ）",
@@ -2828,7 +2843,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
-      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン",
+      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0cHl0TE1TZWw5Zk9hMUtKTU1PYUZEbW1WMDluSk5MTDNTZkVCeThLR08weWNWa3FoLVNuRVphdGN4eVV5ejlTckpCbHE1X2M?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
@@ -3402,28 +3417,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T09:53:14.180Z"
-    },
-    {
-      "title": "「回転寿司ABURI百貫」が六本木にオープン！“炙り”にこだわったお寿司が魅力｜レッツエンジョイ東京",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1XZTJtUTg1TlkwWWhMUl9PNzFuMmM3Z25jMUROajBoSWtDTWphSnZVQmtlRXN3TW1vN3FETzJxYXNka3BaN2NNd1dsRzJnUXM?oc=5",
-      "source": "レッツエンジョイ東京",
-      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
-      "area": "港区",
-      "genres": [
-        "寿司"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.045Z"
-    },
-    {
-      "title": "【多摩センター駅初出店・東京初！】テレビでも話題の刺身食べ放題「漁港食堂 三方」が京王線・小田急線の多摩センター駅に5月25日(月)にOPENいたします！ランチ食べ放題、夜はアラカルト・コースも充実！ | 株式会社イートウイングのプレスリリース",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91TGhXOXk4ZUdVQXRhNnk1Y1BSbi1pTDl2MnBianlGMTZTNW5FUGhncU5DVmt4eTRfVzBWNFZqSVhjbFhWYXRjWVlMU0xOMGJTZUNFVTFxU0pJTlNtRVZnWlRubUdneF9wMUE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
-      "area": "多摩市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-18T07:02:18.433Z"
     }
   ]
 }

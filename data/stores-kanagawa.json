@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T02:45:27.773Z",
+  "generatedAt": "2026-07-21T07:35:15.415Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 77
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 15
+      "count": 14
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
@@ -610,6 +610,32 @@
       "capacity": 28,
       "open": "月～土: 11:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）日、祝日: 11:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
       "checkedAt": "2026-07-21T02:30:53.874Z"
+    },
+    "ひねり蛇口ハイ大衆酒泉テルマエ川崎仲見世通り泉": {
+      "storeName": "ひねり蛇口ハイ 大衆酒泉テルマエ 川崎仲見世通り泉",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T07:35:13.639Z"
+    },
+    "松阪牛": {
+      "storeName": "松阪牛",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-21T07:35:15.171Z"
     }
   },
   "market": {
@@ -681,21 +707,17 @@
       "count": 7,
       "checkedAt": "2026-07-17T21:58:17.260Z"
     },
-    "鎌倉市|イタリアン": {
-      "count": 25,
-      "checkedAt": "2026-07-19T14:25:32.714Z"
-    },
     "横浜市中区|イタリアン": {
       "count": 58,
       "checkedAt": "2026-07-20T15:15:20.853Z"
     },
-    "川崎市|レストラン": {
-      "count": 56,
-      "checkedAt": "2026-07-20T22:10:00.539Z"
-    },
     "横浜市|韓国料理": {
       "count": 65,
       "checkedAt": "2026-07-21T02:30:54.614Z"
+    },
+    "大和市|焼肉": {
+      "count": 23,
+      "checkedAt": "2026-07-21T07:35:15.415Z"
     }
   },
   "items": [
@@ -732,6 +754,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-19T21:58:34.472Z"
+    },
+    {
+      "title": "【安楽亭 大井松田店】7/21(火)リニューアルオープン♪焼肉の楽しさが、さらに進化！日本三大和牛「松阪牛」に、彩り豊かなサラダバーまで。オープン記念「サラダバー半額パスポート」の配布も！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZdWdGcUF6U01RdDdKcDNTV2w0RHBKTGU0a09lSnhlZGRmblBkNzVPS1Z6TFJCSlFKR2FPMXR2WDdXcTZTRG42NldCdHZBQU1YdWFReXV0WnpTUDhvMzFqZUFLeXpaZXBRX3c?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Sun, 19 Jul 2026 05:00:02 GMT",
+      "area": "大和市",
+      "genres": [
+        "焼肉",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T07:35:10.077Z"
     },
     {
       "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
@@ -785,9 +820,7 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 16 Jul 2026 09:30:38 GMT",
       "area": "川崎市",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.562Z"
     },
@@ -849,6 +882,18 @@
       "firstSeenAt": "2026-07-17T14:47:24.941Z"
     },
     {
+      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
       "title": "「韓国屋台酒場 韓兵衛 横浜天理ビル店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/韓国料理/アジア・エスニッ…）",
       "link": "https://job.tabelog.com/restaurants?id=14100679#job-info-81496",
       "source": "求人ボックス（食べログ求人）",
@@ -859,18 +904,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T02:30:50.275Z"
-    },
-    {
-      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -994,7 +1027,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14094451#job-info-47137",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Fri, 10 Jul 2026 01:30:44 GMT",
-      "area": "鎌倉市",
+      "area": "横浜市",
       "genres": [
         "イタリアン"
       ],
@@ -1336,7 +1369,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市中原区",
+      "area": "川崎市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -1446,7 +1479,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
+      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
@@ -1501,6 +1534,18 @@
       "firstSeenAt": "2026-07-15T07:18:55.565Z"
     },
     {
+      "title": "「ひねり蛇口ハイ 大衆酒泉テルマエ 川崎仲見世通り泉」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/ボーナス・賞…）",
+      "link": "https://job.tabelog.com/restaurants?id=14090711#job-info-14746",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 26 May 2026 09:30:31 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T07:35:10.039Z"
+    },
+    {
       "title": "【神奈川県横浜市】カジュアルイタリアン「SALVATORE CUOMO」の新店舗が新横浜に！記念キャンペーン実施",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yT3hCS0xtMC03b21GOGFPN2RIN0pIWjdNdWZwNFVKQ1pyNVF5THI5YzZXbmpSRGtrTWJ1bkNsdnYxNTNWS3hoNFhtSlNYcTVFVW1J?oc=5",
       "source": "STRAIGHT PRESS",
@@ -1523,28 +1568,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T07:18:55.601Z"
-    },
-    {
-      "title": "Tavernetta Salvatore 新横浜 2026年6月1日(月)グランドオープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmTXF1eHFNMjgwYXMwSWt4MHZZcnhiZmtMX0VpeHZENkJoc1YyYWhfV1c2Q2pkcnJDbi15NHV5RjNLR3NuVUhVLVJsZ3dySWwzaTRVaTExZHNYTkRWUnpRdU1wT3VERFRCTFE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
-      "area": "横浜市港北区",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:41.968Z"
-    },
-    {
-      "title": "【食べログ初クチコミ】【リニューアルオープン】横浜中華街で淮南牛肉湯と焼餅！香港路の新名物｜豪媽牛肉湯 見一面（旧：中華街 一点点）",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sN3c0T3NDaUQ5S0RFczBfM0d1dUxJOUZVNTZqVnJNSWRxU0ZONkpkMzVFUFcxMlZUdlJTUVhSZFRjVDN4NUM2SzJ2T2ZQbmVpM01obHRVdEhFUQ?oc=5",
-      "source": "miuken.net",
-      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
-      "area": "横浜市中区",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-20T08:09:56.704Z"
     }
   ]
 }
