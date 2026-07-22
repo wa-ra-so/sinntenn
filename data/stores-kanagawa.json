@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-21T22:07:26.493Z",
+  "generatedAt": "2026-07-22T07:37:49.762Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 93
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 14
+      "count": 12
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 49
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -284,7 +284,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-14T23:28:02.577Z"
+      "checkedAt": "2026-07-22T07:37:49.605Z"
     },
     "regastrada": {
       "storeName": "REGA STRADA",
@@ -310,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T02:20:01.879Z"
+      "checkedAt": "2026-07-22T07:37:49.288Z"
     },
     "鎌倉海街テーブル": {
       "storeName": "鎌倉海街テーブル",
@@ -336,20 +336,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T05:11:49.166Z"
-    },
-    "ブルーボトルコーヒー鎌倉カフェ": {
-      "storeName": "ブルーボトルコーヒー 鎌倉カフェ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-15T07:18:58.278Z"
+      "checkedAt": "2026-07-22T07:37:49.534Z"
     },
     "イタリアンpozdining関内店": {
       "storeName": "イタリアン POZ DINING 関内店",
@@ -362,7 +349,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T07:18:58.743Z"
+      "checkedAt": "2026-07-22T07:37:49.625Z"
     },
     "宏二郎丸本店": {
       "storeName": "宏二郎丸 本店",
@@ -649,6 +636,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-21T22:07:26.150Z"
+    },
+    "牡蠣ツ端武蔵小杉店": {
+      "storeName": "牡蠣ツ端 武蔵小杉店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-22T07:37:49.378Z"
     }
   },
   "market": {
@@ -689,16 +689,12 @@
       "checkedAt": "2026-07-20T22:10:00.538Z"
     },
     "川崎市|ダイニング": {
-      "count": 66,
-      "checkedAt": "2026-07-14T23:28:03.128Z"
+      "count": 65,
+      "checkedAt": "2026-07-22T07:37:49.762Z"
     },
     "川崎市|居酒屋": {
-      "count": 403,
-      "checkedAt": "2026-07-15T02:20:02.031Z"
-    },
-    "鎌倉市|カフェ": {
-      "count": 48,
-      "checkedAt": "2026-07-15T07:18:58.875Z"
+      "count": 402,
+      "checkedAt": "2026-07-22T07:37:49.759Z"
     },
     "川崎市|焼肉": {
       "count": 149,
@@ -747,6 +743,18 @@
   },
   "items": [
     {
+      "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
+      "link": "https://job.tabelog.com/restaurants?id=14077507#job-info-90412",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Wed, 22 Jul 2026 01:30:46 GMT",
+      "area": "川崎市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:22.920Z"
+    },
+    {
       "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
       "source": "求人ボックス（マイナビ転職.）",
@@ -765,18 +773,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
-    },
-    {
-      "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
-      "link": "https://job.tabelog.com/restaurants?id=14077507#job-info-90412",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 20 Jul 2026 01:30:40 GMT",
-      "area": "川崎市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:22.920Z"
     },
     {
       "title": "「アイスは別腹 横浜中華街店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ジェラート・アイスクリーム…）",
@@ -855,9 +851,7 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 16 Jul 2026 09:30:38 GMT",
       "area": "川崎市",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:27:58.562Z"
     },
@@ -909,6 +903,18 @@
       "firstSeenAt": "2026-07-17T07:21:24.824Z"
     },
     {
+      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
       "title": "「韓国屋台酒場 韓兵衛 横浜天理ビル店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/韓国料理/アジア・エスニッ…）",
       "link": "https://job.tabelog.com/restaurants?id=14100679#job-info-81496",
       "source": "求人ボックス（食べログ求人）",
@@ -919,18 +925,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T02:30:50.275Z"
-    },
-    {
-      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -958,7 +952,7 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
-      "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン",
+      "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン | 株式会社Food Seedのプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ESV85aWs2T1JhWUdXeDY5RkZ4Uk55ME1HSGNIa000UUQtZ0lQTllxQVVEYjFkWHc2ZWtvck10U2JIdlRyNXYtTjVCakdob3lfOGtMeWdzTEx4ZHhxUmlVai0zZngwRzdPemc?oc=5",
       "source": "PR TIMES",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
@@ -1079,9 +1073,7 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -1254,6 +1246,18 @@
       "firstSeenAt": "2026-07-17T00:05:58.413Z"
     },
     {
+      "title": "「牡蠣ツ端 武蔵小杉店」オープニングスタッフ募集（調理師・調理スタッフ/シーフード/その他レストラン/飲食店/…）",
+      "link": "https://job.tabelog.com/restaurants?id=14091098#job-info-12666",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Fri, 03 Jul 2026 09:30:32 GMT",
+      "area": "川崎市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-22T07:37:46.052Z"
+    },
+    {
       "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03Q1lyTVhEUWdXRmIxckRKb01xam5IWVBKdVl3U3dWb2JiSko4ZWptZVpxeUtja0prdk5jci1wZTU3clBIcTlucGhQcTYxOTVzOFE5MEdjdHJubXpWSTVmZkplVl9za3NSc3c?oc=5",
       "source": "PR TIMES",
@@ -1410,7 +1414,7 @@
       "link": "https://job.tabelog.com/restaurants?id=14089652#job-info-4464",
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "川崎市中原区",
+      "area": "川崎市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:45.327Z"
@@ -1520,7 +1524,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
+      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
@@ -1597,18 +1601,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
-    },
-    {
-      "title": "鎌倉駅徒歩3分「ブルーボトルコーヒー 鎌倉カフェ」が5月29日オープン！「ボールアンドチェーン」コラボの限定アイテムも販売",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qbW44ZGljVER2b1phWjhVS2JKS2dWcHZLSnJaUVVQQjJkRG9VZDBfOTZuX3o4S3VHeWtlMndwazZXSUFJUTZxVHFHTGZUUQ?oc=5",
-      "source": "HAPPY PLUS（ハピプラ）",
-      "pubDate": "Sat, 23 May 2026 07:00:00 GMT",
-      "area": "鎌倉市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T07:18:55.601Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:07:10.883Z",
+  "generatedAt": "2026-07-22T07:37:31.832Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 8
+      "count": 6
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 43
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 94,
+  "itemCount": 95,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -518,7 +518,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T02:19:44.661Z"
+      "checkedAt": "2026-07-22T07:37:30.646Z"
     },
     "成田食堂": {
       "storeName": "成田食堂",
@@ -531,7 +531,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T05:11:33.248Z"
+      "checkedAt": "2026-07-22T07:37:30.926Z"
     },
     "地方創生/館山": {
       "storeName": "地方創生/館山",
@@ -698,11 +698,11 @@
     },
     "松戸市|居酒屋": {
       "count": 77,
-      "checkedAt": "2026-07-14T23:59:24.547Z"
+      "checkedAt": "2026-07-22T07:37:31.061Z"
     },
     "成田市|居酒屋": {
       "count": 36,
-      "checkedAt": "2026-07-14T23:59:24.552Z"
+      "checkedAt": "2026-07-22T07:37:31.832Z"
     },
     "香取市|レストラン": {
       "count": 0,
@@ -727,9 +727,25 @@
     "柏市|レストラン": {
       "count": 19,
       "checkedAt": "2026-07-21T15:07:02.347Z"
+    },
+    "館山市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-22T07:37:31.115Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
+      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
+      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
+      "pubDate": "Tue, 21 Jul 2026 22:30:52 GMT",
+      "area": "館山市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T15:05:31.963Z"
+    },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
@@ -764,16 +780,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:07.422Z"
-    },
-    {
-      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
-      "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
-      "source": "求人ボックス（ビズリーチ - 登録エントリー）",
-      "pubDate": "Mon, 20 Jul 2026 22:30:51 GMT",
-      "area": "館山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
     {
       "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
@@ -1536,6 +1542,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "スミムス(柏/居酒屋)＜ネット予約可",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1WU2RfYlZuZ0lGY2NTYWYtempnVWl3OTAyMmk4cWN2R2ZxYjdVS05PUXBRSlFUNVBvVG9zVHo4S3QzZm03bzBYVUJYWk95dWpY?oc=5",
+      "source": "ホットペッパーグルメ",
+      "pubDate": "Wed, 24 Jun 2026 22:03:12 GMT",
+      "area": "柏市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-22T07:37:27.130Z"
     },
     {
       "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ | チバテレ＋プラス",
