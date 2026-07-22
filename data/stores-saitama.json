@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:37:56.937Z",
+  "generatedAt": "2026-07-22T15:08:37.514Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 72
+      "count": 73
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -751,7 +751,7 @@
       "link": "https://baitona-joshi.jp/shop/1440375/",
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 17 Jul 2026 10:17:43 GMT",
-      "area": "さいたま市中央区",
+      "area": "さいたま市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
@@ -934,7 +934,7 @@
       "title": "『オモウマい店SP』能登の寿司店「津久司」再オープンに密着 埼玉の卵食べ放題食堂も（TV LIFE web）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OR3pBY18tdksxNzBnQlFJLS1ZeHpfQVZUVVJPM1pOZW1lYmxHLWQ3LTktUDNhRDdtZVc3a0NfZTR4ME5IcUpHd1pnMnJGYnQtck1vYU1Oa3hsYUhORDU0cXh4aFNRR0NCUm1wVTJzM3BFaFZ3R1lCNDRGNXFtbUE?oc=5",
       "source": "Yahoo!ニュース",
-      "pubDate": "Mon, 13 Jul 2026 22:01:39 GMT",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
         "寿司"
@@ -1318,7 +1318,7 @@
       "genres": [
         "中華"
       ],
-      "signal": "opening",
+      "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.272Z"
     },
     {

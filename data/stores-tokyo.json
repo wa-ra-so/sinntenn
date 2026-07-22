@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:37:41.448Z",
+  "generatedAt": "2026-07-22T15:08:23.837Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 62
+      "count": 61
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 36
+      "count": 35
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 11
+      "count": 13
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 60
+      "count": 61
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 16
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 161,
+  "itemCount": 162,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -843,7 +843,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T08:37:28.887Z"
+      "checkedAt": "2026-07-22T15:08:22.782Z"
     },
     "カフェタナカ": {
       "storeName": "カフェタナカ",
@@ -856,7 +856,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T09:53:18.747Z"
+      "checkedAt": "2026-07-22T15:08:23.555Z"
     },
     "crêpedujour": {
       "storeName": "Crêpe du jour",
@@ -869,7 +869,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T09:53:19.248Z"
+      "checkedAt": "2026-07-22T15:08:23.430Z"
     },
     "地鶏黒木屋銀座一丁目": {
       "storeName": "地鶏黒木屋 銀座一丁目",
@@ -882,7 +882,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T13:21:44.955Z"
+      "checkedAt": "2026-07-22T15:08:22.652Z"
     },
     "すたみな太郎next上野アメ横店": {
       "storeName": "すたみな太郎NEXT 上野アメ横店",
@@ -895,7 +895,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T13:21:45.072Z"
+      "checkedAt": "2026-07-22T15:08:22.430Z"
     },
     "串とメシにはサケキタル。": {
       "storeName": "串とメシにはサケキタル。",
@@ -908,7 +908,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T13:21:45.097Z"
+      "checkedAt": "2026-07-22T15:08:23.245Z"
     },
     "肉屋の台所新宿東口新店": {
       "storeName": "肉屋の台所 新宿東口新店",
@@ -921,7 +921,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T13:21:45.182Z"
+      "checkedAt": "2026-07-22T15:08:22.862Z"
     },
     "飯田橋大衆焼肉ばりとんっ": {
       "storeName": "飯田橋大衆焼肉 ばりとんっ",
@@ -947,7 +947,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T13:21:45.348Z"
+      "checkedAt": "2026-07-22T15:08:23.003Z"
     },
     "肉屋の台所飯田橋店": {
       "storeName": "肉屋の台所 飯田橋店",
@@ -986,7 +986,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T14:08:11.263Z"
+      "checkedAt": "2026-07-22T15:08:23.117Z"
     },
     "木村屋本店代々木西口": {
       "storeName": "木村屋本店 代々木西口",
@@ -999,7 +999,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T14:27:48.891Z"
+      "checkedAt": "2026-07-22T15:08:23.211Z"
     },
     "一天張": {
       "storeName": "一天張",
@@ -1025,7 +1025,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T15:05:44.229Z"
+      "checkedAt": "2026-07-22T15:08:23.348Z"
     },
     "シュラスコ&ビアバーゴッチバッタ銀座": {
       "storeName": "シュラスコ&ビアバー ゴッチバッタ銀座",
@@ -1038,7 +1038,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-15T15:05:45.004Z"
+      "checkedAt": "2026-07-22T15:08:23.350Z"
     },
     "btaps虎ノ門ヒルズ店": {
       "storeName": "Btaps 虎ノ門ヒルズ店",
@@ -1600,23 +1600,23 @@
     },
     "武蔵野市|フレンチ": {
       "count": 9,
-      "checkedAt": "2026-07-15T09:53:19.479Z"
+      "checkedAt": "2026-07-22T15:08:23.837Z"
     },
     "台東区|焼肉": {
       "count": 104,
-      "checkedAt": "2026-07-15T13:21:45.479Z"
+      "checkedAt": "2026-07-22T15:08:23.705Z"
     },
     "墨田区|居酒屋": {
-      "count": 145,
-      "checkedAt": "2026-07-15T13:21:45.490Z"
+      "count": 147,
+      "checkedAt": "2026-07-22T15:08:23.699Z"
     },
     "千代田区|焼肉": {
       "count": 92,
-      "checkedAt": "2026-07-15T13:21:45.498Z"
+      "checkedAt": "2026-07-22T15:08:23.682Z"
     },
     "江東区|バー": {
       "count": 97,
-      "checkedAt": "2026-07-15T13:21:45.613Z"
+      "checkedAt": "2026-07-22T15:08:23.813Z"
     },
     "渋谷区|バル": {
       "count": 109,
@@ -1673,6 +1673,31 @@
   },
   "items": [
     {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Wed, 22 Jul 2026 09:53:07 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "「メキシカンダイニング ESO 神田」オープニングスタッフ募集（調理師・調理スタッフ/中南米料理/アジア・エスニック/飲食店…）",
+      "link": "https://job.tabelog.com/restaurants?id=13302944#job-info-109424",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Wed, 22 Jul 2026 09:30:43 GMT",
+      "area": "千代田区",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-22T15:08:18.519Z"
+    },
+    {
       "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（本部スタッフ・SV/焼き鳥・串焼・鳥料理/和食/飲食店/完全…）",
       "link": "https://job.tabelog.com/restaurants?id=13297267#job-info-109358",
       "source": "求人ボックス（食べログ求人）",
@@ -1693,19 +1718,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-22T07:37:36.180Z"
-    },
-    {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Tue, 21 Jul 2026 20:52:57 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "株式会社LFCRD オープニングスタッフ募集（月島もんじゃの店舗スタッフ/オープニング/1年後に年収500…）",
