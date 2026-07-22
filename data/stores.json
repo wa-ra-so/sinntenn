@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:08:13.924Z",
+  "generatedAt": "2026-07-22T22:08:50.650Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 42
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 95,
+  "itemCount": 96,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -597,6 +597,19 @@
       "capacity": 126,
       "open": "月～日、祝日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
       "checkedAt": "2026-07-18T21:55:59.415Z"
+    },
+    "今日和千葉本店": {
+      "storeName": "今日和 千葉本店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003944002/?vos=nhppalsa000016",
+      "shopName": "今日和　千葉本店",
+      "address": "千葉県千葉市中央区富士見１－１２－１７　ネクストサイト千葉ビル１０２",
+      "access": "JR千葉駅徒歩5分  栄町駅徒歩3分  京成千葉駅徒歩8分 ",
+      "genre": "イタリアン・フレンチ",
+      "budget": "3001～4000円",
+      "capacity": 62,
+      "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-22T22:08:49.648Z"
     }
   },
   "market": {
@@ -706,15 +719,15 @@
     },
     "香取市|レストラン": {
       "count": 0,
-      "checkedAt": "2026-07-15T22:06:30.445Z"
+      "checkedAt": "2026-07-22T22:08:50.650Z"
     },
     "柏市|イタリアン": {
       "count": 22,
-      "checkedAt": "2026-07-15T22:06:30.450Z"
+      "checkedAt": "2026-07-22T22:08:50.461Z"
     },
     "習志野市|韓国料理": {
       "count": 4,
-      "checkedAt": "2026-07-15T22:06:30.816Z"
+      "checkedAt": "2026-07-22T22:08:50.647Z"
     },
     "千葉市中央区|ダイニング": {
       "count": 28,
@@ -728,33 +741,43 @@
       "count": 19,
       "checkedAt": "2026-07-21T15:07:02.347Z"
     },
-    "館山市|レストラン": {
-      "count": 6,
-      "checkedAt": "2026-07-22T07:37:31.115Z"
+    "千葉市中央区|イタリアン": {
+      "count": 29,
+      "checkedAt": "2026-07-22T22:08:50.464Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Wed, 22 Jul 2026 18:56:43 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
+      "title": "「今日和 千葉本店」オープニングスタッフ募集（店長候補・マネージャー/イタリアン/洋食・西洋料理/飲食店/…）",
+      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51836",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Wed, 22 Jul 2026 09:30:41 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-22T22:08:45.521Z"
+    },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
       "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
       "pubDate": "Tue, 21 Jul 2026 22:30:52 GMT",
       "area": "館山市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:31.963Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Tue, 21 Jul 2026 19:14:21 GMT",
-      "area": "習志野市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+      "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
     {
       "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
@@ -1524,7 +1547,7 @@
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
       "source": "千葉日報オンライン",
-      "pubDate": "Fri, 26 Jun 2026 09:57:21 GMT",
+      "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [
         "カフェ",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:08:23.837Z",
+  "generatedAt": "2026-07-22T22:09:02.774Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 61
+      "count": 62
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 35
+      "count": 38
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 13
+      "count": 14
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 61
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 19
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 162,
+  "itemCount": 165,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1455,6 +1455,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-21T15:07:13.499Z"
+    },
+    "食べる・飲む・体験する": {
+      "storeName": "食べる・飲む・体験する",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-22T22:09:01.787Z"
     }
   },
   "market": {
@@ -1619,8 +1632,8 @@
       "checkedAt": "2026-07-22T15:08:23.813Z"
     },
     "渋谷区|バル": {
-      "count": 109,
-      "checkedAt": "2026-07-15T22:06:38.845Z"
+      "count": 108,
+      "checkedAt": "2026-07-22T22:09:01.987Z"
     },
     "千代田区|ダイニング": {
       "count": 99,
@@ -1669,6 +1682,10 @@
     "豊島区|イタリアン": {
       "count": 69,
       "checkedAt": "2026-07-21T07:35:05.692Z"
+    },
+    "目黒区|カフェ": {
+      "count": 57,
+      "checkedAt": "2026-07-22T22:09:02.774Z"
     }
   },
   "items": [
@@ -1698,6 +1715,18 @@
       "firstSeenAt": "2026-07-22T15:08:18.519Z"
     },
     {
+      "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
+      "source": "吉祥寺ファンページ",
+      "pubDate": "Wed, 22 Jul 2026 04:12:32 GMT",
+      "area": "三鷹市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-22T22:08:55.695Z"
+    },
+    {
       "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（本部スタッフ・SV/焼き鳥・串焼・鳥料理/和食/飲食店/完全…）",
       "link": "https://job.tabelog.com/restaurants?id=13297267#job-info-109358",
       "source": "求人ボックス（食べログ求人）",
@@ -1724,7 +1753,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "中央区",
+      "area": "台東区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
@@ -1748,7 +1777,9 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Tue, 21 Jul 2026 09:30:37 GMT",
       "area": "渋谷区",
-      "genres": [],
+      "genres": [
+        "レストラン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -1998,7 +2029,7 @@
       "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次 西新宿小滝橋店」をオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xZlVLOU1hNWpLT3BhV2R6ZTNGUGZOM0hCbWx4eHdRcXhVVm8xakVwQ1E2S2F2QXRzTURWYmpqQ0VTMTRHNWt2VFVKTUlCaUVXYzZWQjBWMGI3OEpaUXV2YzU1UG1wTmJON2c?oc=5",
       "source": "PR TIMES",
-      "pubDate": "Thu, 16 Jul 2026 03:10:01 GMT",
+      "pubDate": "Thu, 16 Jul 2026 03:12:10 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋"
@@ -2850,6 +2881,18 @@
       "firstSeenAt": "2026-07-19T07:29:58.521Z"
     },
     {
+      "title": "アトレ恵比寿／7～8月オーガニック抹茶のカフェなど3店舗オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02cHJHT29mcTU5UmJNVzdBLXRaMVJaeTdmRVpSdE54VUkzcHhJT25hY3Z4S29RMHNQcG9aRWV5RjM2d2hNT3FMWWtocGFtRzJPNkJNMA?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-22T22:08:55.698Z"
+    },
+    {
       "title": "タクラマ館(町田駅/居酒屋)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yOU5nc2VtejAyWkI4clRhaW5TQk5sVkdNY2tsT1VWaUdPcFFDNHhqZm43OFk2Y0VIdHZudUZWVXVLdnBxWDZENWpSWGZiYUc4?oc=5",
       "source": "ホットペッパーグルメ",
@@ -2943,6 +2986,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:49.248Z"
+    },
+    {
+      "title": "お茶を「食べる・飲む・体験する」関東初※の 体験型日本茶カフェ Re:Route CAFE 自由が丘 6/17オープン",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NWjJVVlZBZ2NmajVxM2VzLUZhTzJrdDQwZzJFQ19jOFdVV0RFWjhfRHJ2bTliVXo1V2h0U0hCWlRULTZmcmpTSnY3NGNqZw?oc=5",
+      "source": "アットプレス",
+      "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "area": "目黒区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-22T22:08:55.697Z"
     },
     {
       "title": "【東京都渋谷区】カフェ・オフィスからなる複合施設「B TRACK」がオープン！築57年のビルを再生",
