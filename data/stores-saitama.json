@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:36:07.302Z",
+  "generatedAt": "2026-07-23T08:50:28.598Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 71
+      "count": 72
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 59
+      "count": 57
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 4
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 65,
+  "itemCount": 60,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -103,32 +103,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T15:15:29.763Z"
-    },
-    "み鳥": {
-      "storeName": "み鳥",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004612423/?vos=nhppalsa000016",
-      "shopName": "み鳥",
-      "address": "埼玉県久喜市久喜中央３-9-60",
-      "access": "久喜駅から徒歩5分  久喜駅から341m",
-      "genre": "居酒屋",
-      "budget": "5001～6000円",
-      "capacity": 12,
-      "open": "月、火、木～日、祝日、祝前日: 17:30～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）",
-      "checkedAt": "2026-07-13T15:05:56.261Z"
-    },
-    "地鶏と網焼き個室居酒屋鶏匠アズ熊谷店": {
-      "storeName": "地鶏と網焼き 個室居酒屋 鶏匠 アズ熊谷店",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004634361/?vos=nhppalsa000016",
-      "shopName": "鶏匠 アズ熊谷店",
-      "address": "埼玉県熊谷市筑波２－１１５　熊谷駅ビルアズ５Ｆ",
-      "access": "秩父鉄道,JR熊谷駅北口より徒歩約2分",
-      "genre": "居酒屋",
-      "budget": "4001～5000円",
-      "capacity": 80,
-      "open": "月～金、祝前日: 16:30～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）土、日、祝日: 13:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）",
-      "checkedAt": "2026-07-13T15:05:56.383Z"
     },
     "店舗スタッフ": {
       "storeName": "店舗スタッフ",
@@ -338,45 +312,6 @@
       "open": "",
       "checkedAt": "2026-07-20T22:11:31.665Z"
     },
-    "イタリア厨房バジル": {
-      "storeName": "イタリア厨房バジル",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T22:11:31.871Z"
-    },
-    "創作ダイニング心": {
-      "storeName": "創作ダイニング心",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T22:11:31.434Z"
-    },
-    "海鮮すし居酒屋愉快八木崎店": {
-      "storeName": "海鮮すし居酒屋 愉快 八木崎店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T22:11:31.895Z"
-    },
     "小川菊": {
       "storeName": "小川菊",
       "listed": false,
@@ -415,19 +350,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-21T22:07:33.493Z"
-    },
-    "和ごころふれんち樹樹hanare": {
-      "storeName": "和ごころふれんち 樹樹HANARE",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-21T22:07:33.419Z"
     },
     "daenzo": {
       "storeName": "DA ENZO",
@@ -597,6 +519,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-23T07:36:07.069Z"
+    },
+    "天空の里": {
+      "storeName": "天空の里",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T08:50:28.598Z"
     }
   },
   "market": {
@@ -623,10 +558,6 @@
     "さいたま市|カフェ": {
       "count": 74,
       "checkedAt": "2026-07-20T15:15:31.495Z"
-    },
-    "熊谷市|居酒屋": {
-      "count": 38,
-      "checkedAt": "2026-07-20T15:15:31.460Z"
     },
     "さいたま市大宮区|カフェ": {
       "count": 29,
@@ -663,18 +594,6 @@
     "川口市|カフェ": {
       "count": 15,
       "checkedAt": "2026-07-20T15:15:31.649Z"
-    },
-    "川越市|ダイニング": {
-      "count": 11,
-      "checkedAt": "2026-07-20T22:11:32.109Z"
-    },
-    "熊谷市|イタリアン": {
-      "count": 9,
-      "checkedAt": "2026-07-20T22:11:32.118Z"
-    },
-    "春日部市|居酒屋": {
-      "count": 40,
-      "checkedAt": "2026-07-20T22:11:32.219Z"
     },
     "川口市|バル": {
       "count": 10,
@@ -720,10 +639,6 @@
       "count": 11,
       "checkedAt": "2026-07-18T07:02:36.331Z"
     },
-    "所沢市|創作料理": {
-      "count": 2,
-      "checkedAt": "2026-07-20T22:11:32.104Z"
-    },
     "志木市|中華": {
       "count": 2,
       "checkedAt": "2026-07-23T07:36:07.274Z"
@@ -753,7 +668,7 @@
       "genres": [
         "中華"
       ],
-      "signal": "hiring",
+      "signal": "opening",
       "firstSeenAt": "2026-07-23T07:36:03.107Z"
     },
     {
@@ -790,6 +705,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:30.304Z"
+    },
+    {
+      "title": "埼玉県内初、関東でも2例目…コウノトリの放鳥　鴻巣「天空の里」で2羽　愛称は「晴」と「天」に　ケージにとどまる1羽…もう1羽は翼を広げ、勢いよく飛び出す",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMWNVMkRndjhXWll2YjJRX0dtM2ZlRGNXeVlmdXdWVW5LUFRCeUM1QV9UWlFFOGdzdVB5a0hueWtXaFR0c3R2bFF1ZjZKSGpIWC03Tzl4d1JvOFNaX19qbFZDVzBlNzE0MFlhR0tqRXdCTXA0U1FTdGVEQkdZcndxbGJTONIBiAFBVV95cUxPRzVxOXRkaWRjdFZ4ZlZJbk8tSUhGQk0yNFQ1anF3dk1ZRUhxLUEyLTFUOUdSdFA5UDNhbEZxR0xaNllOR2lkbE1zYXB1QTVzeGNxNkt3TmhqLUI1a3NtT19Za3h2cXZJMFZLanVNOFFpUElVYl9QR2hFMlFia3UyWmZMelJlbWdk?oc=5",
+      "source": "ｄメニューニュース",
+      "pubDate": "Sun, 19 Jul 2026 01:44:00 GMT",
+      "area": "鴻巣市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T08:50:21.723Z"
     },
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
@@ -931,16 +856,6 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
-    },
-    {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-229877-1-113-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11224",
       "source": "求人ボックス（マイナビ転職.）",
@@ -961,19 +876,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T22:07:21.720Z"
-    },
-    {
-      "title": "「創作ダイニング心」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
-      "link": "https://job.tabelog.com/restaurants?id=11064533#job-info-56891",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
-      "area": "川越市",
-      "genres": [
-        "ダイニング",
-        "創作料理"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.587Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
@@ -1024,18 +926,6 @@
       "firstSeenAt": "2026-07-14T21:49:40.791Z"
     },
     {
-      "title": "「和ごころふれんち 樹樹HANARE」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/創作料理・イノベーティブ/…）",
-      "link": "https://job.tabelog.com/restaurants?id=11065319#job-info-68414",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 13 Jul 2026 15:03:43 GMT",
-      "area": "所沢市",
-      "genres": [
-        "創作料理"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T21:49:40.743Z"
-    },
-    {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQ3ZPVDBIdWozTXhBMUNQZ0lkakk4Rm5pYmZHdnVnbHMtRl9HRDVFa1pUSzNObXU2U1VsZEFIajNVM1lIOGthOGRROTFPVldXODZ3TjZwQlZaUQ?oc=5",
       "source": "川口マガジン",
@@ -1059,18 +949,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
-    },
-    {
-      "title": "「イタリア厨房バジル」オープニングスタッフ募集（調理師・調理スタッフ/イタリアン/洋食・西洋料理/飲食店/月…）",
-      "link": "https://job.tabelog.com/restaurants?id=11010629#job-info-53545",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 11 Jul 2026 01:30:42 GMT",
-      "area": "熊谷市",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
       "title": "株式会社TPD オープニングスタッフ募集（ホール/キッチン/フード系 未経験歓迎 高校生も歓迎 週2日…）",
@@ -1198,30 +1076,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-18T21:56:19.585Z"
-    },
-    {
-      "title": "「地鶏と網焼き 個室居酒屋 鶏匠 アズ熊谷店」オープニングスタッフ募集（調理師・調理スタッフ/焼き鳥・串焼・鳥料理/和食/飲食店/ボ…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067994#job-info-107397",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 05 Jul 2026 15:05:18 GMT",
-      "area": "熊谷市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
-    },
-    {
-      "title": "「海鮮すし居酒屋 愉快 八木崎店」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/完全週休2日制）",
-      "link": "https://job.tabelog.com/restaurants?id=11067307#job-info-99282",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 30 Jun 2026 09:30:35 GMT",
-      "area": "春日部市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:59.587Z"
     },
     {
       "title": "シーシャ半額キャンペーン開催！「シーシャ カフェ&バー C.STAND（シースタンド）大宮南銀座通り店」2026年6月30日（火）グランドオープン♪シーシャ半額になるキャンペーンも開催！",

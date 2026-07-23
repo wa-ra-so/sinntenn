@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:35:51.476Z",
+  "generatedAt": "2026-07-23T08:50:06.693Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 42
+      "count": 39
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 63
+      "count": 62
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 17
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,21 +63,8 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 172,
+  "itemCount": 146,
   "hotpepper": {
-    "炭焼き屋こもれ火": {
-      "storeName": "炭焼き屋 こもれ火",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004421526/?vos=nhppalsa000016",
-      "shopName": "炭焼き屋 こもれ火 品川店",
-      "address": "東京都港区港南２-15-2 B棟 地下一階 B11",
-      "access": "JR品川駅港南口(東口)より徒歩約3分",
-      "genre": "居酒屋",
-      "budget": "6001～7000円",
-      "capacity": 76,
-      "open": "月～金、祝前日: 11:00～13:30 （料理L.O. 13:00 ドリンクL.O. 13:00）17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-13T15:05:29.262Z"
-    },
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
       "listed": false,
@@ -155,19 +142,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T15:15:06.213Z"
-    },
-    "焼鳥どん吉祥寺店": {
-      "storeName": "焼鳥どん 吉祥寺店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:05.694Z"
     },
     "10cmspice&buns": {
       "storeName": "10cm SPICE & BUNS",
@@ -637,45 +611,6 @@
       "open": "",
       "checkedAt": "2026-07-20T15:15:09.219Z"
     },
-    "スシスミビ自由が丘": {
-      "storeName": "スシスミビ 自由が丘",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T22:08:37.427Z"
-    },
-    "さくら餃子酒場神田店": {
-      "storeName": "さくら餃子酒場 神田店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T22:08:36.929Z"
-    },
-    "ebizo": {
-      "storeName": "EBIZO",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T22:08:36.824Z"
-    },
     "sushireona/玲桜奈東京23区に出店予定": {
       "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
       "listed": false,
@@ -741,19 +676,6 @@
       "open": "",
       "checkedAt": "2026-07-21T22:07:19.313Z"
     },
-    "大衆酒場スシスミビ下北沢店": {
-      "storeName": "大衆酒場スシスミビ 下北沢店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-22T07:37:40.616Z"
-    },
     "やき豚とローストビーフの店": {
       "storeName": "やき豚とローストビーフの店",
       "listed": false,
@@ -780,19 +702,6 @@
       "open": "",
       "checkedAt": "2026-07-22T07:37:40.938Z"
     },
-    "nyuly": {
-      "storeName": "nyuly",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-22T07:37:40.919Z"
-    },
     "無添蔵新宿店": {
       "storeName": "無添蔵 新宿店",
       "listed": false,
@@ -806,19 +715,6 @@
       "open": "",
       "checkedAt": "2026-07-22T07:37:41.148Z"
     },
-    "麻布十番和食わたく": {
-      "storeName": "麻布十番 和食 わたく",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-22T07:37:40.847Z"
-    },
     "恵比寿駅前寿司": {
       "storeName": "恵比寿駅前寿司",
       "listed": false,
@@ -831,19 +727,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-22T07:37:40.676Z"
-    },
-    "並木橋みりん": {
-      "storeName": "並木橋みりん",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-22T15:08:22.782Z"
     },
     "カフェタナカ": {
       "storeName": "カフェタナカ",
@@ -1040,45 +923,6 @@
       "open": "",
       "checkedAt": "2026-07-22T15:08:23.350Z"
     },
-    "btaps虎ノ門ヒルズ店": {
-      "storeName": "Btaps 虎ノ門ヒルズ店",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ003784438/?vos=nhppalsa000016",
-      "shopName": "Btaps　虎ノ門ヒルズ店",
-      "address": "東京都港区虎ノ門１-17-1  虎ノ門ヒルズビジネスタワー B1F",
-      "access": "東京ﾒﾄﾛ日比谷線虎ﾉ門ﾋﾙｽﾞ駅より徒歩約2分",
-      "genre": "ダイニングバー・バル",
-      "budget": "3001～4000円",
-      "capacity": 45,
-      "open": "月～金: 11:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
-      "checkedAt": "2026-07-16T07:25:58.666Z"
-    },
-    "メキシカンダイニングeso神田": {
-      "storeName": "メキシカンダイニング ESO 神田",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-23T07:35:50.975Z"
-    },
-    "sakabadotto.新橋・日比谷okuroji": {
-      "storeName": "SAKABA Dotto. 新橋・日比谷OKUROJI",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-23T07:35:50.848Z"
-    },
     "fendercafe": {
       "storeName": "Fender Cafe",
       "listed": false,
@@ -1091,19 +935,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-23T07:35:51.227Z"
-    },
-    "aniku": {
-      "storeName": "ANIKU",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-23T07:35:50.444Z"
     },
     "雲開キ": {
       "storeName": "雲開キ",
@@ -1352,19 +1183,6 @@
       "open": "",
       "checkedAt": "2026-07-18T14:21:55.812Z"
     },
-    "鉄板ダイニングまわりみち": {
-      "storeName": "鉄板ダイニングまわりみち",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-18T14:21:56.357Z"
-    },
     "マモテラス": {
       "storeName": "マモテラス",
       "listed": false,
@@ -1482,19 +1300,6 @@
       "open": "",
       "checkedAt": "2026-07-23T07:35:50.247Z"
     },
-    "串の蔵新宿東口店": {
-      "storeName": "串の蔵 新宿東口店",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ000999801/?vos=nhppalsa000016",
-      "shopName": "串の蔵 新宿東口店",
-      "address": "東京都新宿区新宿３-３４-１６池田プラザビルB1F",
-      "access": "新宿駅中央東口徒歩1分/丸ﾉ内線新宿三丁目駅徒歩1分",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 180,
-      "open": "月～金、祝前日: 11:30～15:0017:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）土、日、祝日: 13:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）",
-      "checkedAt": "2026-07-23T07:35:50.464Z"
-    },
     "オープニングスタッフ": {
       "storeName": "オープニングスタッフ",
       "listed": false,
@@ -1508,28 +1313,24 @@
       "open": "",
       "checkedAt": "2026-07-23T07:35:50.822Z"
     },
-    "grilledmeatkoba.": {
-      "storeName": "GRILLED MEAT Koba.",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-23T07:35:51.204Z"
+    "お酒の美術館": {
+      "storeName": "お酒の美術館",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003958971/?vos=nhppalsa000016",
+      "shopName": "お酒の美術館 二子玉川ライズ店",
+      "address": "東京都世田谷区玉川２‐21‐1オークモール202",
+      "access": "二子玉川駅東口徒歩約1分",
+      "genre": "バー・カクテル",
+      "budget": "2001～3000円",
+      "capacity": 15,
+      "open": "月～金: 16:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）土: 14:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）日: 14:00～22:00 （料理L.O. 22:00 ドリンクL.O. 22:00）祝日: 14:00～22:00祝前日: 16:00～23:30",
+      "checkedAt": "2026-07-23T08:50:06.693Z"
     }
   },
   "market": {
     "新宿区|居酒屋": {
       "count": 645,
       "checkedAt": "2026-07-20T15:15:09.420Z"
-    },
-    "港区|居酒屋": {
-      "count": 777,
-      "checkedAt": "2026-07-20T15:15:09.600Z"
     },
     "新宿区|カフェ": {
       "count": 155,
@@ -1631,10 +1432,6 @@
       "count": 382,
       "checkedAt": "2026-07-20T15:15:10.797Z"
     },
-    "千代田区|居酒屋": {
-      "count": 567,
-      "checkedAt": "2026-07-20T22:08:37.573Z"
-    },
     "渋谷区|レストラン": {
       "count": 78,
       "checkedAt": "2026-07-20T22:08:37.581Z"
@@ -1646,10 +1443,6 @@
     "目黒区|バー": {
       "count": 102,
       "checkedAt": "2026-07-21T22:07:19.469Z"
-    },
-    "世田谷区|居酒屋": {
-      "count": 223,
-      "checkedAt": "2026-07-22T07:37:41.296Z"
     },
     "港区|フレンチ": {
       "count": 70,
@@ -1687,10 +1480,6 @@
       "count": 108,
       "checkedAt": "2026-07-22T22:09:01.987Z"
     },
-    "千代田区|ダイニング": {
-      "count": 98,
-      "checkedAt": "2026-07-23T07:35:51.439Z"
-    },
     "武蔵野市|レストラン": {
       "count": 12,
       "checkedAt": "2026-07-16T22:07:12.228Z"
@@ -1715,10 +1504,6 @@
       "count": 35,
       "checkedAt": "2026-07-17T07:21:20.784Z"
     },
-    "練馬区|居酒屋": {
-      "count": 105,
-      "checkedAt": "2026-07-18T14:21:56.568Z"
-    },
     "渋谷区|ビストロ": {
       "count": 60,
       "checkedAt": "2026-07-18T14:21:56.579Z"
@@ -1742,10 +1527,6 @@
     "千代田区|中華": {
       "count": 143,
       "checkedAt": "2026-07-23T07:35:51.451Z"
-    },
-    "北区|焼肉": {
-      "count": 459,
-      "checkedAt": "2026-07-23T07:35:51.476Z"
     }
   },
   "items": [
@@ -1811,18 +1592,6 @@
       "firstSeenAt": "2026-07-23T07:35:45.618Z"
     },
     {
-      "title": "「メキシカンダイニング ESO 神田」オープニングスタッフ募集（調理師・調理スタッフ/中南米料理/アジア・エスニック/飲食店…）",
-      "link": "https://job.tabelog.com/restaurants?id=13302944#job-info-109424",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 22 Jul 2026 09:30:43 GMT",
-      "area": "千代田区",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-22T15:08:18.519Z"
-    },
-    {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
       "source": "吉祥寺ファンページ",
@@ -1835,26 +1604,14 @@
       "firstSeenAt": "2026-07-22T22:08:55.695Z"
     },
     {
-      "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（本部スタッフ・SV/焼き鳥・串焼・鳥料理/和食/飲食店/完全…）",
-      "link": "https://job.tabelog.com/restaurants?id=13297267#job-info-109358",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 22 Jul 2026 01:30:50 GMT",
-      "area": "武蔵野市",
+      "title": "東京都初出店「THE BUFFET 点心甜心 三鷹店」先行レポ！麻辣湯や小籠包、プレミアムスイーツが楽しめる新スタイル食べ放題",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wT29PcF9rcjZoNXdUOGJNQVgwQlFSbHNWb19Pbi1pbFRna2lBMmhXenc0TDFQajF6UUNLYXNFeGdZRnBjT18xUklwUFVxTHJqOUJoVXJscWZHa0RUaEhJUGVlYS1kNEY4cmc?oc=5",
+      "source": "多摩ポン",
+      "pubDate": "Wed, 22 Jul 2026 02:46:55 GMT",
+      "area": "三鷹市",
       "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-22T07:37:36.180Z"
-    },
-    {
-      "title": "「メキシカンダイニング ESO 神田」オープニングスタッフ募集（調理師・調理スタッフ/中南米料理/アジア・エスニック/飲食店…）",
-      "link": "https://job.tabelog.com/restaurants?id=13302944#job-info-98395",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 22 Jul 2026 01:30:48 GMT",
-      "area": "千代田区",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-22T07:37:36.180Z"
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T08:49:58.073Z"
     },
     {
       "title": "株式会社LFCRD オープニングスタッフ募集（月島もんじゃの店舗スタッフ/オープニング/1年後に年収500…）",
@@ -1865,41 +1622,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
-    },
-    {
-      "title": "「鉄板ダイニングまわりみち」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=13324524#job-info-109016",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 21 Jul 2026 09:30:37 GMT",
-      "area": "練馬区",
-      "genres": [
-        "居酒屋",
-        "ダイニング"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-18T14:21:50.140Z"
-    },
-    {
-      "title": "「EBIZO」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/シーフード/その他レストラ…）",
-      "link": "https://job.tabelog.com/restaurants?id=13207106#job-info-106974",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 21 Jul 2026 09:30:37 GMT",
-      "area": "渋谷区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
-    },
-    {
-      "title": "「ANIKU」オープニングスタッフ募集（店長候補・マネージャー/焼肉/焼肉・ホルモン/飲食店/月8日…）",
-      "link": "https://job.tabelog.com/restaurants?id=13282834#job-info-11709",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 21 Jul 2026 09:30:31 GMT",
-      "area": "千代田区",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T07:25:55.250Z"
     },
     {
       "title": "【東京都渋谷区】ランドリーにセルフ式カフェを併設した「しろふわランドリー笹塚北店」オープン！",
@@ -1936,14 +1658,14 @@
       "firstSeenAt": "2026-07-21T02:30:41.347Z"
     },
     {
-      "title": "「焼鳥どん 吉祥寺店」オープニングスタッフ募集（店長候補・マネージャー/焼き鳥・串焼・鳥料理/和食/飲食店/…）",
-      "link": "https://job.tabelog.com/restaurants?id=13297267#job-info-100521",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 19 Jul 2026 09:30:35 GMT",
-      "area": "武蔵野市",
+      "title": "【7/28オープン】八王子駅前に『お酒の美術館』が初出店！都まんじゅう隣",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVTJla18wX2MxOWEwWVp2LVgwa2F0TzdHajI4djNzdEp3YUNlMEhCNFE0WTZ5cWp3QXRaRS13ZllGUTNMY3RHNHdfQ1BOZmVwQUc3WDI0NA?oc=5",
+      "source": "八王子ジャーニー",
+      "pubDate": "Sun, 19 Jul 2026 02:00:46 GMT",
+      "area": "八王子市",
       "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.995Z"
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T08:49:58.076Z"
     },
     {
       "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
@@ -2038,54 +1760,6 @@
       "firstSeenAt": "2026-07-18T21:56:04.092Z"
     },
     {
-      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/月8日以上休…）",
-      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-108834",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
-      "area": "世田谷区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T07:21:15.225Z"
-    },
-    {
-      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/月8日以上休みあり）",
-      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-108837",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
-      "area": "世田谷区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T14:47:14.010Z"
-    },
-    {
-      "title": "「スシスミビ 自由が丘」オープニングスタッフ募集（調理補助・調理見習い/居酒屋/居酒屋/飲食店/月8日以上休み…）",
-      "link": "https://job.tabelog.com/restaurants?id=13300208#job-info-108853",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
-      "area": "目黒区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-18T14:21:50.140Z"
-    },
-    {
-      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（調理補助・調理見習い/居酒屋/居酒屋/飲食店/月8日以上休み…）",
-      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-108838",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 17 Jul 2026 01:30:44 GMT",
-      "area": "世田谷区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T22:07:15.681Z"
-    },
-    {
       "title": "日本初、吉祥寺にマーモット保護・啓発複合施設「マモテラス」が8月8日にグランドオープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TN0stNHRqWTM2ZTdCb3NCUFR2bnpNRENHYnhYRS1fSWNuenhYdWNLU2RWQVRNQTRvX3lkcUZRdlRNSFQzRlhtOW9MWUloUGt3bDI5YzBPNXg2NDVhTFNJeXVPMVFIcTRZclE?oc=5",
       "source": "PR TIMES",
@@ -2132,18 +1806,6 @@
       "firstSeenAt": "2026-07-16T22:07:07.224Z"
     },
     {
-      "title": "「メキシカンダイニング ESO 神田」オープニングスタッフ募集（調理師・調理スタッフ/中南米料理/アジア・エスニック/飲食店…）",
-      "link": "https://job.tabelog.com/restaurants?id=13302944#job-info-62672",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 16 Jul 2026 01:30:46 GMT",
-      "area": "千代田区",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T07:25:55.249Z"
-    },
-    {
       "title": "南青山のモダンフレンチ「L’AS」が東京駅エリア初進出。新複合施設「TOFROM YAESU」に『L’AS TOKYO』を9月10日オープン",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qcXVSaU44NUlCckl1WWQ2LTluMGVka3dEejN4QWhNblBTYm5JbTBCLW5SWnoyOFRQTjduQXpLRE5KdU0zb2xhdy1UOF93enRJZGdtTHFxeGNxR2d6eVFWVE14UVc2ZUNHckxFUHNUVHd1V1g1d1pfYmhwbw?oc=5",
       "source": "ニコニコニュース",
@@ -2180,18 +1842,6 @@
       "firstSeenAt": "2026-07-15T02:19:48.222Z"
     },
     {
-      "title": "「麻布十番 和食 わたく」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/交通費支給）",
-      "link": "https://job.tabelog.com/restaurants?id=13324285#job-info-108311",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 15 Jul 2026 01:30:43 GMT",
-      "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T07:18:48.627Z"
-    },
-    {
       "title": "東京･白金台でレストラン営んだ夫妻が“一目ぼれ”で小川村に移住 森に｢オーベルジュ｣プレオープン",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90MS1XOVdCTVpSQzFiWnhPOTRQMGZELVN3OFpSRFJCN1pUZEF3R1pTdlBZVVhHQXBuZDNycTRybGNYZkxOekM0Mk44QXJKX19ySkVsOExRVThocVYwVEktMmNrOHZwcVBWZU1DRzdtNFU?oc=5",
       "source": "信濃毎日新聞デジタル",
@@ -2212,18 +1862,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.355Z"
-    },
-    {
-      "title": "「炭焼き屋 こもれ火」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/交…）",
-      "link": "https://job.tabelog.com/restaurants?id=13312229#job-info-103421",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:36 GMT",
-      "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "「Sushi REONA/玲桜奈 東京23区に出店予定」オープニングスタッフ募集（和食, 寿司・鮨/店長・店長候補/インバウンドビジネスの最前…）",
@@ -2251,18 +1889,6 @@
       "firstSeenAt": "2026-07-15T13:21:41.406Z"
     },
     {
-      "title": "「串の蔵 新宿東口店」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/ボーナス・賞与…）",
-      "link": "https://job.tabelog.com/restaurants?id=13141960#job-info-27546",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 13 Jul 2026 01:30:47 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T07:35:45.591Z"
-    },
-    {
       "title": "【錦糸町駅前に新規OPEN】毎日赤字覚悟の激安次世代居酒屋『串とメシにはサケキタル。』が遂に爆誕！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VcjFqdnNpbnFlWTB4cWFncDBwY1dYbWhrUmI0UWY2MUQxQkVBSHlLNHlyMVVtd3FSZzNseTJRQXc3dEhrZlUzOGN4RFhTUUEzdGhzNHoxUTNkNW4tRk1GZ3dQYmRtNVJybkE?oc=5",
       "source": "PR TIMES",
@@ -2287,18 +1913,6 @@
       "firstSeenAt": "2026-07-14T21:49:23.396Z"
     },
     {
-      "title": "「nyuly」オープニングスタッフ募集（調理師・調理スタッフ/フレンチ/洋食・西洋料理/飲食店/月8…）",
-      "link": "https://job.tabelog.com/restaurants?id=13131135#job-info-108350",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 11 Jul 2026 01:30:43 GMT",
-      "area": "目黒区",
-      "genres": [
-        "フレンチ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:23.517Z"
-    },
-    {
       "title": "株式会社絶好調 オープニングスタッフ募集（炉端居酒屋の店舗スタッフ/オープニング/若手活躍中）",
       "link": "https://grsta.jp/manuscript/0a0600d7-9f45-1c9e-819f-480a237d1052",
       "source": "求人ボックス（グルスタ）",
@@ -2321,18 +1935,6 @@
       "firstSeenAt": "2026-07-14T21:49:23.354Z"
     },
     {
-      "title": "「並木橋みりん」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/月8日以上休…）",
-      "link": "https://job.tabelog.com/restaurants?id=13314247#job-info-100266",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 10 Jul 2026 09:30:37 GMT",
-      "area": "渋谷区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:23.517Z"
-    },
-    {
       "title": "7月15日(水)、伊勢丹新宿店 洋菓子エリアにガラス張りの厨房を備えたライブ感あふれる空間「マ・パティスリー」誕生！「カフェ エ シュクレ」は全33ブランドフルオープン | 株式会社 三越伊勢丹ホールディングスのプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvMzVVcHlKa21fVHc3Sk94bks1enRaaEQ1OERVX3VLX0FlNmc3MVlsYVczZnpvdERfZ0ZwRWw4TndreG5OY1YyNXRVemxzenNnRmU4S1pNOGFtVnpUakNBczVtUWV3SS02b0E?oc=5",
       "source": "PR TIMES",
@@ -2343,18 +1945,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
-    },
-    {
-      "title": "「スシスミビ 自由が丘」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/月…）",
-      "link": "https://job.tabelog.com/restaurants?id=13300208#job-info-108139",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 10 Jul 2026 01:30:45 GMT",
-      "area": "目黒区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
     {
       "title": "【東京都品川区】新スタイルのイタリアンバル「SOSTA ～pizza＆legame～」が五反田にオープン",
@@ -2368,28 +1958,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
-    },
-    {
-      "title": "「Btaps 虎ノ門ヒルズ店」オープニングスタッフ募集（調理師・調理スタッフ/ビアガーデン・ビアホール/居酒屋/飲食…）",
-      "link": "https://job.tabelog.com/restaurants?id=13295062#job-info-33742",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 09 Jul 2026 09:30:36 GMT",
-      "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T07:25:55.250Z"
-    },
-    {
-      "title": "「Btaps 虎ノ門ヒルズ店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/ビアガーデン・ビアホール/…）",
-      "link": "https://job.tabelog.com/restaurants?id=13295062#job-info-33741",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 09 Jul 2026 09:30:36 GMT",
-      "area": "港区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T07:35:00.415Z"
     },
     {
       "title": "「地鶏黒木屋 銀座一丁目」オープニングスタッフ募集（ホールスタッフ）",
@@ -2506,42 +2074,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:48.139Z"
-    },
-    {
-      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/月…）",
-      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-107431",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 09 Jul 2026 01:30:44 GMT",
-      "area": "世田谷区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:27:50.461Z"
-    },
-    {
-      "title": "「スシスミビ 自由が丘」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/月8日以上休み…）",
-      "link": "https://job.tabelog.com/restaurants?id=13300208#job-info-107450",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 09 Jul 2026 01:30:44 GMT",
-      "area": "目黒区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:23:15.476Z"
-    },
-    {
-      "title": "「大衆酒場スシスミビ 下北沢店」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/月8日以上休みあり）",
-      "link": "https://job.tabelog.com/restaurants?id=13254001#job-info-107433",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 09 Jul 2026 01:30:44 GMT",
-      "area": "世田谷区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:23.517Z"
     },
     {
       "title": "【NEW OPEN】西麻布にカウンター6席限定の特等席。大人の女性を満たす次世代和食「蓮雀（れんじゃく）」が2026年7月10日（金）グランドオープン！",
@@ -2720,42 +2252,6 @@
       "firstSeenAt": "2026-07-15T05:11:37.093Z"
     },
     {
-      "title": "「nyuly」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/フレンチ/洋食・西洋料理/…）",
-      "link": "https://job.tabelog.com/restaurants?id=13131135#job-info-107610",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 05 Jul 2026 01:30:48 GMT",
-      "area": "目黒区",
-      "genres": [
-        "フレンチ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:48.139Z"
-    },
-    {
-      "title": "「nyuly」オープニングスタッフ募集（調理師・調理スタッフ/フレンチ/洋食・西洋料理/飲食店/月8…）",
-      "link": "https://job.tabelog.com/restaurants?id=13131135#job-info-107609",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 05 Jul 2026 01:30:48 GMT",
-      "area": "目黒区",
-      "genres": [
-        "フレンチ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T07:21:15.225Z"
-    },
-    {
-      "title": "「さくら餃子酒場 神田店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=13297710#job-info-31539",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sun, 05 Jul 2026 01:30:44 GMT",
-      "area": "千代田区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:44.248Z"
-    },
-    {
       "title": "株式会社ヴィクセス オープニングスタッフ募集（馬肉料理酒場の店舗スタッフ/オープニング/おしゃれ自由）",
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-292382c20d88",
       "source": "求人ボックス（グルスタ）",
@@ -2866,18 +2362,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T14:47:14.010Z"
-    },
-    {
-      "title": "「SAKABA Dotto. 新橋・日比谷OKUROJI」オープニングスタッフ募集（料理長候補/居酒屋/居酒屋/飲食店/月8日以上休みあり）",
-      "link": "https://job.tabelog.com/restaurants?id=13318060#job-info-91189",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 29 Jun 2026 09:30:33 GMT",
-      "area": "港区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T07:25:55.250Z"
     },
     {
       "title": "2026年夏 東京ミッドタウンに新店オープン WCB最大規模のクラフトビアレストラン「Instant Classic by WCB」茅乃舎の四季を楽しむ新業態、Tamituの期間限定カフェも登場！ | 東京ミッドタウンマネジメント株式会社のプレスリリース",
@@ -3078,18 +2562,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:23.402Z"
-    },
-    {
-      "title": "「GRILLED MEAT Koba.」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
-      "link": "https://job.tabelog.com/restaurants?id=13193123#job-info-9389",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
-      "area": "北区",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T07:35:45.591Z"
     },
     {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",

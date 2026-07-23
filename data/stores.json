@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:35:41.450Z",
+  "generatedAt": "2026-07-23T08:49:53.417Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 47
+      "count": 46
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 96,
+  "itemCount": 90,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -273,19 +273,6 @@
       "open": "",
       "checkedAt": "2026-07-19T07:29:50.332Z"
     },
-    "koalatreecafeanddining": {
-      "storeName": "Koala Tree Cafe and Dining",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-19T07:29:51.135Z"
-    },
     "おでん屋たけし船橋駅南口店": {
       "storeName": "おでん屋たけし 船橋駅南口店",
       "listed": false,
@@ -298,58 +285,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-19T07:29:50.775Z"
-    },
-    "ホルモン酒場ばぁ場": {
-      "storeName": "ホルモン酒場 ばぁ場",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ003879008/?vos=nhppalsa000016",
-      "shopName": "ホルモン酒場ばぁ場",
-      "address": "千葉県市川市八幡２-7-21",
-      "access": "総武線本八幡駅から徒歩3分",
-      "genre": "焼肉・ホルモン",
-      "budget": "4001～5000円",
-      "capacity": 17,
-      "open": "月、水～金、祝前日: 17:30～翌0:30 （料理L.O. 23:30 ドリンクL.O. 翌0:00）土、日、祝日: 12:00～翌0:30 （料理L.O. 23:30 ドリンクL.O. 翌0:00）",
-      "checkedAt": "2026-07-12T03:52:46.228Z"
-    },
-    "味自慢": {
-      "storeName": "味自慢",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-19T07:29:50.474Z"
-    },
-    "海鮮和食魚まみれ仲々小林店": {
-      "storeName": "海鮮和食 魚まみれ 仲々 小林店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-19T07:29:50.692Z"
-    },
-    "イタリアン&ワイン食堂vivi": {
-      "storeName": "イタリアン&ワイン食堂 ViVi",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ001295496/?vos=nhppalsa000016",
-      "shopName": "イタリアン&ワイン食堂　ViVi",
-      "address": "千葉県船橋市本町１丁目11-27時田ビル１F",
-      "access": "船橋駅徒歩3分 京成船橋駅徒歩1分",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 20,
-      "open": "月～金、祝前日: 15:00～23:30 （料理L.O. 22:30 ドリンクL.O. 23:00）土、日、祝日: 12:00～23:30 （料理L.O. 22:30 ドリンクL.O. 23:00）",
-      "checkedAt": "2026-07-12T03:52:46.221Z"
     },
     "とんかつ神楽坂さくら君津店": {
       "storeName": "とんかつ神楽坂さくら 君津店",
@@ -571,32 +506,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T00:05:44.708Z"
-    },
-    "博多うずまき海浜幕張店": {
-      "storeName": "博多うずまき 海浜幕張店",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004403558/?vos=nhppalsa000016",
-      "shopName": "博多うずまき 海浜幕張店",
-      "address": "千葉県千葉市美浜区ひび野１-9 スーク海浜幕張 3F",
-      "access": "JR京葉線海浜幕張駅北口(公園改札)より徒歩約3分",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 126,
-      "open": "月～日、祝日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-18T21:55:59.415Z"
-    },
-    "今日和千葉本店": {
-      "storeName": "今日和 千葉本店",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ003944002/?vos=nhppalsa000016",
-      "shopName": "今日和　千葉本店",
-      "address": "千葉県千葉市中央区富士見１－１２－１７　ネクストサイト千葉ビル１０２",
-      "access": "JR千葉駅徒歩5分  栄町駅徒歩3分  京成千葉駅徒歩8分 ",
-      "genre": "イタリアン・フレンチ",
-      "budget": "3001～4000円",
-      "capacity": 62,
-      "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
-      "checkedAt": "2026-07-22T22:08:49.648Z"
     }
   },
   "market": {
@@ -611,10 +520,6 @@
     "佐倉市|居酒屋": {
       "count": 18,
       "checkedAt": "2026-07-19T07:29:52.939Z"
-    },
-    "印西市|居酒屋": {
-      "count": 7,
-      "checkedAt": "2026-07-19T07:29:52.971Z"
     },
     "船橋市|カフェ": {
       "count": 44,
@@ -632,10 +537,6 @@
       "count": 13,
       "checkedAt": "2026-07-19T07:29:53.161Z"
     },
-    "南房総市|レストラン": {
-      "count": 4,
-      "checkedAt": "2026-07-19T07:29:52.756Z"
-    },
     "佐倉市|カフェ": {
       "count": 11,
       "checkedAt": "2026-07-19T07:29:53.316Z"
@@ -643,10 +544,6 @@
     "柏市|居酒屋": {
       "count": 102,
       "checkedAt": "2026-07-19T07:29:53.339Z"
-    },
-    "市川市|焼肉": {
-      "count": 30,
-      "checkedAt": "2026-07-19T07:29:53.344Z"
     },
     "八千代市|寿司": {
       "count": 5,
@@ -728,10 +625,6 @@
       "count": 19,
       "checkedAt": "2026-07-21T15:07:02.347Z"
     },
-    "千葉市中央区|イタリアン": {
-      "count": 29,
-      "checkedAt": "2026-07-22T22:08:50.464Z"
-    },
     "市原市|ダイニング": {
       "count": 4,
       "checkedAt": "2026-07-23T07:35:41.066Z"
@@ -743,6 +636,16 @@
   },
   "items": [
     {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Thu, 23 Jul 2026 07:54:45 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理見習い）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/23_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -751,6 +654,26 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T07:25:47.132Z"
+    },
+    {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:19:39.874Z"
+    },
+    {
+      "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトスタッフ）",
+      "link": "https://www.workof-japan.com/jobs/64329",
+      "source": "求人ボックス（Jwork）",
+      "pubDate": "Thu, 23 Jul 2026 04:55:53 GMT",
+      "area": "山武市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T08:49:48.657Z"
     },
     {
       "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
@@ -774,28 +697,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T07:35:35.672Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Wed, 22 Jul 2026 18:56:43 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
-    },
-    {
-      "title": "「今日和 千葉本店」オープニングスタッフ募集（店長候補・マネージャー/イタリアン/洋食・西洋料理/飲食店/…）",
-      "link": "https://job.tabelog.com/restaurants?id=12061189#job-info-51836",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 22 Jul 2026 09:30:41 GMT",
-      "area": "千葉市中央区",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-22T22:08:45.521Z"
     },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
@@ -833,30 +734,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:07.422Z"
-    },
-    {
-      "title": "「味自慢」オープニングスタッフ募集（調理補助・調理見習い/レストラン・食堂/その他レストラン/飲…）",
-      "link": "https://job.tabelog.com/restaurants?id=12067133#job-info-106550",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 18 Jul 2026 15:05:10 GMT",
-      "area": "南房総市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "「博多うずまき 海浜幕張店」オープニングスタッフ募集（調理補助・調理見習い/居酒屋/居酒屋/飲食店/ボーナス・賞与…）",
-      "link": "https://job.tabelog.com/restaurants?id=12064208#job-info-106751",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 18 Jul 2026 09:30:37 GMT",
-      "area": "千葉市美浜区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-18T21:55:55.746Z"
     },
     {
       "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（調理師）",
@@ -1182,28 +1059,6 @@
       "firstSeenAt": "2026-07-15T22:06:27.312Z"
     },
     {
-      "title": "「海鮮和食 魚まみれ 仲々 小林店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/未…）",
-      "link": "https://job.tabelog.com/restaurants?id=12041842#job-info-90747",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Thu, 09 Jul 2026 09:30:36 GMT",
-      "area": "印西市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:29:32.899Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:39.874Z"
-    },
-    {
       "title": "「成田食堂」オープニングスタッフ募集（調理見習い）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/23_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1485,18 +1340,6 @@
       "firstSeenAt": "2026-07-21T02:30:34.056Z"
     },
     {
-      "title": "「イタリアン&ワイン食堂 ViVi」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/イタリアン/洋食・西洋料理…）",
-      "link": "https://job.tabelog.com/restaurants?id=12054861#job-info-10333",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Fri, 03 Jul 2026 09:30:32 GMT",
-      "area": "船橋市",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:52:40.959Z"
-    },
-    {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
       "source": "船橋つうしん",
@@ -1540,18 +1383,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
-    },
-    {
-      "title": "「Koala Tree Cafe and Dining」オープニングスタッフ募集（調理師・調理スタッフ/カフェ/カフェ・喫茶店/飲食店/交通費…）",
-      "link": "https://job.tabelog.com/restaurants?id=12067260#job-info-106939",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Sat, 27 Jun 2026 09:30:38 GMT",
-      "area": "習志野市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
@@ -1611,18 +1442,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "「ホルモン酒場 ばぁ場」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
-      "link": "https://job.tabelog.com/restaurants?id=12060078#job-info-31790",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 10 Jun 2026 09:30:33 GMT",
-      "area": "市川市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",
