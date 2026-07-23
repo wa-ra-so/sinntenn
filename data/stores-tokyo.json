@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T22:09:02.774Z",
+  "generatedAt": "2026-07-23T07:35:51.476Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 62
+      "count": 63
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 38
+      "count": 42
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 14
+      "count": 16
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 59
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 19
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 165,
+  "itemCount": 172,
   "hotpepper": {
     "炭焼き屋こもれ火": {
       "storeName": "炭焼き屋 こもれ火",
@@ -1064,7 +1064,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-16T07:25:58.787Z"
+      "checkedAt": "2026-07-23T07:35:50.975Z"
     },
     "sakabadotto.新橋・日比谷okuroji": {
       "storeName": "SAKABA Dotto. 新橋・日比谷OKUROJI",
@@ -1077,7 +1077,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-16T07:25:59.007Z"
+      "checkedAt": "2026-07-23T07:35:50.848Z"
     },
     "fendercafe": {
       "storeName": "Fender Cafe",
@@ -1090,7 +1090,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-16T07:25:59.142Z"
+      "checkedAt": "2026-07-23T07:35:51.227Z"
     },
     "aniku": {
       "storeName": "ANIKU",
@@ -1103,7 +1103,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-16T07:25:59.278Z"
+      "checkedAt": "2026-07-23T07:35:50.444Z"
     },
     "雲開キ": {
       "storeName": "雲開キ",
@@ -1468,6 +1468,58 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-22T22:09:01.787Z"
+    },
+    "立呑み中華猫猫(マオマオ)": {
+      "storeName": "立呑み中華 猫猫（マオマオ）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T07:35:50.247Z"
+    },
+    "串の蔵新宿東口店": {
+      "storeName": "串の蔵 新宿東口店",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000999801/?vos=nhppalsa000016",
+      "shopName": "串の蔵 新宿東口店",
+      "address": "東京都新宿区新宿３-３４-１６池田プラザビルB1F",
+      "access": "新宿駅中央東口徒歩1分/丸ﾉ内線新宿三丁目駅徒歩1分",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 180,
+      "open": "月～金、祝前日: 11:30～15:0017:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）土、日、祝日: 13:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）",
+      "checkedAt": "2026-07-23T07:35:50.464Z"
+    },
+    "オープニングスタッフ": {
+      "storeName": "オープニングスタッフ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T07:35:50.822Z"
+    },
+    "grilledmeatkoba.": {
+      "storeName": "GRILLED MEAT Koba.",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T07:35:51.204Z"
     }
   },
   "market": {
@@ -1636,8 +1688,8 @@
       "checkedAt": "2026-07-22T22:09:01.987Z"
     },
     "千代田区|ダイニング": {
-      "count": 99,
-      "checkedAt": "2026-07-16T07:25:59.468Z"
+      "count": 98,
+      "checkedAt": "2026-07-23T07:35:51.439Z"
     },
     "武蔵野市|レストラン": {
       "count": 12,
@@ -1686,14 +1738,58 @@
     "目黒区|カフェ": {
       "count": 57,
       "checkedAt": "2026-07-22T22:09:02.774Z"
+    },
+    "千代田区|中華": {
+      "count": 143,
+      "checkedAt": "2026-07-23T07:35:51.451Z"
+    },
+    "北区|焼肉": {
+      "count": 459,
+      "checkedAt": "2026-07-23T07:35:51.476Z"
     }
   },
   "items": [
     {
+      "title": "【東京都渋谷区】立ち食い寿司店「恵比寿駅前寿司」オープン！銀座品質の江戸前寿司を気軽に楽しめる",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jdHk5OXgtTjY2eHh4OXdwVWpUZ2U3QktKZmJvZ0h6WWJFbjJJQVFOWDZhT2NLNllSMVR6LW1qX2dZZHBGSVlhN1dnV1lOemRlaTg4?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Thu, 23 Jul 2026 06:22:30 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T07:35:45.623Z"
+    },
+    {
+      "title": "西池袋に“選べるイタリアンデリ”が8月4日グランドオープン。hotel hisoca ikebukuro運営会社が手がける、前菜とメインを自由に組み合わせる「Piccola Aria」のデリボックス",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XSW9CbW1SMjRSYnZHeWFUQWtOYXRMdHRLSHRzR29xU1UzUG51M0hrWURERVR5UWJxYXh3dnR4VWpCNDYwQnpXdmEzM0ZuX1VNRGJ1RTZjcmZkeUlzVTJDTWEyY0ZWaG9TNXc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 23 Jul 2026 06:09:52 GMT",
+      "area": "豊島区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T07:35:00.452Z"
+    },
+    {
+      "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
+      "source": "フードスタジアム",
+      "pubDate": "Thu, 23 Jul 2026 02:03:35 GMT",
+      "area": "千代田区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T07:35:45.628Z"
+    },
+    {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Wed, 22 Jul 2026 09:53:07 GMT",
+      "pubDate": "Wed, 22 Jul 2026 20:52:50 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1701,6 +1797,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "東京・関東“おしゃれでおいしい”カフェ＆スイーツ特集、2026年オープンのおすすめグルメスポット",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZZ3ZKeUhoWGhXUWhWT21FX0dLTzJaOTJxT1hocHNPLXpRYnJqUlpLbS1pY3RaS1pvaW93Zmo5MFhTOWlCSi1GSFNIYk1kMXA3SFVN?oc=5",
+      "source": "ファッションプレス",
+      "pubDate": "Wed, 22 Jul 2026 09:47:12 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T07:35:45.618Z"
     },
     {
       "title": "「メキシカンダイニング ESO 神田」オープニングスタッフ募集（調理師・調理スタッフ/中南米料理/アジア・エスニック/飲食店…）",
@@ -1753,7 +1861,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "台東区",
+      "area": "中央区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
@@ -1777,9 +1885,7 @@
       "source": "求人ボックス（食べログ求人）",
       "pubDate": "Tue, 21 Jul 2026 09:30:37 GMT",
       "area": "渋谷区",
-      "genres": [
-        "レストラン"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:44.248Z"
     },
@@ -1806,18 +1912,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-21T15:07:07.497Z"
-    },
-    {
-      "title": "西池袋に“選べるイタリアンデリ”が8月4日グランドオープン。hotel hisoca ikebukuro運営会社が手がける、前菜とメインを自由に組み合わせる「Piccola Aria」のデリボックス",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XSW9CbW1SMjRSYnZHeWFUQWtOYXRMdHRLSHRzR29xU1UzUG51M0hrWURERVR5UWJxYXh3dnR4VWpCNDYwQnpXdmEzM0ZuX1VNRGJ1RTZjcmZkeUlzVTJDTWEyY0ZWaG9TNXc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Tue, 21 Jul 2026 01:00:02 GMT",
-      "area": "豊島区",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-21T07:35:00.452Z"
     },
     {
       "title": "【東京初出店‼7/23OPEN‼THE BUFFET 点心甜心 三鷹】『飲茶・本格中華・麻辣湯』更に選べるスイーツ！色々な「食べたい」がすべて叶う食べ放題！ペットと共に過ごせるテラス席も完備！",
@@ -2157,6 +2251,18 @@
       "firstSeenAt": "2026-07-15T13:21:41.406Z"
     },
     {
+      "title": "「串の蔵 新宿東口店」オープニングスタッフ募集（調理師・調理スタッフ/居酒屋/居酒屋/飲食店/ボーナス・賞与…）",
+      "link": "https://job.tabelog.com/restaurants?id=13141960#job-info-27546",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Mon, 13 Jul 2026 01:30:47 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T07:35:45.591Z"
+    },
+    {
       "title": "【錦糸町駅前に新規OPEN】毎日赤字覚悟の激安次世代居酒屋『串とメシにはサケキタル。』が遂に爆誕！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VcjFqdnNpbnFlWTB4cWFncDBwY1dYbWhrUmI0UWY2MUQxQkVBSHlLNHlyMVVtd3FSZzNseTJRQXc3dEhrZlUzOGN4RFhTUUEzdGhzNHoxUTNkNW4tRk1GZ3dQYmRtNVJybkE?oc=5",
       "source": "PR TIMES",
@@ -2470,6 +2576,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "株式会社ゲート オープニングスタッフ募集（飲食店スタッフ/「オープニングスタッフ」店長候補、飲食店、先…）",
+      "link": "https://en-gage.net/user/search/desc/11564394/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:15:45 GMT",
+      "area": "豊島区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T07:35:45.591Z"
     },
     {
       "title": "飲茶＆スイーツが食べ放題！東京都初上陸「THE BUFFET 点心甜心」が三鷹にオープン",
@@ -2964,6 +3080,18 @@
       "firstSeenAt": "2026-07-14T21:49:23.402Z"
     },
     {
+      "title": "「GRILLED MEAT Koba.」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼肉/焼肉・ホルモン/飲食…）",
+      "link": "https://job.tabelog.com/restaurants?id=13193123#job-info-9389",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Thu, 18 Jun 2026 09:30:37 GMT",
+      "area": "北区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T07:35:45.591Z"
+    },
+    {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJWHNzcmJjSTlLaDhKN29fTF9Zbm5TN1EzS1lEM1Z4eFFXYWxBOXMzcUVPRWtJSVl4dUZ1bnY5T0ttbHdTVzhMQzhiRU1QMmM?oc=5",
       "source": "レッツエンジョイ東京",
@@ -3365,7 +3493,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
-      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！",
+      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
       "source": "るるぶWeb",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
@@ -3586,6 +3714,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T09:53:14.180Z"
+    },
+    {
+      "title": "【大森】ジャークチキン×ココナッツ香る「Good Day Curry」オープン",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5mWGI4OG9xS3h3QjZ4ZHB4bFAtVGtoUjF0V3NUT1RKd293S1U5UVg4bTBrZUtOU1I5VzJEb1BKVGJQQ2hFMWt6U091SjBydw?oc=5",
+      "source": "アットプレス",
+      "pubDate": "Mon, 25 May 2026 00:00:00 GMT",
+      "area": "大田区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T07:35:45.622Z"
     }
   ]
 }

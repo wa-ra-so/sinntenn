@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-22T22:09:11.697Z",
+  "generatedAt": "2026-07-23T07:35:59.231Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 90
+      "count": 92
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,37 +24,37 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 77
+      "count": 78
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 17
+      "count": 19
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 5
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -337,19 +337,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-22T07:37:49.534Z"
-    },
-    "イタリアンpozdining関内店": {
-      "storeName": "イタリアン POZ DINING 関内店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-22T07:37:49.625Z"
     },
     "宏二郎丸本店": {
       "storeName": "宏二郎丸 本店",
@@ -662,6 +649,19 @@
       "capacity": 81,
       "open": "月～日、祝日、祝前日: 00:00～23:59",
       "checkedAt": "2026-07-22T22:09:11.149Z"
+    },
+    "イタリアンpozdining関内本店": {
+      "storeName": "イタリアン POZ DINING 関内本店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T07:35:59.231Z"
     }
   },
   "market": {
@@ -729,10 +729,6 @@
       "count": 7,
       "checkedAt": "2026-07-17T21:58:17.260Z"
     },
-    "横浜市中区|イタリアン": {
-      "count": 58,
-      "checkedAt": "2026-07-20T15:15:20.853Z"
-    },
     "横浜市|韓国料理": {
       "count": 65,
       "checkedAt": "2026-07-21T02:30:54.614Z"
@@ -759,6 +755,18 @@
     }
   },
   "items": [
+    {
+      "title": "「イタリアン POZ DINING 関内本店」オープニングスタッフ募集（店長候補・マネージャー/イタリアン/洋食・西洋料理/飲食店/…）",
+      "link": "https://job.tabelog.com/restaurants?id=14006683#job-info-38816",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Wed, 22 Jul 2026 01:30:47 GMT",
+      "area": "横浜市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T07:18:55.565Z"
+    },
     {
       "title": "「焼肉 ドリルズ」オープニングスタッフ募集（調理師・調理スタッフ/焼肉/焼肉・ホルモン/飲食店/ボーナス…）",
       "link": "https://job.tabelog.com/restaurants?id=14077507#job-info-90412",
@@ -920,6 +928,18 @@
       "firstSeenAt": "2026-07-17T07:21:24.824Z"
     },
     {
+      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
+      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:02:05 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:41.932Z"
+    },
+    {
       "title": "「韓国屋台酒場 韓兵衛 横浜天理ビル店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/韓国料理/アジア・エスニッ…）",
       "link": "https://job.tabelog.com/restaurants?id=14100679#job-info-81496",
       "source": "求人ボックス（食べログ求人）",
@@ -930,18 +950,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T02:30:50.275Z"
-    },
-    {
-      "title": "「個室焼鳥 あか峯 横浜店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
-      "link": "https://job.tabelog.com/restaurants?id=14089961#job-info-6655",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:30 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -969,7 +977,7 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
-      "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン | 株式会社Food Seedのプレスリリース",
+      "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ESV85aWs2T1JhWUdXeDY5RkZ4Uk55ME1HSGNIa000UUQtZ0lQTllxQVVEYjFkWHc2ZWtvck10U2JIdlRyNXYtTjVCakdob3lfOGtMeWdzTEx4ZHhxUmlVai0zZngwRzdPemc?oc=5",
       "source": "PR TIMES",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
@@ -1102,9 +1110,7 @@
       "source": "求人ボックス（ヒバライドット）",
       "pubDate": "Thu, 09 Jul 2026 12:02:27 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
@@ -1567,7 +1573,7 @@
       "title": "「情緒個室Dining 楓 横浜駅前店」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/居酒屋/居酒屋/飲食店/オ…）",
       "link": "https://job.tabelog.com/restaurants?id=14035139#job-info-6660",
       "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Mon, 01 Jun 2026 09:30:36 GMT",
+      "pubDate": "Mon, 01 Jun 2026 15:02:16 GMT",
       "area": "横浜市",
       "genres": [
         "居酒屋"
@@ -1608,18 +1614,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:58.414Z"
-    },
-    {
-      "title": "「イタリアン POZ DINING 関内店」オープニングスタッフ募集（店長候補・マネージャー/イタリアン/洋食・西洋料理/飲食店/…）",
-      "link": "https://job.tabelog.com/restaurants?id=14006683#job-info-38816",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Wed, 27 May 2026 01:31:08 GMT",
-      "area": "横浜市中区",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T07:18:55.565Z"
     },
     {
       "title": "「ひねり蛇口ハイ 大衆酒泉テルマエ 川崎仲見世通り泉」オープニングスタッフ募集（店長候補・マネージャー/居酒屋/居酒屋/飲食店/ボーナス・賞…）",

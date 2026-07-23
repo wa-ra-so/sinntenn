@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T22:08:50.650Z",
+  "generatedAt": "2026-07-23T07:35:41.450Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 43
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 14
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -259,19 +259,6 @@
       "capacity": 24,
       "open": "月～金: 14:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）土、日: 13:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）祝日: 13:00～23:00 （料理L.O. 21:30 ドリンクL.O. 22:00）",
       "checkedAt": "2026-07-12T03:52:46.340Z"
-    },
-    "野菜泥棒3104": {
-      "storeName": "野菜泥棒3104",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-19T07:29:52.561Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -557,7 +544,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-16T07:25:51.535Z"
+      "checkedAt": "2026-07-23T07:35:40.872Z"
     },
     "大きな炎が見える": {
       "storeName": "大きな炎が見える",
@@ -744,9 +731,50 @@
     "千葉市中央区|イタリアン": {
       "count": 29,
       "checkedAt": "2026-07-22T22:08:50.464Z"
+    },
+    "市原市|ダイニング": {
+      "count": 4,
+      "checkedAt": "2026-07-23T07:35:41.066Z"
+    },
+    "館山市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-23T07:35:41.450Z"
     }
   },
   "items": [
+    {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理見習い）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/23_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T07:25:47.132Z"
+    },
+    {
+      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
+      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Thu, 23 Jul 2026 01:58:15 GMT",
+      "area": "東金市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
+      "title": "株式会社コトブキダイニング オープニングスタッフ募集（飲食店スタッフ 焼肉店勤務 未経験可 正社員登用あり オープ…）",
+      "link": "https://kyujinbu.com/kotobuki-dining/detail/post_20.html",
+      "source": "求人ボックス（株式会社コトブキダイニング）",
+      "pubDate": "Thu, 23 Jul 2026 00:09:45 GMT",
+      "area": "市原市",
+      "genres": [
+        "ダイニング",
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T07:35:35.672Z"
+    },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
@@ -775,7 +803,9 @@
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
       "pubDate": "Tue, 21 Jul 2026 22:30:52 GMT",
       "area": "館山市",
-      "genres": [],
+      "genres": [
+        "レストラン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
@@ -829,16 +859,6 @@
       "firstSeenAt": "2026-07-18T21:55:55.746Z"
     },
     {
-      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
-      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Fri, 17 Jul 2026 04:51:44 GMT",
-      "area": "東金市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
       "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（調理師）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/154558/657528/2_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -887,16 +907,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理見習い）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/23_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 16 Jul 2026 09:32:34 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T07:25:47.132Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（夕方でササッと帰宅/フォークリフトスタッフ）",
@@ -1808,18 +1818,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:41.121Z"
-    },
-    {
-      "title": "高根公団駅近くに居酒屋「野菜泥棒3104」がオープン、12時から営業",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5MUZZRUpnMXRlUkJPX2pSUURyWVJJVjE5Z2xUWVVjWUstWV9qY0lKRGJwQk5reGwwNTkzeWNPQ3NLYTQ2RXk2allUNUpLYkgyX3c?oc=5",
-      "source": "船橋つうしん",
-      "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
-      "area": "船橋市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
     }
   ]
 }

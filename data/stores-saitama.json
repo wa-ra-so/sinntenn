@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T22:09:20.892Z",
+  "generatedAt": "2026-07-23T07:36:07.302Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,19 +24,19 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 72
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 53
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 63,
+  "itemCount": 65,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -466,7 +466,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-16T07:26:11.465Z"
+      "checkedAt": "2026-07-23T07:36:07.038Z"
     },
     "餃子居酒屋モモタロ": {
       "storeName": "餃子居酒屋 モモタロ",
@@ -571,6 +571,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-22T22:09:20.673Z"
+    },
+    "立呑み中華猫猫(マオマオ)": {
+      "storeName": "立呑み中華 猫猫（マオマオ）",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T07:36:06.792Z"
+    },
+    "オリーブの丘": {
+      "storeName": "オリーブの丘",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T07:36:07.069Z"
     }
   },
   "market": {
@@ -672,7 +698,7 @@
     },
     "ふじみ野市|カフェ": {
       "count": 2,
-      "checkedAt": "2026-07-16T07:26:11.668Z"
+      "checkedAt": "2026-07-23T07:36:07.302Z"
     },
     "草加市|居酒屋": {
       "count": 44,
@@ -697,9 +723,39 @@
     "所沢市|創作料理": {
       "count": 2,
       "checkedAt": "2026-07-20T22:11:32.104Z"
+    },
+    "志木市|中華": {
+      "count": 2,
+      "checkedAt": "2026-07-23T07:36:07.274Z"
+    },
+    "ふじみ野市|イタリアン": {
+      "count": 2,
+      "checkedAt": "2026-07-23T07:36:07.276Z"
     }
   },
   "items": [
+    {
+      "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
+      "link": "https://entori.jp/onikutokoromo/job/2239194",
+      "source": "求人ボックス（株式会社SEIKOU）",
+      "pubDate": "Thu, 23 Jul 2026 04:05:15 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-22T22:09:15.904Z"
+    },
+    {
+      "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
+      "source": "フードスタジアム",
+      "pubDate": "Thu, 23 Jul 2026 02:03:35 GMT",
+      "area": "志木市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T07:36:03.107Z"
+    },
     {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
@@ -709,16 +765,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
-    },
-    {
-      "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
-      "link": "https://entori.jp/onikutokoromo/job/2239194",
-      "source": "求人ボックス（おにくところも）",
-      "pubDate": "Wed, 22 Jul 2026 16:05:02 GMT",
-      "area": "さいたま市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-22T22:09:15.904Z"
     },
     {
       "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
@@ -768,6 +814,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-18T07:02:33.160Z"
+    },
+    {
+      "title": "【ふじみ野市】人気イタリアン「オリーブの丘」がオープン予定！建築計画が掲示されていました♪",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4dENZRGdvQWZRNmNqMjJ5Y1h3Zmlfa3ExLVFVajEtZ0dlM21iRy1LWW5WQ3kxRnAzTW9yWHRiaGZuazNUUVFuaVZnQ3p1NFIxSUt4OHM4bU5KeUxTcGJHa1N2cHYtdDVWU2c?oc=5",
+      "source": "埼玉マガジン",
+      "pubDate": "Fri, 17 Jul 2026 12:00:46 GMT",
+      "area": "ふじみ野市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T07:36:03.104Z"
     },
     {
       "title": "「蕎⻨きり みよた 与野店」オープニングスタッフ募集（ホールスタッフ/「新入生大歓迎/」店舗の雰囲気がよく長く働く…）",
@@ -873,6 +931,16 @@
       "firstSeenAt": "2026-07-13T21:46:59.586Z"
     },
     {
+      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
+      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
+      "source": "求人ボックス（食べログ求人）",
+      "pubDate": "Tue, 14 Jul 2026 15:05:15 GMT",
+      "area": "久喜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-229877-1-113-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11224",
       "source": "求人ボックス（マイナビ転職.）",
@@ -906,16 +974,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:59.587Z"
-    },
-    {
-      "title": "「み鳥」オープニングスタッフ募集（ホールスタッフ・サービススタッフ/焼き鳥・串焼・鳥料理/和食…）",
-      "link": "https://job.tabelog.com/restaurants?id=11067009#job-info-98044",
-      "source": "求人ボックス（食べログ求人）",
-      "pubDate": "Tue, 14 Jul 2026 09:30:35 GMT",
-      "area": "久喜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
