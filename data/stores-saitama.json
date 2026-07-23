@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T08:50:28.598Z",
+  "generatedAt": "2026-07-23T12:11:20.146Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 72
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -42,13 +42,13 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 57
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -61,15 +61,9 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
-      "ok": true,
-      "count": 18,
-      "mergedAt": "2026-07-23T09:23:24.120Z"
     }
   ],
-  "itemCount": 78,
+  "itemCount": 79,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -652,6 +646,26 @@
     "ふじみ野市|イタリアン": {
       "count": 2,
       "checkedAt": "2026-07-23T07:36:07.276Z"
+    },
+    "春日部市|居酒屋": {
+      "count": 41,
+      "checkedAt": "2026-07-23T12:11:19.594Z"
+    },
+    "さいたま市|寿司": {
+      "count": 56,
+      "checkedAt": "2026-07-23T12:11:19.613Z"
+    },
+    "鶴ヶ島市|居酒屋": {
+      "count": 3,
+      "checkedAt": "2026-07-23T12:11:19.723Z"
+    },
+    "深谷市|居酒屋": {
+      "count": 19,
+      "checkedAt": "2026-07-23T12:11:19.894Z"
+    },
+    "さいたま市浦和区|カフェ": {
+      "count": 12,
+      "checkedAt": "2026-07-23T12:11:20.146Z"
     }
   },
   "items": [
@@ -717,7 +731,7 @@
       "link": "https://to.indeed.com/aapg2flljr79",
       "source": "Indeed",
       "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [
         "居酒屋"
       ],
@@ -741,7 +755,7 @@
       "link": "https://to.indeed.com/aasqkn9t4rjj",
       "source": "Indeed",
       "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.114Z"
@@ -1337,6 +1351,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:33.246Z"
+    },
+    {
+      "title": "【熊谷市石原】深谷「中華 美華」の新ブランド「担々麺と麻婆豆腐 ととら」が2026年6月23日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44eVg1SzFnWjhXYk43M0x0Tzh6aWt0dkkyMTdTXzVnRWNPN244M25RYzhVT3pROEE2OEFETF9fdFExSHZybnhNeVJySC1zSVNWeVJRZmg0WkZIM1J4NU9ZQTFQcG8?oc=5",
+      "source": "gummaumaimono.info",
+      "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
+      "area": "熊谷市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T12:11:17.007Z"
     },
     {
       "title": "川口リリアに新オープンした「カフェ・ド・デイジイ」で大人な甘さの『チョコレートパフェ』を食べてきた！贅沢なおやつタイムを堪能",

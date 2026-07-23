@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T08:50:06.693Z",
+  "generatedAt": "2026-07-23T12:11:05.584Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,46 +30,40 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 63
+      "count": 61
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 39
+      "count": 51
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 16
+      "count": 17
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 62
+      "count": 66
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
-      "ok": true,
-      "count": 10,
-      "mergedAt": "2026-07-23T11:23:19.039Z"
     }
   ],
-  "itemCount": 181,
+  "itemCount": 186,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1331,6 +1325,58 @@
       "capacity": 15,
       "open": "月～金: 16:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）土: 14:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）日: 14:00～22:00 （料理L.O. 22:00 ドリンクL.O. 22:00）祝日: 14:00～22:00祝前日: 16:00～23:30",
       "checkedAt": "2026-07-23T08:50:06.693Z"
+    },
+    "大衆酒場銀次": {
+      "storeName": "大衆酒場 銀次",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001027441/?vos=nhppalsa000016",
+      "shopName": "大衆酒場 銀次 西新宿小滝橋店",
+      "address": "東京都新宿区西新宿７－１０－１０　西村ビル　２Ｆ",
+      "access": "新宿大ｶﾞｰﾄﾞ交差点を渡った左側､ｺﾝﾋﾞﾆを右側すぐ",
+      "genre": "居酒屋",
+      "budget": "2001～3000円",
+      "capacity": 76,
+      "open": "月～金: 11:30～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）土: 16:00～23:30 （料理L.O. 23:00 ドリンクL.O. 23:00）日、祝日: 16:00～22:00 （料理L.O. 21:30 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-23T12:11:04.795Z"
+    },
+    "mare&oyster": {
+      "storeName": "MARE＆OYSTER",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T12:11:05.036Z"
+    },
+    "グリーンハウスフーズグループ": {
+      "storeName": "グリーンハウスフーズグループ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T12:11:05.058Z"
+    },
+    "barおいでやす": {
+      "storeName": "Barおいでやす",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T12:11:05.075Z"
     }
   },
   "market": {
@@ -1533,9 +1579,59 @@
     "千代田区|中華": {
       "count": 143,
       "checkedAt": "2026-07-23T07:35:51.451Z"
+    },
+    "千代田区|居酒屋": {
+      "count": 567,
+      "checkedAt": "2026-07-23T12:11:05.214Z"
+    },
+    "立川市|居酒屋": {
+      "count": 143,
+      "checkedAt": "2026-07-23T12:11:05.216Z"
+    },
+    "北区|カフェ": {
+      "count": 326,
+      "checkedAt": "2026-07-23T12:11:05.282Z"
+    },
+    "江戸川区|居酒屋": {
+      "count": 126,
+      "checkedAt": "2026-07-23T12:11:05.335Z"
+    },
+    "豊島区|居酒屋": {
+      "count": 305,
+      "checkedAt": "2026-07-23T12:11:05.344Z"
+    },
+    "江戸川区|バー": {
+      "count": 58,
+      "checkedAt": "2026-07-23T12:11:05.404Z"
+    },
+    "港区|居酒屋": {
+      "count": 776,
+      "checkedAt": "2026-07-23T12:11:05.465Z"
+    },
+    "墨田区|カフェ": {
+      "count": 45,
+      "checkedAt": "2026-07-23T12:11:05.486Z"
+    },
+    "港区|焼肉": {
+      "count": 203,
+      "checkedAt": "2026-07-23T12:11:05.527Z"
+    },
+    "中央区|焼肉": {
+      "count": 880,
+      "checkedAt": "2026-07-23T12:11:05.584Z"
     }
   },
   "items": [
+    {
+      "title": "「グリーンハウスフーズグループ」オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ 調理経験者大…）",
+      "link": "http://s.baitoru.com/DW0aV50T",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Thu, 23 Jul 2026 09:40:51 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T12:11:01.245Z"
+    },
     {
       "title": "【東京都渋谷区】立ち食い寿司店「恵比寿駅前寿司」オープン！銀座品質の江戸前寿司を気軽に楽しめる",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jdHk5OXgtTjY2eHh4OXdwVWpUZ2U3QktKZmJvZ0h6WWJFbjJJQVFOWDZhT2NLNllSMVR6LW1qX2dZZHBGSVlhN1dnV1lOemRlaTg4?oc=5",
@@ -1559,6 +1655,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-21T07:35:00.452Z"
+    },
+    {
+      "title": "ゼネラル・オイスター、既存店の業態転換を開始 7月24日、東京・上野に『MARE＆OYSTER』オープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wUUpfUno4UjZSMVRQLUk3MVlCT1RNNmFRa1lkSDdrSEgwTU0zRG1iSjNBOEhzcE5UTTFYaUdEcjFQeUFRRHRFdHFldXFzNU9xU0dhd1BzWXNDRUhkd0F0Y0xGVE5fTTR4b3c?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 23 Jul 2026 06:00:01 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T12:11:01.290Z"
     },
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
@@ -1915,6 +2021,18 @@
       "firstSeenAt": "2026-07-23T09:23:23.900Z"
     },
     {
+      "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93Yml4Nzd4MS1QdXR2bGFqT0k4c0lpWW95Z1VLQXh5TVFHSXJZUzh2UUlxRnJJY0VFY1otYXlvNkg0WFdMYmt2WEx2b0dERk9Wc1VoQg?oc=5",
+      "source": "ニコニコニュース",
+      "pubDate": "Thu, 16 Jul 2026 12:00:39 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T12:11:01.286Z"
+    },
+    {
       "title": "サッカーショップ KAMOの新業態が渋谷にオープン バーカウンターを併設",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IaGVNRE9NWXRZcjFsWGdqanozRjgybGkyVGxlLWpHWi1nd29Fa2NUeHFQWEdURExuRG9fWWliTXprbk5ZTGxucXlQWHZ5dUlSWm5iNWFjSEI1RXc3TVF1djFieFZpYnZSdzNzcGhKalUtVzA?oc=5",
       "source": "fashionsnap.com",
@@ -2122,6 +2240,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:19.036Z"
+    },
+    {
+      "title": "「Barおいでやす」オープニングスタッフ募集（ホール/バーテンダー/店長・マネージャー候補 完全新規OPE…）",
+      "link": "http://s.baitoru.com/DW05mzmZ",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Fri, 10 Jul 2026 18:02:33 GMT",
+      "area": "江戸川区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T12:11:01.245Z"
     },
     {
       "title": "株式会社絶好調 オープニングスタッフ募集（炉端居酒屋の店舗スタッフ/オープニング/若手活躍中）",
@@ -2357,6 +2487,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "合同会社ANG オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ、新店舗ホールスタッフ、…）",
+      "link": "https://en-gage.net/user/search/desc/8598522/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:17:46 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T12:11:01.245Z"
     },
     {
       "title": "株式会社ゲート オープニングスタッフ募集（飲食店スタッフ/「オープニングスタッフ」店長候補、飲食店、先…）",
@@ -3245,7 +3385,7 @@
       "firstSeenAt": "2026-07-16T15:07:03.990Z"
     },
     {
-      "title": "カフェを併設した「ピエール・エルメ・パリ」の新店が丸の内にオープン",
+      "title": "カフェを併設した「ピエール・エルメ・パリ」の新店が丸の内にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iMVQxYVp2a3h0ajE4OXVva3A5LUdqN3ItbDl2Yi1TczJmR2sxeU13RVFnNWZGbVY0NjB2em5PQlFreS1TZ253S010RlRnZlU?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",

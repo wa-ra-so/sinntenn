@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T08:49:53.417Z",
+  "generatedAt": "2026-07-23T12:10:57.197Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 75
+      "count": 74
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,31 +42,25 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 46
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
-      "ok": true,
-      "count": 6,
-      "mergedAt": "2026-07-23T11:23:18.950Z"
     }
   ],
   "itemCount": 103,
@@ -512,6 +506,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-17T00:05:44.708Z"
+    },
+    "ムーンブルー": {
+      "storeName": "ムーンブルー",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-23T12:10:56.743Z"
     }
   },
   "market": {
@@ -638,6 +645,22 @@
     "館山市|レストラン": {
       "count": 6,
       "checkedAt": "2026-07-23T07:35:41.450Z"
+    },
+    "南房総市|カフェ": {
+      "count": 3,
+      "checkedAt": "2026-07-23T12:10:56.879Z"
+    },
+    "市川市|居酒屋": {
+      "count": 72,
+      "checkedAt": "2026-07-23T12:10:56.988Z"
+    },
+    "千葉市中央区|バー": {
+      "count": 67,
+      "checkedAt": "2026-07-23T12:10:57.190Z"
+    },
+    "木更津市|カフェ": {
+      "count": 9,
+      "checkedAt": "2026-07-23T12:10:57.197Z"
     }
   },
   "items": [
@@ -670,6 +693,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:17.709Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトスタッフ）",
@@ -1145,16 +1178,6 @@
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
-      "title": "「成田食堂」オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:17.709Z"
-    },
-    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1431,9 +1454,7 @@
       "source": "Indeed",
       "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
       "area": "千葉市中央区",
-      "genres": [
-        "バー"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.767Z"
     },
@@ -1443,9 +1464,7 @@
       "source": "Indeed",
       "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
       "area": "千葉市中央区",
-      "genres": [
-        "バー"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:18.925Z"
     },
