@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 17,
+      "mergedAt": "2026-07-23T09:23:24.016Z"
     }
   ],
-  "itemCount": 49,
+  "itemCount": 66,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -492,6 +498,16 @@
       "firstSeenAt": "2026-07-23T08:50:11.076Z"
     },
     {
+      "title": "株式会社style7 オープニングスタッフ募集（7月オープン飲食店の店舗スタッフ）",
+      "link": "https://to.indeed.com/aabfgdps8php",
+      "source": "Indeed",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.009Z"
+    },
+    {
       "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
       "source": "求人ボックス（マイナビ転職.）",
@@ -502,6 +518,16 @@
       "firstSeenAt": "2026-07-17T14:47:24.941Z"
     },
     {
+      "title": "株式会社mihaku オープニングスタッフ募集（飲食店のオープニングスタッフ・ホール接客(アルバイト)）",
+      "link": "https://to.indeed.com/aay4gktntn4d",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "横浜市西区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.015Z"
+    },
+    {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
       "link": "http://s.baitoru.com/DW0aLgEO",
       "source": "求人ボックス（baitoru）",
@@ -510,6 +536,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:36.218Z"
+    },
+    {
+      "title": "「串焼きと煮込み 筑前屋　関内店」オープニングスタッフ募集（居酒屋のホール/オープニング&入社祝金40万）",
+      "link": "https://to.indeed.com/aajqwnydl49g",
+      "source": "Indeed",
+      "pubDate": "Mon, 20 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.012Z"
     },
     {
       "title": "【安楽亭 大井松田店】7/21(火)リニューアルオープン♪焼肉の楽しさが、さらに進化！日本三大和牛「松阪牛」に、彩り豊かなサラダバーまで。オープン記念「サラダバー半額パスポート」の配布も！",
@@ -523,6 +561,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-21T07:35:10.077Z"
+    },
+    {
+      "title": "株式会社ＲＩＰＰＬＥ オープニングスタッフ募集（まもなく募集終了|8月オープンの焼肉店の運営スタッフ）",
+      "link": "https://to.indeed.com/aappwjnqzhvh",
+      "source": "Indeed",
+      "pubDate": "Sun, 19 Jul 2026 00:00:00 GMT",
+      "area": "川崎市多摩区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.012Z"
     },
     {
       "title": "合同会社プレップ湘南/おたからや オープニングスタッフ募集（買い取り専門店スタッフ/「新規オープニング」9割が未経験スタ…）",
@@ -547,6 +597,65 @@
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
+      "title": "株式会社湘南ＭＡＮＡ　ＤＩＮＩＮＧ オープニングスタッフ募集（中華居酒屋のオープニングスタッフ）",
+      "link": "https://to.indeed.com/aagwlbczbwxs",
+      "source": "Indeed",
+      "pubDate": "Fri, 17 Jul 2026 00:00:00 GMT",
+      "area": "茅ヶ崎市",
+      "genres": [
+        "居酒屋",
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.010Z"
+    },
+    {
+      "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】 路地裏ダイニングの店舗スタッフ(正社員)）",
+      "link": "https://to.indeed.com/aar9b7ffqz8l",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.995Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/飲食店の店舗運営スタッフ(正社員)）",
+      "link": "https://to.indeed.com/aa6g4p7nw9lm",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.010Z"
+    },
+    {
+      "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】大人の隠れ家ダイニングの調理スタッフ(正社員…）",
+      "link": "https://to.indeed.com/aasvyst7tdgx",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.010Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（【新規オープン】出店ラッシュの餃子バルのキッチン補助スタッフ…）",
+      "link": "https://to.indeed.com/aaw6fmtddtkb",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.016Z"
+    },
+    {
       "title": "葉山に「Casa CABaN HAYAMA」が新オープン イタリアンモダンの粋と自然美が融合したホテル",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WdTBYTkFhS2pCcWU2ME5UdTBIMURRc1UyMEwtNUhvaHBsa2JTcXlwODA1UFVqZmJROTFLellaa0JWZjZnR1otNU90RGNyUzdYaGEtYzdXY18?oc=5",
       "source": "家庭画報",
@@ -557,6 +666,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:24.824Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/毎日が楽しいアットホームな沖縄酒場の調理補助ス…）",
+      "link": "https://to.indeed.com/aa97nvkkvnpk",
+      "source": "Indeed",
+      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "area": "横浜市港北区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.016Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -572,6 +691,18 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
+      "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】未経験可|おしゃれビストロのホールスタッフ(…）",
+      "link": "https://to.indeed.com/aad2yksw8m6t",
+      "source": "Indeed",
+      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ビストロ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.010Z"
+    },
+    {
       "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ESV85aWs2T1JhWUdXeDY5RkZ4Uk55ME1HSGNIa000UUQtZ0lQTllxQVVEYjFkWHc2ZWtvck10U2JIdlRyNXYtTjVCakdob3lfOGtMeWdzTEx4ZHhxUmlVai0zZngwRzdPemc?oc=5",
       "source": "PR TIMES",
@@ -582,6 +713,31 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T15:05:48.947Z"
+    },
+    {
+      "title": "株式会社RIPPLE オープニングスタッフ募集（【8月新店オープン】焼肉店のオープニングスタッフ）",
+      "link": "https://to.indeed.com/aa8dvtf67fch",
+      "source": "Indeed",
+      "pubDate": "Mon, 13 Jul 2026 00:00:00 GMT",
+      "area": "川崎市多摩区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.012Z"
+    },
+    {
+      "title": "「Neo Nice Burger 横浜ハンマーヘッド」オープニングスタッフ募集（ハンバーガーカフェのキッチン/オープニング・I'm donu…）",
+      "link": "https://to.indeed.com/aanmt7gqy2nv",
+      "source": "Indeed",
+      "pubDate": "Mon, 13 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.012Z"
     },
     {
       "title": "株式会社コロワイドダイニング オープニングスタッフ募集（ホール/キッチン/洗い場 7/24OPEN 365酒場オープ…）",
@@ -774,6 +930,18 @@
       "firstSeenAt": "2026-07-17T00:05:58.413Z"
     },
     {
+      "title": "有限会社サザンフードサービス オープニングスタッフ募集（6月オープニングの居酒屋のホールスタッフ）",
+      "link": "https://to.indeed.com/aay2m89lzjgm",
+      "source": "Indeed",
+      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.010Z"
+    },
+    {
       "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03Q1lyTVhEUWdXRmIxckRKb01xam5IWVBKdVl3U3dWb2JiSko4ZWptZVpxeUtja0prdk5jci1wZTU3clBIcTlucGhQcTYxOTVzOFE5MEdjdHJubXpWSTVmZkplVl9za3NSc3c?oc=5",
       "source": "PR TIMES",
@@ -814,6 +982,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-19T14:25:29.043Z"
+    },
+    {
+      "title": "株式会社フォンスＣＢ オープニングスタッフ募集（<オープニングスタッフ>ベーカリーカフェスタッフ|アベニュー…）",
+      "link": "https://to.indeed.com/aax9h8lr98dl",
+      "source": "Indeed",
+      "pubDate": "Thu, 25 Jun 2026 00:00:00 GMT",
+      "area": "川崎市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.012Z"
     },
     {
       "title": "戸塚モディ／「はなまるダイニングセレクト」6月24日オープン、総菜・サラダ提供",
@@ -961,6 +1141,26 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
+    },
+    {
+      "title": "株式会社ファイブグループ オープニングスタッフ募集（世界で一番楽しい店のオープニングホールスタッフ）",
+      "link": "https://to.indeed.com/aa94p9d74gmk",
+      "source": "Indeed",
+      "pubDate": "Sun, 31 May 2026 00:00:00 GMT",
+      "area": "大和市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.011Z"
+    },
+    {
+      "title": "株式会社ファイブグループ オープニングスタッフ募集（超自由で笑顔だらけの店のオープニングキッチンスタッフ）",
+      "link": "https://to.indeed.com/aay6ywrnq84j",
+      "source": "Indeed",
+      "pubDate": "Sun, 31 May 2026 00:00:00 GMT",
+      "area": "大和市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.011Z"
     },
     {
       "title": "「肉のプロ」が地元・横浜に凱旋出店。焼肉「うしこぞう横浜店」6月1日オープン",

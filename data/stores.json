@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 9,
+      "mergedAt": "2026-07-23T09:23:23.774Z"
     }
   ],
-  "itemCount": 90,
+  "itemCount": 99,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -699,6 +705,30 @@
       "firstSeenAt": "2026-07-23T07:35:35.672Z"
     },
     {
+      "title": "株式会社プロントコーポレーション オープニングスタッフ募集（空港内のカフェ・サカバスタッフ(オープニング)）",
+      "link": "https://to.indeed.com/aaxmtctqbdhf",
+      "source": "Indeed",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "成田市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.772Z"
+    },
+    {
+      "title": "株式会社プロントコーポレーション オープニングスタッフ募集（空港内のオープニングカフェスタッフ(夕方~閉店まで)）",
+      "link": "https://to.indeed.com/aartc8xd8n99",
+      "source": "Indeed",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "成田市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.772Z"
+    },
+    {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
       "link": "https://www.bizreach.jp/lp/members_register/?job_id=6107698&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4",
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
@@ -734,6 +764,30 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:07.422Z"
+    },
+    {
+      "title": "株式会社ｐａｌａｃｅ オープニングスタッフ募集（居酒屋オープニングスタッフ）",
+      "link": "https://to.indeed.com/aafgs2l2cdvv",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.767Z"
+    },
+    {
+      "title": "株式会社スパイスワークスホールディングス オープニングスタッフ募集（【オープニング】海まで30秒の海鮮食堂&カフェ/店舗営業スタ…）",
+      "link": "https://to.indeed.com/aatqdl8tlnf4",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "南房総市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.773Z"
     },
     {
       "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（調理師）",
@@ -975,6 +1029,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-12T21:40:41.849Z"
+    },
+    {
+      "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニング にしだ場南行徳店　閉店・締め作業専任スタッフ）",
+      "link": "https://to.indeed.com/aahgzsjcfdwp",
+      "source": "Indeed",
+      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
+      "area": "市川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.771Z"
     },
     {
       "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
@@ -1273,6 +1337,16 @@
       "firstSeenAt": "2026-07-14T23:27:43.357Z"
     },
     {
+      "title": "株式会社折原 オープニングスタッフ募集（【新規オープン】珍しい日本酒に囲まれた角打ち店/接客・販売ス…）",
+      "link": "https://to.indeed.com/aajp2cbqtvrl",
+      "source": "Indeed",
+      "pubDate": "Wed, 08 Jul 2026 00:00:00 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.771Z"
+    },
+    {
       "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-334491-3-12-1/?utm_source=kyujinbox&utm_medium=display&utm_term=14100",
       "source": "求人ボックス（マイナビ転職.）",
@@ -1340,6 +1414,18 @@
       "firstSeenAt": "2026-07-21T02:30:34.056Z"
     },
     {
+      "title": "「ムーンブルー」オープニングスタッフ募集（≪✧完全新規OPEN!!✧≫推される準備O K?新感覚コンセ…）",
+      "link": "https://to.indeed.com/aazmsbzw7td8",
+      "source": "Indeed",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.767Z"
+    },
+    {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
       "source": "船橋つうしん",
@@ -1385,6 +1471,18 @@
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
     },
     {
+      "title": "ＮＥＸＴ　ＧＡＴＥ　ＦＯＯＤ　ＲＥＬＡＴＩＯＮＳ株式会社 オープニングスタッフ募集（オープニングスタッフ|ダーツバーのホールスタッフ）",
+      "link": "https://to.indeed.com/aamy2ggdtyzw",
+      "source": "Indeed",
+      "pubDate": "Mon, 29 Jun 2026 00:00:00 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.750Z"
+    },
+    {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
       "source": "千葉日報オンライン",
@@ -1406,6 +1504,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "株式会社穴太ホールディングス オープニングスタッフ募集（オープニング店舗のカフェでの販売・接客スタッフ）",
+      "link": "https://to.indeed.com/aadz97rry9v6",
+      "source": "Indeed",
+      "pubDate": "Fri, 26 Jun 2026 00:00:00 GMT",
+      "area": "木更津市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.772Z"
     },
     {
       "title": "スミムス(柏/居酒屋)＜ネット予約可",
