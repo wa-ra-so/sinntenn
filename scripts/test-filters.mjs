@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url';
 import {
   hasExcludeKeyword, isChibaRelevant, isPrefRelevant, isChain, isNonFoodJob, detectArea,
   isOpeningJobTitle, connectorJobToItem, kyujinboxToItem, detectGenres,
+  EXCLUDED_SOURCE_SITE_NAMES,
 } from './fetch-stores.mjs';
 import { PREFECTURES } from './prefectures.mjs';
 
@@ -270,10 +271,13 @@ check(kyujinboxToItem({
   title: '美容師/流山おおたかの森駅/社員募集', company: 'Carelly 髪質改善トリートメント&ヘッドスパ 流山おおたかの森',
   workArea: '千葉県流山市', siteName: 'リジョブ', allFeatureTags: ['オープニング'], url: 'https://relax-job.com/test1',
 }) === null, '求人ボックス変換: リジョブ（美容業界専門サイト）経由の求人は掲載元名で除外される');
+// 2026-07-23 ユーザー方針変更: 食べログ求人経由の求人は、その店舗が既に食べログの
+// 求人サービスを利用している＝既存顧客の可能性が高く、新規開拓リードとして不要なため除外する
+// （以前は誤爆検知として「除外されない」ことを確認していたが、方針が逆になった）
 check(kyujinboxToItem({
   title: 'オープニングスタッフ募集 ホールスタッフ', company: '居酒屋テスト',
   workArea: '千葉県船橋市', siteName: '食べログ求人', allFeatureTags: ['オープニング'], url: 'https://tabelog.com/test1',
-}) !== null, '求人ボックス変換: 食べログ求人経由の飲食店求人は掲載元名で除外されない（誤爆検知）');
+}) === null, '求人ボックス変換: 食べログ求人経由の求人は掲載元名で除外される（既存顧客のため新規リード対象外）');
 
 // 2026-07-15 求人ボックス再精査で発覚: サイト側が「オープニング」タグを付与していても、
 // タイトル自体が「リニューアルオープン」（改装・既存店の再オープン）の場合は新規開店ではない。
@@ -328,6 +332,7 @@ if (process.argv.includes('--audit')) {
       if (isChain(it.title)) problems.push('大手チェーン');
       if (it.signal === 'hiring' && isNonFoodJob(it.title)) problems.push('飲食以外の求人');
       if (it.signal === 'hiring' && /リニューアル/.test(it.title)) problems.push('リニューアル（新規開店ではない）');
+      if (EXCLUDED_SOURCE_SITE_NAMES.some(name => (it.source || '').includes(name))) problems.push('掲載元が除外対象（既存顧客リード）');
       if (!it.area && !isPrefRelevant(it.title, pref)) problems.push(`${pref.short}要素なし`);
       if (problems.length) {
         bad++;

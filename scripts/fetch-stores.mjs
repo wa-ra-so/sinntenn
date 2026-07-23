@@ -460,6 +460,11 @@ function toTagArray(v) {
 // 「美容師」等のキーワード一致に頼るより確実（求人票の言い回しに左右されない）
 const NONFOOD_SITE_NAMES = ['リジョブ'];
 
+// 掲載元サイト自体を理由に除外する求人（飲食業種の判定ではなく営業リードとしての方針判断）。
+// 「食べログ求人」経由の求人は、その店舗が既に食べログの求人サービスを利用している＝
+// 既存の食べログ顧客である可能性が高く、新規開拓リードとして不要なため除外する（2026-07-23）
+export const EXCLUDED_SOURCE_SITE_NAMES = ['食べログ求人'];
+
 export function kyujinboxToItem(job) {
   const jobTitle = (job.title || '').trim();
   const company = (job.company || '').trim();
@@ -467,6 +472,7 @@ export function kyujinboxToItem(job) {
   if (!company || !workArea.includes(ACTIVE_PREF.name)) return null;
   const siteName = (job.siteName || '').trim();
   if (NONFOOD_SITE_NAMES.includes(siteName)) return null;
+  if (EXCLUDED_SOURCE_SITE_NAMES.includes(siteName)) return null;
   // 求人サイトが求人カードに「オープニング」タグを付けていても、タイトル自体が
   // 「リニューアルオープン」（改装・既存店の再オープン）の場合は新規開店ではないため、
   // タグの有無に関わらず必ず除外する（タグ判定がisOpeningJobTitleのリニューアル除外を
@@ -755,6 +761,7 @@ async function main() {
     !hasExcludeKeyword(it.title) &&
     !(it.signal === 'hiring' && isNonFoodJob(it.title)) &&
     !(it.signal === 'hiring' && /リニューアル/.test(it.title)) &&
+    !EXCLUDED_SOURCE_SITE_NAMES.some(name => (it.source || '').includes(name)) &&
     (it.area || isPrefRelevant(it.title))
   );
   await mapWithConcurrency(
