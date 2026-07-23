@@ -1,7 +1,7 @@
 # 新店リサーチ（千葉・東京・神奈川・埼玉）
 
 食べログ営業のメンバーが使う営業支援ツール。対象都県の新規開店飲食店を
-1日3回自動収集し、GitHub Pagesで一覧表示する。**依存パッケージなし**（Node 20+の組み込みfetchのみ）。
+1日6回自動収集し、GitHub Pagesで一覧表示する。**依存パッケージなし**（Node 20+の組み込みfetchのみ）。
 
 - 公開URL: https://wa-ra-so.github.io/sinntenn/ （千葉県・デフォルト）
   - 東京都: `?pref=tokyo` / 神奈川県: `?pref=kanagawa` / 埼玉県: `?pref=saitama`
@@ -22,7 +22,7 @@
 | `seiseikun.html` | 提案書セイセイ君（独立ツール、新店リサーチとは無関係） |
 | `shinten.html` | 旧URL向けリダイレクトスタブ（削除しない） |
 | `scripts/prefectures.mjs` | 県設定（市区町村・駅名エイリアス・データファイル名）。**index.htmlのPREFSと対応を保つ** |
-| `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから1日3回（6:00/14:00/22:00 JST頃）、4県分実行 |
+| `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから1日6回（9:00〜19:00 JSTの勤務時間帯を2時間おき）、4県分実行 |
 | `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査（全県分）。失敗すると公開が止まる |
 | `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人を県別データへマージ。毎朝のClaudeルーティンから実行 |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
