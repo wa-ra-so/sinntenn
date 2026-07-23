@@ -65,11 +65,11 @@
     {
       "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
       "ok": true,
-      "count": 9,
-      "mergedAt": "2026-07-23T09:23:23.774Z"
+      "count": 6,
+      "mergedAt": "2026-07-23T11:23:18.950Z"
     }
   ],
-  "itemCount": 99,
+  "itemCount": 103,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -1041,6 +1041,18 @@
       "firstSeenAt": "2026-07-23T09:23:23.771Z"
     },
     {
+      "title": "株式会社フォンスＣＢ オープニングスタッフ募集（【オープニングスタッフ】カフェのキッチンスタッフ|グランスタ…）",
+      "link": "https://to.indeed.com/aaqkq4cyvg82",
+      "source": "Indeed",
+      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T11:23:18.947Z"
+    },
+    {
       "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
       "link": "https://grsta.jp/manuscript/0a06020a-9f45-198c-819f-45febcb600a9",
       "source": "求人ボックス（グルスタ）",
@@ -1426,6 +1438,18 @@
       "firstSeenAt": "2026-07-23T09:23:23.767Z"
     },
     {
+      "title": "「ムーンブルー」オープニングスタッフ募集（≪✧完全新規OPEN!!✧≫推される準備OK?新感覚コンセプ…）",
+      "link": "https://to.indeed.com/aa7kbvj88kw9",
+      "source": "Indeed",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T11:23:18.925Z"
+    },
+    {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
       "source": "船橋つうしん",
@@ -1552,6 +1576,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニング にしだ場南行徳店　居酒屋での仕込みスタッフ）",
+      "link": "https://to.indeed.com/aa8wgz44dkfc",
+      "source": "Indeed",
+      "pubDate": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "area": "市川市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T11:23:18.948Z"
     },
     {
       "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",
@@ -1714,6 +1750,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
+    },
+    {
+      "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニングにしだ場新松戸店　居酒屋店舗スタッフ(店長候補)）",
+      "link": "https://to.indeed.com/aa847772q7w4",
+      "source": "Indeed",
+      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
+      "area": "松戸市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T11:23:18.947Z"
     },
     {
       "title": "【オープン日判明】京成船橋駅近くの居酒屋「大衆割烹まるは」5/28（木）14時からオープン！",
