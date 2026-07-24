@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T03:17:19.176Z",
+  "generatedAt": "2026-07-24T06:30:40.958Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 59
+      "count": 65
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 47
+      "count": 46
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 60
+      "count": 58
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -1696,6 +1696,19 @@
   },
   "items": [
     {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Thu, 23 Jul 2026 20:53:22 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
       "title": "「グリーンハウスフーズグループ」オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ 調理経験者大…）",
       "link": "http://s.baitoru.com/DW0aV50T",
       "source": "求人ボックス（baitoru）",
@@ -1796,19 +1809,6 @@
       "firstSeenAt": "2026-07-23T11:23:19.036Z"
     },
     {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Wed, 22 Jul 2026 20:52:50 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
       "title": "株式会社ちゃんばら オープニングスタッフ募集（ホテル内和食料理店の店舗スタッフ/オープニング/転勤なし/賞…）",
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-85d5b1422238",
       "source": "求人ボックス（グルスタ）",
@@ -1869,7 +1869,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "台東区",
+      "area": "中央区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
