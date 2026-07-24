@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
+      "ok": true,
+      "count": 6,
+      "mergedAt": "2026-07-24T00:10:55.259Z"
     }
   ],
-  "itemCount": 79,
+  "itemCount": 85,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -692,6 +698,18 @@
       "firstSeenAt": "2026-07-23T07:36:03.107Z"
     },
     {
+      "title": "「Grilled Sakana Works」オープニングスタッフ募集（居酒屋の接客/オープニングで年収500万円可）",
+      "link": "https://to.indeed.com/aavmcb7hk78l",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "川越市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.259Z"
+    },
+    {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
@@ -877,6 +895,18 @@
       "firstSeenAt": "2026-07-23T09:23:24.115Z"
     },
     {
+      "title": "株式会社ロストマン オープニングスタッフ募集（お寿司屋の店舗スタッフ(オープニングスタッフ)）",
+      "link": "https://to.indeed.com/aa9bjcts7t8m",
+      "source": "Indeed",
+      "pubDate": "Fri, 17 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.250Z"
+    },
+    {
       "title": "ファステストダイニング株式会社 オープニングスタッフ募集（焼肉店の店長候補/キャリアパス多数/年収600万円可）",
       "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-66f052930851",
       "source": "求人ボックス（グルスタ）",
@@ -932,6 +962,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.113Z"
+    },
+    {
+      "title": "株式会社ロストマン オープニングスタッフ募集（(オープニング募集)お寿司屋の店舗スタッフ）",
+      "link": "https://to.indeed.com/aavycqpmvknh",
+      "source": "Indeed",
+      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.257Z"
     },
     {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
@@ -1514,6 +1556,18 @@
       "firstSeenAt": "2026-07-17T07:21:33.243Z"
     },
     {
+      "title": "株式会社スタートライン オープニングスタッフ募集（オープニング　カフェ型就労継続事業所でのカフェスタッフ）",
+      "link": "https://to.indeed.com/aagvrslmljmq",
+      "source": "Indeed",
+      "pubDate": "Wed, 03 Jun 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.259Z"
+    },
+    {
       "title": "株式会社イートウイング オープニングスタッフ募集（「ビアダイニング オープニングスタッフ大募集」土日祝時給UP）",
       "link": "https://04510ch.com/job/7138/297",
       "source": "求人ボックス（株式会社イートウイング）",
@@ -1538,6 +1592,18 @@
       "firstSeenAt": "2026-07-23T09:23:24.119Z"
     },
     {
+      "title": "株式会社ＬＡＤＵＲＥＥ　ＪＡＰＯＮ オープニングスタッフ募集（マカロン発祥のスイーツカフェのオープニングスタッフ(キッチン…）",
+      "link": "https://to.indeed.com/aafxrt6ggtwd",
+      "source": "Indeed",
+      "pubDate": "Sun, 31 May 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.259Z"
+    },
+    {
       "title": "譲渡実績3,500頭以上「ANELLA CAFE（アネラカフェ）ふじみ野店」2026年5月28日(木)オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sS0FlYmFRQS00Nm9UUlB6emJKRXc2c3VOdWlrZlhUYU5CY3pBdzQtUUt1Nkk3QnFUUEpsWG5GZXl4bnZjNkMwbWRBYTdEbEVSN2NiQzJ2WUJNSVlwbXNsTzFjS21PVnpxNHc?oc=5",
       "source": "PR TIMES",
@@ -1548,6 +1614,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T07:26:07.994Z"
+    },
+    {
+      "title": "株式会社ロストマン オープニングスタッフ募集（オープニングスタッフ 水炊きと焼き鳥居酒屋でのキッチン）",
+      "link": "https://to.indeed.com/aahld42m8d8b",
+      "source": "Indeed",
+      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.258Z"
     },
     {
       "title": "越谷レイクタウンに新エリアがオープン サクラレイクの湖畔に、県内初出店の飲食店など10店舗 アクティビティやイベントも充実",
