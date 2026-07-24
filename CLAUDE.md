@@ -25,7 +25,6 @@
 | `scripts/fetch-stores.mjs` | 収集スクリプト。`--pref=chiba\|tokyo\|kanagawa\|saitama`で県指定。Actionsから1日6回（9:00〜19:00 JSTの勤務時間帯を2時間おき）、4県分実行 |
 | `scripts/test-filters.mjs` | フィルタ単体テスト＋公開前データ監査（全県分）。失敗すると公開が止まる |
 | `scripts/merge-indeed.mjs` | Indeed公式コネクタ（Claude MCP）で集めた求人を県別データへマージ。毎朝のClaudeルーティンから実行 |
-| `.github/workflows/watchdog.yml` | 見張り番。本体（`update-shinten.yml`）のscheduleが発火しなかった場合に代わりに起動する（後述） |
 | `data/stores.json` | 千葉県の収集済みデータ（直近60日・Actionsが自動コミット。手で編集しない） |
 | `data/stores-tokyo.json` ほか | 東京・神奈川（`-kanagawa`）・埼玉（`-saitama`）の収集済みデータ（同上） |
 
@@ -80,22 +79,3 @@
 - ワークフローの流れ: Test filters → Fetch → Audit → Commit。テストか監査が失敗すると
   公開されず、前日のデータが残る（安全側に倒れる）
 - コミットメッセージは日本語でよい
-
-### 見張り番（watchdog.yml）
-
-姉妹リポジトリhppzaikoで、GitHub Actionsのscheduleトリガーが（公式が明言している
-「毎時ちょうどは高負荷で遅延・スキップされうる」通り）4時間以上発火しなかった事象が
-発生した。同じ保険をこちらにも導入した（2026-07）。
-
-`update-shinten.yml`とは別の分（:07,:27,:47、UTC 0〜11時台＝JST 9時〜20時台）で
-動き、本体と同じスケジュール（2時間おき）の直近の実行予定時刻を計算し、そこから
-30分（収集・監査・コミットの所要時間を見込んだ猶予）経ってもいずれかの県データの
-`generatedAt`が更新されていなければ、定期実行が発火しなかったとみなして
-`update-shinten.yml`を`workflow_dispatch`で代わりに起動する。
-
-夜間・早朝（19:00〜9:00 JST）は本体が動かない設計のため、単純な「最終更新からの
-経過時間」では前日夜〜翌朝の正常な間隔を異常と誤判定してしまう。そのため
-hppzaikoの実装（単純な経過時間チェック）とは異なり、「直近の実行予定スロット時刻」を
-基準に判定している。本体ワークフローが実行中/待機中の場合は二重起動しない。
-GitHub側のスケジューラが広範囲に停止した場合はwatchdog自身のscheduleも発火しない
-ため100%の保証にはならない（あくまで発火しない時間を短く抑えるための保険）。
