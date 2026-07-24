@@ -81,7 +81,11 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .list-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;animation:materialize .3s var(--ease) .04s both;}
 #app-content-slot.slow-entrance .result-count,
 #app-content-slot.slow-entrance .list-card{animation-duration:.6s;animation-delay:.16s;}
-.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize .4s var(--ease) both;}
+/* content-visibility:autoで画面外の行のレイアウト・描画計算を後回しにする。
+   件数の多い県（東京都は181店舗）だと一覧まるごとの差し替えが1回のタスクで
+   数百msブロックし、県切り替え時に「がたつく」原因になっていた
+   （contain-intrinsic-sizeは未計算時の仮の高さ。実際のサイズは表示時に測り直される） */
+.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize .4s var(--ease) both;content-visibility:auto;contain-intrinsic-size:0 100px;}
 #app-content-slot.slow-entrance .store-row{animation-duration:1.3s;}
 .store-row:last-child{border-bottom:none;}
 .store-row:hover{background:#f8fafc;}
