@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
+      "ok": true,
+      "count": 10,
+      "mergedAt": "2026-07-24T00:10:55.137Z"
     }
   ],
-  "itemCount": 186,
+  "itemCount": 196,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -2069,6 +2075,16 @@
       "firstSeenAt": "2026-07-16T22:07:07.224Z"
     },
     {
+      "title": "株式会社Army Ant オープニングスタッフ募集（【オープニング】渋谷発!若者が仕掛ける新カルチャー系の飲食ス…）",
+      "link": "https://to.indeed.com/aa7mqjk6j86c",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.135Z"
+    },
+    {
       "title": "南青山のモダンフレンチ「L’AS」が東京駅エリア初進出。新複合施設「TOFROM YAESU」に『L’AS TOKYO』を9月10日オープン",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qcXVSaU44NUlCckl1WWQ2LTluMGVka3dEejN4QWhNblBTYm5JbTBCLW5SWnoyOFRQTjduQXpLRE5KdU0zb2xhdy1UOF93enRJZGdtTHFxeGNxR2d6eVFWVE14UVc2ZUNHckxFUHNUVHd1V1g1d1pfYmhwbw?oc=5",
       "source": "ニコニコニュース",
@@ -2218,6 +2234,28 @@
       "firstSeenAt": "2026-07-23T09:23:23.898Z"
     },
     {
+      "title": "株式会社イデアコーポレーション オープニングスタッフ募集（人気居酒屋 新店舗の店長候補(オープニング)）",
+      "link": "https://to.indeed.com/aadnvmsc8g4n",
+      "source": "Indeed",
+      "pubDate": "Mon, 13 Jul 2026 00:00:00 GMT",
+      "area": "杉並区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.135Z"
+    },
+    {
+      "title": "「ファンタジー」オープニングスタッフ募集（BARのオープニングスタッフ）",
+      "link": "https://to.indeed.com/aatbqmxzgylc",
+      "source": "Indeed",
+      "pubDate": "Mon, 13 Jul 2026 00:00:00 GMT",
+      "area": "豊島区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.137Z"
+    },
+    {
       "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83X1dTQWVBY09uNWRhNlU3dEd1U25wZzFPWGtfNDdqNkFwOGVhby1uZEtaTm51Rm5NTFhvam9KRmVKa0diOTIzLU1TYXRIYXpseERwXzZWcmpseXhrYkNsRUtn?oc=5",
       "source": "Excite エキサイト",
@@ -2240,6 +2278,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:19.036Z"
+    },
+    {
+      "title": "「Play & Eat 博多ピンチョス 勝どきⅡ(セカンド)」オープニングスタッフ募集（居酒屋のホール/オープニング/未経験可）",
+      "link": "https://to.indeed.com/aas6ml9xgtd6",
+      "source": "Indeed",
+      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
+      "area": "中央区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.136Z"
     },
     {
       "title": "「Barおいでやす」オープニングスタッフ募集（ホール/バーテンダー/店長・マネージャー候補 完全新規OPE…）",
@@ -2463,6 +2513,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.902Z"
+    },
+    {
+      "title": "株式会社Army Ant オープニングスタッフ募集（【オープニング】急成長中!オシャレ自由なカフェ&イタリアンの…）",
+      "link": "https://to.indeed.com/aatllxmqxscn",
+      "source": "Indeed",
+      "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
+      "area": "豊島区",
+      "genres": [
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.136Z"
     },
     {
       "title": "株式会社iDA オープニングスタッフ募集（ホールスタッフ/バルーンスマイルクレープ販売 表参道路面店）",
@@ -2705,6 +2768,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.894Z"
+    },
+    {
+      "title": "株式会社旬彩 オープニングスタッフ募集（居酒屋のオープニングキッチンスタッフ）",
+      "link": "https://to.indeed.com/aawd2yxcsx9y",
+      "source": "Indeed",
+      "pubDate": "Fri, 03 Jul 2026 00:00:00 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.136Z"
     },
     {
       "title": "プレミアム回転寿司「無添蔵 新宿店」 2026年7月9日（木）オープン",
@@ -3218,6 +3293,16 @@
       "firstSeenAt": "2026-07-23T09:23:23.901Z"
     },
     {
+      "title": "ナウ・ジャパン株式会社 オープニングスタッフ募集（飲食店(焼鳥屋)のオープニングスタッフ）",
+      "link": "https://to.indeed.com/aaz4qpb2wv88",
+      "source": "Indeed",
+      "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.125Z"
+    },
+    {
       "title": "谷中銀座に古民家リノベカフェ 「八三六（Hachi San Roku）」が2026年6月11日オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WemxnT0h0aEFsdUczbm16dGtjdHRCbzJsSkh5Z2RJcDk4VFB5N2NqR1BDa1lQNnF6S01hb05malFfSmpJeGVYd0xNbk9NM1dvWXptY2ZPeURrYzN4dUFaaHdrbmFjMGJVbWc?oc=5",
       "source": "PR TIMES",
@@ -3536,6 +3621,18 @@
       "firstSeenAt": "2026-07-23T11:23:19.035Z"
     },
     {
+      "title": "株式会社オールディッシュ オープニングスタッフ募集（オープニングスタッフ|メニュー開発に関われる焼肉店スタッフ）",
+      "link": "https://to.indeed.com/aawly8hzdhjd",
+      "source": "Indeed",
+      "pubDate": "Tue, 02 Jun 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.136Z"
+    },
+    {
       "title": "東京国立博物館、館内レストラン3店舗をリニューアル 2026年夏～秋にかけて順次オープン",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxY2h5WGE3VUd1NWFQUGpWXzVTcmlFemNyREs3YkhQeld6amgzQkhZdG0tbjlkTzFsVHlJdHd3WlBrbVhxek8zLTFjbzl0Zw?oc=5",
       "source": "アットプレス",
@@ -3594,6 +3691,31 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
+    },
+    {
+      "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニング にしだ場西葛西店　居酒屋のマネージャー候補）",
+      "link": "https://to.indeed.com/aa8ckljgqpzx",
+      "source": "Indeed",
+      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
+      "area": "江戸川区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.136Z"
+    },
+    {
+      "title": "株式会社３３ オープニングスタッフ募集（オープニングスタッフ(カフェ&バー)）",
+      "link": "https://to.indeed.com/aabwbt6vv4hj",
+      "source": "Indeed",
+      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
+      "area": "港区",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.136Z"
     },
     {
       "title": "“大人が日常使いできる”新ビストロ「ビーテーブル」千駄ヶ谷にオープン｜レッツエンジョイ東京",

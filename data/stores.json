@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 5,
+      "mergedAt": "2026-07-24T00:10:55.063Z"
     }
   ],
-  "itemCount": 103,
+  "itemCount": 108,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -1469,6 +1475,20 @@
       "firstSeenAt": "2026-07-23T11:23:18.925Z"
     },
     {
+      "title": "株式会社ダイニングエッジ オープニングスタッフ募集（カフェのホール・キッチン　オープニングメンバー第一弾募集）",
+      "link": "https://to.indeed.com/aakmykfb4sn4",
+      "source": "Indeed",
+      "pubDate": "Sat, 04 Jul 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "ダイニング",
+        "カフェ",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.062Z"
+    },
+    {
       "title": "船橋市三山2丁目に居酒屋「芯」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZkdRM0pxb1lvcGFjT2E4WWFfYlI5LVNibU5XSmFOSDdPVXh2WkZLMUlueG0zcV9KcUVwR2dSdUdKNmZQVDc2Q3l0MEZuUGkyY0E?oc=5",
       "source": "船橋つうしん",
@@ -1526,6 +1546,18 @@
       "firstSeenAt": "2026-07-23T09:23:23.750Z"
     },
     {
+      "title": "「Koala Tree Cafe & Dining」オープニングスタッフ募集（バリスタ(経験者)|新規カフェオープニングスタッフ）",
+      "link": "https://to.indeed.com/aag9w9y92xbt",
+      "source": "Indeed",
+      "pubDate": "Sun, 28 Jun 2026 00:00:00 GMT",
+      "area": "習志野市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.062Z"
+    },
+    {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
       "source": "千葉日報オンライン",
@@ -1571,6 +1603,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-22T07:37:27.130Z"
+    },
+    {
+      "title": "株式会社フォンスＣＢ オープニングスタッフ募集（【オープニングスタッフ】ベーカリーカフェスタッフ|グランスタ…）",
+      "link": "https://to.indeed.com/aa4jlybz9yjm",
+      "source": "Indeed",
+      "pubDate": "Mon, 22 Jun 2026 00:00:00 GMT",
+      "area": "浦安市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.062Z"
     },
     {
       "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ | チバテレ＋プラス",
@@ -1781,6 +1825,28 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:18.947Z"
+    },
+    {
+      "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニング にしだ場新松戸店　居酒屋のマネージャー候補）",
+      "link": "https://to.indeed.com/aacgrfyxd7fd",
+      "source": "Indeed",
+      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
+      "area": "松戸市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.048Z"
+    },
+    {
+      "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニング にしだ場南行徳店 店舗スタッフ(店長候補)）",
+      "link": "https://to.indeed.com/aaf8nb2nqf9m",
+      "source": "Indeed",
+      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
+      "area": "市川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.061Z"
     },
     {
       "title": "【オープン日判明】京成船橋駅近くの居酒屋「大衆割烹まるは」5/28（木）14時からオープン！",

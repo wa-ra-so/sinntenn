@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 4,
+      "mergedAt": "2026-07-24T00:10:55.199Z"
     }
   ],
-  "itemCount": 73,
+  "itemCount": 77,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -766,6 +772,16 @@
       "firstSeenAt": "2026-07-23T11:23:19.132Z"
     },
     {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/大手の安心×個人の自由を両立/沖縄料理店のキッ…）",
+      "link": "https://to.indeed.com/aa29jzwxjw8b",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.198Z"
+    },
+    {
       "title": "葉山に「Casa CABaN HAYAMA」が新オープン イタリアンモダンの粋と自然美が融合したホテル",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5WdTBYTkFhS2pCcWU2ME5UdTBIMURRc1UyMEwtNUhvaHBsa2JTcXlwODA1UFVqZmJROTFLellaa0JWZjZnR1otNU90RGNyUzdYaGEtYzdXY18?oc=5",
       "source": "家庭画報",
@@ -798,6 +814,26 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:19.131Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/常連さんが多いアットホームな琉球酒場のホール・…）",
+      "link": "https://to.indeed.com/aaqwhmk2sb7d",
+      "source": "Indeed",
+      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.189Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/楽しい空間が好きな方が集まる沖縄酒場の店舗スタ…）",
+      "link": "https://to.indeed.com/aax7tw2fryfr",
+      "source": "Indeed",
+      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "area": "横浜市港北区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.198Z"
     },
     {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
@@ -1050,6 +1086,18 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:58.413Z"
+    },
+    {
+      "title": "「Club IMPACT」オープニングスタッフ募集（【オープニングスタッフ】居酒屋感覚で働けるホール正社員/寮完…）",
+      "link": "https://to.indeed.com/aa9rn7hln98m",
+      "source": "Indeed",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T00:10:55.197Z"
     },
     {
       "title": "有限会社サザンフードサービス オープニングスタッフ募集（6月オープニングの居酒屋のホールスタッフ）",
