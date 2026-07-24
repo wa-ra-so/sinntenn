@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T12:11:20.146Z",
+  "generatedAt": "2026-07-24T03:17:40.131Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,34 +42,28 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 59
+      "count": 62
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 4
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
-      "ok": true,
-      "count": 6,
-      "mergedAt": "2026-07-24T00:10:55.259Z"
     }
   ],
-  "itemCount": 85,
+  "itemCount": 87,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -538,6 +532,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-23T08:50:28.598Z"
+    },
+    "grilledsakanaworks": {
+      "storeName": "Grilled Sakana Works",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004576980/?vos=nhppalsa000016",
+      "shopName": "GRILLED SAKANA WORKS グリルド サカナ ワークス",
+      "address": "埼玉県川越市中原町２-1-11 New東京堂ビル1階",
+      "access": "川越",
+      "genre": "居酒屋",
+      "budget": "5001～6000円",
+      "capacity": 57,
+      "open": "月～日、祝日、祝前日: 11:30～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-24T03:17:39.226Z"
     }
   },
   "market": {
@@ -627,11 +634,11 @@
     },
     "草加市|居酒屋": {
       "count": 44,
-      "checkedAt": "2026-07-16T22:07:24.696Z"
+      "checkedAt": "2026-07-24T03:17:40.101Z"
     },
     "越谷市|ダイニング": {
       "count": 16,
-      "checkedAt": "2026-07-17T00:06:09.890Z"
+      "checkedAt": "2026-07-24T03:17:40.131Z"
     },
     "さいたま市浦和区|レストラン": {
       "count": 8,
@@ -675,6 +682,16 @@
     }
   },
   "items": [
+    {
+      "title": "【危険動物】クマ幼獣目撃　22日夕、秩父・滝沢ダム",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnZabUpoaS02WmFTQUdPRmFrMWdteXBVakNTeUZfYmVoRVNJNkxQWmtNVzJEdmc4bUEzMWVpUlFBN28wSHJteWZNVFFaVllWNGJDZ1lYNHV4OTAyMzNmWllvNWRKMWlqOHVrZlJKT1Bod3VwbnNodUtZZFdyYlI2bVFlX0RWd1FI0gGIAUFVX3lxTE5idlptSmhpLTZaYVNBR09GYWsxZ215cFVqQ1N5Rl9iZWhFU0k2TFBaa01XMkR2ZzhtQTMxZWlSUUE3bzBIcm15Zk1UUVpWWVY0YkNnWVg0dXg5MDIzM2ZaWW81ZEoxaWo4dWtmUkpPUGh3dXBuc2h1S1lkV3JiUjZtUWVfRFZ3UUg?oc=5",
+      "source": "ｄメニューニュース",
+      "pubDate": "Thu, 23 Jul 2026 11:48:00 GMT",
+      "area": "秩父市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T03:17:34.980Z"
+    },
     {
       "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
       "link": "https://entori.jp/onikutokoromo/job/2239194",
@@ -743,6 +760,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:30.304Z"
+    },
+    {
+      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b007a20792",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
+      "area": "草加市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T03:17:34.920Z"
     },
     {
       "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】居酒屋のホールスタッフ<東大宮店>）",
