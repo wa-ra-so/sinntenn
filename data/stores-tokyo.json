@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T06:30:40.958Z",
+  "generatedAt": "2026-07-24T10:24:39.245Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 65
+      "count": 57
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 58
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 9
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 197,
+  "itemCount": 195,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -585,32 +585,6 @@
       "open": "",
       "checkedAt": "2026-07-20T15:15:09.001Z"
     },
-    "gooddaycurry": {
-      "storeName": "Good Day Curry",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:09.055Z"
-    },
-    "銀座quinto": {
-      "storeName": "銀座quinto",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:09.219Z"
-    },
     "sushireona/玲桜奈東京23区に出店予定": {
       "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
       "listed": false,
@@ -727,19 +701,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-22T07:37:40.676Z"
-    },
-    "カフェタナカ": {
-      "storeName": "カフェタナカ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-22T15:08:23.555Z"
     },
     "crêpedujour": {
       "storeName": "Crêpe du jour",
@@ -1103,7 +1064,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T07:21:20.425Z"
+      "checkedAt": "2026-07-24T10:24:39.022Z"
     },
     "ピエール・エルメ・パリ": {
       "storeName": "ピエール・エルメ・パリ",
@@ -1116,7 +1077,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T07:21:20.526Z"
+      "checkedAt": "2026-07-24T10:24:38.412Z"
     },
     "清澄白河": {
       "storeName": "清澄白河",
@@ -1442,6 +1403,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-24T03:17:17.203Z"
+    },
+    "オープニングスタッフ募集!": {
+      "storeName": "オープニングスタッフ募集!",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-24T10:24:37.905Z"
     }
   },
   "market": {
@@ -1545,10 +1519,6 @@
       "count": 50,
       "checkedAt": "2026-07-20T15:15:10.711Z"
     },
-    "中央区|レストラン": {
-      "count": 382,
-      "checkedAt": "2026-07-20T15:15:10.797Z"
-    },
     "渋谷区|レストラン": {
       "count": 78,
       "checkedAt": "2026-07-20T22:08:37.581Z"
@@ -1614,12 +1584,12 @@
       "checkedAt": "2026-07-24T03:17:19.163Z"
     },
     "千代田区|カフェ": {
-      "count": 115,
-      "checkedAt": "2026-07-17T07:21:20.748Z"
+      "count": 114,
+      "checkedAt": "2026-07-24T10:24:39.245Z"
     },
     "台東区|レストラン": {
       "count": 35,
-      "checkedAt": "2026-07-17T07:21:20.784Z"
+      "checkedAt": "2026-07-24T10:24:39.241Z"
     },
     "渋谷区|ビストロ": {
       "count": 60,
@@ -1729,18 +1699,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-23T07:35:45.623Z"
-    },
-    {
-      "title": "西池袋に“選べるイタリアンデリ”が8月4日グランドオープン。hotel hisoca ikebukuro運営会社が手がける、前菜とメインを自由に組み合わせる「Piccola Aria」のデリボックス",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XSW9CbW1SMjRSYnZHeWFUQWtOYXRMdHRLSHRzR29xU1UzUG51M0hrWURERVR5UWJxYXh3dnR4VWpCNDYwQnpXdmEzM0ZuX1VNRGJ1RTZjcmZkeUlzVTJDTWEyY0ZWaG9TNXc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Thu, 23 Jul 2026 06:09:52 GMT",
-      "area": "豊島区",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-21T07:35:00.452Z"
     },
     {
       "title": "ゼネラル・オイスター、既存店の業態転換を開始 7月24日、東京・上野に『MARE＆OYSTER』オープン",
@@ -1885,6 +1843,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-21T15:07:07.497Z"
+    },
+    {
+      "title": "西池袋に“選べるイタリアンデリ”が8月4日グランドオープン。hotel hisoca ikebukuro運営会社が手がける、前菜とメインを自由に組み合わせる「Piccola Aria」のデリボックス",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XSW9CbW1SMjRSYnZHeWFUQWtOYXRMdHRLSHRzR29xU1UzUG51M0hrWURERVR5UWJxYXh3dnR4VWpCNDYwQnpXdmEzM0ZuX1VNRGJ1RTZjcmZkeUlzVTJDTWEyY0ZWaG9TNXc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 21 Jul 2026 01:00:02 GMT",
+      "area": "豊島区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T07:35:00.452Z"
     },
     {
       "title": "【東京初出店‼7/23OPEN‼THE BUFFET 点心甜心 三鷹】『飲茶・本格中華・麻辣湯』更に選べるスイーツ！色々な「食べたい」がすべて叶う食べ放題！ペットと共に過ごせるテラス席も完備！",
@@ -2649,6 +2619,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T12:11:01.245Z"
+    },
+    {
+      "title": "株式会社オンサイトビュー オープニングスタッフ募集（飲食店の店長候補/「オープニングスタッフ募集!」お客様の笑顔…）",
+      "link": "https://en-gage.net/user/search/desc/15317463/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:16:48 GMT",
+      "area": "北区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T10:24:31.993Z"
     },
     {
       "title": "株式会社ゲート オープニングスタッフ募集（飲食店スタッフ/「オープニングスタッフ」店長候補、飲食店、先…）",
@@ -3913,40 +3893,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:19.034Z"
-    },
-    {
-      "title": "【大森】ジャークチキン×ココナッツ香る「Good Day Curry」オープン",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaV2RoLUZQZkdDVno5TWFuY2FLdVd0TlVDbEdmV1JiVmxDNTJZUmw1b2dZbnktQkJ6alRqOUVCdVNkUFVwUzZwaGNWSzRjbGs?oc=5",
-      "source": "アットプレス",
-      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
-      "area": "大田区",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
-    },
-    {
-      "title": "【東京都中央区】中目黒の予約困難レストランが新店舗「銀座quinto」オープン！新たに炭火も登場",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wNFBSYklPUzZvZTUzbEtLNFV1ckNlTUIyeC1MVHpZQXRLWll5dzZ5YkNCejNYVFhBSDNQTlpTeFVHWWdtSG16cjhBMA?oc=5",
-      "source": "ガジェット通信",
-      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
-      "area": "中央区",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.042Z"
-    },
-    {
-      "title": "【東京都新宿区】名古屋発祥のカフェ＆パティスリー「カフェタナカ」関東2号店が伊勢丹新宿店に誕生",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ZLXNhZThZMWxQX2Q3ZkdmVWI5X3Z1RWtPTE5JNjQ4ZGlLc0xCakg2LXRSVk5iTHc2XzFHTElOekhDSWxCTU1mZTloeGhqNEpCN2xr?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
-      "area": "新宿区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T09:53:14.180Z"
     }
   ]
 }

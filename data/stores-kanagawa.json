@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-24T06:30:47.423Z",
+  "generatedAt": "2026-07-24T10:24:48.471Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 90
+      "count": 89
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 77
+      "count": 78
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,25 +36,25 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 18
+      "count": 20
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 8
+      "count": 10
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 57
+      "count": 56
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -169,19 +169,6 @@
       "open": "",
       "checkedAt": "2026-07-20T15:15:20.055Z"
     },
-    "salvatorecuomo": {
-      "storeName": "SALVATORE CUOMO",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ000816979/?vos=nhppalsa000016",
-      "shopName": "サルヴァトーレ クオモ SALVATORE CUOMO センター南",
-      "address": "神奈川県横浜市都筑区茅ケ崎中央2-1　オズマークスセンター南　１Ｆ",
-      "access": "市営地下鉄横浜線 ｾﾝﾀｰ南駅 1番出口から徒歩約1分",
-      "genre": "イタリアン・フレンチ",
-      "budget": "5001～6000円",
-      "capacity": 40,
-      "open": "月～金、祝前日: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00）17:00～22:30 （料理L.O. 22:00 ドリンクL.O. 22:00）土、日、祝日: 11:30～22:30 （料理L.O. 22:00 ドリンクL.O. 22:00）",
-      "checkedAt": "2026-07-13T15:05:46.413Z"
-    },
     "茶き茶き溝の口": {
       "storeName": "茶き茶き 溝の口",
       "listed": true,
@@ -271,7 +258,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T07:21:29.117Z"
+      "checkedAt": "2026-07-24T10:24:48.270Z"
     },
     "新規オープニング": {
       "storeName": "新規オープニング",
@@ -472,10 +459,6 @@
       "count": 290,
       "checkedAt": "2026-07-20T15:15:20.726Z"
     },
-    "横浜市|イタリアン": {
-      "count": 201,
-      "checkedAt": "2026-07-20T15:15:20.461Z"
-    },
     "川崎市|ダイニング": {
       "count": 65,
       "checkedAt": "2026-07-22T07:37:49.762Z"
@@ -486,7 +469,7 @@
     },
     "葉山町|イタリアン": {
       "count": 0,
-      "checkedAt": "2026-07-17T07:21:29.329Z"
+      "checkedAt": "2026-07-24T10:24:48.471Z"
     },
     "鎌倉市|バー": {
       "count": 37,
@@ -1033,6 +1016,16 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
+      "title": "OJI株式会社 オープニングスタッフ募集（飲食店の社員スタッフ/オープニングスタッフ大募集!未経験OK…）",
+      "link": "https://en-gage.net/user/search/desc/9996586/?aroute=1705",
+      "source": "求人ボックス（エンゲージ.）",
+      "pubDate": "Wed, 08 Jul 2026 06:17:27 GMT",
+      "area": "藤沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T10:24:43.260Z"
+    },
+    {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
       "link": "https://www.baitoru.com/op555010/job161187170/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
       "source": "求人ボックス（株式会社凪スピリッツジャパン）",
@@ -1384,18 +1377,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:05:58.414Z"
-    },
-    {
-      "title": "【神奈川県横浜市】カジュアルイタリアン「SALVATORE CUOMO」の新店舗が新横浜に！記念キャンペーン実施",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9yT3hCS0xtMC03b21GOGFPN2RIN0pIWjdNdWZwNFVKQ1pyNVF5THI5YzZXbmpSRGtrTWJ1bkNsdnYxNTNWS3hoNFhtSlNYcTVFVW1J?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
-      "area": "横浜市",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:41.968Z"
     }
   ]
 }

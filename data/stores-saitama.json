@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T06:30:54.417Z",
+  "generatedAt": "2026-07-24T10:24:58.259Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 70
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,13 +36,13 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "バー系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 87,
+  "itemCount": 86,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -247,32 +247,6 @@
       "open": "",
       "checkedAt": "2026-07-20T15:15:30.767Z"
     },
-    "水辺の新エリア": {
-      "storeName": "水辺の新エリア",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:30.967Z"
-    },
-    "焼鳥くりやま": {
-      "storeName": "焼鳥くりやま",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:31.013Z"
-    },
     "ファミリー食堂山田うどん食堂北中店": {
       "storeName": "ファミリー食堂 山田うどん食堂 北中店",
       "listed": false,
@@ -401,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T07:21:36.963Z"
+      "checkedAt": "2026-07-24T10:24:58.055Z"
     },
     "チェントペルチェント浦和芝原店": {
       "storeName": "チェントペルチェント浦和芝原店",
@@ -414,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T07:21:37.772Z"
+      "checkedAt": "2026-07-24T10:24:57.323Z"
     },
     "串焼亭ねぎ東大宮店": {
       "storeName": "串焼亭ねぎ 東大宮店",
@@ -642,7 +616,7 @@
     },
     "さいたま市浦和区|レストラン": {
       "count": 8,
-      "checkedAt": "2026-07-17T07:21:37.977Z"
+      "checkedAt": "2026-07-24T10:24:58.259Z"
     },
     "さいたま市大宮区|居酒屋": {
       "count": 160,
@@ -683,6 +657,18 @@
   },
   "items": [
     {
+      "title": "世界初が大宮に！？ あのラデュレの\"ドーナツ\"が食べられる「カフェ・ラデュレ」がエキュート大宮に7/24オープン",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9COEloejdBV0VtS3VvU2V6NEJZY1BFVC1oaG1WRkQtVXkxelVPSG1ZU1hjdU5TX05GdFZFN2wzdWRoeUxNcUI2Qm1aWW5MVk1ZWnNzSVlRQQ?oc=5",
+      "source": "朝日新聞",
+      "pubDate": "Thu, 23 Jul 2026 22:42:08 GMT",
+      "area": "さいたま市大宮区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-24T10:24:52.735Z"
+    },
+    {
       "title": "【危険動物】クマ幼獣目撃　22日夕、秩父・滝沢ダム",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnZabUpoaS02WmFTQUdPRmFrMWdteXBVakNTeUZfYmVoRVNJNkxQWmtNVzJEdmc4bUEzMWVpUlFBN28wSHJteWZNVFFaVllWNGJDZ1lYNHV4OTAyMzNmWllvNWRKMWlqOHVrZlJKT1Bod3VwbnNodUtZZFdyYlI2bVFlX0RWd1FI0gGIAUFVX3lxTE5idlptSmhpLTZaYVNBR09GYWsxZ215cFVqQ1N5Rl9iZWhFU0k2TFBaa01XMkR2ZzhtQTMxZWlSUUE3bzBIcm15Zk1UUVpWWVY0YkNnWVg0dXg5MDIzM2ZaWW81ZEoxaWo4dWtmUkpPUGh3dXBuc2h1S1lkV3JiUjZtUWVfRFZ3UUg?oc=5",
       "source": "ｄメニューニュース",
@@ -691,6 +677,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T03:17:34.980Z"
+    },
+    {
+      "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
+      "area": "新座市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.638Z"
     },
     {
       "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
@@ -947,16 +943,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T00:06:06.101Z"
-    },
-    {
-      "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 16 Jul 2026 09:32:35 GMT",
-      "area": "志木市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:52.638Z"
     },
     {
       "title": "株式会社ダイニングイノベーション オープニングスタッフ募集（麻辣湯麵専門店でホール/年休115日/残業ほぼなし）",
@@ -1665,28 +1651,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-15T14:08:20.508Z"
-    },
-    {
-      "title": "“越谷レイクタウン”に「水辺の新エリア」が5/30オープン！埼玉初出店カフェなど「LAKESIDE DINING」全店舗＆アクセス情報まとめ",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1paWN4RDVLOHQxY3Q3MlRmMklUbmJqMFhzQTl3Zm95bURfRHlUZnVRNWFySmhlVHVseENqSFc4SmYxeHZ1b0pSUThwMzE?oc=5",
-      "source": "旅とおでかけ 鉄道チャンネル",
-      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.264Z"
-    },
-    {
-      "title": "武蔵浦和に「焼鳥くりやま」6月12日オープン",
-      "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5jRU9iUTBvSkFIdURCV0pVcDBoSWI5RXdNRnZzck9pc3lJOFJVaFN5QVNBUVU5UF9UVTF3cjJtMlo?oc=5",
-      "source": "浦和シティネット",
-      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
-      "area": "さいたま市南区",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.265Z"
     }
   ]
 }

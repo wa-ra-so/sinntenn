@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T06:30:33.069Z",
+  "generatedAt": "2026-07-24T10:24:27.376Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 74
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 42
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -494,19 +494,6 @@
       "open": "",
       "checkedAt": "2026-07-24T03:17:04.656Z"
     },
-    "theshinra": {
-      "storeName": "THE SHINRA",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-24T03:17:05.052Z"
-    },
     "ムーンブルー": {
       "storeName": "ムーンブルー",
       "listed": false,
@@ -532,6 +519,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-24T03:17:05.223Z"
+    },
+    "マチルダステーション浦安望海の街郵便局前": {
+      "storeName": "マチルダステーション 浦安望海の街 郵便局前",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-24T10:24:27.375Z"
     }
   },
   "market": {
@@ -681,7 +681,7 @@
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Thu, 23 Jul 2026 19:16:31 GMT",
+      "pubDate": "Fri, 24 Jul 2026 07:37:33 GMT",
       "area": "習志野市",
       "genres": [],
       "signal": "hiring",
@@ -754,6 +754,16 @@
       "firstSeenAt": "2026-07-24T06:30:30.586Z"
     },
     {
+      "title": "「成田食堂」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
       "title": "「成田食堂」オープニングスタッフ募集（SV）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -772,6 +782,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
+    },
+    {
+      "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:14:53 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T10:24:22.049Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトスタッフ）",
@@ -940,16 +960,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T22:07:01.084Z"
-    },
-    {
-      "title": "「成田食堂」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 16 Jul 2026 09:32:34 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:29.186Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（夕方でササッと帰宅/フォークリフトスタッフ）",
@@ -1955,16 +1965,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T00:05:41.122Z"
-    },
-    {
-      "title": "【千葉県館山市】ホテル「THE SHINRA」に隣接する洞窟BARオープン！洞窟×最先端建築の非日常空間で乾杯",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YOVBON2xNai03MGFNTXFmd1A2dWlxd2NLeFNnUURlNDVnbFd6MEZvVVJ1TTR1b3VSWkJ2VUVxdkZnYThSZjYtYzZkdjh0V2JxeFRB?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Mon, 25 May 2026 07:00:00 GMT",
-      "area": "館山市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:05:41.121Z"
     }
   ]
 }
