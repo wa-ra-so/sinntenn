@@ -74,7 +74,7 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 /* ── LIST ── */
 .result-count{font-size:11px;color:var(--mid);margin-bottom:8px;padding-left:2px;}
 .list-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
-.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize .8s var(--ease) both;}
+.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize 1.4s var(--ease) both;}
 .store-row:last-child{border-bottom:none;}
 .store-row:hover{background:#f8fafc;}
 .row-date{flex-shrink:0;width:52px;text-align:center;padding-top:2px;}
@@ -153,7 +153,8 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 </head>
 <body>
 <div class="app" id="app-root">
-  <div class="loading">読み込み中…</div>
+  <div id="app-header-slot"></div>
+  <div id="app-content-slot"><div class="loading">読み込み中…</div></div>
 </div>
 <script>
 // ── 表示する県（?pref= で切り替え。scripts/prefectures.mjs と対応させること） ──
@@ -164,8 +165,8 @@ const PREFS = {
   saitama:  { label: '埼玉県',   file: 'stores-saitama.json' },
 };
 const prefParam = new URLSearchParams(location.search).get('pref');
-const PREF_ID = Object.prototype.hasOwnProperty.call(PREFS, prefParam) ? prefParam : 'chiba';
-const PREF = PREFS[PREF_ID];
+let PREF_ID = Object.prototype.hasOwnProperty.call(PREFS, prefParam) ? prefParam : 'chiba';
+let PREF = PREFS[PREF_ID];
 document.title = `${PREF.label} 新店リサーチ — 1日6回更新`;
 
 const NEW_DAYS = 7; // 「新着」とみなす日数
@@ -317,9 +318,8 @@ function fmtDate(iso) {
 function setState(patch) { state = {...state, ...patch}; render(); }
 
 // タブの選択インジケーター（ピル）をアクティブな要素の位置・サイズへヌルッと移動する。
-// instant=trueのときはトランジション無しで一旦置く（描画直後に0地点からスライドインして
-// 見える事故を防ぐ）。県切り替えは全ページ再読み込みのためタブ間のスライドは見えないが、
-// ページ読み込み直後にアクティブなタブへぴったり収まった状態でフェードインさせる
+// instant=trueのときはトランジション無しで一旦置いてから元に戻す（初回表示時に
+// 0地点からスライドインして見える事故を防ぐ）
 function positionPill(container, activeEl, instant) {
   if (!container) return;
   let pill = container.querySelector('.tab-pill');
@@ -341,15 +341,94 @@ function positionPill(container, activeEl, instant) {
   }
 }
 
-function positionPrefPill() {
-  const el = document.querySelector('.pref-tabs');
-  if (el) positionPill(el, el.querySelector('.pref-tab.active'), true);
+// 県タブの見出し・アクティブ状態・ピル位置を更新する。タブ要素自体はrenderHeader()が
+// 最初の1回しか作らないため、同じ<a>要素がずっと使われ続ける＝ピルのスライドを
+// 見せる相手（連続した同じ要素）がある。ここを毎回作り直すとスライドが消える
+function updatePrefTabsActive(instant) {
+  const el = document.getElementById('prefTabs');
+  if (!el) return;
+  el.querySelectorAll('[data-pref]').forEach(a => {
+    a.classList.toggle('active', a.dataset.pref === PREF_ID);
+    a.href = a.dataset.pref === 'chiba' ? location.pathname : `${location.pathname}?pref=${a.dataset.pref}`;
+  });
+  positionPill(el, el.querySelector('.pref-tab.active'), instant);
 }
 
-// 上から順にフェードインさせるための行ごとの遅延。件数が多いリストで
+// ヘッダー（アイコン・タイトル・県タブ・最終更新）を描画する。県タブのDOMは初回のみ
+// 構築し、以降は文言とactiveクラス・ピル位置だけを更新する（DOMを作り直すとピルの
+// スライドアニメーションが機能しなくなるため）
+function renderHeader() {
+  const { data } = state;
+  const updatedText = data && data.generatedAt
+    ? `${fmtDate(data.generatedAt)} ${new Date(data.generatedAt).toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'})}`
+    : '未実行';
+  document.title = `${PREF.label} 新店リサーチ — 1日6回更新`;
+
+  const slot = document.getElementById('app-header-slot');
+  if (!slot.dataset.built) {
+    slot.innerHTML = `
+      <div class="app-header">
+        <div class="app-icon">🏪</div>
+        <div>
+          <div class="app-title" id="appTitle">${PREF.label} 新店リサーチ</div>
+          <div class="app-sub">ネット予約・未導入の新規開店店舗を1日6回自動収集</div>
+        </div>
+        <div class="pref-tabs" id="prefTabs">${Object.entries(PREFS).map(([id, p]) =>
+          `<a class="pref-tab${id === PREF_ID ? ' active' : ''}" data-pref="${id}" href="${id === 'chiba' ? location.pathname : location.pathname + '?pref=' + id}">${p.label}</a>`
+        ).join('')}</div>
+        <div class="header-meta" id="headerMeta">最終更新 <strong>${updatedText}</strong></div>
+      </div>`;
+    slot.dataset.built = '1';
+    slot.querySelectorAll('[data-pref]').forEach(a => a.onclick = (e) => {
+      e.preventDefault();
+      if (a.dataset.pref !== PREF_ID) switchPref(a.dataset.pref);
+    });
+    updatePrefTabsActive(true);
+  } else {
+    document.getElementById('appTitle').textContent = `${PREF.label} 新店リサーチ`;
+    document.getElementById('headerMeta').innerHTML = `最終更新 <strong>${updatedText}</strong>`;
+    updatePrefTabsActive(false);
+  }
+}
+
+// 県切り替えを<a href>によるページ全体の再読み込みではなくfetchでの差し替えにする。
+// ページが丸ごと作り直されると、その間のDOMが消えてしまいピルのスライドやコンテンツの
+// フェードを見せる余地が無くなる（要素が破棄されると"変化"ではなく"消えて現れる"に
+// なってしまう）ため
+async function switchPref(id) {
+  if (id === PREF_ID) return;
+  PREF_ID = id;
+  PREF = PREFS[PREF_ID];
+  const url = new URL(location.href);
+  if (PREF_ID === 'chiba') url.search = ''; else url.searchParams.set('pref', PREF_ID);
+  history.pushState(null, '', url);
+  state = {
+    ...state, data: null, error: null, detail: null, openDD: '',
+    q: '', areas: new Set(), genres: new Set(), recentOnly: false, hiringOnly: false,
+    hpChanceOnly: false, months: new Set(), sigType: '', openMonths: new Set(),
+  };
+  render();
+  await load();
+}
+
+// ブラウザの戻る/進むで県が変わった場合もSPA的に反映する
+window.addEventListener('popstate', () => {
+  const p = new URLSearchParams(location.search).get('pref');
+  PREF_ID = Object.prototype.hasOwnProperty.call(PREFS, p) ? p : 'chiba';
+  PREF = PREFS[PREF_ID];
+  state = {
+    ...state, data: null, error: null, detail: null, openDD: '',
+    q: '', areas: new Set(), genres: new Set(), recentOnly: false, hiringOnly: false,
+    hpChanceOnly: false, months: new Set(), sigType: '', openMonths: new Set(),
+  };
+  render();
+  load();
+});
+
+// 上から順にゆっくりフェードインさせるための行ごとの遅延。件数が多いリストで
 // いつまでも待たされないよう、途中から遅延を頭打ちにする
 function rowDelay(i) {
-  return `animation-delay:${(Math.min(i, 10) * 0.05).toFixed(2)}s`;
+  return `animation-delay:${(Math.min(i, 12) * 0.09).toFixed(2)}s`;
 }
 
 async function load() {
@@ -369,34 +448,16 @@ async function load() {
 }
 
 function render() {
-  const root = document.getElementById('app-root');
+  renderHeader();
+  const root = document.getElementById('app-content-slot');
   const { data, error } = state;
 
-  const updatedText = data && data.generatedAt
-    ? `${fmtDate(data.generatedAt)} ${new Date(data.generatedAt).toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'})}`
-    : '未実行';
-
-  const header = `
-    <div class="app-header">
-      <div class="app-icon">🏪</div>
-      <div>
-        <div class="app-title">${PREF.label} 新店リサーチ</div>
-        <div class="app-sub">ネット予約・未導入の新規開店店舗を1日6回自動収集</div>
-      </div>
-      <div class="pref-tabs">${Object.entries(PREFS).map(([id, p]) =>
-        `<a class="pref-tab${id === PREF_ID ? ' active' : ''}" href="${id === 'chiba' ? location.pathname : location.pathname + '?pref=' + id}">${p.label}</a>`
-      ).join('')}</div>
-      <div class="header-meta">最終更新 <strong>${updatedText}</strong></div>
-    </div>`;
-
   if (error) {
-    root.innerHTML = header + `<div class="empty-state">データの読み込みに失敗しました。<br>${error}</div>`;
-    positionPrefPill();
+    root.innerHTML = `<div class="empty-state">データの読み込みに失敗しました。<br>${error}</div>`;
     return;
   }
   if (!data) {
-    root.innerHTML = header + `<div class="loading">読み込み中…</div>`;
-    positionPrefPill();
+    root.innerHTML = `<div class="loading">読み込み中…</div>`;
     return;
   }
 
@@ -541,8 +602,7 @@ function render() {
     </div>`;
   }
 
-  root.innerHTML = header + kpiRow + filterCard + listHtml + renderDetail(groups);
-  positionPrefPill();
+  root.innerHTML = kpiRow + filterCard + listHtml + renderDetail(groups);
 
   const qInput = document.getElementById('q-input');
   if (qInput) {
