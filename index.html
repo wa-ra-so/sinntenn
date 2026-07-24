@@ -26,7 +26,7 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .app{max-width:960px;margin:0 auto;padding:28px 16px 80px;}
 
 /* ── HEADER ── */
-.app-header{margin-bottom:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+.app-header{margin-bottom:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;animation:materialize .7s var(--ease) both;}
 .app-icon{width:42px;height:42px;background:var(--blue);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:21px;flex-shrink:0;}
 .app-title{font-size:19px;font-weight:700;letter-spacing:-.02em;}
 .app-sub{font-size:11.5px;color:var(--mid);margin-top:2px;}
@@ -43,7 +43,11 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .tab-pill.no-anim{transition:none;}
 
 /* ── KPI ROW ── */
-.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px;animation:materialize .75s var(--ease) both;}
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px;animation:materialize .3s var(--ease) both;}
+/* 上から順のゆっくりしたフェードは初回表示のみ（#app-content-slot.slow-entranceの
+   時だけ）。県切り替え・フィルター操作の再描画は既定の短いフェードのままにして、
+   フェードし切るまでの間ほぼ透明＝空白に見える時間を作らない */
+#app-content-slot.slow-entrance .kpi-row{animation-duration:.7s;animation-delay:.04s;}
 @media(max-width:640px){.kpi-row{grid-template-columns:1fr 1fr;}}
 .kpi{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);position:relative;}
 .kpi.clickable{cursor:pointer;transition:border-color .15s var(--ease),box-shadow .15s var(--ease),transform .1s var(--ease);}
@@ -58,7 +62,8 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .kpi.active .kpi-note{color:var(--blue);font-weight:600;}
 
 /* ── FILTER ── */
-.filter-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px;box-shadow:var(--shadow);}
+.filter-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px;box-shadow:var(--shadow);animation:materialize .3s var(--ease) .02s both;}
+#app-content-slot.slow-entrance .filter-card{animation-duration:.7s;animation-delay:.1s;}
 .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;align-items:center;}
 .filter-row:last-child{margin-bottom:0;}
 .filter-row input[type=text]{flex:1;min-width:180px;padding:9px 12px;border:1.5px solid var(--faint);border-radius:8px;font-size:13px;font-family:inherit;color:var(--ink);background:var(--white);outline:none;transition:border-color .15s var(--ease),box-shadow .15s var(--ease);}
@@ -72,9 +77,12 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .clear-btn:hover{color:var(--mid);}
 
 /* ── LIST ── */
-.result-count{font-size:11px;color:var(--mid);margin-bottom:8px;padding-left:2px;}
-.list-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
-.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize 1.4s var(--ease) both;}
+.result-count{font-size:11px;color:var(--mid);margin-bottom:8px;padding-left:2px;animation:materialize .3s var(--ease) .04s both;}
+.list-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;animation:materialize .3s var(--ease) .04s both;}
+#app-content-slot.slow-entrance .result-count,
+#app-content-slot.slow-entrance .list-card{animation-duration:.6s;animation-delay:.16s;}
+.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize .4s var(--ease) both;}
+#app-content-slot.slow-entrance .store-row{animation-duration:1.3s;}
 .store-row:last-child{border-bottom:none;}
 .store-row:hover{background:#f8fafc;}
 .row-date{flex-shrink:0;width:52px;text-align:center;padding-top:2px;}
@@ -122,9 +130,9 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .loading{padding:40px 20px;text-align:center;color:var(--light);font-size:13px;}
 
 /* ── DETAIL MODAL ── */
-.modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.4);z-index:50;display:flex;align-items:flex-start;justify-content:center;padding:24px 12px;overflow-y:auto;animation:fadeBg .18s var(--ease);}
-.modal{background:var(--white);border-radius:14px;max-width:560px;width:100%;box-shadow:0 20px 60px rgba(15,23,42,.25);margin:auto 0;transform-origin:center;animation:modalIn .22s var(--ease);}
-@keyframes modalIn{from{opacity:0;transform:translateY(10px) scale(.98);}to{opacity:1;transform:none;}}
+.modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.4);z-index:50;display:flex;align-items:flex-start;justify-content:center;padding:24px 12px;overflow-y:auto;animation:fadeBg .5s var(--ease);}
+.modal{background:var(--white);border-radius:14px;max-width:560px;width:100%;box-shadow:0 20px 60px rgba(15,23,42,.25);margin:auto 0;transform-origin:center;animation:modalIn .6s var(--ease);}
+@keyframes modalIn{from{opacity:0;transform:translateY(16px) scale(.96);}to{opacity:1;transform:none;}}
 .modal-head{padding:18px 20px 14px;border-bottom:1px solid var(--hairline);display:flex;align-items:flex-start;gap:12px;}
 .modal-store{font-size:17px;font-weight:700;line-height:1.4;flex:1;}
 .modal-close{flex-shrink:0;width:30px;height:30px;border-radius:8px;border:1px solid var(--faint);background:var(--white);color:var(--mid);font-size:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-family:inherit;transition:background .15s var(--ease),border-color .15s var(--ease),transform .1s var(--ease);}
@@ -395,6 +403,17 @@ function renderHeader() {
 // ページが丸ごと作り直されると、その間のDOMが消えてしまいピルのスライドやコンテンツの
 // フェードを見せる余地が無くなる（要素が破棄されると"変化"ではなく"消えて現れる"に
 // なってしまう）ため
+// 切り替え直後に前の県のstate（data/error）をあえて残す共通部分。「読み込み中」の
+// 空白を挟まず、fetchが終わるまで前のデータを表示し続けたまま裏で差し替える
+// （hppzaikoのswitchPrefと同じ設計）。dataは load() が上書きするまでそのまま
+function resetFiltersForPrefSwitch() {
+  state = {
+    ...state, detail: null, openDD: '',
+    q: '', areas: new Set(), genres: new Set(), recentOnly: false, hiringOnly: false,
+    hpChanceOnly: false, months: new Set(), sigType: '', openMonths: new Set(),
+  };
+}
+
 async function switchPref(id) {
   if (id === PREF_ID) return;
   PREF_ID = id;
@@ -402,11 +421,7 @@ async function switchPref(id) {
   const url = new URL(location.href);
   if (PREF_ID === 'chiba') url.search = ''; else url.searchParams.set('pref', PREF_ID);
   history.pushState(null, '', url);
-  state = {
-    ...state, data: null, error: null, detail: null, openDD: '',
-    q: '', areas: new Set(), genres: new Set(), recentOnly: false, hiringOnly: false,
-    hpChanceOnly: false, months: new Set(), sigType: '', openMonths: new Set(),
-  };
+  resetFiltersForPrefSwitch();
   render();
   await load();
 }
@@ -416,33 +431,46 @@ window.addEventListener('popstate', () => {
   const p = new URLSearchParams(location.search).get('pref');
   PREF_ID = Object.prototype.hasOwnProperty.call(PREFS, p) ? p : 'chiba';
   PREF = PREFS[PREF_ID];
-  state = {
-    ...state, data: null, error: null, detail: null, openDD: '',
-    q: '', areas: new Set(), genres: new Set(), recentOnly: false, hiringOnly: false,
-    hpChanceOnly: false, months: new Set(), sigType: '', openMonths: new Set(),
-  };
+  resetFiltersForPrefSwitch();
   render();
   load();
 });
 
-// 上から順にゆっくりフェードインさせるための行ごとの遅延。件数が多いリストで
-// いつまでも待たされないよう、途中から遅延を頭打ちにする
-function rowDelay(i) {
-  return `animation-delay:${(Math.min(i, 12) * 0.09).toFixed(2)}s`;
+// サイトを開いた最初の1回だけ、上から順（ヘッダー→KPI→フィルター→一覧）に
+// ゆっくりフェードインさせるための行ごとの遅延。listCard自体が現れ始める（.16s）
+// 少し後から1件ずつ続き、各行自体は長め（1.3s）にゆっくりフェードする。
+// 2回目以降（県切り替え・フィルター操作）はslow=falseの短い遅延にして、
+// 切り替え直後の一覧がほぼ透明＝空白に見える時間を作らないようにする。
+// 件数が多いリストでいつまでも待たされないよう、途中から遅延を頭打ちにする
+function rowDelay(i, slow) {
+  return slow
+    ? `animation-delay:${(0.2 + Math.min(i, 12) * 0.07).toFixed(2)}s`
+    : `animation-delay:${(Math.min(i, 12) * 0.02).toFixed(2)}s`;
 }
 
+let firstContentPaint = true;
+
+// 県切り替えのたびにfetchが1回走るため、素早く連続でタブを切り替えると古い
+// fetchが後から解決してデータを巻き戻す恐れがある。世代番号で「自分より新しい
+// load()が既に呼ばれていたら結果を捨てる」を保証する（hppzaikoのloadGenerationと同じ）
+let loadGeneration = 0;
+
 async function load() {
+  const myGeneration = ++loadGeneration;
   try {
     const res = await fetch(`./data/${PREF.file}`, {cache:'no-store'});
+    if (myGeneration !== loadGeneration) return;
     if (res.status === 404) {
       // 新設県の初回収集前はファイルが無い（明朝の自動収集で作成される）
-      setState({ data: { generatedAt: null, items: [], hotpepper: {}, market: {} } });
+      setState({ data: { generatedAt: null, items: [], hotpepper: {}, market: {} }, error: null });
       return;
     }
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
-    setState({ data });
+    if (myGeneration !== loadGeneration) return;
+    setState({ data, error: null });
   } catch (err) {
+    if (myGeneration !== loadGeneration) return;
     setState({ error: String(err) });
   }
 }
@@ -460,6 +488,13 @@ function render() {
     root.innerHTML = `<div class="loading">読み込み中…</div>`;
     return;
   }
+
+  // ゆっくり上から順にフェードインする演出は、サイトを開いた最初の1回だけにする。
+  // 県切り替えやフィルター操作のたびに毎回リプレイすると、フェードし切るまでの
+  // 数百ミリ秒がほぼ透明＝「何も無い」ように見えてしまい、読み込み中の空白と
+  // 変わらない体験になるため
+  const slow = firstContentPaint;
+  firstContentPaint = false;
 
   const items = data.items || [];
   const areaOptions = [...new Set(items.map(i => i.area).filter(Boolean))].sort();
@@ -576,7 +611,7 @@ function render() {
         const day = isNaN(d.getTime()) ? '—' : String(d.getDate());
         const mo = isNaN(d.getTime()) ? '' : `${d.getMonth()+1}月`;
         return `
-        <div class="store-row" data-group="${gi}" style="${rowDelay(gi)}">
+        <div class="store-row" data-group="${gi}" style="${rowDelay(gi, slow)}">
           <div class="row-date">
             <div class="d-day">${day}</div>
             <div class="d-mo">${mo}</div>
@@ -602,6 +637,7 @@ function render() {
     </div>`;
   }
 
+  root.classList.toggle('slow-entrance', slow);
   root.innerHTML = kpiRow + filterCard + listHtml + renderDetail(groups);
 
   const qInput = document.getElementById('q-input');
