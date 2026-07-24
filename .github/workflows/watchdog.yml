@@ -1,0 +1,95 @@
+name: 新店情報更新の見張り番（watchdog）
+
+# 新店情報の自動更新（update-shinten.yml）はGitHub Actionsのscheduleトリガー
+# （9:00〜19:00 JSTの間2時間おき）で動くが、GitHub公式が「毎時ちょうど（:00）は
+# 高負荷でスケジュール実行が遅延・スキップされうる」と明記している通り、姉妹
+# リポジトリhppzaikoでは実際に4時間以上cronが1回も発火しない事象が発生した
+# （手動起動でしか復旧できなかった）。同じ保険をこちらにも追加する。
+#
+# update-shintenは夜間・早朝は実行しない設計（勤務時間帯のみ）のため、単純に
+# 「最終更新からの経過時間」だけでは判定できない（前日19時台の更新から翌朝9時台
+# まで14時間以上間が空くのは正常）。そのため、本体と同じスケジュール（2時間おき）
+# の直近の実行予定時刻を計算し、そこから十分な時間（30分）が経過してもデータが
+# 更新されていない場合にのみ異常とみなす。
+on:
+  schedule:
+    - cron: '7,27,47 0-11 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  check-and-trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 直近の実行予定時刻からの経過を確認
+        id: check
+        run: |
+          node -e "
+            const fs = require('fs');
+            // 本体（update-shinten.yml）と同じスケジュール: 0,2,4,6,8,10 UTC
+            const SLOT_HOURS_UTC = [0, 2, 4, 6, 8, 10];
+            const BUFFER_MIN = 30; // 収集・監査・コミットの所要時間を見込んだ猶予
+
+            const now = new Date();
+            const todayUtcMidnight = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+            const slotTimes = SLOT_HOURS_UTC.map(h => todayUtcMidnight + h * 3600_000);
+            const pastSlots = slotTimes.filter(t => t <= now.getTime());
+            const latestSlot = pastSlots.length ? Math.max(...pastSlots) : null;
+
+            if (latestSlot === null) {
+              console.log('[info] 本日はまだ実行予定時刻に達していません');
+              fs.appendFileSync(process.env.GITHUB_OUTPUT, 'should_trigger=0\n');
+              process.exit(0);
+            }
+
+            const files = ['stores.json', 'stores-tokyo.json', 'stores-kanagawa.json', 'stores-saitama.json'];
+            let newest = 0;
+            for (const f of files) {
+              try {
+                const j = JSON.parse(fs.readFileSync('data/' + f, 'utf-8'));
+                const t = Date.parse(j.generatedAt || 0);
+                if (t > newest) newest = t;
+              } catch (e) {
+                console.log('[warn] data/' + f + ' の読み込みに失敗: ' + e.message);
+              }
+            }
+
+            const slotAgeMin = Math.floor((now.getTime() - latestSlot) / 60000);
+            console.log('[info] 直近の実行予定時刻: ' + new Date(latestSlot).toISOString() + '（' + slotAgeMin + '分前）');
+            console.log('[info] データの最終更新（最新）: ' + (newest ? new Date(newest).toISOString() : 'なし'));
+
+            const stale = newest < latestSlot;
+            const overdue = slotAgeMin > BUFFER_MIN;
+            const shouldTrigger = stale && overdue;
+            console.log('[info] stale=' + stale + ' overdue=' + overdue + ' shouldTrigger=' + shouldTrigger);
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, 'should_trigger=' + (shouldTrigger ? '1' : '0') + '\n');
+          "
+
+      - name: 本体ワークフローが実行中/待機中でないか確認（二重起動防止）
+        id: running
+        if: steps.check.outputs.should_trigger == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          in_progress=$(gh api "repos/${{ github.repository }}/actions/workflows/update-shinten.yml/runs?status=in_progress" --jq '.total_count')
+          queued=$(gh api "repos/${{ github.repository }}/actions/workflows/update-shinten.yml/runs?status=queued" --jq '.total_count')
+          echo "[info] in_progress=${in_progress} queued=${queued}"
+          busy=0
+          if [ "$in_progress" -gt 0 ] || [ "$queued" -gt 0 ]; then busy=1; fi
+          echo "busy=${busy}" >> "$GITHUB_OUTPUT"
+
+      - name: 実行予定時刻から30分以上更新が無ければ本体ワークフローを代わりに起動
+        if: steps.check.outputs.should_trigger == '1' && steps.running.outputs.busy == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "::warning::新店情報の更新が実行予定時刻から30分以上ありません（定期実行が発火しなかった可能性）。update-shinten.ymlを代わりに起動します"
+          gh workflow run update-shinten.yml --ref main
