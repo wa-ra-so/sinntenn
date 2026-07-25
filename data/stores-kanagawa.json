@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T09:54:15.947Z",
+  "generatedAt": "2026-07-25T11:15:55.475Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -548,9 +548,7 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Sat, 25 Jul 2026 02:07:19 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },

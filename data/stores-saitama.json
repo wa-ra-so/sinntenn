@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T09:54:24.174Z",
+  "generatedAt": "2026-07-25T11:16:02.375Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,7 +42,7 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "label": "バー系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 90,
+  "itemCount": 91,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -545,6 +545,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-25T09:54:23.739Z"
+    },
+    "馬肉専門卸問屋勝馬": {
+      "storeName": "馬肉専門卸問屋 勝馬",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004559108/?vos=nhppalsa000016",
+      "shopName": "馬肉専門卸問屋　勝馬　与野店",
+      "address": "埼玉県さいたま市中央区下落合1031-4",
+      "access": "JR京浜東北線与野駅西口 徒歩2分～馬肉専門店勝馬～",
+      "genre": "居酒屋",
+      "budget": "4001～5000円",
+      "capacity": 40,
+      "open": "月～金: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00）17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）土、日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）祝日、祝前日: 17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
+      "checkedAt": "2026-07-25T11:16:02.374Z"
     }
   },
   "market": {
@@ -737,7 +750,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "志木市",
+      "area": "新座市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
@@ -1579,6 +1592,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.113Z"
+    },
+    {
+      "title": "「馬肉専門卸問屋 勝馬」オープニングスタッフ募集（飲食店での経験を活かして他事業への事業拡大に関われます）",
+      "link": "https://en-gage.net/user/search/desc/11894373/",
+      "source": "求人ボックス（馬肉専門卸問屋 勝馬）",
+      "pubDate": "Tue, 09 Jun 2026 15:24:10 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-25T11:15:59.047Z"
     },
     {
       "title": "カフェとサウナが一体の店「S°（エスド）」 カフェ先行オープン モノトーンのかき氷はサウナイメージ 「五感で楽しめる新感覚かき氷」 埼玉県本庄市",
