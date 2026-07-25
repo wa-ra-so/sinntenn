@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T03:15:44.855Z",
+  "generatedAt": "2026-07-25T06:22:39.402Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 57
+      "count": 59
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 43
+      "count": 38
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 13
+      "count": 14
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 59
+      "count": 60
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 14
+      "count": 10
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 196,
+  "itemCount": 197,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1666,10 +1666,20 @@
   },
   "items": [
     {
+      "title": "アイビーカンパニー株式会社 オープニングスタッフ募集（店舗スタッフ/オープニングスタッフ募集 新宿エリア新店舗「シ…）",
+      "link": "https://en-gage.net/user/search/desc/17591120/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Sat, 25 Jul 2026 02:03:40 GMT",
+      "area": "新宿区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-25T06:22:34.677Z"
+    },
+    {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Fri, 24 Jul 2026 09:52:58 GMT",
+      "pubDate": "Fri, 24 Jul 2026 20:51:41 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1827,7 +1837,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "台東区",
+      "area": "中央区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
@@ -3689,7 +3699,7 @@
       "firstSeenAt": "2026-07-23T11:23:19.036Z"
     },
     {
-      "title": "話題の新店「FORME.」のレモンパイとバスクチーズケーキ【ミスター黒猫の東京スイーツトレンドVol.104】",
+      "title": "話題の新店「FORME.」のレモンパイとバスクチーズケーキ【ミスター黒猫の東京スイーツトレンドVol.104】｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIbnU5Q21CZGhVZnl4aHV3Tms0UXFsZXRqaEFBc082R2RfOWRKWkN1VmxQRlA2V21pV1VNcUJNNzU1RGFxUGFsUThnMFNFUVVw?oc=5",
       "source": "るるぶWeb",
       "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
