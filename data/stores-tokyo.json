@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T06:22:39.402Z",
+  "generatedAt": "2026-07-25T09:54:09.806Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 59
+      "count": 57
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 38
+      "count": 40
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 14
+      "count": 11
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 60
+      "count": 58
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 10
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 197,
+  "itemCount": 194,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -545,45 +545,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T15:15:08.790Z"
-    },
-    "帝國": {
-      "storeName": "帝國",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004612231/?vos=nhppalsa000016",
-      "shopName": "帝國",
-      "address": "東京都世田谷区太子堂４-5-１ COCOSPACE三軒茶屋 6階",
-      "access": "三軒茶屋駅ﾊﾟﾃｨｵ口から徒歩4分",
-      "genre": "居酒屋",
-      "budget": "5001～6000円",
-      "capacity": 16,
-      "open": "月～日、祝日、祝前日: 18:00～翌3:00",
-      "checkedAt": "2026-07-13T15:05:34.946Z"
-    },
-    "焼鳥とあて巻き居酒屋大悟": {
-      "storeName": "焼鳥とあて巻き 居酒屋大悟",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:08.966Z"
-    },
-    "与楽": {
-      "storeName": "与楽",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:09.001Z"
     },
     "sushireona/玲桜奈東京23区に出店予定": {
       "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
@@ -1129,7 +1090,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-18T07:02:22.266Z"
+      "checkedAt": "2026-07-25T09:54:09.805Z"
     },
     "btable": {
       "storeName": "B table",
@@ -1510,14 +1471,6 @@
     "台東区|居酒屋": {
       "count": 309,
       "checkedAt": "2026-07-20T15:15:10.614Z"
-    },
-    "江東区|居酒屋": {
-      "count": 203,
-      "checkedAt": "2026-07-20T15:15:10.651Z"
-    },
-    "世田谷区|中華": {
-      "count": 50,
-      "checkedAt": "2026-07-20T15:15:10.711Z"
     },
     "渋谷区|レストラン": {
       "count": 78,
@@ -3877,42 +3830,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.041Z"
-    },
-    {
-      "title": "ディープな飲み屋街・亀戸に、“子ども連れ大歓迎”の居酒屋『焼鳥とあて巻き 居酒屋大悟』が6月5日（金）オープン｜3日間限定、生ビール・茶割り税込99円",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BYjlleTdwNmZIbDVhX0FHZG4ya21XV3FFaVlSZGh1cmVjdy1hNUtFYjBnLWl5WVRoTGtIUV9RZl9DOFpnbU92Rk5WbkdSQVJHSUZYakZ4X2N4N004Sk91SmNIVEdldHNwN0E?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
-      "area": "江東区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
-    },
-    {
-      "title": "出雲出身の店主が着物で迎える和のおもてなし。日本橋馬喰町にバー「与楽」オープン",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAteXNNSTJCNDlOUkdNRWI3eEMydy1QR3h2UVZEUmxNdVVLZHN6anM3RFBLQ2tDVFBLRFozYXZoVXhpZ2VuSUI2eW5mZXVSZ1U?oc=5",
-      "source": "アットプレス",
-      "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
-      "area": "中央区",
-      "genres": [
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.042Z"
-    },
-    {
-      "title": "三軒茶屋に「帝國」がオープン。ビル6階の隠れ家立地、深夜3時まで営業する中華酒場。将来の多店舗化、事業の多角化を見据えた31歳戦略家オーナー、独立1店舗目",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ueHNNSjVnTXVFVGwtQnN1U2cxZ2UxcEpwdlBuX1dqTVp2aUJBYk9xU2RsM2IwanZKZTNtcnRIQ1ZDX3ZaTS1jdWlxUFlsM29uREE?oc=5",
-      "source": "フードスタジアム",
-      "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
-      "area": "世田谷区",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.045Z"
     }
   ]
 }

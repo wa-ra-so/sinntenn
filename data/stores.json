@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T06:22:29.796Z",
+  "generatedAt": "2026-07-25T09:54:01.195Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 77
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 11
+      "count": 10
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 40
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 10
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 118,
+  "itemCount": 117,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -481,19 +481,6 @@
       "open": "",
       "checkedAt": "2026-07-23T07:35:40.872Z"
     },
-    "大きな炎が見える": {
-      "storeName": "大きな炎が見える",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-24T03:17:04.656Z"
-    },
     "ムーンブルー": {
       "storeName": "ムーンブルー",
       "listed": false,
@@ -681,7 +668,7 @@
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Fri, 24 Jul 2026 18:59:09 GMT",
+      "pubDate": "Sat, 25 Jul 2026 08:01:27 GMT",
       "area": "習志野市",
       "genres": [],
       "signal": "hiring",
@@ -786,6 +773,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（調理見習い）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/23_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
       "title": "「成田食堂」オープニングスタッフ募集（SV）",
@@ -1313,16 +1310,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T22:06:27.312Z"
-    },
-    {
-      "title": "「成田食堂」オープニングスタッフ募集（調理見習い）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/23_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
@@ -1991,16 +1978,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
-      "title": "「大きな炎が見える」住宅1軒が半焼焼け跡から1人の遺体千葉・我孫子市",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aMHNXYlhScy1kWm5aM3FtcjdNYllxTTF1dlBXMkZWUjQ4WENweVRORVo3eHQ1MF9FV2ZsbFBLcnU0RnVBbUVJbzZJb2JCRklhaktQTzh3MFlnX1dyQUZDYjVrd251MjA?oc=5",
-      "source": "朝日放送",
-      "pubDate": "Tue, 26 May 2026 07:00:00 GMT",
-      "area": "我孫子市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T00:05:41.122Z"
     }
   ]
 }

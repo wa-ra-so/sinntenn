@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T06:22:54.629Z",
+  "generatedAt": "2026-07-25T09:54:24.174Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 70
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 62
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 4
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 89,
+  "itemCount": 90,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -532,6 +532,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-25T03:15:59.647Z"
+    },
+    "ワンパグ": {
+      "storeName": "ワンパグ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-25T09:54:23.739Z"
     }
   },
   "market": {
@@ -637,7 +650,7 @@
     },
     "所沢市|ダイニング": {
       "count": 11,
-      "checkedAt": "2026-07-18T07:02:36.331Z"
+      "checkedAt": "2026-07-25T09:54:24.174Z"
     },
     "志木市|中華": {
       "count": 2,
@@ -666,9 +679,25 @@
     "さいたま市浦和区|カフェ": {
       "count": 12,
       "checkedAt": "2026-07-23T12:11:20.146Z"
+    },
+    "加須市|カフェ": {
+      "count": 5,
+      "checkedAt": "2026-07-25T09:54:23.864Z"
     }
   },
   "items": [
+    {
+      "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjB2cHpGZWdiOEFYQURPTE5vUnVzYVlndnBDbFNpd2hXX19CZ1pEUmtzTVFPcmU5MWJUNmw3NlBMT19oRUhqRHZnQVp4d3hCQ20xeXkyd1pkajIxUThSWVVwNjJWQXlqZVpTX2lrNUV6YW1oTU9tbGloNlpPVmM0QUQ0ZzNscWoycGc?oc=5",
+      "source": "キャンプファイヤー",
+      "pubDate": "Sat, 25 Jul 2026 07:31:16 GMT",
+      "area": "加須市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T09:54:20.197Z"
+    },
     {
       "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
@@ -708,7 +737,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "新座市",
+      "area": "志木市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
@@ -718,7 +747,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364841/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市岩槻区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:51.133Z"
