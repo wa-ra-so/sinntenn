@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T10:24:58.259Z",
+  "generatedAt": "2026-07-25T03:15:59.771Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 6
+      "count": 4
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 4
+      "count": 1
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 58
+      "count": 61
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 86,
+  "itemCount": 87,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -519,6 +519,19 @@
       "capacity": 57,
       "open": "月～日、祝日、祝前日: 11:30～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
       "checkedAt": "2026-07-24T03:17:39.226Z"
+    },
+    "ミステリーカフェ謎屋珈琲店川越店": {
+      "storeName": "ミステリーカフェ謎屋珈琲店 川越店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-25T03:15:59.647Z"
     }
   },
   "market": {
@@ -620,7 +633,7 @@
     },
     "さいたま市大宮区|居酒屋": {
       "count": 160,
-      "checkedAt": "2026-07-17T14:47:40.476Z"
+      "checkedAt": "2026-07-25T03:15:59.771Z"
     },
     "所沢市|ダイニング": {
       "count": 11,
@@ -683,7 +696,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "新座市",
+      "area": "志木市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
@@ -802,6 +815,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.114Z"
+    },
+    {
+      "title": "【川越市】楽しみですね♪「ミステリーカフェ謎屋珈琲店 川越店」のオープン日が判明しました！！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rU3l3UFRTVXk1WFQ2NERKblpTZlhUdnoyU1M4QXBwSHE5NUdSVFUydGRiM2R0ekRXajB4ZDVyczgwaHNSSFpDWFRtN1NkNFM1bWlvVnVxbzBmbTZCdmxyMlJSUTdnallYb3c?oc=5",
+      "source": "埼玉マガジン",
+      "pubDate": "Mon, 20 Jul 2026 09:31:10 GMT",
+      "area": "川越市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T03:15:56.158Z"
     },
     {
       "title": "埼玉県内初、関東でも2例目…コウノトリの放鳥　鴻巣「天空の里」で2羽　愛称は「晴」と「天」に　ケージにとどまる1羽…もう1羽は翼を広げ、勢いよく飛び出す",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T10:24:39.245Z",
+  "generatedAt": "2026-07-25T03:15:44.855Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,25 +36,25 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 46
+      "count": 43
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 63
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 8
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 195,
+  "itemCount": 196,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1103,7 +1103,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T14:47:20.661Z"
+      "checkedAt": "2026-07-25T03:15:44.854Z"
     },
     "camrodinnerカンボジア食堂〜アンコール〜": {
       "storeName": "CAMRODINNER カンボジア食堂〜アンコール〜",
@@ -1116,7 +1116,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T21:58:09.673Z"
+      "checkedAt": "2026-07-25T03:15:44.409Z"
     },
     "theキャラcafe東急プラザ渋谷店": {
       "storeName": "THEキャラCAFE 東急プラザ渋谷店",
@@ -1669,7 +1669,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Thu, 23 Jul 2026 20:53:22 GMT",
+      "pubDate": "Fri, 24 Jul 2026 09:52:58 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1827,7 +1827,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "中央区",
+      "area": "台東区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
@@ -2164,7 +2164,7 @@
       "genres": [
         "フレンチ"
       ],
-      "signal": "opening",
+      "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:48.222Z"
     },
     {
@@ -2239,7 +2239,7 @@
       "title": "焼肉、寿司食べ放題の「すたみな太郎NEXT 上野アメ横店」が7/18(土)全面改装オープン！「すたみな太郎 PREMIUM BUFFET上野アメ横店」として再始動！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PdXdtV1g0eHNXVXU3NVhjaXZfRl8waHBnX1NoWkxLaWx1YjhUZEtaN250SzVjQXgzR1hScEdJRVRNdzdJV3ppeWJBYnY0MjI1VmRjS0lHRm9FeG0zVDhhMGlqcE13MjhISVE?oc=5",
       "source": "PR TIMES",
-      "pubDate": "Tue, 14 Jul 2026 01:10:02 GMT",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "台東区",
       "genres": [
         "焼肉",
@@ -2715,6 +2715,16 @@
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
+      "title": "【占いから食卓へ】おばんざいとおむすびBAR美月が武蔵小山にオープン",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rRFR3VmxJTnRweDNyZ0NETUpGUmEzOFZjamRBZDFuU3NlanFpai1QV1BMbnV2WldSM05GeG9pSVZtaWZjVTRMN01wd0dPZU0?oc=5",
+      "source": "Newscast.jp",
+      "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
+      "area": "品川区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T03:15:40.727Z"
+    },
+    {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！…",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XdHJHTk4zVUwwekFwVFBRZ21ETllXQzVwQ29kem5iSUdWR0Vlc0ZGOUtNVkZlNnNldjNJc2ktMUhBRy1rRE1XY3dHbEFyUmFJcThnUmRn?oc=5",
       "source": "フーズチャネル",
@@ -2764,13 +2774,25 @@
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KQUZoTlhRODNSaWc4c3czTjJkZ1ZGZ0RhUFJkeDBzRWZBUVBFbTg5RnVIZmxBS0lIYl9ubnJ0SzBFSU1HbWJTUnB2UFcydm8tVUdnaA?oc=5",
       "source": "ニコニコニュース",
-      "pubDate": "Mon, 06 Jul 2026 01:15:24 GMT",
+      "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
         "中華"
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-24T03:17:10.678Z"
+    },
+    {
+      "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yblhyMFpXcVdYcVZwWldOUEVnc1BlX0Q0TE5STUNiNm9YWlR3SFhzSlMtQXRqMnI0QWpuQVZqdDBTWTFIaFgwMUNUSzE5ZHMzSElJeTktMjFTZXQySDFOQUNCUjFyMkZHRlBpYXJFTjhZT0E0a0ZhMmFn?oc=5",
+      "source": "毎日キレイ",
+      "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
+      "area": "三鷹市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T03:15:40.724Z"
     },
     {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！",
@@ -3881,18 +3903,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
-    },
-    {
-      "title": "株式会社チームスタンダード オープニングスタッフ募集（焼売居酒屋オープニングスタッフ）",
-      "link": "https://to.indeed.com/aa6zbpq4cwnf",
-      "source": "Indeed",
-      "pubDate": "Tue, 26 May 2026 00:00:00 GMT",
-      "area": "渋谷区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T11:23:19.034Z"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-24T10:24:48.471Z",
+  "generatedAt": "2026-07-25T03:15:52.351Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 89
+      "count": 90
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -30,19 +30,19 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 11
+      "count": 12
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 20
+      "count": 15
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "バー系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 77,
+  "itemCount": 80,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -271,7 +271,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T14:47:30.217Z"
+      "checkedAt": "2026-07-25T03:15:52.212Z"
     },
     "行きたくなる酒場浜ちゃん": {
       "storeName": "行きたくなる酒場 浜ちゃん",
@@ -297,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T21:58:16.297Z"
+      "checkedAt": "2026-07-25T03:15:51.982Z"
     },
     "はなまるダイニングセレクト": {
       "storeName": "はなまるダイニングセレクト",
@@ -310,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-17T21:58:17.015Z"
+      "checkedAt": "2026-07-25T03:15:52.095Z"
     },
     "cafebarrieno(リエノ)": {
       "storeName": "Cafe Bar Rieno （リエノ）",
@@ -428,6 +428,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-24T03:17:29.163Z"
+    },
+    "寿司活": {
+      "storeName": "寿司活",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-25T03:15:51.847Z"
     }
   },
   "market": {
@@ -473,11 +486,11 @@
     },
     "鎌倉市|バー": {
       "count": 37,
-      "checkedAt": "2026-07-17T21:58:17.158Z"
+      "checkedAt": "2026-07-25T03:15:52.344Z"
     },
     "横浜市戸塚区|ダイニング": {
       "count": 7,
-      "checkedAt": "2026-07-17T21:58:17.260Z"
+      "checkedAt": "2026-07-25T03:15:52.351Z"
     },
     "大和市|焼肉": {
       "count": 23,
@@ -522,9 +535,35 @@
     "川崎市|カフェ": {
       "count": 93,
       "checkedAt": "2026-07-23T12:11:13.346Z"
+    },
+    "川崎市|寿司": {
+      "count": 64,
+      "checkedAt": "2026-07-25T03:15:52.324Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
+      "link": "http://s.baitoru.com/DW0aYeJF",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Fri, 24 Jul 2026 09:38:58 GMT",
+      "area": "大和市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-25T03:15:48.946Z"
+    },
+    {
+      "title": "新感覚「エンタメレーン」初導入！「寿司活」がラゾーナ川崎に9月中旬オープン",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rZThQM1BEdGRvS2puZnBzWGE2b19IQVZFU3J4UGdlZUdvQVUxc3hoei1zOXdIZW1MVTJyeVlUbkpMQkZPQUpfNXVHZU15a3NoWEE?oc=5",
+      "source": "いこーよニュース",
+      "pubDate": "Fri, 24 Jul 2026 05:15:47 GMT",
+      "area": "川崎市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T03:15:49.022Z"
+    },
     {
       "title": "「茶き茶き 溝の口」オープニングスタッフ募集（調理師）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505479/2_1",
@@ -554,6 +593,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T08:50:11.076Z"
+    },
+    {
+      "title": "連日行列の「寿司活」がラゾーナ川崎に誕生！2026年9月中旬オープン予定！流れる寿司をタッチで注文“エンタメレーン”初導入",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5teGxqV3VpUDNJanE1VHhONmQzRHY2LUtockd0TDhVUGJfMUNENFpiaEtXZUszeDJNU093a1NmUTFsWThvR0lIcnBoZFFPVk1PQ2dSenVWRFREdWI5cUlaM25KLTRhbHYwY0E?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 23 Jul 2026 05:20:01 GMT",
+      "area": "川崎市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T03:15:49.022Z"
     },
     {
       "title": "株式会社style7 オープニングスタッフ募集（7月オープン飲食店の店舗スタッフ）",
