@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:41:09.938Z",
+  "generatedAt": "2026-07-26T10:05:25.653Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 11
+      "count": 12
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -76,7 +76,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:50.830Z"
+      "checkedAt": "2026-07-26T10:05:24.602Z"
     },
     "焼鳥蕎麦二尺五寸": {
       "storeName": "焼鳥 蕎麦 二尺五寸",
@@ -89,7 +89,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:51.168Z"
+      "checkedAt": "2026-07-26T10:05:24.201Z"
     },
     "芯": {
       "storeName": "芯",
@@ -102,7 +102,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:51.427Z"
+      "checkedAt": "2026-07-26T10:05:24.416Z"
     },
     "佐倉市立美術館": {
       "storeName": "佐倉市立美術館",
@@ -115,7 +115,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:51.478Z"
+      "checkedAt": "2026-07-26T10:05:24.410Z"
     },
     "藁焼き酒場わらいち": {
       "storeName": "藁焼き酒場 わらいち",
@@ -141,7 +141,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:51.518Z"
+      "checkedAt": "2026-07-26T10:05:24.613Z"
     },
     "pronto成田空港第2ターミナル店": {
       "storeName": "PRONTO 成田空港第２ターミナル店",
@@ -154,7 +154,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:51.816Z"
+      "checkedAt": "2026-07-26T10:05:24.655Z"
     },
     "ハー・グエン": {
       "storeName": "ハー・グエン",
@@ -167,7 +167,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:51.836Z"
+      "checkedAt": "2026-07-26T10:05:24.809Z"
     },
     "和食居酒屋大安": {
       "storeName": "和食居酒屋 大安",
@@ -180,7 +180,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:51.874Z"
+      "checkedAt": "2026-07-26T10:05:24.837Z"
     },
     "元祖焼豚センターうる寅商店": {
       "storeName": "元祖焼豚センター うる寅商店",
@@ -193,7 +193,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:52.177Z"
+      "checkedAt": "2026-07-26T10:05:24.871Z"
     },
     "古民家カフェハナレヤ": {
       "storeName": "古民家カフェ ハナレヤ",
@@ -206,7 +206,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:52.188Z"
+      "checkedAt": "2026-07-26T10:05:25.031Z"
     },
     "なのわ": {
       "storeName": "なのわ",
@@ -232,7 +232,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:52.226Z"
+      "checkedAt": "2026-07-26T10:05:25.039Z"
     },
     "merengue": {
       "storeName": "Merengue",
@@ -245,7 +245,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:52.528Z"
+      "checkedAt": "2026-07-26T10:05:25.091Z"
     },
     "大衆割烹まるは": {
       "storeName": "大衆割烹まるは",
@@ -271,7 +271,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:50.332Z"
+      "checkedAt": "2026-07-26T10:05:23.982Z"
     },
     "おでん屋たけし船橋駅南口店": {
       "storeName": "おでん屋たけし 船橋駅南口店",
@@ -284,7 +284,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T07:29:50.775Z"
+      "checkedAt": "2026-07-26T10:05:23.983Z"
     },
     "とんかつ神楽坂さくら君津店": {
       "storeName": "とんかつ神楽坂さくら 君津店",
@@ -549,56 +549,56 @@
   },
   "market": {
     "船橋市|居酒屋": {
-      "count": 176,
-      "checkedAt": "2026-07-19T07:29:52.747Z"
+      "count": 175,
+      "checkedAt": "2026-07-26T10:05:25.211Z"
     },
     "市川市|バー": {
       "count": 43,
-      "checkedAt": "2026-07-19T07:29:52.945Z"
+      "checkedAt": "2026-07-26T10:05:25.337Z"
     },
     "佐倉市|居酒屋": {
       "count": 18,
-      "checkedAt": "2026-07-19T07:29:52.939Z"
+      "checkedAt": "2026-07-26T10:05:25.437Z"
     },
     "船橋市|カフェ": {
       "count": 44,
-      "checkedAt": "2026-07-19T07:29:53.155Z"
+      "checkedAt": "2026-07-26T10:05:25.218Z"
     },
     "船橋市|イタリアン": {
       "count": 26,
-      "checkedAt": "2026-07-19T07:29:52.781Z"
+      "checkedAt": "2026-07-26T10:05:25.350Z"
     },
     "成田市|カフェ": {
       "count": 12,
-      "checkedAt": "2026-07-19T07:29:53.137Z"
+      "checkedAt": "2026-07-26T10:05:25.219Z"
     },
     "習志野市|カフェ": {
       "count": 13,
-      "checkedAt": "2026-07-19T07:29:53.161Z"
+      "checkedAt": "2026-07-26T10:05:25.459Z"
     },
     "佐倉市|カフェ": {
       "count": 11,
-      "checkedAt": "2026-07-19T07:29:53.316Z"
+      "checkedAt": "2026-07-26T10:05:25.464Z"
     },
     "柏市|居酒屋": {
       "count": 102,
-      "checkedAt": "2026-07-19T07:29:53.339Z"
+      "checkedAt": "2026-07-26T10:05:25.329Z"
     },
     "八千代市|寿司": {
       "count": 5,
-      "checkedAt": "2026-07-19T07:29:53.500Z"
+      "checkedAt": "2026-07-26T10:05:25.540Z"
     },
     "松戸市|カフェ": {
       "count": 29,
-      "checkedAt": "2026-07-19T07:29:53.526Z"
+      "checkedAt": "2026-07-26T10:05:25.581Z"
     },
     "館山市|カフェ": {
       "count": 9,
-      "checkedAt": "2026-07-19T07:29:53.524Z"
+      "checkedAt": "2026-07-26T10:05:25.580Z"
     },
     "千葉市美浜区|レストラン": {
       "count": 8,
-      "checkedAt": "2026-07-19T07:29:53.696Z"
+      "checkedAt": "2026-07-26T10:05:25.653Z"
     },
     "柏市|フレンチ": {
       "count": 8,
@@ -691,6 +691,16 @@
   },
   "items": [
     {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Sun, 26 Jul 2026 08:01:24 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
       "title": "「土用の丑の日」 千葉・成田の老舗、朝から大勢の客でにぎわう",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pXzFHSVl2ejc0YWlkRS1RTlFJTzFQNjFhMUt5UWF1ZG1IMmVSUjhsazBGQzRHblplZTJxSW9YYkpadWdKLWl5V1JzWXg2TXlpb2hsTEM4dWdMYmE0a0tFUE5WTzkzQ2U1NC1RWE9hd1R4ckQ0cTNIcDlSQQ?oc=5",
       "source": "au Webポータル",
@@ -699,16 +709,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-26T06:41:05.614Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Sat, 25 Jul 2026 18:59:59 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
