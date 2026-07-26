@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:16:02.375Z",
+  "generatedAt": "2026-07-26T03:29:51.488Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 71
+      "count": 70
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 59
+      "count": 67
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 4
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 91,
+  "itemCount": 92,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -414,7 +414,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-18T14:22:12.519Z"
+      "checkedAt": "2026-07-26T03:29:50.946Z"
     },
     "仕入れstaff": {
       "storeName": "仕入れSTAFF",
@@ -427,7 +427,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-18T14:22:12.809Z"
+      "checkedAt": "2026-07-26T03:29:51.487Z"
     },
     "宅建資格保有×今年入社の特権": {
       "storeName": "宅建資格保有×今年入社の特権",
@@ -701,6 +701,18 @@
   "items": [
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
+      "source": "キャンプファイヤー",
+      "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
+      "area": "加須市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-26T03:29:47.234Z"
+    },
+    {
+      "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjB2cHpGZWdiOEFYQURPTE5vUnVzYVlndnBDbFNpd2hXX19CZ1pEUmtzTVFPcmU5MWJUNmw3NlBMT19oRUhqRHZnQVp4d3hCQ20xeXkyd1pkajIxUThSWVVwNjJWQXlqZVpTX2lrNUV6YW1oTU9tbGloNlpPVmM0QUQ0ZzNscWoycGc?oc=5",
       "source": "キャンプファイヤー",
       "pubDate": "Sat, 25 Jul 2026 07:31:16 GMT",
@@ -750,7 +762,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "新座市",
+      "area": "志木市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
@@ -927,18 +939,6 @@
       "firstSeenAt": "2026-07-18T07:02:33.160Z"
     },
     {
-      "title": "【ふじみ野市】人気イタリアン「オリーブの丘」がオープン予定！建築計画が掲示されていました♪",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4dENZRGdvQWZRNmNqMjJ5Y1h3Zmlfa3ExLVFVajEtZ0dlM21iRy1LWW5WQ3kxRnAzTW9yWHRiaGZuazNUUVFuaVZnQ3p1NFIxSUt4OHM4bU5KeUxTcGJHa1N2cHYtdDVWU2c?oc=5",
-      "source": "埼玉マガジン",
-      "pubDate": "Fri, 17 Jul 2026 12:00:46 GMT",
-      "area": "ふじみ野市",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-23T07:36:03.104Z"
-    },
-    {
       "title": "「蕎⻨きり みよた 与野店」オープニングスタッフ募集（ホールスタッフ/「新入生大歓迎/」店舗の雰囲気がよく長く働く…）",
       "link": "https://baitona-joshi.jp/shop/1440375/",
       "source": "求人ボックス（バイトな女子）",
@@ -947,18 +947,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
-    },
-    {
-      "title": "【川越市】「かにや 川越下広谷店」が2026年秋オープン予定！カフェも併設されます♪",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBclF4S1ZSc0JXMFNqWFFWLV82Nm1icXVJWVBvLWFnMXN3MEpUMzFsNTA4cTh1WDJWZW5LN1p3RFpWZlFEbTRJREdTaVUyc3I1TnUyUjhDOEVaODJzalF5YTRCLXoxc1J1dWc?oc=5",
-      "source": "埼玉マガジン",
-      "pubDate": "Fri, 17 Jul 2026 08:46:48 GMT",
-      "area": "川越市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-21T22:07:30.347Z"
     },
     {
       "title": "居酒屋「串焼亭ねぎ 東大宮店」がオープン 東大宮駅東口に",
@@ -973,20 +961,34 @@
       "firstSeenAt": "2026-07-17T14:47:34.831Z"
     },
     {
-      "title": "株式会社キムラ オープニングスタッフ募集（不動産営業/「宅建資格保有×今年入社の特権」不動産営業 オー…）",
-      "link": "https://en-gage.net/user/search/desc/15070131/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Fri, 17 Jul 2026 04:52:41 GMT",
-      "area": "入間市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T07:35:19.411Z"
+      "title": "【ふじみ野市】人気イタリアン「オリーブの丘」がオープン予定！建築計画が掲示されていました♪",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4dENZRGdvQWZRNmNqMjJ5Y1h3Zmlfa3ExLVFVajEtZ0dlM21iRy1LWW5WQ3kxRnAzTW9yWHRiaGZuazNUUVFuaVZnQ3p1NFIxSUt4OHM4bU5KeUxTcGJHa1N2cHYtdDVWU2c?oc=5",
+      "source": "埼玉マガジン",
+      "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "area": "ふじみ野市",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T07:36:03.104Z"
+    },
+    {
+      "title": "【川越市】「かにや 川越下広谷店」が2026年秋オープン予定！カフェも併設されます♪",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBclF4S1ZSc0JXMFNqWFFWLV82Nm1icXVJWVBvLWFnMXN3MEpUMzFsNTA4cTh1WDJWZW5LN1p3RFpWZlFEbTRJREdTaVUyc3I1TnUyUjhDOEVaODJzalF5YTRCLXoxc1J1dWc?oc=5",
+      "source": "埼玉マガジン",
+      "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "area": "川越市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-21T22:07:30.347Z"
     },
     {
       "title": "【埼玉県内初ロードサイド店舗】イタリアンカフェ＆レストラン「チェントペルチェント浦和芝原店」7月17日(金)10時30分オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91RmZfcERXV3EyR0dwdDd1dFFObTBPRlN0aDkyR2tUSm84bjZIZ3pZeXYwZVNNWmt2eVNfMkdxSVdXejZpLUp3cmVqQU1FaG13ajZuTmVXeWlRcU12MHU5MnVkc3hhQmRwTXc?oc=5",
       "source": "PR TIMES",
-      "pubDate": "Fri, 17 Jul 2026 01:00:02 GMT",
+      "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
       "area": "さいたま市浦和区",
       "genres": [
         "レストラン",
@@ -995,6 +997,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:33.242Z"
+    },
+    {
+      "title": "株式会社キムラ オープニングスタッフ募集（不動産営業/「宅建資格保有×今年入社の特権」不動産営業 オー…）",
+      "link": "https://en-gage.net/user/search/desc/15070131/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Fri, 17 Jul 2026 04:52:41 GMT",
+      "area": "入間市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T07:35:19.411Z"
     },
     {
       "title": "株式会社ロストマン オープニングスタッフ募集（お寿司屋の店舗オープニングスタッフ）",

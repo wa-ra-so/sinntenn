@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:15:49.658Z",
+  "generatedAt": "2026-07-26T03:29:36.480Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 57
+      "count": 51
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 11
+      "count": 10
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 64
+      "count": 73
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 8
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 194,
+  "itemCount": 196,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1103,7 +1103,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-18T14:21:55.812Z"
+      "checkedAt": "2026-07-26T03:29:35.454Z"
     },
     "マモテラス": {
       "storeName": "マモテラス",
@@ -1116,7 +1116,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-18T21:56:08.641Z"
+      "checkedAt": "2026-07-26T03:29:35.279Z"
     },
     "フレボタ": {
       "storeName": "フレボタ",
@@ -1129,7 +1129,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-18T21:56:08.960Z"
+      "checkedAt": "2026-07-26T03:29:36.223Z"
     },
     "焼肉みゆき苑": {
       "storeName": "焼肉みゆき苑",
@@ -1546,7 +1546,7 @@
     },
     "渋谷区|ビストロ": {
       "count": 60,
-      "checkedAt": "2026-07-18T14:21:56.579Z"
+      "checkedAt": "2026-07-26T03:29:36.480Z"
     },
     "武蔵野市|カフェ": {
       "count": 44,
@@ -1618,6 +1618,29 @@
     }
   },
   "items": [
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/の店舗正社員オープニングスタッ…）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460752/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Sat, 25 Jul 2026 20:51:03 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T03:29:30.803Z"
+    },
+    {
+      "title": "株式会社絶好調 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/オープニング/若手活躍中）",
+      "link": "https://grsta.jp/manuscript/0a060104-9f94-1dee-819f-95494c57037b",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Sat, 25 Jul 2026 11:00:17 GMT",
+      "area": "新宿区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T03:29:30.802Z"
+    },
     {
       "title": "アイビーカンパニー株式会社 オープニングスタッフ募集（店舗スタッフ/オープニングスタッフ募集 新宿エリア新店舗「シ…）",
       "link": "https://en-gage.net/user/search/desc/17591120/?aroute=1705",
@@ -1790,7 +1813,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "中央区",
+      "area": "台東区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
@@ -2073,6 +2096,18 @@
       "firstSeenAt": "2026-07-17T00:05:49.249Z"
     },
     {
+      "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次 西新宿小滝橋店」をオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xZlVLOU1hNWpLT3BhV2R6ZTNGUGZOM0hCbWx4eHdRcXhVVm8xakVwQ1E2S2F2QXRzTURWYmpqQ0VTMTRHNWt2VFVKTUlCaUVXYzZWQjBWMGI3OEpaUXV2YzU1UG1wTmJON2c?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-16T22:07:07.224Z"
+    },
+    {
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81N0JjNVVraWMxT3A4eW9ScXFUeHAtbnl5dEU5Sm5TQnZTblBoaG5rU3RnOEpiVlhCbHJCeGZMNDM0ZkVsYm5ZRzhrTkRaeFhzUXUxVGY5MzlBMWR3ZkhXSS1qQjVWNUV2ZHc?oc=5",
       "source": "PR TIMES",
@@ -2083,18 +2118,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T15:07:03.988Z"
-    },
-    {
-      "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次 西新宿小滝橋店」をオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xZlVLOU1hNWpLT3BhV2R6ZTNGUGZOM0hCbWx4eHdRcXhVVm8xakVwQ1E2S2F2QXRzTURWYmpqQ0VTMTRHNWt2VFVKTUlCaUVXYzZWQjBWMGI3OEpaUXV2YzU1UG1wTmJON2c?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Thu, 16 Jul 2026 03:12:10 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-16T22:07:07.224Z"
     },
     {
       "title": "株式会社Army Ant オープニングスタッフ募集（【オープニング】渋谷発!若者が仕掛ける新カルチャー系の飲食ス…）",
@@ -3618,7 +3641,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
-      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
+      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
       "source": "るるぶWeb",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",

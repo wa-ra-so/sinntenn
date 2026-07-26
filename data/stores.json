@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T11:15:42.460Z",
+  "generatedAt": "2026-07-26T03:29:26.443Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 10
+      "count": 11
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 43
+      "count": 42
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 118,
+  "itemCount": 120,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -519,6 +519,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-24T10:24:27.375Z"
+    },
+    "センチュリー21": {
+      "storeName": "センチュリー21",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-26T03:29:26.239Z"
     }
   },
   "market": {
@@ -631,8 +644,8 @@
       "checkedAt": "2026-07-24T03:17:05.412Z"
     },
     "千葉市中央区|居酒屋": {
-      "count": 157,
-      "checkedAt": "2026-07-18T21:55:59.861Z"
+      "count": 156,
+      "checkedAt": "2026-07-26T03:29:26.443Z"
     },
     "柏市|レストラン": {
       "count": 19,
@@ -735,6 +748,16 @@
       "firstSeenAt": "2026-07-25T03:15:34.441Z"
     },
     {
+      "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場のキッチン/オープニング/面接確約/未経験可）",
+      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc49f22dcb",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Thu, 23 Jul 2026 11:00:22 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T03:29:22.012Z"
+    },
+    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理見習い）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/23_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -803,6 +826,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
+    },
+    {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:06.055Z"
     },
     {
       "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（店長候補）",
@@ -1169,6 +1202,18 @@
       "firstSeenAt": "2026-07-13T21:46:36.524Z"
     },
     {
+      "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
+      "source": "Newscast.jp",
+      "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-14T21:49:14.270Z"
+    },
+    {
       "title": "千葉駅徒歩圏内にカフェダイニング「FLOWER CHEERS CAFE」が7月28日オープン",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bEtGS0FxRzkyZEFpcko2S0NhLURFRU1EUUtWcHBBclNkdW1HOEhReDIzQllyZVFJejhJeTR5TnJGYWM2MzZCWjkxZFpNX0szNzI3UHM0OXd5aWV4QVlOUFdQbjhlYkE?oc=5",
       "source": "J-CAST ニュース",
@@ -1180,18 +1225,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T21:46:36.585Z"
-    },
-    {
-      "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "Newscast.jp",
-      "pubDate": "Mon, 13 Jul 2026 00:45:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-14T21:49:14.270Z"
     },
     {
       "title": "南柏駅から徒歩15分ほどの所に中華料理「金東（KANETO）」が5/29（木）オープン",
@@ -1320,16 +1353,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T22:06:27.312Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:06.055Z"
     },
     {
       "title": "株式会社ココロオドル オープニングスタッフ募集（8月オープン 話題のダイニング ホール・キッチン）",
@@ -1779,6 +1802,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:18.948Z"
+    },
+    {
+      "title": "「センチュリー21」オープニングスタッフ募集（不動産/営業アシスタント/販売 オープニング募集 接客経験歓…）",
+      "link": "http://s.baitoru.com/dN0aRQWR",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Tue, 09 Jun 2026 17:33:16 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T03:29:22.012Z"
     },
     {
       "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",
