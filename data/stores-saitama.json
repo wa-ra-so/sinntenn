@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T03:29:51.488Z",
+  "generatedAt": "2026-07-26T06:41:33.513Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -857,6 +857,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T03:17:34.920Z"
+    },
+    {
+      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/未経験から最短3ヶ月で副店長実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b00e0707a2",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
+      "area": "草加市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T06:41:30.693Z"
     },
     {
       "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】居酒屋のホールスタッフ<東大宮店>）",
@@ -1752,16 +1762,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.258Z"
-    },
-    {
-      "title": "越谷レイクタウンに新エリアがオープン サクラレイクの湖畔に、県内初出店の飲食店など10店舗 アクティビティやイベントも充実",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vVHlxOGxTZEw3S3VyU3BIbGpQbTB2aXZGQUdqNl90NVltVy02blFMbHRZSE82NXhhT3F5V05GaFNIdWJGUGExSFB3alNPSkZGekI1RDg0TlBpQnZzOXdZODJCTzRSUQ?oc=5",
-      "source": "埼玉新聞",
-      "pubDate": "Wed, 27 May 2026 04:53:31 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T14:08:20.508Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T03:29:26.443Z",
+  "generatedAt": "2026-07-26T06:41:09.938Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 42
+      "count": 46
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 120,
+  "itemCount": 122,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -532,6 +532,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-26T03:29:26.239Z"
+    },
+    "土用の丑の日": {
+      "storeName": "土用の丑の日",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-26T06:41:09.938Z"
     }
   },
   "market": {
@@ -678,10 +691,20 @@
   },
   "items": [
     {
+      "title": "「土用の丑の日」 千葉・成田の老舗、朝から大勢の客でにぎわう",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5pXzFHSVl2ejc0YWlkRS1RTlFJTzFQNjFhMUt5UWF1ZG1IMmVSUjhsazBGQzRHblplZTJxSW9YYkpadWdKLWl5V1JzWXg2TXlpb2hsTEM4dWdMYmE0a0tFUE5WTzkzQ2U1NC1RWE9hd1R4ckQ0cTNIcDlSQQ?oc=5",
+      "source": "au Webポータル",
+      "pubDate": "Sun, 26 Jul 2026 06:22:00 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T06:41:05.614Z"
+    },
+    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Sat, 25 Jul 2026 08:01:27 GMT",
+      "pubDate": "Sat, 25 Jul 2026 18:59:59 GMT",
       "area": "習志野市",
       "genres": [],
       "signal": "hiring",
@@ -836,6 +859,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T09:53:06.055Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（店長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/10_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T06:41:05.576Z"
     },
     {
       "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（店長候補）",
