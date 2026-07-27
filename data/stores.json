@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T10:05:25.653Z",
+  "generatedAt": "2026-07-27T03:37:46.729Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,19 +24,19 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 77
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 46
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 122,
+  "itemCount": 123,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -336,7 +336,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-19T21:58:22.091Z"
+      "checkedAt": "2026-07-27T03:37:46.178Z"
     },
     "店舗スタッフ": {
       "storeName": "店舗スタッフ",
@@ -602,15 +602,15 @@
     },
     "柏市|フレンチ": {
       "count": 8,
-      "checkedAt": "2026-07-19T21:58:22.939Z"
+      "checkedAt": "2026-07-27T03:37:46.712Z"
     },
     "君津市|レストラン": {
       "count": 2,
-      "checkedAt": "2026-07-19T21:58:22.935Z"
+      "checkedAt": "2026-07-27T03:37:46.729Z"
     },
     "柏市|中華": {
       "count": 21,
-      "checkedAt": "2026-07-19T21:58:22.291Z"
+      "checkedAt": "2026-07-27T03:37:46.321Z"
     },
     "船橋市|ダイニング": {
       "count": 27,
@@ -709,6 +709,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-26T06:41:05.614Z"
+    },
+    {
+      "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
+      "link": "https://grsta.jp/manuscript/0a060104-9f94-1dee-819f-95495a8603d9",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Sat, 25 Jul 2026 11:00:17 GMT",
+      "area": "柏市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:37:40.026Z"
     },
     {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
@@ -1250,7 +1262,7 @@
       "title": "千葉駅徒歩圏内にカフェダイニング「FLOWER CHEERS CAFE」が7月28日オープン",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2bEtGS0FxRzkyZEFpcko2S0NhLURFRU1EUUtWcHBBclNkdW1HOEhReDIzQllyZVFJejhJeTR5TnJGYWM2MzZCWjkxZFpNX0szNzI3UHM0OXd5aWV4QVlOUFdQbjhlYkE?oc=5",
       "source": "J-CAST ニュース",
-      "pubDate": "Mon, 13 Jul 2026 00:45:00 GMT",
+      "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "千葉市中央区",
       "genres": [
         "ダイニング",
@@ -1997,7 +2009,7 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
-      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ",
+      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ZXhGQVF3WkxuLXNIYUdxR1pzSldNOUdVeXVXVlVUQU4yZzgyX29ZTV9QU1gwekRkZjR6TFMwR09OTXVtTUdTRlZybk9PREE?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 29 May 2026 07:00:00 GMT",

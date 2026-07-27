@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T10:05:34.275Z",
+  "generatedAt": "2026-07-27T03:37:57.420Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,19 +30,19 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 53
+      "count": 56
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 39
+      "count": 34
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 9
+      "count": 8
     },
     {
       "label": "バー系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 8
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -1481,10 +1481,6 @@
       "count": 4,
       "checkedAt": "2026-07-20T15:15:10.582Z"
     },
-    "台東区|居酒屋": {
-      "count": 309,
-      "checkedAt": "2026-07-20T15:15:10.614Z"
-    },
     "渋谷区|レストラン": {
       "count": 78,
       "checkedAt": "2026-07-20T22:08:37.581Z"
@@ -1636,6 +1632,31 @@
   },
   "items": [
     {
+      "title": "【東京都豊島区】イタリアンデリ「Piccola Aria」オープン！前菜やメインが選べるデリボックスを販売",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LNTJQQ0JtT1RpZmxtQXdBRVNRNG9vcUlFZFhjTTRlQkh2aExLdmk4ODBNOVY2emJnM3JDQ1gtY0F6QmtPYUtIUURHMA?oc=5",
+      "source": "ガジェット通信",
+      "pubDate": "Mon, 27 Jul 2026 01:30:25 GMT",
+      "area": "豊島区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T03:37:51.301Z"
+    },
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Sun, 26 Jul 2026 20:50:52 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/の店舗正社員オープニングスタッ…）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460752/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
@@ -1647,19 +1668,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-26T03:29:30.803Z"
-    },
-    {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Sat, 25 Jul 2026 20:51:03 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "株式会社絶好調 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/オープニング/若手活躍中）",
@@ -1852,7 +1860,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "中央区",
+      "area": "台東区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
@@ -3692,7 +3700,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
-      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！",
+      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
       "source": "るるぶWeb",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
@@ -3892,18 +3900,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
-    },
-    {
-      "title": "まんまる酒場(上野/居酒屋)＜ネット予約可",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA3VDR4dXNwZ1FMZlhCOWdZWUJoTFlweWc2UWxzd1Rqa3hNZEFaZkM2MzNwdmJVMGdpaXUwVVo5RXVSNGZlRldPT2lBdHJDbTVB?oc=5",
-      "source": "ホットペッパーグルメ",
-      "pubDate": "Wed, 27 May 2026 22:49:36 GMT",
-      "area": "台東区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
     }
   ]
 }

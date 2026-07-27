@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T10:05:45.610Z",
+  "generatedAt": "2026-07-27T03:38:17.247Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,19 +24,19 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 70
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 6
+      "count": 8
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 67
+      "count": 64
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 4
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 92,
+  "itemCount": 93,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -558,6 +558,19 @@
       "capacity": 40,
       "open": "月～金: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00）17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）土、日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）祝日、祝前日: 17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
       "checkedAt": "2026-07-25T11:16:02.374Z"
+    },
+    "あったらいいな": {
+      "storeName": "あったらいいな",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-27T03:38:17.246Z"
     }
   },
   "market": {
@@ -928,7 +941,7 @@
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByd3Zaek9kckE4a1ZMeV9NNGotS1pRdWhqekpXSncyaTBEYmpiRVNiMDVTdF9kSVlhY1pQZXJvbkZuY28tNGhCWUlBbw?oc=5",
       "source": "47NEWS",
-      "pubDate": "Sat, 18 Jul 2026 01:08:00 GMT",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
         "カフェ"
@@ -940,7 +953,7 @@
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン（埼玉新聞）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pOFFteWNocF9OM1V6Yy02NFI5QTFsLXhqVmJUVVkyUWI1TlJRMG80SjJlaGc0TllGQVlpbHdTcHh1MnlDQ2hDVTVYX0thUFF2cjJzVkVKSTRXdGM2YUNFWExFckU3akQ0Z1ozaFVLTVItVkhxLXdFUHhkeDdzcmc?oc=5",
       "source": "Yahoo!ニュース",
-      "pubDate": "Sat, 18 Jul 2026 01:04:04 GMT",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
         "カフェ"
@@ -1714,6 +1727,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
+    },
+    {
+      "title": "高校生の「あったらいいな」が実現。越谷市初の手話カフェが6月14日にオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE01aEoycjFMci1BTWlYbmVwNUsyQXNMTmxwVjBrUU5rMFl0U1lHY2pyVUtteDdJajBPYzNFQVpQVWxUSlJ1VFJn?oc=5",
+      "source": "Newscast.jp",
+      "pubDate": "Sun, 31 May 2026 07:00:00 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T03:38:11.930Z"
     },
     {
       "title": "株式会社ＬＡＤＵＲＥＥ　ＪＡＰＯＮ オープニングスタッフ募集（マカロン発祥のスイーツカフェのオープニングスタッフ(ホール接…）",
