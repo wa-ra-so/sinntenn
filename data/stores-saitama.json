@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
+      "ok": true,
+      "count": 6,
+      "mergedAt": "2026-07-27T03:42:55.470Z"
     }
   ],
-  "itemCount": 93,
+  "itemCount": 99,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -825,6 +831,44 @@
       "firstSeenAt": "2026-07-24T00:10:55.259Z"
     },
     {
+      "title": "「Grilled Sakana Works」オープニングスタッフ募集（居酒屋のキッチン/オープニング&年休126日）",
+      "link": "https://to.indeed.com/aam2kbqqwz6r",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "川越市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.455Z"
+    },
+    {
+      "title": "「Grilled Sakana Works」オープニングスタッフ募集（居酒屋ホール/年休126日&オープニングで賞与2回）",
+      "link": "https://to.indeed.com/aan6mvgmrdlk",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "川越市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.469Z"
+    },
+    {
+      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランのホール・キッチ…）",
+      "link": "https://to.indeed.com/aapkv2j7cvfr",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "レストラン",
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.469Z"
+    },
+    {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
@@ -833,6 +877,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
+    },
+    {
+      "title": "株式会社一家ダイニングプロジェクト オープニングスタッフ募集（博多屋台ダイニングのホールスタッフ/オープニング）",
+      "link": "https://to.indeed.com/aacbzwhpvxbs",
+      "source": "Indeed",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "越谷市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.468Z"
     },
     {
       "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
@@ -914,6 +970,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.114Z"
+    },
+    {
+      "title": "トゥーエス・マネジメント株式会社 オープニングスタッフ募集（バーテンダー・ホール【オープニングスタッフ!日払い!】(正社…）",
+      "link": "https://to.indeed.com/aar6hsxh7nwt",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "所沢市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.468Z"
     },
     {
       "title": "【川越市】楽しみですね♪「ミステリーカフェ謎屋珈琲店 川越店」のオープン日が判明しました！！",
@@ -1207,6 +1275,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.119Z"
+    },
+    {
+      "title": "株式会社ＲＡＺＵＬＩＴ’ｅ オープニングスタッフ募集（新しいカフェ　オープニング運営スタッフ）",
+      "link": "https://to.indeed.com/aagq44kwffjm",
+      "source": "Indeed",
+      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.469Z"
     },
     {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
