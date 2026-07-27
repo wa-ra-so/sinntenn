@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 4,
+      "mergedAt": "2026-07-27T03:42:55.233Z"
     }
   ],
-  "itemCount": 123,
+  "itemCount": 127,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -711,6 +717,16 @@
       "firstSeenAt": "2026-07-26T06:41:05.614Z"
     },
     {
+      "title": "株式会社八街未来都市 オープニングスタッフ募集（オープニング×リゾートホテルの調理スタッフ）",
+      "link": "https://to.indeed.com/aa4fqydy9ncl",
+      "source": "Indeed",
+      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
+      "area": "八街市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.231Z"
+    },
+    {
       "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
       "link": "https://grsta.jp/manuscript/0a060104-9f94-1dee-819f-95495a8603d9",
       "source": "求人ボックス（グルスタ）",
@@ -721,6 +737,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:37:40.026Z"
+    },
+    {
+      "title": "株式会社折原 オープニングスタッフ募集（【新規オープン】珍しい日本酒に囲まれた角打ち店/販売スタッフ…）",
+      "link": "https://to.indeed.com/aafdd9k48fbq",
+      "source": "Indeed",
+      "pubDate": "Fri, 24 Jul 2026 00:00:00 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.231Z"
     },
     {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
@@ -1306,6 +1332,16 @@
       "firstSeenAt": "2026-07-23T11:23:18.947Z"
     },
     {
+      "title": "株式会社スパイスワークス オープニングスタッフ募集（【オープニング】オシャレな海鮮食堂のキッチンスタッフ(アルバ…）",
+      "link": "https://to.indeed.com/aaxvcj8qw4fr",
+      "source": "Indeed",
+      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
+      "area": "南房総市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.222Z"
+    },
+    {
       "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
       "link": "https://grsta.jp/manuscript/0a06020a-9f45-198c-819f-45febcb600a9",
       "source": "求人ボックス（グルスタ）",
@@ -1847,6 +1883,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:18.948Z"
+    },
+    {
+      "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】未経験可/居酒屋のホールスタッフ(アルバイト…）",
+      "link": "https://to.indeed.com/aajrbp8xth4b",
+      "source": "Indeed",
+      "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.231Z"
     },
     {
       "title": "「センチュリー21」オープニングスタッフ募集（不動産/営業アシスタント/販売 オープニング募集 接客経験歓…）",

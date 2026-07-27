@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-07-27T03:42:55.383Z"
     }
   ],
-  "itemCount": 80,
+  "itemCount": 83,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -1238,6 +1244,18 @@
       "firstSeenAt": "2026-07-19T14:25:29.043Z"
     },
     {
+      "title": "株式会社ブルーシー オープニングスタッフ募集（紅茶カフェのオープニングスタッフ(9月中旬オープン予定)）",
+      "link": "https://to.indeed.com/aanjbylnpqdm",
+      "source": "Indeed",
+      "pubDate": "Mon, 29 Jun 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.371Z"
+    },
+    {
       "title": "株式会社フォンスＣＢ オープニングスタッフ募集（<オープニングスタッフ>ベーカリーカフェスタッフ|アベニュー…）",
       "link": "https://to.indeed.com/aax9h8lr98dl",
       "source": "Indeed",
@@ -1314,6 +1332,30 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-22T22:09:07.130Z"
+    },
+    {
+      "title": "株式会社シーエーダブル オープニングスタッフ募集（オープニング募集の沖縄居酒屋店舗スタッフ(正社員)）",
+      "link": "https://to.indeed.com/aa24ylkcrvgx",
+      "source": "Indeed",
+      "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.380Z"
+    },
+    {
+      "title": "株式会社シーエーダブル オープニングスタッフ募集（オープニング募集の沖縄居酒屋のホール・キッチンスタッフ）",
+      "link": "https://to.indeed.com/aavxytg8nn6b",
+      "source": "Indeed",
+      "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.381Z"
     },
     {
       "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
