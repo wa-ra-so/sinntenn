@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T03:37:57.420Z",
+  "generatedAt": "2026-07-27T07:38:18.795Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 56
+      "count": 55
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 34
+      "count": 33
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,25 +48,19 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 72
+      "count": 73
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 15
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
-      "ok": true,
-      "count": 17,
-      "mergedAt": "2026-07-27T03:42:55.308Z"
     }
   ],
   "itemCount": 216,
@@ -525,32 +519,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-20T15:15:08.679Z"
-    },
-    "ビーテーブル": {
-      "storeName": "ビーテーブル",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:08.747Z"
-    },
-    "boninbluecafe": {
-      "storeName": "BONIN BLUE CAFE",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-20T15:15:08.790Z"
     },
     "sushireona/玲桜奈東京23区に出店予定": {
       "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
@@ -1396,6 +1364,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-26T10:05:33.872Z"
+    },
+    "鉄火": {
+      "storeName": "鉄火",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001110105/?vos=nhppalsa000016",
+      "shopName": "鉄火 武士道 新橋烏森口店",
+      "address": "東京都港区新橋４-20-1",
+      "access": "新橋駅烏森口前の新橋西口通り左手",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 20,
+      "open": "月: 17:00～翌1:00 （料理L.O. 翌0:00 ドリンクL.O. 翌0:30）火: 17:00～翌4:00 （料理L.O. 翌3:00 ドリンクL.O. 翌3:30）水～日、祝日、祝前日: 16:00～翌4:00 （料理L.O. 翌3:00 ドリンクL.O. 翌3:30）",
+      "checkedAt": "2026-07-27T07:38:18.295Z"
+    },
+    "flour+water吉祥寺": {
+      "storeName": "flour+water吉祥寺",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-27T07:38:18.432Z"
     }
   },
   "market": {
@@ -1634,9 +1628,33 @@
     "世田谷区|バー": {
       "count": 165,
       "checkedAt": "2026-07-26T10:05:34.275Z"
+    },
+    "昭島市|居酒屋": {
+      "count": 19,
+      "checkedAt": "2026-07-27T07:38:18.572Z"
+    },
+    "西東京市|居酒屋": {
+      "count": 27,
+      "checkedAt": "2026-07-27T07:38:18.787Z"
+    },
+    "千代田区|ビストロ": {
+      "count": 38,
+      "checkedAt": "2026-07-27T07:38:18.795Z"
     }
   },
   "items": [
+    {
+      "title": "【東京都豊島区】イタリアンデリ「Piccola Aria」オープン！前菜やメインが選べるデリボックスを販売",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85YkNfSmQ5TV8yQmt0ZkJ0bVd2SWpSckx6UmVyN0R2Wjg5ODJLZmNCcHEycGFtYUF6M1c2b3otbWhZTFNhN2dnSGN0WHBhVk0xbV9n?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Mon, 27 Jul 2026 01:46:20 GMT",
+      "area": "豊島区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T07:38:14.089Z"
+    },
     {
       "title": "【東京都豊島区】イタリアンデリ「Piccola Aria」オープン！前菜やメインが選べるデリボックスを販売",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LNTJQQ0JtT1RpZmxtQXdBRVNRNG9vcUlFZFhjTTRlQkh2aExLdmk4ODBNOVY2emJnM3JDQ1gtY0F6QmtPYUtIUURHMA?oc=5",
@@ -1762,6 +1780,18 @@
       "firstSeenAt": "2026-07-23T12:11:01.290Z"
     },
     {
+      "title": "【東京都渋谷区】立ち食い寿司店「恵比寿駅前寿司」オープン！銀座品質の江戸前寿司を気軽に楽しめる",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QZHFod2lUYzRTM3F3TGxpQUFFajE5RVhIY2ZqakdXOVFiVmRENmtXY1RjeFN6MHpPS2lXQ0lFcEN5V3l4UURyRTY4TQ?oc=5",
+      "source": "ガジェット通信",
+      "pubDate": "Thu, 23 Jul 2026 05:30:04 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T07:38:14.089Z"
+    },
+    {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
       "source": "フードスタジアム",
@@ -1823,9 +1853,7 @@
       "source": "Indeed",
       "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
       "area": "中央区",
-      "genres": [
-        "バー"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
@@ -1914,7 +1942,7 @@
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80af59bb05d2",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "台東区",
+      "area": "中央区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T22:07:15.681Z"
@@ -3240,9 +3268,7 @@
       "source": "Indeed",
       "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
       "area": "江東区",
-      "genres": [
-        "カフェ"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
@@ -4076,30 +4102,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.136Z"
-    },
-    {
-      "title": "“大人が日常使いできる”新ビストロ「ビーテーブル」千駄ヶ谷にオープン｜レッツエンジョイ東京",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JazBjdzZialdmbTBaMV9qSGhuclhJNXJXTjJMbFQyNXR3RDhydHFtaWxfS3IySTRHbkpheXdTZ2ZkcEdZYlBnTUV2bldsVW8?oc=5",
-      "source": "レッツエンジョイ東京",
-      "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "ビストロ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.043Z"
-    },
-    {
-      "title": "【東京のジャングルカフェ】休日限定オープン！夢の島熱帯植物館「BONIN BLUE CAFE」で“トロピカル空間”を体験",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Wc0c5TC05bmY5dUhfOEd5X1pOeUhleGV4ak9SeHdkcHgyQWhuN2pKck5fRld6V2xzbXd3QkRPQ0VlOE51bFpJTW1IWQ?oc=5",
-      "source": "TABIZINE～人生に旅心を～",
-      "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.046Z"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-27T03:38:07.660Z",
+  "generatedAt": "2026-07-27T07:38:26.029Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 89
+      "count": 91
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -61,15 +61,9 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 3,
-      "mergedAt": "2026-07-27T03:42:55.383Z"
     }
   ],
-  "itemCount": 83,
+  "itemCount": 84,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -447,6 +441,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-27T03:38:06.772Z"
+    },
+    "ウェスティンホテル横浜": {
+      "storeName": "ウェスティンホテル横浜",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-27T07:38:26.029Z"
     }
   },
   "market": {
@@ -544,6 +551,18 @@
     }
   },
   "items": [
+    {
+      "title": "「ウェスティンホテル横浜」のインターナショナルビュッフェレストランがオープン1周年！記念ビュッフェを堪能",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBoRFBMSkg1Vm5qNTJGZmZjZ0tHZmZ3bi1DeHlJM0JvMjdxaDdNa1RzeDhaZW96aTdQUUc5NnpBajh0VjFUS0swYmpFbnU?oc=5",
+      "source": "Precious.jp",
+      "pubDate": "Sun, 26 Jul 2026 13:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T07:38:22.473Z"
+    },
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",

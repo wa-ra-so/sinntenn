@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T03:37:46.729Z",
+  "generatedAt": "2026-07-27T07:38:09.638Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 45
+      "count": 46
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
@@ -61,15 +61,9 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
-      "ok": true,
-      "count": 4,
-      "mergedAt": "2026-07-27T03:42:55.233Z"
     }
   ],
-  "itemCount": 127,
+  "itemCount": 126,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -252,19 +246,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-26T10:05:25.091Z"
-    },
-    "大衆割烹まるは": {
-      "storeName": "大衆割烹まるは",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004612468/?vos=nhppalsa000016",
-      "shopName": "大衆割烹 まるは船橋店",
-      "address": "千葉県船橋市本町１‐32-3 H1323ビル1F",
-      "access": "京成本線京成船橋駅西口より徒歩約1分 ",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 24,
-      "open": "月～金: 14:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）土、日: 13:00～22:30 （料理L.O. 21:30 ドリンクL.O. 22:00）祝日: 13:00～23:00 （料理L.O. 21:30 ドリンクL.O. 22:00）",
-      "checkedAt": "2026-07-12T03:52:46.340Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -700,7 +681,7 @@
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Sun, 26 Jul 2026 08:01:24 GMT",
+      "pubDate": "Sun, 26 Jul 2026 19:05:28 GMT",
       "area": "習志野市",
       "genres": [],
       "signal": "hiring",
@@ -929,6 +910,16 @@
       "firstSeenAt": "2026-07-19T07:29:45.005Z"
     },
     {
+      "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/154558/657528/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:16:01 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T07:34:52.657Z"
+    },
+    {
       "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1087,16 +1078,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.773Z"
-    },
-    {
-      "title": "「「うなぎ四代目菊川」成田空港店」オープニングスタッフ募集（料理長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/154558/657528/1_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 16 Jul 2026 09:32:39 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T07:34:52.657Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
@@ -2101,19 +2082,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.061Z"
-    },
-    {
-      "title": "【オープン日判明】京成船橋駅近くの居酒屋「大衆割烹まるは」5/28（木）14時からオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfeWk0YWhzUEVDcnAtd1JGQUpqNmVsa1RtU0hjMlQwRllZbnZjenM5MzJ4NmVNQmtqRVZuQVJYWWpWbm4yMEFlRzZnSklPb2V4dUE?oc=5",
-      "source": "船橋つうしん",
-      "pubDate": "Thu, 28 May 2026 07:00:00 GMT",
-      "area": "船橋市",
-      "genres": [
-        "居酒屋",
-        "割烹"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
     }
   ]
 }
