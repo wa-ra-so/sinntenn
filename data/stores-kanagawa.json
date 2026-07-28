@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-28T06:31:29.471Z",
+  "generatedAt": "2026-07-28T10:40:52.921Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 92
+      "count": 94
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 72
+      "count": 70
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -323,7 +323,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T07:35:15.171Z"
+      "checkedAt": "2026-07-28T10:40:52.788Z"
     },
     "分身ロボットカフェdawn": {
       "storeName": "分身ロボットカフェDAWN",
@@ -503,7 +503,7 @@
     },
     "大和市|焼肉": {
       "count": 23,
-      "checkedAt": "2026-07-21T07:35:15.415Z"
+      "checkedAt": "2026-07-28T10:40:52.921Z"
     },
     "横浜市|カフェ": {
       "count": 244,
@@ -582,9 +582,7 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Sat, 25 Jul 2026 02:07:19 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -639,6 +637,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T08:50:11.076Z"
+    },
+    {
+      "title": "「牛タン木村屋 溝口本店」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505288/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-28T10:40:48.704Z"
     },
     {
       "title": "連日行列の「寿司活」がラゾーナ川崎に誕生！2026年9月中旬オープン予定！流れる寿司をタッチで注文“エンタメレーン”初導入",
@@ -1486,18 +1494,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.011Z"
-    },
-    {
-      "title": "「肉のプロ」が地元・横浜に凱旋出店。焼肉「うしこぞう横浜店」6月1日オープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42dXlMZ3RCYmRGWlBnaTdEVVg5WTFFVnBsNlFLS3RTV3lZaWM4ZmFoXzBCWEp6bThtQTVmbTN6UnZGQjNQS0RWcnpxUjBGenlfejViNEMtRFpJMzFsVTdla3J2b0RONWZmRVE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "横浜市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:41.968Z"
     }
   ]
 }

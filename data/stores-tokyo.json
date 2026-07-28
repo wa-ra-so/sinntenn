@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:31:22.742Z",
+  "generatedAt": "2026-07-28T10:40:43.977Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 58
+      "count": 60
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 32
+      "count": 35
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 8
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 218,
+  "itemCount": 217,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -923,19 +923,6 @@
       "open": "",
       "checkedAt": "2026-07-24T03:17:17.577Z"
     },
-    "rhumblinetokyo": {
-      "storeName": "RHUMB LINE TOKYO",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-24T03:17:17.775Z"
-    },
     "thenikkawhiskytokyo": {
       "storeName": "THE NIKKA WHISKY TOKYO",
       "listed": false,
@@ -961,32 +948,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-24T03:17:17.578Z"
-    },
-    "bar36": {
-      "storeName": "BAR36",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ004628000/?vos=nhppalsa000016",
-      "shopName": "BAR36 八重洲店",
-      "address": "東京都中央区八重洲１-8-3 RHUMB LINE TOKYO 2F",
-      "access": "東京駅から徒歩3分",
-      "genre": "バー・カクテル",
-      "budget": "3001～4000円",
-      "capacity": 14,
-      "open": "月～日: 10:00～23:00 （料理L.O. 22:30 ドリンクL.O. 22:30）",
-      "checkedAt": "2026-07-17T00:05:53.876Z"
-    },
-    "bars(バーエス)": {
-      "storeName": "BAR S(バー エス)",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-24T03:17:18.748Z"
     },
     "肉だけ": {
       "storeName": "肉だけ",
@@ -1142,7 +1103,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T07:35:05.454Z"
+      "checkedAt": "2026-07-28T10:40:43.787Z"
     },
     "しろふわランドリー笹塚北店": {
       "storeName": "しろふわランドリー笹塚北店",
@@ -1455,6 +1416,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-28T02:54:19.828Z"
+    },
+    "木村屋本店門前仲町": {
+      "storeName": "木村屋本店 門前仲町",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000767308/?vos=nhppalsa000016",
+      "shopName": "木村屋本店 門前仲町店",
+      "address": "東京都江東区富岡１－７－５",
+      "access": "■徒歩1分【門前仲町･個室･居酒屋･食べ飲み放題】",
+      "genre": "居酒屋",
+      "budget": "3001～4000円",
+      "capacity": 98,
+      "open": "月～木、土、祝前日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）金: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）日、祝日: 12:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:00）",
+      "checkedAt": "2026-07-28T10:40:43.656Z"
     }
   },
   "market": {
@@ -1632,7 +1606,7 @@
     },
     "豊島区|イタリアン": {
       "count": 69,
-      "checkedAt": "2026-07-21T07:35:05.692Z"
+      "checkedAt": "2026-07-28T10:40:43.977Z"
     },
     "目黒区|カフェ": {
       "count": 57,
@@ -1849,6 +1823,16 @@
       "firstSeenAt": "2026-07-23T07:35:45.623Z"
     },
     {
+      "title": "「木村屋本店 虎ノ門一丁目」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505292/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-28T10:40:39.402Z"
+    },
+    {
       "title": "「木村屋本店 虎ノ門一丁目」オープニングスタッフ募集（ホールスタッフ）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505292/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1867,6 +1851,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T11:30:43.570Z"
+    },
+    {
+      "title": "「木村屋本店 門前仲町」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505301/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
+      "area": "江東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-28T10:40:39.402Z"
     },
     {
       "title": "ゼネラル・オイスター、既存店の業態転換を開始 7月24日、東京・上野に『MARE＆OYSTER』オープン",
@@ -3640,7 +3634,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.045Z"
     },
     {
-      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン",
+      "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0cHl0TE1TZWw5Zk9hMUtKTU1PYUZEbW1WMDluSk5MTDNTZkVCeThLR08weWNWa3FoLVNuRVphdGN4eVV5ejlTckpCbHE1X2M?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
@@ -4150,42 +4144,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-18T07:02:18.435Z"
-    },
-    {
-      "title": "葛飾北斎《富嶽三十六景》着想の浮世絵バー「BAR36」が、 東京駅徒歩1分のアパートメントホテル 「RHUMB LINE TOKYO」とともに2026年5月29日(金)オープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82NHpkR2JHWXF4WG1sU2J6d0xDZ3J1YU11RGh2TjRVLUZHSHZxMWJRRk12REdjeFBqN1NjelVVbmVoeGpoeUF1Y2luUElUWHFfUlRkQXdmV0FFQ0ZHcUFqSmItRWdnTGxuUEE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:05:49.249Z"
-    },
-    {
-      "title": "東京・銀座「BAR S(バー エス)」オープン11周年を記念し、希少な逸品を期間限定で展開",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EU2g5MUEyeXlxbHlHeTZqQTE4bHp2SzN6eFkwMko3MmlhY0ZLUWxSSEZONkx4UHowTXQxa0dfZWRic2JXUkZhLU5Ha2d2ZW1jYTRQZmJLR08tZzhiT2tNX2VNSk9YcEwzUXc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "中央区",
-      "genres": [
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:05:49.249Z"
-    },
-    {
-      "title": "江戸の浮世絵から着想を得たバー「BAR36」東京駅近くにオープン｜レッツエンジョイ東京",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzc0tQWDNlaHc3aXNQMHNvUGFlS0w1Nko1dzhmUjVwSmVYNVYyaW5QYnJsSjdoSkt5aEU3U015Q0k0UF9zOURTdFE1dTFLd2c?oc=5",
-      "source": "レッツエンジョイ東京",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:05:49.249Z"
     }
   ]
 }

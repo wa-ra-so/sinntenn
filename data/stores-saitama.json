@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:31:36.206Z",
+  "generatedAt": "2026-07-28T10:41:00.311Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 68
+      "count": 70
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 2
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -351,19 +351,6 @@
       "open": "",
       "checkedAt": "2026-07-21T22:07:33.433Z"
     },
-    "anellacafe(アネラカフェ)ふじみ野店": {
-      "storeName": "ANELLA CAFE（アネラカフェ）ふじみ野店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-23T07:36:07.038Z"
-    },
     "餃子居酒屋モモタロ": {
       "storeName": "餃子居酒屋 モモタロ",
       "listed": false,
@@ -440,7 +427,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T07:35:23.556Z"
+      "checkedAt": "2026-07-28T10:41:00.107Z"
     },
     "かにや川越下広谷店": {
       "storeName": "かにや 川越下広谷店",
@@ -571,6 +558,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-27T03:38:17.246Z"
+    },
+    "マルイファミリー志木店": {
+      "storeName": "マルイファミリー志木店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-28T10:41:00.310Z"
     }
   },
   "market": {
@@ -653,10 +653,6 @@
     "さいたま市|居酒屋": {
       "count": 306,
       "checkedAt": "2026-07-22T22:09:20.892Z"
-    },
-    "ふじみ野市|カフェ": {
-      "count": 2,
-      "checkedAt": "2026-07-23T07:36:07.302Z"
     },
     "草加市|居酒屋": {
       "count": 44,
@@ -803,7 +799,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364841/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市岩槻区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:51.133Z"
@@ -1811,6 +1807,16 @@
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
     },
     {
+      "title": "リンガーハット／東京都「京王笹塚店」埼玉県「マルイファミリー志木店」6月オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCWmFyOEswT3c4YjNSRU9YLUtra0FkWE5mNTV5X1NqVzJZbVJhdTMzbEhUa0wyLTZLSE5OUGl2d2UzNU9zb0RGelVrWmtRUjBURzlfTw?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "area": "志木市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-28T10:40:56.904Z"
+    },
+    {
       "title": "高校生の「あったらいいな」が実現。越谷市初の手話カフェが6月14日にオープン！",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE01aEoycjFMci1BTWlYbmVwNUsyQXNMTmxwVjBrUU5rMFl0U1lHY2pyVUtteDdJajBPYzNFQVpQVWxUSlJ1VFJn?oc=5",
       "source": "Newscast.jp",
@@ -1845,18 +1851,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.259Z"
-    },
-    {
-      "title": "譲渡実績3,500頭以上「ANELLA CAFE（アネラカフェ）ふじみ野店」2026年5月28日(木)オープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sS0FlYmFRQS00Nm9UUlB6emJKRXc2c3VOdWlrZlhUYU5CY3pBdzQtUUt1Nkk3QnFUUEpsWG5GZXl4bnZjNkMwbWRBYTdEbEVSN2NiQzJ2WUJNSVlwbXNsTzFjS21PVnpxNHc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "ふじみ野市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-16T07:26:07.994Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T06:31:14.911Z",
+  "generatedAt": "2026-07-28T10:40:34.993Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 10
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 123,
+  "itemCount": 121,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -674,6 +674,10 @@
     "浦安市|カフェ": {
       "count": 13,
       "checkedAt": "2026-07-24T03:17:05.434Z"
+    },
+    "館山市|レストラン": {
+      "count": 6,
+      "checkedAt": "2026-07-28T10:40:34.993Z"
     }
   },
   "items": [
@@ -693,7 +697,9 @@
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
       "pubDate": "Sun, 26 Jul 2026 22:31:00 GMT",
       "area": "館山市",
-      "genres": [],
+      "genres": [
+        "レストラン"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T15:05:31.963Z"
     },
@@ -2024,30 +2030,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "【千葉県佐倉市】佐倉市立美術館に新しいカフェがオープン（6/10）",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBINU91cU9yNFBBQXFlc0ZscUFnRzNIM1BnLWYtNGhyTF9qQ0FTS2VtcmNHUDZ6T05MMVJxZG13SEg4MGZHcGFpYzdxeXNJWFgxcmNMRDJJdm1hSlplT29GQnBLSWFTTnJuZkE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "佐倉市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "千葉県「佐倉市立美術館」にカフェがオープン！多彩なメニューをラインナップ｜レッツエンジョイ東京",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3ZXhGQVF3WkxuLXNIYUdxR1pzSldNOUdVeXVXVlVUQU4yZzgyX29ZTV9QU1gwekRkZjR6TFMwR09OTXVtTUdTRlZybk9PREE?oc=5",
-      "source": "レッツエンジョイ東京",
-      "pubDate": "Fri, 29 May 2026 07:00:00 GMT",
-      "area": "佐倉市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
     }
   ]
 }
