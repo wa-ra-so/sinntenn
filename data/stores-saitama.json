@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T02:54:44.775Z",
+  "generatedAt": "2026-07-28T06:31:36.206Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 66
+      "count": 68
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -803,7 +803,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364841/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "さいたま市岩槻区",
+      "area": "さいたま市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:51.133Z"
@@ -1751,7 +1751,7 @@
       "genres": [
         "中華"
       ],
-      "signal": "hiring",
+      "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.272Z"
     },
     {
