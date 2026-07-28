@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T11:30:59.513Z",
+  "generatedAt": "2026-07-28T02:54:44.775Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 70
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 65
+      "count": 66
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 99,
+  "itemCount": 98,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -76,7 +76,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:29.923Z"
+      "checkedAt": "2026-07-28T02:54:42.701Z"
     },
     "レストラン": {
       "storeName": "レストラン",
@@ -102,7 +102,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:29.763Z"
+      "checkedAt": "2026-07-28T02:54:42.515Z"
     },
     "店舗スタッフ": {
       "storeName": "店舗スタッフ",
@@ -115,7 +115,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.093Z"
+      "checkedAt": "2026-07-28T02:54:42.130Z"
     },
     "カフェ・ラデュレ": {
       "storeName": "カフェ・ラデュレ",
@@ -128,7 +128,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.092Z"
+      "checkedAt": "2026-07-28T02:54:41.539Z"
     },
     "369basepipi": {
       "storeName": "369BASE pipi",
@@ -141,7 +141,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.192Z"
+      "checkedAt": "2026-07-28T02:54:42.694Z"
     },
     "セルフカフェ": {
       "storeName": "セルフカフェ",
@@ -154,7 +154,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.406Z"
+      "checkedAt": "2026-07-28T02:54:42.914Z"
     },
     "焼肉定食ぎゅうまおう": {
       "storeName": "焼肉定食ぎゅうまおう",
@@ -167,7 +167,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.365Z"
+      "checkedAt": "2026-07-28T02:54:43.321Z"
     },
     "新越谷varie": {
       "storeName": "新越谷VARIE",
@@ -193,7 +193,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.467Z"
+      "checkedAt": "2026-07-28T02:54:43.467Z"
     },
     "蕎⻨きりみよた与野店": {
       "storeName": "蕎⻨きり みよた 与野店",
@@ -206,7 +206,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:29.818Z"
+      "checkedAt": "2026-07-28T02:54:41.564Z"
     },
     "担々麺と麻婆豆腐ととら": {
       "storeName": "担々麺と麻婆豆腐 ととら",
@@ -219,7 +219,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.668Z"
+      "checkedAt": "2026-07-28T02:54:43.093Z"
     },
     "蕎⻨きりみよたレイクタウン店": {
       "storeName": "蕎⻨きり みよた レイクタウン店",
@@ -232,7 +232,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.698Z"
+      "checkedAt": "2026-07-28T02:54:43.496Z"
     },
     "ビアダイニングオープニングスタッフ大募集": {
       "storeName": "ビアダイニング オープニングスタッフ大募集",
@@ -245,7 +245,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T15:15:30.767Z"
+      "checkedAt": "2026-07-28T02:54:43.703Z"
     },
     "ファミリー食堂山田うどん食堂北中店": {
       "storeName": "ファミリー食堂 山田うどん食堂 北中店",
@@ -258,7 +258,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T22:11:31.624Z"
+      "checkedAt": "2026-07-28T02:54:41.942Z"
     },
     "ワインの酒場。dipuntoさいたま新都心店": {
       "storeName": "ワインの酒場。DiPUNTO さいたま新都心店",
@@ -271,7 +271,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T22:11:31.751Z"
+      "checkedAt": "2026-07-28T02:54:41.953Z"
     },
     "ワインの酒場。dipunto大宮西口店": {
       "storeName": "ワインの酒場。DiPUNTO 大宮西口店",
@@ -284,7 +284,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T22:11:31.665Z"
+      "checkedAt": "2026-07-28T02:54:42.320Z"
     },
     "小川菊": {
       "storeName": "小川菊",
@@ -297,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-20T22:11:31.980Z"
+      "checkedAt": "2026-07-28T02:54:43.087Z"
     },
     "津久司": {
       "storeName": "津久司",
@@ -576,63 +576,63 @@
   "market": {
     "川口市|居酒屋": {
       "count": 90,
-      "checkedAt": "2026-07-20T15:15:31.295Z"
+      "checkedAt": "2026-07-28T02:54:44.125Z"
     },
     "川口市|レストラン": {
       "count": 20,
-      "checkedAt": "2026-07-20T15:15:31.316Z"
+      "checkedAt": "2026-07-28T02:54:44.321Z"
     },
     "さいたま市|バル": {
       "count": 42,
-      "checkedAt": "2026-07-20T15:15:31.177Z"
+      "checkedAt": "2026-07-28T02:54:44.127Z"
     },
     "川越市|カフェ": {
       "count": 26,
-      "checkedAt": "2026-07-20T15:15:31.326Z"
+      "checkedAt": "2026-07-28T02:54:44.112Z"
     },
     "深谷市|レストラン": {
       "count": 4,
-      "checkedAt": "2026-07-20T15:15:31.454Z"
+      "checkedAt": "2026-07-28T02:54:43.906Z"
     },
     "さいたま市|カフェ": {
       "count": 74,
-      "checkedAt": "2026-07-20T15:15:31.495Z"
+      "checkedAt": "2026-07-28T02:54:44.369Z"
     },
     "さいたま市大宮区|カフェ": {
       "count": 29,
-      "checkedAt": "2026-07-20T15:15:31.169Z"
+      "checkedAt": "2026-07-28T02:54:43.934Z"
     },
     "川口市|イタリアン": {
       "count": 11,
-      "checkedAt": "2026-07-20T15:15:31.604Z"
+      "checkedAt": "2026-07-28T02:54:44.350Z"
     },
     "本庄市|カフェ": {
       "count": 3,
-      "checkedAt": "2026-07-20T15:15:31.599Z"
+      "checkedAt": "2026-07-28T02:54:44.528Z"
     },
     "ふじみ野市|ビストロ": {
       "count": 1,
-      "checkedAt": "2026-07-20T15:15:31.731Z"
+      "checkedAt": "2026-07-28T02:54:44.728Z"
     },
     "川越市|焼肉": {
       "count": 20,
-      "checkedAt": "2026-07-20T15:15:31.733Z"
+      "checkedAt": "2026-07-28T02:54:44.734Z"
     },
     "熊谷市|中華": {
       "count": 9,
-      "checkedAt": "2026-07-20T15:15:31.779Z"
+      "checkedAt": "2026-07-28T02:54:44.546Z"
     },
     "東松山市|ダイニング": {
       "count": 3,
-      "checkedAt": "2026-07-20T15:15:31.875Z"
+      "checkedAt": "2026-07-28T02:54:44.775Z"
     },
     "越谷市|カフェ": {
       "count": 16,
-      "checkedAt": "2026-07-20T15:15:31.895Z"
+      "checkedAt": "2026-07-28T02:54:43.906Z"
     },
     "川口市|カフェ": {
       "count": 15,
-      "checkedAt": "2026-07-20T15:15:31.649Z"
+      "checkedAt": "2026-07-28T02:54:44.580Z"
     },
     "川口市|バル": {
       "count": 10,
@@ -724,7 +724,7 @@
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
-      "pubDate": "Mon, 27 Jul 2026 06:43:13 GMT",
+      "pubDate": "Mon, 27 Jul 2026 18:09:11 GMT",
       "area": "狭山市",
       "genres": [],
       "signal": "hiring",
@@ -1857,18 +1857,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-16T07:26:07.994Z"
-    },
-    {
-      "title": "株式会社ロストマン オープニングスタッフ募集（オープニングスタッフ 水炊きと焼き鳥居酒屋でのキッチン）",
-      "link": "https://to.indeed.com/aahld42m8d8b",
-      "source": "Indeed",
-      "pubDate": "Fri, 29 May 2026 00:00:00 GMT",
-      "area": "さいたま市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T00:10:55.258Z"
     }
   ]
 }
