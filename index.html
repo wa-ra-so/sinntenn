@@ -95,8 +95,12 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
    件数の多い県（東京都は181店舗）だと一覧まるごとの差し替えが1回のタスクで
    数百msブロックし、県切り替え時に「がたつく」原因になっていた
    （contain-intrinsic-sizeは未計算時の仮の高さ。実際のサイズは表示時に測り直される） */
-.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize .4s var(--ease) both;content-visibility:auto;contain-intrinsic-size:0 100px;}
-#app-content-slot.slow-entrance .store-row{animation-duration:1.3s;}
+/* 行ごとに時間差でフェードインさせていたが、件数が多いと切り替えのたびに
+   0.5秒以上かけて上から順にポップインする様子が「がたつき」に見えるとの指摘。
+   list-card自体の一括フェード（上のresult-count/list-cardのanimation）だけに絞り、
+   行単位のアニメーションは無くして読み込み後すぐ内容が確定した見た目にする
+   （アタックリスト＝hppzaikoの一覧切り替えと同じ、一括切り替えの挙動に合わせた） */
+.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);content-visibility:auto;contain-intrinsic-size:0 100px;}
 .store-row:last-child{border-bottom:none;}
 .store-row:hover{background:#f8fafc;}
 .row-date{flex-shrink:0;width:52px;text-align:center;padding-top:2px;}
@@ -450,18 +454,6 @@ window.addEventListener('popstate', () => {
   load();
 });
 
-// サイトを開いた最初の1回だけ、上から順（ヘッダー→KPI→フィルター→一覧）に
-// ゆっくりフェードインさせるための行ごとの遅延。listCard自体が現れ始める（.16s）
-// 少し後から1件ずつ続き、各行自体は長め（1.3s）にゆっくりフェードする。
-// 2回目以降（県切り替え・フィルター操作）はslow=falseの短い遅延にして、
-// 切り替え直後の一覧がほぼ透明＝空白に見える時間を作らないようにする。
-// 件数が多いリストでいつまでも待たされないよう、途中から遅延を頭打ちにする
-function rowDelay(i, slow) {
-  return slow
-    ? `animation-delay:${(0.2 + Math.min(i, 12) * 0.07).toFixed(2)}s`
-    : `animation-delay:${(Math.min(i, 12) * 0.02).toFixed(2)}s`;
-}
-
 let firstContentPaint = true;
 
 // 県切り替えのたびにfetchが1回走るため、素早く連続でタブを切り替えると古い
@@ -625,7 +617,7 @@ function render() {
         const day = isNaN(d.getTime()) ? '—' : String(d.getDate());
         const mo = isNaN(d.getTime()) ? '' : `${d.getMonth()+1}月`;
         return `
-        <div class="store-row" data-group="${gi}" style="${rowDelay(gi, slow)}">
+        <div class="store-row" data-group="${gi}">
           <div class="row-date">
             <div class="d-day">${day}</div>
             <div class="d-mo">${mo}</div>
