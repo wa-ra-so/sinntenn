@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-07-29T00:06:40.707Z"
     }
   ],
-  "itemCount": 85,
+  "itemCount": 88,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -691,6 +697,16 @@
       "firstSeenAt": "2026-07-23T11:23:19.114Z"
     },
     {
+      "title": "「DINING BAR Lately」オープニングスタッフ募集（オープニングスタッフ/ランチの飲食スタッフ【未経験歓迎】）",
+      "link": "https://to.indeed.com/aac6yxqy4yhk",
+      "source": "Indeed",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.677Z"
+    },
+    {
       "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
       "source": "求人ボックス（マイナビ転職.）",
@@ -709,6 +725,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.015Z"
+    },
+    {
+      "title": "「RINGO BAR」オープニングスタッフ募集（バーテンダー/BARのオープニングスタッフ）",
+      "link": "https://to.indeed.com/aa9w7pbmvqsb",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.706Z"
     },
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
@@ -1452,6 +1480,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.965Z"
+    },
+    {
+      "title": "株式会社尾粂 オープニングスタッフ募集（和食品セレクトショップの接客・販売スタッフ(オープニング)）",
+      "link": "https://to.indeed.com/aayszkt6zhgy",
+      "source": "Indeed",
+      "pubDate": "Sun, 07 Jun 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.698Z"
     },
     {
       "title": "【藤沢市】「cafe&bar BUU」が2026年6月3日グランドオープン！",
