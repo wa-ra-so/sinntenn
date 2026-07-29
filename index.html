@@ -33,7 +33,7 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .app{max-width:960px;margin:0 auto;padding:28px 16px 80px;}
 
 /* ── HEADER ── */
-.app-header{margin-bottom:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;animation:materialize .7s var(--ease) both;}
+.app-header{margin-bottom:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
 .app-icon{width:42px;height:42px;background:var(--blue);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:21px;flex-shrink:0;}
 .app-title{font-size:19px;font-weight:700;letter-spacing:-.02em;}
 .app-sub{font-size:11.5px;color:var(--mid);margin-top:2px;}
@@ -50,11 +50,10 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .tab-pill.no-anim{transition:none;}
 
 /* ── KPI ROW ── */
-.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px;animation:materialize .3s var(--ease) both;}
-/* 上から順のゆっくりしたフェードは初回表示のみ（#app-content-slot.slow-entranceの
-   時だけ）。県切り替え・フィルター操作の再描画は既定の短いフェードのままにして、
-   フェードし切るまでの間ほぼ透明＝空白に見える時間を作らない */
-#app-content-slot.slow-entrance .kpi-row{animation-duration:.7s;animation-delay:.04s;}
+/* KPIの数字だけは毎回フェードインさせる（hppzaikoと同じ、初回/切り替えを問わない
+   一律の挙動）。フィルターカードや一覧全体はアニメーションさせず即座に表示することで、
+   数字の変化に視線が行きつつも「何度もフェードして待たされる」感じを無くしている */
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px;animation:materialize .75s var(--ease) both;}
 @media(max-width:640px){.kpi-row{grid-template-columns:1fr 1fr;}}
 .kpi{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);position:relative;}
 .kpi.clickable{cursor:pointer;transition:border-color .15s var(--ease),box-shadow .15s var(--ease),transform .1s var(--ease);}
@@ -72,8 +71,7 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 /* position+z-indexで独立したスタッキングコンテキストを作り、開いたプルダウン（.dd-panel）が
    常に下のlist-cardより手前に描画されるようにする（<details>要素はブラウザによって
    z-indexの扱いに癖があり、これが無いとSafari等で下の一覧行と重なって見えることがある） */
-.filter-card{position:relative;z-index:20;background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px;box-shadow:var(--shadow);animation:materialize .3s var(--ease) .02s both;}
-#app-content-slot.slow-entrance .filter-card{animation-duration:.7s;animation-delay:.1s;}
+.filter-card{position:relative;z-index:20;background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);padding:14px 16px;margin-bottom:14px;box-shadow:var(--shadow);}
 .filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;align-items:center;}
 .filter-row:last-child{margin-bottom:0;}
 .filter-row input[type=text]{flex:1;min-width:180px;padding:9px 12px;border:1.5px solid var(--faint);border-radius:8px;font-size:13px;font-family:inherit;color:var(--ink);background:var(--white);outline:none;transition:border-color .15s var(--ease),box-shadow .15s var(--ease);}
@@ -87,20 +85,19 @@ body{font-family:'DM Sans','Noto Sans JP',sans-serif;background:var(--bg);color:
 .clear-btn:hover{color:var(--mid);}
 
 /* ── LIST ── */
-.result-count{font-size:11px;color:var(--mid);margin-bottom:8px;padding-left:2px;animation:materialize .3s var(--ease) .04s both;}
-.list-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;animation:materialize .3s var(--ease) .04s both;}
-#app-content-slot.slow-entrance .result-count,
-#app-content-slot.slow-entrance .list-card{animation-duration:.6s;animation-delay:.16s;}
+.result-count{font-size:11px;color:var(--mid);margin-bottom:8px;padding-left:2px;}
+.list-card{background:var(--white);border:1px solid var(--faint);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;}
 /* content-visibility:autoで画面外の行のレイアウト・描画計算を後回しにする。
    件数の多い県（東京都は181店舗）だと一覧まるごとの差し替えが1回のタスクで
    数百msブロックし、県切り替え時に「がたつく」原因になっていた
    （contain-intrinsic-sizeは未計算時の仮の高さ。実際のサイズは表示時に測り直される） */
-/* 行ごとに時間差でフェードインさせていたが、件数が多いと切り替えのたびに
-   0.5秒以上かけて上から順にポップインする様子が「がたつき」に見えるとの指摘。
-   list-card自体の一括フェード（上のresult-count/list-cardのanimation）だけに絞り、
-   行単位のアニメーションは無くして読み込み後すぐ内容が確定した見た目にする
-   （アタックリスト＝hppzaikoの一覧切り替えと同じ、一括切り替えの挙動に合わせた） */
-.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);content-visibility:auto;contain-intrinsic-size:0 100px;}
+/* 行ごとに時間差でフェードインさせる（hppzaiko＝アタックリストと同じrowDelay方式）。
+   以前これを完全に廃止したが、hppzaikoの実装を確認するとフェード自体は毎回行っており、
+   「がたつき」の主因は段階フェード自体ではなく、県切替時に旧データのまま同期render()を
+   呼んだ直後にfetch完了でもう一度render()する二重描画（別途修正済み）だった。
+   フィルターカードや一覧コンテナ自体はアニメーションさせず（hppzaikoも同様）、
+   KPIの数字と行単位のフェードだけに絞ることで、待たされる感じを出さずに動きを残す */
+.store-row{display:flex;gap:14px;padding:13px 16px;border-bottom:1px solid var(--hairline);transition:background .15s var(--ease);animation:materialize .8s var(--ease) both;content-visibility:auto;contain-intrinsic-size:0 100px;}
 .store-row:last-child{border-bottom:none;}
 .store-row:hover{background:#f8fafc;}
 .row-date{flex-shrink:0;width:52px;text-align:center;padding-top:2px;}
@@ -457,7 +454,11 @@ window.addEventListener('popstate', () => {
   load();
 });
 
-let firstContentPaint = true;
+// 一覧行を上から順にフェードインさせるための行ごとの遅延（hppzaikoのrowDelayと同じ式）。
+// 件数が多いリストでいつまでも待たされないよう、途中から遅延を頭打ちにする
+function rowDelay(i) {
+  return `animation-delay:${(Math.min(i, 10) * 0.08).toFixed(2)}s`;
+}
 
 // 県切り替えのたびにfetchが1回走るため、素早く連続でタブを切り替えると古い
 // fetchが後から解決してデータを巻き戻す恐れがある。世代番号で「自分より新しい
@@ -497,13 +498,6 @@ function render() {
     root.innerHTML = `<div class="loading">読み込み中…</div>`;
     return;
   }
-
-  // ゆっくり上から順にフェードインする演出は、サイトを開いた最初の1回だけにする。
-  // 県切り替えやフィルター操作のたびに毎回リプレイすると、フェードし切るまでの
-  // 数百ミリ秒がほぼ透明＝「何も無い」ように見えてしまい、読み込み中の空白と
-  // 変わらない体験になるため
-  const slow = firstContentPaint;
-  firstContentPaint = false;
 
   const items = data.items || [];
   const areaOptions = [...new Set(items.map(i => i.area).filter(Boolean))].sort();
@@ -620,7 +614,7 @@ function render() {
         const day = isNaN(d.getTime()) ? '—' : String(d.getDate());
         const mo = isNaN(d.getTime()) ? '' : `${d.getMonth()+1}月`;
         return `
-        <div class="store-row" data-group="${gi}">
+        <div class="store-row" data-group="${gi}" style="${rowDelay(gi)}">
           <div class="row-date">
             <div class="d-day">${day}</div>
             <div class="d-mo">${mo}</div>
@@ -646,7 +640,6 @@ function render() {
     </div>`;
   }
 
-  root.classList.toggle('slow-entrance', slow);
   root.innerHTML = kpiRow + filterCard + listHtml + renderDetail(groups);
 
   const qInput = document.getElementById('q-input');
