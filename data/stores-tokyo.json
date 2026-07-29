@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T06:36:11.561Z",
+  "generatedAt": "2026-07-29T10:44:40.360Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 53
+      "count": 47
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 70
+      "count": 72
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 8
+      "count": 10
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 231,
+  "itemCount": 232,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -596,7 +596,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T07:37:41.122Z"
+      "checkedAt": "2026-07-29T10:44:40.008Z"
     },
     "l’astokyo": {
       "storeName": "L’AS TOKYO",
@@ -609,7 +609,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T07:37:40.938Z"
+      "checkedAt": "2026-07-29T10:44:39.800Z"
     },
     "無添蔵新宿店": {
       "storeName": "無添蔵 新宿店",
@@ -622,7 +622,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T07:37:41.148Z"
+      "checkedAt": "2026-07-29T10:44:40.150Z"
     },
     "恵比寿駅前寿司": {
       "storeName": "恵比寿駅前寿司",
@@ -635,7 +635,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T07:37:40.676Z"
+      "checkedAt": "2026-07-29T10:44:39.425Z"
     },
     "crêpedujour": {
       "storeName": "Crêpe du jour",
@@ -1442,6 +1442,19 @@
       "capacity": 37,
       "open": "月～金、祝前日: 11:00～15:0017:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
       "checkedAt": "2026-07-29T00:07:52.086Z"
+    },
+    "もつきむ飯田橋駅前": {
+      "storeName": "もつきむ 飯田橋駅前",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-29T10:44:39.944Z"
     }
   },
   "market": {
@@ -1547,15 +1560,15 @@
     },
     "港区|フレンチ": {
       "count": 70,
-      "checkedAt": "2026-07-22T07:37:41.302Z"
+      "checkedAt": "2026-07-29T10:44:40.326Z"
     },
     "目黒区|フレンチ": {
       "count": 14,
-      "checkedAt": "2026-07-22T07:37:41.286Z"
+      "checkedAt": "2026-07-29T10:44:40.360Z"
     },
     "新宿区|寿司": {
-      "count": 101,
-      "checkedAt": "2026-07-22T07:37:41.448Z"
+      "count": 100,
+      "checkedAt": "2026-07-29T10:44:40.349Z"
     },
     "武蔵野市|フレンチ": {
       "count": 9,
@@ -1896,6 +1909,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-28T10:40:39.402Z"
+    },
+    {
+      "title": "「もつきむ 飯田橋駅前」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623892/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
+      "area": "千代田区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T10:44:33.659Z"
     },
     {
       "title": "「木村屋本店 虎ノ門一丁目」オープニングスタッフ募集（ホールスタッフ）",
@@ -4162,7 +4185,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.042Z"
     },
     {
-      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン",
+      "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
       "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
