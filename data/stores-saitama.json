@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
+      "ok": true,
+      "count": 5,
+      "mergedAt": "2026-07-29T00:06:40.790Z"
     }
   ],
-  "itemCount": 98,
+  "itemCount": 103,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -877,6 +883,18 @@
       "firstSeenAt": "2026-07-27T03:42:55.469Z"
     },
     {
+      "title": "株式会社パシフィックプロジェクト オープニングスタッフ募集（オープニング┃ハンバーグ専門店スタッフ(ホール・キッチン)）",
+      "link": "https://to.indeed.com/aaxtc7v2yymc",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.776Z"
+    },
+    {
       "title": "株式会社一家ダイニングプロジェクト オープニングスタッフ募集（博多屋台ダイニングのホールスタッフ/オープニング）",
       "link": "https://to.indeed.com/aacbzwhpvxbs",
       "source": "Indeed",
@@ -1181,6 +1199,18 @@
       "firstSeenAt": "2026-07-24T00:10:55.257Z"
     },
     {
+      "title": "株式会社ヨシックスフーズ オープニングスタッフ募集（オープニング募集!すし居酒屋のキッチンスタッフ）",
+      "link": "https://to.indeed.com/aa6nrcfqcksh",
+      "source": "Indeed",
+      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "area": "深谷市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.789Z"
+    },
+    {
       "title": "株式会社ジーアフター オープニングスタッフ募集（9割が未経験スタートの「仕入れSTAFF」月給38万&年休1…）",
       "link": "https://tenshoku.mynavi.jp/jobinfo-229877-1-113-1/?utm_source=kyujinbox&utm_medium=display&utm_term=11224",
       "source": "求人ボックス（マイナビ転職.）",
@@ -1298,6 +1328,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
+    },
+    {
+      "title": "株式会社フォンスＣＢ オープニングスタッフ募集（【オープニングスタッフ】カフェのキッチンスタッフ|グランスタ…）",
+      "link": "https://to.indeed.com/aaq6ccfghrsv",
+      "source": "Indeed",
+      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.788Z"
     },
     {
       "title": "川口市立美術館に新オープンする「レストラン」の開業日が決定してる！",
@@ -1524,6 +1566,32 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.119Z"
+    },
+    {
+      "title": "「ホテルグローバルビュー浦和」オープニングスタッフ募集（ホールスタッフ【新規オープニング募集!/シティホテル】）",
+      "link": "https://to.indeed.com/aadccfbv4kng",
+      "source": "Indeed",
+      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.788Z"
+    },
+    {
+      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランの接客・調理スタ…）",
+      "link": "https://to.indeed.com/aawv6v9qkfxt",
+      "source": "Indeed",
+      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "レストラン",
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.789Z"
     },
     {
       "title": "シーシャ半額キャンペーン開催！「シーシャ カフェ&バー C.STAND（シースタンド）大宮南銀座通り店」2026年6月30日（火）グランドオープン♪シーシャ半額になるキャンペーンも開催！",

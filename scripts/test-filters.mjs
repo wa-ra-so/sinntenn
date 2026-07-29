@@ -263,6 +263,11 @@ check(connectorJobToItem({
   title: 'オープニングスタッフ募集 カフェホール', company: '株式会社テスト',
   location: '埼玉県', postedOn: 'June 30, 2026', url: 'https://to.indeed.com/test5',
 }, PREFECTURES.saitama) === null, 'コネクタ変換: 勤務地が県名のみ（市区町村不明）は掲載しない（監査と同一基準）');
+// 2026-07-29 Indeed収集ルーティンで発覚: 「モダンCLUB」はキャバクラの婉曲表現で飲食店ではない
+check(connectorJobToItem({
+  title: '<オープニング>【大宮で"ラフ"と"収入"両方GET】モダンCLUBの接客スタッフ', company: '株式会社グリーンカンパニー',
+  location: 'さいたま市 仲町', postedOn: 'June 04, 2026', url: 'https://to.indeed.com/test6',
+}, PREFECTURES.saitama) === null, 'コネクタ変換: モダンCLUB（キャバクラ系）の求人が除外される');
 
 // ── 求人ボックス形式の変換（美容業界専門サイト「リジョブ」を掲載元名で丸ごと除外） ──
 // 2026-07-15 ユーザー報告で発覚: 「美容師」等のキーワードだけに頼ると言い回しの揺れで
