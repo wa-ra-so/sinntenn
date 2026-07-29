@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T00:07:53.224Z",
+  "generatedAt": "2026-07-29T03:13:46.617Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 56
+      "count": 54
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 33
+      "count": 32
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 67
+      "count": 70
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 12
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 230,
+  "itemCount": 231,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1711,7 +1711,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Tue, 28 Jul 2026 09:50:52 GMT",
+      "pubDate": "Tue, 28 Jul 2026 20:53:05 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -2138,6 +2138,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-21T15:07:07.497Z"
+    },
+    {
+      "title": "【東京都渋谷区】ランドリーにセルフ式カフェを併設した「しろふわランドリー笹塚北店」オープン！",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBraTZZbmRRaF9rcmx6R0swWExhczdOZFRXN202enN5RU9WdzZVbGRvQk5HWEJ0UUdNdDdXZXYxbGhpUnlDVUhjX0YyeEpxYzg?oc=5",
+      "source": "TRILL",
+      "pubDate": "Tue, 21 Jul 2026 02:07:07 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-29T03:13:42.892Z"
     },
     {
       "title": "西池袋に“選べるイタリアンデリ”が8月4日グランドオープン。hotel hisoca ikebukuro運営会社が手がける、前菜とメインを自由に組み合わせる「Piccola Aria」のデリボックス",
@@ -4232,7 +4244,7 @@
       "firstSeenAt": "2026-07-23T11:23:19.036Z"
     },
     {
-      "title": "話題の新店「FORME.」のレモンパイとバスクチーズケーキ【ミスター黒猫の東京スイーツトレンドVol.104】｜るるぶ&more.",
+      "title": "話題の新店「FORME.」のレモンパイとバスクチーズケーキ【ミスター黒猫の東京スイーツトレンドVol.104】",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIbnU5Q21CZGhVZnl4aHV3Tms0UXFsZXRqaEFBc082R2RfOWRKWkN1VmxQRlA2V21pV1VNcUJNNzU1RGFxUGFsUThnMFNFUVVw?oc=5",
       "source": "るるぶWeb",
       "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",

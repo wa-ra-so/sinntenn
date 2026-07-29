@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T00:07:42.367Z",
+  "generatedAt": "2026-07-29T03:13:28.211Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 10
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 47
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 12
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -1259,6 +1259,16 @@
     },
     {
       "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54TG1FcXpZTzV0TXFqZU1iVFg3QUk0QnZjc1BCRG82VXVDYU52RTVFdUxsLXczTmJLb2oxNkRtZjdacEFwYk9xejYxSXNiRDlVUGxKc2JrUXEwQmh1V0huUGZ5Y19VUGxMeEE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "area": "鴨川市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-15T13:21:34.512Z"
+    },
+    {
+      "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uTlpWdTZOM3RFNGRkRnNwZkd3YTljTi1DRlROVUo5dXRMYW9CSUNpV28wbUEtMUNtQ29ubmxTZmRBRTZmU0dHeFdXWDlQSE5IQnZjaXY1enExVlFyLWUzYmFDRDBWRzVHSHN1clJnQ0tRa1M0Wkc5Slhmbw?oc=5",
       "source": "ニコニコニュース",
       "pubDate": "Tue, 14 Jul 2026 02:48:19 GMT",
@@ -1266,16 +1276,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:14.270Z"
-    },
-    {
-      "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54TG1FcXpZTzV0TXFqZU1iVFg3QUk0QnZjc1BCRG82VXVDYU52RTVFdUxsLXczTmJLb2oxNkRtZjdacEFwYk9xejYxSXNiRDlVUGxKc2JrUXEwQmh1V0huUGZ5Y19VUGxMeEE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Tue, 14 Jul 2026 01:00:02 GMT",
-      "area": "鴨川市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T13:21:34.512Z"
     },
     {
       "title": "「とんかつ神楽坂さくら 君津店」オープニングスタッフ募集（和食/店長・店長候補/口コミ高評価の繁盛店店長候補を大募集）",
