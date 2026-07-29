@@ -418,12 +418,15 @@ function renderHeader() {
 }
 
 // 県切り替えを<a href>によるページ全体の再読み込みではなくfetchでの差し替えにする。
-// ページが丸ごと作り直されると、その間のDOMが消えてしまいピルのスライドやコンテンツの
-// フェードを見せる余地が無くなる（要素が破棄されると"変化"ではなく"消えて現れる"に
-// なってしまう）ため
+// ページが丸ごと作り直されると、その間のDOMが消えてしまいピルのスライドアニメーションを
+// 見せる余地が無くなる（要素が破棄されると"移動"ではなく"消えて現れる"になってしまう）ため
 // 切り替え直後に前の県のstate（data/error）をあえて残す共通部分。「読み込み中」の
-// 空白を挟まず、fetchが終わるまで前のデータを表示し続けたまま裏で差し替える
-// （hppzaikoのswitchPrefと同じ設計）。dataは load() が上書きするまでそのまま
+// 空白を挟まず、fetchが終わるまで前のデータをそのまま表示し続け、新データが届いた
+// タイミングで一度だけ丸ごと差し替える（hppzaikoのswitchPrefと同じ設計。以前はここで
+// render()も同期的に呼んでいたが、それだと「古いデータで1回描画→fetch完了後にもう1回
+// 描画」の二重描画になり、KPIカードや一覧のフェードインが2回連続で再生されて
+// 「一度表示されてからまたフェードする」ように見えていた。タブのピル移動だけ即座に
+// 反映し、本文の再描画はload()完了後の1回にまとめることでこれを解消する）
 function resetFiltersForPrefSwitch() {
   state = {
     ...state, detail: null, openDD: '',
@@ -440,7 +443,7 @@ async function switchPref(id) {
   if (PREF_ID === 'chiba') url.search = ''; else url.searchParams.set('pref', PREF_ID);
   history.pushState(null, '', url);
   resetFiltersForPrefSwitch();
-  render();
+  updatePrefTabsActive(false);
   await load();
 }
 
@@ -450,7 +453,7 @@ window.addEventListener('popstate', () => {
   PREF_ID = Object.prototype.hasOwnProperty.call(PREFS, p) ? p : 'chiba';
   PREF = PREFS[PREF_ID];
   resetFiltersForPrefSwitch();
-  render();
+  updatePrefTabsActive(false);
   load();
 });
 
