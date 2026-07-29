@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:41:00.311Z",
+  "generatedAt": "2026-07-29T00:08:19.251Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,37 +36,31 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 7
+      "count": 8
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 70
+      "count": 65
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 2
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
-      "ok": true,
-      "count": 5,
-      "mergedAt": "2026-07-29T00:06:40.790Z"
     }
   ],
   "itemCount": 103,
@@ -316,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:33.223Z"
+      "checkedAt": "2026-07-29T00:08:18.462Z"
     },
     "スパゲッティーのパンチョ新座店野火止店": {
       "storeName": "スパゲッティーのパンチョ 新座店野火止店",
@@ -329,7 +323,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:33.493Z"
+      "checkedAt": "2026-07-29T00:08:18.660Z"
     },
     "daenzo": {
       "storeName": "DA ENZO",
@@ -342,7 +336,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:33.619Z"
+      "checkedAt": "2026-07-29T00:08:19.020Z"
     },
     "カフェ・ド・デイジイ": {
       "storeName": "カフェ・ド・デイジイ",
@@ -355,7 +349,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:33.433Z"
+      "checkedAt": "2026-07-29T00:08:18.832Z"
     },
     "餃子居酒屋モモタロ": {
       "storeName": "餃子居酒屋 モモタロ",
@@ -446,7 +440,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:33.212Z"
+      "checkedAt": "2026-07-29T00:08:18.336Z"
     },
     "おにくところも": {
       "storeName": "おにくところも",
@@ -577,6 +571,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-28T10:41:00.310Z"
+    },
+    "ホテルグローバルビュー浦和": {
+      "storeName": "ホテルグローバルビュー浦和",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-29T00:08:18.752Z"
     }
   },
   "market": {
@@ -642,7 +649,7 @@
     },
     "川口市|バル": {
       "count": 10,
-      "checkedAt": "2026-07-21T22:07:33.732Z"
+      "checkedAt": "2026-07-29T00:08:19.224Z"
     },
     "さいたま市大宮区|バル": {
       "count": 20,
@@ -719,6 +726,14 @@
     "さいたま市|レストラン": {
       "count": 50,
       "checkedAt": "2026-07-27T07:38:33.221Z"
+    },
+    "さいたま市浦和区|バル": {
+      "count": 12,
+      "checkedAt": "2026-07-29T00:08:19.201Z"
+    },
+    "さいたま市|バー": {
+      "count": 89,
+      "checkedAt": "2026-07-29T00:08:19.251Z"
     }
   },
   "items": [
@@ -726,7 +741,7 @@
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
       "source": "求人ボックス（ベネミール）",
-      "pubDate": "Mon, 27 Jul 2026 18:09:11 GMT",
+      "pubDate": "Tue, 28 Jul 2026 18:09:11 GMT",
       "area": "狭山市",
       "genres": [],
       "signal": "hiring",
@@ -1003,7 +1018,7 @@
       "title": "【川越市】楽しみですね♪「ミステリーカフェ謎屋珈琲店 川越店」のオープン日が判明しました！！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rU3l3UFRTVXk1WFQ2NERKblpTZlhUdnoyU1M4QXBwSHE5NUdSVFUydGRiM2R0ekRXajB4ZDVyczgwaHNSSFpDWFRtN1NkNFM1bWlvVnVxbzBmbTZCdmxyMlJSUTdnallYb3c?oc=5",
       "source": "埼玉マガジン",
-      "pubDate": "Mon, 20 Jul 2026 09:31:10 GMT",
+      "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT",
       "area": "川越市",
       "genres": [
         "カフェ"
@@ -1572,7 +1587,7 @@
       "link": "https://to.indeed.com/aadccfbv4kng",
       "source": "Indeed",
       "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市浦和区",
       "genres": [
         "バル"
       ],
@@ -1815,7 +1830,7 @@
       "genres": [
         "中華"
       ],
-      "signal": "opening",
+      "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.272Z"
     },
     {

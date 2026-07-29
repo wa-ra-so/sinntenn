@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-28T10:40:52.921Z",
+  "generatedAt": "2026-07-29T00:08:02.162Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 91
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,52 +24,46 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 78
+      "count": 77
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 12
+      "count": 11
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 10
+      "count": 11
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 70
+      "count": 66
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 3,
-      "mergedAt": "2026-07-29T00:06:40.707Z"
     }
   ],
-  "itemCount": 88,
+  "itemCount": 90,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -342,7 +336,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:26.150Z"
+      "checkedAt": "2026-07-29T00:08:01.915Z"
     },
     "dice戸塚店": {
       "storeName": "DiCE戸塚店",
@@ -460,6 +454,58 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-27T07:38:26.029Z"
+    },
+    "diningbarlately": {
+      "storeName": "DINING BAR Lately",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-29T00:08:01.187Z"
+    },
+    "北海道イタリアンミア・ボッカ": {
+      "storeName": "北海道イタリアン ミア・ボッカ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-29T00:08:01.556Z"
+    },
+    "シーガーディアンii": {
+      "storeName": "シーガーディアンⅡ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-29T00:08:01.709Z"
+    },
+    "ringobar": {
+      "storeName": "RINGO BAR",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-29T00:08:01.770Z"
     }
   },
   "market": {
@@ -513,7 +559,7 @@
     },
     "横浜市|カフェ": {
       "count": 244,
-      "checkedAt": "2026-07-21T22:07:26.493Z"
+      "checkedAt": "2026-07-29T00:08:02.162Z"
     },
     "横浜市戸塚区|カフェ": {
       "count": 8,
@@ -554,6 +600,14 @@
     "川崎市|寿司": {
       "count": 64,
       "checkedAt": "2026-07-25T03:15:52.324Z"
+    },
+    "横浜市港南区|イタリアン": {
+      "count": 12,
+      "checkedAt": "2026-07-29T00:08:02.115Z"
+    },
+    "横浜市|バー": {
+      "count": 453,
+      "checkedAt": "2026-07-29T00:08:02.127Z"
     }
   },
   "items": [
@@ -675,6 +729,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T11:30:51.601Z"
+    },
+    {
+      "title": "クラシックホテルの正統派バー「シーガーディアンⅡ」（横浜）｜港町酒場で逢いましょう",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUGVGZkpDZjJIdEt5VEZMU0pRMkgyMHNVY19LaGh5SURzcWJVbU9oWjR2YlJ0bmN2YndaV1JFZjk3akFWb2RtSy1uNDItUnBOZV9KX2tHMXAtUDJ0ZjZWeVlIOTlJVWNHVzZhVmNZUnNSVnoxMkJCUGZDMHdrdURGdHEzUnpfWGJOZTlhdNIBkgFBVV95cUxOWWROSGx0dzNyZ196Vktfd21zaWlRci1OcTZHbXVxQ0NUemNkNllodlBGeFpKWXEyVEFKc2RPSUQxNHN4WVJFZ3l1cDZQM0dKWk5vdEk3VWU2a3VRSjNidFlsSTdtdUxGS1diTkhSYmZXamgyYmJmUDU4c05UNkpQZU5RYjBEbkYzcGVwT3pVMlYzQQ?oc=5",
+      "source": "ｄメニューニュース",
+      "pubDate": "Wed, 22 Jul 2026 03:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:07:57.677Z"
     },
     {
       "title": "株式会社style7 オープニングスタッフ募集（7月オープン飲食店の店舗スタッフ）",
@@ -925,6 +991,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:24.824Z"
+    },
+    {
+      "title": "【新店情報！】上大岡エリアへ初出店『北海道イタリアン ミア・ボッカ』が7月22日、上大岡京急百貨店に待望のニューオープン！ ご家族連れからお一人様まで、日常を少し贅沢にする美味しさをお届けします。 | 株式会社イーストンのプレスリリース",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FY0JieWoxY0FPOFoteUxRbUJNTVlFOE90UzJOTVVWYkdWeG9jSXgxRnp5eXNmalYzazRyUVF3TjBvaW9BdENhUHV5cVM5cHJJNzJMTGVwMWt3T3V1WDNkVHpWY3NPOWI4bUE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
+      "area": "横浜市港南区",
+      "genres": [
+        "イタリアン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-29T00:07:57.671Z"
     },
     {
       "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/毎日が楽しいアットホームな沖縄酒場の調理補助ス…）",

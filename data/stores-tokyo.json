@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:40:43.977Z",
+  "generatedAt": "2026-07-29T00:07:53.224Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,46 +30,40 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 60
+      "count": 56
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 35
+      "count": 33
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 8
+      "count": 10
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 75
+      "count": 67
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
-      "ok": true,
-      "count": 12,
-      "mergedAt": "2026-07-29T00:06:40.590Z"
     }
   ],
-  "itemCount": 229,
+  "itemCount": 230,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -537,7 +531,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:19.339Z"
+      "checkedAt": "2026-07-29T00:07:52.470Z"
     },
     "ペーパーボーイ": {
       "storeName": "ペーパーボーイ",
@@ -550,7 +544,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:19.229Z"
+      "checkedAt": "2026-07-29T00:07:52.646Z"
     },
     "保護猫カフェ": {
       "storeName": "保護猫カフェ",
@@ -576,7 +570,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:19.071Z"
+      "checkedAt": "2026-07-29T00:07:52.786Z"
     },
     "ネオナイスバーガー": {
       "storeName": "ネオナイスバーガー",
@@ -589,7 +583,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T22:07:19.313Z"
+      "checkedAt": "2026-07-29T00:07:53.024Z"
     },
     "やき豚とローストビーフの店": {
       "storeName": "やき豚とローストビーフの店",
@@ -1122,7 +1116,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T15:07:12.927Z"
+      "checkedAt": "2026-07-29T00:07:52.837Z"
     },
     "飲茶・本格中華・麻辣湯": {
       "storeName": "飲茶・本格中華・麻辣湯",
@@ -1135,7 +1129,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-21T15:07:13.499Z"
+      "checkedAt": "2026-07-29T00:07:52.412Z"
     },
     "食べる・飲む・体験する": {
       "storeName": "食べる・飲む・体験する",
@@ -1435,6 +1429,19 @@
       "capacity": 98,
       "open": "月～木、土、祝前日: 12:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）金: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）日、祝日: 12:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:00）",
       "checkedAt": "2026-07-28T10:40:43.656Z"
+    },
+    "小町": {
+      "storeName": "小町",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003365019/?vos=nhppalsa000016",
+      "shopName": "焼肉小町 新川店",
+      "address": "東京都中央区新川２-17-14",
+      "access": "八丁堀(東京)駅B4出口より徒歩約4分",
+      "genre": "焼肉・ホルモン",
+      "budget": "4001～5000円",
+      "capacity": 37,
+      "open": "月～金、祝前日: 11:00～15:0017:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）",
+      "checkedAt": "2026-07-29T00:07:52.086Z"
     }
   },
   "market": {
@@ -1535,8 +1542,8 @@
       "checkedAt": "2026-07-28T02:54:22.145Z"
     },
     "目黒区|バー": {
-      "count": 102,
-      "checkedAt": "2026-07-21T22:07:19.469Z"
+      "count": 101,
+      "checkedAt": "2026-07-29T00:07:53.224Z"
     },
     "港区|フレンチ": {
       "count": 70,
@@ -1689,6 +1696,14 @@
     "豊島区|レストラン": {
       "count": 43,
       "checkedAt": "2026-07-27T11:30:47.708Z"
+    },
+    "新宿区|焼肉": {
+      "count": 215,
+      "checkedAt": "2026-07-29T00:07:53.206Z"
+    },
+    "北区|居酒屋": {
+      "count": 1180,
+      "checkedAt": "2026-07-29T00:07:53.212Z"
     }
   },
   "items": [
@@ -1696,7 +1711,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Mon, 27 Jul 2026 20:51:09 GMT",
+      "pubDate": "Tue, 28 Jul 2026 09:50:52 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -2500,7 +2515,7 @@
       "genres": [
         "フレンチ"
       ],
-      "signal": "hiring",
+      "signal": "opening",
       "firstSeenAt": "2026-07-15T02:19:48.222Z"
     },
     {
@@ -2986,9 +3001,7 @@
       "source": "Indeed",
       "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
       "area": "江東区",
-      "genres": [
-        "カフェ"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.582Z"
     },
@@ -3639,6 +3652,18 @@
       "firstSeenAt": "2026-07-22T22:08:55.698Z"
     },
     {
+      "title": "【Atelier LILIUM】6月25日「百合の日」、池袋の百合ブックカフェにオリジナルキャラクター姉妹「真白さつき・真白ミナ」が誕生【漫画家・ミトがデザイン】",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPVUI1eUpoNk05UGpHaEh3RUN6Qm1Zd1BCallNUlBuWlQzV1dJUEN4LUVmYzJyNHVvOFBzeVZ4UENYaXlRM3FlQ0V1SnhQNmVzeEctRDYyQ09JVDl5eXJSYXB1ZFdpSlNIY3c?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
+      "area": "豊島区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:07:47.224Z"
+    },
+    {
       "title": "タクラマ館(町田駅/居酒屋)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yOU5nc2VtejAyWkI4clRhaW5TQk5sVkdNY2tsT1VWaUdPcFFDNHhqZm43OFk2Y0VIdHZudUZWVXVLdnBxWDZENWpSWGZiYUc4?oc=5",
       "source": "ホットペッパーグルメ",
@@ -4173,7 +4198,7 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
-      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！",
+      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
       "source": "るるぶWeb",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
