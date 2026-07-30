@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
+      "ok": true,
+      "count": 8,
+      "mergedAt": "2026-07-30T01:01:39.338Z"
     }
   ],
-  "itemCount": 232,
+  "itemCount": 240,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1780,6 +1786,18 @@
       "firstSeenAt": "2026-07-29T00:06:40.589Z"
     },
     {
+      "title": "株式会社アイランズ オープニングスタッフ募集（会員制焼肉のオープニング店舗スタッフ）",
+      "link": "https://to.indeed.com/aanbwdqncsmt",
+      "source": "Indeed",
+      "pubDate": "Mon, 27 Jul 2026 00:00:00 GMT",
+      "area": "中央区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.337Z"
+    },
+    {
       "title": "「flour+water吉祥寺」オープニングスタッフ募集（カフェの接客/オープニングで髪色自由&未経験可）",
       "link": "https://to.indeed.com/aav9jwrchxyn",
       "source": "Indeed",
@@ -1802,6 +1820,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.587Z"
+    },
+    {
+      "title": "株式会社スパイスワークスホールディングス オープニングスタッフ募集（【オープニング】髪型&髪色&ネイル自由に働ける/モダン酒場の…）",
+      "link": "https://to.indeed.com/aarfc2gjn6wh",
+      "source": "Indeed",
+      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.337Z"
     },
     {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/の店舗正社員オープニングスタッ…）",
@@ -2059,6 +2087,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.584Z"
+    },
+    {
+      "title": "BONDZ株式会社 オープニングスタッフ募集（北海道串焼き酒場の店長候補(オープニング)）",
+      "link": "https://to.indeed.com/aavtfbtgqn6j",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "新宿区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.337Z"
     },
     {
       "title": "株式会社ちゃんばら オープニングスタッフ募集（ホテル内和食料理店の店舗スタッフ/オープニング/転勤なし/賞…）",
@@ -2867,6 +2905,18 @@
       "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
     {
+      "title": "株式会社ＢＲＩＳＫ　ＳＴＡＮＤ オープニングスタッフ募集（オシャレ自由　話題のグルメハンバーガー店オープニングスタッフ）",
+      "link": "https://to.indeed.com/aak8xcvkjdt2",
+      "source": "Indeed",
+      "pubDate": "Fri, 10 Jul 2026 00:00:00 GMT",
+      "area": "墨田区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.337Z"
+    },
+    {
       "title": "【東京都品川区】新スタイルのイタリアンバル「SOSTA ～pizza＆legame～」が五反田にオープン",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBST0JVVmtQaFBUVUcyYlhMbEpDRDNRRFBTcktITDA1QmcyTkZseVFBVzVZVi1pekluS3BZS0RPcmt4Undjd2lvUm9yX2Q2MzA4ZTVz?oc=5",
       "source": "STRAIGHT PRESS",
@@ -3039,6 +3089,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.582Z"
+    },
+    {
+      "title": "Dandelion Chocolate Japan株式会社 オープニングスタッフ募集（【10月末オープニング予定(8月中旬研修)】チョコレートカフ…）",
+      "link": "https://to.indeed.com/aawv9kmgf6lp",
+      "source": "Indeed",
+      "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
+      "area": "江東区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.337Z"
     },
     {
       "title": "株式会社iDA オープニングスタッフ募集（ホールスタッフ/バルーンスマイルクレープ販売 表参道路面店）",
@@ -3371,6 +3433,16 @@
       "firstSeenAt": "2026-07-27T03:42:55.305Z"
     },
     {
+      "title": "株式会社Goldenlight Trading Service オープニングスタッフ募集（飲食店(麻辣湯専門店)のオープニング店長候補）",
+      "link": "https://to.indeed.com/aag6ryzlybkn",
+      "source": "Indeed",
+      "pubDate": "Fri, 03 Jul 2026 00:00:00 GMT",
+      "area": "江東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.329Z"
+    },
+    {
       "title": "プレミアム回転寿司「無添蔵 新宿店」 2026年7月9日（木）オープン",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xUFFvRjRMME84NGctSzNYMVQ3cG5tTGtrbU85SmVmVmUtMFQ0a1MzbHR0ZjJKTW1idHNVSFg5RGEySHpQQTRZbXZ4WndlNHBmUlltUWxXX3Z6U3c?oc=5",
       "source": "共同通信PRワイヤー",
@@ -3593,6 +3665,18 @@
       "firstSeenAt": "2026-07-17T21:58:05.668Z"
     },
     {
+      "title": "株式会社Ａｎｙｗｈｅｒｅ　Ｄｏｏｒ オープニングスタッフ募集（月給33万円|北千住|オープニング|焼肉店ホールスタッフ）",
+      "link": "https://to.indeed.com/aajzwnl7dkcb",
+      "source": "Indeed",
+      "pubDate": "Sat, 27 Jun 2026 00:00:00 GMT",
+      "area": "足立区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.337Z"
+    },
+    {
       "title": "株式会社マンネット オープニングスタッフ募集（キッチンスタッフ/すぐに働ける おかゆ料理専門店調理スタッフ…）",
       "link": "https://www.hatarako.net/job/9000668976/",
       "source": "求人ボックス（はたらこねっと）",
@@ -3766,6 +3850,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:19.037Z"
+    },
+    {
+      "title": "株式会社フォンスＣＢ オープニングスタッフ募集（【オープニングスタッフ】ベーカリーカフェスタッフ|グランスタ…）",
+      "link": "https://to.indeed.com/aapzdm4zpcnr",
+      "source": "Indeed",
+      "pubDate": "Mon, 22 Jun 2026 00:00:00 GMT",
+      "area": "葛飾区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.337Z"
     },
     {
       "title": "ピタットハウス羽田北糀谷店 スマイル・ホームネッツ株式会社 オープニングスタッフ募集（厨房ホールスタッフ/串焼き店「地元エリア人気店」だから、新鮮…）",

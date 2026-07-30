@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 2,
+      "mergedAt": "2026-07-30T01:01:22.892Z"
     }
   ],
-  "itemCount": 126,
+  "itemCount": 128,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -685,6 +691,18 @@
     }
   },
   "items": [
+    {
+      "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】カジュアルな居酒屋のホール　調理スタッフ(正…）",
+      "link": "https://to.indeed.com/aatrqnvnbjwz",
+      "source": "Indeed",
+      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:22.887Z"
+    },
     {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
@@ -1750,6 +1768,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T11:23:18.925Z"
+    },
+    {
+      "title": "「ムーンブルー」オープニングスタッフ募集（完全新規OPEN!!推される準備OK?新感覚コンセプト喫茶【…）",
+      "link": "https://to.indeed.com/aapnhfb8bstl",
+      "source": "Indeed",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:22.871Z"
     },
     {
       "title": "株式会社ダイニングエッジ オープニングスタッフ募集（カフェのホール・キッチン　オープニングメンバー第一弾募集）",
