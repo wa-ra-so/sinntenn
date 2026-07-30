@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T02:46:14.706Z",
+  "generatedAt": "2026-07-30T06:32:55.913Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 36
+      "count": 39
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 30
+      "count": 31
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 12
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -1957,7 +1957,7 @@
     {
       "title": "コメダ／「和喫茶おかげ庵 ミーツ国分寺店」7月31日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5a2N6N0JVZno0dmJnQ29WcmZFbC1TYzREY21rRDBfdHlqZ3BJUzNVdmNtTG02OENZOXh4U1AwQ1VGMFFhRGJvYXJweWctRG5PR0ZaLQ?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Fri, 24 Jul 2026 07:03:00 GMT",
       "area": "国分寺市",
       "genres": [],
@@ -2617,7 +2617,7 @@
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81N0JjNVVraWMxT3A4eW9ScXFUeHAtbnl5dEU5Sm5TQnZTblBoaG5rU3RnOEpiVlhCbHJCeGZMNDM0ZkVsYm5ZRzhrTkRaeFhzUXUxVGY5MzlBMWR3ZkhXSS1qQjVWNUV2ZHc?oc=5",
       "source": "PR TIMES",
-      "pubDate": "Thu, 16 Jul 2026 04:00:48 GMT",
+      "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [
         "居酒屋"
@@ -2843,7 +2843,7 @@
     {
       "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83X1dTQWVBY09uNWRhNlU3dEd1U25wZzFPWGtfNDdqNkFwOGVhby1uZEtaTm51Rm5NTFhvam9KRmVKa0diOTIzLU1TYXRIYXpseERwXzZWcmpseXhrYkNsRUtn?oc=5",
-      "source": "excite.co.jp",
+      "source": "Excite エキサイト",
       "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -3735,7 +3735,7 @@
     {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -3839,7 +3839,7 @@
     {
       "title": "アトレ恵比寿／7～8月オーガニック抹茶のカフェなど3店舗オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02cHJHT29mcTU5UmJNVzdBLXRaMVJaeTdmRVpSdE54VUkzcHhJT25hY3Z4S29RMHNQcG9aRWV5RjM2d2hNT3FMWWtocGFtRzJPNkJNMA?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -4172,7 +4172,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
@@ -4182,7 +4182,7 @@
     {
       "title": "スクエニの常設カフェ「Officially Licensed SQUARE ENIX Cafe & Shop SHINJUKU」が本日東京にグランドオープン",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nVnlsUU05Y2xTbjI3cHpBVXMwaFoxZUFJbTJXWDNkZGQtSktlSTVUNWhNRHUtSFVxbnRZNExfMDNGQ1V5OGl3UXc2RHFKNzZNUUJ2VHhMT0xuYzVSVWt6TzJ3c2dkZw?oc=5",
-      "source": "game.watch.impress.co.jp",
+      "source": "GAME Watch",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4351,7 +4351,7 @@
     {
       "title": "【東中野】現役テレビマンが進化し続けるタコス店「新作タコス実験中」をオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5OQm4tdkcxQXduNzJHREtfT0pSOEZRd0pITlgta09xMThWc1djc0tMTkxsWDN6VUVLa01VUmFVNlREdi1hWlF3?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4409,7 +4409,7 @@
     {
       "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
-      "source": "るるぶWeb",
+      "source": "rurubu.jp",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [],
@@ -4443,7 +4443,7 @@
     {
       "title": "話題の新店「FORME.」のレモンパイとバスクチーズケーキ【ミスター黒猫の東京スイーツトレンドVol.104】｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIbnU5Q21CZGhVZnl4aHV3Tms0UXFsZXRqaEFBc082R2RfOWRKWkN1VmxQRlA2V21pV1VNcUJNNzU1RGFxUGFsUThnMFNFUVVw?oc=5",
-      "source": "るるぶWeb",
+      "source": "rurubu.jp",
       "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [],
@@ -4502,7 +4502,7 @@
     {
       "title": "東京国立博物館、館内レストラン3店舗をリニューアル 2026年夏～秋にかけて順次オープン",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxY2h5WGE3VUd1NWFQUGpWXzVTcmlFemNyREs3YkhQeld6amgzQkhZdG0tbjlkTzFsVHlJdHd3WlBrbVhxek8zLTFjbzl0Zw?oc=5",
-      "source": "atpress.ne.jp",
+      "source": "アットプレス",
       "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
       "area": "国立市",
       "genres": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T02:46:03.185Z",
+  "generatedAt": "2026-07-30T06:32:47.612Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 45
+      "count": 42
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 128,
+  "itemCount": 129,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -532,6 +532,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-26T06:41:09.938Z"
+    },
+    "鮨処すし白川": {
+      "storeName": "鮨処 すし白川",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-30T06:32:47.612Z"
     }
   },
   "market": {
@@ -702,6 +715,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
+      "title": "【続報】松戸駅西口の「たい焼ききくや」跡地に「鮨処 すし白川」が8/10（月）オープン予定",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XMTc3aW9ydkNQMHdHSDBFSFlheTFaLUx0eFhneDNFQlRRb0cwcnZPODlBLWxyNms5Rlkyc0xtRjhRemNBRHNPN3AtUjJYMW8?oc=5",
+      "source": "松戸つうしん",
+      "pubDate": "Mon, 27 Jul 2026 09:08:14 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-30T06:32:43.831Z"
     },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
@@ -1314,7 +1337,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [

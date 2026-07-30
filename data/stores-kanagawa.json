@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-30T02:46:23.633Z",
+  "generatedAt": "2026-07-30T06:33:03.403Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 93
+      "count": 94
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 66
+      "count": 62
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 93,
+  "itemCount": 94,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -532,6 +532,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-30T02:46:23.429Z"
+    },
+    "魚貝とろぼっち大船": {
+      "storeName": "魚貝 とろぼっち 大船",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-30T06:33:03.273Z"
     }
   },
   "market": {
@@ -638,9 +651,25 @@
     "平塚市|居酒屋": {
       "count": 58,
       "checkedAt": "2026-07-30T02:46:23.631Z"
+    },
+    "鎌倉市|居酒屋": {
+      "count": 55,
+      "checkedAt": "2026-07-30T06:33:03.403Z"
     }
   },
   "items": [
+    {
+      "title": "【鎌倉・大船】仲卸直営の海鮮居酒屋「魚貝 とろぼっち 大船」が8月1日グランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xQUVYZUFaMTlEbWVBTUE4TjRVR2p1NkZVRmpubnJzMHdnNmowLWV0cGZjT1VEMk5XdHBfQzFSQ2x5dmNLRER0VzU5TEhPX2poamVnUmNnMHBpeEs3MjhmTGs1ZFEwQUNPZmc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Thu, 30 Jul 2026 06:24:14 GMT",
+      "area": "鎌倉市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-30T06:32:59.655Z"
+    },
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
@@ -666,7 +695,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
+      "source": "walkerplus.com",
       "pubDate": "Wed, 29 Jul 2026 08:10:23 GMT",
       "area": "",
       "genres": [
@@ -1502,7 +1531,7 @@
     {
       "title": "戸塚モディ／「はなまるダイニングセレクト」6月24日オープン、総菜・サラダ提供",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51WTBOQ2JoUjZISXBRZzYxdEFucG9RWU1uOVJUeVZ5M0g0RGdfQUpfLWctcHUwdTBBMm4yakszME1yYlVueWZUMjlCRm0tSmZvMVVMTA?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "横浜市戸塚区",
       "genres": [
@@ -1536,7 +1565,7 @@
     {
       "title": "ゴンチャ／神奈川県小田原市に「ラスカ小田原店」6月25日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10YzFBYnQ4Rl9vNVFjVHBINmZVU0JkZkpJbzg2TTFlR3d3cU5nX0JaUjViVy1XT3lEQUU1TXlBckVERVVIYzhMRkhrRjJiTXl1NGdiRg?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "小田原市",
       "genres": [],
