@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-07-30T01:01:39.531Z"
     }
   ],
-  "itemCount": 104,
+  "itemCount": 107,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -1178,6 +1184,16 @@
       "firstSeenAt": "2026-07-17T00:06:06.101Z"
     },
     {
+      "title": "株式会社CMM オープニングスタッフ募集（【オープニング】ネオ酒場の調理補助スタッフ(アルバイト)）",
+      "link": "https://to.indeed.com/aajts4ftbpbt",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "川口市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.530Z"
+    },
+    {
       "title": "株式会社ダイニングイノベーション オープニングスタッフ募集（麻辣湯麵専門店でホール/年休115日/残業ほぼなし）",
       "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-61c9c4f11a9a",
       "source": "求人ボックス（グルスタ）",
@@ -1340,6 +1356,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.469Z"
+    },
+    {
+      "title": "株式会社ＲＡＺＵＬＩＴ’ｅ オープニングスタッフ募集（新しいカフェ　オープニングスタッフ）",
+      "link": "https://to.indeed.com/aab8hn2pmpxj",
+      "source": "Indeed",
+      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.530Z"
     },
     {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
@@ -1643,6 +1671,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-18T14:22:08.033Z"
+    },
+    {
+      "title": "株式会社ロストマン オープニングスタッフ募集（オープニング居酒屋のホールスタッフ）",
+      "link": "https://to.indeed.com/aayblffrjbpj",
+      "source": "Indeed",
+      "pubDate": "Fri, 26 Jun 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.512Z"
     },
     {
       "title": "「カフェ・ラデュレ」日本2号店が大宮にオープン ドーナツを店舗限定で提供",

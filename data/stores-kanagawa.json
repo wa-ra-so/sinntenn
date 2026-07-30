@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 2,
+      "mergedAt": "2026-07-30T01:01:39.426Z"
     }
   ],
-  "itemCount": 91,
+  "itemCount": 93,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -733,6 +739,16 @@
       "firstSeenAt": "2026-07-25T03:15:49.022Z"
     },
     {
+      "title": "「サンセリテ 向ヶ丘遊園サーカス」オープニングスタッフ募集（ホールスタッフ【新店オープニング募集!ベーカリー】）",
+      "link": "https://to.indeed.com/aa7dzf4blybb",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.405Z"
+    },
+    {
       "title": "南足柄市郷土資料館　大きな鉄道模型展　乗車体験も企画〈南足柄市・大井町・松田町・山北町・開成町〉",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QQkFRMlRxVGJ2dlZ4RnFyS0Z0QmFPQXhKRWExV1VWRktseURkU0UwSWhPNjNqTkg5VUJPdHhvOThoOUJjYkFWTDJYMjJnZFFhMkJqbXpsVHZTVmJ5NjBKVEFjQ0l4SW1iMkh0SHNRSVUtQnJfVFFnNzRITdIBgAFBVV95cUxPQVBsSGRuaEkySFVXZnlGQzVZZTBaUU9TVm9ZdGVldkRlN0pPQzFzOElHYll2MjRDblAzdWxYeFQ5ZFR3bmVnT25GSENuMy1KSjhEa2lvRVJ6bDhLLUZQTjhic05TVElHbVA3WXZNdmQ4YmpwSUlOOE1VMHFPbmJ5Sw?oc=5",
       "source": "ｄメニューニュース",
@@ -897,6 +913,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.010Z"
+    },
+    {
+      "title": "SFPダイニング株式会社 オープニングスタッフ募集（9月新店オープニング・海の家のような海鮮居酒屋調理社員スタッ…）",
+      "link": "https://to.indeed.com/aat42csvnlyx",
+      "source": "Indeed",
+      "pubDate": "Fri, 17 Jul 2026 00:00:00 GMT",
+      "area": "平塚市",
+      "genres": [
+        "居酒屋",
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T01:01:39.424Z"
     },
     {
       "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】 路地裏ダイニングの店舗スタッフ(正社員)）",
