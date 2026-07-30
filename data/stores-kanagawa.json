@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-29T10:44:48.807Z",
+  "generatedAt": "2026-07-30T02:46:23.633Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 89
+      "count": 93
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 79
+      "count": 77
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -42,31 +42,25 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 68
+      "count": 66
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 2,
-      "mergedAt": "2026-07-30T01:01:39.426Z"
     }
   ],
   "itemCount": 93,
@@ -199,7 +193,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:30.732Z"
+      "checkedAt": "2026-07-30T02:46:22.699Z"
     },
     "牛タン木村屋溝口本店": {
       "storeName": "牛タン木村屋 溝口本店",
@@ -512,6 +506,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-29T00:08:01.770Z"
+    },
+    "横浜天然温泉spaeas": {
+      "storeName": "横浜天然温泉SPA EAS",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-30T02:46:22.625Z"
+    },
+    "サンセリテ向ヶ丘遊園サーカス": {
+      "storeName": "サンセリテ 向ヶ丘遊園サーカス",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-30T02:46:23.429Z"
     }
   },
   "market": {
@@ -569,7 +589,7 @@
     },
     "横浜市戸塚区|カフェ": {
       "count": 8,
-      "checkedAt": "2026-07-22T22:09:11.697Z"
+      "checkedAt": "2026-07-30T02:46:23.633Z"
     },
     "横浜市中区|居酒屋": {
       "count": 167,
@@ -614,9 +634,48 @@
     "横浜市|バー": {
       "count": 453,
       "checkedAt": "2026-07-29T00:08:02.127Z"
+    },
+    "平塚市|居酒屋": {
+      "count": 58,
+      "checkedAt": "2026-07-30T02:46:23.631Z"
     }
   },
   "items": [
+    {
+      "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Thu, 30 Jul 2026 02:39:19 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-30T02:46:18.963Z"
+    },
+    {
+      "title": "株式会社ニュー・クイック オープニングスタッフ募集（惣菜・スイーツ販売/販売/キッチン 社割でお惣菜がお得 食費…）",
+      "link": "http://s.baitoru.com/DW0aWcaX",
+      "source": "求人ボックス（baitoru）",
+      "pubDate": "Wed, 29 Jul 2026 10:48:40 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T02:46:18.941Z"
+    },
+    {
+      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
+      "source": "ウォーカープラス",
+      "pubDate": "Wed, 29 Jul 2026 08:10:23 GMT",
+      "area": "",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T03:38:01.734Z"
+    },
     {
       "title": "「ウェスティンホテル横浜」のインターナショナルビュッフェレストランがオープン1周年！記念ビュッフェを堪能",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBoRFBMSkg1Vm5qNTJGZmZjZ0tHZmZ3bi1DeHlJM0JvMjdxaDdNa1RzeDhaZW96aTdQUUc5NnpBajh0VjFUS0swYmpFbnU?oc=5",
@@ -642,25 +701,14 @@
       "firstSeenAt": "2026-07-29T03:13:58.597Z"
     },
     {
-      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
-      "pubDate": "Sat, 25 Jul 2026 17:12:20 GMT",
-      "area": "",
-      "genres": [
-        "カフェ",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-27T03:38:01.734Z"
-    },
-    {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
       "link": "https://baitona-joshi.jp/shop/2232740/",
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Sat, 25 Jul 2026 02:07:19 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -743,7 +791,7 @@
       "link": "https://to.indeed.com/aa7dzf4blybb",
       "source": "Indeed",
       "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
-      "area": "川崎市",
+      "area": "川崎市多摩区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-30T01:01:39.405Z"
@@ -1631,26 +1679,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
-    },
-    {
-      "title": "株式会社ファイブグループ オープニングスタッフ募集（世界で一番楽しい店のオープニングホールスタッフ）",
-      "link": "https://to.indeed.com/aa94p9d74gmk",
-      "source": "Indeed",
-      "pubDate": "Sun, 31 May 2026 00:00:00 GMT",
-      "area": "大和市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.011Z"
-    },
-    {
-      "title": "株式会社ファイブグループ オープニングスタッフ募集（超自由で笑顔だらけの店のオープニングキッチンスタッフ）",
-      "link": "https://to.indeed.com/aay6ywrnq84j",
-      "source": "Indeed",
-      "pubDate": "Sun, 31 May 2026 00:00:00 GMT",
-      "area": "大和市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.011Z"
     }
   ]
 }

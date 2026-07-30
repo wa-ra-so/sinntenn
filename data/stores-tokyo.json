@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:44:40.360Z",
+  "generatedAt": "2026-07-30T02:46:14.706Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 47
+      "count": 36
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 32
+      "count": 30
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,28 +48,22 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 72
+      "count": 75
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 10
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
-      "ok": true,
-      "count": 8,
-      "mergedAt": "2026-07-30T01:01:39.338Z"
     }
   ],
-  "itemCount": 240,
+  "itemCount": 243,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -654,7 +648,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:23.430Z"
+      "checkedAt": "2026-07-30T02:46:13.869Z"
     },
     "地鶏黒木屋銀座一丁目": {
       "storeName": "地鶏黒木屋 銀座一丁目",
@@ -667,7 +661,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:22.652Z"
+      "checkedAt": "2026-07-30T02:46:12.676Z"
     },
     "すたみな太郎next上野アメ横店": {
       "storeName": "すたみな太郎NEXT 上野アメ横店",
@@ -680,7 +674,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:22.430Z"
+      "checkedAt": "2026-07-30T02:46:12.284Z"
     },
     "串とメシにはサケキタル。": {
       "storeName": "串とメシにはサケキタル。",
@@ -693,7 +687,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:23.245Z"
+      "checkedAt": "2026-07-30T02:46:13.276Z"
     },
     "肉屋の台所新宿東口新店": {
       "storeName": "肉屋の台所 新宿東口新店",
@@ -706,7 +700,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:22.862Z"
+      "checkedAt": "2026-07-30T02:46:13.075Z"
     },
     "飯田橋大衆焼肉ばりとんっ": {
       "storeName": "飯田橋大衆焼肉 ばりとんっ",
@@ -732,7 +726,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:23.003Z"
+      "checkedAt": "2026-07-30T02:46:13.108Z"
     },
     "肉屋の台所飯田橋店": {
       "storeName": "肉屋の台所 飯田橋店",
@@ -771,7 +765,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:23.117Z"
+      "checkedAt": "2026-07-30T02:46:13.488Z"
     },
     "木村屋本店代々木西口": {
       "storeName": "木村屋本店 代々木西口",
@@ -784,7 +778,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:23.211Z"
+      "checkedAt": "2026-07-30T02:46:13.496Z"
     },
     "一天張": {
       "storeName": "一天張",
@@ -810,7 +804,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:23.348Z"
+      "checkedAt": "2026-07-30T02:46:13.846Z"
     },
     "シュラスコ&ビアバーゴッチバッタ銀座": {
       "storeName": "シュラスコ&ビアバー ゴッチバッタ銀座",
@@ -823,7 +817,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T15:08:23.350Z"
+      "checkedAt": "2026-07-30T02:46:13.658Z"
     },
     "fendercafe": {
       "storeName": "Fender Cafe",
@@ -1148,7 +1142,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-22T22:09:01.787Z"
+      "checkedAt": "2026-07-30T02:46:13.859Z"
     },
     "立呑み中華猫猫(マオマオ)": {
       "storeName": "立呑み中華 猫猫（マオマオ）",
@@ -1461,6 +1455,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-29T10:44:39.944Z"
+    },
+    "胡桃茶家": {
+      "storeName": "胡桃茶家",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001051811/?vos=nhppalsa000016",
+      "shopName": "胡桃茶家",
+      "address": "東京都目黒区東山１丁目21－26QG東山Ｂ1Ｆ",
+      "access": "東急東横線･東京ﾒﾄﾛ日比谷線 中目黒駅徒歩8分",
+      "genre": "中華",
+      "budget": "7001～8000円",
+      "capacity": 16,
+      "open": "月: 18:00～22:30 （料理L.O. 22:00）火～土、祝日、祝前日: 12:00～14:30 （料理L.O. 14:00）18:00～22:30 （料理L.O. 22:00）",
+      "checkedAt": "2026-07-30T02:46:12.015Z"
+    },
+    "aberdeen": {
+      "storeName": "ABERDEEN",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-30T02:46:12.224Z"
+    },
+    "onn.〜goodtracklounge〜": {
+      "storeName": "Onn. 〜Good Track Lounge〜",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-30T02:46:12.647Z"
     }
   },
   "market": {
@@ -1578,27 +1611,27 @@
     },
     "武蔵野市|フレンチ": {
       "count": 9,
-      "checkedAt": "2026-07-22T15:08:23.837Z"
+      "checkedAt": "2026-07-30T02:46:14.499Z"
     },
     "台東区|焼肉": {
       "count": 104,
-      "checkedAt": "2026-07-22T15:08:23.705Z"
+      "checkedAt": "2026-07-30T02:46:14.089Z"
     },
     "墨田区|居酒屋": {
       "count": 147,
-      "checkedAt": "2026-07-22T15:08:23.699Z"
+      "checkedAt": "2026-07-30T02:46:14.088Z"
     },
     "千代田区|焼肉": {
       "count": 92,
-      "checkedAt": "2026-07-22T15:08:23.682Z"
+      "checkedAt": "2026-07-30T02:46:14.282Z"
     },
     "江東区|バー": {
       "count": 97,
-      "checkedAt": "2026-07-22T15:08:23.813Z"
+      "checkedAt": "2026-07-30T02:46:14.324Z"
     },
     "渋谷区|バル": {
       "count": 108,
-      "checkedAt": "2026-07-22T22:09:01.987Z"
+      "checkedAt": "2026-07-30T02:46:14.496Z"
     },
     "武蔵野市|レストラン": {
       "count": 12,
@@ -1642,7 +1675,7 @@
     },
     "目黒区|カフェ": {
       "count": 57,
-      "checkedAt": "2026-07-22T22:09:02.774Z"
+      "checkedAt": "2026-07-30T02:46:14.705Z"
     },
     "千代田区|中華": {
       "count": 143,
@@ -1723,6 +1756,18 @@
     "北区|居酒屋": {
       "count": 1180,
       "checkedAt": "2026-07-29T00:07:53.212Z"
+    },
+    "中央区|レストラン": {
+      "count": 380,
+      "checkedAt": "2026-07-30T02:46:14.129Z"
+    },
+    "墨田区|バー": {
+      "count": 76,
+      "checkedAt": "2026-07-30T02:46:14.304Z"
+    },
+    "葛飾区|カフェ": {
+      "count": 31,
+      "checkedAt": "2026-07-30T02:46:14.534Z"
     }
   },
   "items": [
@@ -1730,7 +1775,7 @@
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Tue, 28 Jul 2026 20:53:05 GMT",
+      "pubDate": "Wed, 29 Jul 2026 20:50:44 GMT",
       "area": "新宿区",
       "genres": [
         "居酒屋",
@@ -1738,6 +1783,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "「ABERDEEN」オープニングスタッフ募集（中華レストランのキッチンスタッフ/オープニング募集/週2日～…）",
+      "link": "https://arwrk.net/recruit/usa1geuwt5ittia/11964898",
+      "source": "求人ボックス（株式会社田中コーポレーション）",
+      "pubDate": "Tue, 28 Jul 2026 01:04:03 GMT",
+      "area": "中央区",
+      "genres": [
+        "レストラン",
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T02:46:07.776Z"
     },
     {
       "title": "【東京都豊島区】イタリアンデリ「Piccola Aria」オープン！前菜やメインが選べるデリボックスを販売",
@@ -1885,6 +1943,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.589Z"
+    },
+    {
+      "title": "中目黒から移転！創作中国料理店「胡桃茶家」が富山市東岩瀬町に2026年8月8日(土)オープン！",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4Z0s1bk5YTzZWRVdCU0RyMVpQLUlBX0d3OGhWYkJmSUlOYk5nV3ItWE95a29jdWJnMmpHdVFHLWFXMmgzMGxHeXZsRXFpX3o3?oc=5",
+      "source": "富山ウォッチ",
+      "pubDate": "Fri, 24 Jul 2026 09:23:52 GMT",
+      "area": "目黒区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-30T02:46:07.808Z"
     },
     {
       "title": "コメダ／「和喫茶おかげ庵 ミーツ国分寺店」7月31日オープン",
@@ -2775,8 +2843,8 @@
     {
       "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83X1dTQWVBY09uNWRhNlU3dEd1U25wZzFPWGtfNDdqNkFwOGVhby1uZEtaTm51Rm5NTFhvam9KRmVKa0diOTIzLU1TYXRIYXpseERwXzZWcmpseXhrYkNsRUtn?oc=5",
-      "source": "Excite エキサイト",
-      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
+      "source": "excite.co.jp",
+      "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
         "レストラン"
@@ -2853,6 +2921,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T21:49:23.354Z"
+    },
+    {
+      "title": "【NEW OPEN】渋谷駅新南口徒歩1分。極上の音楽と世界的バーテンダーによるカクテルを愉しむラウンジバー「Onn. 〜Good Track Lounge〜」がグランドオープン！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44cGFNQ0RwLXZhNmJiNzhwUnRZaW42UEJBcTd6Z2M0NjdUOGRZUXdaTG5VUThKTzZ4NkU3SFpaLV9KdzNsTjdTd18tVmIxRlF6dTQyVDBBZFdKUy1DTjcxdlA0cUxydkdmQkE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-30T02:46:07.811Z"
     },
     {
       "title": "7月15日(水)、伊勢丹新宿店 洋菓子エリアにガラス張りの厨房を備えたライブ感あふれる空間「マ・パティスリー」誕生！「カフェ エ シュクレ」は全33ブランドフルオープン | 株式会社 三越伊勢丹ホールディングスのプレスリリース",
@@ -3096,9 +3176,7 @@
       "source": "Indeed",
       "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
       "area": "江東区",
-      "genres": [
-        "カフェ"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-30T01:01:39.337Z"
     },
@@ -4104,7 +4182,7 @@
     {
       "title": "スクエニの常設カフェ「Officially Licensed SQUARE ENIX Cafe & Shop SHINJUKU」が本日東京にグランドオープン",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nVnlsUU05Y2xTbjI3cHpBVXMwaFoxZUFJbTJXWDNkZGQtSktlSTVUNWhNRHUtSFVxbnRZNExfMDNGQ1V5OGl3UXc2RHFKNzZNUUJ2VHhMT0xuYzVSVWt6TzJ3c2dkZw?oc=5",
-      "source": "GAME Watch",
+      "source": "game.watch.impress.co.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4424,7 +4502,7 @@
     {
       "title": "東京国立博物館、館内レストラン3店舗をリニューアル 2026年夏～秋にかけて順次オープン",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxY2h5WGE3VUd1NWFQUGpWXzVTcmlFemNyREs3YkhQeld6amgzQkhZdG0tbjlkTzFsVHlJdHd3WlBrbVhxek8zLTFjbzl0Zw?oc=5",
-      "source": "アットプレス",
+      "source": "atpress.ne.jp",
       "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
       "area": "国立市",
       "genres": [
