@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T06:33:03.403Z",
+  "generatedAt": "2026-07-30T10:30:09.799Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 9
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,19 +42,19 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 1
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 62
+      "count": 56
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -375,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T08:50:17.257Z"
+      "checkedAt": "2026-07-30T10:30:09.798Z"
     },
     "串焼きと煮込み筑前屋関内店": {
       "storeName": "串焼きと煮込み 筑前屋　関内店",
@@ -659,6 +659,36 @@
   },
   "items": [
     {
+      "title": "「木村屋本店 二俣川」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505302/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T08:50:11.076Z"
+    },
+    {
+      "title": "「ホルモン番長もつ関ちゃん 登戸駅前」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
+      "title": "「茶き茶き 溝の口」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505479/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T10:18:34.821Z"
+    },
+    {
       "title": "【鎌倉・大船】仲卸直営の海鮮居酒屋「魚貝 とろぼっち 大船」が8月1日グランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xQUVYZUFaMTlEbWVBTUE4TjRVR2p1NkZVRmpubnJzMHdnNmowLWV0cGZjT1VEMk5XdHBfQzFSQ2x5dmNLRER0VzU5TEhPX2poamVnUmNnMHBpeEs3MjhmTGs1ZFEwQUNPZmc?oc=5",
       "source": "PR TIMES",
@@ -674,7 +704,7 @@
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
       "source": "STRAIGHT PRESS",
-      "pubDate": "Thu, 30 Jul 2026 02:39:19 GMT",
+      "pubDate": "Thu, 30 Jul 2026 02:49:42 GMT",
       "area": "横浜市",
       "genres": [
         "ダイニング"
@@ -735,9 +765,7 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Sat, 25 Jul 2026 02:07:19 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -779,16 +807,6 @@
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
       "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T08:50:11.076Z"
-    },
-    {
-      "title": "「木村屋本店 二俣川」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505302/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
-      "area": "横浜市旭区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T08:50:11.076Z"
@@ -1293,26 +1311,6 @@
       "firstSeenAt": "2026-07-13T21:46:51.774Z"
     },
     {
-      "title": "「ホルモン番長もつ関ちゃん 登戸駅前」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "川崎市多摩区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T10:18:34.821Z"
-    },
-    {
-      "title": "「茶き茶き 溝の口」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505479/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 09 Jul 2026 08:12:54 GMT",
-      "area": "川崎市高津区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T10:18:34.821Z"
-    },
-    {
       "title": "「ホルモン番長もつ関ちゃん 登戸駅前」オープニングスタッフ募集（ホールスタッフ）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1531,7 +1529,7 @@
     {
       "title": "戸塚モディ／「はなまるダイニングセレクト」6月24日オープン、総菜・サラダ提供",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51WTBOQ2JoUjZISXBRZzYxdEFucG9RWU1uOVJUeVZ5M0g0RGdfQUpfLWctcHUwdTBBMm4yakszME1yYlVueWZUMjlCRm0tSmZvMVVMTA?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "横浜市戸塚区",
       "genres": [

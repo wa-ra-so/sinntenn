@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T06:32:47.612Z",
+  "generatedAt": "2026-07-30T10:29:48.972Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 42
+      "count": 44
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 10
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -466,7 +466,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T07:35:40.872Z"
+      "checkedAt": "2026-07-30T10:29:48.777Z"
     },
     "ムーンブルー": {
       "storeName": "ムーンブルー",
@@ -666,7 +666,7 @@
     },
     "市原市|ダイニング": {
       "count": 4,
-      "checkedAt": "2026-07-23T07:35:41.066Z"
+      "checkedAt": "2026-07-30T10:29:48.972Z"
     },
     "南房総市|カフェ": {
       "count": 3,
@@ -694,6 +694,26 @@
     }
   },
   "items": [
+    {
+      "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:07:00 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-24T10:24:22.049Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（店長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/10_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-26T06:41:05.576Z"
+    },
     {
       "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】カジュアルな居酒屋のホール　調理スタッフ(正…）",
       "link": "https://to.indeed.com/aatrqnvnbjwz",
@@ -951,16 +971,6 @@
       "firstSeenAt": "2026-07-15T09:53:06.055Z"
     },
     {
-      "title": "「成田食堂」オープニングスタッフ募集（店長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/10_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-26T06:41:05.576Z"
-    },
-    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/10_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -999,16 +1009,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T07:34:52.657Z"
-    },
-    {
-      "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:14:53 GMT",
-      "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T10:24:22.049Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトスタッフ）",
@@ -1337,7 +1337,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [

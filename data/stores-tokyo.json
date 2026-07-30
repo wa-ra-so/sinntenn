@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T06:32:55.913Z",
+  "generatedAt": "2026-07-30T10:29:59.378Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 39
+      "count": 38
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,7 +42,7 @@
       "label": "カフェ系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "バー系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 243,
+  "itemCount": 246,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -830,7 +830,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T07:35:51.227Z"
+      "checkedAt": "2026-07-30T10:29:58.635Z"
     },
     "雲開キ": {
       "storeName": "雲開キ",
@@ -1155,7 +1155,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T07:35:50.247Z"
+      "checkedAt": "2026-07-30T10:29:59.153Z"
     },
     "オープニングスタッフ": {
       "storeName": "オープニングスタッフ",
@@ -1168,7 +1168,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T07:35:50.822Z"
+      "checkedAt": "2026-07-30T10:29:58.270Z"
     },
     "お酒の美術館": {
       "storeName": "お酒の美術館",
@@ -1494,6 +1494,45 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-30T02:46:12.647Z"
+    },
+    "焼肉ホルモン青一はなれ": {
+      "storeName": "焼肉ホルモン青一 はなれ",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004403217/?vos=nhppalsa000016",
+      "shopName": "焼肉ホルモン青一はなれ",
+      "address": "東京都港区南青山１-3-23 casa mia 2F",
+      "access": "『青山一丁目駅』3番出口から徒歩約2分",
+      "genre": "焼肉・ホルモン",
+      "budget": "7001～8000円",
+      "capacity": 22,
+      "open": "水～土: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）日、祝日: 16:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-30T10:29:57.905Z"
+    },
+    "ネコシャク": {
+      "storeName": "ネコシャク",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ003829791/?vos=nhppalsa000016",
+      "shopName": "ネコシャク 八丁堀",
+      "address": "東京都中央区八丁堀２-21-5 西勘ビル 1F・2F",
+      "access": "日比谷線八丁堀駅A5出口1分/JR八丁堀駅B1出口3分",
+      "genre": "ダイニングバー・バル",
+      "budget": "5001～6000円",
+      "capacity": 58,
+      "open": "月～金: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 17:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-07-30T10:29:57.907Z"
+    },
+    "とびうし飯田橋": {
+      "storeName": "とびうし 飯田橋",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-30T10:29:58.641Z"
     }
   },
   "market": {
@@ -1678,8 +1717,8 @@
       "checkedAt": "2026-07-30T02:46:14.705Z"
     },
     "千代田区|中華": {
-      "count": 143,
-      "checkedAt": "2026-07-23T07:35:51.451Z"
+      "count": 145,
+      "checkedAt": "2026-07-30T10:29:59.378Z"
     },
     "千代田区|居酒屋": {
       "count": 567,
@@ -1771,6 +1810,38 @@
     }
   },
   "items": [
+    {
+      "title": "「焼肉ホルモン青一 はなれ」オープニングスタッフ募集（ソムリエ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/157571/629878/12_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:07:00 GMT",
+      "area": "港区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T10:29:53.292Z"
+    },
+    {
+      "title": "「ネコシャク」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505345/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T10:29:53.292Z"
+    },
+    {
+      "title": "「とびうし 飯田橋」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505331/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
+      "area": "千代田区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-30T10:29:53.292Z"
+    },
     {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
@@ -1957,7 +2028,7 @@
     {
       "title": "コメダ／「和喫茶おかげ庵 ミーツ国分寺店」7月31日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5a2N6N0JVZno0dmJnQ29WcmZFbC1TYzREY21rRDBfdHlqZ3BJUzNVdmNtTG02OENZOXh4U1AwQ1VGMFFhRGJvYXJweWctRG5PR0ZaLQ?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Fri, 24 Jul 2026 07:03:00 GMT",
       "area": "国分寺市",
       "genres": [],
@@ -2843,8 +2914,8 @@
     {
       "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83X1dTQWVBY09uNWRhNlU3dEd1U25wZzFPWGtfNDdqNkFwOGVhby1uZEtaTm51Rm5NTFhvam9KRmVKa0diOTIzLU1TYXRIYXpseERwXzZWcmpseXhrYkNsRUtn?oc=5",
-      "source": "Excite エキサイト",
-      "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
+      "source": "excite.co.jp",
+      "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
       "area": "渋谷区",
       "genres": [
         "レストラン"
@@ -3343,7 +3414,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -3735,7 +3806,7 @@
     {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -3839,7 +3910,7 @@
     {
       "title": "アトレ恵比寿／7～8月オーガニック抹茶のカフェなど3店舗オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02cHJHT29mcTU5UmJNVzdBLXRaMVJaeTdmRVpSdE54VUkzcHhJT25hY3Z4S29RMHNQcG9aRWV5RjM2d2hNT3FMWWtocGFtRzJPNkJNMA?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -4172,7 +4243,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
@@ -4351,7 +4422,7 @@
     {
       "title": "【東中野】現役テレビマンが進化し続けるタコス店「新作タコス実験中」をオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5OQm4tdkcxQXduNzJHREtfT0pSOEZRd0pITlgta09xMThWc1djc0tMTkxsWDN6VUVLa01VUmFVNlREdi1hWlF3?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4409,7 +4480,7 @@
     {
       "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
-      "source": "rurubu.jp",
+      "source": "るるぶWeb",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [],
@@ -4443,7 +4514,7 @@
     {
       "title": "話題の新店「FORME.」のレモンパイとバスクチーズケーキ【ミスター黒猫の東京スイーツトレンドVol.104】｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIbnU5Q21CZGhVZnl4aHV3Tms0UXFsZXRqaEFBc082R2RfOWRKWkN1VmxQRlA2V21pV1VNcUJNNzU1RGFxUGFsUThnMFNFUVVw?oc=5",
-      "source": "rurubu.jp",
+      "source": "るるぶWeb",
       "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [],
@@ -4502,7 +4573,7 @@
     {
       "title": "東京国立博物館、館内レストラン3店舗をリニューアル 2026年夏～秋にかけて順次オープン",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxY2h5WGE3VUd1NWFQUGpWXzVTcmlFemNyREs3YkhQeld6amgzQkhZdG0tbjlkTzFsVHlJdHd3WlBrbVhxek8zLTFjbzl0Zw?oc=5",
-      "source": "アットプレス",
+      "source": "atpress.ne.jp",
       "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
       "area": "国立市",
       "genres": [

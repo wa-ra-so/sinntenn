@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T06:33:10.077Z",
+  "generatedAt": "2026-07-30T10:30:18.758Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 69
+      "count": 70
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 5
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 56
+      "count": 48
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 105,
+  "itemCount": 104,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -466,7 +466,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T07:36:06.792Z"
+      "checkedAt": "2026-07-30T10:30:18.402Z"
     },
     "オリーブの丘": {
       "storeName": "オリーブの丘",
@@ -479,7 +479,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T07:36:07.069Z"
+      "checkedAt": "2026-07-30T10:30:18.556Z"
     },
     "天空の里": {
       "storeName": "天空の里",
@@ -492,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T08:50:28.598Z"
+      "checkedAt": "2026-07-30T10:30:18.083Z"
     },
     "grilledsakanaworks": {
       "storeName": "Grilled Sakana Works",
@@ -545,19 +545,6 @@
       "capacity": 40,
       "open": "月～金: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00）17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）土、日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）祝日、祝前日: 17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
       "checkedAt": "2026-07-25T11:16:02.374Z"
-    },
-    "あったらいいな": {
-      "storeName": "あったらいいな",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-27T03:38:17.246Z"
     },
     "マルイファミリー志木店": {
       "storeName": "マルイファミリー志木店",
@@ -689,11 +676,11 @@
     },
     "志木市|中華": {
       "count": 2,
-      "checkedAt": "2026-07-23T07:36:07.274Z"
+      "checkedAt": "2026-07-30T10:30:18.729Z"
     },
     "ふじみ野市|イタリアン": {
       "count": 2,
-      "checkedAt": "2026-07-23T07:36:07.276Z"
+      "checkedAt": "2026-07-30T10:30:18.758Z"
     },
     "春日部市|居酒屋": {
       "count": 41,
@@ -737,6 +724,16 @@
     }
   },
   "items": [
+    {
+      "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
+      "area": "新座市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
     {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
@@ -784,7 +781,7 @@
     {
       "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
-      "source": "wowkorea.jp",
+      "source": "wowKorea",
       "pubDate": "Fri, 24 Jul 2026 12:10:41 GMT",
       "area": "越谷市",
       "genres": [
@@ -814,16 +811,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T03:17:34.980Z"
-    },
-    {
-      "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "志木市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:52.638Z"
     },
     {
       "title": "岩槻商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
@@ -1846,7 +1833,7 @@
     {
       "title": "カフェとサウナが一体の店「S°（エスド）」 カフェ先行オープン モノトーンのかき氷はサウナイメージ 「五感で楽しめる新感覚かき氷」 埼玉県本庄市",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZHlQTzVuMXJvLS1PVlBINDRUUXd3ZXZsREl3SkZFQk9sTV9vcmVrUVhDV2x0VXJ0NGhURGZNTEVWWDVoeDVfT2NqU0t2aENBdGxfbVVuWQ?oc=5",
-      "source": "埼玉新聞",
+      "source": "saitama-np.co.jp",
       "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
       "area": "本庄市",
       "genres": [
@@ -1874,7 +1861,7 @@
       "genres": [
         "中華"
       ],
-      "signal": "opening",
+      "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.272Z"
     },
     {
@@ -1936,24 +1923,12 @@
     {
       "title": "リンガーハット／東京都「京王笹塚店」埼玉県「マルイファミリー志木店」6月オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCWmFyOEswT3c4YjNSRU9YLUtra0FkWE5mNTV5X1NqVzJZbVJhdTMzbEhUa0wyLTZLSE5OUGl2d2UzNU9zb0RGelVrWmtRUjBURzlfTw?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
       "area": "志木市",
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-28T10:40:56.904Z"
-    },
-    {
-      "title": "高校生の「あったらいいな」が実現。越谷市初の手話カフェが6月14日にオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE01aEoycjFMci1BTWlYbmVwNUsyQXNMTmxwVjBrUU5rMFl0U1lHY2pyVUtteDdJajBPYzNFQVpQVWxUSlJ1VFJn?oc=5",
-      "source": "newscast.jp",
-      "pubDate": "Sun, 31 May 2026 07:00:00 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-27T03:38:11.930Z"
     }
   ]
 }
