@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
+      "ok": true,
+      "count": 4,
+      "mergedAt": "2026-07-31T00:37:37.945Z"
     }
   ],
-  "itemCount": 246,
+  "itemCount": 250,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1927,6 +1933,18 @@
       "firstSeenAt": "2026-07-30T01:01:39.337Z"
     },
     {
+      "title": "翠商事株式会社 オープニングスタッフ募集（落ちついた雰囲気の焼き鳥居酒屋スタッフ|第2期オープニング）",
+      "link": "https://to.indeed.com/aa849wrqknv6",
+      "source": "Indeed",
+      "pubDate": "Mon, 27 Jul 2026 00:00:00 GMT",
+      "area": "豊島区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.944Z"
+    },
+    {
       "title": "「flour+water吉祥寺」オープニングスタッフ募集（カフェの接客/オープニングで髪色自由&未経験可）",
       "link": "https://to.indeed.com/aav9jwrchxyn",
       "source": "Indeed",
@@ -1959,6 +1977,19 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-30T01:01:39.337Z"
+    },
+    {
+      "title": "株式会社Army Ant オープニングスタッフ募集（【オープニング】オシャレな上質空間|イタリアン&カフェの店舗…）",
+      "link": "https://to.indeed.com/aaw4ckkj7h6f",
+      "source": "Indeed",
+      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.945Z"
     },
     {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/の店舗正社員オープニングスタッ…）",
@@ -2316,6 +2347,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.546Z"
+    },
+    {
+      "title": "株式会社Ｂ５ オープニングスタッフ募集（バーのオープニングスタッフ）",
+      "link": "https://to.indeed.com/aa827tdjhs9b",
+      "source": "Indeed",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "墨田区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.945Z"
     },
     {
       "title": "株式会社LFCRD オープニングスタッフ募集（月島もんじゃの店舗スタッフ/オープニング/1年後に年収500…）",
@@ -3494,6 +3537,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.584Z"
+    },
+    {
+      "title": "有限会社新咲商事 オープニングスタッフ募集（居酒屋のホール・調理補助スタッフ(オープニング)）",
+      "link": "https://to.indeed.com/aalh8tzj4tzg",
+      "source": "Indeed",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "area": "中央区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.938Z"
     },
     {
       "title": "株式会社ヴィクセス オープニングスタッフ募集（馬肉料理酒場の店舗スタッフ/オープニング/おしゃれ自由）",

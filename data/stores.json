@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-07-31T00:37:37.883Z"
     }
   ],
-  "itemCount": 129,
+  "itemCount": 132,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -785,6 +791,28 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.402Z"
+    },
+    {
+      "title": "株式会社八街未来都市 オープニングスタッフ募集（オープニング×リゾートホテルのレストランホール）",
+      "link": "https://to.indeed.com/aagwrknm2yhp",
+      "source": "Indeed",
+      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
+      "area": "八街市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.879Z"
+    },
+    {
+      "title": "株式会社八街未来都市 オープニングスタッフ募集（オープニング×リゾートホテル(キッチン)）",
+      "link": "https://to.indeed.com/aawcwjtxn6y2",
+      "source": "Indeed",
+      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
+      "area": "八街市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.880Z"
     },
     {
       "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
@@ -1955,6 +1983,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
+    },
+    {
+      "title": "「cacao」オープニングスタッフ募集（スナックでの接客・ホールスタッフ|オープニング募集）",
+      "link": "https://to.indeed.com/aazjcqp47r6l",
+      "source": "Indeed",
+      "pubDate": "Tue, 16 Jun 2026 00:00:00 GMT",
+      "area": "柏市",
+      "genres": [
+        "スナック"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.864Z"
     },
     {
       "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニング にしだ場南行徳店　居酒屋での仕込みスタッフ）",
