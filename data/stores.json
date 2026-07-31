@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T10:29:48.972Z",
+  "generatedAt": "2026-07-31T03:28:59.116Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,34 +42,28 @@
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 2
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 44
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
-      "ok": true,
-      "count": 3,
-      "mergedAt": "2026-07-31T00:37:37.883Z"
     }
   ],
-  "itemCount": 132,
+  "itemCount": 133,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -485,7 +479,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T12:10:56.743Z"
+      "checkedAt": "2026-07-31T03:28:58.705Z"
     },
     "koalatreecafe&dining": {
       "storeName": "Koala Tree Cafe & Dining",
@@ -498,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T03:17:05.223Z"
+      "checkedAt": "2026-07-31T03:28:58.706Z"
     },
     "マチルダステーション浦安望海の街郵便局前": {
       "storeName": "マチルダステーション 浦安望海の街 郵便局前",
@@ -551,6 +545,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-30T06:32:47.612Z"
+    },
+    "大地の恵み": {
+      "storeName": "大地の恵み",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004421541/?vos=nhppalsa000016",
+      "shopName": "大地の恵み",
+      "address": "千葉県長生郡長柄町長柄山539番地",
+      "access": "千葉県長生郡長柄町長柄山539-60",
+      "genre": "カフェ・スイーツ",
+      "budget": "2001～3000円",
+      "capacity": 70,
+      "open": "月～水、金: 10:00～15:00 （料理L.O. 14:30 ドリンクL.O. 14:30）土、日、祝日: 10:00～17:00 （料理L.O. 15:00 ドリンクL.O. 16:00）",
+      "checkedAt": "2026-07-31T03:28:58.272Z"
+    },
+    "cacao": {
+      "storeName": "cacao",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-31T03:28:58.494Z"
     }
   },
   "market": {
@@ -659,8 +679,8 @@
       "checkedAt": "2026-07-30T02:46:02.516Z"
     },
     "千葉市中央区|ダイニング": {
-      "count": 28,
-      "checkedAt": "2026-07-24T03:17:05.412Z"
+      "count": 27,
+      "checkedAt": "2026-07-31T03:28:58.946Z"
     },
     "千葉市中央区|居酒屋": {
       "count": 156,
@@ -676,30 +696,52 @@
     },
     "南房総市|カフェ": {
       "count": 3,
-      "checkedAt": "2026-07-23T12:10:56.879Z"
+      "checkedAt": "2026-07-31T03:28:58.853Z"
     },
     "市川市|居酒屋": {
-      "count": 72,
-      "checkedAt": "2026-07-23T12:10:56.988Z"
+      "count": 70,
+      "checkedAt": "2026-07-31T03:28:59.116Z"
     },
     "千葉市中央区|バー": {
-      "count": 67,
-      "checkedAt": "2026-07-23T12:10:57.190Z"
+      "count": 66,
+      "checkedAt": "2026-07-31T03:28:58.965Z"
     },
     "木更津市|カフェ": {
       "count": 9,
-      "checkedAt": "2026-07-23T12:10:57.197Z"
+      "checkedAt": "2026-07-31T03:28:58.985Z"
     },
     "浦安市|カフェ": {
       "count": 13,
-      "checkedAt": "2026-07-24T03:17:05.434Z"
+      "checkedAt": "2026-07-31T03:28:59.073Z"
     },
     "鎌ケ谷市|カフェ": {
       "count": 7,
       "checkedAt": "2026-07-29T00:07:42.367Z"
+    },
+    "長柄町|カフェ": {
+      "count": 1,
+      "checkedAt": "2026-07-31T03:28:58.830Z"
+    },
+    "八街市|レストラン": {
+      "count": 8,
+      "checkedAt": "2026-07-31T03:28:58.841Z"
+    },
+    "柏市|スナック": {
+      "count": 0,
+      "checkedAt": "2026-07-31T03:28:59.077Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Thu, 30 Jul 2026 18:52:55 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
     {
       "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
@@ -721,6 +763,18 @@
       "firstSeenAt": "2026-07-26T06:41:05.576Z"
     },
     {
+      "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43eEFiOG5fbUV3dDVldndHcFZvcFREX3FvTnpkNmFZSzV1T19XNEpfUGNzcUd4NzlrS09ZaUl3WHo3QTVPdTVmdjNGdmdtX3dybUFicUg1WQ?oc=5",
+      "source": "chibanippo.co.jp",
+      "pubDate": "Thu, 30 Jul 2026 07:16:12 GMT",
+      "area": "長柄町",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-31T03:28:55.180Z"
+    },
+    {
       "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】カジュアルな居酒屋のホール　調理スタッフ(正…）",
       "link": "https://to.indeed.com/aatrqnvnbjwz",
       "source": "Indeed",
@@ -731,16 +785,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-30T01:01:22.887Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（調理責任者/食事付き学生マンション/土日祝休み）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Mon, 27 Jul 2026 19:16:53 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "【続報】松戸駅西口の「たい焼ききくや」跡地に「鮨処 すし白川」が8/10（月）オープン予定",
@@ -1904,7 +1948,7 @@
     {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
-      "source": "千葉日報オンライン",
+      "source": "chibanippo.co.jp",
       "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-30T10:30:09.799Z",
+  "generatedAt": "2026-07-31T03:29:18.787Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 93
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 77
+      "count": 78
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 9
+      "count": 10
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 56
+      "count": 48
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
@@ -61,15 +61,9 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 8,
-      "mergedAt": "2026-07-31T00:37:38.011Z"
     }
   ],
-  "itemCount": 102,
+  "itemCount": 103,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -212,7 +206,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T12:11:12.970Z"
+      "checkedAt": "2026-07-31T03:29:18.097Z"
     },
     "ラスカ小田原店": {
       "storeName": "ラスカ小田原店",
@@ -238,7 +232,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T03:17:29.642Z"
+      "checkedAt": "2026-07-31T03:29:18.222Z"
     },
     "casacabanhayama": {
       "storeName": "Casa CABaN HAYAMA",
@@ -407,7 +401,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-23T12:11:12.772Z"
+      "checkedAt": "2026-07-31T03:29:17.891Z"
     },
     "clubimpact": {
       "storeName": "Club IMPACT",
@@ -420,7 +414,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T03:17:29.163Z"
+      "checkedAt": "2026-07-31T03:29:18.120Z"
     },
     "寿司活": {
       "storeName": "寿司活",
@@ -551,6 +545,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-30T06:33:03.273Z"
+    },
+    "プリヴェ": {
+      "storeName": "プリヴェ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-31T03:29:17.995Z"
     }
   },
   "market": {
@@ -611,36 +618,36 @@
       "checkedAt": "2026-07-30T02:46:23.633Z"
     },
     "横浜市中区|居酒屋": {
-      "count": 167,
-      "checkedAt": "2026-07-23T12:11:13.089Z"
+      "count": 171,
+      "checkedAt": "2026-07-31T03:29:18.460Z"
     },
     "茅ヶ崎市|居酒屋": {
-      "count": 29,
-      "checkedAt": "2026-07-23T12:11:13.091Z"
+      "count": 28,
+      "checkedAt": "2026-07-31T03:29:18.787Z"
     },
     "川崎市多摩区|焼肉": {
       "count": 17,
-      "checkedAt": "2026-07-23T12:11:13.101Z"
+      "checkedAt": "2026-07-31T03:29:18.461Z"
     },
     "横浜市|ダイニング": {
-      "count": 181,
-      "checkedAt": "2026-07-23T12:11:13.197Z"
+      "count": 182,
+      "checkedAt": "2026-07-31T03:29:18.343Z"
     },
     "横浜市|バル": {
-      "count": 107,
-      "checkedAt": "2026-07-23T12:11:13.207Z"
+      "count": 108,
+      "checkedAt": "2026-07-31T03:29:18.344Z"
     },
     "川崎市|居酒屋": {
-      "count": 403,
-      "checkedAt": "2026-07-23T12:11:13.216Z"
+      "count": 401,
+      "checkedAt": "2026-07-31T03:29:18.342Z"
     },
     "横浜市|ビストロ": {
       "count": 51,
-      "checkedAt": "2026-07-23T12:11:13.314Z"
+      "checkedAt": "2026-07-31T03:29:18.585Z"
     },
     "川崎市|カフェ": {
-      "count": 93,
-      "checkedAt": "2026-07-23T12:11:13.346Z"
+      "count": 91,
+      "checkedAt": "2026-07-31T03:29:18.614Z"
     },
     "川崎市|寿司": {
       "count": 64,
@@ -665,11 +672,23 @@
   },
   "items": [
     {
+      "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
+      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
+      "source": "求人ボックス（バイトな女子）",
+      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T03:29:14.492Z"
+    },
+    {
       "title": "「木村屋本店 二俣川」オープニングスタッフ募集（ホールスタッフ）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505302/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
-      "area": "横浜市",
+      "area": "横浜市旭区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T08:50:11.076Z"
@@ -679,7 +698,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505392/2_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
-      "area": "川崎市",
+      "area": "川崎市多摩区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:34.821Z"
@@ -689,7 +708,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505479/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
-      "area": "川崎市",
+      "area": "川崎市高津区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T10:18:34.821Z"
@@ -785,7 +804,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "walkerplus.com",
+      "source": "ウォーカープラス",
       "pubDate": "Wed, 29 Jul 2026 08:10:23 GMT",
       "area": "",
       "genres": [
@@ -801,9 +820,7 @@
       "source": "Indeed",
       "pubDate": "Mon, 27 Jul 2026 00:00:00 GMT",
       "area": "横浜市",
-      "genres": [
-        "ビストロ"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T00:37:38.011Z"
     },
@@ -1657,7 +1674,7 @@
     {
       "title": "ゴンチャ／神奈川県小田原市に「ラスカ小田原店」6月25日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10YzFBYnQ4Rl9vNVFjVHBINmZVU0JkZkpJbzg2TTFlR3d3cU5nX0JaUjViVy1XT3lEQUU1TXlBckVERVVIYzhMRkhrRjJiTXl1NGdiRg?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "小田原市",
       "genres": [],
