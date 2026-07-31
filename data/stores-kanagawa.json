@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 8,
+      "mergedAt": "2026-07-31T00:37:38.011Z"
     }
   ],
-  "itemCount": 94,
+  "itemCount": 102,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -713,6 +719,60 @@
       "firstSeenAt": "2026-07-30T02:46:18.963Z"
     },
     {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/楽しい空間が好きな方が集まる沖縄酒場の店舗運営…）",
+      "link": "https://to.indeed.com/aadh4bjy47d4",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:37.997Z"
+    },
+    {
+      "title": "株式会社Sunrise オープニングスタッフ募集（【オープニング】テキパキ働くのが好きな方向け!和酒場のホール…）",
+      "link": "https://to.indeed.com/aajcz6xrcpvy",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.008Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/毎日が楽しいアットホームな沖縄酒場のキッチン補…）",
+      "link": "https://to.indeed.com/aawfqhx4lxtq",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.010Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（【新規オープン】点心バルのホール・接客スタッフ）",
+      "link": "https://to.indeed.com/aa2v6pfbvbn8",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.010Z"
+    },
+    {
+      "title": "株式会社Sunrise オープニングスタッフ募集（【オープニング】一体感を感じられる/和ダイニングの調理スタッ…）",
+      "link": "https://to.indeed.com/aabzbh2nd6s2",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.011Z"
+    },
+    {
       "title": "株式会社ニュー・クイック オープニングスタッフ募集（惣菜・スイーツ販売/販売/キッチン 社割でお惣菜がお得 食費…）",
       "link": "http://s.baitoru.com/DW0aWcaX",
       "source": "求人ボックス（baitoru）",
@@ -734,6 +794,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-27T03:38:01.734Z"
+    },
+    {
+      "title": "株式会社Sunrise オープニングスタッフ募集（【オープニング】忙しい時間も楽しめる !ライブ感あるモダンビ…）",
+      "link": "https://to.indeed.com/aamqnn277bby",
+      "source": "Indeed",
+      "pubDate": "Mon, 27 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ビストロ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.011Z"
     },
     {
       "title": "「ウェスティンホテル横浜」のインターナショナルビュッフェレストランがオープン1周年！記念ビュッフェを堪能",
@@ -1331,6 +1403,16 @@
       "firstSeenAt": "2026-07-16T09:14:44.599Z"
     },
     {
+      "title": "「プリヴェ」オープニングスタッフ募集（8月新規オープン予定!落ち着いた大人の空間で働く、接客スタッ…）",
+      "link": "https://to.indeed.com/aa8vnrhhgrl9",
+      "source": "Indeed",
+      "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
+      "area": "川崎市多摩区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.011Z"
+    },
+    {
       "title": "合同会社AP オープニングスタッフ募集（「新規開業バー/インセンティブ」オープニングバーテンダーの募…）",
       "link": "https://www.bizreach.jp/lp/members_register/?job_id=8880129&job_category=%E5%BA%97%E8%88%97%E7%AE%A1%E7%90%86%E3%83%BB%E5%BA%97%E8%88%97%E9%81%8B%E5%96%B6%0D&company_name=%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BEAP",
       "source": "求人ボックス（ビズリーチ - 登録エントリー）",
@@ -1435,6 +1517,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.197Z"
+    },
+    {
+      "title": "株式会社style7 オープニングスタッフ募集（7月オープン和食居酒屋のキッチンスタッフ）",
+      "link": "https://to.indeed.com/aazwxxkpvtpb",
+      "source": "Indeed",
+      "pubDate": "Mon, 06 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.010Z"
     },
     {
       "title": "有限会社サザンフードサービス オープニングスタッフ募集（6月オープニングの居酒屋のホールスタッフ）",
