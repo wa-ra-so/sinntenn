@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T03:29:27.729Z",
+  "generatedAt": "2026-07-31T06:49:54.639Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 104,
+  "itemCount": 105,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -755,6 +755,16 @@
       "firstSeenAt": "2026-07-29T10:44:53.581Z"
     },
     {
+      "title": "株式会社サンライズ オープニングスタッフ募集（イベントスタッフ/PRスタッフ/個人営業 イベントブースでの…）",
+      "link": "http://s.baitoru.com/dN0adMm9",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Mon, 27 Jul 2026 17:42:05 GMT",
+      "area": "草加市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T06:49:51.266Z"
+    },
+    {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
       "source": "キャンプファイヤー",
@@ -1048,7 +1058,7 @@
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン（埼玉新聞）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pOFFteWNocF9OM1V6Yy02NFI5QTFsLXhqVmJUVVkyUWI1TlJRMG80SjJlaGc0TllGQVlpbHdTcHh1MnlDQ2hDVTVYX0thUFF2cjJzVkVKSTRXdGM2YUNFWExFckU3akQ0Z1ozaFVLTVItVkhxLXdFUHhkeDdzcmc?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1293,7 +1303,7 @@
     {
       "title": "『オモウマい店SP』能登の寿司店「津久司」再オープンに密着 埼玉の卵食べ放題食堂も（TV LIFE web）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OR3pBY18tdksxNzBnQlFJLS1ZeHpfQVZUVVJPM1pOZW1lYmxHLWQ3LTktUDNhRDdtZVc3a0NfZTR4ME5IcUpHd1pnMnJGYnQtck1vYU1Oa3hsYUhORDU0cXh4aFNRR0NCUm1wVTJzM3BFaFZ3R1lCNDRGNXFtbUE?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
