@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T06:49:54.639Z",
+  "generatedAt": "2026-07-31T10:45:15.010Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 72
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 48
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 4
+      "count": 5
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 105,
+  "itemCount": 106,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -362,7 +362,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T10:24:58.055Z"
+      "checkedAt": "2026-07-31T10:45:14.806Z"
     },
     "チェントペルチェント浦和芝原店": {
       "storeName": "チェントペルチェント浦和芝原店",
@@ -375,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T10:24:57.323Z"
+      "checkedAt": "2026-07-31T10:45:14.599Z"
     },
     "串焼亭ねぎ東大宮店": {
       "storeName": "串焼亭ねぎ 東大宮店",
@@ -546,19 +546,6 @@
       "open": "月～金: 11:30～14:30 （料理L.O. 14:00 ドリンクL.O. 14:00）17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）土、日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）祝日、祝前日: 17:30～23:00 （料理L.O. 22:00 ドリンクL.O. 22:00）",
       "checkedAt": "2026-07-25T11:16:02.374Z"
     },
-    "マルイファミリー志木店": {
-      "storeName": "マルイファミリー志木店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-28T10:41:00.310Z"
-    },
     "ホテルグローバルビュー浦和": {
       "storeName": "ホテルグローバルビュー浦和",
       "listed": false,
@@ -571,6 +558,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-29T00:08:18.752Z"
+    },
+    "焼肉セナラ": {
+      "storeName": "焼肉セナラ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-31T10:45:14.419Z"
+    },
+    "おでん家万昌ざっくばらん": {
+      "storeName": "おでん家万昌ざっくばらん",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-07-31T10:45:14.751Z"
     }
   },
   "market": {
@@ -664,7 +677,7 @@
     },
     "さいたま市浦和区|レストラン": {
       "count": 8,
-      "checkedAt": "2026-07-24T10:24:58.259Z"
+      "checkedAt": "2026-07-31T10:45:15.009Z"
     },
     "さいたま市大宮区|居酒屋": {
       "count": 160,
@@ -721,6 +734,10 @@
     "さいたま市|バー": {
       "count": 89,
       "checkedAt": "2026-07-29T00:08:19.251Z"
+    },
+    "熊谷市|焼肉": {
+      "count": 17,
+      "checkedAt": "2026-07-31T10:45:15.001Z"
     }
   },
   "items": [
@@ -743,6 +760,28 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
+      "source": "wowKorea",
+      "pubDate": "Thu, 30 Jul 2026 07:11:12 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T06:22:51.207Z"
+    },
+    {
+      "title": "「おでん家万昌ざっくばらん」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 経験不問 夏·冬は…）",
+      "link": "http://s.baitoru.com/dN0aZBCS",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Wed, 29 Jul 2026 09:52:34 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:45:09.489Z"
     },
     {
       "title": "株式会社フォーディー オープニングスタッフ募集（デリ・惣菜販売・デパ地下・食品販売/オープニングスタッフスー…）",
@@ -787,18 +826,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-25T09:54:20.197Z"
-    },
-    {
-      "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
-      "source": "wowKorea",
-      "pubDate": "Fri, 24 Jul 2026 12:10:41 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-25T06:22:51.207Z"
     },
     {
       "title": "世界初が大宮に！？ あのラデュレの\"ドーナツ\"が食べられる「カフェ・ラデュレ」がエキュート大宮に7/24オープン",
@@ -1058,7 +1085,7 @@
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン（埼玉新聞）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pOFFteWNocF9OM1V6Yy02NFI5QTFsLXhqVmJUVVkyUWI1TlJRMG80SjJlaGc0TllGQVlpbHdTcHh1MnlDQ2hDVTVYX0thUFF2cjJzVkVKSTRXdGM2YUNFWExFckU3akQ0Z1ozaFVLTVItVkhxLXdFUHhkeDdzcmc?oc=5",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1076,6 +1103,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
+    },
+    {
+      "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 創業55年の安定企…）",
+      "link": "http://s.baitoru.com/dN0aXdyu",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Fri, 17 Jul 2026 09:59:17 GMT",
+      "area": "熊谷市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:45:09.489Z"
     },
     {
       "title": "居酒屋「串焼亭ねぎ 東大宮店」がオープン 東大宮駅東口に",
@@ -1116,7 +1155,7 @@
     {
       "title": "【埼玉県内初ロードサイド店舗】イタリアンカフェ＆レストラン「チェントペルチェント浦和芝原店」7月17日(金)10時30分オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91RmZfcERXV3EyR0dwdDd1dFFObTBPRlN0aDkyR2tUSm84bjZIZ3pZeXYwZVNNWmt2eVNfMkdxSVdXejZpLUp3cmVqQU1FaG13ajZuTmVXeWlRcU12MHU5MnVkc3hhQmRwTXc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
       "area": "さいたま市浦和区",
       "genres": [
@@ -1303,7 +1342,7 @@
     {
       "title": "『オモウマい店SP』能登の寿司店「津久司」再オープンに密着 埼玉の卵食べ放題食堂も（TV LIFE web）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OR3pBY18tdksxNzBnQlFJLS1ZeHpfQVZUVVJPM1pOZW1lYmxHLWQ3LTktUDNhRDdtZVc3a0NfZTR4ME5IcUpHd1pnMnJGYnQtck1vYU1Oa3hsYUhORDU0cXh4aFNRR0NCUm1wVTJzM3BFaFZ3R1lCNDRGNXFtbUE?oc=5",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -1714,7 +1753,7 @@
     {
       "title": "【埼玉県初上陸】全国60店舗、月間利用者9万人の「セルフカフェ」埼玉初出店！Wi-Fi・電源完備で日常利用が拡大。カインズスーパーセンター上里本庄店敷地内に6月20日にオープン。",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91N0NEVGxURFpsVGNYR0tSQUhva3pveXNpZ292MEx1YzRXQmVHUlI1Vk9RZmJ1TzAxZFZ3clkxazhQS0ZoU1E2c0pOaW5DYkt5YmlwcjVNR2p4SmxsWFQ2UTlmWmNlZzR6RGc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
       "area": "本庄市",
       "genres": [
@@ -1929,16 +1968,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:52.219Z"
-    },
-    {
-      "title": "リンガーハット／東京都「京王笹塚店」埼玉県「マルイファミリー志木店」6月オープン",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBCWmFyOEswT3c4YjNSRU9YLUtra0FkWE5mNTV5X1NqVzJZbVJhdTMzbEhUa0wyLTZLSE5OUGl2d2UzNU9zb0RGelVrWmtRUjBURzlfTw?oc=5",
-      "source": "流通ニュース",
-      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "area": "志木市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-28T10:40:56.904Z"
     }
   ]
 }

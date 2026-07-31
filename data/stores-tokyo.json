@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T06:49:39.502Z",
+  "generatedAt": "2026-07-31T10:44:55.436Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 31
+      "count": 29
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 33
+      "count": 32
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 9
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 252,
+  "itemCount": 253,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -960,7 +960,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T10:24:39.022Z"
+      "checkedAt": "2026-07-31T10:44:55.185Z"
     },
     "ピエール・エルメ・パリ": {
       "storeName": "ピエール・エルメ・パリ",
@@ -973,7 +973,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T10:24:38.412Z"
+      "checkedAt": "2026-07-31T10:44:54.498Z"
     },
     "清澄白河": {
       "storeName": "清澄白河",
@@ -1013,19 +1013,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-25T03:15:44.409Z"
-    },
-    "theキャラcafe東急プラザ渋谷店": {
-      "storeName": "THEキャラCAFE 東急プラザ渋谷店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-25T09:54:09.805Z"
     },
     "btable": {
       "storeName": "B table",
@@ -1311,7 +1298,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T10:24:37.905Z"
+      "checkedAt": "2026-07-31T10:44:54.319Z"
     },
     "yate": {
       "storeName": "YATE",
@@ -1620,10 +1607,6 @@
       "count": 87,
       "checkedAt": "2026-07-28T02:54:23.266Z"
     },
-    "国立市|レストラン": {
-      "count": 4,
-      "checkedAt": "2026-07-28T02:54:23.660Z"
-    },
     "渋谷区|レストラン": {
       "count": 78,
       "checkedAt": "2026-07-28T02:54:22.822Z"
@@ -1689,12 +1672,12 @@
       "checkedAt": "2026-07-31T03:29:10.470Z"
     },
     "千代田区|カフェ": {
-      "count": 114,
-      "checkedAt": "2026-07-24T10:24:39.245Z"
+      "count": 112,
+      "checkedAt": "2026-07-31T10:44:55.436Z"
     },
     "台東区|レストラン": {
-      "count": 35,
-      "checkedAt": "2026-07-24T10:24:39.241Z"
+      "count": 34,
+      "checkedAt": "2026-07-31T10:44:55.415Z"
     },
     "渋谷区|ビストロ": {
       "count": 60,
@@ -1832,6 +1815,16 @@
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
+      "title": "株式会社ジョージーズ オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン オープニング 自由…）",
+      "link": "http://s.baitoru.com/dN0aZvOP",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Thu, 30 Jul 2026 17:59:53 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:48.688Z"
+    },
+    {
       "title": "「焼肉ホルモン青一 はなれ」オープニングスタッフ募集（ソムリエ）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/157571/629878/12_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1892,7 +1885,7 @@
     {
       "title": "【東京都豊島区】イタリアンデリ「Piccola Aria」オープン！前菜やメインが選べるデリボックスを販売",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85YkNfSmQ5TV8yQmt0ZkJ0bVd2SWpSckx6UmVyN0R2Wjg5ODJLZmNCcHEycGFtYUF6M1c2b3otbWhZTFNhN2dnSGN0WHBhVk0xbV9n?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Mon, 27 Jul 2026 05:16:24 GMT",
       "area": "豊島区",
       "genres": [
@@ -2292,6 +2285,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T03:17:10.606Z"
+    },
+    {
+      "title": "株式会社KISSUI GROUP オープニングスタッフ募集（店長・マネージャー候補 10月OPEN オープニング 昇給年…）",
+      "link": "http://s.baitoru.com/dN0aKLsz",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Wed, 22 Jul 2026 09:35:26 GMT",
+      "area": "千代田区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:48.688Z"
     },
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
@@ -2733,7 +2736,7 @@
     {
       "title": "2026年7月17日（金）東京都新宿区に、コスパ抜群の海鮮系大衆居酒屋「大衆酒場 銀次」の4号店となる「大衆酒場 銀次 西新宿小滝橋店」をオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xZlVLOU1hNWpLT3BhV2R6ZTNGUGZOM0hCbWx4eHdRcXhVVm8xakVwQ1E2S2F2QXRzTURWYmpqQ0VTMTRHNWt2VFVKTUlCaUVXYzZWQjBWMGI3OEpaUXV2YzU1UG1wTmJON2c?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [
@@ -2745,7 +2748,7 @@
     {
       "title": "【 大分県初出店！ 】築地銀だこの居酒屋業態「銀だこハイボール酒場」が、大分駅・セントポルタ中央町商店街に7/17（金）オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81N0JjNVVraWMxT3A4eW9ScXFUeHAtbnl5dEU5Sm5TQnZTblBoaG5rU3RnOEpiVlhCbHJCeGZMNDM0ZkVsYm5ZRzhrTkRaeFhzUXUxVGY5MzlBMWR3ZkhXSS1qQjVWNUV2ZHc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Thu, 16 Jul 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [
@@ -2779,7 +2782,7 @@
     {
       "title": "南青山のモダンフレンチ「L’AS」が東京駅エリア初進出。新複合施設「TOFROM YAESU」に『L’AS TOKYO』を9月10日オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0em1heFpxaWtlWFBrNTE2Q0tkUzdjVmoxZy1PNUZGSTFpUlRucE1mTHR2bDNSdE9KcUU0UWk5b2xrS3Axb2ZCdEc3NzgzYXdoTEdFS0VfNlh5WGN4dkE1Uk0xdEFtUFp1Q1E?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [
@@ -2859,7 +2862,7 @@
     {
       "title": "焼肉、寿司食べ放題の「すたみな太郎NEXT 上野アメ横店」が7/18(土)全面改装オープン！「すたみな太郎 PREMIUM BUFFET上野アメ横店」として再始動！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PdXdtV1g0eHNXVXU3NVhjaXZfRl8waHBnX1NoWkxLaWx1YjhUZEtaN250SzVjQXgzR1hScEdJRVRNdzdJV3ppeWJBYnY0MjI1VmRjS0lHRm9FeG0zVDhhMGlqcE13MjhISVE?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "台東区",
       "genres": [
@@ -3128,7 +3131,7 @@
     {
       "title": "【東京都品川区】新スタイルのイタリアンバル「SOSTA ～pizza＆legame～」が五反田にオープン",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBST0JVVmtQaFBUVUcyYlhMbEpDRDNRRFBTcktITDA1QmcyTkZseVFBVzVZVi1pekluS3BZS0RPcmt4Undjd2lvUm9yX2Q2MzA4ZTVz?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Thu, 09 Jul 2026 12:33:45 GMT",
       "area": "品川区",
       "genres": [
@@ -3386,7 +3389,7 @@
     {
       "title": "飲茶＆スイーツが食べ放題！東京都初上陸「THE BUFFET 点心甜心」が三鷹にオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03UHdKTEhXSUk3aGF2VXRhOFNFNzFJR3dwOVAyWGRNNXRIMXlOTkFEcG91WWdIZHZCWE1LamJlc1lwcVNyeXN2OVhDaV9NU0s0U2c?oc=5",
-      "source": "report.iko-yo.net",
+      "source": "いこーよニュース",
       "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [],
@@ -3484,7 +3487,7 @@
     {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE BUFFET 点心甜心 三鷹店』がオープン！点心×甜心の無限ループで至福の食べ放題！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FdVR4SWI5Z0Z6UTRuQ3hCNUJqek53enR0dDFiWDRKb0U1bm5VbFNvWnlVVjh0MlF2V0IwaUdQYTAxNi0ydlh2Vm9QYmpIU2UtMWlHUlFzbnM2REJBMXkwZ2twOUR6djM3Zmc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -3712,7 +3715,7 @@
     {
       "title": "“和モダン”をコンセプトにしたテーマカフェが東京・愛知・大阪に登場！「初音ミク Wa Modern Cafe」期間限定オープン！！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMNmNudjhJZGNzS2ZpTmh5TEFkMDYtOENQWjkteU53OXN3Z1JTWk81WWk4b29GTjFNSEk5T0UtLWt2TVpZZWRvUDlqUVBWZmlacGk0TVhia2RsZTRFRktTeDJkc043NE04b0E?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -3839,7 +3842,7 @@
     {
       "title": "2026年夏 東京ミッドタウンに新店オープン WCB最大規模のクラフトビアレストラン「Instant Classic by WCB」茅乃舎の四季を楽しむ新業態、Tamituの期間限定カフェも登場！ | 東京ミッドタウンマネジメント株式会社のプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jalRybEp6WnVFazE1NGxqTkRFclJqMlFPb3dwd0dzcmdTXzdEMXZOZWNsWExDU3RJWlJBQ0w4cnNlVXRRblpiaXJkZXpvU0lxaXpnZ0xvdUVLb0Iwd0JGejQ2YUNqVVZzSWc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -3852,7 +3855,7 @@
     {
       "title": "【東京都足立区】北千住に隠れ家酒場「調和」がオープン！旬野菜のおばんざいと焼肉を肴に酒場体験堪能",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9kZjJkWmZRSnZXM1FhdW95c1FoWWpaS3Rvdl9pek1aQmNMN1AzenV3ejFiVTF2c2E3b1JTckhLR1FIZ0szSkFaNVlmOA?oc=5",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "area": "足立区",
       "genres": [
@@ -3908,7 +3911,7 @@
     {
       "title": "先行潜入動画つき！『トイ・ストーリー5』カフェが東京ミッドタウン日比谷にオープン",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MVkRtSUR0ZVBoWE5hZEFuRmFRcGFpNHY0SU9kQ1JQN2Fjd1l4QmVRYjNfak5XaUNwbWYyN19TNGNTWHR1cTAxWk5uVkpIUjBNZXFpLU9nQkNWT2s?oc=5",
-      "source": "report.iko-yo.net",
+      "source": "いこーよニュース",
       "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -3956,7 +3959,7 @@
     {
       "title": "【東京都中野区】新たな中華酒場「餃子のイペコ」オープン！対象ドリンク100円キャンペーンを開催",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaMHJKVHl6WlhYY3FPa1prT21meU1jVjN0VE54d3VmNTg4RktNdmZxYy1DRW9PeU5WbkE5VGlBWlpHbW42QmtzcHdRM3M3VGYzRjBr?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [
@@ -3992,7 +3995,7 @@
     {
       "title": "【Atelier LILIUM】6月25日「百合の日」、池袋の百合ブックカフェにオリジナルキャラクター姉妹「真白さつき・真白ミナ」が誕生【漫画家・ミトがデザイン】",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPVUI1eUpoNk05UGpHaEh3RUN6Qm1Zd1BCallNUlBuWlQzV1dJUEN4LUVmYzJyNHVvOFBzeVZ4UENYaXlRM3FlQ0V1SnhQNmVzeEctRDYyQ09JVDl5eXJSYXB1ZFdpSlNIY3c?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Thu, 25 Jun 2026 07:00:00 GMT",
       "area": "豊島区",
       "genres": [
@@ -4041,7 +4044,7 @@
     {
       "title": "【東京都渋谷区】「KITAINARI本店」が渋谷ヒカリエへ移転・リニューアルオープン！いなり寿司を堪能",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9obi0wYTVVTlBiRXc1TnZETk1PVWJiOF9PX0FBOFVIU2ZEZEtLMW5aZ1RvQlJLd1NlaEstaFNtb3FyUm9sWVFzNV9USXdQbHZybXhB?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -4143,7 +4146,7 @@
     {
       "title": "【東京都渋谷区】カフェ・オフィスからなる複合施設「B TRACK」がオープン！築57年のビルを再生",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TcVE0NDRreW9yTjktbzdoTUxUOXVLZW4yMy1lMFBEdnU4SkVOSXh3RTdqR1VNZXVOS1ZnMGR3NmhJZnpyWDB5Y05jYm5lSFRKU2E4?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -4167,7 +4170,7 @@
     {
       "title": "peace put／自由が丘に「ネオナイスバーガー」など3ブランド複合店6月18日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1URm8yZDBOOEJXRUhxS1BWZENzWFpUUkdKQjVQSFd1VWhYV05Xb2xwTFFJeHFYODFUVnNfbldDRlRLWVlkU2lLV1lvRmRybFFwOXduTw?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [
@@ -4191,7 +4194,7 @@
     {
       "title": "【東京都港区】「銀座レカン」8代目料理長が手がけるフランス料理店『La Tradition』がオープン！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PMDBoTlc3WmpaMU9Relk2YmJPQk81OHZzQkR1bHp1WXlGNmF1bElBelQ5MlNocEYxLUdiTHEyaHRkcDBmVTM0eTZpT25JLXc0eVA0?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [],
@@ -4201,7 +4204,7 @@
     {
       "title": "ツール・ド・フランス公認カフェ「Tour de France CAFÉ」東京、大阪、尾道（広島）3都市で今年も期間限定オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VXzVjVHc2T0t6OFBSWUxHRFV4MHh1OHVGVGVIcUVPcWlDdVFtNnBoclloWVFqeFdkQk1yd1kwNU02VlNQMUVtU2JMM21hVGZHTGM0UktNdFlmd2JLSjZvS1pRcnpqM0RvUEE?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4225,7 +4228,7 @@
     {
       "title": "【東京都八王子市】町中華「中華 西八チャオ」オープン！対象メニューを280円で味わえるキャンペーン開催",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nazk2aTc4b0JQZTBSeXRqYkI5b3I5VlExTng4aGVZeVFnMFFyc0VTRHMyckl3bUZCSGczNnhTS3poM0szUE1QUTluV1Btd1I5enJ3?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [
@@ -4313,7 +4316,7 @@
     {
       "title": "谷中銀座に古民家リノベカフェ 「八三六（Hachi San Roku）」が2026年6月11日オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WemxnT0h0aEFsdUczbm16dGtjdHRCbzJsSkh5Z2RJcDk4VFB5N2NqR1BDa1lQNnF6S01hb05malFfSmpJeGVYd0xNbk9NM1dvWXptY2ZPeURrYzN4dUFaaHdrbmFjMGJVbWc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [
@@ -4347,7 +4350,7 @@
     {
       "title": "【新宿】マスター・オブ・ウイスキー静谷和典が手掛けるクラシックで重厚なオーセンティックバー「BAR LAST WORD（バー・ラストワード）」が2026年6月13日(土)グランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12TkJSVkJxMl90TkxJeFA4WVczTTBTaGJrT3g0ZXI3YlBXY0Jsc3hpYjlEY0ZOLV9QdC1nM0g5NU5xY2xqMlVkUzE1NUVXYTFLMU5XSHpGYXNkRVNmUjNHbDFlUWNuR2FqWGc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [
@@ -4371,7 +4374,7 @@
     {
       "title": "【西八王子】新業態「中華 西八チャオ」2026年6月18日（木）グランドオープン | GYRO HOLDINGS 株式会社のプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fZkhtaVctUmRBeW1LRjZQVEVmMHU3V3FZZXZWQzJsQkkyUWJTWkktREN2MDJpSl81bV8yZUFIU2lUc3BEbWxVd0gxdVZLUG9zbDBfc1BXeTB0eUZnUGNLSmIzOUlFX3NnRHc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [
@@ -4383,7 +4386,7 @@
     {
       "title": "『カフェ・ベローチェ』 新橋エリアに新店舗！オフィス街と商業エリアをつなぐ新拠点として誕生6月18日（木）オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPenkxV1FaUzZvMGdVOU9XcHd3VWxXUHpNR2VWRi1zME91Q2sxbG1jLVNnbmNfcHowaEYwT19Ka3FmWk1Lbnl4RUFia1poVVQ5Sk9HNi1oYlpfeVl6SVFYaUp2ZDhlMTRReXc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [
@@ -4395,7 +4398,7 @@
     {
       "title": "【東京都江東区】ベーカリーショップ「PARKSTAND Coffee ＆ Bakery」オープン！ワンコOKのテラス席も",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBDUWsxYmkyVV81WWJZVkZtY0xjc2VCNlZXRGxGT0VsOXlWNHlJSVRRY01MQ3JwSGozbFpRZ0tjdUtQa25QVjhJZy1UdFU0SHlObXhn?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
       "area": "江東区",
       "genres": [],
@@ -4526,7 +4529,7 @@
     {
       "title": "創業103年の玉寿司が手掛ける本格寿司酒場名古屋初上陸！『築地すしくろ名古屋HAERA店』 6月11日（木）グランドオープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zYkV1ZnJvOEpYLVBac0ppMGF0ZEdsci1WVUcxR2pzR1QtSXBhamd1R2d1YzNCdUw0TzFwUEhGbFljQmFBcmtEYVJTMHFJSjRVSDZCRnA1NERjMGhZb1RSRlB2VzFIYmEyMUE?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [
@@ -4538,7 +4541,7 @@
     {
       "title": "【東京都豊島区】「刀剣乱舞ONLINE」が軽装をテーマに期間限定コラボカフェを池袋にオープン！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fWVBUSWR0WGItMUVaUEd5dEFKN2psMWFVNHFnd1dsbWlCZkw2NjZTQVNLNlRuNlpSQ2pfU0M3TXJhN3dOTWZ3d0FJWmVEWVZqdlZN?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "豊島区",
       "genres": [
@@ -4560,6 +4563,16 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
+      "title": "株式会社アクアプランネット オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン オープニング 羽田…）",
+      "link": "http://s.baitoru.com/dN0aKxgy",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Fri, 05 Jun 2026 17:32:53 GMT",
+      "area": "大田区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:48.688Z"
+    },
+    {
       "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
       "source": "るるぶWeb",
@@ -4572,7 +4585,7 @@
     {
       "title": "ディズニー&ピクサーの最新作『トイ・ストーリー5』の公開にあわせてスペシャルなカフェが東京・大阪・愛知・宮城に登場！「トイ・ストーリー5」OH MY CAFE期間限定オープン！！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pUjRZQ3g2SWQtazBjdHVtczFQdjlKY3ZRb3lCcGNISFlwR3VUWTg0VUpRRGdDcmVIUGhMYTRQa2phLURwMTBLeFBGYzJObmJ1b0JqamI5aGZaUWluOXJmeHlUSEtwQmhIVEE?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4618,7 +4631,7 @@
     {
       "title": "ハワイアンカフェ＆レストラン『Merengue』が千葉市幕張エリア初、ホテル内に初出店！2026年6月11日、KOKO HOTEL Premier 東京ベイ幕張にグランドオープン！ | 株式会社RYコーポレーションのプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SNWxZMUJJTHEyR0FJNFdJYWlteHdxRUt3Sld1VzZvdGdMcEVSOEwxVG11d3lncGhocFF6NjBmTWVXd3BxLVhrQ0ZjWi1mWWdTaTBnU2RrUUF5bGpuaEJpNDdqdnc2dkVMREE?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4651,30 +4664,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.136Z"
-    },
-    {
-      "title": "東京国立博物館、館内レストラン3店舗をリニューアル 2026年夏～秋にかけて順次オープン",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxY2h5WGE3VUd1NWFQUGpWXzVTcmlFemNyREs3YkhQeld6amgzQkhZdG0tbjlkTzFsVHlJdHd3WlBrbVhxek8zLTFjbzl0Zw?oc=5",
-      "source": "アットプレス",
-      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "area": "国立市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
-    },
-    {
-      "title": "渋谷エリアに新たなキャラクターカフェスポット「THEキャラCAFE 東急プラザ渋谷店」がオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xQTA0a1FBb29GZ0lqRF96NUpBemloMW8wQXpnTzV6cUFTVlVFRlJNUEJHaWpmRHpWMEIyTGFPcjV4UU1JVjQtZ2hXaE82YUwteFJfb0hBYWxVYVcwX1JScE5HaUFzYVl4V1E?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
-      "area": "渋谷区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-18T07:02:18.435Z"
     }
   ]
 }

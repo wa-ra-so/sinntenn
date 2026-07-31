@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-31T06:49:47.175Z",
+  "generatedAt": "2026-07-31T10:45:05.090Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 91
+      "count": 89
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 78
+      "count": 77
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 48
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 104,
+  "itemCount": 110,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -245,7 +245,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-24T10:24:48.270Z"
+      "checkedAt": "2026-07-31T10:45:04.864Z"
     },
     "新規オープニング": {
       "storeName": "新規オープニング",
@@ -595,7 +595,7 @@
     },
     "葉山町|イタリアン": {
       "count": 0,
-      "checkedAt": "2026-07-24T10:24:48.471Z"
+      "checkedAt": "2026-07-31T10:45:05.090Z"
     },
     "鎌倉市|バー": {
       "count": 37,
@@ -677,9 +677,7 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T03:29:14.492Z"
     },
@@ -716,7 +714,7 @@
     {
       "title": "【鎌倉・大船】仲卸直営の海鮮居酒屋「魚貝 とろぼっち 大船」が8月1日グランドオープン！ | 株式会社First Dropのプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xQUVYZUFaMTlEbWVBTUE4TjRVR2p1NkZVRmpubnJzMHdnNmowLWV0cGZjT1VEMk5XdHBfQzFSQ2x5dmNLRER0VzU5TEhPX2poamVnUmNnMHBpeEs3MjhmTGs1ZFEwQUNPZmc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Thu, 30 Jul 2026 06:24:14 GMT",
       "area": "鎌倉市",
       "genres": [
@@ -728,7 +726,7 @@
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Thu, 30 Jul 2026 02:49:42 GMT",
       "area": "横浜市",
       "genres": [
@@ -839,7 +837,7 @@
     {
       "title": "「ウェスティンホテル横浜」のインターナショナルビュッフェレストランがオープン1周年！記念ビュッフェを堪能",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBoRFBMSkg1Vm5qNTJGZmZjZ0tHZmZ3bi1DeHlJM0JvMjdxaDdNa1RzeDhaZW96aTdQUUc5NnpBajh0VjFUS0swYmpFbnU?oc=5",
-      "source": "Precious.jp",
+      "source": "precious.jp",
       "pubDate": "Sun, 26 Jul 2026 13:00:00 GMT",
       "area": "横浜市",
       "genres": [
@@ -883,7 +881,7 @@
     {
       "title": "新感覚「エンタメレーン」初導入！「寿司活」がラゾーナ川崎に9月中旬オープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rZThQM1BEdGRvS2puZnBzWGE2b19IQVZFU3J4UGdlZUdvQVUxc3hoei1zOXdIZW1MVTJyeVlUbkpMQkZPQUpfNXVHZU15a3NoWEE?oc=5",
-      "source": "report.iko-yo.net",
+      "source": "いこーよニュース",
       "pubDate": "Fri, 24 Jul 2026 05:15:47 GMT",
       "area": "川崎市",
       "genres": [
@@ -953,6 +951,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T11:30:51.601Z"
+    },
+    {
+      "title": "株式会社First Drop オープニングスタッフ募集（ホール/キッチン/フード系 オープニング 週休2日制 WEB…）",
+      "link": "http://s.baitoru.com/dN0aUlRc",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Wed, 22 Jul 2026 09:35:23 GMT",
+      "area": "鎌倉市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:59.780Z"
     },
     {
       "title": "クラシックホテルの正統派バー「シーガーディアンⅡ」（横浜）｜港町酒場で逢いましょう",
@@ -1284,6 +1292,16 @@
       "firstSeenAt": "2026-07-24T00:10:55.198Z"
     },
     {
+      "title": "株式会社KISSUI GROUP オープニングスタッフ募集（店長・マネージャー候補 9月OPEN オープニング 昇給年4…）",
+      "link": "http://s.baitoru.com/dN0aFMtw",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Tue, 14 Jul 2026 18:08:31 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:59.780Z"
+    },
+    {
       "title": "「ristrante Cocochi ristorante C…」オープニングスタッフ募集（イタリアン/レストランサービス・ホールスタッフ/オープニング…）",
       "link": "https://foods-labo.com/offers/111913?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
@@ -1311,7 +1329,7 @@
     {
       "title": "【今話題の神奈川グルメが大集合】アジアの夜市と横浜中華街の食べ歩きグルメが融合した新名所「鯉恋横丁（こいこいよこちょう）」がオープンまであと2日！個性豊かな飲食店10店舗が7月15日（水）同時オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ESV85aWs2T1JhWUdXeDY5RkZ4Uk55ME1HSGNIa000UUQtZ0lQTllxQVVEYjFkWHc2ZWtvck10U2JIdlRyNXYtTjVCakdob3lfOGtMeWdzTEx4ZHhxUmlVai0zZngwRzdPemc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "横浜市中区",
       "genres": [
@@ -1392,7 +1410,7 @@
     {
       "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rX0hCU2FYN3pxTURvNU5VS0ZJMERjeU1Gb3djdjc2bjJlLVg0aWVDbk9hNnlYWWUtQnRIUG4wZUNSek0wNkU4WU5USkIyVXlLbnF2NGtTMXlvMUxXSlV6M1g1X2NqRGtOMWc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
       "area": "横浜市中区",
       "genres": [
@@ -1454,6 +1472,16 @@
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
+      "title": "株式会社オリノ オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 月給38万~/初期…）",
+      "link": "http://s.baitoru.com/dN0aUlXg",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Wed, 08 Jul 2026 17:45:36 GMT",
+      "area": "相模原市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:59.780Z"
+    },
+    {
       "title": "株式会社リラフル オープニングスタッフ募集（キッチン/洗い場/販売 早朝オープニングスタッフ まかないに…）",
       "link": "http://s.baitoru.com/DW0aWSxQ",
       "source": "求人ボックス（baitoru）",
@@ -1506,7 +1534,7 @@
     {
       "title": "寝たきりでも働ける「分身ロボットカフェDAWN」横浜店のオープンが決定！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51alpHM3Q3UWViYVFfSXdiaW9TWThxdFd4Yy11X3NVVW43Y0R1QTdpRFZTVFV0cXM5TUZ6bGk4SDR3aUl5c3VYT2x6bGt3LVg1eGtpZHJJYXVUQVE5SlRfeHpkQmlFaU1GNFE?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
       "area": "横浜市",
       "genres": [
@@ -1518,7 +1546,7 @@
     {
       "title": "【ドリンク1杯99円】「行きたくなる酒場 浜ちゃん」が7月10日（金）に大和店をオープン！神奈川初上陸を記念して、自慢のレモンサワーなど1杯99円でご提供！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UZXFHcXNmWGpkOVBUczlSMjRzdk5QZF92dGJXN2pGaHVJZGRIS0pLY3VSWkdWOXl3Z1RYQUVoTzRMa3ZNUGtYazZ0amFRTWI4RlNITXlZc212aFFvTUtxMGhkVnA2OEtkZGc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "大和市",
       "genres": [],
@@ -1586,7 +1614,7 @@
     {
       "title": "「閉館まで90日。それでも、最後の新店を出す。」月間約2万人が訪れた横浜西口一番街の最終章――「ビーフキッチンスタンド はなれ」2026年7月1日(水)オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03Q1lyTVhEUWdXRmIxckRKb01xam5IWVBKdVl3U3dWb2JiSko4ZWptZVpxeUtja0prdk5jci1wZTU3clBIcTlucGhQcTYxOTVzOFE5MEdjdHJubXpWSTVmZkplVl9za3NSc3c?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Wed, 01 Jul 2026 07:00:00 GMT",
       "area": "横浜市",
       "genres": [],
@@ -1638,6 +1666,16 @@
       "firstSeenAt": "2026-07-27T03:42:55.371Z"
     },
     {
+      "title": "株式会社味ん味ん オープニングスタッフ募集（ホール/店長・マネージャー候補/キッチン 完全週休2日 役職…）",
+      "link": "http://s.baitoru.com/dN0aMDsC",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Fri, 26 Jun 2026 09:33:11 GMT",
+      "area": "厚木市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:59.780Z"
+    },
+    {
       "title": "株式会社フォンスＣＢ オープニングスタッフ募集（<オープニングスタッフ>ベーカリーカフェスタッフ|アベニュー…）",
       "link": "https://to.indeed.com/aax9h8lr98dl",
       "source": "Indeed",
@@ -1686,7 +1724,7 @@
     {
       "title": "ゴンチャ／神奈川県小田原市に「ラスカ小田原店」6月25日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10YzFBYnQ4Rl9vNVFjVHBINmZVU0JkZkpJbzg2TTFlR3d3cU5nX0JaUjViVy1XT3lEQUU1TXlBckVERVVIYzhMRkhrRjJiTXl1NGdiRg?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "小田原市",
       "genres": [],
@@ -1706,7 +1744,7 @@
     {
       "title": "【戸塚にダーツ新設】ネットカフェを一部改装し「DiCE戸塚店」が2026年6月23日（火）リニューアルオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ROTA4WmZaLTZZYndxODZKZXo0MmxNWTJCZlFxYnJpQURaNkl0OFFKNVhOZ29KTHQzcXVpX2p0NUxneUs1eHMxaXJXeW81RmpMWml2U0hGbHZ1NDJSa3lTR0pESHRmNG14dmc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Tue, 16 Jun 2026 07:00:00 GMT",
       "area": "横浜市戸塚区",
       "genres": [
@@ -1714,6 +1752,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-22T22:09:07.130Z"
+    },
+    {
+      "title": "日常出版株式会社 オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 完全人柄採用 福利…）",
+      "link": "http://s.baitoru.com/dN0aSTdV",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Mon, 15 Jun 2026 17:33:10 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:59.780Z"
     },
     {
       "title": "株式会社シーエーダブル オープニングスタッフ募集（オープニング募集の沖縄居酒屋店舗スタッフ(正社員)）",
@@ -1740,9 +1788,19 @@
       "firstSeenAt": "2026-07-27T03:42:55.381Z"
     },
     {
+      "title": "株式会社新日本環境 オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/社員…）",
+      "link": "http://s.baitoru.com/dN0aQXa4",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Thu, 11 Jun 2026 17:33:16 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:59.780Z"
+    },
+    {
       "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jYThrRGZjaENwekJBQjc5TEJERzgtbG5fWHlnYXN0MDhQSGpXQkZLZW8xYmRUN2NhQzFZa2RrZ0hIX29FaUVqa1Z1U0lTRGFaek1sWU5KZlpQekZ5VFA5SEhWcHl5Rks0a1E?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Wed, 10 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -1821,7 +1879,7 @@
     {
       "title": "【神奈川県横浜市】最高の肉質を適正価格で、卸出身の肉のプロが横浜に焼肉「うしこぞう横浜店」をOPEN",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KUWxPb3AzV1ZnS01udi1LalQyRFd6VWlLbXZhbllKbjZhU0Z1bEFWQUVhNUhpQ0stam51dUVoTURudWJkSVNFakR1Z1llM1VGLWpj?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT",
       "area": "横浜市",
       "genres": [
