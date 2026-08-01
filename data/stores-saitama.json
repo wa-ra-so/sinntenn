@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T10:45:15.010Z",
+  "generatedAt": "2026-08-01T03:28:09.847Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 71
+      "count": 72
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 7
+      "count": 4
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -233,19 +233,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-28T02:54:43.496Z"
-    },
-    "ビアダイニングオープニングスタッフ大募集": {
-      "storeName": "ビアダイニング オープニングスタッフ大募集",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-28T02:54:43.703Z"
     },
     "ファミリー食堂山田うどん食堂北中店": {
       "storeName": "ファミリー食堂 山田うどん食堂 北中店",
@@ -518,7 +505,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-25T03:15:59.647Z"
+      "checkedAt": "2026-08-01T03:28:09.048Z"
     },
     "ワンパグ": {
       "storeName": "ワンパグ",
@@ -635,10 +622,6 @@
       "count": 9,
       "checkedAt": "2026-07-28T02:54:44.546Z"
     },
-    "東松山市|ダイニング": {
-      "count": 3,
-      "checkedAt": "2026-07-28T02:54:44.775Z"
-    },
     "越谷市|カフェ": {
       "count": 16,
       "checkedAt": "2026-07-28T02:54:43.906Z"
@@ -680,8 +663,8 @@
       "checkedAt": "2026-07-31T10:45:15.009Z"
     },
     "さいたま市大宮区|居酒屋": {
-      "count": 160,
-      "checkedAt": "2026-07-25T03:15:59.771Z"
+      "count": 162,
+      "checkedAt": "2026-08-01T03:28:09.240Z"
     },
     "所沢市|ダイニング": {
       "count": 11,
@@ -738,6 +721,10 @@
     "熊谷市|焼肉": {
       "count": 17,
       "checkedAt": "2026-07-31T10:45:15.001Z"
+    },
+    "深谷市|焼肉": {
+      "count": 6,
+      "checkedAt": "2026-08-01T03:28:09.847Z"
     }
   },
   "items": [
@@ -760,18 +747,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
-    },
-    {
-      "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
-      "source": "wowKorea",
-      "pubDate": "Thu, 30 Jul 2026 07:11:12 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-25T06:22:51.207Z"
     },
     {
       "title": "「おでん家万昌ざっくばらん」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 経験不問 夏·冬は…）",
@@ -828,9 +803,21 @@
       "firstSeenAt": "2026-07-25T09:54:20.197Z"
     },
     {
+      "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
+      "source": "wowKorea",
+      "pubDate": "Fri, 24 Jul 2026 12:10:41 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T06:22:51.207Z"
+    },
+    {
       "title": "世界初が大宮に！？ あのラデュレの\"ドーナツ\"が食べられる「カフェ・ラデュレ」がエキュート大宮に7/24オープン",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9COEloejdBV0VtS3VvU2V6NEJZY1BFVC1oaG1WRkQtVXkxelVPSG1ZU1hjdU5TX05GdFZFN2wzdWRoeUxNcUI2Qm1aWW5MVk1ZWnNzSVlRQQ?oc=5",
-      "source": "朝日新聞",
+      "source": "asahi.com",
       "pubDate": "Thu, 23 Jul 2026 22:42:08 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1117,6 +1104,18 @@
       "firstSeenAt": "2026-07-31T10:45:09.489Z"
     },
     {
+      "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 創業55年の安定企…）",
+      "link": "http://s.baitoru.com/dN0aXiph",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Fri, 17 Jul 2026 09:59:17 GMT",
+      "area": "深谷市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-01T03:28:04.616Z"
+    },
+    {
       "title": "居酒屋「串焼亭ねぎ 東大宮店」がオープン 東大宮駅東口に",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9HaENiUS1ETHl3eGhObjRyTEdDb1FhS21kWEw5VFRodU5mUnUzd0ZtSWJDeENNY19aUC1CdVZEVTUzU3RONHY4?oc=5",
       "source": "日進大宮なび",
@@ -1155,7 +1154,7 @@
     {
       "title": "【埼玉県内初ロードサイド店舗】イタリアンカフェ＆レストラン「チェントペルチェント浦和芝原店」7月17日(金)10時30分オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91RmZfcERXV3EyR0dwdDd1dFFObTBPRlN0aDkyR2tUSm84bjZIZ3pZeXYwZVNNWmt2eVNfMkdxSVdXejZpLUp3cmVqQU1FaG13ajZuTmVXeWlRcU12MHU5MnVkc3hhQmRwTXc?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
       "area": "さいたま市浦和区",
       "genres": [
@@ -1753,7 +1752,7 @@
     {
       "title": "【埼玉県初上陸】全国60店舗、月間利用者9万人の「セルフカフェ」埼玉初出店！Wi-Fi・電源完備で日常利用が拡大。カインズスーパーセンター上里本庄店敷地内に6月20日にオープン。",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91N0NEVGxURFpsVGNYR0tSQUhva3pveXNpZ292MEx1YzRXQmVHUlI1Vk9RZmJ1TzAxZFZ3clkxazhQS0ZoU1E2c0pOaW5DYkt5YmlwcjVNR2p4SmxsWFQ2UTlmWmNlZzR6RGc?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
       "area": "本庄市",
       "genres": [
@@ -1956,18 +1955,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.259Z"
-    },
-    {
-      "title": "株式会社イートウイング オープニングスタッフ募集（「ビアダイニング オープニングスタッフ大募集」土日祝時給UP）",
-      "link": "https://04510ch.com/job/7138/297",
-      "source": "求人ボックス（株式会社イートウイング）",
-      "pubDate": "Mon, 01 Jun 2026 16:16:28 GMT",
-      "area": "東松山市",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.219Z"
     }
   ]
 }
