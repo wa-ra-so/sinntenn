@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T03:28:00.589Z",
+  "generatedAt": "2026-08-01T06:34:47.309Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 45
+      "count": 47
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -683,13 +683,23 @@
     },
     {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
+      "link": "https://baitona-joshi.jp/shop/2232740/",
       "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
+      "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
       "genres": [
         "居酒屋"
       ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-25T06:22:43.658Z"
+    },
+    {
+      "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
+      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
+      "source": "求人ボックス（バイトな女子）",
+      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
+      "area": "川崎市",
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T03:29:14.492Z"
     },
@@ -828,7 +838,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
+      "source": "walkerplus.com",
       "pubDate": "Wed, 29 Jul 2026 08:10:23 GMT",
       "area": "",
       "genres": [
@@ -871,16 +881,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T03:13:58.597Z"
-    },
-    {
-      "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/",
-      "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Sat, 25 Jul 2026 02:07:19 GMT",
-      "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
@@ -1848,7 +1848,7 @@
     {
       "title": "【ＰＲ記事】 横浜東急REIホテル、9階レストラン「アンコール」をラウンジスペース「REI Café（レイカフェ）」としてオープン 神奈川県横浜市",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlVEQtTFpvanREWG4zS1hGTVVnQ0tJaUxaVkthUEg2MWdvSVQ2Rm1BeUh5dFI2WXVuWjIxVnd0QXNiS3JZVFdIajBSVkg5bjNrdE1VNVE1YkFHYTZRYk1yUVhn?oc=5",
-      "source": "yutosoken.com",
+      "source": "遊都総研",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "横浜市",
       "genres": [

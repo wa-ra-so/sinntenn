@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T03:27:42.211Z",
+  "generatedAt": "2026-08-01T06:34:30.043Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,25 +36,25 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 13
+      "count": 12
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 48
+      "count": 54
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 139,
+  "itemCount": 140,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -786,6 +786,16 @@
       "firstSeenAt": "2026-07-24T06:30:30.586Z"
     },
     {
+      "title": "「成田食堂」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Fri, 31 Jul 2026 10:08:22 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:17.709Z"
+    },
+    {
       "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -848,6 +858,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-01T03:27:39.803Z"
+    },
+    {
+      "title": "千葉県庁がイエローに　社会を明るくする運動で",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5saUM0X0IwTWhnbFd4T2c1MDZhM1VSU3pwTjc3TzdGLUxQdTkwWjI2eVNQMUJlS0s0YnVlODVwZG56Y2JXYW5TOHMzS0hlSWd4UDdGRVo4Vmh4LWxFbmc3d0ZMZTRHQUxXb0lKRTdxUUpsQVJmcGRRTHlPZlZYZ9IBgwFBVV95cUxOeUp0UDhkM1RROTBxdUJ3UWkwWERsVExnLUt6MnZndnpkeGVneUxBODh6RnkwMnBNRDgzVm9mdVFvcjVtWXdXQnI2R2J4bGc5Z0JtaTBRLTlPUFhVd2FFcDJaNjVFa0ZNVWIzUXRxTENfV2FLUGFZOHppdDFsTDVOOGIwRQ?oc=5",
+      "source": "ｄメニューニュース",
+      "pubDate": "Mon, 27 Jul 2026 10:00:00 GMT",
+      "area": "",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-01T06:34:26.376Z"
     },
     {
       "title": "【続報】松戸駅西口の「たい焼ききくや」跡地に「鮨処 すし白川」が8/10（月）オープン予定",
@@ -1084,16 +1104,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
-    },
-    {
-      "title": "「成田食堂」オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:17.709Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（料理長候補）",

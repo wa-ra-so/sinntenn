@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T03:27:52.092Z",
+  "generatedAt": "2026-08-01T06:34:39.970Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 27
+      "count": 25
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 30
+      "count": 29
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 78
+      "count": 77
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -2284,7 +2284,7 @@
     {
       "title": "7/24(金)オープン！渋谷発の人気カフェ「Roasted COFFEE LABORATORY」が軽井沢･プリンスショッピングプラザに期間限定出店 ！自家焙煎コーヒーと自家製スイーツ♪限定クレープも登場！@長野県軽井沢町",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9WMmN6SDNNTWtPWFVBMWpKSVJSc3FjaUs2U2EzVk1wSzNtR3k5Q1FrTXBwYWJqRWJydU50NWppRVlCZm93N25jdE13WGdmdw?oc=5",
-      "source": "web-komachi.com",
+      "source": "Web-Komachi",
       "pubDate": "Thu, 23 Jul 2026 00:32:03 GMT",
       "area": "渋谷区",
       "genres": [
@@ -2711,7 +2711,7 @@
     {
       "title": "「NEHANA/ネハナ」が6月オープン！東京から長野へ。“美味しい”が集まる森の小さなカフェ。セネガルの家庭料理を楽しむランチと、かき氷やクラフトチョコレートなど癒やしのスイーツ時間♪＠長野県 御代田町",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9USG50TmloR2h3a0dSR3M5S0V6em9XRmpGSjhXSWhyc1VEQ2xUd1VYZkRZbGhQWVBicDhwQ1l1WTNrTkNnbXB3dDFWc3pEdw?oc=5",
-      "source": "web-komachi.com",
+      "source": "Web-Komachi",
       "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T03:28:09.847Z",
+  "generatedAt": "2026-08-01T06:34:56.186Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 72
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 106,
+  "itemCount": 107,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -725,9 +725,25 @@
     "深谷市|焼肉": {
       "count": 6,
       "checkedAt": "2026-08-01T03:28:09.847Z"
+    },
+    "久喜市|焼肉": {
+      "count": 6,
+      "checkedAt": "2026-08-01T06:34:56.186Z"
     }
   },
   "items": [
+    {
+      "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 一生現場だけじゃな…）",
+      "link": "http://s.baitoru.com/dN0aXivD",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Thu, 30 Jul 2026 18:00:14 GMT",
+      "area": "久喜市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-01T06:34:51.441Z"
+    },
     {
       "title": "株式会社ベネミール R8.8新規オープン オープニングスタッフ募集（調理師）",
       "link": "https://job-gear.net/benemealsaiyou/AE0709014684/CDdetail.htm",
@@ -747,6 +763,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
+      "source": "wowKorea",
+      "pubDate": "Thu, 30 Jul 2026 07:11:12 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-25T06:22:51.207Z"
     },
     {
       "title": "「おでん家万昌ざっくばらん」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 経験不問 夏·冬は…）",
@@ -801,18 +829,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-25T09:54:20.197Z"
-    },
-    {
-      "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
-      "source": "wowKorea",
-      "pubDate": "Fri, 24 Jul 2026 12:10:41 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-25T06:22:51.207Z"
     },
     {
       "title": "世界初が大宮に！？ あのラデュレの\"ドーナツ\"が食べられる「カフェ・ラデュレ」がエキュート大宮に7/24オープン",
