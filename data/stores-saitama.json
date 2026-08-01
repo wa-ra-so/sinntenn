@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T06:34:56.186Z",
+  "generatedAt": "2026-08-01T10:04:10.402Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 71
+      "count": 70
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 3
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -518,7 +518,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-25T09:54:23.739Z"
+      "checkedAt": "2026-08-01T10:04:09.656Z"
     },
     "馬肉専門卸問屋勝馬": {
       "storeName": "馬肉専門卸問屋 勝馬",
@@ -668,7 +668,7 @@
     },
     "所沢市|ダイニング": {
       "count": 11,
-      "checkedAt": "2026-07-25T09:54:24.174Z"
+      "checkedAt": "2026-08-01T10:04:10.402Z"
     },
     "志木市|中華": {
       "count": 2,
@@ -700,7 +700,7 @@
     },
     "加須市|カフェ": {
       "count": 5,
-      "checkedAt": "2026-07-25T09:54:23.864Z"
+      "checkedAt": "2026-08-01T10:04:09.855Z"
     },
     "所沢市|バー": {
       "count": 21,
@@ -833,7 +833,7 @@
     {
       "title": "世界初が大宮に！？ あのラデュレの\"ドーナツ\"が食べられる「カフェ・ラデュレ」がエキュート大宮に7/24オープン",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9COEloejdBV0VtS3VvU2V6NEJZY1BFVC1oaG1WRkQtVXkxelVPSG1ZU1hjdU5TX05GdFZFN2wzdWRoeUxNcUI2Qm1aWW5MVk1ZWnNzSVlRQQ?oc=5",
-      "source": "asahi.com",
+      "source": "朝日新聞",
       "pubDate": "Thu, 23 Jul 2026 22:42:08 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -875,7 +875,7 @@
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "フードスタジアム",
+      "source": "food-stadium.com",
       "pubDate": "Thu, 23 Jul 2026 02:03:35 GMT",
       "area": "志木市",
       "genres": [

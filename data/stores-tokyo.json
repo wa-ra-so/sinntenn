@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T06:34:39.970Z",
+  "generatedAt": "2026-08-01T10:03:52.508Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 25
+      "count": 27
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 77
+      "count": 76
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 12
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 255,
+  "itemCount": 254,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -506,19 +506,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-28T02:54:21.809Z"
-    },
-    "merengue": {
-      "storeName": "Merengue",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-28T02:54:21.934Z"
     },
     "sushireona/玲桜奈東京23区に出店予定": {
       "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
@@ -1866,7 +1853,7 @@
     {
       "title": "八王子【パンもパティもベーコンも一人で手作り】本格アメリカンダイナー「Shakiri Meat Diner」がオープン!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQdGdNcXdaLU1rUDZYNUVnemc2aGRlS2dHTk5IQnYyd3pGc2JkNk5rNm93dHJkazFZcUJ3b1RJcWhlSTNGZjl2LWRpMDNubms?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Fri, 31 Jul 2026 08:30:00 GMT",
       "area": "八王子市",
       "genres": [],
@@ -1978,7 +1965,7 @@
     {
       "title": "【東京都豊島区】イタリアンデリ「Piccola Aria」オープン！前菜やメインが選べるデリボックスを販売",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LNTJQQ0JtT1RpZmxtQXdBRVNRNG9vcUlFZFhjTTRlQkh2aExLdmk4ODBNOVY2emJnM3JDQ1gtY0F6QmtPYUtIUURHMA?oc=5",
-      "source": "ガジェット通信",
+      "source": "getnews.jp",
       "pubDate": "Mon, 27 Jul 2026 01:30:25 GMT",
       "area": "豊島区",
       "genres": [
@@ -2262,7 +2249,7 @@
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "フードスタジアム",
+      "source": "food-stadium.com",
       "pubDate": "Thu, 23 Jul 2026 02:03:35 GMT",
       "area": "千代田区",
       "genres": [
@@ -3056,7 +3043,7 @@
     {
       "title": "平日は事務員、土曜日はミュージシャン。シェアレストランから生まれた【音楽と料理】の新業態「Vol.」が渋谷にオープン",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83X1dTQWVBY09uNWRhNlU3dEd1U25wZzFPWGtfNDdqNkFwOGVhby1uZEtaTm51Rm5NTFhvam9KRmVKa0diOTIzLU1TYXRIYXpseERwXzZWcmpseXhrYkNsRUtn?oc=5",
-      "source": "Excite エキサイト",
+      "source": "excite.co.jp",
       "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -3936,7 +3923,7 @@
     {
       "title": "【東京都足立区】北千住に隠れ家酒場「調和」がオープン！旬野菜のおばんざいと焼肉を肴に酒場体験堪能",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9kZjJkWmZRSnZXM1FhdW95c1FoWWpaS3Rvdl9pek1aQmNMN1AzenV3ejFiVTF2c2E3b1JTckhLR1FIZ0szSkFaNVlmOA?oc=5",
-      "source": "ガジェット通信",
+      "source": "getnews.jp",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "area": "足立区",
       "genres": [
@@ -3960,7 +3947,7 @@
     {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4112,7 +4099,7 @@
     {
       "title": "学芸大学に「シロネリ」がオープン。自家製麺とラビオリ、本格焼酎の居酒屋。自由が丘「ニショク」、池尻大橋「ルリイロ」などイタリアン展開のコローリ新店舗",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ya2VEVlZYYkZnRUdiVzFfVHgwWVdNVFhPZkVtR2VDd0JnMzhmQzg3V0dCWVBpS3RrZkpFMkdtM0l3eHV5LUdzb29NVHRpdlNoOUE?oc=5",
-      "source": "フードスタジアム",
+      "source": "food-stadium.com",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [
@@ -4409,7 +4396,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
@@ -4588,7 +4575,7 @@
     {
       "title": "【東中野】現役テレビマンが進化し続けるタコス店「新作タコス実験中」をオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5OQm4tdkcxQXduNzJHREtfT0pSOEZRd0pITlgta09xMThWc1djc0tMTkxsWDN6VUVLa01VUmFVNlREdi1hWlF3?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4708,19 +4695,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-18T14:21:50.205Z"
-    },
-    {
-      "title": "ハワイアンカフェ＆レストラン『Merengue』が千葉市幕張エリア初、ホテル内に初出店！2026年6月11日、KOKO HOTEL Premier 東京ベイ幕張にグランドオープン！ | 株式会社RYコーポレーションのプレスリリース",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SNWxZMUJJTHEyR0FJNFdJYWlteHdxRUt3Sld1VzZvdGdMcEVSOEwxVG11d3lncGhocFF6NjBmTWVXd3BxLVhrQ0ZjWi1mWWdTaTBnU2RrUUF5bGpuaEJpNDdqdnc2dkVMREE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Tue, 02 Jun 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "レストラン",
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.041Z"
     }
   ]
 }
