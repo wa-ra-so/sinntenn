@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-08-02T06:38:04.996Z",
+  "generatedAt": "2026-08-02T10:03:28.673Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 100
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": true,
-      "count": 75
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": true,
-      "count": 7
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": true,
-      "count": 13
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": true,
-      "count": 3
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": true,
-      "count": 62
+      "ok": false,
+      "error": "HTTP 503"
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -220,19 +220,6 @@
       "capacity": 160,
       "open": "月～木、日、祝日、祝前日: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）金、土: 12:00～翌4:30 （料理L.O. 翌3:30 ドリンクL.O. 翌4:00）",
       "checkedAt": "2026-07-12T03:52:47.123Z"
-    },
-    "メレンゲ": {
-      "storeName": "メレンゲ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-26T10:05:25.039Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -518,7 +505,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T06:41:09.938Z"
+      "checkedAt": "2026-08-02T10:03:28.673Z"
     },
     "鮨処すし白川": {
       "storeName": "鮨処 すし白川",
@@ -634,10 +621,6 @@
     "館山市|カフェ": {
       "count": 9,
       "checkedAt": "2026-07-26T10:05:25.580Z"
-    },
-    "千葉市美浜区|レストラン": {
-      "count": 8,
-      "checkedAt": "2026-07-26T10:05:25.653Z"
     },
     "柏市|フレンチ": {
       "count": 8,
@@ -1310,6 +1293,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-01T10:03:39.640Z"
+    },
+    {
+      "title": "株式会社オールハーツ・カンパニー オープニングスタッフ募集（ベーカリーでパンの製造スタッフ）",
+      "link": "https://allhearts-job.net/jobfind-pc/job/All/54111",
+      "source": "求人ボックス（株式会社オールハーツ･カンパニー）",
+      "pubDate": "Tue, 21 Jul 2026 05:05:19 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-02T10:02:52.284Z"
     },
     {
       "title": "船橋駅南口近くにタコス＆カフェ「サンズ・タケリア」が7/19（日）からオープン、キャッシュレス決済のみ",
@@ -2320,19 +2313,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
-      "title": "ハワイアンカフェ＆レストラン「メレンゲ」千葉市幕張エリアのホテル内にオープン｜レッツエンジョイ東京",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPWWpWek9xWkhGUTBoRmdoaV93RU94MXhNTUpGelU1VHFNZHBaWjR4eXV1bVFCTFk4eklZcmtQNmNzQTdkSlhXWWdlVE5zMlE?oc=5",
-      "source": "レッツエンジョイ東京",
-      "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
-      "area": "千葉市美浜区",
-      "genres": [
-        "レストラン",
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
     }
   ]
 }
