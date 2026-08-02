@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T10:04:00.131Z",
+  "generatedAt": "2026-08-02T03:27:43.104Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 9
+      "count": 11
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 53
+      "count": 61
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 110,
+  "itemCount": 111,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -670,7 +670,9 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -680,9 +682,7 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T03:29:14.492Z"
     },
@@ -727,6 +727,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-30T06:32:59.655Z"
+    },
+    {
+      "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjWmlNYW9WRGNmTXRrZVlOMmhRSXE0ZzN1aUY5OU55TG5yZll6NEdlemx1VThwVWVZV3FsWlVnRmVxOHdoUG5xNWc5YjVubk0?oc=5",
+      "source": "TRILL",
+      "pubDate": "Thu, 30 Jul 2026 03:07:32 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-02T03:27:40.485Z"
     },
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",

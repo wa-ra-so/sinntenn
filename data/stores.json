@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T10:03:43.123Z",
+  "generatedAt": "2026-08-02T03:27:27.427Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 9
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 56
+      "count": 62
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 12
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 141,
+  "itemCount": 143,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -571,6 +571,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-31T10:44:43.939Z"
+    },
+    "philocoffea旧焙煎所": {
+      "storeName": "PHILOCOFFEA旧焙煎所",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-02T03:27:27.426Z"
     }
   },
   "market": {
@@ -736,11 +749,21 @@
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Fri, 31 Jul 2026 18:45:27 GMT",
+      "pubDate": "Sat, 01 Aug 2026 19:25:11 GMT",
       "area": "習志野市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
+      "title": "【速報】千葉・市川のマンションで爆発か、２人搬送　窓ガラス割れ、周辺に被害も",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNVZGUGZ6NUo4OWxYRjNlUGtXZWwzc0diSGlSRHZuSlZLWWpKcFUtRW9BRkFuSl9vOHlGcE9QWlNyQlZqeVNGb2JTVUVaUWU4YUtWVXpONDBoVEk5X2MyMEs3VWg1bzFjVmZ2YUdoS1BybWQ5UC1qVDhWYjZPcUVaU3FBONIBgwFBVV95cUxPNVZGUGZ6NUo4OWxYRjNlUGtXZWwzc0diSGlSRHZuSlZLWWpKcFUtRW9BRkFuSl9vOHlGcE9QWlNyQlZqeVNGb2JTVUVaUWU4YUtWVXpONDBoVEk5X2MyMEs3VWg1bzFjVmZ2YUdoS1BybWQ5UC1qVDhWYjZPcUVaU3FBOA?oc=5",
+      "source": "ｄメニューニュース",
+      "pubDate": "Fri, 31 Jul 2026 23:55:00 GMT",
+      "area": "市川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-02T03:27:23.049Z"
     },
     {
       "title": "株式会社バッファローフードサービス オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 新店舗オープンにつ…）",
@@ -815,7 +838,7 @@
     {
       "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43eEFiOG5fbUV3dDVldndHcFZvcFREX3FvTnpkNmFZSzV1T19XNEpfUGNzcUd4NzlrS09ZaUl3WHo3QTVPdTVmdjNGdmdtX3dybUFicUg1WQ?oc=5",
-      "source": "chibanippo.co.jp",
+      "source": "千葉日報オンライン",
       "pubDate": "Thu, 30 Jul 2026 07:16:12 GMT",
       "area": "長柄町",
       "genres": [
@@ -855,6 +878,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-01T03:27:39.803Z"
+    },
+    {
+      "title": "船橋市本町に「PHILOCOFFEA旧焙煎所」が7/31（金）オープン、バリスタ世界王者の原点の場所が新カフェに",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54MG9qeEdHMllxdnFHQ0l2YnVpQnFEMV9EaFdFN251QjVnSFlNdTRJWml0TEJ3Sms2Vkh5eXE4M05wcXQ4cUtXSjlnZFJjaUZDbnc?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Tue, 28 Jul 2026 00:56:16 GMT",
+      "area": "船橋市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-02T03:27:23.046Z"
     },
     {
       "title": "千葉県庁がイエローに　社会を明るくする運動で",
@@ -1489,7 +1524,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -2038,7 +2073,7 @@
     {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
-      "source": "chibanippo.co.jp",
+      "source": "千葉日報オンライン",
       "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [
@@ -2279,7 +2314,7 @@
     {
       "title": "ハワイアンカフェ＆レストラン「メレンゲ」千葉市幕張エリアのホテル内にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPWWpWek9xWkhGUTBoRmdoaV93RU94MXhNTUpGelU1VHFNZHBaWjR4eXV1bVFCTFk4eklZcmtQNmNzQTdkSlhXWWdlVE5zMlE?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Wed, 03 Jun 2026 07:00:00 GMT",
       "area": "千葉市美浜区",
       "genres": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T10:03:52.508Z",
+  "generatedAt": "2026-08-02T03:27:35.879Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 27
+      "count": 24
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 29
+      "count": 31
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 76
+      "count": 77
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 8
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 254,
+  "itemCount": 255,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1828,6 +1828,29 @@
   },
   "items": [
     {
+      "title": "「神戸牛・和牛 鉄板焼き 赤坂 諮玄」オープニングスタッフ募集（神戸牛専門鉄板焼店の店舗管理者候補 オープニングスタッフ・独…）",
+      "link": "https://kyujinbu.com/kisshokichi/detail/post_1067.html",
+      "source": "求人ボックス（SEEDOOR株式会社）",
+      "pubDate": "Sat, 01 Aug 2026 21:34:22 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-02T03:27:31.990Z"
+    },
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Sat, 01 Aug 2026 20:50:51 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
       "title": "株式会社絶好調 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/オープニング/若手活躍中）",
       "link": "https://grsta.jp/manuscript/0a060104-9f94-1dee-819f-95494c57037b",
       "source": "求人ボックス（グルスタ）",
@@ -1838,22 +1861,9 @@
       "firstSeenAt": "2026-07-26T03:29:30.802Z"
     },
     {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Fri, 31 Jul 2026 20:51:23 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
       "title": "八王子【パンもパティもベーコンも一人で手作り】本格アメリカンダイナー「Shakiri Meat Diner」がオープン!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQdGdNcXdaLU1rUDZYNUVnemc2aGRlS2dHTk5IQnYyd3pGc2JkNk5rNm93dHJkazFZcUJ3b1RJcWhlSTNGZjl2LWRpMDNubms?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Fri, 31 Jul 2026 08:30:00 GMT",
       "area": "八王子市",
       "genres": [],
@@ -1965,7 +1975,7 @@
     {
       "title": "【東京都豊島区】イタリアンデリ「Piccola Aria」オープン！前菜やメインが選べるデリボックスを販売",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LNTJQQ0JtT1RpZmxtQXdBRVNRNG9vcUlFZFhjTTRlQkh2aExLdmk4ODBNOVY2emJnM3JDQ1gtY0F6QmtPYUtIUURHMA?oc=5",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "pubDate": "Mon, 27 Jul 2026 01:30:25 GMT",
       "area": "豊島区",
       "genres": [
@@ -2136,7 +2146,7 @@
       "title": "コメダ／「和喫茶おかげ庵 ミーツ国分寺店」7月31日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5a2N6N0JVZno0dmJnQ29WcmZFbC1TYzREY21rRDBfdHlqZ3BJUzNVdmNtTG02OENZOXh4U1AwQ1VGMFFhRGJvYXJweWctRG5PR0ZaLQ?oc=5",
       "source": "流通ニュース",
-      "pubDate": "Fri, 24 Jul 2026 07:03:00 GMT",
+      "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT",
       "area": "国分寺市",
       "genres": [],
       "signal": "opening",
@@ -2249,7 +2259,7 @@
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "food-stadium.com",
+      "source": "フードスタジアム",
       "pubDate": "Thu, 23 Jul 2026 02:03:35 GMT",
       "area": "千代田区",
       "genres": [
@@ -3543,7 +3553,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -3659,7 +3669,7 @@
     {
       "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VOEN2dmptM1pBRkR5Ry1VWl9veWhFWGVmbk5oY25oRkVWV2Q1WkNVTTI1Ykc4YjBjbm9OaVJPU2ZZZEN0aGhSTVJLNDRwRFU?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -3923,7 +3933,7 @@
     {
       "title": "【東京都足立区】北千住に隠れ家酒場「調和」がオープン！旬野菜のおばんざいと焼肉を肴に酒場体験堪能",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9kZjJkWmZRSnZXM1FhdW95c1FoWWpaS3Rvdl9pek1aQmNMN1AzenV3ejFiVTF2c2E3b1JTckhLR1FIZ0szSkFaNVlmOA?oc=5",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "pubDate": "Mon, 29 Jun 2026 07:00:00 GMT",
       "area": "足立区",
       "genres": [
@@ -3947,7 +3957,7 @@
     {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4099,7 +4109,7 @@
     {
       "title": "学芸大学に「シロネリ」がオープン。自家製麺とラビオリ、本格焼酎の居酒屋。自由が丘「ニショク」、池尻大橋「ルリイロ」などイタリアン展開のコローリ新店舗",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ya2VEVlZYYkZnRUdiVzFfVHgwWVdNVFhPZkVtR2VDd0JnMzhmQzg3V0dCWVBpS3RrZkpFMkdtM0l3eHV5LUdzb29NVHRpdlNoOUE?oc=5",
-      "source": "food-stadium.com",
+      "source": "フードスタジアム",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [
@@ -4166,7 +4176,7 @@
     {
       "title": "日本初の常設店！パリ発の人気カフェ「ペーパーボーイ」千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuRG45RUFJRjRhbEoweUozVGFKeU5aMy1NMzVQc1YzN2d4RW15b0ZraGdGcUt4RHZ5SVpRZkZVMFBFU2oxRVhRdlFubDYzd28?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4178,7 +4188,7 @@
     {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJWHNzcmJjSTlLaDhKN29fTF9Zbm5TN1EzS1lEM1Z4eFFXYWxBOXMzcUVPRWtJSVl4dUZ1bnY5T0ttbHdTVzhMQzhiRU1QMmM?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4226,7 +4236,7 @@
     {
       "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0cHl0TE1TZWw5Zk9hMUtKTU1PYUZEbW1WMDluSk5MTDNTZkVCeThLR08weWNWa3FoLVNuRVphdGN4eVV5ejlTckpCbHE1X2M?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [
@@ -4396,7 +4406,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
@@ -4563,7 +4573,7 @@
     {
       "title": "カフェを併設した「ピエール・エルメ・パリ」の新店が丸の内にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iMVQxYVp2a3h0ajE4OXVva3A5LUdqN3ItbDl2Yi1TczJmR2sxeU13RVFnNWZGbVY0NjB2em5PQlFreS1TZ253S010RlRnZlU?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "千代田区",
       "genres": [
@@ -4575,7 +4585,7 @@
     {
       "title": "【東中野】現役テレビマンが進化し続けるタコス店「新作タコス実験中」をオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5OQm4tdkcxQXduNzJHREtfT0pSOEZRd0pITlgta09xMThWc1djc0tMTkxsWDN6VUVLa01VUmFVNlREdi1hWlF3?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4585,7 +4595,7 @@
     {
       "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [
