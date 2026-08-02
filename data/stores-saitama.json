@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:27:50.805Z",
+  "generatedAt": "2026-08-02T06:38:26.077Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 58
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 106,
+  "itemCount": 107,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -388,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T03:29:50.946Z"
+      "checkedAt": "2026-08-02T06:38:25.807Z"
     },
     "仕入れstaff": {
       "storeName": "仕入れSTAFF",
@@ -401,7 +401,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T03:29:51.487Z"
+      "checkedAt": "2026-08-02T06:38:26.076Z"
     },
     "宅建資格保有×今年入社の特権": {
       "storeName": "宅建資格保有×今年入社の特権",
@@ -733,6 +733,16 @@
   },
   "items": [
     {
+      "title": "株式会社バッファローフードサービス オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 事業拡大による増員…）",
+      "link": "http://s.baitoru.com/dN0aZn6o",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Fri, 31 Jul 2026 17:58:22 GMT",
+      "area": "川口市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-02T06:38:22.901Z"
+    },
+    {
       "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 一生現場だけじゃな…）",
       "link": "http://s.baitoru.com/dN0aXivD",
       "source": "求人ボックス（バイトルNEXT）",
@@ -853,6 +863,18 @@
       "firstSeenAt": "2026-07-24T03:17:34.980Z"
     },
     {
+      "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
+      "source": "food-stadium.com",
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "area": "志木市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-23T07:36:03.107Z"
+    },
+    {
       "title": "岩槻商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364841/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -871,18 +893,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-22T22:09:15.904Z"
-    },
-    {
-      "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "フードスタジアム",
-      "pubDate": "Thu, 23 Jul 2026 02:03:35 GMT",
-      "area": "志木市",
-      "genres": [
-        "中華"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-23T07:36:03.107Z"
     },
     {
       "title": "「Grilled Sakana Works」オープニングスタッフ募集（居酒屋の接客/オープニングで年収500万円可）",
@@ -1170,7 +1180,7 @@
     {
       "title": "【埼玉県内初ロードサイド店舗】イタリアンカフェ＆レストラン「チェントペルチェント浦和芝原店」7月17日(金)10時30分オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91RmZfcERXV3EyR0dwdDd1dFFObTBPRlN0aDkyR2tUSm84bjZIZ3pZeXYwZVNNWmt2eVNfMkdxSVdXejZpLUp3cmVqQU1FaG13ajZuTmVXeWlRcU12MHU5MnVkc3hhQmRwTXc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
       "area": "さいたま市浦和区",
       "genres": [
@@ -1768,7 +1778,7 @@
     {
       "title": "【埼玉県初上陸】全国60店舗、月間利用者9万人の「セルフカフェ」埼玉初出店！Wi-Fi・電源完備で日常利用が拡大。カインズスーパーセンター上里本庄店敷地内に6月20日にオープン。",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91N0NEVGxURFpsVGNYR0tSQUhva3pveXNpZ292MEx1YzRXQmVHUlI1Vk9RZmJ1TzAxZFZ3clkxazhQS0ZoU1E2c0pOaW5DYkt5YmlwcjVNR2p4SmxsWFQ2UTlmWmNlZzR6RGc?oc=5",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
       "area": "本庄市",
       "genres": [
