@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-08-03T00:39:14.661Z"
     }
   ],
-  "itemCount": 111,
+  "itemCount": 114,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -687,6 +693,19 @@
       "firstSeenAt": "2026-07-31T03:29:14.492Z"
     },
     {
+      "title": "株式会社ワイズテーブルコーポレーション オープニングスタッフ募集（(3月オープンの新ブランド)イタリアンカフェスタッフ）",
+      "link": "https://to.indeed.com/aa2mwq4278yq",
+      "source": "Indeed",
+      "pubDate": "Fri, 31 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.661Z"
+    },
+    {
       "title": "「木村屋本店 二俣川」オープニングスタッフ募集（ホールスタッフ）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505302/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -819,6 +838,18 @@
       "firstSeenAt": "2026-07-31T00:37:38.011Z"
     },
     {
+      "title": "株式会社ｃａｖｉ オープニングスタッフ募集（居酒屋　ホールスタッフ兼調理スタッフ　オープニングスタッフ）",
+      "link": "https://to.indeed.com/aa8bmhb8pzgz",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.644Z"
+    },
+    {
       "title": "株式会社セクションエイト オープニングスタッフ募集（キッチン/バーテンダー/フード系 オープニングSTAFF大募…）",
       "link": "http://s.baitoru.com/DW0aZXUE",
       "source": "求人ボックス（baitoru）",
@@ -842,6 +873,19 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-27T03:38:01.734Z"
+    },
+    {
+      "title": "「Neo Nice Burger 横浜ハンマーヘッド」オープニングスタッフ募集（ハンバーガーカフェのキッチン/オープニング・I’m donu…）",
+      "link": "https://to.indeed.com/aahr9z8dlhrm",
+      "source": "Indeed",
+      "pubDate": "Tue, 28 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.661Z"
     },
     {
       "title": "株式会社Sunrise オープニングスタッフ募集（【オープニング】忙しい時間も楽しめる !ライブ感あるモダンビ…）",

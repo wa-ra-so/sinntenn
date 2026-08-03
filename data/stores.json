@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 1,
+      "mergedAt": "2026-08-03T00:39:06.371Z"
     }
   ],
-  "itemCount": 144,
+  "itemCount": 145,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -1339,6 +1345,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.773Z"
+    },
+    {
+      "title": "株式会社バース オープニングスタッフ募集（7月オープン |リゾートダイニングのキッチンスタッフ）",
+      "link": "https://to.indeed.com/aa8xrsth8cps",
+      "source": "Indeed",
+      "pubDate": "Sat, 18 Jul 2026 00:00:00 GMT",
+      "area": "浦安市",
+      "genres": [
+        "ダイニング",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:06.352Z"
     },
     {
       "title": "令和食品株式会社 ファミリーホスピス勝田台 オープニングスタッフ募集（キッチンスタッフ/8月新規オープン!無資格未経験OK!シフト…）",

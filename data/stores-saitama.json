@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-08-03T00:39:14.717Z"
     }
   ],
-  "itemCount": 106,
+  "itemCount": 109,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -774,6 +780,18 @@
       "firstSeenAt": "2026-07-25T06:22:51.207Z"
     },
     {
+      "title": "「blanc et noir」オープニングスタッフ募集（メイドと執事のコンセプトバーのオープニングスタッフ）",
+      "link": "https://to.indeed.com/aajrkgp8gnwk",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "上尾市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.717Z"
+    },
+    {
       "title": "「おでん家万昌ざっくばらん」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 経験不問 夏·冬は…）",
       "link": "http://s.baitoru.com/dN0aZBCS",
       "source": "求人ボックス（バイトルNEXT）",
@@ -1047,6 +1065,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.468Z"
+    },
+    {
+      "title": "株式会社ウェルビーイング・モンスター オープニングスタッフ募集（7月新規オープンの肉寿司×火山鍋店　副店長(店長候補)）",
+      "link": "https://to.indeed.com/aajhsmb2r9rz",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "川越市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.708Z"
     },
     {
       "title": "【川越市】楽しみですね♪「ミステリーカフェ謎屋珈琲店 川越店」のオープン日が判明しました！！",
@@ -1890,6 +1920,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T11:15:59.047Z"
+    },
+    {
+      "title": "株式会社登坂 オープニングスタッフ募集（焼鳥×居酒屋の店舗スタッフ|オープニングスタッフ(転勤なし)）",
+      "link": "https://to.indeed.com/aanllzn6sywy",
+      "source": "Indeed",
+      "pubDate": "Tue, 09 Jun 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.716Z"
     },
     {
       "title": "カフェとサウナが一体の店「S°（エスド）」 カフェ先行オープン モノトーンのかき氷はサウナイメージ 「五感で楽しめる新感覚かき氷」 埼玉県本庄市",
