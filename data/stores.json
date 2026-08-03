@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:29:24.965Z",
+  "generatedAt": "2026-08-03T05:51:10.549Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 142,
+  "itemCount": 119,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -297,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-27T03:37:46.178Z"
+      "checkedAt": "2026-08-03T05:51:09.572Z"
     },
     "店舗スタッフ": {
       "storeName": "店舗スタッフ",
@@ -590,10 +590,6 @@
       "count": 44,
       "checkedAt": "2026-08-03T00:49:23.205Z"
     },
-    "船橋市|イタリアン": {
-      "count": 26,
-      "checkedAt": "2026-08-03T00:49:23.426Z"
-    },
     "成田市|カフェ": {
       "count": 12,
       "checkedAt": "2026-08-03T00:49:23.361Z"
@@ -624,15 +620,15 @@
     },
     "柏市|フレンチ": {
       "count": 8,
-      "checkedAt": "2026-07-27T03:37:46.712Z"
+      "checkedAt": "2026-08-03T05:51:10.541Z"
     },
     "君津市|レストラン": {
       "count": 2,
-      "checkedAt": "2026-07-27T03:37:46.729Z"
+      "checkedAt": "2026-08-03T05:51:10.549Z"
     },
     "柏市|中華": {
       "count": 21,
-      "checkedAt": "2026-07-27T03:37:46.321Z"
+      "checkedAt": "2026-08-03T05:51:09.773Z"
     },
     "船橋市|ダイニング": {
       "count": 27,
@@ -681,14 +677,6 @@
     "千葉市中央区|居酒屋": {
       "count": 153,
       "checkedAt": "2026-08-02T06:38:04.996Z"
-    },
-    "柏市|レストラン": {
-      "count": 19,
-      "checkedAt": "2026-07-29T00:07:41.867Z"
-    },
-    "市原市|ダイニング": {
-      "count": 4,
-      "checkedAt": "2026-07-30T10:29:48.972Z"
     },
     "南房総市|カフェ": {
       "count": 3,
@@ -825,14 +813,14 @@
     {
       "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ubS00UUNFZmtqUWFlTUhUWnN0Q001UmhodEhZQmVqX25OMkFCTUVMNmh5UWVpNTAzb21ZVERFb05pSEZMeGgxV1V3ejRKYU5uQUoxcWtySW1NNFE5d0RtNHFIZkFqSFB6WXpyNlZ4ZU1hVHVfd3A1YWNn?oc=5",
-      "source": "mainichikirei.jp",
+      "source": "毎日キレイ",
       "pubDate": "Fri, 31 Jul 2026 01:58:55 GMT",
       "area": "長柄町",
       "genres": [
         "カフェ"
       ],
       "signal": "opening",
-      "firstSeenAt": "2026-08-03T00:49:17.202Z"
+      "firstSeenAt": "2026-07-31T03:28:55.180Z"
     },
     {
       "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
@@ -853,18 +841,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-26T06:41:05.576Z"
-    },
-    {
-      "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43eEFiOG5fbUV3dDVldndHcFZvcFREX3FvTnpkNmFZSzV1T19XNEpfUGNzcUd4NzlrS09ZaUl3WHo3QTVPdTVmdjNGdmdtX3dybUFicUg1WQ?oc=5",
-      "source": "千葉日報オンライン",
-      "pubDate": "Thu, 30 Jul 2026 07:16:12 GMT",
-      "area": "長柄町",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-31T03:28:55.180Z"
     },
     {
       "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】カジュアルな居酒屋のホール　調理スタッフ(正…）",
@@ -973,18 +949,6 @@
       "firstSeenAt": "2026-07-31T00:37:37.880Z"
     },
     {
-      "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のホール/面接確約/14時出勤/賞与3ヵ月分）",
-      "link": "https://grsta.jp/manuscript/0a060104-9f94-1dee-819f-95495a8603d9",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Sat, 25 Jul 2026 11:00:17 GMT",
-      "area": "柏市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:37:40.026Z"
-    },
-    {
       "title": "株式会社折原 オープニングスタッフ募集（【新規オープン】珍しい日本酒に囲まれた角打ち店/販売スタッフ…）",
       "link": "https://to.indeed.com/aafdd9k48fbq",
       "source": "Indeed",
@@ -993,66 +957,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.231Z"
-    },
-    {
-      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afce4322fe8",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:23 GMT",
-      "area": "成田市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T03:17:00.238Z"
-    },
-    {
-      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の接客/残業月10H/年休110日/社宅あり）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afccdc62f98",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:23 GMT",
-      "area": "成田市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-25T03:15:34.442Z"
-    },
-    {
-      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の接客/残業月10H/年休110日/社宅あり）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afccc062f92",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:23 GMT",
-      "area": "成田市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-29T00:07:36.716Z"
-    },
-    {
-      "title": "株式会社イーケーシー オープニングスタッフ募集（韓国料理のキッチン/オープニング/面接確約/未経験可）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc4a252dcc",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:22 GMT",
-      "area": "習志野市",
-      "genres": [
-        "韓国料理"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T03:17:00.238Z"
-    },
-    {
-      "title": "株式会社弁慶 オープニングスタッフ募集（寿司屋のホールスタッフ/週に2日必ず休み/未経験可）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc97672eea",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:22 GMT",
-      "area": "習志野市",
-      "genres": [
-        "寿司"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T03:17:00.238Z"
     },
     {
       "title": "株式会社イーケーシー オープニングスタッフ募集（韓国料理ホール/オープニング/週休2日/面接確約）",
@@ -1065,26 +969,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T03:15:34.441Z"
-    },
-    {
-      "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場のキッチン/オープニング/面接確約/未経験可）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc49f22dcb",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:22 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-26T03:29:22.012Z"
-    },
-    {
-      "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場ホール/オープニング/週休2日/面接確約）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc49372dc8",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:22 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-03T03:29:22.444Z"
     },
     {
       "title": "株式会社北辰水産 オープニングスタッフ募集（品出し/レジ打ち/食料品製造 オープニング大募集 おにぎり専…）",
@@ -1177,19 +1061,6 @@
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
-      "title": "株式会社コトブキダイニング オープニングスタッフ募集（飲食店スタッフ 焼肉店勤務 未経験可 正社員登用あり オープ…）",
-      "link": "https://kyujinbu.com/kotobuki-dining/detail/post_20.html",
-      "source": "求人ボックス（株式会社コトブキダイニング）",
-      "pubDate": "Thu, 23 Jul 2026 00:09:45 GMT",
-      "area": "市原市",
-      "genres": [
-        "ダイニング",
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T07:35:35.672Z"
-    },
-    {
       "title": "株式会社プロントコーポレーション オープニングスタッフ募集（空港内のカフェ・サカバスタッフ(オープニング)）",
       "link": "https://to.indeed.com/aaxmtctqbdhf",
       "source": "Indeed",
@@ -1214,31 +1085,6 @@
       "firstSeenAt": "2026-07-23T09:23:23.772Z"
     },
     {
-      "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-334491-3-12-1/?utm_source=kyujinbox&utm_medium=display&utm_term=12217",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Tue, 21 Jul 2026 11:31:11 GMT",
-      "area": "柏市",
-      "genres": [
-        "レストラン",
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T15:06:58.061Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b006d20790",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "松戸市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T22:07:07.422Z"
-    },
-    {
       "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
       "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b00592078d",
       "source": "求人ボックス（グルスタ）",
@@ -1248,27 +1094,7 @@
         "居酒屋"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-25T03:15:34.442Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/未経験から最短3ヶ月で副店長実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b00d3d07a0",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-29T00:07:36.716Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
-      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b00a150798",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 21 Jul 2026 11:08:33 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T03:17:00.238Z"
+      "firstSeenAt": "2026-07-14T23:59:20.599Z"
     },
     {
       "title": "株式会社オールハーツ・カンパニー オープニングスタッフ募集（ベーカリーでパンの販売スタッフ）",
@@ -1371,18 +1197,6 @@
     },
     {
       "title": "株式会社INGS オープニングスタッフ募集（イタリアンの接客/年3回昇給/年休110日/賞与あり）",
-      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca315a7099b",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 14 Jul 2026 11:00:22 GMT",
-      "area": "船橋市",
-      "genres": [
-        "イタリアン"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:39.874Z"
-    },
-    {
-      "title": "株式会社INGS オープニングスタッフ募集（イタリアンの接客/年3回昇給/年休110日/賞与あり）",
       "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca316d0099f",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Tue, 14 Jul 2026 11:00:22 GMT",
@@ -1391,7 +1205,7 @@
         "イタリアン"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-15T22:06:27.312Z"
+      "firstSeenAt": "2026-07-15T02:19:39.874Z"
     },
     {
       "title": "株式会社INGS オープニングスタッフ募集（居酒屋の接客/年3回昇給/年休110日/賞与あり）",
@@ -1463,29 +1277,9 @@
     },
     {
       "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5STWFyUWo4eG01MUtoOVFKMGFTWGpqR0p2R1ItSm9ScC1rdFBEVDlrSFRBUWhocUZ5WWx4WW5YaDYxQ1BWZGVzeWtJTlRpNi1PcmpaaQ?oc=5",
-      "source": "ニコニコニュース",
-      "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
-      "area": "鴨川市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T07:21:06.949Z"
-    },
-    {
-      "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54TG1FcXpZTzV0TXFqZU1iVFg3QUk0QnZjc1BCRG82VXVDYU52RTVFdUxsLXczTmJLb2oxNkRtZjdacEFwYk9xejYxSXNiRDlVUGxKc2JrUXEwQmh1V0huUGZ5Y19VUGxMeEE?oc=5",
       "source": "PR TIMES",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
-      "area": "鴨川市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-15T13:21:34.512Z"
-    },
-    {
-      "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1uTlpWdTZOM3RFNGRkRnNwZkd3YTljTi1DRlROVUo5dXRMYW9CSUNpV28wbUEtMUNtQ29ubmxTZmRBRTZmU0dHeFdXWDlQSE5IQnZjaXY1enExVlFyLWUzYmFDRDBWRzVHSHN1clJnQ0tRa1M0Wkc5Slhmbw?oc=5",
-      "source": "ニコニコニュース",
-      "pubDate": "Tue, 14 Jul 2026 02:48:19 GMT",
       "area": "鴨川市",
       "genres": [],
       "signal": "opening",
@@ -1793,16 +1587,6 @@
       "firstSeenAt": "2026-07-11T21:57:37.267Z"
     },
     {
-      "title": "株式会社紅フーズコーポレーション オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ 駅徒歩1分!新橋やきと…）",
-      "link": "https://en-gage.net/user/search/desc/13398070/?aroute=1705",
-      "source": "求人ボックス（エンゲージ.）",
-      "pubDate": "Wed, 08 Jul 2026 06:19:19 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
       "title": "株式会社ゲート オープニングスタッフ募集（定食屋スタッフ/2026年4月下旬NEW OPEN オープニ…）",
       "link": "https://en-gage.net/user/search/desc/16946291/?aroute=1705",
       "source": "求人ボックス（エンゲージ.）",
@@ -1814,23 +1598,13 @@
     },
     {
       "title": "株式会社紅フーズコーポレーション オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ 駅徒歩1分!新橋やきと…）",
-      "link": "https://en-gage.net/user/search/desc/13398147/?aroute=1705",
-      "source": "求人ボックス（エンゲージ.）",
-      "pubDate": "Wed, 08 Jul 2026 06:16:25 GMT",
-      "area": "船橋市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:36:45.028Z"
-    },
-    {
-      "title": "株式会社紅フーズコーポレーション オープニングスタッフ募集（飲食店スタッフ/オープニングスタッフ 駅徒歩1分!新橋やきと…）",
       "link": "https://en-gage.net/user/search/desc/13398094/?aroute=1705",
       "source": "求人ボックス（エンゲージ.）",
       "pubDate": "Wed, 08 Jul 2026 06:15:51 GMT",
       "area": "船橋市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-12T03:29:32.899Z"
+      "firstSeenAt": "2026-07-12T03:20:38.130Z"
     },
     {
       "title": "株式会社エムアンドエムサービス オープニングスタッフ募集（ホール オープニング ホテルのホールスタッフ/おんじゅく保養…）",
@@ -1896,30 +1670,6 @@
       "firstSeenAt": "2026-07-31T06:49:26.356Z"
     },
     {
-      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c66a136d",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
-      "area": "松戸市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-14T23:59:20.599Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c50a136a",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
-      "area": "松戸市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:39.874Z"
-    },
-    {
       "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/未経験から最短3ヶ月で副店長実績あり）",
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370cbfd137a",
       "source": "求人ボックス（グルスタ）",
@@ -1931,23 +1681,13 @@
     },
     {
       "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
-      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c8a71372",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-20T22:05:33.170Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c9e81375",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
       "area": "松戸市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-21T02:30:34.056Z"
+      "firstSeenAt": "2026-07-20T22:05:33.170Z"
     },
     {
       "title": "「ムーンブルー」オープニングスタッフ募集（≪✧完全新規OPEN!!✧≫推される準備O K?新感覚コンセ…）",
@@ -2006,19 +1746,6 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
-      "title": "クラフトビール専門カフェが成田空港にオープン　搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vVHQzYXlsM0loc3VUUTlxajVESHU5QjJ0a3NYVXBDUUVvakdXYlJKSjZqV3l2WGc4T0JtQV9fS3UwbkRJZldrN05KckZJUzJEbklTX1VvZ3NoUFo3ekVvZ2JrUGhfbWt4RmdSdjZDaWg2akxLUnMzUkdKR3NCQdIBgwFBVV95cUxOVGlQbzM1c0M5Z1BxYmZVSUpiNkRjTDJNeXVRTGZlYlBCaGx6ODNxa2NlR1hZTXEtaXNiN3Q5bHJjN3IxS0VudERBakhIeFN4MFBNcnI0RmY0NDNzVURKOExFS2swNzlhRTZzdTVBeUFpWTQ0aklKdThBRVBVdkpMTC1LVQ?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
-      "area": "成田市",
-      "genres": [
-        "カフェ",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
       "title": "株式会社　山商 オープニングスタッフ募集（【立ち飲み屋】オープニングスタッフ）",
       "link": "https://to.indeed.com/aagw62czcwfh",
       "source": "Indeed",
@@ -2073,7 +1800,7 @@
         "バー"
       ],
       "signal": "opening",
-      "firstSeenAt": "2026-07-10T08:25:43.437Z"
+      "firstSeenAt": "2026-07-09T22:38:36.796Z"
     },
     {
       "title": "【千葉県初出店】「焼鳥 蕎麦 二尺五寸」マーヴ浦安店を2026年6月30日(火)オープンいたします。",

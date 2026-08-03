@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:29:39.545Z",
+  "generatedAt": "2026-08-03T05:51:27.962Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 10
+      "count": 11
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 47
+      "count": 46
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 113,
+  "itemCount": 105,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -297,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-27T03:38:07.659Z"
+      "checkedAt": "2026-08-03T05:51:27.962Z"
     },
     "松阪牛": {
       "storeName": "松阪牛",
@@ -427,7 +427,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-27T03:38:06.772Z"
+      "checkedAt": "2026-08-03T05:51:27.708Z"
     },
     "ウェスティンホテル横浜": {
       "storeName": "ウェスティンホテル横浜",
@@ -659,6 +659,19 @@
   },
   "items": [
     {
+      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
+      "source": "ウォーカープラス",
+      "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
+      "area": "",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T03:38:01.734Z"
+    },
+    {
       "title": "株式会社ニュー・クイック オープニングスタッフ募集（惣菜・スイーツ販売/販売/キッチン 社割でお惣菜がお得 食費…）",
       "link": "http://s.baitoru.com/DW0aWcaX",
       "source": "求人ボックス（baitoru）",
@@ -679,16 +692,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
-    },
-    {
-      "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
-      "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
-      "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-31T03:29:14.492Z"
     },
     {
       "title": "株式会社ワイズテーブルコーポレーション オープニングスタッフ募集（(3月オープンの新ブランド)イタリアンカフェスタッフ）",
@@ -747,30 +750,6 @@
     },
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjWmlNYW9WRGNmTXRrZVlOMmhRSXE0ZzN1aUY5OU55TG5yZll6NEdlemx1VThwVWVZV3FsWlVnRmVxOHdoUG5xNWc5YjVubk0?oc=5",
-      "source": "TRILL",
-      "pubDate": "Thu, 30 Jul 2026 03:07:32 GMT",
-      "area": "横浜市",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-08-02T03:27:40.485Z"
-    },
-    {
-      "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Thu, 30 Jul 2026 02:49:42 GMT",
-      "area": "横浜市",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-30T02:46:18.963Z"
-    },
-    {
-      "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41WEZmQUZKSnhpQU9FdXg3azluQ3dzTHVPWjJSZ0tFbkNCbGVkOHk5SzVTUHdCWU04aUd0UnBMZTdIYjVjOXpzZFJXaw?oc=5",
       "source": "ガジェット通信",
       "pubDate": "Thu, 30 Jul 2026 02:15:35 GMT",
@@ -779,7 +758,7 @@
         "ダイニング"
       ],
       "signal": "opening",
-      "firstSeenAt": "2026-08-01T03:27:56.219Z"
+      "firstSeenAt": "2026-07-30T02:46:18.963Z"
     },
     {
       "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/楽しい空間が好きな方が集まる沖縄酒場の店舗運営…）",
@@ -860,19 +839,6 @@
       "firstSeenAt": "2026-07-31T06:49:43.943Z"
     },
     {
-      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
-      "pubDate": "Wed, 29 Jul 2026 08:10:23 GMT",
-      "area": "",
-      "genres": [
-        "カフェ",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-27T03:38:01.734Z"
-    },
-    {
       "title": "「Neo Nice Burger 横浜ハンマーヘッド」オープニングスタッフ募集（ハンバーガーカフェのキッチン/オープニング・I’m donu…）",
       "link": "https://to.indeed.com/aahr9z8dlhrm",
       "source": "Indeed",
@@ -918,16 +884,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T03:13:58.597Z"
-    },
-    {
-      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
-      "link": "http://s.baitoru.com/DW0aYeJF",
-      "source": "求人ボックス（baitoru）",
-      "pubDate": "Fri, 24 Jul 2026 09:38:58 GMT",
-      "area": "大和市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-25T03:15:48.946Z"
     },
     {
       "title": "新感覚「エンタメレーン」初導入！「寿司活」がラゾーナ川崎に9月中旬オープン",
@@ -1044,16 +1000,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.677Z"
-    },
-    {
-      "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-462699-5-1-1/?utm_source=kyujinbox&utm_medium=display&utm_term=13101",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Tue, 21 Jul 2026 11:31:10 GMT",
-      "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-17T14:47:24.941Z"
     },
     {
       "title": "株式会社mihaku オープニングスタッフ募集（飲食店のオープニングスタッフ・ホール接客(アルバイト)）",
@@ -1429,26 +1375,6 @@
       "firstSeenAt": "2026-07-15T02:23:21.375Z"
     },
     {
-      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/器用じゃなくても問題ナシのシンプル業務少しず…）",
-      "link": "https://www.hatarako.net/job/9001048325/",
-      "source": "求人ボックス（はたらこねっと）",
-      "pubDate": "Fri, 10 Jul 2026 17:10:52 GMT",
-      "area": "海老名市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T14:27:51.677Z"
-    },
-    {
-      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/器用じゃなくても問題ナシのシンプル業務少しず…）",
-      "link": "https://www.hatarako.net/job/9001048323/",
-      "source": "求人ボックス（はたらこねっと）",
-      "pubDate": "Fri, 10 Jul 2026 17:10:42 GMT",
-      "area": "秦野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T15:05:48.913Z"
-    },
-    {
       "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rX0hCU2FYN3pxTURvNU5VS0ZJMERjeU1Gb3djdjc2bjJlLVg0aWVDbk9hNnlYWWUtQnRIUG4wZUNSek0wNkU4WU5USkIyVXlLbnF2NGtTMXlvMUxXSlV6M1g1X2NqRGtOMWc?oc=5",
       "source": "PR TIMES",
@@ -1544,23 +1470,13 @@
     },
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
-      "link": "https://www.baitoru.com/op555010/job161187170/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
-      "source": "求人ボックス（株式会社凪スピリッツジャパン）",
-      "pubDate": "Wed, 08 Jul 2026 05:32:30 GMT",
-      "area": "大和市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.933Z"
-    },
-    {
-      "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/ラー…）",
       "link": "https://www.baitoru.com/op555010/job161187371/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
       "source": "求人ボックス（採用ページコボット）",
       "pubDate": "Wed, 08 Jul 2026 05:10:45 GMT",
       "area": "横浜市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:51.774Z"
+      "firstSeenAt": "2026-07-13T15:05:41.933Z"
     },
     {
       "title": "株式会社東京豚饅 オープニングスタッフ募集（新店Open/大阪名物豚まんでお客様を幸せにする「店舗スタッ…）",
@@ -1748,7 +1664,7 @@
       "area": "川崎市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-16T15:07:12.601Z"
+      "firstSeenAt": "2026-07-15T14:27:51.677Z"
     },
     {
       "title": "【平塚市】中華の新店がオープン！紅谷町の「東北老式 麻辣湯」は2026年6月22日まで全品20％割引＋緑茶orコーラ等サービス中です！",

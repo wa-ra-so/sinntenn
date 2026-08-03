@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:29:46.109Z",
+  "generatedAt": "2026-08-03T05:51:34.601Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 70
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 107,
+  "itemCount": 98,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -625,10 +625,6 @@
       "count": 20,
       "checkedAt": "2026-07-29T10:44:58.200Z"
     },
-    "富士見市|居酒屋": {
-      "count": 14,
-      "checkedAt": "2026-07-29T10:44:58.240Z"
-    },
     "川越市|居酒屋": {
       "count": 100,
       "checkedAt": "2026-07-29T10:44:58.156Z"
@@ -705,10 +701,6 @@
       "count": 89,
       "checkedAt": "2026-07-29T00:08:19.251Z"
     },
-    "熊谷市|焼肉": {
-      "count": 17,
-      "checkedAt": "2026-07-31T10:45:15.001Z"
-    },
     "深谷市|焼肉": {
       "count": 6,
       "checkedAt": "2026-08-01T03:28:09.847Z"
@@ -742,6 +734,16 @@
       "firstSeenAt": "2026-08-02T06:38:22.901Z"
     },
     {
+      "title": "株式会社NFT オープニングスタッフ募集（店舗の運営/魚の加工/販売/店長候補正社員）",
+      "link": "https://entori.jp/nft-group/job/1954906",
+      "source": "求人ボックス（株式会社NFT）",
+      "pubDate": "Fri, 31 Jul 2026 15:14:25 GMT",
+      "area": "深谷市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T05:51:31.987Z"
+    },
+    {
       "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 一生現場だけじゃな…）",
       "link": "http://s.baitoru.com/dN0aXivD",
       "source": "求人ボックス（バイトルNEXT）",
@@ -772,18 +774,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
-    },
-    {
-      "title": "埼玉県越谷市で初の手話カフェがオープン！誰もが手話に親しめるコミュニティスペース誕生",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4STAwSXUtUmlIbHVuUzM0SFNkZm9zVWQ3MjhrSHFDV1REejc0ZUlXYXVmS05mOHpWUUNRZm44Y0VKX1gyZWJnX3o1R0xadXNXeTVYWUR5cl9nX2s?oc=5",
-      "source": "wowKorea",
-      "pubDate": "Thu, 30 Jul 2026 07:11:12 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-25T06:22:51.207Z"
     },
     {
       "title": "「blanc et noir」オープニングスタッフ募集（メイドと執事のコンセプトバーのオープニングスタッフ）",
@@ -829,18 +819,6 @@
     },
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
-      "source": "キャンプファイヤー",
-      "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
-      "area": "加須市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-26T03:29:47.234Z"
-    },
-    {
-      "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjB2cHpGZWdiOEFYQURPTE5vUnVzYVlndnBDbFNpd2hXX19CZ1pEUmtzTVFPcmU5MWJUNmw3NlBMT19oRUhqRHZnQVp4d3hCQ20xeXkyd1pkajIxUThSWVVwNjJWQXlqZVpTX2lrNUV6YW1oTU9tbGloNlpPVmM0QUQ0ZzNscWoycGc?oc=5",
       "source": "キャンプファイヤー",
       "pubDate": "Sat, 25 Jul 2026 07:31:16 GMT",
@@ -862,6 +840,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-24T10:24:52.735Z"
+    },
+    {
+      "title": "株式会社オールハーツ・カンパニー オープニングスタッフ募集（ベーカリーの店長候補）",
+      "link": "https://allhearts-job.net/jobfind-pc/job/All/30924",
+      "source": "求人ボックス（株式会社オールハーツ･カンパニー）",
+      "pubDate": "Thu, 23 Jul 2026 20:11:00 GMT",
+      "area": "羽生市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T05:51:31.988Z"
     },
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
@@ -970,53 +958,6 @@
       "firstSeenAt": "2026-07-27T03:42:55.468Z"
     },
     {
-      "title": "EGGS 'N THINGS JAPAN株式会社 オープニングスタッフ募集（オープニング/ハワイアンレストラン&カフェ「店舗スタッフ」）",
-      "link": "https://tenshoku.mynavi.jp/jobinfo-334491-3-12-1/?utm_source=kyujinbox&utm_medium=display&utm_term=28100",
-      "source": "求人ボックス（マイナビ転職.）",
-      "pubDate": "Tue, 21 Jul 2026 11:31:16 GMT",
-      "area": "深谷市",
-      "genres": [
-        "レストラン",
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T15:07:27.639Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b008760794",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "富士見市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T22:07:30.304Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b007a20792",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "草加市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T03:17:34.920Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/未経験から最短3ヶ月で副店長実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b00e0707a2",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
-      "area": "草加市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-26T06:41:30.693Z"
-    },
-    {
       "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】居酒屋のホールスタッフ<東大宮店>）",
       "link": "https://to.indeed.com/aapg2flljr79",
       "source": "Indeed",
@@ -1122,18 +1063,6 @@
     },
     {
       "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 創業55年の安定企…）",
-      "link": "http://s.baitoru.com/dN0aXdyu",
-      "source": "求人ボックス（バイトルNEXT）",
-      "pubDate": "Fri, 17 Jul 2026 09:59:17 GMT",
-      "area": "熊谷市",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-31T10:45:09.489Z"
-    },
-    {
-      "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 創業55年の安定企…）",
       "link": "http://s.baitoru.com/dN0aXiph",
       "source": "求人ボックス（バイトルNEXT）",
       "pubDate": "Fri, 17 Jul 2026 09:59:17 GMT",
@@ -1142,7 +1071,7 @@
         "焼肉"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-08-01T03:28:04.616Z"
+      "firstSeenAt": "2026-07-31T10:45:09.489Z"
     },
     {
       "title": "居酒屋「串焼亭ねぎ 東大宮店」がオープン 東大宮駅東口に",
@@ -1604,18 +1533,6 @@
     },
     {
       "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c8351371",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
-      "area": "富士見市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:20:08.092Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c750136f",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
@@ -1624,7 +1541,7 @@
         "居酒屋"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-16T22:07:21.721Z"
+      "firstSeenAt": "2026-07-15T02:20:08.092Z"
     },
     {
       "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/未経験から最短3ヶ月で副店長実績あり）",
@@ -1730,19 +1647,6 @@
       "firstSeenAt": "2026-07-17T00:06:06.135Z"
     },
     {
-      "title": "シーシャ半額キャンペーン開催！「シーシャ カフェ&バー C.STAND（シースタンド）大宮南銀座通り店」2026年6月30日（火）グランドオープン♪シーシャ半額になるキャンペーンも開催！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54dmk1UUYzMzAycTRUMjZSWkVWMHltUDJienh3cHNBQjFxcTVtRjNpMGxESnN1TUMyVEhQYVF2UHNnYThXSjFZYW1qTm96RFJLVFlNZDNscm52LXkyNmV2RFdmQWltYkREakE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Sun, 28 Jun 2026 07:00:00 GMT",
-      "area": "さいたま市大宮区",
-      "genres": [
-        "カフェ",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-18T14:22:08.033Z"
-    },
-    {
       "title": "株式会社ロストマン オープニングスタッフ募集（オープニング居酒屋のホールスタッフ）",
       "link": "https://to.indeed.com/aayblffrjbpj",
       "source": "Indeed",
@@ -1791,30 +1695,6 @@
       "firstSeenAt": "2026-07-13T15:05:52.268Z"
     },
     {
-      "title": "【埼玉県初上陸】全国60店舗、月間利用者9万人の「セルフカフェ」埼玉初出店！Wi-Fi・電源完備で日常利用が拡大。カインズスーパーセンター上里本庄店敷地内に6月20日にオープン。",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91N0NEVGxURFpsVGNYR0tSQUhva3pveXNpZ292MEx1YzRXQmVHUlI1Vk9RZmJ1TzAxZFZ3clkxazhQS0ZoU1E2c0pOaW5DYkt5YmlwcjVNR2p4SmxsWFQ2UTlmWmNlZzR6RGc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
-      "area": "本庄市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.270Z"
-    },
-    {
-      "title": "【埼玉県初上陸】全国60店舗、月間利用者9万人の「セルフカフェ」埼玉初出店！Wi-Fi・電源完備で日常利用が拡大。カインズスーパーセンター上里本庄店敷地内に6月20日にオープン。",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BQlBvdGxVcmVEV3A4SnRMc294TXNkanpJMkpnT3FyRnZ1Sy1uZWZQeUpaeUd5akhza3NtYnBhbjAzLWFKeWsxRTlVT0l2a1U?oc=5",
-      "source": "紀伊民報AGARA",
-      "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
-      "area": "本庄市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T07:21:33.246Z"
-    },
-    {
       "title": "【熊谷市石原】深谷「中華 美華」の新ブランド「担々麺と麻婆豆腐 ととら」が2026年6月23日オープン",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44eVg1SzFnWjhXYk43M0x0Tzh6aWt0dkkyMTdTXzVnRWNPN244M25RYzhVT3pROEE2OEFETF9fdFExSHZybnhNeVJySC1zSVNWeVJRZmg0WkZIM1J4NU9ZQTFQcG8?oc=5",
       "source": "gummaumaimono.info",
@@ -1825,6 +1705,18 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-23T12:11:17.007Z"
+    },
+    {
+      "title": "【埼玉県初上陸】全国60店舗、月間利用者9万人の「セルフカフェ」埼玉初出店！Wi-Fi・電源完備で日常利用が拡大。カインズスーパーセンター上里本庄店敷地内に6月20日にオープン。",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91N0NEVGxURFpsVGNYR0tSQUhva3pveXNpZ292MEx1YzRXQmVHUlI1Vk9RZmJ1TzAxZFZ3clkxazhQS0ZoU1E2c0pOaW5DYkt5YmlwcjVNR2p4SmxsWFQ2UTlmWmNlZzR6RGc?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
+      "area": "本庄市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:52.270Z"
     },
     {
       "title": "川口リリアに新オープンした「カフェ・ド・デイジイ」で大人な甘さの『チョコレートパフェ』を食べてきた！贅沢なおやつタイムを堪能",
@@ -1944,16 +1836,6 @@
       "firstSeenAt": "2026-07-13T15:05:52.270Z"
     },
     {
-      "title": "【BIRTHDAY BAR】埼玉初出店！「新越谷VARIE」に新店舗がオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pWkZUQTJJdnVjTHdzdTJ2Uy1UYkZYNGd4eTRCb1RUNW9yQVJYREJZdkJBQTU4Q0d0eUJIZ19WeFV6ZzB5bU1zbE0zc3NEZVJsNTlmQkZ6cTVKbkowME5GLTRGS0c0bW5CUkE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.270Z"
-    },
-    {
       "title": "【熊谷市】深谷の人気中華『美華』が新ブランド「担々麺と麻婆豆腐 ととら」を熊谷にオープンするようです！",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5yeVpYNkRpUDVFcXluelR0aFI5dHd5a05jOTNBTXV6OTQ3Zkp3VHdGQXJOTkpIUlZ0N0ZOSU4wRlBuWTFqYmZMLWt5M2JPbEprWFYwcjRudm8yUWV0UTA2Q0NZZ18wcl9yN2lv?oc=5",
       "source": "埼玉マガジン",
@@ -1968,12 +1850,12 @@
     {
       "title": "【BIRTHDAY BAR】埼玉初出店！「新越谷VARIE」に新店舗がオープン！",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lRzZiR3NfOUF1bDFjbzEtVVVXZTdPakRXMUkwb3psRndUZ21JNlRCaFJ6S2N1QklucTY0MWM5elRMU2xzSC0yMFgxSl9BczFSSUlrTVYxejFMS21wWDQ2R2ZwTGxMeHh2S2RNQ3Rja243b2xhaU9WdTdR?oc=5",
-      "source": "mainichikirei.jp",
+      "source": "毎日キレイ",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "越谷市",
       "genres": [],
       "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:06:06.135Z"
+      "firstSeenAt": "2026-07-13T15:05:52.270Z"
     }
   ]
 }
