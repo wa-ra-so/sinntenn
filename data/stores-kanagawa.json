@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T07:33:20.928Z",
+  "generatedAt": "2026-08-03T11:32:04.305Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 78
+      "count": 79
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 46
+      "count": 48
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 104,
+  "itemCount": 108,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -427,7 +427,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-27T07:38:26.029Z"
+      "checkedAt": "2026-08-03T11:32:03.425Z"
     },
     "diningbarlately": {
       "storeName": "DINING BAR Lately",
@@ -532,6 +532,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-31T03:29:17.995Z"
+    },
+    "やさい屋しゃぶしゃぶこすぎ畑": {
+      "storeName": "やさい屋しゃぶしゃぶ こすぎ畑",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-03T11:32:04.093Z"
     }
   },
   "market": {
@@ -642,9 +655,36 @@
     "横浜市|イタリアン": {
       "count": 198,
       "checkedAt": "2026-08-03T00:49:42.057Z"
+    },
+    "平塚市|寿司": {
+      "count": 10,
+      "checkedAt": "2026-08-03T11:32:04.305Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社韓流村 オープニングスタッフ募集（ホール/キッチン オープニング募集 完全週休2日制 未経験か…）",
+      "link": "http://s.baitoru.com/dN0b0XIl",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Mon, 03 Aug 2026 09:37:46 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T11:31:59.699Z"
+    },
+    {
+      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
+      "source": "ウォーカープラス",
+      "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
+      "area": "",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T03:38:01.734Z"
+    },
     {
       "title": "株式会社ニュー・クイック オープニングスタッフ募集（惣菜・スイーツ販売/販売/キッチン 社割でお惣菜がお得 食費…）",
       "link": "http://s.baitoru.com/DW0aWcaX",
@@ -656,14 +696,42 @@
       "firstSeenAt": "2026-07-30T02:46:18.941Z"
     },
     {
+      "title": "株式会社新日本環境 オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/社員…）",
+      "link": "http://s.baitoru.com/dN0b0FXJ",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Fri, 31 Jul 2026 17:58:25 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T10:44:59.780Z"
+    },
+    {
+      "title": "「二子5丁目酒場 高津駅前」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505477/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Fri, 31 Jul 2026 10:08:23 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T08:50:11.076Z"
+    },
+    {
+      "title": "「やさい屋しゃぶしゃぶ こすぎ畑」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505308/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Fri, 31 Jul 2026 10:08:23 GMT",
+      "area": "川崎市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T11:31:59.699Z"
+    },
+    {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
       "link": "https://baitona-joshi.jp/shop/2232740/",
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -725,7 +793,7 @@
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41WEZmQUZKSnhpQU9FdXg3azluQ3dzTHVPWjJSZ0tFbkNCbGVkOHk5SzVTUHdCWU04aUd0UnBMZTdIYjVjOXpzZFJXaw?oc=5",
-      "source": "ガジェット通信",
+      "source": "getnews.jp",
       "pubDate": "Thu, 30 Jul 2026 02:15:35 GMT",
       "area": "横浜市",
       "genres": [
@@ -813,19 +881,6 @@
       "firstSeenAt": "2026-07-31T06:49:43.943Z"
     },
     {
-      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
-      "pubDate": "Wed, 29 Jul 2026 08:10:23 GMT",
-      "area": "",
-      "genres": [
-        "カフェ",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-27T03:38:01.734Z"
-    },
-    {
       "title": "「Neo Nice Burger 横浜ハンマーヘッド」オープニングスタッフ募集（ハンバーガーカフェのキッチン/オープニング・I’m donu…）",
       "link": "https://to.indeed.com/aahr9z8dlhrm",
       "source": "Indeed",
@@ -895,16 +950,6 @@
       "firstSeenAt": "2026-07-23T12:11:09.367Z"
     },
     {
-      "title": "「二子5丁目酒場 高津駅前」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505477/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
-      "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T08:50:11.076Z"
-    },
-    {
       "title": "「牛タン木村屋 溝口本店」オープニングスタッフ募集（ホールスタッフ）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505288/11_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -935,6 +980,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-30T01:01:39.405Z"
+    },
+    {
+      "title": "株式会社First Drop オープニングスタッフ募集（キッチン/店長・マネージャー候補/ホール オープニング/WE…）",
+      "link": "http://s.baitoru.com/dN0aUlRp",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Wed, 22 Jul 2026 09:35:32 GMT",
+      "area": "平塚市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T11:31:59.698Z"
     },
     {
       "title": "株式会社First Drop オープニングスタッフ募集（ホール/キッチン/フード系 オープニング 週休2日制 WEB…）",
@@ -1588,6 +1645,16 @@
       "firstSeenAt": "2026-07-17T21:58:13.480Z"
     },
     {
+      "title": "株式会社オリノ オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 飲食SV候補/月給…）",
+      "link": "http://s.baitoru.com/dN0aVSJG",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Tue, 30 Jun 2026 17:49:56 GMT",
+      "area": "相模原市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T11:31:59.698Z"
+    },
+    {
       "title": "八十八商店株式会社 オープニングスタッフ募集（お米屋さんのおにぎり製造/主婦・主夫活躍中/04:30～08…）",
       "link": "https://part.shufu-job.jp/kanagawa/city-kawasakishi_nakaharaku/order-17663149?cid=10335004",
       "source": "求人ボックス（しゅふJOB.）",
@@ -1730,16 +1797,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.381Z"
-    },
-    {
-      "title": "株式会社新日本環境 オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 オープニング/社員…）",
-      "link": "http://s.baitoru.com/dN0aQXa4",
-      "source": "求人ボックス（バイトルNEXT）",
-      "pubDate": "Thu, 11 Jun 2026 17:33:16 GMT",
-      "area": "川崎市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-31T10:44:59.780Z"
     },
     {
       "title": "県立かながわアートホールにカフェ「森乃音茶寮-MOCO-」がオープンします！ | 神奈川県のプレスリリース",
