@@ -1,75 +1,69 @@
 {
-  "generatedAt": "2026-08-02T10:09:29.199Z",
+  "generatedAt": "2026-08-03T00:49:51.286Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 70
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 4
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 7
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 1
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 55
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
-      "ok": true,
-      "count": 3,
-      "mergedAt": "2026-08-03T00:39:14.717Z"
     }
   ],
-  "itemCount": 109,
+  "itemCount": 108,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -461,19 +455,6 @@
       "open": "",
       "checkedAt": "2026-07-30T10:30:18.556Z"
     },
-    "天空の里": {
-      "storeName": "天空の里",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-30T10:30:18.083Z"
-    },
     "grilledsakanaworks": {
       "storeName": "Grilled Sakana Works",
       "listed": true,
@@ -564,6 +545,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-31T10:45:14.751Z"
+    },
+    "和牛焼肉うしまつ": {
+      "storeName": "和牛焼肉 うしまつ",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ001177421/?vos=nhppalsa000016",
+      "shopName": "和牛焼肉 うしまつ",
+      "address": "埼玉県所沢市松葉町11-2 第12北斗ビル2F",
+      "access": "西武新宿線 新所沢駅徒歩1分",
+      "genre": "焼肉・ホルモン",
+      "budget": "5001～6000円",
+      "capacity": 36,
+      "open": "火～日、祝日、祝前日: 11:00～14:00 （料理L.O. 13:30）16:00～22:00 （料理L.O. 21:30）",
+      "checkedAt": "2026-08-03T00:49:49.824Z"
+    },
+    "blancetnoir": {
+      "storeName": "blanc et noir",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-03T00:49:50.577Z"
     }
   },
   "market": {
@@ -722,6 +729,18 @@
     "久喜市|焼肉": {
       "count": 6,
       "checkedAt": "2026-08-01T06:34:56.186Z"
+    },
+    "上尾市|バー": {
+      "count": 10,
+      "checkedAt": "2026-08-03T00:49:50.764Z"
+    },
+    "川越市|寿司": {
+      "count": 15,
+      "checkedAt": "2026-08-03T00:49:50.765Z"
+    },
+    "所沢市|焼肉": {
+      "count": 24,
+      "checkedAt": "2026-08-03T00:49:51.286Z"
     }
   },
   "items": [
@@ -858,19 +877,9 @@
       "firstSeenAt": "2026-07-24T10:24:52.735Z"
     },
     {
-      "title": "【危険動物】クマ幼獣目撃　22日夕、秩父・滝沢ダム",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnZabUpoaS02WmFTQUdPRmFrMWdteXBVakNTeUZfYmVoRVNJNkxQWmtNVzJEdmc4bUEzMWVpUlFBN28wSHJteWZNVFFaVllWNGJDZ1lYNHV4OTAyMzNmWllvNWRKMWlqOHVrZlJKT1Bod3VwbnNodUtZZFdyYlI2bVFlX0RWd1FI0gGIAUFVX3lxTE5idlptSmhpLTZaYVNBR09GYWsxZ215cFVqQ1N5Rl9iZWhFU0k2TFBaa01XMkR2ZzhtQTMxZWlSUUE3bzBIcm15Zk1UUVpWWVY0YkNnWVg0dXg5MDIzM2ZaWW81ZEoxaWo4dWtmUkpPUGh3dXBuc2h1S1lkV3JiUjZtUWVfRFZ3UUg?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Thu, 23 Jul 2026 11:48:00 GMT",
-      "area": "秩父市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T03:17:34.980Z"
-    },
-    {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "food-stadium.com",
+      "source": "フードスタジアム",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "志木市",
       "genres": [
@@ -1091,16 +1100,6 @@
       "firstSeenAt": "2026-07-25T03:15:56.158Z"
     },
     {
-      "title": "埼玉県内初、関東でも2例目…コウノトリの放鳥　鴻巣「天空の里」で2羽　愛称は「晴」と「天」に　ケージにとどまる1羽…もう1羽は翼を広げ、勢いよく飛び出す",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMWNVMkRndjhXWll2YjJRX0dtM2ZlRGNXeVlmdXdWVW5LUFRCeUM1QV9UWlFFOGdzdVB5a0hueWtXaFR0c3R2bFF1ZjZKSGpIWC03Tzl4d1JvOFNaX19qbFZDVzBlNzE0MFlhR0tqRXdCTXA0U1FTdGVEQkdZcndxbGJTONIBiAFBVV95cUxPRzVxOXRkaWRjdFZ4ZlZJbk8tSUhGQk0yNFQ1anF3dk1ZRUhxLUEyLTFUOUdSdFA5UDNhbEZxR0xaNllOR2lkbE1zYXB1QTVzeGNxNkt3TmhqLUI1a3NtT19Za3h2cXZJMFZLanVNOFFpUElVYl9QR2hFMlFia3UyWmZMelJlbWdk?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Sun, 19 Jul 2026 01:44:00 GMT",
-      "area": "鴻巣市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T08:50:21.723Z"
-    },
-    {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByd3Zaek9kckE4a1ZMeV9NNGotS1pRdWhqekpXSncyaTBEYmpiRVNiMDVTdF9kSVlhY1pQZXJvbkZuY28tNGhCWUlBbw?oc=5",
       "source": "47NEWS",
@@ -1197,7 +1196,7 @@
     {
       "title": "【埼玉県内初ロードサイド店舗】イタリアンカフェ＆レストラン「チェントペルチェント浦和芝原店」7月17日(金)10時30分オープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91RmZfcERXV3EyR0dwdDd1dFFObTBPRlN0aDkyR2tUSm84bjZIZ3pZeXYwZVNNWmt2eVNfMkdxSVdXejZpLUp3cmVqQU1FaG13ajZuTmVXeWlRcU12MHU5MnVkc3hhQmRwTXc?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
       "area": "さいたま市浦和区",
       "genres": [
@@ -1605,6 +1604,18 @@
       "firstSeenAt": "2026-07-13T15:05:52.218Z"
     },
     {
+      "title": "【所沢市】「和牛焼肉 Dining 煌」が『和牛焼肉 うしまつ』として本日リニューアルオープンしました！",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwWFduT3ZxM3NqMmdmZDVGdU5WSlF1cDlJRzROVUw5ZDZTejNZR0NSeDNoRnlMV3cyOWczX2NhaWdvWUpBM0J0TlExZk5SZkp4ZTVaWTg0bGhENHBDYjEzR3BLWk04NXhKR1pmTXlB?oc=5",
+      "source": "埼玉マガジン",
+      "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
+      "area": "所沢市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-03T00:49:46.241Z"
+    },
+    {
       "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c8351371",
       "source": "求人ボックス（グルスタ）",
@@ -1795,7 +1806,7 @@
     {
       "title": "【埼玉県初上陸】全国60店舗、月間利用者9万人の「セルフカフェ」埼玉初出店！Wi-Fi・電源完備で日常利用が拡大。カインズスーパーセンター上里本庄店敷地内に6月20日にオープン。",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91N0NEVGxURFpsVGNYR0tSQUhva3pveXNpZ292MEx1YzRXQmVHUlI1Vk9RZmJ1TzAxZFZ3clkxazhQS0ZoU1E2c0pOaW5DYkt5YmlwcjVNR2p4SmxsWFQ2UTlmWmNlZzR6RGc?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
       "area": "本庄市",
       "genres": [

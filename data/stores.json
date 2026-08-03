@@ -1,75 +1,69 @@
 {
-  "generatedAt": "2026-08-02T10:03:28.673Z",
+  "generatedAt": "2026-08-03T00:49:23.910Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "専門料理系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "カフェ系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 100
     },
     {
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 6
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 13
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
-      "ok": false,
-      "error": "HTTP 503"
+      "ok": true,
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
-      "ok": true,
-      "count": 1,
-      "mergedAt": "2026-08-03T00:39:06.371Z"
     }
   ],
-  "itemCount": 145,
+  "itemCount": 141,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -82,7 +76,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.602Z"
+      "checkedAt": "2026-08-03T00:49:21.189Z"
     },
     "焼鳥蕎麦二尺五寸": {
       "storeName": "焼鳥 蕎麦 二尺五寸",
@@ -95,7 +89,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.201Z"
+      "checkedAt": "2026-08-03T00:49:21.879Z"
     },
     "芯": {
       "storeName": "芯",
@@ -108,7 +102,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.416Z"
+      "checkedAt": "2026-08-03T00:49:22.094Z"
     },
     "佐倉市立美術館": {
       "storeName": "佐倉市立美術館",
@@ -121,7 +115,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.410Z"
+      "checkedAt": "2026-08-03T00:49:22.263Z"
     },
     "藁焼き酒場わらいち": {
       "storeName": "藁焼き酒場 わらいち",
@@ -147,7 +141,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.613Z"
+      "checkedAt": "2026-08-03T00:49:22.311Z"
     },
     "pronto成田空港第2ターミナル店": {
       "storeName": "PRONTO 成田空港第２ターミナル店",
@@ -160,7 +154,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.655Z"
+      "checkedAt": "2026-08-03T00:49:22.495Z"
     },
     "ハー・グエン": {
       "storeName": "ハー・グエン",
@@ -173,7 +167,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.809Z"
+      "checkedAt": "2026-08-03T00:49:22.613Z"
     },
     "和食居酒屋大安": {
       "storeName": "和食居酒屋 大安",
@@ -186,7 +180,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.837Z"
+      "checkedAt": "2026-08-03T00:49:22.676Z"
     },
     "元祖焼豚センターうる寅商店": {
       "storeName": "元祖焼豚センター うる寅商店",
@@ -199,7 +193,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:24.871Z"
+      "checkedAt": "2026-08-03T00:49:22.849Z"
     },
     "古民家カフェハナレヤ": {
       "storeName": "古民家カフェ ハナレヤ",
@@ -212,7 +206,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:25.031Z"
+      "checkedAt": "2026-08-03T00:49:22.991Z"
     },
     "なのわ": {
       "storeName": "なのわ",
@@ -238,7 +232,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:23.982Z"
+      "checkedAt": "2026-08-03T00:49:21.505Z"
     },
     "おでん屋たけし船橋駅南口店": {
       "storeName": "おでん屋たけし 船橋駅南口店",
@@ -251,7 +245,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-26T10:05:23.983Z"
+      "checkedAt": "2026-08-03T00:49:21.964Z"
     },
     "とんかつ神楽坂さくら君津店": {
       "storeName": "とんかつ神楽坂さくら 君津店",
@@ -581,52 +575,52 @@
   },
   "market": {
     "船橋市|居酒屋": {
-      "count": 175,
-      "checkedAt": "2026-07-26T10:05:25.211Z"
+      "count": 177,
+      "checkedAt": "2026-08-03T00:49:23.184Z"
     },
     "市川市|バー": {
       "count": 43,
-      "checkedAt": "2026-07-26T10:05:25.337Z"
+      "checkedAt": "2026-08-03T00:49:23.549Z"
     },
     "佐倉市|居酒屋": {
-      "count": 18,
-      "checkedAt": "2026-07-26T10:05:25.437Z"
+      "count": 17,
+      "checkedAt": "2026-08-03T00:49:23.541Z"
     },
     "船橋市|カフェ": {
       "count": 44,
-      "checkedAt": "2026-07-26T10:05:25.218Z"
+      "checkedAt": "2026-08-03T00:49:23.205Z"
     },
     "船橋市|イタリアン": {
       "count": 26,
-      "checkedAt": "2026-07-26T10:05:25.350Z"
+      "checkedAt": "2026-08-03T00:49:23.426Z"
     },
     "成田市|カフェ": {
       "count": 12,
-      "checkedAt": "2026-07-26T10:05:25.219Z"
+      "checkedAt": "2026-08-03T00:49:23.361Z"
     },
     "習志野市|カフェ": {
       "count": 13,
-      "checkedAt": "2026-07-26T10:05:25.459Z"
+      "checkedAt": "2026-08-03T00:49:23.616Z"
     },
     "佐倉市|カフェ": {
-      "count": 11,
-      "checkedAt": "2026-07-26T10:05:25.464Z"
+      "count": 10,
+      "checkedAt": "2026-08-03T00:49:23.738Z"
     },
     "柏市|居酒屋": {
-      "count": 102,
-      "checkedAt": "2026-07-26T10:05:25.329Z"
+      "count": 105,
+      "checkedAt": "2026-08-03T00:49:23.174Z"
     },
     "八千代市|寿司": {
       "count": 5,
-      "checkedAt": "2026-07-26T10:05:25.540Z"
+      "checkedAt": "2026-08-03T00:49:23.722Z"
     },
     "松戸市|カフェ": {
-      "count": 29,
-      "checkedAt": "2026-07-26T10:05:25.581Z"
+      "count": 31,
+      "checkedAt": "2026-08-03T00:49:23.810Z"
     },
     "館山市|カフェ": {
       "count": 9,
-      "checkedAt": "2026-07-26T10:05:25.580Z"
+      "checkedAt": "2026-08-03T00:49:23.910Z"
     },
     "柏市|フレンチ": {
       "count": 8,
@@ -731,6 +725,10 @@
     "柏市|スナック": {
       "count": 0,
       "checkedAt": "2026-07-31T03:28:59.077Z"
+    },
+    "浦安市|ダイニング": {
+      "count": 10,
+      "checkedAt": "2026-08-03T00:49:23.367Z"
     }
   },
   "items": [
@@ -738,21 +736,21 @@
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Sat, 01 Aug 2026 19:25:11 GMT",
+      "pubDate": "Sun, 02 Aug 2026 19:27:43 GMT",
       "area": "習志野市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
-      "title": "【速報】千葉・市川のマンションで爆発か、２人搬送　窓ガラス割れ、周辺に被害も",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNVZGUGZ6NUo4OWxYRjNlUGtXZWwzc0diSGlSRHZuSlZLWWpKcFUtRW9BRkFuSl9vOHlGcE9QWlNyQlZqeVNGb2JTVUVaUWU4YUtWVXpONDBoVEk5X2MyMEs3VWg1bzFjVmZ2YUdoS1BybWQ5UC1qVDhWYjZPcUVaU3FBONIBgwFBVV95cUxPNVZGUGZ6NUo4OWxYRjNlUGtXZWwzc0diSGlSRHZuSlZLWWpKcFUtRW9BRkFuSl9vOHlGcE9QWlNyQlZqeVNGb2JTVUVaUWU4YUtWVXpONDBoVEk5X2MyMEs3VWg1bzFjVmZ2YUdoS1BybWQ5UC1qVDhWYjZPcUVaU3FBOA?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Fri, 31 Jul 2026 23:55:00 GMT",
-      "area": "市川市",
+      "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトで運搬）",
+      "link": "https://www.workof-japan.com/jobs/64329",
+      "source": "求人ボックス（Jwork）",
+      "pubDate": "Sat, 01 Aug 2026 03:35:25 GMT",
+      "area": "山武市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-08-02T03:27:23.049Z"
+      "firstSeenAt": "2026-07-23T08:49:48.657Z"
     },
     {
       "title": "株式会社バッファローフードサービス オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 新店舗オープンにつ…）",
@@ -815,6 +813,18 @@
       "firstSeenAt": "2026-07-15T08:37:17.709Z"
     },
     {
+      "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ubS00UUNFZmtqUWFlTUhUWnN0Q001UmhodEhZQmVqX25OMkFCTUVMNmh5UWVpNTAzb21ZVERFb05pSEZMeGgxV1V3ejRKYU5uQUoxcWtySW1NNFE5d0RtNHFIZkFqSFB6WXpyNlZ4ZU1hVHVfd3A1YWNn?oc=5",
+      "source": "毎日キレイ",
+      "pubDate": "Fri, 31 Jul 2026 01:58:55 GMT",
+      "area": "長柄町",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-03T00:49:17.202Z"
+    },
+    {
       "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -869,16 +879,6 @@
       "firstSeenAt": "2026-07-31T10:44:39.547Z"
     },
     {
-      "title": "【速報】千葉県内、落雷や竜巻など激しい突風に注意　大気の状態、不安定に　気象庁",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0WlhHWXYzVkRBRElIM0JBNmgwc1ZYSDVla0tTM0RoSEZQdW5jNThrczBaY3JFblo2SzRSd2J3TVl3ZlA2VXVRNVYxWktVNnpXN0F5Ymc2UlllWEdMaXRReERxQ09XM3RiamJOZkk5SDRZN2N6emF1eWtqSHBZd9IBgwFBVV95cUxNMDAyVkVLNWRXc3lRQlA5LUZrdTJHakg1ZEpURGNGLThxdkM5Q211VFNMcVVHTlBOY0wyU3hlUnhpZUpMWnNfelcxODNoNmhHV2ZhX0FKTXI1cHNRU290NWV4RmtKZG9yRnFOQmNRX29WRl9OVWNOdE15UGRhZ3dhMlNVOA?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Tue, 28 Jul 2026 02:31:00 GMT",
-      "area": "",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-01T03:27:39.803Z"
-    },
-    {
       "title": "船橋市本町に「PHILOCOFFEA旧焙煎所」が7/31（金）オープン、バリスタ世界王者の原点の場所が新カフェに",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54MG9qeEdHMllxdnFHQ0l2YnVpQnFEMV9EaFdFN251QjVnSFlNdTRJWml0TEJ3Sms2Vkh5eXE4M05wcXQ4cUtXSjlnZFJjaUZDbnc?oc=5",
       "source": "船橋つうしん",
@@ -891,16 +891,6 @@
       "firstSeenAt": "2026-08-02T03:27:23.046Z"
     },
     {
-      "title": "千葉県庁がイエローに　社会を明るくする運動で",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5saUM0X0IwTWhnbFd4T2c1MDZhM1VSU3pwTjc3TzdGLUxQdTkwWjI2eVNQMUJlS0s0YnVlODVwZG56Y2JXYW5TOHMzS0hlSWd4UDdGRVo4Vmh4LWxFbmc3d0ZMZTRHQUxXb0lKRTdxUUpsQVJmcGRRTHlPZlZYZ9IBgwFBVV95cUxOeUp0UDhkM1RROTBxdUJ3UWkwWERsVExnLUt6MnZndnpkeGVneUxBODh6RnkwMnBNRDgzVm9mdVFvcjVtWXdXQnI2R2J4bGc5Z0JtaTBRLTlPUFhVd2FFcDJaNjVFa0ZNVWIzUXRxTENfV2FLUGFZOHppdDFsTDVOOGIwRQ?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Mon, 27 Jul 2026 10:00:00 GMT",
-      "area": "",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-01T06:34:26.376Z"
-    },
-    {
       "title": "【続報】松戸駅西口の「たい焼ききくや」跡地に「鮨処 すし白川」が8/10（月）オープン予定",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XMTc3aW9ydkNQMHdHSDBFSFlheTFaLUx0eFhneDNFQlRRb0cwcnZPODlBLWxyNms5Rlkyc0xtRjhRemNBRHNPN3AtUjJYMW8?oc=5",
       "source": "松戸つうしん",
@@ -909,16 +899,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-30T06:32:43.831Z"
-    },
-    {
-      "title": "【速報】千葉県内３４０軒停電",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKWm54cXJrZFFINFFpT0JucEUwenBhOWg2TFBGUFhXNXJQaFpzaFNUQk1EcndOdUxHVUoxM0MyQjRTWm5ZWWp2c3dPbUdabVBWTDN1bHhpRmhtcDFZVVhJMVVVcWZsc2d4dDZVRmctSldSS09vY1ZVOFAxNFlWQdIBgwFBVV95cUxPcEE3S3JfNXozSkZPWEpremotRmxjRW0wY3ZfcllVTzFOWFltVlRtblhPVWFrTFFSNnJmelk0MnUxVTlSSW4yYjhhMTRoUHFUYWItM2hCUDZlM24yZ2MwRzdQNnNveDdCMlZ0d2dKcWdJN1ItVGpwdE5yTXZfNFFvQzdSQQ?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Mon, 27 Jul 2026 05:37:00 GMT",
-      "area": "",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-01T03:27:39.803Z"
     },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（「地方創生/館山」地域の「食」と人をつなぐ、オープニングホテ…）",
@@ -1177,16 +1157,6 @@
       "firstSeenAt": "2026-07-19T07:29:45.005Z"
     },
     {
-      "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトスタッフ）",
-      "link": "https://www.workof-japan.com/jobs/64329",
-      "source": "求人ボックス（Jwork）",
-      "pubDate": "Thu, 23 Jul 2026 04:55:53 GMT",
-      "area": "山武市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T08:49:48.657Z"
-    },
-    {
       "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
       "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -1370,16 +1340,6 @@
       "firstSeenAt": "2026-07-29T00:07:36.717Z"
     },
     {
-      "title": "【速報】千葉県内230軒停電",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WTzh5VnlJd1ZqOFZ3VHBsbnhocXh5dDM4OVdKQlFoSjBVSXB2QW05cFJRQk9lVnBOaEFGc0VVTWtPbEVxSUdtVXNKamF2ZUp5dTFObGRMVmFNcVBUOTVlUG1ud29TRmo3bDItTkRVU18zS0hFWGk4VldpUVZHd9IBgwFBVV95cUxPeWhsY3I0U3lWS09yTXhXY1doWk5FRVN4VXhPTnJSblhYLUplUXJzeFBkbVdSOWpmamhQZzVaWUlyVnhhTmxOaWs3MHU4VG1YbGIwY0tsVFE0bHR3M0pMZ2Y1ZWpmVG9aMGtIQ0JENHNSUDdvMy1EZnBvdm5DZ3FvWC1uNA?oc=5",
-      "source": "ｄメニューニュース",
-      "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-01T10:03:39.721Z"
-    },
-    {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（夕方でササッと帰宅/フォークリフトスタッフ）",
       "link": "https://www.workof-japan.com/jobs/61569",
       "source": "求人ボックス（Jwork）",
@@ -1504,7 +1464,7 @@
     {
       "title": "千葉県鴨川市の海辺に、小さなスペシャルティコーヒースタンド「MARINE COFFEE」公式ECサイトを7月14日（火）にオープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54TG1FcXpZTzV0TXFqZU1iVFg3QUk0QnZjc1BCRG82VXVDYU52RTVFdUxsLXczTmJLb2oxNkRtZjdacEFwYk9xejYxSXNiRDlVUGxKc2JrUXEwQmh1V0huUGZ5Y19VUGxMeEE?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "鴨川市",
       "genres": [],
@@ -2244,7 +2204,7 @@
     {
       "title": "【寿司一丁】回らない本格寿司を日常価格で！「寿司一丁 八千代緑が丘店」が6/9(火)グランドオープン！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xanBpeWQzbmkwNHhULUlrOUpCQjZuZUtlSUFSOG1YcDkwWWxqY3lKMXZDMmtGaGFQVjJPMXBhaE9JQXp3RVhQSUxudGFyNkFLanBoWHVtbzdpRnhwak9LaVI4ckFvQXg0SFE?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "八千代市",
       "genres": [
@@ -2256,7 +2216,7 @@
     {
       "title": "【新店】「PRONTO 成田空港第２ターミナル店」が2026年7月17日(金)オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vSDV0ZzdJUDdMd0JvMF9ucXM5UE9aSloyUF9JZUtwZU9rTFBqcWVTc00wakZKcXdGN2lyWnBtbnVhTnhDaG9WNzJXdngxMEF5OGJnZzhDeTZSWXhTNzJWZ3ZuWl9LQXh2RGc?oc=5",
-      "source": "prtimes.jp",
+      "source": "PR TIMES",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [],
