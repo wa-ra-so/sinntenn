@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:51:34.601Z",
+  "generatedAt": "2026-08-03T07:33:27.847Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 71
+      "count": 70
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 52
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 98,
+  "itemCount": 100,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -558,6 +558,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-03T00:49:50.577Z"
+    },
+    "建デポ所沢宮本町店": {
+      "storeName": "建デポ 所沢宮本町店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-03T07:33:27.528Z"
+    },
+    "酒場リンリン": {
+      "storeName": "酒場リンリン",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-03T07:33:27.705Z"
     }
   },
   "market": {
@@ -720,9 +746,25 @@
     "所沢市|焼肉": {
       "count": 24,
       "checkedAt": "2026-08-03T00:49:51.286Z"
+    },
+    "川越市|中華": {
+      "count": 18,
+      "checkedAt": "2026-08-03T07:33:27.847Z"
     }
   },
   "items": [
+    {
+      "title": "【川越新規オープン】肉汁あふれる爆汁小籠包と鉄人直伝の本格四川麻婆！気軽な小皿で新しい中華酒場「酒場リンリン」が川越市駅前に8月4日オープン",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RRnRhUW1fd2lMbk5aczRNNHFLZlJCNEtkTXBJemNFbmlEakVMSklxNDh5clJmcUdNbXRCQ2JUZVhzWVM2ckltQ0I1ZHZDOEZabW05TzZIZG9NRDAtX1BvV3oySE5HMVRTaUFBT3VVdw?oc=5",
+      "source": "ニコニコニュース",
+      "pubDate": "Mon, 03 Aug 2026 02:18:13 GMT",
+      "area": "川越市",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-03T07:33:24.846Z"
+    },
     {
       "title": "株式会社バッファローフードサービス オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 事業拡大による増員…）",
       "link": "http://s.baitoru.com/dN0aZn6o",
@@ -1632,6 +1674,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.789Z"
+    },
+    {
+      "title": "「建デポ 所沢宮本町店」オープニングスタッフ募集（商品の品出しスタッフ ホームセンター/0316d/制服貸与/…）",
+      "link": "https://q-mate.jp/kendepot/0658b515174146a88e2bb02eb2c277c4.html",
+      "source": "求人ボックス（株式会社建デポ人事総務法務部）",
+      "pubDate": "Tue, 30 Jun 2026 16:38:59 GMT",
+      "area": "所沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T07:33:24.784Z"
     },
     {
       "title": "シーシャ半額キャンペーン開催！「シーシャ カフェ&バー C.STAND（シースタンド）大宮南銀座通り店」2026年6月30日（火）グランドオープン♪シーシャ半額になるキャンペーンも開催！",

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-03T05:51:27.962Z",
+  "generatedAt": "2026-08-03T07:33:20.928Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 94
+      "count": 92
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 105,
+  "itemCount": 104,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -207,19 +207,6 @@
       "capacity": 64,
       "open": "月～日、祝日、祝前日: 11:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
       "checkedAt": "2026-07-16T15:07:15.754Z"
-    },
-    "cafe&barbuu": {
-      "storeName": "cafe&bar BUU",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-31T03:29:18.222Z"
     },
     "casacabanhayama": {
       "storeName": "Casa CABaN HAYAMA",
@@ -659,19 +646,6 @@
   },
   "items": [
     {
-      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
-      "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
-      "area": "",
-      "genres": [
-        "カフェ",
-        "バー"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-27T03:38:01.734Z"
-    },
-    {
       "title": "株式会社ニュー・クイック オープニングスタッフ募集（惣菜・スイーツ販売/販売/キッチン 社割でお惣菜がお得 食費…）",
       "link": "http://s.baitoru.com/DW0aWcaX",
       "source": "求人ボックス（baitoru）",
@@ -837,6 +811,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T06:49:43.943Z"
+    },
+    {
+      "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
+      "source": "ウォーカープラス",
+      "pubDate": "Wed, 29 Jul 2026 08:10:23 GMT",
+      "area": "",
+      "genres": [
+        "カフェ",
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-27T03:38:01.734Z"
     },
     {
       "title": "「Neo Nice Burger 横浜ハンマーヘッド」オープニングスタッフ募集（ハンバーガーカフェのキッチン/オープニング・I’m donu…）",
@@ -1822,16 +1809,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.698Z"
-    },
-    {
-      "title": "【藤沢市】「cafe&bar BUU」が2026年6月3日グランドオープン！",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fR2g3RS03X01sdk1sbXE4WWlNTFBOdnV4eDcyOHlyLWVaR0ZyNnMxZ3JZUUNGQU5sWl9XNGMwcXJVaVF2eGdqLWhlNld1QzlrVlZHMXQtV0dIbnd1SHF1NDVRNUFJYUNJV1N3?oc=5",
-      "source": "湘南人",
-      "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "area": "藤沢市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T00:05:58.413Z"
     }
   ]
 }

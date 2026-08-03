@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:51:10.549Z",
+  "generatedAt": "2026-08-03T07:33:08.331Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 119,
+  "itemCount": 120,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -571,6 +571,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-02T03:27:27.426Z"
+    },
+    "建デポ市川大野店": {
+      "storeName": "建デポ 市川大野店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-03T07:33:08.053Z"
+    },
+    "建デポ市川田尻店": {
+      "storeName": "建デポ 市川田尻店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-03T07:33:08.331Z"
     }
   },
   "market": {
@@ -613,10 +639,6 @@
     "松戸市|カフェ": {
       "count": 31,
       "checkedAt": "2026-08-03T00:49:23.810Z"
-    },
-    "館山市|カフェ": {
-      "count": 9,
-      "checkedAt": "2026-08-03T00:49:23.910Z"
     },
     "柏市|フレンチ": {
       "count": 8,
@@ -1310,7 +1332,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -1493,6 +1515,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
+    },
+    {
+      "title": "「建デポ 市川田尻店」オープニングスタッフ募集（商品の品出し・レジスタッフ ホームセンター 昼勤/0210c…）",
+      "link": "https://q-mate.jp/kendepot/cbe75f9a4d9d4bd98720f76f64505b5e.html",
+      "source": "求人ボックス（株式会社建デポ人事総務法務部）",
+      "pubDate": "Wed, 08 Jul 2026 16:48:42 GMT",
+      "area": "船橋市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T07:33:05.349Z"
     },
     {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の接客/残業月10H/年休110日/社宅あり）",
@@ -1837,6 +1869,16 @@
       "firstSeenAt": "2026-07-22T07:37:27.130Z"
     },
     {
+      "title": "「建デポ 市川大野店」オープニングスタッフ募集（ホームセンターでの接客スタッフ/0222b/簡単/残業なし/…）",
+      "link": "https://q-mate.jp/kendepot/6cc729221ad14bc1b264f1214f44bff6.html",
+      "source": "求人ボックス（株式会社建デポ人事総務法務部）",
+      "pubDate": "Wed, 24 Jun 2026 16:41:47 GMT",
+      "area": "市川市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T07:33:05.349Z"
+    },
+    {
       "title": "株式会社フォンスＣＢ オープニングスタッフ募集（【オープニングスタッフ】ベーカリーカフェスタッフ|グランスタ…）",
       "link": "https://to.indeed.com/aa4jlybz9yjm",
       "source": "Indeed",
@@ -2012,18 +2054,6 @@
       "source": "船橋つうしん",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "習志野市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
-      "title": "元旅館の思い継ぐ古民家カフェ 館山市見物に5日オープン 家族4人で1年かけDIY（千葉県）（房日新聞）",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9rUXJ4elVsWERTU1A1WkJSbkhKTkZYNWtxcEE4N3ByU0NsS0VVTVFjdVJESTlmdmZwZzhKV3RCVUs1SlVJYWhhUWROQUVHRmotWWs5TkJySGk0THRpc21wSklibFVqNGVGbzBaN01jUFNKMXpacDBfT1NPbTByR28?oc=5",
-      "source": "Yahoo!ニュース",
-      "pubDate": "Thu, 04 Jun 2026 07:00:00 GMT",
-      "area": "館山市",
       "genres": [
         "カフェ"
       ],

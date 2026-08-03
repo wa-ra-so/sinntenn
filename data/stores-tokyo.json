@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:51:20.335Z",
+  "generatedAt": "2026-08-03T07:33:15.422Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 71
+      "count": 72
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -1915,7 +1915,7 @@
     {
       "title": "元医療関係者が「また食べたくなる健康食」を追求・「ふうっと..」がヴィーガン対応かき氷専門店を葛西にオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBsNEVNNGZtYVQ2UF9DUGZHVUV3VXdadDF2VzdSdGFTR0k2UWtYZExUM1JBOU4tb3JXOXBhOXNsN185QkZyWjZZ?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
       "area": "江戸川区",
       "genres": [],
@@ -1958,7 +1958,7 @@
     {
       "title": "八王子【パンもパティもベーコンも一人で手作り】本格アメリカンダイナー「Shakiri Meat Diner」がオープン!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQdGdNcXdaLU1rUDZYNUVnemc2aGRlS2dHTk5IQnYyd3pGc2JkNk5rNm93dHJkazFZcUJ3b1RJcWhlSTNGZjl2LWRpMDNubms?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Fri, 31 Jul 2026 08:30:00 GMT",
       "area": "八王子市",
       "genres": [],
@@ -2106,7 +2106,7 @@
     {
       "title": "1杯500円から！7/28に八王子駅前にオープンした『お酒の美術館』へ行ってみた！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16RGhaNmdGdGVrTmVsRl9EQ3Rtb19OaGdrWlJId0xaRnVnbS16bzEzMUpiSjZUeloyZEJ0TFVTa2xGbDV3Tkk2ZS10M21tYVNwaWtWclFDZjQ2Zw?oc=5",
-      "source": "八王子ジャーニー",
+      "source": "8dabe.com",
       "pubDate": "Tue, 28 Jul 2026 14:39:34 GMT",
       "area": "八王子市",
       "genres": [],
@@ -2784,7 +2784,7 @@
     {
       "title": "【7/28オープン】八王子駅前に『お酒の美術館』が初出店！都まんじゅう隣",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVTJla18wX2MxOWEwWVp2LVgwa2F0TzdHajI4djNzdEp3YUNlMEhCNFE0WTZ5cWp3QXRaRS13ZllGUTNMY3RHNHdfQ1BOZmVwQUc3WDI0NA?oc=5",
-      "source": "八王子ジャーニー",
+      "source": "8dabe.com",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [],
@@ -3734,7 +3734,7 @@
     {
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9STG1GU0RBcmYtMEo5QmZGRk11OG1rV0Z6aE1EcmN3bmpSS3JEU3otRGdwOXN0TEdQMXJXb1ZBSFZ2ellfelNZ?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [],
@@ -4445,7 +4445,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
@@ -4692,7 +4692,7 @@
     {
       "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
-      "source": "rurubu.jp",
+      "source": "るるぶWeb",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [],
