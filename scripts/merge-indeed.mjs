@@ -50,8 +50,19 @@ if (!Array.isArray(data.items)) {
 
 const ttlDays = data.ttlDays || 60;
 const cutoff = Date.now() - ttlDays * 24 * 60 * 60 * 1000;
-const seenLinks = new Set(data.items.map(it => it.link));
-const seenTitles = new Set(data.items.map(it => normalizeForDedupe(it.title)));
+
+// linkだけでなく正規化タイトルでも重複判定する。Indeedのview-job URLもトラッキング
+// パラメータ違いで同じ求人が別linkとして再取得されることがあり、以前はlink一致だけの
+// 重複判定だと見逃していた（正規化タイトルでは判定していたが、単に捨てるだけで
+// linkを更新していなかった）。fetch-stores.mjs の main() と同じ upsert 方式に揃え、
+// 同一内容が新しいlinkで再出現したら新しい方に差し替えつつ、初出日時
+// （firstSeenAt）は古い方を引き継ぐ（リンク切れ対策を兼ねる）
+const merged = new Map();   // link -> item
+const byTitle = new Map();  // 正規化タイトル -> そのタイトルで現在mergedに入っているlink
+for (const it of data.items) {
+  merged.set(it.link, it);
+  byTitle.set(normalizeForDedupe(it.title), it.link);
+}
 
 let added = 0, filteredOut = 0, dup = 0, stale = 0;
 for (const job of jobs) {
@@ -59,15 +70,26 @@ for (const job of jobs) {
   if (!item) { filteredOut++; continue; }
   const d = item.pubDate ? Date.parse(item.pubDate) : NaN;
   if (Number.isFinite(d) && d < cutoff) { stale++; continue; }
+  if (merged.has(item.link)) { dup++; continue; }
   const norm = normalizeForDedupe(item.title);
-  if (seenLinks.has(item.link) || seenTitles.has(norm)) { dup++; continue; }
-  seenLinks.add(item.link);
-  seenTitles.add(norm);
-  data.items.push(item);
+  const dupLink = byTitle.get(norm);
+  if (dupLink && merged.has(dupLink)) {
+    const prevItem = merged.get(dupLink);
+    merged.delete(dupLink);
+    const firstSeenAt = prevItem.firstSeenAt < item.firstSeenAt ? prevItem.firstSeenAt : item.firstSeenAt;
+    merged.set(item.link, { ...item, firstSeenAt });
+    byTitle.set(norm, item.link);
+    dup++;
+    console.log(`  ~ ${item.title} [${item.area}]（同一内容・リンク更新）`);
+    continue;
+  }
+  merged.set(item.link, item);
+  byTitle.set(norm, item.link);
   added++;
   console.log(`  + ${item.title} [${item.area}]`);
 }
 
+data.items = [...merged.values()];
 data.items.sort((a, b) => {
   const da = Date.parse(a.pubDate || a.firstSeenAt) || 0;
   const db = Date.parse(b.pubDate || b.firstSeenAt) || 0;
