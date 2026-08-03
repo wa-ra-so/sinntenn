@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T00:49:34.068Z",
+  "generatedAt": "2026-08-03T03:29:32.829Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 24
+      "count": 22
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 31
+      "count": 30
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 69
+      "count": 71
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -2086,7 +2086,7 @@
     {
       "title": "1杯500円から！7/28に八王子駅前にオープンした『お酒の美術館』へ行ってみた！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16RGhaNmdGdGVrTmVsRl9EQ3Rtb19OaGdrWlJId0xaRnVnbS16bzEzMUpiSjZUeloyZEJ0TFVTa2xGbDV3Tkk2ZS10M21tYVNwaWtWclFDZjQ2Zw?oc=5",
-      "source": "8dabe.com",
+      "source": "八王子ジャーニー",
       "pubDate": "Tue, 28 Jul 2026 14:39:34 GMT",
       "area": "八王子市",
       "genres": [],
@@ -2842,7 +2842,7 @@
     {
       "title": "【7/28オープン】八王子駅前に『お酒の美術館』が初出店！都まんじゅう隣",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVTJla18wX2MxOWEwWVp2LVgwa2F0TzdHajI4djNzdEp3YUNlMEhCNFE0WTZ5cWp3QXRaRS13ZllGUTNMY3RHNHdfQ1BOZmVwQUc3WDI0NA?oc=5",
-      "source": "8dabe.com",
+      "source": "八王子ジャーニー",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [],
@@ -3709,7 +3709,7 @@
     {
       "title": "【占いから食卓へ】おばんざいとおむすびBAR美月が武蔵小山にオープン",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxS2RzbUhBUmFiU3FkNjdGdENDNVNVWEhfaGhrSjZuVVc4dm11S2tMa3ZwaVNQTnBxTzRFLXpvV2d0Z1p4OWJ2a3o3SjRkVVV5LXhTWmtNTEI4RE5aMUZJYWJCMVZjTEJ3M2E3RnFDQm96UTdCUjlSQnRBZw?oc=5",
-      "source": "ニコニコニュース",
+      "source": "news.nicovideo.jp",
       "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
       "area": "品川区",
       "genres": [],
@@ -3788,7 +3788,7 @@
     {
       "title": "【東京都初出店！7/23オープン！】飲茶・中華・麻辣湯、更に選べるスイーツ！色々な「食べたい」がすべて叶う『THE",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KQUZoTlhRODNSaWc4c3czTjJkZ1ZGZ0RhUFJkeDBzRWZBUVBFbTg5RnVIZmxBS0lIYl9ubnJ0SzBFSU1HbWJTUnB2UFcydm8tVUdnaA?oc=5",
-      "source": "ニコニコニュース",
+      "source": "news.nicovideo.jp",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4573,7 +4573,7 @@
     {
       "title": "東京・南青山にニッカウヰスキーのフラッグシップバー 7月オープン、多様な楽しみ方を発信へ",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aOFJLa2Z6bFlCM0tRSlVoVi1ObHowWkZVbjBhSzVwMXZxR044R1Z0QVdWSVpBdWF4OWRWUXM1bTVvdzFYYWxqMXZ2MTZ3ODYwOWJqZTdoem9CZEpfLUVQYw?oc=5",
-      "source": "食品新聞 WEB版",
+      "source": "shokuhin.net",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [
@@ -4649,7 +4649,7 @@
     {
       "title": "スクエニの常設カフェ「Officially Licensed SQUARE ENIX Cafe & Shop SHINJUKU」が本日東京にグランドオープン",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nVnlsUU05Y2xTbjI3cHpBVXMwaFoxZUFJbTJXWDNkZGQtSktlSTVUNWhNRHUtSFVxbnRZNExfMDNGQ1V5OGl3UXc2RHFKNzZNUUJ2VHhMT0xuYzVSVWt6TzJ3c2dkZw?oc=5",
-      "source": "GAME Watch",
+      "source": "game.watch.impress.co.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [

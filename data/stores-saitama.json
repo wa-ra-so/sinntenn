@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T00:49:51.286Z",
+  "generatedAt": "2026-08-03T03:29:46.109Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 55
+      "count": 52
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 8
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 108,
+  "itemCount": 107,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -220,19 +220,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-28T02:54:43.093Z"
-    },
-    "蕎⻨きりみよたレイクタウン店": {
-      "storeName": "蕎⻨きり みよた レイクタウン店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-28T02:54:43.496Z"
     },
     "ファミリー食堂山田うどん食堂北中店": {
       "storeName": "ファミリー食堂 山田うどん食堂 北中店",
@@ -1981,22 +1968,12 @@
     {
       "title": "【BIRTHDAY BAR】埼玉初出店！「新越谷VARIE」に新店舗がオープン！",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lRzZiR3NfOUF1bDFjbzEtVVVXZTdPakRXMUkwb3psRndUZ21JNlRCaFJ6S2N1QklucTY0MWM5elRMU2xzSC0yMFgxSl9BczFSSUlrTVYxejFMS21wWDQ2R2ZwTGxMeHh2S2RNQ3Rja243b2xhaU9WdTdR?oc=5",
-      "source": "毎日キレイ",
+      "source": "mainichikirei.jp",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "越谷市",
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T00:06:06.135Z"
-    },
-    {
-      "title": "「蕎⻨きり みよた レイクタウン店」オープニングスタッフ募集（ホールスタッフ/「最大時給1,563円」家庭の都合に合わせて…）",
-      "link": "https://baitona-joshi.jp/shop/1414620/",
-      "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Thu, 04 Jun 2026 02:03:26 GMT",
-      "area": "越谷市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:52.218Z"
     }
   ]
 }

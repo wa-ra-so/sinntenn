@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T00:49:23.910Z",
+  "generatedAt": "2026-08-03T03:29:24.965Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 53
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 141,
+  "itemCount": 142,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -803,6 +803,16 @@
       "firstSeenAt": "2026-08-02T06:38:01.554Z"
     },
     {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Fri, 31 Jul 2026 10:08:23 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:19:39.874Z"
+    },
+    {
       "title": "「成田食堂」オープニングスタッフ募集（SV）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -815,7 +825,7 @@
     {
       "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ubS00UUNFZmtqUWFlTUhUWnN0Q001UmhodEhZQmVqX25OMkFCTUVMNmh5UWVpNTAzb21ZVERFb05pSEZMeGgxV1V3ejRKYU5uQUoxcWtySW1NNFE5d0RtNHFIZkFqSFB6WXpyNlZ4ZU1hVHVfd3A1YWNn?oc=5",
-      "source": "毎日キレイ",
+      "source": "mainichikirei.jp",
       "pubDate": "Fri, 31 Jul 2026 01:58:55 GMT",
       "area": "長柄町",
       "genres": [
@@ -1067,6 +1077,16 @@
       "firstSeenAt": "2026-07-26T03:29:22.012Z"
     },
     {
+      "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場ホール/オープニング/週休2日/面接確約）",
+      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc49372dc8",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Thu, 23 Jul 2026 11:00:22 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T03:29:22.444Z"
+    },
+    {
       "title": "株式会社北辰水産 オープニングスタッフ募集（品出し/レジ打ち/食料品製造 オープニング大募集 おにぎり専…）",
       "link": "http://s.baitoru.com/dN0aXQvj",
       "source": "求人ボックス（バイトルNEXT）",
@@ -1085,16 +1105,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T07:25:47.132Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:39.874Z"
     },
     {
       "title": "「成田食堂」オープニングスタッフ募集（調理見習い）",
