@@ -777,16 +777,34 @@ async function main() {
   );
   // area はタイトルから再検出しつつ、求人由来（勤務地から判定済み）の値は保持する
   const existing = existingRaw.map(it => ({ ...it, area: detectArea(it.title) || it.area || '', genres: detectGenres(it.title) }));
-  const merged = new Map();
-  for (const it of existing) merged.set(it.link, it);
-  for (const it of filtered) {
+  // linkだけでなく正規化タイトルでも重複判定する。求人ボックス（グルスタ）等は同じ求人でも
+  // 収集のたびに新しいトラッキングURL（manuscript ID）を発行することがあり、link一致だけの
+  // 重複排除だと同一内容の求人が際限なく積み重なっていた（例: 「株式会社大地」の求人が
+  // 実質4種類の文面しか無いのに9件保存されていた）。単一収集内の重複排除（下のjobItemsマージ）
+  // で既に使っているnormalizeForDedupeと同じ基準を、県をまたぐ既存データとのマージにも適用する
+  const merged = new Map();   // link -> item
+  const byTitle = new Map();  // 正規化タイトル -> そのタイトルで現在mergedに入っているlink
+  function upsert(it) {
     if (merged.has(it.link)) {
-      // 既存分は firstSeenAt を保持
       merged.set(it.link, { ...it, firstSeenAt: merged.get(it.link).firstSeenAt });
+      return;
+    }
+    const norm = normalizeForDedupe(it.title);
+    const dupLink = byTitle.get(norm);
+    if (dupLink && merged.has(dupLink)) {
+      // 同じ内容の求人が別リンクで既に存在する＝トラッキングURLが変わっただけ。
+      // 新しいリンクに差し替えつつ、初出日時（firstSeenAt）は古い方を引き継ぐ
+      const prevItem = merged.get(dupLink);
+      merged.delete(dupLink);
+      const firstSeenAt = prevItem.firstSeenAt < it.firstSeenAt ? prevItem.firstSeenAt : it.firstSeenAt;
+      merged.set(it.link, { ...it, firstSeenAt });
     } else {
       merged.set(it.link, it);
     }
+    byTitle.set(norm, it.link);
   }
+  for (const it of existing) upsert(it);
+  for (const it of filtered) upsert(it);
 
   const cutoff = Date.now() - FEED_TTL_DAYS * 24 * 60 * 60 * 1000;
   let items = [...merged.values()].filter(it => {
