@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-03T11:32:04.305Z",
+  "generatedAt": "2026-08-04T02:58:06.197Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 92
+      "count": 95
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 11
+      "count": 13
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,19 +54,13 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 5
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 1,
-      "mergedAt": "2026-08-04T00:21:20.404Z"
     }
   ],
   "itemCount": 109,
@@ -82,7 +76,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T02:54:32.214Z"
+      "checkedAt": "2026-08-04T02:58:05.388Z"
     },
     "新規開業バー/インセンティブ": {
       "storeName": "新規開業バー/インセンティブ",
@@ -95,7 +89,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T02:54:31.874Z"
+      "checkedAt": "2026-08-04T02:58:05.017Z"
     },
     "ビーフキッチンスタンドはなれ": {
       "storeName": "ビーフキッチンスタンド はなれ",
@@ -108,7 +102,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T02:54:31.925Z"
+      "checkedAt": "2026-08-04T02:58:05.134Z"
     },
     "森乃音茶寮-moco-": {
       "storeName": "森乃音茶寮-MOCO-",
@@ -121,7 +115,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T02:54:32.105Z"
+      "checkedAt": "2026-08-04T02:58:05.327Z"
     },
     "東北老式麻辣湯": {
       "storeName": "東北老式 麻辣湯",
@@ -134,7 +128,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T02:54:32.244Z"
+      "checkedAt": "2026-08-04T02:58:05.389Z"
     },
     "reicafé(レイカフェ)": {
       "storeName": "REI Café（レイカフェ）",
@@ -147,7 +141,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T02:54:32.490Z"
+      "checkedAt": "2026-08-04T02:58:05.716Z"
     },
     "レストラン北條": {
       "storeName": "レストラン北條",
@@ -160,7 +154,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T02:54:32.583Z"
+      "checkedAt": "2026-08-04T02:58:05.757Z"
     },
     "茶き茶き溝の口": {
       "storeName": "茶き茶き 溝の口",
@@ -555,28 +549,28 @@
   },
   "market": {
     "横浜市|居酒屋": {
-      "count": 757,
-      "checkedAt": "2026-07-28T02:54:32.824Z"
+      "count": 756,
+      "checkedAt": "2026-08-04T02:58:05.972Z"
     },
     "横浜市中区|中華": {
       "count": 229,
-      "checkedAt": "2026-07-28T02:54:32.815Z"
+      "checkedAt": "2026-08-04T02:58:05.960Z"
     },
     "相模原市|バー": {
-      "count": 45,
-      "checkedAt": "2026-07-28T02:54:33.018Z"
+      "count": 46,
+      "checkedAt": "2026-08-04T02:58:06.143Z"
     },
     "平塚市|中華": {
-      "count": 8,
-      "checkedAt": "2026-07-28T02:54:33.011Z"
+      "count": 7,
+      "checkedAt": "2026-08-04T02:58:06.175Z"
     },
     "三浦市|レストラン": {
       "count": 2,
-      "checkedAt": "2026-07-28T02:54:33.030Z"
+      "checkedAt": "2026-08-04T02:58:06.197Z"
     },
     "横浜市|レストラン": {
-      "count": 162,
-      "checkedAt": "2026-07-28T02:54:32.829Z"
+      "count": 160,
+      "checkedAt": "2026-08-04T02:58:05.991Z"
     },
     "川崎市|ダイニング": {
       "count": 65,
@@ -661,10 +655,6 @@
     "横浜市|イタリアン": {
       "count": 198,
       "checkedAt": "2026-08-03T00:49:42.057Z"
-    },
-    "平塚市|寿司": {
-      "count": 10,
-      "checkedAt": "2026-08-03T11:32:04.305Z"
     }
   },
   "items": [
@@ -733,11 +723,13 @@
     },
     {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/",
+      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
       "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
+      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -798,9 +790,9 @@
     },
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41WEZmQUZKSnhpQU9FdXg3azluQ3dzTHVPWjJSZ0tFbkNCbGVkOHk5SzVTUHdCWU04aUd0UnBMZTdIYjVjOXpzZFJXaw?oc=5",
-      "source": "getnews.jp",
-      "pubDate": "Thu, 30 Jul 2026 02:15:35 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Thu, 30 Jul 2026 02:49:42 GMT",
       "area": "横浜市",
       "genres": [
         "ダイニング"
@@ -1003,9 +995,7 @@
       "source": "求人ボックス（バイトルNEXT）",
       "pubDate": "Wed, 22 Jul 2026 09:35:32 GMT",
       "area": "平塚市",
-      "genres": [
-        "寿司"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T11:31:59.698Z"
     },
