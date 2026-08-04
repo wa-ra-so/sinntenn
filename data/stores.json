@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T02:57:42.157Z",
+  "generatedAt": "2026-08-04T06:31:53.385Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 121,
+  "itemCount": 122,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -597,6 +597,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-03T07:33:08.331Z"
+    },
+    "お酒の美術館柏店": {
+      "storeName": "お酒の美術館 柏店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-04T06:31:53.385Z"
     }
   },
   "market": {
@@ -743,6 +756,16 @@
   },
   "items": [
     {
+      "title": "柏駅東口近くにBAR「お酒の美術館 柏店」が6/22（月）オープン、希少ウイスキーが1杯500円から",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYM3Q5cDcxZmJkWGY2R0UzNC0zYWlKMzNxWUV5QWVWNld2WXNoU2ZvV245ZEZFSTM1VTc0azZkNEpKVUtsd3VXeXhMQ2h2MXM?oc=5",
+      "source": "柏つうしん",
+      "pubDate": "Tue, 04 Aug 2026 00:13:12 GMT",
+      "area": "柏市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-04T06:31:46.147Z"
+    },
+    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
@@ -755,7 +778,7 @@
     {
       "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
-      "source": "ホットペッパーグルメ",
+      "source": "hotpepper.jp",
       "pubDate": "Sat, 01 Aug 2026 15:44:03 GMT",
       "area": "千葉市中央区",
       "genres": [
@@ -844,6 +867,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:37:17.709Z"
+    },
+    {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Fri, 31 Jul 2026 10:08:22 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T09:53:06.055Z"
     },
     {
       "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
@@ -1044,16 +1077,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:06.055Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
@@ -1357,8 +1380,8 @@
     },
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbEUtVnpBdWh3MWg1LW40N2J5a05DRGtXY0tidUtCN2gtcVlZRUcydFhMZ2pucW1zUmJ4cmtLdGEzeUUweXNEaGQxZ3pudw?oc=5",
-      "source": "アットプレス",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -1534,7 +1557,7 @@
       "link": "https://q-mate.jp/kendepot/cbe75f9a4d9d4bd98720f76f64505b5e.html",
       "source": "求人ボックス（株式会社建デポ人事総務法務部）",
       "pubDate": "Wed, 08 Jul 2026 16:48:42 GMT",
-      "area": "船橋市",
+      "area": "市川市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T07:33:05.349Z"
@@ -2030,7 +2053,7 @@
     {
       "title": "南柏駅西口すぐに「和食居酒屋 大安」が2/9（月）オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUTUJiaXozR0FKZjN3Zm4yTE4tdzEwc2NNeFlyQnVzbzhKYWZqSmhkT3pydElycjE1R1F1Y3YxbGVOM3lNSHVQcGtBMFlhQ0U?oc=5",
-      "source": "kashiwa-tsushin.com",
+      "source": "柏つうしん",
       "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
       "area": "柏市",
       "genres": [

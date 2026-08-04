@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T02:58:22.919Z",
+  "generatedAt": "2026-08-04T06:32:23.343Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -727,10 +727,6 @@
       "count": 89,
       "checkedAt": "2026-07-29T00:08:19.251Z"
     },
-    "深谷市|焼肉": {
-      "count": 6,
-      "checkedAt": "2026-08-01T03:28:09.847Z"
-    },
     "久喜市|焼肉": {
       "count": 6,
       "checkedAt": "2026-08-01T06:34:56.186Z"
@@ -754,9 +750,23 @@
     "坂戸市|居酒屋": {
       "count": 9,
       "checkedAt": "2026-08-04T02:58:22.801Z"
+    },
+    "熊谷市|焼肉": {
+      "count": 17,
+      "checkedAt": "2026-08-04T06:32:23.343Z"
     }
   },
   "items": [
+    {
+      "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
+      "link": "https://entori.jp/onikutokoromo/job/2239194",
+      "source": "求人ボックス（株式会社SEIKOU）",
+      "pubDate": "Tue, 04 Aug 2026 04:05:02 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-22T22:09:15.904Z"
+    },
     {
       "title": "株式会社バッファローフードサービス オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 新店舗オープンにつ…）",
       "link": "http://s.baitoru.com/dN0b0oUl",
@@ -887,9 +897,9 @@
     },
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjB2cHpGZWdiOEFYQURPTE5vUnVzYVlndnBDbFNpd2hXX19CZ1pEUmtzTVFPcmU5MWJUNmw3NlBMT19oRUhqRHZnQVp4d3hCQ20xeXkyd1pkajIxUThSWVVwNjJWQXlqZVpTX2lrNUV6YW1oTU9tbGloNlpPVmM0QUQ0ZzNscWoycGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
       "source": "キャンプファイヤー",
-      "pubDate": "Sat, 25 Jul 2026 07:31:16 GMT",
+      "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
       "area": "加須市",
       "genres": [
         "カフェ"
@@ -940,16 +950,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:51.133Z"
-    },
-    {
-      "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
-      "link": "https://entori.jp/onikutokoromo/job/2239194",
-      "source": "求人ボックス（株式会社SEIKOU）",
-      "pubDate": "Thu, 23 Jul 2026 04:05:15 GMT",
-      "area": "さいたま市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-22T22:09:15.904Z"
     },
     {
       "title": "「Grilled Sakana Works」オープニングスタッフ募集（居酒屋の接客/オープニングで年収500万円可）",
@@ -1115,10 +1115,10 @@
     },
     {
       "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 創業55年の安定企…）",
-      "link": "http://s.baitoru.com/dN0aXiph",
+      "link": "http://s.baitoru.com/dN0aXdyu",
       "source": "求人ボックス（バイトルNEXT）",
       "pubDate": "Fri, 17 Jul 2026 09:59:17 GMT",
-      "area": "深谷市",
+      "area": "熊谷市",
       "genres": [
         "焼肉"
       ],
@@ -1932,13 +1932,13 @@
       "genres": [
         "中華"
       ],
-      "signal": "hiring",
+      "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.272Z"
     },
     {
       "title": "【BIRTHDAY BAR】埼玉初出店！「新越谷VARIE」に新店舗がオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5lRzZiR3NfOUF1bDFjbzEtVVVXZTdPakRXMUkwb3psRndUZ21JNlRCaFJ6S2N1QklucTY0MWM5elRMU2xzSC0yMFgxSl9BczFSSUlrTVYxejFMS21wWDQ2R2ZwTGxMeHh2S2RNQ3Rja243b2xhaU9WdTdR?oc=5",
-      "source": "毎日キレイ",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pWkZUQTJJdnVjTHdzdTJ2Uy1UYkZYNGd4eTRCb1RUNW9yQVJYREJZdkJBQTU4Q0d0eUJIZ19WeFV6ZzB5bU1zbE0zc3NEZVJsNTlmQkZ6cTVKbkowME5GLTRGS0c0bW5CUkE?oc=5",
+      "source": "PR TIMES",
       "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
       "area": "越谷市",
       "genres": [],
