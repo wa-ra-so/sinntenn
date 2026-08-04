@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:31:53.385Z",
+  "generatedAt": "2026-08-04T10:44:37.488Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 13
+      "count": 12
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 52
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 122,
+  "itemCount": 121,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -194,19 +194,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-03T00:49:22.849Z"
-    },
-    "古民家カフェハナレヤ": {
-      "storeName": "古民家カフェ ハナレヤ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-03T00:49:22.991Z"
     },
     "なのわ": {
       "storeName": "なのわ",
@@ -778,7 +765,7 @@
     {
       "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
-      "source": "hotpepper.jp",
+      "source": "ホットペッパーグルメ",
       "pubDate": "Sat, 01 Aug 2026 15:44:03 GMT",
       "area": "千葉市中央区",
       "genres": [
@@ -2083,18 +2070,6 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:17.031Z"
-    },
-    {
-      "title": "習志野市谷津に「古民家カフェ ハナレヤ」が6/14（日）オープン予定",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5DaWNMZTcyajNVNlN1SDdWQXpnRXFSaDc4UUxYenJEcEowRDNQVFNsdjhvbWctMi0yQm5WeHZhUFVObzYwdDRTWFVSenQ5MWpVY1E?oc=5",
-      "source": "船橋つうしん",
-      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
-      "area": "習志野市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:32:14.049Z",
+  "generatedAt": "2026-08-04T10:44:59.210Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 42
+      "count": 45
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 109,
+  "itemCount": 112,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -297,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T10:40:52.788Z"
+      "checkedAt": "2026-08-04T10:44:58.912Z"
     },
     "分身ロボットカフェdawn": {
       "storeName": "分身ロボットカフェDAWN",
@@ -545,6 +545,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-03T11:32:04.093Z"
+    },
+    "小田原ホルモン源屋": {
+      "storeName": "小田原ホルモン源屋",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-04T10:44:58.751Z"
+    },
+    "pacifictable": {
+      "storeName": "PACIFIC TABLE",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-04T10:44:59.033Z"
     }
   },
   "market": {
@@ -590,7 +616,7 @@
     },
     "大和市|焼肉": {
       "count": 23,
-      "checkedAt": "2026-07-28T10:40:52.921Z"
+      "checkedAt": "2026-08-04T10:44:59.210Z"
     },
     "横浜市|カフェ": {
       "count": 244,
@@ -682,6 +708,18 @@
       "firstSeenAt": "2026-07-27T03:38:01.734Z"
     },
     {
+      "title": "ウェスティンホテル横浜にインターナショナル・ビュッフェ・レストラン「PACIFIC TABLE」がオープン",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkbkpLaUdWVThHZEM4WDVLalJrams2Znp1RGVFSjFJOFBFcllsUFRsLVRTTE9CRVNhd3Q3emVUeE1YazhNUWppTWJzMXd3S1lYLUU4VmVB0gFbQVVfeXFMT1YyMmpJVDZtVmV0S1AxZGtTLXgtUnJ5cWtFaXZQMldubUE3elhpa0Q4VWhBcm9iZE0yWmlZNUVyX0tvQkZtN1dBZlA2bDFQVGlkVzhtc0I4SzNZZw?oc=5",
+      "source": "ウォーカープラス",
+      "pubDate": "Sat, 01 Aug 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-04T10:44:54.181Z"
+    },
+    {
       "title": "株式会社ニュー・クイック オープニングスタッフ募集（惣菜・スイーツ販売/販売/キッチン 社割でお惣菜がお得 食費…）",
       "link": "http://s.baitoru.com/DW0aWcaX",
       "source": "求人ボックス（baitoru）",
@@ -727,9 +765,7 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -988,6 +1024,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-30T01:01:39.405Z"
+    },
+    {
+      "title": "株式会社First Drop オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 賞与年2回/WEB…）",
+      "link": "https://saiyo.page/443067/job/159970026/?media=dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=referral",
+      "source": "求人ボックス（株式会社First Drop）",
+      "pubDate": "Wed, 22 Jul 2026 12:07:36 GMT",
+      "area": "鎌倉市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T10:44:54.125Z"
     },
     {
       "title": "株式会社First Drop オープニングスタッフ募集（キッチン/店長・マネージャー候補/ホール オープニング/WE…）",
@@ -1549,6 +1595,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-21T22:07:23.267Z"
+    },
+    {
+      "title": "「小田原ホルモン源屋」オープニングスタッフ募集（飲食店スタッフ）",
+      "link": "https://clients.itszai.jp/4d6a6b7a4d513d3d/recruitments/21158",
+      "source": "求人ボックス（株式会社グルメ）",
+      "pubDate": "Tue, 07 Jul 2026 06:01:09 GMT",
+      "area": "小田原市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T10:44:54.125Z"
     },
     {
       "title": "【ドリンク1杯99円】「行きたくなる酒場 浜ちゃん」が7月10日（金）に大和店をオープン！神奈川初上陸を記念して、自慢のレモンサワーなど1杯99円でご提供！",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:32:05.774Z",
+  "generatedAt": "2026-08-04T10:44:48.906Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 19
+      "count": 17
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 29
+      "count": 27
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 65
+      "count": 72
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 10
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 265,
+  "itemCount": 264,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1051,7 +1051,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-28T10:40:43.787Z"
+      "checkedAt": "2026-08-04T10:44:48.693Z"
     },
     "しろふわランドリー笹塚北店": {
       "storeName": "しろふわランドリー笹塚北店",
@@ -1818,8 +1818,8 @@
       "checkedAt": "2026-08-02T10:06:21.621Z"
     },
     "豊島区|イタリアン": {
-      "count": 69,
-      "checkedAt": "2026-07-28T10:40:43.977Z"
+      "count": 71,
+      "checkedAt": "2026-08-04T10:44:48.906Z"
     },
     "目黒区|カフェ": {
       "count": 57,
@@ -2167,7 +2167,7 @@
     {
       "title": "Trattoria da Gemma(荻窪/イタリアン・フレンチ)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBKMkNLSHg1SnVwNEFESF9TRkJ6V2szdnBTRVl4NFo3MkQ1RDRqSnFBNGpnc3pYaWR6ckp2WFFLTGtJMGlXWkpwZktBb2RpZTA2?oc=5",
-      "source": "hotpepper.jp",
+      "source": "ホットペッパーグルメ",
       "pubDate": "Wed, 29 Jul 2026 22:40:29 GMT",
       "area": "杉並区",
       "genres": [
@@ -2280,6 +2280,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-30T02:46:07.776Z"
+    },
+    {
+      "title": "「ABERDEEN」オープニングスタッフ募集（中華レストランのホールスタッフ/オープニング募集/週2日～・…）",
+      "link": "https://arwrk.net/recruit/usa1geuwt5ittia/11960630",
+      "source": "求人ボックス（株式会社田中コーポレーション）",
+      "pubDate": "Tue, 28 Jul 2026 01:04:03 GMT",
+      "area": "中央区",
+      "genres": [
+        "レストラン",
+        "中華"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T10:44:42.237Z"
     },
     {
       "title": "「神戸牛・和牛 鉄板焼き 赤坂 諮玄 はなれ」オープニングスタッフ募集（鉄板料理専門店の店長候補 オープニングスタッフ・独立支援あり）",
@@ -2723,7 +2736,7 @@
       "title": "東京都初出店「THE BUFFET 点心甜心 三鷹店」先行レポ！麻辣湯や小籠包、プレミアムスイーツが楽しめる新スタイル食べ放題",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wT29PcF9rcjZoNXdUOGJNQVgwQlFSbHNWb19Pbi1pbFRna2lBMmhXenc0TDFQajF6UUNLYXNFeGdZRnBjT18xUklwUFVxTHJqOUJoVXJscWZHa0RUaEhJUGVlYS1kNEY4cmc?oc=5",
       "source": "多摩ポン",
-      "pubDate": "Wed, 22 Jul 2026 02:46:55 GMT",
+      "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [],
       "signal": "opening",
@@ -4915,28 +4928,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T10:44:48.688Z"
-    },
-    {
-      "title": "648通りの“my雪見だいふく”！体験型店舗が東京・中目黒に期間限定オープン！｜るるぶ&more.",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jbXdhSFFuZVo2RlBac01ST0xpaV9DbF81RjlfdzZZUnBEQUxCWWRwckNzUmFTNGNEbWlWZkEyYVZTbjNyUHdjQ3Z6dVEzT2FI?oc=5",
-      "source": "るるぶWeb",
-      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
-      "area": "目黒区",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.046Z"
-    },
-    {
-      "title": "ディズニー&ピクサーの最新作『トイ・ストーリー5』の公開にあわせてスペシャルなカフェが東京・大阪・愛知・宮城に登場！「トイ・ストーリー5」OH MY CAFE期間限定オープン！！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pUjRZQ3g2SWQtazBjdHVtczFQdjlKY3ZRb3lCcGNISFlwR3VUWTg0VUpRRGdDcmVIUGhMYTRQa2phLURwMTBLeFBGYzJObmJ1b0JqamI5aGZaUWluOXJmeHlUSEtwQmhIVEE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Fri, 05 Jun 2026 07:00:00 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T14:47:14.067Z"
     }
   ]
 }
