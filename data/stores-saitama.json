@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
+      "ok": true,
+      "count": 2,
+      "mergedAt": "2026-08-04T00:21:20.456Z"
     }
   ],
-  "itemCount": 100,
+  "itemCount": 102,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -766,6 +772,18 @@
       "firstSeenAt": "2026-08-03T07:33:24.846Z"
     },
     {
+      "title": "株式会社ｐａｌａｃｅ オープニングスタッフ募集（居酒屋オープニングスタッフ）",
+      "link": "https://to.indeed.com/aahjcmtm62qh",
+      "source": "Indeed",
+      "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
+      "area": "春日部市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.112Z"
+    },
+    {
       "title": "株式会社バッファローフードサービス オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 事業拡大による増員…）",
       "link": "http://s.baitoru.com/dN0aZn6o",
       "source": "求人ボックス（バイトルNEXT）",
@@ -819,7 +837,7 @@
     },
     {
       "title": "「blanc et noir」オープニングスタッフ募集（メイドと執事のコンセプトバーのオープニングスタッフ）",
-      "link": "https://to.indeed.com/aajrkgp8gnwk",
+      "link": "https://to.indeed.com/aaslj9bqmwb6",
       "source": "Indeed",
       "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
       "area": "上尾市",
@@ -962,20 +980,6 @@
       "firstSeenAt": "2026-07-27T03:42:55.469Z"
     },
     {
-      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランのホール・キッチ…）",
-      "link": "https://to.indeed.com/aapkv2j7cvfr",
-      "source": "Indeed",
-      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市",
-      "genres": [
-        "レストラン",
-        "イタリアン",
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:42:55.469Z"
-    },
-    {
       "title": "株式会社パシフィックプロジェクト オープニングスタッフ募集（オープニング┃ハンバーグ専門店スタッフ(ホール・キッチン)）",
       "link": "https://to.indeed.com/aaxtc7v2yymc",
       "source": "Indeed",
@@ -998,30 +1002,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.468Z"
-    },
-    {
-      "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】居酒屋のホールスタッフ<東大宮店>）",
-      "link": "https://to.indeed.com/aapg2flljr79",
-      "source": "Indeed",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市大宮区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.097Z"
-    },
-    {
-      "title": "株式会社ｐａｌａｃｅ オープニングスタッフ募集（居酒屋オープニングスタッフ）",
-      "link": "https://to.indeed.com/aaj47gy24hpt",
-      "source": "Indeed",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "春日部市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.112Z"
     },
     {
       "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】焼鳥店のキッチンスタッフ<東大宮店>）",
@@ -1056,6 +1036,28 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T00:39:14.708Z"
+    },
+    {
+      "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】居酒屋のホールスタッフ<東大宮店>）",
+      "link": "https://to.indeed.com/aa996ykzwsvw",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.097Z"
+    },
+    {
+      "title": "株式会社CMM オープニングスタッフ募集（【オープニング】髪色ネイル可なネオ酒場/ホール・接客スタッフ…）",
+      "link": "https://to.indeed.com/aajtzbdsdkky",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "川口市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T00:21:20.455Z"
     },
     {
       "title": "【川越市】楽しみですね♪「ミステリーカフェ謎屋珈琲店 川越店」のオープン日が判明しました！！",
@@ -1351,30 +1353,6 @@
       "firstSeenAt": "2026-07-14T21:49:40.791Z"
     },
     {
-      "title": "株式会社ＲＡＺＵＬＩＴ'ｅ オープニングスタッフ募集（新しいカフェ　オープニング運営スタッフ）",
-      "link": "https://to.indeed.com/aawjrjwvb8rw",
-      "source": "Indeed",
-      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.119Z"
-    },
-    {
-      "title": "株式会社ＲＡＺＵＬＩＴ'ｅ オープニングスタッフ募集（新しいカフェ　オープニングスタッフ）",
-      "link": "https://to.indeed.com/aapcr2p96kzm",
-      "source": "Indeed",
-      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
-      "area": "越谷市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.119Z"
-    },
-    {
       "title": "株式会社ＲＡＺＵＬＩＴ’ｅ オープニングスタッフ募集（新しいカフェ　オープニング運営スタッフ）",
       "link": "https://to.indeed.com/aagq44kwffjm",
       "source": "Indeed",
@@ -1399,6 +1377,30 @@
       "firstSeenAt": "2026-07-30T01:01:39.530Z"
     },
     {
+      "title": "株式会社ＲＡＺＵＬＩＴ'ｅ オープニングスタッフ募集（新しいカフェ　オープニング運営スタッフ）",
+      "link": "https://to.indeed.com/aadrlwc2y7dl",
+      "source": "Indeed",
+      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.119Z"
+    },
+    {
+      "title": "株式会社ＲＡＺＵＬＩＴ'ｅ オープニングスタッフ募集（新しいカフェ　オープニングスタッフ）",
+      "link": "https://to.indeed.com/aaq7q22smprk",
+      "source": "Indeed",
+      "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
+      "area": "越谷市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.119Z"
+    },
+    {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQ3ZPVDBIdWozTXhBMUNQZ0lkakk4Rm5pYmZHdnVnbHMtRl9HRDVFa1pUSzNObXU2U1VsZEFIajNVM1lIOGthOGRROTFPVldXODZ3TjZwQlZaUQ?oc=5",
       "source": "川口マガジン",
@@ -1413,7 +1415,7 @@
     },
     {
       "title": "株式会社フォンスＣＢ オープニングスタッフ募集（【オープニングスタッフ】カフェのキッチンスタッフ|グランスタ…）",
-      "link": "https://to.indeed.com/aaq6ccfghrsv",
+      "link": "https://to.indeed.com/aas8mkjmdwbj",
       "source": "Indeed",
       "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
       "area": "さいたま市",
@@ -1650,18 +1652,6 @@
       "firstSeenAt": "2026-07-23T09:23:24.119Z"
     },
     {
-      "title": "「ホテルグローバルビュー浦和」オープニングスタッフ募集（ホールスタッフ【新規オープニング募集!/シティホテル】）",
-      "link": "https://to.indeed.com/aadccfbv4kng",
-      "source": "Indeed",
-      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市浦和区",
-      "genres": [
-        "バル"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-29T00:06:40.788Z"
-    },
-    {
       "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランの接客・調理スタ…）",
       "link": "https://to.indeed.com/aawv6v9qkfxt",
       "source": "Indeed",
@@ -1674,6 +1664,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.789Z"
+    },
+    {
+      "title": "「ホテルグローバルビュー浦和」オープニングスタッフ募集（ホールスタッフ【新規オープニング募集!/シティホテル】）",
+      "link": "https://to.indeed.com/aawrdn44x8ms",
+      "source": "Indeed",
+      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "バル"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.788Z"
     },
     {
       "title": "「建デポ 所沢宮本町店」オープニングスタッフ募集（商品の品出しスタッフ ホームセンター/0316d/制服貸与/…）",
@@ -1815,6 +1817,32 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:40.793Z"
+    },
+    {
+      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランのホール・キッチ…）",
+      "link": "https://to.indeed.com/aa2qpzchwgw8",
+      "source": "Indeed",
+      "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "レストラン",
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.469Z"
+    },
+    {
+      "title": "株式会社ウィリング オープニングスタッフ募集（オープニングの居酒屋スタッフ）",
+      "link": "https://to.indeed.com/aatttlg29h92",
+      "source": "Indeed",
+      "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
+      "area": "坂戸市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T00:21:20.454Z"
     },
     {
       "title": "【川越市】「焼肉定食ぎゅうまおう」の跡地に新しいお店がオープンすることがわかりました♪",

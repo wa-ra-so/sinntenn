@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 1,
+      "mergedAt": "2026-08-04T00:21:20.404Z"
     }
   ],
-  "itemCount": 108,
+  "itemCount": 109,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -858,7 +864,7 @@
     },
     {
       "title": "株式会社ｃａｖｉ オープニングスタッフ募集（居酒屋　ホールスタッフ兼調理スタッフ　オープニングスタッフ）",
-      "link": "https://to.indeed.com/aa8bmhb8pzgz",
+      "link": "https://to.indeed.com/aajqds9tdg6k",
       "source": "Indeed",
       "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
       "area": "横浜市",
@@ -879,6 +885,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T06:49:43.943Z"
+    },
+    {
+      "title": "株式会社ウィルビー オープニングスタッフ募集（【オープニング】琉球酒場のアルバイトスタッフ）",
+      "link": "https://to.indeed.com/aa7sbrsctgbz",
+      "source": "Indeed",
+      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T00:21:20.404Z"
     },
     {
       "title": "「Neo Nice Burger 横浜ハンマーヘッド」オープニングスタッフ募集（ハンバーガーカフェのキッチン/オープニング・I’m donu…）",
@@ -1026,16 +1042,6 @@
       "firstSeenAt": "2026-07-23T09:23:24.009Z"
     },
     {
-      "title": "四取五入合同会社 オープニングスタッフ募集（オープニング飲食店スタッフ）",
-      "link": "https://to.indeed.com/aawnpm4pwgc2",
-      "source": "Indeed",
-      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
-      "area": "横浜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T11:23:19.114Z"
-    },
-    {
       "title": "「DINING BAR Lately」オープニングスタッフ募集（オープニングスタッフ/ランチの飲食スタッフ【未経験歓迎】）",
       "link": "https://to.indeed.com/aac6yxqy4yhk",
       "source": "Indeed",
@@ -1046,14 +1052,14 @@
       "firstSeenAt": "2026-07-29T00:06:40.677Z"
     },
     {
-      "title": "株式会社mihaku オープニングスタッフ募集（飲食店のオープニングスタッフ・ホール接客(アルバイト)）",
-      "link": "https://to.indeed.com/aay4gktntn4d",
+      "title": "四取五入合同会社 オープニングスタッフ募集（オープニング飲食店スタッフ）",
+      "link": "https://to.indeed.com/aayqws4kc8pj",
       "source": "Indeed",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "横浜市西区",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.015Z"
+      "firstSeenAt": "2026-07-23T11:23:19.114Z"
     },
     {
       "title": "「RINGO BAR」オープニングスタッフ募集（バーテンダー/BARのオープニングスタッフ）",
@@ -1066,6 +1072,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-29T00:06:40.706Z"
+    },
+    {
+      "title": "株式会社mihaku オープニングスタッフ募集（飲食店のオープニングスタッフ・ホール接客(アルバイト)）",
+      "link": "https://to.indeed.com/aagkns96nkbx",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "横浜市西区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.015Z"
     },
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
@@ -1291,18 +1307,6 @@
       "firstSeenAt": "2026-07-23T09:23:24.016Z"
     },
     {
-      "title": "株式会社style7 オープニングスタッフ募集（7月オープン和食居酒屋のホールスタッフ）",
-      "link": "https://to.indeed.com/aap6q2d7wdnc",
-      "source": "Indeed",
-      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T11:23:19.131Z"
-    },
-    {
       "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/常連さんが多いアットホームな琉球酒場のホール・…）",
       "link": "https://to.indeed.com/aaqwhmk2sb7d",
       "source": "Indeed",
@@ -1321,6 +1325,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.198Z"
+    },
+    {
+      "title": "株式会社style7 オープニングスタッフ募集（7月オープン和食居酒屋のホールスタッフ）",
+      "link": "https://to.indeed.com/aamtfnp8y66b",
+      "source": "Indeed",
+      "pubDate": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T11:23:19.131Z"
     },
     {
       "title": "株式会社KISSUI GROUP オープニングスタッフ募集（店長・マネージャー候補 9月OPEN オープニング 昇給年4…）",
