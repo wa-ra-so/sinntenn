@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
+      "ok": true,
+      "count": 2,
+      "mergedAt": "2026-08-05T00:19:59.155Z"
     }
   ],
-  "itemCount": 102,
+  "itemCount": 104,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -759,6 +765,20 @@
       "firstSeenAt": "2026-07-22T22:09:15.904Z"
     },
     {
+      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランのキッチンスタッ…）",
+      "link": "https://to.indeed.com/aaz7b49gx9n8",
+      "source": "Indeed",
+      "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "レストラン",
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T00:19:59.154Z"
+    },
+    {
       "title": "株式会社バッファローフードサービス オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 新店舗オープンにつ…）",
       "link": "http://s.baitoru.com/dN0b0oUl",
       "source": "求人ボックス（バイトルNEXT）",
@@ -782,7 +802,7 @@
     },
     {
       "title": "株式会社ｐａｌａｃｅ オープニングスタッフ募集（居酒屋オープニングスタッフ）",
-      "link": "https://to.indeed.com/aahjcmtm62qh",
+      "link": "https://to.indeed.com/aangm7xpsfyl",
       "source": "Indeed",
       "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
       "area": "春日部市",
@@ -846,7 +866,7 @@
     },
     {
       "title": "「blanc et noir」オープニングスタッフ募集（メイドと執事のコンセプトバーのオープニングスタッフ）",
-      "link": "https://to.indeed.com/aaslj9bqmwb6",
+      "link": "https://to.indeed.com/aa2y78dxwjfs",
       "source": "Indeed",
       "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
       "area": "上尾市",
@@ -1003,6 +1023,20 @@
       "firstSeenAt": "2026-07-29T00:06:40.776Z"
     },
     {
+      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランのホール・キッチ…）",
+      "link": "https://to.indeed.com/aapy4yzb6xkk",
+      "source": "Indeed",
+      "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "レストラン",
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.469Z"
+    },
+    {
       "title": "株式会社一家ダイニングプロジェクト オープニングスタッフ募集（博多屋台ダイニングのホールスタッフ/オープニング）",
       "link": "https://to.indeed.com/aacbzwhpvxbs",
       "source": "Indeed",
@@ -1037,30 +1071,6 @@
       "firstSeenAt": "2026-07-27T03:42:55.468Z"
     },
     {
-      "title": "株式会社ウェルビーイング・モンスター オープニングスタッフ募集（7月新規オープンの肉寿司×火山鍋店　副店長(店長候補)）",
-      "link": "https://to.indeed.com/aajhsmb2r9rz",
-      "source": "Indeed",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "川越市",
-      "genres": [
-        "寿司"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-03T00:39:14.708Z"
-    },
-    {
-      "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】居酒屋のホールスタッフ<東大宮店>）",
-      "link": "https://to.indeed.com/aa996ykzwsvw",
-      "source": "Indeed",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市大宮区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:24.097Z"
-    },
-    {
       "title": "株式会社CMM オープニングスタッフ募集（【オープニング】髪色ネイル可なネオ酒場/ホール・接客スタッフ…）",
       "link": "https://to.indeed.com/aajtzbdsdkky",
       "source": "Indeed",
@@ -1069,6 +1079,30 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-04T00:21:20.455Z"
+    },
+    {
+      "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】居酒屋のホールスタッフ<東大宮店>）",
+      "link": "https://to.indeed.com/aaz4yxhfmhjb",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:24.097Z"
+    },
+    {
+      "title": "株式会社ウェルビーイング・モンスター オープニングスタッフ募集（7月新規オープンの肉寿司×火山鍋店　副店長(店長候補)）",
+      "link": "https://to.indeed.com/aacwzm7rbmzq",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "川越市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.708Z"
     },
     {
       "title": "【川越市】楽しみですね♪「ミステリーカフェ謎屋珈琲店 川越店」のオープン日が判明しました！！",
@@ -1426,7 +1460,7 @@
     },
     {
       "title": "株式会社フォンスＣＢ オープニングスタッフ募集（【オープニングスタッフ】カフェのキッチンスタッフ|グランスタ…）",
-      "link": "https://to.indeed.com/aas8mkjmdwbj",
+      "link": "https://to.indeed.com/aa9qybmlprms",
       "source": "Indeed",
       "pubDate": "Sun, 12 Jul 2026 00:00:00 GMT",
       "area": "さいたま市",
@@ -1538,7 +1572,7 @@
     },
     {
       "title": "ファステストダイニング株式会社 オープニングスタッフ募集（【オープニング】焼肉ダイニングの店舗スタッフ）",
-      "link": "https://to.indeed.com/aa892bgzx9yt",
+      "link": "https://to.indeed.com/aackwcr7mzyk",
       "source": "Indeed",
       "pubDate": "Wed, 08 Jul 2026 00:00:00 GMT",
       "area": "越谷市",
@@ -1678,10 +1712,10 @@
     },
     {
       "title": "「ホテルグローバルビュー浦和」オープニングスタッフ募集（ホールスタッフ【新規オープニング募集!/シティホテル】）",
-      "link": "https://to.indeed.com/aawrdn44x8ms",
+      "link": "https://to.indeed.com/aalcd4lltw49",
       "source": "Indeed",
       "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市浦和区",
+      "area": "さいたま市",
       "genres": [
         "バル"
       ],
@@ -1830,8 +1864,8 @@
       "firstSeenAt": "2026-07-14T21:49:40.793Z"
     },
     {
-      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランのホール・キッチ…）",
-      "link": "https://to.indeed.com/aa2qpzchwgw8",
+      "title": "フィルドテーブル株式会社 オープニングスタッフ募集（オープニング募集/イタリアンカフェレストランのホールスタッフ…）",
+      "link": "https://to.indeed.com/aa7c2wtdnqyr",
       "source": "Indeed",
       "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
       "area": "さいたま市",
@@ -1841,11 +1875,11 @@
         "カフェ"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:42:55.469Z"
+      "firstSeenAt": "2026-08-05T00:19:59.154Z"
     },
     {
       "title": "株式会社ウィリング オープニングスタッフ募集（オープニングの居酒屋スタッフ）",
-      "link": "https://to.indeed.com/aatttlg29h92",
+      "link": "https://to.indeed.com/aabhjgnmt9pp",
       "source": "Indeed",
       "pubDate": "Mon, 15 Jun 2026 00:00:00 GMT",
       "area": "坂戸市",
@@ -1882,7 +1916,7 @@
     },
     {
       "title": "株式会社ｍｅｒｃｉ オープニングスタッフ募集（2026年7月オープン予定の居酒屋のホール・キッチンスタッフ）",
-      "link": "https://to.indeed.com/aap8yvsvmxbq",
+      "link": "https://to.indeed.com/aaw9x26crwkm",
       "source": "Indeed",
       "pubDate": "Fri, 12 Jun 2026 00:00:00 GMT",
       "area": "さいたま市",
@@ -1904,7 +1938,7 @@
     },
     {
       "title": "株式会社登坂 オープニングスタッフ募集（焼鳥×居酒屋の店舗スタッフ|オープニングスタッフ(転勤なし)）",
-      "link": "https://to.indeed.com/aanllzn6sywy",
+      "link": "https://to.indeed.com/aakb6j29qhd2",
       "source": "Indeed",
       "pubDate": "Tue, 09 Jun 2026 00:00:00 GMT",
       "area": "さいたま市",
