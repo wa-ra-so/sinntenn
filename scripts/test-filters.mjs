@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import {
   hasExcludeKeyword, isChibaRelevant, isPrefRelevant, isChain, isNonFoodJob, detectArea,
   isOpeningJobTitle, connectorJobToItem, kyujinboxToItem, detectGenres, hasOpenSignal,
-  EXCLUDED_SOURCE_SITE_NAMES,
+  classifyFullFeedItem, EXCLUDED_SOURCE_SITE_NAMES,
 } from './fetch-stores.mjs';
 import { PREFECTURES } from './prefectures.mjs';
 
@@ -256,6 +256,31 @@ check(hasOpenSignal('船橋市に「〇〇」がグランドオープン'), 'ope
 check(!hasOpenSignal('船橋市の「〇〇」が閉店'), 'openシグナル判定: 閉店記事は新店として検出されない');
 check(!hasOpenSignal('株式会社〇〇、新商品を発売開始'), 'openシグナル判定: 飲食開店と無関係なプレスリリースは検出されない（PR TIMES全記事フィード対策）');
 
+// classifyFullFeedItem: 全記事フィード（地域経済新聞・PR TIMES・開店閉店.com）の総合判定。
+// Googleニュース検索はクエリ自体にGENRE_GROUPSのキーワードを含めているため飲食業態に絞られているが、
+// 全記事フィードにはその絞り込みが無いため、ジャンル一致チェックが抜けると美容室・クリニック・
+// コワーキングスペース等の非飲食業態の「新規開業」が素通りしてしまう（ここで再発防止）
+const FULL_FEED_MUST_EXCLUDE = [
+  '千葉市中央区に美容室「〇〇」がグランドオープン',        // 飲食店ではない（美容室）
+  '船橋市に「〇〇歯科クリニック」が開業',                    // 飲食店ではない（クリニック）
+  '松戸市にコワーキングスペースがオープン',                  // 飲食店ではない（オフィス系）
+  '柏市に「〇〇整体院」がオープン',                          // 飲食店ではない（整体院）
+  '横浜・関内に話題のイタリアンレストランが開店',            // 千葉に無関係（他県ニュース）
+  '船橋にガールズバーが新規開店',                            // 対象外業態
+  '物語コーポレーション／千葉県浦安市に「焼肉きんぐ マーヴ浦安店」オープン', // 大手チェーン
+];
+const FULL_FEED_MUST_KEEP = [
+  '柏市に新業態のビストロが開業',
+  '船橋市三山2丁目に居酒屋「芯」がオープン',
+  '松戸市に本格中華料理店「〇〇」が開業',
+];
+for (const t of FULL_FEED_MUST_EXCLUDE) {
+  check(classifyFullFeedItem(t) === null, `全記事フィード判定: 除外されるべきタイトルが通過: ${t}`);
+}
+for (const t of FULL_FEED_MUST_KEEP) {
+  check(classifyFullFeedItem(t) !== null, `全記事フィード判定: 掲載されるべきタイトルが除外: ${t}`);
+}
+
 // ── Indeedコネクタ形式の変換（merge-indeed.mjs 用） ──
 const kept = connectorJobToItem({
   title: '【立ち飲み屋】オープニングスタッフ', company: '株式会社　山商',
@@ -335,7 +360,9 @@ check(kyujinboxToItem({
 }) !== null, '求人ボックス変換: 「販売」を含む飲食店（キッチン/まかない）は除外されない');
 
 const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
-  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 4 + 6 + 1 + 2 + 2 + 3 + 8;
+  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 4
+  + FULL_FEED_MUST_EXCLUDE.length + FULL_FEED_MUST_KEEP.length
+  + 6 + 1 + 2 + 2 + 3 + 8;
 console.log(`${total - failures}/${total} 件パス`);
 
 // ── 公開データの監査（--audit 時のみ、全県分） ──

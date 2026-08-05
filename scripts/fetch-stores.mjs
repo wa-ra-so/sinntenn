@@ -688,8 +688,22 @@ async function collectIndeed() {
 }
 
 // ── 全記事フィード（サイト単位のRSS）を読む収集経路 ──
+// Googleニュース検索（collect()）はGENRE_GROUPSのキーワード（居酒屋・カフェ・焼肉等）を
+// クエリ自体に埋め込んでいるため、検索結果は最初から飲食業態に絞られている。
+// 全記事フィードにはそのクエリ側の絞り込みが無いため、タイトル単位でジャンル一致も
+// 明示的にチェックしないと、美容室・クリニック・整体院・コワーキングスペース等の
+// 「〇〇市に新店オープン」がそのまま素通りしてしまう（新設: ジャンル判定）。
+export function classifyFullFeedItem(title, pref = ACTIVE_PREF) {
+  if (!title) return null;
+  if (isChain(title)) return null;
+  if (hasExcludeKeyword(title)) return null;
+  if (!isPrefRelevant(title, pref)) return null;
+  if (detectGenres(title).length === 0) return null; // 飲食業態のジャンル語を含まない記事を除外
+  return classifySignal(title);
+}
+
 // Googleニュース検索と違い「新店ニュースだけを検索」できないため、フィード全体を取得したうえで
-// タイトル単位でチェーン除外・除外ワード・県関連性・open/hireシグナルを全て適用して絞り込む。
+// タイトル単位でclassifyFullFeedItemによる絞り込みを全て適用する。
 // candidateUrls は同一サイトのRSS URL候補（構成が変わっても他の候補で拾えるよう複数用意する）。
 // 最初に0件超のRSSとして読めたURLを採用し、全滅した場合はエラーとしてrunLogに記録してスキップする
 // （他ソースの収集は止めない、という既存の設計を踏襲）。
@@ -703,11 +717,7 @@ async function collectFeedWithCandidates({ label, candidateUrls, pref = ACTIVE_P
       const items = [];
       for (const it of rssItems) {
         const { title, source } = splitTitleSource(it.rawTitle, it.source);
-        if (!title) continue;
-        if (isChain(title)) continue;
-        if (hasExcludeKeyword(title)) continue;
-        if (!isPrefRelevant(title, pref)) continue;
-        const signal = classifySignal(title);
+        const signal = classifyFullFeedItem(title, pref);
         if (!signal) continue;
         items.push({ title, source: source || label, link: it.link, pubDate: it.pubDate, genreGroup: label, signal });
       }
