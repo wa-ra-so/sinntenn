@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T10:45:08.914Z",
+  "generatedAt": "2026-08-05T02:53:53.886Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 70
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,28 +48,22 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 56
+      "count": 58
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 埼玉県）",
-      "ok": true,
-      "count": 2,
-      "mergedAt": "2026-08-05T00:19:59.155Z"
     }
   ],
-  "itemCount": 104,
+  "itemCount": 106,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -277,7 +271,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:18.462Z"
+      "checkedAt": "2026-08-05T02:53:52.356Z"
     },
     "スパゲッティーのパンチョ新座店野火止店": {
       "storeName": "スパゲッティーのパンチョ 新座店野火止店",
@@ -290,7 +284,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:18.660Z"
+      "checkedAt": "2026-08-05T02:53:53.497Z"
     },
     "daenzo": {
       "storeName": "DA ENZO",
@@ -303,7 +297,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:19.020Z"
+      "checkedAt": "2026-08-05T02:53:53.111Z"
     },
     "カフェ・ド・デイジイ": {
       "storeName": "カフェ・ド・デイジイ",
@@ -316,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:18.832Z"
+      "checkedAt": "2026-08-05T02:53:52.941Z"
     },
     "チェントペルチェント浦和芝原店": {
       "storeName": "チェントペルチェント浦和芝原店",
@@ -394,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:18.336Z"
+      "checkedAt": "2026-08-05T02:53:52.528Z"
     },
     "おにくところも": {
       "storeName": "おにくところも",
@@ -498,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:18.752Z"
+      "checkedAt": "2026-08-05T02:53:52.736Z"
     },
     "焼肉セナラ": {
       "storeName": "焼肉セナラ",
@@ -638,7 +632,7 @@
     },
     "川口市|バル": {
       "count": 10,
-      "checkedAt": "2026-07-29T00:08:19.224Z"
+      "checkedAt": "2026-08-05T02:53:53.886Z"
     },
     "さいたま市大宮区|バル": {
       "count": 20,
@@ -714,11 +708,11 @@
     },
     "さいたま市浦和区|バル": {
       "count": 12,
-      "checkedAt": "2026-07-29T00:08:19.201Z"
+      "checkedAt": "2026-08-05T02:53:53.876Z"
     },
     "さいたま市|バー": {
-      "count": 89,
-      "checkedAt": "2026-07-29T00:08:19.251Z"
+      "count": 87,
+      "checkedAt": "2026-08-05T02:53:53.743Z"
     },
     "久喜市|焼肉": {
       "count": 6,
@@ -751,9 +745,29 @@
     "さいたま市中央区|創作料理": {
       "count": 0,
       "checkedAt": "2026-08-04T10:45:08.914Z"
+    },
+    "川越市|レストラン": {
+      "count": 18,
+      "checkedAt": "2026-08-05T02:53:53.692Z"
+    },
+    "川口市|焼肉": {
+      "count": 42,
+      "checkedAt": "2026-08-05T02:53:53.713Z"
     }
   },
   "items": [
+    {
+      "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 経験不問 人柄採用…）",
+      "link": "http://s.baitoru.com/dN0aWOoj",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Tue, 04 Aug 2026 09:38:39 GMT",
+      "area": "川口市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T02:53:48.698Z"
+    },
     {
       "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
       "link": "https://entori.jp/onikutokoromo/job/2239194",
@@ -790,9 +804,9 @@
     },
     {
       "title": "【川越新規オープン】肉汁あふれる爆汁小籠包と鉄人直伝の本格四川麻婆！気軽な小皿で新しい中華酒場「酒場リンリン」が川越市駅前に8月4日オープン",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RRnRhUW1fd2lMbk5aczRNNHFLZlJCNEtkTXBJemNFbmlEakVMSklxNDh5clJmcUdNbXRCQ2JUZVhzWVM2ckltQ0I1ZHZDOEZabW05TzZIZG9NRDAtX1BvV3oySE5HMVRTaUFBT3VVdw?oc=5",
-      "source": "ニコニコニュース",
-      "pubDate": "Mon, 03 Aug 2026 02:18:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XR1lLdV95b0lJN2F2Y3o3Nl9DbTZZNUFVVi1tSmxXNHE4aFRiTi11Q1lHcTBUWDNoTDZBMGRuSmx2ZndPUnBqVS1yXzFIZHEwWG4xWXR5ZUZVRnByNXp5bm1sbFFGWktOMkE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 03 Aug 2026 00:10:01 GMT",
       "area": "川越市",
       "genres": [
         "中華"
@@ -811,6 +825,31 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.112Z"
+    },
+    {
+      "title": "株式会社glob オープニングスタッフ募集（カフェレストランのキッチン/賞与年2回/車通勤可）",
+      "link": "https://grsta.jp/manuscript/0a0602d9-9f92-1456-819f-92d2f2f90164",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 31 Jul 2026 23:01:19 GMT",
+      "area": "川越市",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T02:53:48.698Z"
+    },
+    {
+      "title": "株式会社INGS オープニングスタッフ募集（居酒屋の接客/年3回昇給/年休110日/賞与あり）",
+      "link": "https://grsta.jp/manuscript/0a060087-9fa1-1eb3-819f-a9e27edb0c1c",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 31 Jul 2026 23:01:15 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-16T22:07:21.720Z"
     },
     {
       "title": "株式会社バッファローフードサービス オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 事業拡大による増員…）",
@@ -933,7 +972,7 @@
     {
       "title": "世界初が大宮に！？ あのラデュレの\"ドーナツ\"が食べられる「カフェ・ラデュレ」がエキュート大宮に7/24オープン",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9COEloejdBV0VtS3VvU2V6NEJZY1BFVC1oaG1WRkQtVXkxelVPSG1ZU1hjdU5TX05GdFZFN2wzdWRoeUxNcUI2Qm1aWW5MVk1ZWnNzSVlRQQ?oc=5",
-      "source": "朝日新聞",
+      "source": "asahi.com",
       "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1049,6 +1088,18 @@
       "firstSeenAt": "2026-07-27T03:42:55.468Z"
     },
     {
+      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
+      "link": "https://grsta.jp/manuscript/0a060204-9f72-1696-819f-80b007a20792",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Tue, 21 Jul 2026 11:08:34 GMT",
+      "area": "草加市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:20:08.092Z"
+    },
+    {
       "title": "株式会社登坂 オープニングスタッフ募集（【9月NewOPEN】焼鳥店のキッチンスタッフ<東大宮店>）",
       "link": "https://to.indeed.com/aasqkn9t4rjj",
       "source": "Indeed",
@@ -1085,7 +1136,7 @@
       "link": "https://to.indeed.com/aaz4yxhfmhjb",
       "source": "Indeed",
       "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市大宮区",
       "genres": [
         "居酒屋"
       ],
@@ -1338,18 +1389,6 @@
       "firstSeenAt": "2026-07-18T14:22:07.968Z"
     },
     {
-      "title": "株式会社INGS オープニングスタッフ募集（居酒屋の接客/年3回昇給/年休110日/賞与あり）",
-      "link": "https://grsta.jp/manuscript/0a0600d9-9f4f-1218-819f-5ca31a5409aa",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Tue, 14 Jul 2026 11:00:22 GMT",
-      "area": "さいたま市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-16T22:07:21.720Z"
-    },
-    {
       "title": "「ワインの酒場。DiPUNTO さいたま新都心店」オープニングスタッフ募集（バル・バー/店長・店長候補/店長候補募集! 長く働ける環境）",
       "link": "https://foods-labo.com/offers/85983?channel=kyujinbox&utm_source=kyujinbox&utm_medium=cpc#anchor-apply",
       "source": "求人ボックス（フーズラボ）",
@@ -1448,7 +1487,7 @@
     {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQ3ZPVDBIdWozTXhBMUNQZ0lkakk4Rm5pYmZHdnVnbHMtRl9HRDVFa1pUSzNObXU2U1VsZEFIajNVM1lIOGthOGRROTFPVldXODZ3TjZwQlZaUQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1473,7 +1512,7 @@
     {
       "title": "川口市立美術館に新オープンする「レストラン」の開業日が決定してる！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LYTlvQTEza21rYzVjaC1xbjJoWldLekpTdGRrZ1o5ZTVGVDhOU25IVmR1TzRLcUdIbl9NQjY3MF8xN25ZSm0tbmZiOUZ2Zmk2dXI3WHU3RjlyQQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Sat, 11 Jul 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1519,7 +1558,7 @@
     {
       "title": "【川口市】東領家に居酒屋「さんすい」が新オープンするみたい！本日17時！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9taks0NnludXpWTHhwVm1VVGMxTkpaYWRsYnBaY2d1ZFJsSmJXRzQ0UVFXYjJqRWVaV1BoQmNDOVVXSmxDSjdSZFVGTWFHZ1dzd2R5ak9HenhiZw?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1621,18 +1660,6 @@
       "firstSeenAt": "2026-08-03T00:49:46.241Z"
     },
     {
-      "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c750136f",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
-      "area": "草加市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:20:08.092Z"
-    },
-    {
       "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋の店舗スタッフ/未経験から最短3ヶ月で副店長実績あり）",
       "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370cefa1381",
       "source": "求人ボックス（グルスタ）",
@@ -1715,7 +1742,7 @@
       "link": "https://to.indeed.com/aalcd4lltw49",
       "source": "Indeed",
       "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市浦和区",
       "genres": [
         "バル"
       ],
@@ -1784,7 +1811,7 @@
     {
       "title": "西川口に、本格イタリアンが楽しめる「369BASE pipi」がリニューアルオープンしていました！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sdllZUG83MldoalRFSFBxQ0RNbHhhTEhQY2E0UXFLcXEyRWpUc0c4bVBlZ2pCbGhBVDlTV3hPT2lGTDN1Z3J1bTc1aXF2WlNDU0VrLVhBeE5tZw?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1820,7 +1847,7 @@
     {
       "title": "川口リリアに新オープンした「カフェ・ド・デイジイ」で大人な甘さの『チョコレートパフェ』を食べてきた！贅沢なおやつタイムを堪能",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HOS05ZUZueXVxa1lSWW9qWlZ4eU02ajFjY25QbV9VTkZsRG5CT0ItNXdrZVdkcU5JNm82ajMtaFYwbDVYQ1FBUmp5eWFSX2pBSTItTm5mSFNuQQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1854,7 +1881,7 @@
     {
       "title": "【川口市】リリアにグランドオープンした「カフェ・ド・デイジイ」で『ふわとろ卵のオムハッシュ』を食べてきたよ",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xME5qdGxrSjM5SzJrSnR6Znk1LVc3dllvZmRVMFZQN0V1UkY4YnozOHA2TDJNeDZMNWlPemltOUFQMFlQMzdaUUNlbkJWRjdrTmczZFBjdmxQZw?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1904,7 +1931,7 @@
     {
       "title": "西川口にイタリアンバル「DA ENZO」が新オープンしたみたい！現役ラガーマンが営むお店とメニューを見てきたよ",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uQ0dSbE5WVW5hOVBpOXhfRVNrQVBra3IxT0lOd0UzWm1BQ1dNa3ZZeEZmOF9QTXRHdkRqR2JPZTJLSkd0QUZpb2tYdXJBSURua2lRUXpWUVhVQQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1951,7 +1978,7 @@
     {
       "title": "カフェとサウナが一体の店「S°（エスド）」 カフェ先行オープン モノトーンのかき氷はサウナイメージ 「五感で楽しめる新感覚かき氷」 埼玉県本庄市",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZHlQTzVuMXJvLS1PVlBINDRUUXd3ZXZsREl3SkZFQk9sTV9vcmVrUVhDV2x0VXJ0NGhURGZNTEVWWDVoeDVfT2NqU0t2aENBdGxfbVVuWQ?oc=5",
-      "source": "埼玉新聞",
+      "source": "saitama-np.co.jp",
       "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
       "area": "本庄市",
       "genres": [

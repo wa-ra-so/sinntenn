@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-04T10:44:59.210Z",
+  "generatedAt": "2026-08-05T02:53:44.656Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 95
+      "count": 96
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 80
+      "count": 79
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,19 +36,19 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 13
+      "count": 16
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 45
+      "count": 44
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
@@ -61,15 +61,9 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 4,
-      "mergedAt": "2026-08-05T00:19:57.020Z"
     }
   ],
-  "itemCount": 116,
+  "itemCount": 117,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -316,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:01.915Z"
+      "checkedAt": "2026-08-05T02:53:44.214Z"
     },
     "dice戸塚店": {
       "storeName": "DiCE戸塚店",
@@ -437,16 +431,16 @@
     },
     "diningbarlately": {
       "storeName": "DINING BAR Lately",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-29T00:08:01.187Z"
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004660285/?vos=nhppalsa000016",
+      "shopName": "Dining Bar Lately",
+      "address": "神奈川県横浜市港北区新横浜２－１４－２５アポロ新横浜第２ビル　2B",
+      "access": "東急新横浜線新横浜駅出口10より徒歩約2分 ",
+      "genre": "ダイニングバー・バル",
+      "budget": "4001～5000円",
+      "capacity": 23,
+      "open": "月～土、祝日、祝前日: 17:00～翌1:00 （料理L.O. 翌0:00 ドリンクL.O. 翌0:30）",
+      "checkedAt": "2026-08-05T02:53:43.528Z"
     },
     "北海道イタリアンミア・ボッカ": {
       "storeName": "北海道イタリアン ミア・ボッカ",
@@ -459,7 +453,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:01.556Z"
+      "checkedAt": "2026-08-05T02:53:43.923Z"
     },
     "シーガーディアンii": {
       "storeName": "シーガーディアンⅡ",
@@ -472,7 +466,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:01.709Z"
+      "checkedAt": "2026-08-05T02:53:43.459Z"
     },
     "ringobar": {
       "storeName": "RINGO BAR",
@@ -485,7 +479,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T00:08:01.770Z"
+      "checkedAt": "2026-08-05T02:53:43.837Z"
     },
     "横浜天然温泉spaeas": {
       "storeName": "横浜天然温泉SPA EAS",
@@ -577,6 +571,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-04T10:44:59.033Z"
+    },
+    "鎌倉を、飲む。": {
+      "storeName": "鎌倉を、飲む。",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-05T02:53:44.009Z"
     }
   },
   "market": {
@@ -625,8 +632,8 @@
       "checkedAt": "2026-08-04T10:44:59.210Z"
     },
     "横浜市|カフェ": {
-      "count": 244,
-      "checkedAt": "2026-07-29T00:08:02.162Z"
+      "count": 245,
+      "checkedAt": "2026-08-05T02:53:44.656Z"
     },
     "横浜市戸塚区|カフェ": {
       "count": 8,
@@ -670,11 +677,11 @@
     },
     "横浜市港南区|イタリアン": {
       "count": 12,
-      "checkedAt": "2026-07-29T00:08:02.115Z"
+      "checkedAt": "2026-08-05T02:53:44.611Z"
     },
     "横浜市|バー": {
-      "count": 453,
-      "checkedAt": "2026-07-29T00:08:02.127Z"
+      "count": 451,
+      "checkedAt": "2026-08-05T02:53:44.421Z"
     },
     "平塚市|居酒屋": {
       "count": 58,
@@ -687,6 +694,18 @@
     "横浜市|イタリアン": {
       "count": 198,
       "checkedAt": "2026-08-03T00:49:42.057Z"
+    },
+    "相模原市|居酒屋": {
+      "count": 97,
+      "checkedAt": "2026-08-05T02:53:44.396Z"
+    },
+    "鎌倉市|レストラン": {
+      "count": 25,
+      "checkedAt": "2026-08-05T02:53:44.421Z"
+    },
+    "大和市|居酒屋": {
+      "count": 79,
+      "checkedAt": "2026-08-05T02:53:44.610Z"
     }
   },
   "items": [
@@ -699,6 +718,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T11:31:59.699Z"
+    },
+    {
+      "title": "【8月6日グランドオープン！】「鎌倉を、飲む。」千年の記憶を一杯に込めたブルワリー併設レストラン「鎌倉雪ノ下ローストビーフ 本店」が鎌倉・雪ノ下に誕生",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mLVlSdGNvS1djZ0Mzc1ZWUXd2UDhTMlV3b2M0YjBKdzN4WkNoTzZJTklCMU9tMHZYVU1aSjB6V3dXTUdmbE5RODVZSFltT1JLeFVCUm5NZlpMQmZLTzNGcldZT3UtemEtd1E?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Mon, 03 Aug 2026 03:00:01 GMT",
+      "area": "鎌倉市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-05T02:53:39.431Z"
     },
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
@@ -805,11 +836,13 @@
     },
     {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/",
+      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
       "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
+      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -1189,7 +1222,7 @@
       "title": "【安楽亭 大井松田店】7/21(火)リニューアルオープン♪焼肉の楽しさが、さらに進化！日本三大和牛「松阪牛」に、彩り豊かなサラダバーまで。オープン記念「サラダバー半額パスポート」の配布も！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZdWdGcUF6U01RdDdKcDNTV2w0RHBKTGU0a09lSnhlZGRmblBkNzVPS1Z6TFJCSlFKR2FPMXR2WDdXcTZTRG42NldCdHZBQU1YdWFReXV0WnpTUDhvMzFqZUFLeXpaZXBRX3c?oc=5",
       "source": "PR TIMES",
-      "pubDate": "Sun, 19 Jul 2026 05:00:02 GMT",
+      "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
       "area": "大和市",
       "genres": [
         "焼肉",
