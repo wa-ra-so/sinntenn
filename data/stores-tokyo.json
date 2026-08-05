@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T02:53:35.349Z",
+  "generatedAt": "2026-08-05T06:33:08.602Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 27
+      "count": 26
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 65
+      "count": 64
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 15
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 274,
+  "itemCount": 275,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1676,6 +1676,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-05T02:53:34.512Z"
+    },
+    "ビースクエアード": {
+      "storeName": "ビースクエアード",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-05T06:33:08.365Z"
     }
   },
   "market": {
@@ -1974,6 +1987,10 @@
     "中央区|バル": {
       "count": 378,
       "checkedAt": "2026-08-05T02:53:35.339Z"
+    },
+    "杉並区|カフェ": {
+      "count": 35,
+      "checkedAt": "2026-08-05T06:33:08.602Z"
     }
   },
   "items": [
@@ -2050,7 +2067,7 @@
     {
       "title": "大衆居酒屋とイタリアンのいいとこどり「大衆イタリアンかね子 吉祥寺店」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nbEF1dndlNEtaR3p4MEZnU19SOW83MzlWMkdneF9GQnBJQm5LZVdfN3gxaVpwcTd4QVp5NjIwYWFRZXRWR1RxZVBWTU5MUVRwZm9EeHRKOVBtaVk?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Sun, 02 Aug 2026 22:30:44 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -2642,7 +2659,7 @@
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -3659,9 +3676,9 @@
     },
     {
       "title": "【東京都品川区】新スタイルのイタリアンバル「SOSTA ～pizza＆legame～」が五反田にオープン",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBST0JVVmtQaFBUVUcyYlhMbEpDRDNRRFBTcktITDA1QmcyTkZseVFBVzVZVi1pekluS3BZS0RPcmt4Undjd2lvUm9yX2Q2MzA4ZTVz?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Thu, 09 Jul 2026 12:33:45 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5URXBDYXlscmhhckFNZzM5dnNyMFNEZ1VGX2k5NGpxV2dLX2phMlpsUGMxNkRtV3ZBMWlMS3d6MVZ0RHh1MDA0TV91aw?oc=5",
+      "source": "ガジェット通信",
+      "pubDate": "Thu, 09 Jul 2026 11:30:12 GMT",
       "area": "品川区",
       "genres": [
         "バル",
@@ -3868,7 +3885,7 @@
     {
       "title": "吉祥寺に名古屋発の厚切り牛タン黒毛和牛食べ放題専門店「焼肉 朧」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWl9KWFFnajA5YkFrRC1aNkNxVUVaMXB2X0cxWnRfM0o1eElNajhxSXQ1U01Lc2NBYkl3MFBVWUEybDlJQ3lqT2pwOVMwTm9KeC1SV1FUOHp2RjQ?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -4021,7 +4038,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4837,6 +4854,18 @@
       "firstSeenAt": "2026-07-13T15:05:26.046Z"
     },
     {
+      "title": "“天然酵母パン×自家焙煎コーヒー”のカフェ「ビースクエアード」西荻窪に新店、焼きたてブリオッシュなど",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xMVZKS1BLa015UkhLZHYtMDNKWUxYRGNlS0lIaDNZYnAwRjFfTUpIbjlydldfdWpHSm5BV2stdG5oTzkwSDVlOWxLdGNUcWdlSWRj?oc=5",
+      "source": "ファッションプレス",
+      "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
+      "area": "杉並区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-05T06:33:02.964Z"
+    },
+    {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
       "source": "Newscast.jp",
@@ -4993,7 +5022,7 @@
     {
       "title": "倉庫をリノベしたベーカリーカフェ「パークスタンド トーキョー」清澄白河にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WQWt3TXNlTkphOGtoTDAyUXQ1UmwyTXlLZnhFaVpyS2w5d3ZGbVRLRmxPVlRLN3Z3RmNsdDYzLWNyYWh1UjlKcmsxZmQxcjQ?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "江東区",
       "genres": [
