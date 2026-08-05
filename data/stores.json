@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:32:58.778Z",
+  "generatedAt": "2026-08-05T10:41:36.228Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 53
+      "count": 52
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 10
+      "count": 9
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 125,
+  "itemCount": 122,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -168,45 +168,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-03T00:49:22.613Z"
-    },
-    "和食居酒屋大安": {
-      "storeName": "和食居酒屋 大安",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-03T00:49:22.676Z"
-    },
-    "元祖焼豚センターうる寅商店": {
-      "storeName": "元祖焼豚センター うる寅商店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-03T00:49:22.849Z"
-    },
-    "なのわ": {
-      "storeName": "なのわ",
-      "listed": true,
-      "url": "https://www.hotpepper.jp/strJ003649532/?vos=nhppalsa000016",
-      "shopName": "いなのわ 千葉駅前店",
-      "address": "千葉県千葉市中央区富士見２-4-15 第一東和ビル５階",
-      "access": "千葉駅徒歩2分",
-      "genre": "居酒屋",
-      "budget": "3001～4000円",
-      "capacity": 160,
-      "open": "月～木、日、祝日、祝前日: 12:00～翌0:00 （料理L.O. 23:00 ドリンクL.O. 23:30）金、土: 12:00～翌4:30 （料理L.O. 翌3:30 ドリンクL.O. 翌4:00）",
-      "checkedAt": "2026-07-12T03:52:47.123Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -747,6 +708,16 @@
   },
   "items": [
     {
+      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
+      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Wed, 05 Aug 2026 08:17:06 GMT",
+      "area": "東金市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
@@ -755,19 +726,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T21:46:36.523Z"
-    },
-    {
-      "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
-      "source": "ホットペッパーグルメ",
-      "pubDate": "Tue, 04 Aug 2026 18:27:43 GMT",
-      "area": "千葉市中央区",
-      "genres": [
-        "居酒屋",
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-08-04T02:57:37.537Z"
     },
     {
       "title": "株式会社オートウェーブ 総務課 オープニングスタッフ募集（わらび餅専門店での販売・キッチンスタッフ/オープニング/未経…）",
@@ -822,6 +780,19 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.767Z"
+    },
+    {
+      "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
+      "source": "ホットペッパーグルメ",
+      "pubDate": "Sat, 01 Aug 2026 15:44:03 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "居酒屋",
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-04T02:57:37.537Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトで運搬）",
@@ -916,7 +887,7 @@
     {
       "title": "【オープン6周年】無農薬野菜の収穫体験＆テラスBBQが楽しめる千葉県長柄町の農園料理カフェ「大地の恵み」が夏の予約を開始！放し飼い名古屋コーチンの「希少な限定プリン」や、街灯ゼロの星空キャンプ場も",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ubS00UUNFZmtqUWFlTUhUWnN0Q001UmhodEhZQmVqX25OMkFCTUVMNmh5UWVpNTAzb21ZVERFb05pSEZMeGgxV1V3ejRKYU5uQUoxcWtySW1NNFE5d0RtNHFIZkFqSFB6WXpyNlZ4ZU1hVHVfd3A1YWNn?oc=5",
-      "source": "mainichikirei.jp",
+      "source": "毎日キレイ",
       "pubDate": "Fri, 31 Jul 2026 01:58:55 GMT",
       "area": "長柄町",
       "genres": [
@@ -1190,16 +1161,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-19T07:29:45.005Z"
-    },
-    {
-      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
-      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Thu, 23 Jul 2026 01:58:15 GMT",
-      "area": "東金市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "株式会社プロントコーポレーション オープニングスタッフ募集（空港内のカフェ・サカバスタッフ(オープニング)）",
@@ -1895,7 +1856,7 @@
     {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
-      "source": "千葉日報オンライン",
+      "source": "chibanippo.co.jp",
       "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [
@@ -2084,40 +2045,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
-      "title": "南柏駅西口すぐに「和食居酒屋 大安」が2/9（月）オープン",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUTUJiaXozR0FKZjN3Zm4yTE4tdzEwc2NNeFlyQnVzbzhKYWZqSmhkT3pydElycjE1R1F1Y3YxbGVOM3lNSHVQcGtBMFlhQ0U?oc=5",
-      "source": "柏つうしん",
-      "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
-      "area": "柏市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.793Z"
-    },
-    {
-      "title": "馬橋駅東口前に複合型サポート施設「なのわ」がオープン、モバイル通信・就労支援・カフェを併設",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qYlRjZk5lcWQxMFViWUlmbkJVWHdpY3BTM3htUzNpazBERG5hSXZ2c0dWOWNaYjhsVHNXSUlKWnNPNkQyNTRIbk5TU0NMUmc?oc=5",
-      "source": "松戸つうしん",
-      "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
-      "area": "松戸市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
-      "title": "【6月26日オープン】千葉・松戸に「元祖焼豚センター うる寅商店」が降臨！はやし田跡地で「ちゃん系」の衝撃と焼豚の山に圧倒される。",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9tQWtMV3V6emk4cmF4WWZ4MUNBSDB5OEhXN19hQXVhejB0RHNERUljM3NSMndOODZ4bEJTRVpKd0ZLWWxlOE1FUm5za1N5MWYwYUl3ckotNHd6WVM2U3p6NmlScHI?oc=5",
-      "source": "gummaumaimono.info",
-      "pubDate": "Sat, 06 Jun 2026 07:00:00 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:17.031Z"
     }
   ]
 }

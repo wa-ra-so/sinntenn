@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:33:08.602Z",
+  "generatedAt": "2026-08-05T10:41:46.555Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 26
+      "count": 27
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 64
+      "count": 76
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 275,
+  "itemCount": 276,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1689,6 +1689,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-05T06:33:08.365Z"
+    },
+    "リセッシュ": {
+      "storeName": "リセッシュ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-05T10:41:46.360Z"
     }
   },
   "market": {
@@ -1991,9 +2004,45 @@
     "杉並区|カフェ": {
       "count": 35,
       "checkedAt": "2026-08-05T06:33:08.602Z"
+    },
+    "渋谷区|焼肉": {
+      "count": 151,
+      "checkedAt": "2026-08-05T10:41:46.554Z"
     }
   },
   "items": [
+    {
+      "title": "株式会社ワンダーテーブル オープニングスタッフ募集（ビアホールのホールスタッフ/「オープニング時給1500円～」…）",
+      "link": "https://en-gage.net/user/search/desc/16282744/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Wed, 05 Aug 2026 08:19:40 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T02:53:29.047Z"
+    },
+    {
+      "title": "アイビーカンパニー株式会社 オープニングスタッフ募集（店舗スタッフ/オープニングスタッフ募集 新宿エリア新店舗「シ…）",
+      "link": "https://en-gage.net/user/search/desc/17591120/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Wed, 05 Aug 2026 08:19:33 GMT",
+      "area": "新宿区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-25T06:22:34.677Z"
+    },
+    {
+      "title": "花王「リセッシュ」 渋谷に『焼肉リセッシュ亭』を開店！",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MSWlRYlUwMEVBd01ldy1YOUhnUXRRd2pIbEEySDF3MEZieTI4NHROQjlGRFdrUTFBZElLQlZoWTZ6eWFnNENvRG5nTEtVS1JuOEM3YlhVQWYzWjI1R1dBVHJJYlpQTlFkWUE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Wed, 05 Aug 2026 05:00:02 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-05T10:41:40.732Z"
+    },
     {
       "title": "ベルーナ／鉄板焼きレストラン「銀座のステーキ 渋谷宇田川店」8月20日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZS2ZYdGNBRHBjR0g5ejBDbWxxcFZwR2FNcWI2MHJOR3ZsamZBR1F6bG85dS03SmlTYkRmb3RDZHlxWkhoeWFuYzJlMXEzVVBnSGV2TA?oc=5",
@@ -2067,7 +2116,7 @@
     {
       "title": "大衆居酒屋とイタリアンのいいとこどり「大衆イタリアンかね子 吉祥寺店」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nbEF1dndlNEtaR3p4MEZnU19SOW83MzlWMkdneF9GQnBJQm5LZVdfN3gxaVpwcTd4QVp5NjIwYWFRZXRWR1RxZVBWTU5MUVRwZm9EeHRKOVBtaVk?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Sun, 02 Aug 2026 22:30:44 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -2595,16 +2644,6 @@
       "firstSeenAt": "2026-07-26T03:29:30.803Z"
     },
     {
-      "title": "アイビーカンパニー株式会社 オープニングスタッフ募集（店舗スタッフ/オープニングスタッフ募集 新宿エリア新店舗「シ…）",
-      "link": "https://en-gage.net/user/search/desc/17591120/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Sat, 25 Jul 2026 02:03:40 GMT",
-      "area": "新宿区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-25T06:22:34.677Z"
-    },
-    {
       "title": "「小町」オープニングスタッフ募集（マスターのお手伝い(女性) 4月6日オープン 【激レア!オー…）",
       "link": "https://to.indeed.com/aav2gg6g2fr8",
       "source": "Indeed",
@@ -2659,7 +2698,7 @@
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -3176,16 +3215,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T14:47:14.066Z"
-    },
-    {
-      "title": "株式会社ワンダーテーブル オープニングスタッフ募集（ビアホールのホールスタッフ/「オープニング時給1500円～」…）",
-      "link": "https://en-gage.net/user/search/desc/16282744/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Fri, 17 Jul 2026 04:54:35 GMT",
-      "area": "港区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-05T02:53:29.047Z"
     },
     {
       "title": "株式会社フィールドジャパン/ミリネヤンコプチャン上野店 オープニングスタッフ募集（店長/上野・韓国焼肉のオープニング店長/月給30万～+利益還…）",
@@ -3885,7 +3914,7 @@
     {
       "title": "吉祥寺に名古屋発の厚切り牛タン黒毛和牛食べ放題専門店「焼肉 朧」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWl9KWFFnajA5YkFrRC1aNkNxVUVaMXB2X0cxWnRfM0o1eElNajhxSXQ1U01Lc2NBYkl3MFBVWUEybDlJQ3lqT2pwOVMwTm9KeC1SV1FUOHp2RjQ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -4038,7 +4067,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4130,7 +4159,7 @@
     {
       "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VOEN2dmptM1pBRkR5Ry1VWl9veWhFWGVmbk5oY25oRkVWV2Q1WkNVTTI1Ykc4YjBjbm9OaVJPU2ZZZEN0aGhSTVJLNDRwRFU?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -4626,7 +4655,7 @@
     {
       "title": "日本初の常設店！パリ発の人気カフェ「ペーパーボーイ」千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuRG45RUFJRjRhbEoweUozVGFKeU5aMy1NMzVQc1YzN2d4RW15b0ZraGdGcUt4RHZ5SVpRZkZVMFBFU2oxRVhRdlFubDYzd28?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4638,7 +4667,7 @@
     {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJWHNzcmJjSTlLaDhKN29fTF9Zbm5TN1EzS1lEM1Z4eFFXYWxBOXMzcUVPRWtJSVl4dUZ1bnY5T0ttbHdTVzhMQzhiRU1QMmM?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4686,7 +4715,7 @@
     {
       "title": "日本初の常設店！フィンランド発のベーカリーカフェ「エクベリ」伊勢丹新宿店にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0cHl0TE1TZWw5Zk9hMUtKTU1PYUZEbW1WMDluSk5MTDNTZkVCeThLR08weWNWa3FoLVNuRVphdGN4eVV5ejlTckpCbHE1X2M?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [
@@ -4856,7 +4885,7 @@
     {
       "title": "“天然酵母パン×自家焙煎コーヒー”のカフェ「ビースクエアード」西荻窪に新店、焼きたてブリオッシュなど",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xMVZKS1BLa015UkhLZHYtMDNKWUxYRGNlS0lIaDNZYnAwRjFfTUpIbjlydldfdWpHSm5BV2stdG5oTzkwSDVlOWxLdGNUcWdlSWRj?oc=5",
-      "source": "ファッションプレス",
+      "source": "fashion-press.net",
       "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
       "area": "杉並区",
       "genres": [
@@ -4948,7 +4977,7 @@
     {
       "title": "下北沢SPREAD系列の新バー「YATE」がオープン ｜ 七夕にオープニングイベント開催",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kNTh2SjJBR2I5d1o2MUJOVC1TUGZjNWl6cjFiWGJqd3VqM2c4emh6LXRkcXRiQ3NaV0p0Y25DVHpuQTRUcHBUbE9OV0Z5V3Mya1NRS2lQRnFWRUpy?oc=5",
-      "source": "Spincoaster（スピンコースター）",
+      "source": "spincoaster.com",
       "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
       "area": "世田谷区",
       "genres": [
@@ -5022,7 +5051,7 @@
     {
       "title": "倉庫をリノベしたベーカリーカフェ「パークスタンド トーキョー」清澄白河にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WQWt3TXNlTkphOGtoTDAyUXQ1UmwyTXlLZnhFaVpyS2w5d3ZGbVRLRmxPVlRLN3Z3RmNsdDYzLWNyYWh1UjlKcmsxZmQxcjQ?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "江東区",
       "genres": [
@@ -5047,7 +5076,7 @@
     {
       "title": "カフェを併設した「ピエール・エルメ・パリ」の新店が丸の内にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iMVQxYVp2a3h0ajE4OXVva3A5LUdqN3ItbDl2Yi1TczJmR2sxeU13RVFnNWZGbVY0NjB2em5PQlFreS1TZ253S010RlRnZlU?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "千代田区",
       "genres": [
@@ -5069,7 +5098,7 @@
     {
       "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [

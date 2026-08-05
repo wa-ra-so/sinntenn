@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:33:23.847Z",
+  "generatedAt": "2026-08-05T10:42:00.995Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 56
+      "count": 59
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -757,6 +757,16 @@
   },
   "items": [
     {
+      "title": "株式会社キムラ オープニングスタッフ募集（不動産営業/「宅建資格保有×今年入社の特権」不動産営業 オー…）",
+      "link": "https://en-gage.net/user/search/desc/15070131/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Wed, 05 Aug 2026 08:15:15 GMT",
+      "area": "入間市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T07:35:19.411Z"
+    },
+    {
       "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 経験不問 人柄採用…）",
       "link": "http://s.baitoru.com/dN0aWOoj",
       "source": "求人ボックス（バイトルNEXT）",
@@ -960,7 +970,7 @@
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
-      "source": "camp-fire.jp",
+      "source": "キャンプファイヤー",
       "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
       "area": "加須市",
       "genres": [
@@ -972,7 +982,7 @@
     {
       "title": "世界初が大宮に！？ あのラデュレの\"ドーナツ\"が食べられる「カフェ・ラデュレ」がエキュート大宮に7/24オープン",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9COEloejdBV0VtS3VvU2V6NEJZY1BFVC1oaG1WRkQtVXkxelVPSG1ZU1hjdU5TX05GdFZFN2wzdWRoeUxNcUI2Qm1aWW5MVk1ZWnNzSVlRQQ?oc=5",
-      "source": "朝日新聞",
+      "source": "asahi.com",
       "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1158,7 +1168,7 @@
     {
       "title": "【川越市】楽しみですね♪「ミステリーカフェ謎屋珈琲店 川越店」のオープン日が判明しました！！",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rU3l3UFRTVXk1WFQ2NERKblpTZlhUdnoyU1M4QXBwSHE5NUdSVFUydGRiM2R0ekRXajB4ZDVyczgwaHNSSFpDWFRtN1NkNFM1bWlvVnVxbzBmbTZCdmxyMlJSUTdnallYb3c?oc=5",
-      "source": "埼玉マガジン",
+      "source": "saitama-city-marathon.jp",
       "pubDate": "Mon, 20 Jul 2026 07:00:00 GMT",
       "area": "川越市",
       "genres": [
@@ -1228,7 +1238,7 @@
     {
       "title": "【ふじみ野市】人気イタリアン「オリーブの丘」がオープン予定！建築計画が掲示されていました♪",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4dENZRGdvQWZRNmNqMjJ5Y1h3Zmlfa3ExLVFVajEtZ0dlM21iRy1LWW5WQ3kxRnAzTW9yWHRiaGZuazNUUVFuaVZnQ3p1NFIxSUt4OHM4bU5KeUxTcGJHa1N2cHYtdDVWU2c?oc=5",
-      "source": "埼玉マガジン",
+      "source": "saitama-city-marathon.jp",
       "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
       "area": "ふじみ野市",
       "genres": [
@@ -1262,16 +1272,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:33.242Z"
-    },
-    {
-      "title": "株式会社キムラ オープニングスタッフ募集（不動産営業/「宅建資格保有×今年入社の特権」不動産営業 オー…）",
-      "link": "https://en-gage.net/user/search/desc/15070131/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Fri, 17 Jul 2026 04:52:41 GMT",
-      "area": "入間市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T07:35:19.411Z"
     },
     {
       "title": "株式会社ロストマン オープニングスタッフ募集（お寿司屋の店舗オープニングスタッフ）",
@@ -1919,7 +1919,7 @@
     {
       "title": "【川越市】「焼肉定食ぎゅうまおう」の跡地に新しいお店がオープンすることがわかりました♪",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NYVFxOFVvaGhiUWtHR0hKaHlZSGNjTVFfUTd5b3IyaDRhYlBYVzFXektUMDZkSUlQT0VQeC1wSEdhclZ3SEx1SmdXMXZOZUoyUU16RFc2XzJia1VpOEk1U1oteHdoTE1YMFE?oc=5",
-      "source": "埼玉マガジン",
+      "source": "saitama-city-marathon.jp",
       "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
       "area": "川越市",
       "genres": [
