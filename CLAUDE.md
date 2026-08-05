@@ -43,6 +43,21 @@
    新店ごとの掲載チェック（●×）、掲載店の店舗詳細（住所・予算等）、商圏データ
    （エリア×ジャンル別の掲載店数）。全掲載店の台帳管理・ネット予約可否チェック
    （アタックリスト用）は行わない（hppzaiko側の役割）。
+5. **地域経済新聞ネットワーク**（みんなの経済新聞ネットワーク。`collectKeizaiNews`）—
+   `chiba.keizai.biz`・`shibukei.com`・`hamakei.com`等、県ごとに`scripts/prefectures.mjs`の
+   `localFeeds`で管理する対象ドメインのRSSを収集。媒体側で地域が確定しているため
+   `isPrefRelevant`の誤爆が少ない
+6. **PR TIMES**（`collectPrTimes`）— キーワード別RSSが提供されていないため、
+   全ジャンル横断の公式フィード（`https://prtimes.jp/index.rdf`）を読み、他ソースと同じ
+   フィルタ（除外ワード・チェーン除外・県関連性）で絞り込む
+7. **開店閉店.com**（`collectKaitenHeiten`）— 都道府県別カテゴリアーカイブのRSSを収集。
+   類似サイトの「開店ポータル」（kaiten-portal.jp）はRSS・一覧構造が未確認のため見送り
+
+上記5〜7はGoogleニュース検索と異なり**クエリ側で新店ニュースだけに絞り込めない**（サイト全体の
+フィードを読む）ため、`hasOpenSignal`（タイトルに「オープン」「開業」「オープニングスタッフ」等の
+シグナル語が含まれるか）を追加で通してから他のフィルタを適用する。RSSのURL構造は各サイトとも
+ローカル開発環境から到達確認ができておらず、`collectFeedWithCandidates`が複数の候補URLを試す形に
+なっている（本番での疎通確認はActions実行時のrunLogで行う）。
 
 ## 重要な設計ルール
 

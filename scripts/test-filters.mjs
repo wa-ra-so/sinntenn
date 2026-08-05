@@ -10,7 +10,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   hasExcludeKeyword, isChibaRelevant, isPrefRelevant, isChain, isNonFoodJob, detectArea,
-  isOpeningJobTitle, connectorJobToItem, kyujinboxToItem, detectGenres,
+  isOpeningJobTitle, connectorJobToItem, kyujinboxToItem, detectGenres, hasOpenSignal,
   EXCLUDED_SOURCE_SITE_NAMES,
 } from './fetch-stores.mjs';
 import { PREFECTURES } from './prefectures.mjs';
@@ -248,6 +248,14 @@ for (const t of NOT_OPENING_TITLES) {
   check(!isOpeningJobTitle(t), `通常求人がオープニング扱い: ${t}`);
 }
 
+// ── 全記事フィード（地域経済新聞・PR TIMES・開店閉店.com）向けのopen/hireシグナル判定 ──
+// これらのソースはGoogleニュースと違い検索クエリ側で新店ニュースだけに絞れないため、
+// hasOpenSignal でタイトル単位に新店シグナルの有無を判定してから他のフィルタに通す
+check(hasOpenSignal('柏市に新業態のビストロが開業'), 'openシグナル判定: 「開業」も新店として検出される');
+check(hasOpenSignal('船橋市に「〇〇」がグランドオープン'), 'openシグナル判定: 「グランドオープン」は新店として検出される');
+check(!hasOpenSignal('船橋市の「〇〇」が閉店'), 'openシグナル判定: 閉店記事は新店として検出されない');
+check(!hasOpenSignal('株式会社〇〇、新商品を発売開始'), 'openシグナル判定: 飲食開店と無関係なプレスリリースは検出されない（PR TIMES全記事フィード対策）');
+
 // ── Indeedコネクタ形式の変換（merge-indeed.mjs 用） ──
 const kept = connectorJobToItem({
   title: '【立ち飲み屋】オープニングスタッフ', company: '株式会社　山商',
@@ -327,7 +335,7 @@ check(kyujinboxToItem({
 }) !== null, '求人ボックス変換: 「販売」を含む飲食店（キッチン/まかない）は除外されない');
 
 const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
-  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 6 + 1 + 2 + 2 + 3 + 8;
+  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 4 + 6 + 1 + 2 + 2 + 3 + 8;
 console.log(`${total - failures}/${total} 件パス`);
 
 // ── 公開データの監査（--audit 時のみ、全県分） ──

@@ -1,7 +1,8 @@
 // 収集対象の都県設定。fetch-stores.mjs / merge-indeed.mjs / test-filters.mjs から参照される。
 // 各県: name（正式名）, short（タイトル関連性判定用の短縮名）, dataFile（data/配下の出力先）,
 //       areas（エリアタグ付け用の市区町村。具体的な名称を優先してマッチ）,
-//       aliases（「市」等の付かない略称・駅名・地名 → エリア名）
+//       aliases（「市」等の付かない略称・駅名・地名 → エリア名）,
+//       localFeeds（みんなの経済新聞ネットワークの対象ドメイン。省略可）
 //
 // エリア追加のコツ: aliases の駅名は誤爆（人名・他県の同名地名）に注意して主要駅に絞る。
 // 判定は各県のデータセット内でしか使われないため、県をまたぐ同名（中央区等）は衝突しない。
@@ -14,6 +15,10 @@ export const PREFECTURES = {
     name: '千葉県',
     short: '千葉',
     dataFile: 'stores.json', // 従来URL互換のためファイル名は据え置き
+    // みんなの経済新聞ネットワーク（地域経済新聞）の対象ドメイン。fetch-stores.mjs の
+    // collectKeizaiNews() が各ドメインのRSSを収集する。主要エリアのみに絞ってあり、
+    // 対応エリアを増やす場合はここに追加する
+    localFeeds: ['chiba.keizai.biz', 'funabashi.keizai.biz', 'matsudo.keizai.biz'],
     areas: [
       '千葉市中央区', '千葉市稲毛区', '千葉市美浜区', '千葉市若葉区', '千葉市緑区', '千葉市花見川区',
       '銚子市', '市川市', '船橋市', '館山市', '木更津市', '松戸市', '野田市', '茂原市', '成田市', '佐倉市',
@@ -59,6 +64,7 @@ export const PREFECTURES = {
     name: '東京都',
     short: '東京',
     dataFile: 'stores-tokyo.json',
+    localFeeds: ['shibukei.com', 'shinjuku.keizai.biz', 'shinagawa.keizai.biz'],
     areas: [
       '千代田区', '中央区', '港区', '新宿区', '文京区', '台東区', '墨田区', '江東区', '品川区', '目黒区',
       '大田区', '世田谷区', '渋谷区', '中野区', '杉並区', '豊島区', '北区', '荒川区', '板橋区', '練馬区',
@@ -103,6 +109,7 @@ export const PREFECTURES = {
     name: '神奈川県',
     short: '神奈川',
     dataFile: 'stores-kanagawa.json',
+    localFeeds: ['hamakei.com'],
     areas: [
       '横浜市鶴見区', '横浜市神奈川区', '横浜市西区', '横浜市中区', '横浜市南区', '横浜市保土ケ谷区',
       '横浜市磯子区', '横浜市金沢区', '横浜市港北区', '横浜市戸塚区', '横浜市港南区', '横浜市旭区',
@@ -148,6 +155,7 @@ export const PREFECTURES = {
     name: '埼玉県',
     short: '埼玉',
     dataFile: 'stores-saitama.json',
+    localFeeds: ['omiya.keizai.biz', 'urawa.keizai.biz', 'kawaguchi.keizai.biz'],
     areas: [
       'さいたま市西区', 'さいたま市北区', 'さいたま市大宮区', 'さいたま市見沼区', 'さいたま市中央区',
       'さいたま市桜区', 'さいたま市浦和区', 'さいたま市南区', 'さいたま市緑区', 'さいたま市岩槻区',

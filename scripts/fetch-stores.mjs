@@ -26,9 +26,25 @@ const GENRE_GROUPS = [
   { label: 'バー系',               keywords: ['バー'] },
 ];
 
-const OPEN_SIGNAL = ['オープン', '新規開店', 'グランドオープン', 'プレオープン'];
+// 「開業」はプレスリリース・地域経済新聞など報道寄りの文体で使われることが多く、
+// Googleニュースの「オープン」表記と併記することで両方の文体を拾う
+const OPEN_SIGNAL = ['オープン', '新規開店', 'グランドオープン', 'プレオープン', '開業'];
 // オープン前の求人告知（オープニングスタッフ募集）からも新店を検出する
 const HIRE_SIGNAL = ['オープニングスタッフ', 'オープニング募集', 'オープニングスタッフ募集'];
+
+// 全記事フィード（媒体側でopen/hire絞り込みがされていないRSS）用の判定。
+// Googleニュース検索（collect()）はクエリ自体にOPEN_SIGNAL/HIRE_SIGNALを含めているため不要だが、
+// 地域経済新聞・PR TIMES・開店閉店.com等の「サイト全体のRSS」を読む収集経路では
+// タイトル単位でこの判定を通す必要がある
+export function classifySignal(title) {
+  if (HIRE_SIGNAL.some(w => title.includes(w))) return 'hiring';
+  if (OPEN_SIGNAL.some(w => title.includes(w))) return 'opening';
+  return null;
+}
+
+export function hasOpenSignal(title) {
+  return classifySignal(title) !== null;
+}
 
 // ── 除外ワード（犯罪・事件ニュースや飲食店以外の業態を弾く） ──
 // Googleニュース検索は記事本文にもマッチするため、「千葉県」が本文に出るだけの
@@ -671,6 +687,84 @@ async function collectIndeed() {
   return { items, runLog };
 }
 
+// ── 全記事フィード（サイト単位のRSS）を読む収集経路 ──
+// Googleニュース検索と違い「新店ニュースだけを検索」できないため、フィード全体を取得したうえで
+// タイトル単位でチェーン除外・除外ワード・県関連性・open/hireシグナルを全て適用して絞り込む。
+// candidateUrls は同一サイトのRSS URL候補（構成が変わっても他の候補で拾えるよう複数用意する）。
+// 最初に0件超のRSSとして読めたURLを採用し、全滅した場合はエラーとしてrunLogに記録してスキップする
+// （他ソースの収集は止めない、という既存の設計を踏襲）。
+async function collectFeedWithCandidates({ label, candidateUrls, pref = ACTIVE_PREF }) {
+  let lastErr;
+  for (const url of candidateUrls) {
+    try {
+      const xml = await fetchWithTimeout(url, FETCH_TIMEOUT_MS, BROWSER_USER_AGENT);
+      const rssItems = parseRssItems(xml);
+      if (rssItems.length === 0) { lastErr = new Error(`0件（フィード形式でない可能性）: ${url}`); continue; }
+      const items = [];
+      for (const it of rssItems) {
+        const { title, source } = splitTitleSource(it.rawTitle, it.source);
+        if (!title) continue;
+        if (isChain(title)) continue;
+        if (hasExcludeKeyword(title)) continue;
+        if (!isPrefRelevant(title, pref)) continue;
+        const signal = classifySignal(title);
+        if (!signal) continue;
+        items.push({ title, source: source || label, link: it.link, pubDate: it.pubDate, genreGroup: label, signal });
+      }
+      return { items, runLog: [{ label, query: url, ok: true, count: items.length }] };
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  console.warn(`[warn] feed failed: ${label} — ${lastErr}`);
+  return { items: [], runLog: [{ label, query: candidateUrls[0], ok: false, error: String(lastErr && lastErr.message || lastErr) }] };
+}
+
+function feedCandidatesFor(domain) {
+  return [`https://${domain}/rss/index.rdf`, `https://${domain}/feed`, `https://${domain}/rss.xml`];
+}
+
+// ── 地域経済新聞ネットワーク（みんなの経済新聞ネットワーク） ──
+// 県ごとに prefectures.mjs の localFeeds（対象ドメイン一覧）で管理する。
+// ドメインが1つも設定されていない県では何もしない。
+async function collectKeizaiNews(pref = ACTIVE_PREF) {
+  const domains = pref.localFeeds || [];
+  const items = [];
+  const runLog = [];
+  for (const domain of domains) {
+    const result = await collectFeedWithCandidates({
+      label: `地域経済新聞（${domain}）`,
+      candidateUrls: feedCandidatesFor(domain),
+      pref,
+    });
+    items.push(...result.items);
+    runLog.push(...result.runLog);
+  }
+  return { items, runLog };
+}
+
+// ── PR TIMES（全ジャンル横断の公式フィード。キーワード別RSSは提供されていない） ──
+async function collectPrTimes(pref = ACTIVE_PREF) {
+  return collectFeedWithCandidates({
+    label: 'PR TIMES',
+    candidateUrls: ['https://prtimes.jp/index.rdf'],
+    pref,
+  });
+}
+
+// ── 開店閉店.com（都道府県別カテゴリアーカイブのRSS。URL構造は未確認のため実行時に確定させる） ──
+const KAITEN_HEITEN_SLUGS = { chiba: 'chiba', tokyo: 'tokyo', kanagawa: 'kanagawa', saitama: 'saitama' };
+async function collectKaitenHeiten(pref = ACTIVE_PREF) {
+  const slug = KAITEN_HEITEN_SLUGS[pref.id];
+  if (!slug) return { items: [], runLog: [] };
+  const categoryUrl = `https://kaiten-heiten.com/category/kantou_koushinetsu/${slug}/`;
+  return collectFeedWithCandidates({
+    label: `開店閉店.com（${pref.name}）`,
+    candidateUrls: [`${categoryUrl}feed/`, `${categoryUrl}feed`],
+    pref,
+  });
+}
+
 async function collect() {
   const queries = buildQueries();
   const collected = [];
@@ -714,6 +808,12 @@ async function loadExisting() {
 
 async function main() {
   const { collected, runLog } = await collect();
+  const keizaiNews = await collectKeizaiNews();
+  const prTimes = await collectPrTimes();
+  const kaitenHeiten = await collectKaitenHeiten();
+  runLog.push(...keizaiNews.runLog, ...prTimes.runLog, ...kaitenHeiten.runLog);
+  collected.push(...keizaiNews.items, ...prTimes.items, ...kaitenHeiten.items);
+
   const kyujinbox = await collectKyujinbox();
   const indeed = await collectIndeed();
   runLog.push(...kyujinbox.runLog, ...indeed.runLog);
