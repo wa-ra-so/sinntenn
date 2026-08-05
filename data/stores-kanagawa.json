@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
+      "ok": true,
+      "count": 4,
+      "mergedAt": "2026-08-05T00:19:57.020Z"
     }
   ],
-  "itemCount": 112,
+  "itemCount": 116,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -708,6 +714,44 @@
       "firstSeenAt": "2026-07-27T03:38:01.734Z"
     },
     {
+      "title": "株式会社ｐａｌａｃｅ オープニングスタッフ募集（居酒屋オープニングスタッフ）",
+      "link": "https://to.indeed.com/aaslr7lqqdjz",
+      "source": "Indeed",
+      "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
+      "area": "相模原市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T00:19:57.017Z"
+    },
+    {
+      "title": "株式会社ワイズテーブルコーポレーション オープニングスタッフ募集（オープニング/イタリアンカフェスタッフ(ホール)）",
+      "link": "https://to.indeed.com/aaq7dk8nqvwx",
+      "source": "Indeed",
+      "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "イタリアン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T00:19:57.018Z"
+    },
+    {
+      "title": "株式会社ワイズテーブルコーポレーション オープニングスタッフ募集（オープニング/カフェレストランのキッチンスタッフ）",
+      "link": "https://to.indeed.com/aaxq48szcwqh",
+      "source": "Indeed",
+      "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン",
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T00:19:57.019Z"
+    },
+    {
       "title": "ウェスティンホテル横浜にインターナショナル・ビュッフェ・レストラン「PACIFIC TABLE」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkbkpLaUdWVThHZEM4WDVLalJrams2Znp1RGVFSjFJOFBFcllsUFRsLVRTTE9CRVNhd3Q3emVUeE1YazhNUWppTWJzMXd3S1lYLUU4VmVB0gFbQVVfeXFMT1YyMmpJVDZtVmV0S1AxZGtTLXgtUnJ5cWtFaXZQMldubUE3elhpa0Q4VWhBcm9iZE0yWmlZNUVyX0tvQkZtN1dBZlA2bDFQVGlkVzhtc0I4SzNZZw?oc=5",
       "source": "ウォーカープラス",
@@ -847,16 +891,6 @@
       "firstSeenAt": "2026-07-31T00:37:37.997Z"
     },
     {
-      "title": "株式会社Sunrise オープニングスタッフ募集（【オープニング】テキパキ働くのが好きな方向け!和酒場のホール…）",
-      "link": "https://to.indeed.com/aajcz6xrcpvy",
-      "source": "Indeed",
-      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
-      "area": "横浜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-31T00:37:38.008Z"
-    },
-    {
       "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/毎日が楽しいアットホームな沖縄酒場のキッチン補…）",
       "link": "https://to.indeed.com/aawfqhx4lxtq",
       "source": "Indeed",
@@ -892,7 +926,7 @@
     },
     {
       "title": "株式会社ｃａｖｉ オープニングスタッフ募集（居酒屋　ホールスタッフ兼調理スタッフ　オープニングスタッフ）",
-      "link": "https://to.indeed.com/aajqds9tdg6k",
+      "link": "https://to.indeed.com/aazl8hhm9krl",
       "source": "Indeed",
       "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
       "area": "横浜市",
@@ -901,6 +935,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T00:39:14.644Z"
+    },
+    {
+      "title": "株式会社Sunrise オープニングスタッフ募集（【オープニング】テキパキ働くのが好きな方向け!和酒場のホール…）",
+      "link": "https://to.indeed.com/aamx28lkdfxz",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-31T00:37:38.008Z"
     },
     {
       "title": "株式会社セクションエイト オープニングスタッフ募集（キッチン/バーテンダー/フード系 オープニングSTAFF大募…）",
@@ -916,7 +960,7 @@
     },
     {
       "title": "株式会社ウィルビー オープニングスタッフ募集（【オープニング】琉球酒場のアルバイトスタッフ）",
-      "link": "https://to.indeed.com/aa7sbrsctgbz",
+      "link": "https://to.indeed.com/aa2br7ksyxzg",
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "横浜市",
@@ -1098,18 +1142,6 @@
       "firstSeenAt": "2026-07-23T11:23:19.114Z"
     },
     {
-      "title": "「RINGO BAR」オープニングスタッフ募集（バーテンダー/BARのオープニングスタッフ）",
-      "link": "https://to.indeed.com/aa9w7pbmvqsb",
-      "source": "Indeed",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "横浜市",
-      "genres": [
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-29T00:06:40.706Z"
-    },
-    {
       "title": "株式会社mihaku オープニングスタッフ募集（飲食店のオープニングスタッフ・ホール接客(アルバイト)）",
       "link": "https://to.indeed.com/aagkns96nkbx",
       "source": "Indeed",
@@ -1118,6 +1150,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:24.015Z"
+    },
+    {
+      "title": "「RINGO BAR」オープニングスタッフ募集（バーテンダー/BARのオープニングスタッフ）",
+      "link": "https://to.indeed.com/aa9mnqpw97pf",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.706Z"
     },
     {
       "title": "株式会社凪スピリッツジャパン オープニングスタッフ募集（ホール/キッチン/洗い場 オープニングスタッフ募集 髪色自由…）",
@@ -1215,18 +1259,6 @@
       "firstSeenAt": "2026-07-30T01:01:39.424Z"
     },
     {
-      "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】 路地裏ダイニングの店舗スタッフ(正社員)）",
-      "link": "https://to.indeed.com/aar9b7ffqz8l",
-      "source": "Indeed",
-      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
-      "area": "横浜市",
-      "genres": [
-        "ダイニング"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-23T09:23:23.995Z"
-    },
-    {
       "title": "株式会社ウィルビー オープニングスタッフ募集（オープニング/飲食店の店舗運営スタッフ(正社員)）",
       "link": "https://to.indeed.com/aa6g4p7nw9lm",
       "source": "Indeed",
@@ -1307,6 +1339,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T00:10:55.198Z"
+    },
+    {
+      "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】 路地裏ダイニングの店舗スタッフ(正社員)）",
+      "link": "https://to.indeed.com/aammrx7r2rcz",
+      "source": "Indeed",
+      "pubDate": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "ダイニング"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-23T09:23:23.995Z"
     },
     {
       "title": "葉山に「Casa CABaN HAYAMA」が新オープン イタリアンモダンの粋と自然美が融合したホテル",
@@ -1399,7 +1443,7 @@
     },
     {
       "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】未経験可|おしゃれビストロのホールスタッフ(…）",
-      "link": "https://to.indeed.com/aad2yksw8m6t",
+      "link": "https://to.indeed.com/aabzl7vw4d7y",
       "source": "Indeed",
       "pubDate": "Tue, 14 Jul 2026 00:00:00 GMT",
       "area": "横浜市",
@@ -1469,6 +1513,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:23:21.375Z"
+    },
+    {
+      "title": "ＮＹＡＮＫＯ　ＧＲＯＵＰ株式会社 オープニングスタッフ募集（居酒屋のホール・キッチンスタッフ(おしゃれ大衆酒場/新店オー…）",
+      "link": "https://to.indeed.com/aasj6hchftsj",
+      "source": "Indeed",
+      "pubDate": "Sat, 11 Jul 2026 00:00:00 GMT",
+      "area": "大和市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T00:19:57.002Z"
     },
     {
       "title": "【この夏ついに】横浜中華街に新スポット誕生！！食べ歩きがもっと楽しくなる「鯉恋横丁（こいこいよこちょう）」が7月15日（水）10店舗同時にグランドオープン！",
