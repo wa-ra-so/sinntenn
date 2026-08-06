@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T02:57:36.234Z",
+  "generatedAt": "2026-08-06T06:36:05.557Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 13
+      "count": 14
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 28
+      "count": 26
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 288,
+  "itemCount": 289,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1728,6 +1728,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-06T00:52:36.676Z"
+    },
+    "ブルーロック": {
+      "storeName": "ブルーロック",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-06T06:36:05.556Z"
     }
   },
   "market": {
@@ -2298,6 +2311,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-02T03:27:31.990Z"
+    },
+    {
+      "title": "「ブルーロック」潔世一“勝ちの方程式”がパスタに！絵心甚八のメニューはサイコロ次第で変わる!? テーマカフェが東京・渋谷に期間限定オープン",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCQl9qLWFaMnpjbU5ZQXlpU0tLV2VQcUFXeXNRdVJJbF9Tc2lualV1eXV5Rkpmd3d3azIybGl0YlR6cW02T0dkWjFIVDYyb29KVGxaSWdsLUk4Z3NwS3ZBSnpR?oc=5",
+      "source": "アニメ！アニメ！",
+      "pubDate": "Sat, 01 Aug 2026 03:45:02 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-06T06:36:00.317Z"
     },
     {
       "title": "株式会社セレソン オープニングスタッフ募集（人気焼肉店ホールスタッフ|9月NewOPEN）",
@@ -4992,7 +5017,7 @@
     {
       "title": "東京・南青山にニッカウヰスキーのフラッグシップバー 7月オープン、多様な楽しみ方を発信へ",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aOFJLa2Z6bFlCM0tRSlVoVi1ObHowWkZVbjBhSzVwMXZxR044R1Z0QVdWSVpBdWF4OWRWUXM1bTVvdzFYYWxqMXZ2MTZ3ODYwOWJqZTdoem9CZEpfLUVQYw?oc=5",
-      "source": "shokuhin.net",
+      "source": "食品新聞 WEB版",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [

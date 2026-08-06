@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-06T02:57:47.175Z",
+  "generatedAt": "2026-08-06T06:36:14.050Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 98
+      "count": 97
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 79
+      "count": 78
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 18
+      "count": 20
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 43
+      "count": 42
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 121,
+  "itemCount": 122,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -509,16 +509,16 @@
     },
     "魚貝とろぼっち大船": {
       "storeName": "魚貝 とろぼっち 大船",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-07-30T06:33:03.273Z"
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ004660841/?vos=nhppalsa000016",
+      "shopName": "魚貝　とろぼっち　大船店",
+      "address": "神奈川県鎌倉市大船１丁目22-26",
+      "access": "JR大船駅より徒歩約3分",
+      "genre": "居酒屋",
+      "budget": "4001～5000円",
+      "capacity": 100,
+      "open": "月～金、祝前日: 17:00～23:00 （料理L.O. 22:00 ドリンクL.O. 22:30）土、日、祝日: 12:00～22:00 （料理L.O. 21:00 ドリンクL.O. 21:30）",
+      "checkedAt": "2026-08-06T06:36:13.081Z"
     },
     "プリヴェ": {
       "storeName": "プリヴェ",
@@ -689,7 +689,7 @@
     },
     "鎌倉市|居酒屋": {
       "count": 55,
-      "checkedAt": "2026-07-30T06:33:03.403Z"
+      "checkedAt": "2026-08-06T06:36:14.050Z"
     },
     "横浜市|イタリアン": {
       "count": 198,
@@ -713,6 +713,16 @@
     }
   },
   "items": [
+    {
+      "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/オープニング手当あり器用じゃなくても問題ナシ…）",
+      "link": "https://www.hatarako.net/job/9001048325/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Thu, 06 Aug 2026 05:04:41 GMT",
+      "area": "海老名市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T06:36:09.669Z"
+    },
     {
       "title": "株式会社フォンスCB オープニングスタッフ募集（レストランのホールスタッフ/「横浜駅に8月OPEN/オープニ…）",
       "link": "https://en-gage.net/user/search/desc/17372121/?aroute=1705",
@@ -810,7 +820,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
+      "source": "walkerplus.com",
       "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
       "area": "",
       "genres": [
@@ -900,9 +910,9 @@
     },
     {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
+      "link": "https://baitona-joshi.jp/shop/2232740/",
       "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
+      "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
       "genres": [
         "居酒屋"
@@ -1938,7 +1948,7 @@
     {
       "title": "【平塚市】中華の新店がオープン！紅谷町の「東北老式 麻辣湯」は2026年6月22日まで全品20％割引＋緑茶orコーラ等サービス中です！",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOWFVON04wNlA2NUtGNXh5VTVJVExwRDZhcU93aTVUdFVIZXZ6UHdQaEVHLXc2TXdHTXV5MVpoRDI5elpTaGdTWHN1a0xzcFcwV0YxUmxaR1VKTUY4a21xUV9n?oc=5",
-      "source": "hiratsuka.goguynet.jp",
+      "source": "地域ニュースサイト号外NET",
       "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
       "area": "平塚市",
       "genres": [
@@ -2063,7 +2073,7 @@
     {
       "title": "【三浦市】「レストラン北條」が2026年5月1日グランドオープン！葉山牛専門店「奥鎌倉北條」プロデュース",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUjNGR1p3bFdqQkxIYlYyQllWZXUxU2d5UjJaWXBxYnFjRXZvakFuNDlzWWxJd1k2N3RORnhBUkdDVFk1RzEzSEtfQjJTRER6WFJwNDFoajhXSHFuOF9IMHFmWGdTU2UyRnpV?oc=5",
-      "source": "湘南人",
+      "source": "shonanjin.com",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "三浦市",
       "genres": [

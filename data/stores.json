@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T02:57:22.709Z",
+  "generatedAt": "2026-08-06T06:35:56.029Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 5
+      "count": 7
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 51
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 127,
+  "itemCount": 128,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -453,7 +453,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T06:32:47.612Z"
+      "checkedAt": "2026-08-06T06:35:56.029Z"
     },
     "大地の恵み": {
       "storeName": "大地の恵み",
@@ -732,7 +732,7 @@
       "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
       "source": "ホットペッパーグルメ",
-      "pubDate": "Wed, 05 Aug 2026 20:08:48 GMT",
+      "pubDate": "Thu, 06 Aug 2026 01:12:57 GMT",
       "area": "千葉市中央区",
       "genres": [
         "居酒屋",
@@ -1170,6 +1170,18 @@
       "firstSeenAt": "2026-07-27T03:42:55.231Z"
     },
     {
+      "title": "株式会社RYコーポレーション オープニングスタッフ募集（ハワイアンカフェの副料理長候補/美浜区）",
+      "link": "https://ry-corporation.bizpla.jp/job/index/detail/id/1312608",
+      "source": "求人ボックス（株式会社RYコーポレーション_bizpla）",
+      "pubDate": "Thu, 23 Jul 2026 23:30:20 GMT",
+      "area": "千葉市美浜区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T06:35:51.660Z"
+    },
+    {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の接客/残業月10H/年休110日/社宅あり）",
       "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afccdc62f98",
       "source": "求人ボックス（グルスタ）",
@@ -1513,7 +1525,7 @@
     {
       "title": "千葉駅徒歩圏内にカフェダイニング「FLOWER CHEERS CAFE」が7月28日オープン",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ObHJZY2lIRnZzbjVoMTNhcnhNNUVid1k0SjhTbEYzdjlWNVJpU3JCQ21GanVYb2oxSUlsQl9fbEtqbWxBX3VvUl9mS0tHTVNLNWRtdnhZb2o5ZUNJWm0yaWRMWnBKRTd2ci1yYw?oc=5",
-      "source": "j-cast.com",
+      "source": "J-CAST ニュース",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "千葉市中央区",
       "genres": [
@@ -2118,7 +2130,7 @@
     {
       "title": "元山駅近く、五香南1丁目で何やら飲食店がオープンするかも、ベトナムカフェ「ハー・グエン」跡地",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZZ0U2OTFTTUJYSVF0bHVuZWJYaUpnVWVPOE1jSGRqX0tPOUYyemJrVkRPenNsbTRZV0xmN043TnhTYjZrVWo5RFJ1T1NwaGM?oc=5",
-      "source": "松戸つうしん",
+      "source": "matsudo-tsushin.com",
       "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
       "area": "松戸市",
       "genres": [
