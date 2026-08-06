@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-06T00:52:45.565Z",
+  "generatedAt": "2026-08-06T02:57:47.175Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 97
+      "count": 98
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 78
+      "count": 79
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 42
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -180,7 +180,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:22.699Z"
+      "checkedAt": "2026-08-06T02:57:46.718Z"
     },
     "牛タン木村屋溝口本店": {
       "storeName": "牛タン木村屋 溝口本店",
@@ -492,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:22.625Z"
+      "checkedAt": "2026-08-06T02:57:46.688Z"
     },
     "サンセリテ向ヶ丘遊園サーカス": {
       "storeName": "サンセリテ 向ヶ丘遊園サーカス",
@@ -505,7 +505,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:23.429Z"
+      "checkedAt": "2026-08-06T02:57:47.036Z"
     },
     "魚貝とろぼっち大船": {
       "storeName": "魚貝 とろぼっち 大船",
@@ -636,8 +636,8 @@
       "checkedAt": "2026-08-05T02:53:44.656Z"
     },
     "横浜市戸塚区|カフェ": {
-      "count": 8,
-      "checkedAt": "2026-07-30T02:46:23.633Z"
+      "count": 7,
+      "checkedAt": "2026-08-06T02:57:47.175Z"
     },
     "横浜市中区|居酒屋": {
       "count": 171,
@@ -684,8 +684,8 @@
       "checkedAt": "2026-08-05T02:53:44.421Z"
     },
     "平塚市|居酒屋": {
-      "count": 58,
-      "checkedAt": "2026-07-30T02:46:23.631Z"
+      "count": 55,
+      "checkedAt": "2026-08-06T02:57:47.168Z"
     },
     "鎌倉市|居酒屋": {
       "count": 55,
@@ -810,7 +810,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "walkerplus.com",
+      "source": "ウォーカープラス",
       "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
       "area": "",
       "genres": [
@@ -900,9 +900,9 @@
     },
     {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/",
+      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
       "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
+      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
       "area": "川崎市",
       "genres": [
         "居酒屋"
@@ -1938,7 +1938,7 @@
     {
       "title": "【平塚市】中華の新店がオープン！紅谷町の「東北老式 麻辣湯」は2026年6月22日まで全品20％割引＋緑茶orコーラ等サービス中です！",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOWFVON04wNlA2NUtGNXh5VTVJVExwRDZhcU93aTVUdFVIZXZ6UHdQaEVHLXc2TXdHTXV5MVpoRDI5elpTaGdTWHN1a0xzcFcwV0YxUmxaR1VKTUY4a21xUV9n?oc=5",
-      "source": "地域ニュースサイト号外NET",
+      "source": "hiratsuka.goguynet.jp",
       "pubDate": "Sat, 20 Jun 2026 07:00:00 GMT",
       "area": "平塚市",
       "genres": [

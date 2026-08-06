@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T00:52:37.053Z",
+  "generatedAt": "2026-08-06T02:57:36.234Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 15
+      "count": 13
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 27
+      "count": 28
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -622,7 +622,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.869Z"
+      "checkedAt": "2026-08-06T02:57:35.324Z"
     },
     "地鶏黒木屋銀座一丁目": {
       "storeName": "地鶏黒木屋 銀座一丁目",
@@ -635,7 +635,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:12.676Z"
+      "checkedAt": "2026-08-06T02:57:34.765Z"
     },
     "すたみな太郎next上野アメ横店": {
       "storeName": "すたみな太郎NEXT 上野アメ横店",
@@ -648,7 +648,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:12.284Z"
+      "checkedAt": "2026-08-06T02:57:34.278Z"
     },
     "串とメシにはサケキタル。": {
       "storeName": "串とメシにはサケキタル。",
@@ -661,7 +661,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.276Z"
+      "checkedAt": "2026-08-06T02:57:35.045Z"
     },
     "肉屋の台所新宿東口新店": {
       "storeName": "肉屋の台所 新宿東口新店",
@@ -674,7 +674,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.075Z"
+      "checkedAt": "2026-08-06T02:57:34.783Z"
     },
     "飯田橋大衆焼肉ばりとんっ": {
       "storeName": "飯田橋大衆焼肉 ばりとんっ",
@@ -700,7 +700,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.108Z"
+      "checkedAt": "2026-08-06T02:57:35.034Z"
     },
     "肉屋の台所飯田橋店": {
       "storeName": "肉屋の台所 飯田橋店",
@@ -739,7 +739,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.488Z"
+      "checkedAt": "2026-08-06T02:57:35.069Z"
     },
     "木村屋本店代々木西口": {
       "storeName": "木村屋本店 代々木西口",
@@ -752,7 +752,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.496Z"
+      "checkedAt": "2026-08-06T02:57:35.315Z"
     },
     "一天張": {
       "storeName": "一天張",
@@ -778,7 +778,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.846Z"
+      "checkedAt": "2026-08-06T02:57:35.455Z"
     },
     "シュラスコ&ビアバーゴッチバッタ銀座": {
       "storeName": "シュラスコ&ビアバー ゴッチバッタ銀座",
@@ -791,7 +791,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.658Z"
+      "checkedAt": "2026-08-06T02:57:35.330Z"
     },
     "fendercafe": {
       "storeName": "Fender Cafe",
@@ -1090,7 +1090,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:13.859Z"
+      "checkedAt": "2026-08-06T02:57:35.579Z"
     },
     "立呑み中華猫猫(マオマオ)": {
       "storeName": "立呑み中華 猫猫（マオマオ）",
@@ -1428,7 +1428,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:12.224Z"
+      "checkedAt": "2026-08-06T02:57:34.509Z"
     },
     "onn.〜goodtracklounge〜": {
       "storeName": "Onn. 〜Good Track Lounge〜",
@@ -1441,7 +1441,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T02:46:12.647Z"
+      "checkedAt": "2026-08-06T02:57:34.537Z"
     },
     "焼肉ホルモン青一はなれ": {
       "storeName": "焼肉ホルモン青一 はなれ",
@@ -1841,27 +1841,27 @@
     },
     "武蔵野市|フレンチ": {
       "count": 9,
-      "checkedAt": "2026-07-30T02:46:14.499Z"
+      "checkedAt": "2026-08-06T02:57:36.040Z"
     },
     "台東区|焼肉": {
-      "count": 104,
-      "checkedAt": "2026-07-30T02:46:14.089Z"
+      "count": 107,
+      "checkedAt": "2026-08-06T02:57:36.234Z"
     },
     "墨田区|居酒屋": {
       "count": 147,
-      "checkedAt": "2026-07-30T02:46:14.088Z"
+      "checkedAt": "2026-08-06T02:57:35.902Z"
     },
     "千代田区|焼肉": {
       "count": 92,
-      "checkedAt": "2026-07-30T02:46:14.282Z"
+      "checkedAt": "2026-08-06T02:57:35.736Z"
     },
     "江東区|バー": {
-      "count": 97,
-      "checkedAt": "2026-07-30T02:46:14.324Z"
+      "count": 94,
+      "checkedAt": "2026-08-06T02:57:36.042Z"
     },
     "渋谷区|バル": {
-      "count": 108,
-      "checkedAt": "2026-07-30T02:46:14.496Z"
+      "count": 109,
+      "checkedAt": "2026-08-06T02:57:35.735Z"
     },
     "武蔵野市|レストラン": {
       "count": 12,
@@ -1900,8 +1900,8 @@
       "checkedAt": "2026-08-04T10:44:48.906Z"
     },
     "目黒区|カフェ": {
-      "count": 57,
-      "checkedAt": "2026-07-30T02:46:14.705Z"
+      "count": 56,
+      "checkedAt": "2026-08-06T02:57:36.189Z"
     },
     "千代田区|中華": {
       "count": 145,
@@ -1980,16 +1980,16 @@
       "checkedAt": "2026-08-05T02:53:35.162Z"
     },
     "中央区|レストラン": {
-      "count": 380,
-      "checkedAt": "2026-07-30T02:46:14.129Z"
+      "count": 382,
+      "checkedAt": "2026-08-06T02:57:35.759Z"
     },
     "墨田区|バー": {
-      "count": 76,
-      "checkedAt": "2026-07-30T02:46:14.304Z"
+      "count": 78,
+      "checkedAt": "2026-08-06T02:57:35.889Z"
     },
     "葛飾区|カフェ": {
-      "count": 31,
-      "checkedAt": "2026-07-30T02:46:14.534Z"
+      "count": 30,
+      "checkedAt": "2026-08-06T02:57:36.193Z"
     },
     "杉並区|イタリアン": {
       "count": 35,
@@ -4900,7 +4900,7 @@
     {
       "title": "peace put／自由が丘に「ネオナイスバーガー」など3ブランド複合店6月18日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1URm8yZDBOOEJXRUhxS1BWZENzWFpUUkdKQjVQSFd1VWhYV05Xb2xwTFFJeHFYODFUVnNfbldDRlRLWVlkU2lLV1lvRmRybFFwOXduTw?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Wed, 17 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [
@@ -4992,7 +4992,7 @@
     {
       "title": "東京・南青山にニッカウヰスキーのフラッグシップバー 7月オープン、多様な楽しみ方を発信へ",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aOFJLa2Z6bFlCM0tRSlVoVi1ObHowWkZVbjBhSzVwMXZxR044R1Z0QVdWSVpBdWF4OWRWUXM1bTVvdzFYYWxqMXZ2MTZ3ODYwOWJqZTdoem9CZEpfLUVQYw?oc=5",
-      "source": "食品新聞 WEB版",
+      "source": "shokuhin.net",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [
