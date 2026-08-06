@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-06T09:12:06.357Z",
+  "generatedAt": "2026-08-06T10:44:51.017Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 98
+      "count": 99
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 78
+      "count": 79
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 18
+      "count": 20
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -349,7 +349,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:30:09.798Z"
+      "checkedAt": "2026-08-06T10:44:51.016Z"
     },
     "串焼きと煮込み筑前屋関内店": {
       "storeName": "串焼きと煮込み 筑前屋　関内店",
@@ -975,9 +975,9 @@
     },
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41WEZmQUZKSnhpQU9FdXg3azluQ3dzTHVPWjJSZ0tFbkNCbGVkOHk5SzVTUHdCWU04aUd0UnBMZTdIYjVjOXpzZFJXaw?oc=5",
-      "source": "ガジェット通信",
-      "pubDate": "Thu, 30 Jul 2026 02:15:35 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Thu, 30 Jul 2026 02:49:42 GMT",
       "area": "横浜市",
       "genres": [
         "ダイニング"

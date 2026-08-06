@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:12:00.605Z",
+  "generatedAt": "2026-08-06T10:44:40.493Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 26
+      "count": 27
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 74
+      "count": 76
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 13
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -804,7 +804,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:29:58.635Z"
+      "checkedAt": "2026-08-06T10:44:40.015Z"
     },
     "雲開キ": {
       "storeName": "雲開キ",
@@ -1103,7 +1103,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:29:59.153Z"
+      "checkedAt": "2026-08-06T10:44:40.266Z"
     },
     "オープニングスタッフ": {
       "storeName": "オープニングスタッフ",
@@ -1116,7 +1116,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:29:58.270Z"
+      "checkedAt": "2026-08-06T10:44:40.099Z"
     },
     "お酒の美術館": {
       "storeName": "お酒の美術館",
@@ -1480,7 +1480,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:29:58.641Z"
+      "checkedAt": "2026-08-06T10:44:39.620Z"
     },
     "shakirimeatdiner": {
       "storeName": "Shakiri Meat Diner",
@@ -1930,8 +1930,8 @@
       "checkedAt": "2026-08-06T02:57:36.189Z"
     },
     "千代田区|中華": {
-      "count": 145,
-      "checkedAt": "2026-07-30T10:29:59.378Z"
+      "count": 144,
+      "checkedAt": "2026-08-06T10:44:40.493Z"
     },
     "千代田区|居酒屋": {
       "count": 567,
@@ -2676,7 +2676,7 @@
     {
       "title": "【八王子】『串八本舗』姉妹店！気軽に楽しめるカジュアルビストロ『ハチとろ』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9faUpTTmRTSE1CUVA3emsweVN0RzNnZWFiYW9OdlA4MVRRREczUGZrdHdPY254Ti1HVlFJMEhSV1NtZ2FILXRLOVRwSFp2OW5iN2c?oc=5",
-      "source": "8dabe.com",
+      "source": "八王子ジャーニー",
       "pubDate": "Mon, 27 Jul 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [
@@ -3362,7 +3362,7 @@
     {
       "title": "【7/28オープン】八王子駅前に『お酒の美術館』が初出店！都まんじゅう隣",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVTJla18wX2MxOWEwWVp2LVgwa2F0TzdHajI4djNzdEp3YUNlMEhCNFE0WTZ5cWp3QXRaRS13ZllGUTNMY3RHNHdfQ1BOZmVwQUc3WDI0NA?oc=5",
-      "source": "8dabe.com",
+      "source": "八王子ジャーニー",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [],
@@ -4346,7 +4346,7 @@
     {
       "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VOEN2dmptM1pBRkR5Ry1VWl9veWhFWGVmbk5oY25oRkVWV2Q1WkNVTTI1Ykc4YjBjbm9OaVJPU2ZZZEN0aGhSTVJLNDRwRFU?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -4866,7 +4866,7 @@
     {
       "title": "日本初の常設店！パリ発の人気カフェ「ペーパーボーイ」千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuRG45RUFJRjRhbEoweUozVGFKeU5aMy1NMzVQc1YzN2d4RW15b0ZraGdGcUt4RHZ5SVpRZkZVMFBFU2oxRVhRdlFubDYzd28?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -4898,7 +4898,7 @@
     {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJWHNzcmJjSTlLaDhKN29fTF9Zbm5TN1EzS1lEM1Z4eFFXYWxBOXMzcUVPRWtJSVl4dUZ1bnY5T0ttbHdTVzhMQzhiRU1QMmM?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -5050,7 +5050,7 @@
     {
       "title": "東京・南青山にニッカウヰスキーのフラッグシップバー 7月オープン、多様な楽しみ方を発信へ",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aOFJLa2Z6bFlCM0tRSlVoVi1ObHowWkZVbjBhSzVwMXZxR044R1Z0QVdWSVpBdWF4OWRWUXM1bTVvdzFYYWxqMXZ2MTZ3ODYwOWJqZTdoem9CZEpfLUVQYw?oc=5",
-      "source": "食品新聞 WEB版",
+      "source": "shokuhin.net",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [
@@ -5307,7 +5307,7 @@
     {
       "title": "カフェを併設した「ピエール・エルメ・パリ」の新店が丸の内にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iMVQxYVp2a3h0ajE4OXVva3A5LUdqN3ItbDl2Yi1TczJmR2sxeU13RVFnNWZGbVY0NjB2em5PQlFreS1TZ253S010RlRnZlU?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "千代田区",
       "genres": [
@@ -5329,7 +5329,7 @@
     {
       "title": "人気寿司店“鮨よしかわ”の新店「鮨よしかわ 新 -ARATA- 六本木」オープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wbEJMdDhkRndxdEdENWxoamFBSGpKUEl3Wl9QS2RHMjctdHRLRXhIVnhoM0VRa1NOSE5HZi0zX1JoTmpiV0ZfSHRvRG9wdHc?oc=5",
-      "source": "レッツエンジョイ東京",
+      "source": "enjoytokyo.jp",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [

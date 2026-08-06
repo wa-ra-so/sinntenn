@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:12:12.105Z",
+  "generatedAt": "2026-08-06T10:45:01.856Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 72
+      "count": 71
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 58
+      "count": 61
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 107,
+  "itemCount": 108,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -388,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:30:18.402Z"
+      "checkedAt": "2026-08-06T10:45:00.778Z"
     },
     "オリーブの丘": {
       "storeName": "オリーブの丘",
@@ -401,7 +401,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:30:18.556Z"
+      "checkedAt": "2026-08-06T10:45:00.249Z"
     },
     "grilledsakanaworks": {
       "storeName": "Grilled Sakana Works",
@@ -642,11 +642,11 @@
     },
     "志木市|中華": {
       "count": 2,
-      "checkedAt": "2026-07-30T10:30:18.729Z"
+      "checkedAt": "2026-08-06T10:45:00.978Z"
     },
     "ふじみ野市|イタリアン": {
       "count": 2,
-      "checkedAt": "2026-07-30T10:30:18.758Z"
+      "checkedAt": "2026-08-06T10:45:01.855Z"
     },
     "春日部市|居酒屋": {
       "count": 40,
@@ -731,6 +731,10 @@
     "深谷市|焼肉": {
       "count": 6,
       "checkedAt": "2026-08-06T02:58:06.287Z"
+    },
+    "さいたま市|焼肉": {
+      "count": 110,
+      "checkedAt": "2026-08-06T10:45:01.002Z"
     }
   },
   "items": [
@@ -767,6 +771,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-05T02:53:48.698Z"
+    },
+    {
+      "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 完全人柄採用 家庭…）",
+      "link": "http://s.baitoru.com/dN0aXivu",
+      "source": "求人ボックス（バイトルNEXT）",
+      "pubDate": "Tue, 04 Aug 2026 09:38:39 GMT",
+      "area": "さいたま市",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T10:44:56.130Z"
     },
     {
       "title": "「おにくところも」オープニングスタッフ募集（店長候補/オープニングスタッフ/未経験OK）",
@@ -1224,7 +1240,7 @@
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン（埼玉新聞）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pOFFteWNocF9OM1V6Yy02NFI5QTFsLXhqVmJUVVkyUWI1TlJRMG80SjJlaGc0TllGQVlpbHdTcHh1MnlDQ2hDVTVYX0thUFF2cjJzVkVKSTRXdGM2YUNFWExFckU3akQ0Z1ozaFVLTVItVkhxLXdFUHhkeDdzcmc?oc=5",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1446,7 +1462,7 @@
     {
       "title": "『オモウマい店SP』能登の寿司店「津久司」再オープンに密着 埼玉の卵食べ放題食堂も（TV LIFE web）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OR3pBY18tdksxNzBnQlFJLS1ZeHpfQVZUVVJPM1pOZW1lYmxHLWQ3LTktUDNhRDdtZVc3a0NfZTR4ME5IcUpHd1pnMnJGYnQtck1vYU1Oa3hsYUhORDU0cXh4aFNRR0NCUm1wVTJzM3BFaFZ3R1lCNDRGNXFtbUE?oc=5",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [

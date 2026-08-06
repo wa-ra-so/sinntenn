@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:11:53.133Z",
+  "generatedAt": "2026-08-06T10:44:30.614Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 52
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -375,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-30T10:29:48.777Z"
+      "checkedAt": "2026-08-06T10:44:30.613Z"
     },
     "ムーンブルー": {
       "storeName": "ムーンブルー",
@@ -712,6 +712,26 @@
   },
   "items": [
     {
+      "title": "「成田食堂」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:30 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-02T06:38:01.554Z"
+    },
+    {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（料理長候補）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/1_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:30 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:05.569Z"
+    },
+    {
       "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
       "source": "ホットペッパーグルメ",
@@ -893,16 +913,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:29.186Z"
-    },
-    {
-      "title": "「成田食堂」オープニングスタッフ募集（料理長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/1_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Fri, 31 Jul 2026 10:08:23 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-02T06:38:01.554Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
@@ -1231,16 +1241,6 @@
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（料理長候補）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/1_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:09 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:05.569Z"
-    },
-    {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/10_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1520,8 +1520,8 @@
     },
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbEUtVnpBdWh3MWg1LW40N2J5a05DRGtXY0tidUtCN2gtcVlZRUcydFhMZ2pucW1zUmJ4cmtLdGEzeUUweXNEaGQxZ3pudw?oc=5",
-      "source": "アットプレス",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
