@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T06:35:56.029Z",
+  "generatedAt": "2026-08-06T09:11:53.133Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 128,
+  "itemCount": 127,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -155,19 +155,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-03T00:49:22.495Z"
-    },
-    "ハー・グエン": {
-      "storeName": "ハー・グエン",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-03T00:49:22.613Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -609,10 +596,6 @@
     "八千代市|寿司": {
       "count": 5,
       "checkedAt": "2026-08-03T00:49:23.722Z"
-    },
-    "松戸市|カフェ": {
-      "count": 31,
-      "checkedAt": "2026-08-03T00:49:23.810Z"
     },
     "柏市|フレンチ": {
       "count": 8,
@@ -1537,8 +1520,8 @@
     },
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "Newscast.jp",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbEUtVnpBdWh3MWg1LW40N2J5a05DRGtXY0tidUtCN2gtcVlZRUcydFhMZ2pucW1zUmJ4cmtLdGEzeUUweXNEaGQxZ3pudw?oc=5",
+      "source": "アットプレス",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -2124,18 +2107,6 @@
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
-    },
-    {
-      "title": "元山駅近く、五香南1丁目で何やら飲食店がオープンするかも、ベトナムカフェ「ハー・グエン」跡地",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZZ0U2OTFTTUJYSVF0bHVuZWJYaUpnVWVPOE1jSGRqX0tPOUYyemJrVkRPenNsbTRZV0xmN043TnhTYjZrVWo5RFJ1T1NwaGM?oc=5",
-      "source": "matsudo-tsushin.com",
-      "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
-      "area": "松戸市",
-      "genres": [
-        "カフェ"
-      ],
       "signal": "opening",
       "firstSeenAt": "2026-07-09T22:38:36.796Z"
     }

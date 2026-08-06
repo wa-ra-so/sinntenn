@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T06:36:20.940Z",
+  "generatedAt": "2026-08-06T09:12:12.105Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 71
+      "count": 72
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 57
+      "count": 58
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 4
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 109,
+  "itemCount": 107,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -168,19 +168,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-04T02:58:21.530Z"
-    },
-    "s°(エスド)": {
-      "storeName": "S°（エスド）",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-04T02:58:21.822Z"
     },
     "蕎⻨きりみよた与野店": {
       "storeName": "蕎⻨きり みよた 与野店",
@@ -558,19 +545,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-03T07:33:27.705Z"
-    },
-    "ロピア加須ビバモール店": {
-      "storeName": "ロピア 加須ビバモール店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-06T00:52:55.110Z"
     }
   },
   "market": {
@@ -760,16 +734,6 @@
     }
   },
   "items": [
-    {
-      "title": "「ロピア 加須ビバモール店」オープニングスタッフ募集（オープニングスタッフ/スーパーの試食販売スタッフ/ロピア/加…）",
-      "link": "https://job-gear.net/lopiasaiyo2/AE0730630031/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ロピア）",
-      "pubDate": "Wed, 05 Aug 2026 18:35:57 GMT",
-      "area": "加須市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-06T00:52:50.217Z"
-    },
     {
       "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
       "link": "https://grsta.jp/manuscript/0a0601c4-9fc7-1a60-819f-cdef59e4021d",
@@ -1050,7 +1014,7 @@
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
-      "source": "キャンプファイヤー",
+      "source": "camp-fire.jp",
       "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
       "area": "加須市",
       "genres": [
@@ -1248,7 +1212,7 @@
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByd3Zaek9kckE4a1ZMeV9NNGotS1pRdWhqekpXSncyaTBEYmpiRVNiMDVTdF9kSVlhY1pQZXJvbkZuY28tNGhCWUlBbw?oc=5",
-      "source": "47news.jp",
+      "source": "47NEWS",
       "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1260,7 +1224,7 @@
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン（埼玉新聞）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pOFFteWNocF9OM1V6Yy02NFI5QTFsLXhqVmJUVVkyUWI1TlJRMG80SjJlaGc0TllGQVlpbHdTcHh1MnlDQ2hDVTVYX0thUFF2cjJzVkVKSTRXdGM2YUNFWExFckU3akQ0Z1ozaFVLTVItVkhxLXdFUHhkeDdzcmc?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1482,7 +1446,7 @@
     {
       "title": "『オモウマい店SP』能登の寿司店「津久司」再オープンに密着 埼玉の卵食べ放題食堂も（TV LIFE web）",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OR3pBY18tdksxNzBnQlFJLS1ZeHpfQVZUVVJPM1pOZW1lYmxHLWQ3LTktUDNhRDdtZVc3a0NfZTR4ME5IcUpHd1pnMnJGYnQtck1vYU1Oa3hsYUhORDU0cXh4aFNRR0NCUm1wVTJzM3BFaFZ3R1lCNDRGNXFtbUE?oc=5",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "pubDate": "Tue, 14 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -2015,18 +1979,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T00:39:14.716Z"
-    },
-    {
-      "title": "カフェとサウナが一体の店「S°（エスド）」 カフェ先行オープン モノトーンのかき氷はサウナイメージ 「五感で楽しめる新感覚かき氷」 埼玉県本庄市",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9kZHlQTzVuMXJvLS1PVlBINDRUUXd3ZXZsREl3SkZFQk9sTV9vcmVrUVhDV2x0VXJ0NGhURGZNTEVWWDVoeDVfT2NqU0t2aENBdGxfbVVuWQ?oc=5",
-      "source": "埼玉新聞",
-      "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT",
-      "area": "本庄市",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:52.270Z"
     }
   ]
 }

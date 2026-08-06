@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T06:36:05.557Z",
+  "generatedAt": "2026-08-06T09:12:00.605Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 66
+      "count": 74
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 289,
+  "itemCount": 291,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1741,6 +1741,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-06T06:36:05.556Z"
+    },
+    "setinn/paperboy": {
+      "storeName": "Setinn / paperboy",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-06T09:12:00.604Z"
     }
   },
   "market": {
@@ -2059,6 +2072,16 @@
   },
   "items": [
     {
+      "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
+      "link": "https://www.hatarako.net/job/9001360160/",
+      "source": "求人ボックス（はたらこねっと）",
+      "pubDate": "Thu, 06 Aug 2026 05:04:27 GMT",
+      "area": "千代田区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:19:48.139Z"
+    },
+    {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
       "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
       "source": "求人ボックス（山二林産株式会社）",
@@ -2070,6 +2093,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "株式会社Perslink オープニングスタッフ募集（ホール/キッチン 飲食店ホールスタッフ募集 給与30万~未経…）",
+      "link": "https://saiyo.page/526110/job/106143557/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 05 Aug 2026 20:05:26 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T09:11:57.199Z"
     },
     {
       "title": "株式会社ワンダーテーブル オープニングスタッフ募集（ビアホールのホールスタッフ/「オープニング時給1500円～」…）",
@@ -2643,7 +2676,7 @@
     {
       "title": "【八王子】『串八本舗』姉妹店！気軽に楽しめるカジュアルビストロ『ハチとろ』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9faUpTTmRTSE1CUVA3emsweVN0RzNnZWFiYW9OdlA4MVRRREczUGZrdHdPY254Ti1HVlFJMEhSV1NtZ2FILXRLOVRwSFp2OW5iN2c?oc=5",
-      "source": "八王子ジャーニー",
+      "source": "8dabe.com",
       "pubDate": "Mon, 27 Jul 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [
@@ -2883,16 +2916,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-22T22:08:55.695Z"
-    },
-    {
-      "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
-      "link": "https://www.hatarako.net/job/9001160733/",
-      "source": "求人ボックス（はたらこねっと）",
-      "pubDate": "Thu, 23 Jul 2026 06:43:58 GMT",
-      "area": "千代田区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:48.139Z"
     },
     {
       "title": "「木村屋本店 虎ノ門一丁目」オープニングスタッフ募集（調理師）",
@@ -3339,7 +3362,7 @@
     {
       "title": "【7/28オープン】八王子駅前に『お酒の美術館』が初出店！都まんじゅう隣",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqVTJla18wX2MxOWEwWVp2LVgwa2F0TzdHajI4djNzdEp3YUNlMEhCNFE0WTZ5cWp3QXRaRS13ZllGUTNMY3RHNHdfQ1BOZmVwQUc3WDI0NA?oc=5",
-      "source": "八王子ジャーニー",
+      "source": "8dabe.com",
       "pubDate": "Sun, 19 Jul 2026 07:00:00 GMT",
       "area": "八王子市",
       "genres": [],
@@ -4861,6 +4884,16 @@
       "genres": [],
       "signal": "opening",
       "firstSeenAt": "2026-08-06T00:52:30.474Z"
+    },
+    {
+      "title": "ビームス、東京・千駄ヶ谷に「Setinn / paperboy」を2026年7月4日(土)にオープン",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HYWtKZjJZSi1wYXpFMTNnbGx4OVFGN29TdDM1R2RlTlJydXhrS0I4d3Y1SUFtM2tmMDY5OTFueFVJYlNGb3c5czlpNzZDeWVHdVFiZHNrMFFWeEIxVXNhOHdkc3VJTEZuYUE?oc=5",
+      "source": "PR TIMES",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-06T09:11:57.247Z"
     },
     {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",

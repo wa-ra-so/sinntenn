@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-06T06:36:14.050Z",
+  "generatedAt": "2026-08-06T09:12:06.357Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 97
+      "count": 98
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 20
+      "count": 18
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -820,7 +820,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "walkerplus.com",
+      "source": "ウォーカープラス",
       "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
       "area": "",
       "genres": [
@@ -914,9 +914,7 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -2073,7 +2071,7 @@
     {
       "title": "【三浦市】「レストラン北條」が2026年5月1日グランドオープン！葉山牛専門店「奥鎌倉北條」プロデュース",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUjNGR1p3bFdqQkxIYlYyQllWZXUxU2d5UjJaWXBxYnFjRXZvakFuNDlzWWxJd1k2N3RORnhBUkdDVFk1RzEzSEtfQjJTRER6WFJwNDFoajhXSHFuOF9IMHFmWGdTU2UyRnpV?oc=5",
-      "source": "shonanjin.com",
+      "source": "湘南人",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "三浦市",
       "genres": [
