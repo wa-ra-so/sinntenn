@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-08-06T00:36:12.222Z"
     }
   ],
-  "itemCount": 122,
+  "itemCount": 125,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -718,6 +724,16 @@
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
+      "title": "株式会社折原 オープニングスタッフ募集（【新規オープン】珍しい日本酒に囲まれた角打ち店/カウンター販…）",
+      "link": "https://to.indeed.com/aacyg2pp8fz4",
+      "source": "Indeed",
+      "pubDate": "Wed, 05 Aug 2026 00:00:00 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T00:36:12.220Z"
+    },
+    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
@@ -771,7 +787,7 @@
     },
     {
       "title": "株式会社ｐａｌａｃｅ オープニングスタッフ募集（居酒屋オープニングスタッフ）",
-      "link": "https://to.indeed.com/aa4wqcjb4hfj",
+      "link": "https://to.indeed.com/aabtg27bjlwz",
       "source": "Indeed",
       "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
       "area": "船橋市",
@@ -780,6 +796,30 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.767Z"
+    },
+    {
+      "title": "株式会社チル オープニングスタッフ募集（完全新規OPENのシーシャバー）",
+      "link": "https://to.indeed.com/aadd4tpzt2dq",
+      "source": "Indeed",
+      "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T00:36:12.220Z"
+    },
+    {
+      "title": "株式会社チル オープニングスタッフ募集（完全新規OPENのシーシャバー社員）",
+      "link": "https://to.indeed.com/aad26b8pdm98",
+      "source": "Indeed",
+      "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T00:36:12.221Z"
     },
     {
       "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
@@ -918,7 +958,7 @@
     },
     {
       "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】カジュアルな居酒屋のホール　調理スタッフ(正…）",
-      "link": "https://to.indeed.com/aawwspynkvyk",
+      "link": "https://to.indeed.com/aarlj84vzc2p",
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "船橋市",
@@ -930,7 +970,7 @@
     },
     {
       "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】未経験可/居酒屋のホールスタッフ(アルバイト…）",
-      "link": "https://to.indeed.com/aah4kqf2x2lb",
+      "link": "https://to.indeed.com/aa2khxj4hxgp",
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "船橋市",
@@ -1013,16 +1053,6 @@
       "firstSeenAt": "2026-07-31T00:37:37.880Z"
     },
     {
-      "title": "株式会社八街未来都市 オープニングスタッフ募集（オープニング×リゾートホテルの調理スタッフ）",
-      "link": "https://to.indeed.com/aakw7gzyc8j2",
-      "source": "Indeed",
-      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
-      "area": "八街市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:42:55.231Z"
-    },
-    {
       "title": "株式会社八街未来都市 オープニングスタッフ募集（オープニング×リゾートホテルのレストランホール）",
       "link": "https://to.indeed.com/aant4sfdsvnj",
       "source": "Indeed",
@@ -1033,6 +1063,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T00:37:37.879Z"
+    },
+    {
+      "title": "株式会社八街未来都市 オープニングスタッフ募集（オープニング×リゾートホテルの調理スタッフ）",
+      "link": "https://to.indeed.com/aackrmpjvzbm",
+      "source": "Indeed",
+      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
+      "area": "八街市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.231Z"
     },
     {
       "title": "株式会社いろり千葉 オープニングスタッフ募集（居酒屋のキッチン/賞与3ヵ月分/午後出勤/ネイル可）",
@@ -1810,16 +1850,6 @@
       "firstSeenAt": "2026-07-09T22:38:36.793Z"
     },
     {
-      "title": "株式会社　山商 オープニングスタッフ募集（【立ち飲み屋】オープニングスタッフ）",
-      "link": "https://to.indeed.com/aagw62czcwfh",
-      "source": "Indeed",
-      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T09:07:42.682Z"
-    },
-    {
       "title": "株式会社HFPカンパニー オープニングスタッフ募集（8月オープン。スイーツづくりを楽しむセントラルキッチンクルー）",
       "link": "https://to.indeed.com/aa4phlwy8md6",
       "source": "Indeed",
@@ -1830,8 +1860,18 @@
       "firstSeenAt": "2026-07-13T09:07:42.688Z"
     },
     {
+      "title": "株式会社　山商 オープニングスタッフ募集（【立ち飲み屋】オープニングスタッフ）",
+      "link": "https://to.indeed.com/aap7x49n2b9j",
+      "source": "Indeed",
+      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T09:07:42.682Z"
+    },
+    {
       "title": "ＮＥＸＴ　ＧＡＴＥ　ＦＯＯＤ　ＲＥＬＡＴＩＯＮＳ株式会社 オープニングスタッフ募集（オープニングスタッフ|ダーツバーのホールスタッフ）",
-      "link": "https://to.indeed.com/aamy2ggdtyzw",
+      "link": "https://to.indeed.com/aadvyg7jf6mr",
       "source": "Indeed",
       "pubDate": "Mon, 29 Jun 2026 00:00:00 GMT",
       "area": "千葉市中央区",
