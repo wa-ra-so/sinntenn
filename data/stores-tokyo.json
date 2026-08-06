@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:41:46.555Z",
+  "generatedAt": "2026-08-06T00:52:37.053Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 14
+      "count": 15
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -48,28 +48,22 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 76
+      "count": 66
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 11
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
-      "ok": true,
-      "count": 11,
-      "mergedAt": "2026-08-06T00:36:12.285Z"
     }
   ],
-  "itemCount": 287,
+  "itemCount": 288,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -576,7 +570,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T10:44:40.008Z"
+      "checkedAt": "2026-08-06T00:52:35.814Z"
     },
     "l’astokyo": {
       "storeName": "L’AS TOKYO",
@@ -589,7 +583,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T10:44:39.800Z"
+      "checkedAt": "2026-08-06T00:52:36.598Z"
     },
     "無添蔵新宿店": {
       "storeName": "無添蔵 新宿店",
@@ -602,7 +596,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T10:44:40.150Z"
+      "checkedAt": "2026-08-06T00:52:36.667Z"
     },
     "恵比寿駅前寿司": {
       "storeName": "恵比寿駅前寿司",
@@ -615,7 +609,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T10:44:39.425Z"
+      "checkedAt": "2026-08-06T00:52:36.201Z"
     },
     "crêpedujour": {
       "storeName": "Crêpe du jour",
@@ -1408,7 +1402,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T10:44:39.944Z"
+      "checkedAt": "2026-08-06T00:52:36.310Z"
     },
     "胡桃茶家": {
       "storeName": "胡桃茶家",
@@ -1708,6 +1702,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-05T10:41:46.360Z"
+    },
+    "銀座焼肉神威(カムイ)": {
+      "storeName": "銀座焼肉 神威(カムイ)",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-06T00:52:36.294Z"
+    },
+    "girlsbarmercury": {
+      "storeName": "Girlsbar Mercury",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-06T00:52:36.676Z"
     }
   },
   "market": {
@@ -1809,15 +1829,15 @@
     },
     "港区|フレンチ": {
       "count": 70,
-      "checkedAt": "2026-07-29T10:44:40.326Z"
+      "checkedAt": "2026-08-06T00:52:37.053Z"
     },
     "目黒区|フレンチ": {
       "count": 14,
-      "checkedAt": "2026-07-29T10:44:40.360Z"
+      "checkedAt": "2026-08-06T00:52:36.851Z"
     },
     "新宿区|寿司": {
-      "count": 100,
-      "checkedAt": "2026-07-29T10:44:40.349Z"
+      "count": 98,
+      "checkedAt": "2026-08-06T00:52:37.053Z"
     },
     "武蔵野市|フレンチ": {
       "count": 9,
@@ -2014,9 +2034,30 @@
     "渋谷区|焼肉": {
       "count": 151,
       "checkedAt": "2026-08-05T10:41:46.554Z"
+    },
+    "港区|ビストロ": {
+      "count": 57,
+      "checkedAt": "2026-08-06T00:52:36.880Z"
+    },
+    "台東区|ダイニング": {
+      "count": 47,
+      "checkedAt": "2026-08-06T00:52:36.884Z"
     }
   },
   "items": [
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Wed, 05 Aug 2026 20:51:55 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
     {
       "title": "株式会社ワンダーテーブル オープニングスタッフ募集（ビアホールのホールスタッフ/「オープニング時給1500円～」…）",
       "link": "https://en-gage.net/user/search/desc/16282744/?aroute=1705",
@@ -2070,19 +2111,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-01T03:27:46.846Z"
-    },
-    {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Tue, 04 Aug 2026 20:52:21 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
     },
     {
       "title": "株式会社Army Ant オープニングスタッフ募集（【オープニング】オシャレな上質空間|イタリアン&カフェの飲食…）",
@@ -2193,7 +2221,7 @@
     {
       "title": "大衆居酒屋とイタリアンのいいとこどり「大衆イタリアンかね子 吉祥寺店」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nbEF1dndlNEtaR3p4MEZnU19SOW83MzlWMkdneF9GQnBJQm5LZVdfN3gxaVpwcTd4QVp5NjIwYWFRZXRWR1RxZVBWTU5MUVRwZm9EeHRKOVBtaVk?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Sun, 02 Aug 2026 22:30:44 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -2822,7 +2850,7 @@
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -2995,9 +3023,7 @@
       "source": "Indeed",
       "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
       "area": "中央区",
-      "genres": [
-        "バー"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
@@ -3818,9 +3844,9 @@
     },
     {
       "title": "【東京都品川区】新スタイルのイタリアンバル「SOSTA ～pizza＆legame～」が五反田にオープン",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5URXBDYXlscmhhckFNZzM5dnNyMFNEZ1VGX2k5NGpxV2dLX2phMlpsUGMxNkRtV3ZBMWlMS3d6MVZ0RHh1MDA0TV91aw?oc=5",
-      "source": "ガジェット通信",
-      "pubDate": "Thu, 09 Jul 2026 11:30:12 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBST0JVVmtQaFBUVUcyYlhMbEpDRDNRRFBTcktITDA1QmcyTkZseVFBVzVZVi1pekluS3BZS0RPcmt4Undjd2lvUm9yX2Q2MzA4ZTVz?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Thu, 09 Jul 2026 12:33:45 GMT",
       "area": "品川区",
       "genres": [
         "バル",
@@ -4027,7 +4053,7 @@
     {
       "title": "吉祥寺に名古屋発の厚切り牛タン黒毛和牛食べ放題専門店「焼肉 朧」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWl9KWFFnajA5YkFrRC1aNkNxVUVaMXB2X0cxWnRfM0o1eElNajhxSXQ1U01Lc2NBYkl3MFBVWUEybDlJQ3lqT2pwOVMwTm9KeC1SV1FUOHp2RjQ?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -4180,7 +4206,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4525,7 +4551,7 @@
       "link": "https://to.indeed.com/aal8g49xjphm",
       "source": "Indeed",
       "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "area": "渋谷区",
+      "area": "港区",
       "genres": [
         "カフェ"
       ],
@@ -4537,7 +4563,7 @@
       "link": "https://to.indeed.com/aatfy7tdgfrb",
       "source": "Indeed",
       "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "area": "渋谷区",
+      "area": "港区",
       "genres": [
         "カフェ"
       ],
@@ -4800,6 +4826,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-14T21:49:23.402Z"
+    },
+    {
+      "title": "武蔵小杉で売上No.1を記録した店主が銀座で独立 深夜0時開店の「Girlsbar Mercury」オープン",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yLUM3TDVpZWRoZ0h1Rml5NUtPUE5VWjNSaURHSlpRSzJ0RVhNQVJWczNHN2FYdnUzZ2JyNU5fcnZYUm0zdm1F?oc=5",
+      "source": "Newscast.jp",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "area": "中央区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-06T00:52:30.474Z"
     },
     {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",
@@ -5114,7 +5150,7 @@
     {
       "title": "下北沢SPREAD系列の新バー「YATE」がオープン ｜ 七夕にオープニングイベント開催",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1kNTh2SjJBR2I5d1o2MUJOVC1TUGZjNWl6cjFiWGJqd3VqM2c4emh6LXRkcXRiQ3NaV0p0Y25DVHpuQTRUcHBUbE9OV0Z5V3Mya1NRS2lQRnFWRUpy?oc=5",
-      "source": "spincoaster.com",
+      "source": "Spincoaster（スピンコースター）",
       "pubDate": "Thu, 11 Jun 2026 07:00:00 GMT",
       "area": "世田谷区",
       "genres": [

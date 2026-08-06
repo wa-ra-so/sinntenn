@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T10:41:36.228Z",
+  "generatedAt": "2026-08-06T00:52:25.620Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,28 +48,22 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 52
+      "count": 50
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 9
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
-      "ok": true,
-      "count": 3,
-      "mergedAt": "2026-08-06T00:36:12.222Z"
     }
   ],
-  "itemCount": 125,
+  "itemCount": 126,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -355,7 +349,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T10:44:27.467Z"
+      "checkedAt": "2026-08-06T00:52:25.253Z"
     },
     "成田食堂": {
       "storeName": "成田食堂",
@@ -368,7 +362,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-29T10:44:27.974Z"
+      "checkedAt": "2026-08-06T00:52:25.083Z"
     },
     "地方創生/館山": {
       "storeName": "地方創生/館山",
@@ -434,19 +428,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-07-31T10:44:44.485Z"
-    },
-    "センチュリー21": {
-      "storeName": "センチュリー21",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-02T06:38:04.842Z"
     },
     "土用の丑の日": {
       "storeName": "土用の丑の日",
@@ -564,6 +545,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-04T06:31:53.385Z"
+    },
+    "+cbagel": {
+      "storeName": "+C Bagel",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-06T00:52:24.678Z"
     }
   },
   "market": {
@@ -641,11 +635,11 @@
     },
     "松戸市|居酒屋": {
       "count": 77,
-      "checkedAt": "2026-07-29T10:44:28.790Z"
+      "checkedAt": "2026-08-06T00:52:25.620Z"
     },
     "成田市|居酒屋": {
       "count": 36,
-      "checkedAt": "2026-07-29T10:44:28.168Z"
+      "checkedAt": "2026-08-06T00:52:25.464Z"
     },
     "香取市|レストラン": {
       "count": 0,
@@ -710,9 +704,62 @@
     "松戸市|焼肉": {
       "count": 34,
       "checkedAt": "2026-08-05T02:53:24.432Z"
+    },
+    "千葉市美浜区|カフェ": {
+      "count": 15,
+      "checkedAt": "2026-08-06T00:52:25.439Z"
+    },
+    "船橋市|バー": {
+      "count": 55,
+      "checkedAt": "2026-08-06T00:52:25.459Z"
     }
   },
   "items": [
+    {
+      "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
+      "source": "ホットペッパーグルメ",
+      "pubDate": "Wed, 05 Aug 2026 20:08:48 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "居酒屋",
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-04T02:57:37.537Z"
+    },
+    {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Wed, 05 Aug 2026 19:02:36 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
+      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（BOSOSWEETS/店長・サブ・マネージャーの正社員募集/…）",
+      "link": "https://agent.ida-mode.com/detail/100451?st=100451",
+      "source": "求人ボックス（iDA転職エージェント）",
+      "pubDate": "Wed, 05 Aug 2026 09:41:05 GMT",
+      "area": "浦安市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T02:53:19.632Z"
+    },
+    {
+      "title": "船橋市本町2丁目のワインバー内に天然酵母ベーグル専門店「+C Bagel」が7/31（木）オープン",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xTzlmMmV4Qk9TNUxWRDFGTTJwNWpJRjhCazJlY3A3LWJHc0FTMWtmSXBYRGpsTElrSXJuYlk5Z05JS1JYV0h2bFNqVU1GTDE0T3c?oc=5",
+      "source": "船橋つうしん",
+      "pubDate": "Wed, 05 Aug 2026 09:36:57 GMT",
+      "area": "船橋市",
+      "genres": [
+        "バー"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-06T00:52:20.230Z"
+    },
     {
       "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
       "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
@@ -732,16 +779,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-06T00:36:12.220Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Tue, 04 Aug 2026 18:54:16 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "株式会社オートウェーブ 総務課 オープニングスタッフ募集（わらび餅専門店での販売・キッチンスタッフ/オープニング/未経…）",
@@ -764,16 +801,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-08-05T02:53:19.664Z"
-    },
-    {
-      "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（BOSOSWEETS/店長・サブ・マネージャーの正社員募集/…）",
-      "link": "https://agent.ida-mode.com/detail/100451?st=100451",
-      "source": "求人ボックス（iDA転職エージェント）",
-      "pubDate": "Tue, 04 Aug 2026 09:35:05 GMT",
-      "area": "浦安市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-05T02:53:19.632Z"
     },
     {
       "title": "柏駅東口近くにBAR「お酒の美術館 柏店」が6/22（月）オープン、希少ウイスキーが1杯500円から",
@@ -820,19 +847,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-06T00:36:12.221Z"
-    },
-    {
-      "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
-      "source": "ホットペッパーグルメ",
-      "pubDate": "Sat, 01 Aug 2026 15:44:03 GMT",
-      "area": "千葉市中央区",
-      "genres": [
-        "居酒屋",
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-08-04T02:57:37.537Z"
     },
     {
       "title": "株式会社ジェイウェイブ オープニングスタッフ募集（フォークリフトで運搬）",
@@ -994,7 +1008,7 @@
       "title": "船橋市本町に「PHILOCOFFEA旧焙煎所」が7/31（金）オープン、バリスタ世界王者の原点の場所が新カフェに",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54MG9qeEdHMllxdnFHQ0l2YnVpQnFEMV9EaFdFN251QjVnSFlNdTRJWml0TEJ3Sms2Vkh5eXE4M05wcXQ4cUtXSjlnZFJjaUZDbnc?oc=5",
       "source": "船橋つうしん",
-      "pubDate": "Tue, 28 Jul 2026 00:56:16 GMT",
+      "pubDate": "Tue, 28 Jul 2026 07:00:00 GMT",
       "area": "船橋市",
       "genres": [
         "カフェ"
@@ -1085,6 +1099,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-24T03:17:00.238Z"
+    },
+    {
+      "title": "株式会社RYコーポレーション オープニングスタッフ募集（ハワイアンカフェの店長候補）",
+      "link": "https://ry-corporation.bizpla.jp/job/index/detail/id/1312605",
+      "source": "求人ボックス（株式会社RYコーポレーション_bizpla）",
+      "pubDate": "Fri, 24 Jul 2026 23:30:20 GMT",
+      "area": "千葉市美浜区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T00:52:20.142Z"
     },
     {
       "title": "株式会社折原 オープニングスタッフ募集（【新規オープン】珍しい日本酒に囲まれた角打ち店/販売スタッフ…）",
@@ -1452,8 +1478,8 @@
     },
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbEUtVnpBdWh3MWg1LW40N2J5a05DRGtXY0tidUtCN2gtcVlZRUcydFhMZ2pucW1zUmJ4cmtLdGEzeUUweXNEaGQxZ3pudw?oc=5",
-      "source": "アットプレス",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -1896,7 +1922,7 @@
     {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
-      "source": "chibanippo.co.jp",
+      "source": "千葉日報オンライン",
       "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [
@@ -2021,16 +2047,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-05T00:19:45.394Z"
-    },
-    {
-      "title": "「センチュリー21」オープニングスタッフ募集（不動産/営業アシスタント/販売 オープニング募集 接客経験歓…）",
-      "link": "http://s.baitoru.com/dN0aRQWR",
-      "source": "求人ボックス（バイトルNEXT）",
-      "pubDate": "Tue, 09 Jun 2026 17:33:16 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-26T03:29:22.012Z"
     },
     {
       "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",

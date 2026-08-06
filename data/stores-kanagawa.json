@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-05T10:41:54.025Z",
+  "generatedAt": "2026-08-06T00:52:45.565Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 96
+      "count": 97
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 79
+      "count": 78
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -42,34 +42,28 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 45
+      "count": 42
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 5
+      "count": 7
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 4,
-      "mergedAt": "2026-08-06T00:36:12.353Z"
     }
   ],
-  "itemCount": 123,
+  "itemCount": 121,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -565,19 +559,6 @@
       "open": "",
       "checkedAt": "2026-08-04T10:44:58.751Z"
     },
-    "pacifictable": {
-      "storeName": "PACIFIC TABLE",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-04T10:44:59.033Z"
-    },
     "鎌倉を、飲む。": {
       "storeName": "鎌倉を、飲む。",
       "listed": false,
@@ -631,8 +612,8 @@
       "checkedAt": "2026-08-04T02:58:05.991Z"
     },
     "川崎市|ダイニング": {
-      "count": 65,
-      "checkedAt": "2026-07-29T10:44:48.807Z"
+      "count": 64,
+      "checkedAt": "2026-08-06T00:52:45.565Z"
     },
     "葉山町|イタリアン": {
       "count": 0,
@@ -746,9 +727,9 @@
     },
     {
       "title": "【神奈川県藤沢市】地域コミュニティを育てるeスポーツゲーミングカフェ「ONeZONE湘南台」がプレオープン",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0OC02bEZZVldKZkQ1aTgzX3lseko3a3BEQ0pKdTFTV3dHN0RadTBCWFp6QlpjVmI4NFJ3TWtwcjRaX2tNWXZ4Z3ltQQ?oc=5",
-      "source": "ガジェット通信",
-      "pubDate": "Wed, 05 Aug 2026 05:00:25 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wUjVMRExscUJPbGZqRmdJc29FcklEY2M3N01XNXJDWXpQczVzUUJlcEtpcHJwRFhzR0k1dG9BbnNjSzRvNFlrRVdkMHVLOHJnZjNZ?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Wed, 05 Aug 2026 05:41:38 GMT",
       "area": "藤沢市",
       "genres": [
         "カフェ"
@@ -829,7 +810,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
+      "source": "walkerplus.com",
       "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
       "area": "",
       "genres": [
@@ -878,18 +859,6 @@
       "firstSeenAt": "2026-08-05T00:19:57.017Z"
     },
     {
-      "title": "ウェスティンホテル横浜にインターナショナル・ビュッフェ・レストラン「PACIFIC TABLE」がオープン",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkbkpLaUdWVThHZEM4WDVLalJrams2Znp1RGVFSjFJOFBFcllsUFRsLVRTTE9CRVNhd3Q3emVUeE1YazhNUWppTWJzMXd3S1lYLUU4VmVB0gFbQVVfeXFMT1YyMmpJVDZtVmV0S1AxZGtTLXgtUnJ5cWtFaXZQMldubUE3elhpa0Q4VWhBcm9iZE0yWmlZNUVyX0tvQkZtN1dBZlA2bDFQVGlkVzhtc0I4SzNZZw?oc=5",
-      "source": "ウォーカープラス",
-      "pubDate": "Sat, 01 Aug 2026 07:00:00 GMT",
-      "area": "横浜市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-08-04T10:44:54.181Z"
-    },
-    {
       "title": "株式会社ニュー・クイック オープニングスタッフ募集（惣菜・スイーツ販売/販売/キッチン 社割でお惣菜がお得 食費…）",
       "link": "http://s.baitoru.com/DW0aWcaX",
       "source": "求人ボックス（baitoru）",
@@ -935,7 +904,9 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
@@ -2092,7 +2063,7 @@
     {
       "title": "【三浦市】「レストラン北條」が2026年5月1日グランドオープン！葉山牛専門店「奥鎌倉北條」プロデュース",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUjNGR1p3bFdqQkxIYlYyQllWZXUxU2d5UjJaWXBxYnFjRXZvakFuNDlzWWxJd1k2N3RORnhBUkdDVFk1RzEzSEtfQjJTRER6WFJwNDFoajhXSHFuOF9IMHFmWGdTU2UyRnpV?oc=5",
-      "source": "shonanjin.com",
+      "source": "湘南人",
       "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
       "area": "三浦市",
       "genres": [
@@ -2100,16 +2071,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.965Z"
-    },
-    {
-      "title": "株式会社尾粂 オープニングスタッフ募集（和食品セレクトショップの接客・販売スタッフ(オープニング)）",
-      "link": "https://to.indeed.com/aayszkt6zhgy",
-      "source": "Indeed",
-      "pubDate": "Sun, 07 Jun 2026 00:00:00 GMT",
-      "area": "横浜市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-29T00:06:40.698Z"
     }
   ]
 }
