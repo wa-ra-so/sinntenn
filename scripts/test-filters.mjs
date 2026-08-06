@@ -164,8 +164,10 @@ function passesNewsFilters(title) {
   return !isChain(title) && !hasExcludeKeyword(title) && isChibaRelevant(title);
 }
 
+let checks = 0;
 let failures = 0;
 function check(ok, label) {
+  checks++;
   if (ok) return;
   failures++;
   console.error(`  ✗ ${label}`);
@@ -230,6 +232,11 @@ check(hasExcludeKeyword('埼玉県内初、関東でも2例目…コウノトリ
   '除外ワード: コウノトリの放鳥ニュースは除外される');
 check(hasExcludeKeyword('南足柄市郷土資料館　大きな鉄道模型展　乗車体験も企画〈南足柄市・大井町・松田町・山北町・開成町〉'),
   '除外ワード: 郷土資料館の展示ニュースは除外される');
+
+// 2026-08-06 ユーザー報告（埼玉に混入）。ロピア＝大手ディスカウントスーパー
+// チェーン（飲食店ではない）。埼玉の記事のためisChainで直接検証
+check(isChain('「ロピア 加須ビバモール店」オープニングスタッフ募集（オープニングスタッフ/スーパーの試食販売スタッフ/ロピア/加…）'),
+  '大手チェーン: ロピア（大手スーパー）は除外される');
 
 // ── オープニング求人タイトル判定（Indeed実データ由来のケース） ──
 const OPENING_TITLES = [
@@ -329,9 +336,7 @@ check(kyujinboxToItem({
   workArea: '千葉県船橋市', siteName: 'baitoru', allFeatureTags: ['オープニング'], url: 'https://example.com/test6',
 }) !== null, '求人ボックス変換: 「販売」を含む飲食店（キッチン/まかない）は除外されない');
 
-const total = MUST_EXCLUDE.length + MUST_KEEP.length + MUST_EXCLUDE_JOBS.length + MUST_KEEP_JOBS.length + 2
-  + 7 + OPENING_TITLES.length + NOT_OPENING_TITLES.length + 6 + 1 + 2 + 2 + 3 + 8;
-console.log(`${total - failures}/${total} 件パス`);
+console.log(`${checks - failures}/${checks} 件パス`);
 
 // ── 公開データの監査（--audit 時のみ、全県分） ──
 if (process.argv.includes('--audit')) {
