@@ -202,6 +202,11 @@ check(detectArea('新宿にビストロがオープン', PREFECTURES.tokyo) === 
 check(detectArea('吉祥寺の焼肉店', PREFECTURES.tokyo) === '武蔵野市', 'エリア判定: 吉祥寺→武蔵野市（東京）');
 check(detectArea('武蔵小杉にバル開店', PREFECTURES.kanagawa) === '川崎市中原区', 'エリア判定: 武蔵小杉→川崎市中原区（神奈川）');
 check(detectArea('大宮駅前に居酒屋', PREFECTURES.saitama) === 'さいたま市大宮区', 'エリア判定: 大宮→さいたま市大宮区（埼玉）');
+// 2026-08-06 ユーザー指摘（板橋区・荒川区の検出が0件）を受けてエイリアスを拡充
+check(detectArea('高島平駅前にカフェオープン', PREFECTURES.tokyo) === '板橋区', 'エリア判定: 高島平→板橋区（東京）');
+check(detectArea('上板橋にバルがオープン', PREFECTURES.tokyo) === '板橋区', 'エリア判定: 上板橋→板橋区（東京）');
+check(detectArea('南千住駅近くに居酒屋オープン', PREFECTURES.tokyo) === '荒川区', 'エリア判定: 南千住→荒川区（東京）');
+check(detectArea('三ノ輪に定食屋がオープン', PREFECTURES.tokyo) === '荒川区', 'エリア判定: 三ノ輪→荒川区（東京）');
 check(isPrefRelevant('池袋に大型居酒屋がオープン', PREFECTURES.tokyo), '関連性: 池袋は東京都で掲載される');
 check(!isPrefRelevant('横浜・関内に話題のイタリアンレストランが開店', PREFECTURES.tokyo), '関連性: 横浜の記事は東京都で除外される');
 check(isPrefRelevant('横浜・関内に話題のイタリアンレストランが開店', PREFECTURES.kanagawa), '関連性: 横浜の記事は神奈川県で掲載される');
