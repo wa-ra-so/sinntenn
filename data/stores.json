@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
+      "ok": true,
+      "count": 3,
+      "mergedAt": "2026-08-07T01:52:28.072Z"
     }
   ],
-  "itemCount": 127,
+  "itemCount": 130,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -808,7 +814,7 @@
     },
     {
       "title": "株式会社折原 オープニングスタッフ募集（【新規オープン】珍しい日本酒に囲まれた角打ち店/カウンター販…）",
-      "link": "https://to.indeed.com/aacyg2pp8fz4",
+      "link": "https://to.indeed.com/aa72yhyrjx8y",
       "source": "Indeed",
       "pubDate": "Wed, 05 Aug 2026 00:00:00 GMT",
       "area": "浦安市",
@@ -850,10 +856,10 @@
     },
     {
       "title": "株式会社ｐａｌａｃｅ オープニングスタッフ募集（居酒屋オープニングスタッフ）",
-      "link": "https://to.indeed.com/aabtg27bjlwz",
+      "link": "https://to.indeed.com/aalrprg4v9hw",
       "source": "Indeed",
       "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
-      "area": "船橋市",
+      "area": "千葉市中央区",
       "genres": [
         "居酒屋"
       ],
@@ -862,7 +868,7 @@
     },
     {
       "title": "株式会社チル オープニングスタッフ募集（完全新規OPENのシーシャバー）",
-      "link": "https://to.indeed.com/aadd4tpzt2dq",
+      "link": "https://to.indeed.com/aajj62dxvr8v",
       "source": "Indeed",
       "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
       "area": "千葉市中央区",
@@ -874,7 +880,7 @@
     },
     {
       "title": "株式会社チル オープニングスタッフ募集（完全新規OPENのシーシャバー社員）",
-      "link": "https://to.indeed.com/aad26b8pdm98",
+      "link": "https://to.indeed.com/aa7j7lmryqvb",
       "source": "Indeed",
       "pubDate": "Sun, 02 Aug 2026 00:00:00 GMT",
       "area": "千葉市中央区",
@@ -987,6 +993,18 @@
       "firstSeenAt": "2026-07-26T06:41:05.576Z"
     },
     {
+      "title": "合同会社政宗 オープニングスタッフ募集（8月完全新規オープンのカフェスタッフ）",
+      "link": "https://to.indeed.com/aavshk2kkqst",
+      "source": "Indeed",
+      "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
+      "area": "柏市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T01:52:28.062Z"
+    },
+    {
       "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】カジュアルな居酒屋のホール　調理スタッフ(正…）",
       "link": "https://to.indeed.com/aarlj84vzc2p",
       "source": "Indeed",
@@ -999,8 +1017,8 @@
       "firstSeenAt": "2026-07-30T01:01:22.887Z"
     },
     {
-      "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】未経験可/居酒屋のホールスタッフ(アルバイト…）",
-      "link": "https://to.indeed.com/aa2khxj4hxgp",
+      "title": "株式会社　山商 オープニングスタッフ募集（【オープニング　一九裏店】カジュアルなモダン居酒屋のホール　…）",
+      "link": "https://to.indeed.com/aamgnnjgdypf",
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "船橋市",
@@ -1008,7 +1026,19 @@
         "居酒屋"
       ],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:42:55.231Z"
+      "firstSeenAt": "2026-08-07T01:52:28.051Z"
+    },
+    {
+      "title": "株式会社　山商 オープニングスタッフ募集（【オープニング　一九裏店】未経験可/モダン居酒屋のホールスタ…）",
+      "link": "https://to.indeed.com/aafpc27xjtwb",
+      "source": "Indeed",
+      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T01:52:28.061Z"
     },
     {
       "title": "株式会社ベネッセスタイルケア オープニングスタッフ募集（ベネッセでこどもの成長を見守る「学童スタッフ」未経験OK）",
@@ -1096,7 +1126,7 @@
     },
     {
       "title": "株式会社八街未来都市 オープニングスタッフ募集（オープニング×リゾートホテルの調理スタッフ）",
-      "link": "https://to.indeed.com/aackrmpjvzbm",
+      "link": "https://to.indeed.com/aasp6pztvc7w",
       "source": "Indeed",
       "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
       "area": "八街市",
@@ -1907,7 +1937,7 @@
     },
     {
       "title": "株式会社　山商 オープニングスタッフ募集（【立ち飲み屋】オープニングスタッフ）",
-      "link": "https://to.indeed.com/aap7x49n2b9j",
+      "link": "https://to.indeed.com/aa79qcrjhbv9",
       "source": "Indeed",
       "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
       "area": "習志野市",
@@ -2067,6 +2097,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-05T00:19:45.394Z"
+    },
+    {
+      "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】未経験可/居酒屋のホールスタッフ(アルバイト…）",
+      "link": "https://to.indeed.com/aacj8v7gfmty",
+      "source": "Indeed",
+      "pubDate": "Wed, 10 Jun 2026 00:00:00 GMT",
+      "area": "船橋市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.231Z"
     },
     {
       "title": "株式会社ゲート オープニングスタッフ募集（2026年4月下旬NEW OPEN オープニングスタッフ大募…）",

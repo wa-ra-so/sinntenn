@@ -61,9 +61,15 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
+    },
+    {
+      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
+      "ok": true,
+      "count": 4,
+      "mergedAt": "2026-08-07T01:52:34.567Z"
     }
   ],
-  "itemCount": 292,
+  "itemCount": 296,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -2217,20 +2223,8 @@
       "firstSeenAt": "2026-08-06T00:36:12.285Z"
     },
     {
-      "title": "株式会社LINK STYLE オープニングスタッフ募集（オープニング/オシャレ路地裏ビストロの接客・ホールスタッフ(…）",
-      "link": "https://to.indeed.com/aabs2bqdhybh",
-      "source": "Indeed",
-      "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
-      "area": "千代田区",
-      "genres": [
-        "ビストロ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-06T00:36:12.285Z"
-    },
-    {
       "title": "株式会社LINK STYLE オープニングスタッフ募集（オープニング|髪色・ネイル自由なオシャレビストロのホールスタ…）",
-      "link": "https://to.indeed.com/aag9tb7ysl2b",
+      "link": "https://to.indeed.com/aamf7v42yrrc",
       "source": "Indeed",
       "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
       "area": "港区",
@@ -2241,6 +2235,44 @@
       "firstSeenAt": "2026-08-06T00:36:12.285Z"
     },
     {
+      "title": "株式会社LINK STYLE オープニングスタッフ募集（オープニング/オシャレ路地裏ビストロの接客・ホールスタッフ(…）",
+      "link": "https://to.indeed.com/aa4nkhk6wpm2",
+      "source": "Indeed",
+      "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "area": "千代田区",
+      "genres": [
+        "ビストロ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T00:36:12.285Z"
+    },
+    {
+      "title": "株式会社LINK STYLE オープニングスタッフ募集（【オープニング】 創作ビストロのキッチン補助スタッフ(正社員…）",
+      "link": "https://to.indeed.com/aacrd2hlxnrm",
+      "source": "Indeed",
+      "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "area": "千代田区",
+      "genres": [
+        "ビストロ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T01:52:34.565Z"
+    },
+    {
+      "title": "株式会社Army Ant オープニングスタッフ募集（【オープニング追加】大人の隠れ家イタリアン&カフェバー/キッ…）",
+      "link": "https://to.indeed.com/aan2rx9tm9ph",
+      "source": "Indeed",
+      "pubDate": "Tue, 04 Aug 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "イタリアン",
+        "カフェ",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T01:52:34.566Z"
+    },
+    {
       "title": "「玄米うどん 玄白 青山店」オープニングスタッフ募集（キッチン 8月オープニングスタッフ求人 玄米うどんを主体とす…）",
       "link": "http://s.baitoru.com/DW0b0Wmz",
       "source": "求人ボックス（baitoru）",
@@ -2249,18 +2281,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-04T02:57:46.499Z"
-    },
-    {
-      "title": "合同会社コムステイタス オープニングスタッフ募集（オシャレ居酒屋の店長候補(オープニング)）",
-      "link": "https://to.indeed.com/aakg2gbl6khr",
-      "source": "Indeed",
-      "pubDate": "Mon, 03 Aug 2026 00:00:00 GMT",
-      "area": "目黒区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-05T00:19:50.501Z"
     },
     {
       "title": "株式会社プロラボダイニング オープニングスタッフ募集（居酒屋のオープニングキッチンスタッフ）",
@@ -2276,8 +2296,32 @@
       "firstSeenAt": "2026-08-06T00:36:12.284Z"
     },
     {
+      "title": "合同会社コムステイタス オープニングスタッフ募集（オシャレ居酒屋のキッチン(オープニング)）",
+      "link": "https://to.indeed.com/aardt2xrwx6l",
+      "source": "Indeed",
+      "pubDate": "Mon, 03 Aug 2026 00:00:00 GMT",
+      "area": "目黒区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.306Z"
+    },
+    {
+      "title": "合同会社コムステイタス オープニングスタッフ募集（オシャレ居酒屋の店長候補(オープニング)）",
+      "link": "https://to.indeed.com/aaxk7xlb6n8m",
+      "source": "Indeed",
+      "pubDate": "Mon, 03 Aug 2026 00:00:00 GMT",
+      "area": "目黒区",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-05T00:19:50.501Z"
+    },
+    {
       "title": "「銀座焼肉 神威(カムイ)」オープニングスタッフ募集（【ホールスタッフ】銀座から世界へ発信する和牛業態のオープニン…）",
-      "link": "https://to.indeed.com/aalp7vs88wd8",
+      "link": "https://to.indeed.com/aa8ns6smg47z",
       "source": "Indeed",
       "pubDate": "Mon, 03 Aug 2026 00:00:00 GMT",
       "area": "中央区",
@@ -2523,7 +2567,7 @@
     },
     {
       "title": "ニュートファンダス株式会社 オープニングスタッフ募集（居酒屋のオープニングキッチンスタッフ）",
-      "link": "https://to.indeed.com/aa7fhlvdmbc9",
+      "link": "https://to.indeed.com/aajpj6w7j9tk",
       "source": "Indeed",
       "pubDate": "Thu, 30 Jul 2026 00:00:00 GMT",
       "area": "新宿区",
@@ -2579,29 +2623,6 @@
       "firstSeenAt": "2026-08-03T00:39:14.553Z"
     },
     {
-      "title": "「Caldo 恵比寿」オープニングスタッフ募集（カフェ&バルの店舗スタッフ/オープニング×若手活躍中）",
-      "link": "https://to.indeed.com/aa2jf8bbt2cf",
-      "source": "Indeed",
-      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
-      "area": "渋谷区",
-      "genres": [
-        "バル",
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-03T00:39:14.545Z"
-    },
-    {
-      "title": "Dandelion Chocolate Japan株式会社 オープニングスタッフ募集（午前のシフト(副業応援) 【10月末オープニング予定(8月中…）",
-      "link": "https://to.indeed.com/aa8vzm7gvrk2",
-      "source": "Indeed",
-      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
-      "area": "江東区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-04T00:21:20.351Z"
-    },
-    {
       "title": "株式会社Army Ant オープニングスタッフ募集（【オープニング】新しいカルチャーを発信するイタリアン&カフェ…）",
       "link": "https://to.indeed.com/aajdggswbzch",
       "source": "Indeed",
@@ -2615,8 +2636,30 @@
       "firstSeenAt": "2026-07-23T11:23:19.037Z"
     },
     {
+      "title": "SEG株式会社 オープニングスタッフ募集（【オープニング】洗練された和モダンの隠れ家鮨店/店舗営業スタ…）",
+      "link": "https://to.indeed.com/aarb4dq272gn",
+      "source": "Indeed",
+      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-06T00:36:12.285Z"
+    },
+    {
+      "title": "株式会社ティーエッセンス オープニングスタッフ募集（新感覚焼肉店のホール・キッチンスタッフ(オープニング)）",
+      "link": "https://to.indeed.com/aavwlfv7chl7",
+      "source": "Indeed",
+      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
+      "area": "中央区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-03T00:39:14.552Z"
+    },
+    {
       "title": "株式会社パッションアンドクリエイト オープニングスタッフ募集（(オープニング)和牛焼肉ダイニングの店舗スタッフ）",
-      "link": "https://to.indeed.com/aapqcnp9k2xy",
+      "link": "https://to.indeed.com/aaxlkkxpdsrf",
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "中央区",
@@ -2628,20 +2671,8 @@
       "firstSeenAt": "2026-08-03T00:39:14.552Z"
     },
     {
-      "title": "株式会社ティーエッセンス オープニングスタッフ募集（新感覚焼肉店のホール・キッチンスタッフ(オープニング)）",
-      "link": "https://to.indeed.com/aa66pnjkttjw",
-      "source": "Indeed",
-      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
-      "area": "中央区",
-      "genres": [
-        "焼肉"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-03T00:39:14.552Z"
-    },
-    {
       "title": "株式会社パッションアンドクリエイト オープニングスタッフ募集（(オープニング)和モダンな焼肉ダイニングのホールスタッフ）",
-      "link": "https://to.indeed.com/aaw9qg8b7fbw",
+      "link": "https://to.indeed.com/aa9zznzdwfdl",
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "中央区",
@@ -2653,14 +2684,29 @@
       "firstSeenAt": "2026-08-03T00:39:14.553Z"
     },
     {
-      "title": "SEG株式会社 オープニングスタッフ募集（【オープニング】洗練された和モダンの隠れ家鮨店/店舗営業スタ…）",
-      "link": "https://to.indeed.com/aarb4dq272gn",
+      "title": "「Caldo 恵比寿」オープニングスタッフ募集（カフェ&バルの店舗スタッフ/オープニング×若手活躍中）",
+      "link": "https://to.indeed.com/aadynp8qm2g9",
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "渋谷区",
-      "genres": [],
+      "genres": [
+        "バル",
+        "カフェ"
+      ],
       "signal": "hiring",
-      "firstSeenAt": "2026-08-06T00:36:12.285Z"
+      "firstSeenAt": "2026-08-03T00:39:14.545Z"
+    },
+    {
+      "title": "Dandelion Chocolate Japan株式会社 オープニングスタッフ募集（午前のシフト(副業応援) 【10月末オープニング予定(8月中…）",
+      "link": "https://to.indeed.com/aazz79f2j482",
+      "source": "Indeed",
+      "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
+      "area": "江東区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T00:21:20.351Z"
     },
     {
       "title": "1杯500円から！7/28に八王子駅前にオープンした『お酒の美術館』へ行ってみた！",
@@ -2852,18 +2898,6 @@
       "firstSeenAt": "2026-07-31T00:37:37.945Z"
     },
     {
-      "title": "株式会社ＧＲＡＣＥ オープニングスタッフ募集（オープニングカフェのバリスタスタッフ）",
-      "link": "https://to.indeed.com/aadjh764vnzm",
-      "source": "Indeed",
-      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
-      "area": "新宿区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-04T00:21:20.351Z"
-    },
-    {
       "title": "株式会社萬 オープニングスタッフ募集（【オープニングスタッフ】赤坂見附に新しくオープンした焼肉・ホ…）",
       "link": "https://to.indeed.com/aag6vpwb8c2j",
       "source": "Indeed",
@@ -2874,6 +2908,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-06T00:36:12.284Z"
+    },
+    {
+      "title": "株式会社ＧＲＡＣＥ オープニングスタッフ募集（オープニングカフェのバリスタスタッフ）",
+      "link": "https://to.indeed.com/aap6gr84prbj",
+      "source": "Indeed",
+      "pubDate": "Sun, 26 Jul 2026 00:00:00 GMT",
+      "area": "新宿区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-04T00:21:20.351Z"
     },
     {
       "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/の店舗正社員オープニングスタッ…）",
@@ -3090,7 +3136,7 @@
     },
     {
       "title": "株式会社座御堂 オープニングスタッフ募集（新店舗カフェのオープニングスタッフ）",
-      "link": "https://to.indeed.com/aaj8lkqtjpfy",
+      "link": "https://to.indeed.com/aats92stk67d",
       "source": "Indeed",
       "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
       "area": "中央区",
@@ -3102,11 +3148,13 @@
     },
     {
       "title": "KhroniKle(株) オープニングスタッフ募集（カウンター内接客スタッフ【オープニングスタッフ!】【DJがい…）",
-      "link": "https://to.indeed.com/aac8cwpm9lvr",
+      "link": "https://to.indeed.com/aakrdtbzb94g",
       "source": "Indeed",
       "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
       "area": "中央区",
-      "genres": [],
+      "genres": [
+        "バー"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
@@ -3141,18 +3189,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.306Z"
-    },
-    {
-      "title": "株式会社ネオディライトインターナショナル オープニングスタッフ募集（オープニングスタッフ|カフェの調理スタッフ）",
-      "link": "https://to.indeed.com/aahqmrcndkxk",
-      "source": "Indeed",
-      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
-      "area": "新宿区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
     {
       "title": "CANDY HOUSE JAPAN株式会社 オープニングスタッフ募集（カフェ店舗オープニングスタッフ募集）",
@@ -3191,8 +3227,20 @@
       "firstSeenAt": "2026-08-05T00:19:50.502Z"
     },
     {
+      "title": "株式会社ネオディライトインターナショナル オープニングスタッフ募集（オープニングスタッフ|カフェの調理スタッフ）",
+      "link": "https://to.indeed.com/aam9kdsz9d74",
+      "source": "Indeed",
+      "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
+      "area": "新宿区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.307Z"
+    },
+    {
       "title": "株式会社Ｂ５ オープニングスタッフ募集（バーのオープニングスタッフ）",
-      "link": "https://to.indeed.com/aac6tnvvv9q2",
+      "link": "https://to.indeed.com/aazlrqmgd2fz",
       "source": "Indeed",
       "pubDate": "Wed, 22 Jul 2026 00:00:00 GMT",
       "area": "墨田区",
@@ -3319,18 +3367,6 @@
       "firstSeenAt": "2026-07-27T03:42:55.308Z"
     },
     {
-      "title": "株式会社ファイブディアライフ オープニングスタッフ募集（大阪で大人気居酒屋のオープニングキッチンスタッフ）",
-      "link": "https://to.indeed.com/aalmp67ttcz8",
-      "source": "Indeed",
-      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
-      "area": "立川市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-29T00:06:40.584Z"
-    },
-    {
       "title": "有限会社スクエア オープニングスタッフ募集（オープニング/厚切り牛たん専門店の調理補助(アルバイト)）",
       "link": "https://to.indeed.com/aa9tbt647rty",
       "source": "Indeed",
@@ -3352,13 +3388,25 @@
     },
     {
       "title": "有限会社スクエア オープニングスタッフ募集（オープニング/トレンド牛たん専門店の飲食店スタッフ(アルバイ…）",
-      "link": "https://to.indeed.com/aannzkrfxjkm",
+      "link": "https://to.indeed.com/aavgwhbpc4hd",
       "source": "Indeed",
       "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
       "area": "千代田区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-23T09:23:23.901Z"
+    },
+    {
+      "title": "株式会社ファイブディアライフ オープニングスタッフ募集（大阪で大人気居酒屋のオープニングキッチンスタッフ）",
+      "link": "https://to.indeed.com/aapnl8fb9w8m",
+      "source": "Indeed",
+      "pubDate": "Tue, 21 Jul 2026 00:00:00 GMT",
+      "area": "立川市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-29T00:06:40.584Z"
     },
     {
       "title": "株式会社カミナリ屋 オープニングスタッフ募集（オープニング にしだ場拝島店　居酒屋ホールスタッフ）",
@@ -3486,7 +3534,7 @@
     },
     {
       "title": "株式会社Ｄａｚｙ オープニングスタッフ募集（オープニング|居酒屋ホールスタッフ|未経験OK|週2日OK）",
-      "link": "https://to.indeed.com/aabv24x8n6z6",
+      "link": "https://to.indeed.com/aaszxr4bkcqj",
       "source": "Indeed",
       "pubDate": "Fri, 17 Jul 2026 00:00:00 GMT",
       "area": "千代田区",
@@ -4090,6 +4138,18 @@
       "firstSeenAt": "2026-07-30T01:01:39.337Z"
     },
     {
+      "title": "株式会社サング オープニングスタッフ募集（オープニングスタッフ　表参道のおしゃれな高級焼肉店でバイトデ…）",
+      "link": "https://to.indeed.com/aacqqmdbvnhk",
+      "source": "Indeed",
+      "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
+      "area": "港区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T01:52:34.565Z"
+    },
+    {
       "title": "株式会社オリノ オープニングスタッフ募集（店長・マネージャー候補/ホール/キッチン 月給38万~/初期…）",
       "link": "http://s.baitoru.com/dN0aUlXg",
       "source": "求人ボックス（バイトルNEXT）",
@@ -4457,18 +4517,6 @@
       "firstSeenAt": "2026-07-15T05:11:37.092Z"
     },
     {
-      "title": "合同会社コムステイタス オープニングスタッフ募集（オシャレ居酒屋のキッチン(オープニング)）",
-      "link": "https://to.indeed.com/aazhkzpwnkkw",
-      "source": "Indeed",
-      "pubDate": "Thu, 02 Jul 2026 00:00:00 GMT",
-      "area": "目黒区",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:42:55.306Z"
-    },
-    {
       "title": "株式会社FTG　Company オープニングスタッフ募集（焼肉ふたごのホールスタッフ(オープニング)）",
       "link": "https://to.indeed.com/aalxp8hlcmhv",
       "source": "Indeed",
@@ -4610,16 +4658,6 @@
       "firstSeenAt": "2026-07-23T11:23:19.024Z"
     },
     {
-      "title": "Dandelion Chocolate Japan株式会社 オープニングスタッフ募集（【新店舗オープニング募集】10月末OPEN予定(8月中旬研修…）",
-      "link": "https://to.indeed.com/aawhtrmk4hsl",
-      "source": "Indeed",
-      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "area": "江東区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-27T03:42:55.307Z"
-    },
-    {
       "title": "ソルト・コンソーシアム株式会社 オープニングスタッフ募集（青山 ハモンリア オープニング|店長|カフェスタッフ）",
       "link": "https://to.indeed.com/aal8g49xjphm",
       "source": "Indeed",
@@ -4642,6 +4680,28 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-06T00:36:12.284Z"
+    },
+    {
+      "title": "ソルト・コンソーシアム株式会社 オープニングスタッフ募集（青山ハモンリア旗艦店 オープニング|飲食店　キッチンスタッフ）",
+      "link": "https://to.indeed.com/aac8fqddqntt",
+      "source": "Indeed",
+      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T01:52:34.561Z"
+    },
+    {
+      "title": "Dandelion Chocolate Japan株式会社 オープニングスタッフ募集（【新店舗オープニング募集】10月末OPEN予定(8月中旬研修…）",
+      "link": "https://to.indeed.com/aa9yfbnw2m7z",
+      "source": "Indeed",
+      "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
+      "area": "江東区",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
     {
       "title": "2026年夏 東京ミッドタウンに新店オープン WCB最大規模のクラフトビアレストラン「Instant Classic by WCB」茅乃舎の四季を楽しむ新業態、Tamituの期間限定カフェも登場！ | 東京ミッドタウンマネジメント株式会社のプレスリリース",
