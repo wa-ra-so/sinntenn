@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T01:29:08.919Z",
+  "generatedAt": "2026-08-07T02:53:23.983Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -42,13 +42,13 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 40
+      "count": 41
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
@@ -61,12 +61,6 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 神奈川県）",
-      "ok": true,
-      "count": 3,
-      "mergedAt": "2026-08-07T01:52:34.677Z"
     }
   ],
   "itemCount": 125,
@@ -716,6 +710,10 @@
     "藤沢市|カフェ": {
       "count": 45,
       "checkedAt": "2026-08-05T06:33:17.259Z"
+    },
+    "藤沢市|焼肉": {
+      "count": 34,
+      "checkedAt": "2026-08-07T02:53:23.983Z"
     }
   },
   "items": [
@@ -1153,7 +1151,7 @@
     {
       "title": "「ウェスティンホテル横浜」のインターナショナルビュッフェレストランがオープン1周年！記念ビュッフェを堪能",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBoRFBMSkg1Vm5qNTJGZmZjZ0tHZmZ3bi1DeHlJM0JvMjdxaDdNa1RzeDhaZW96aTdQUUc5NnpBajh0VjFUS0swYmpFbnU?oc=5",
-      "source": "Precious.jp",
+      "source": "precious.jp",
       "pubDate": "Sun, 26 Jul 2026 13:00:00 GMT",
       "area": "横浜市",
       "genres": [
@@ -2100,7 +2098,7 @@
     {
       "title": "【ＰＲ記事】 横浜東急REIホテル、9階レストラン「アンコール」をラウンジスペース「REI Café（レイカフェ）」としてオープン 神奈川県横浜市",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlVEQtTFpvanREWG4zS1hGTVVnQ0tJaUxaVkthUEg2MWdvSVQ2Rm1BeUh5dFI2WXVuWjIxVnd0QXNiS3JZVFdIajBSVkg5bjNrdE1VNVE1YkFHYTZRYk1yUVhn?oc=5",
-      "source": "遊都総研",
+      "source": "yutosoken.com",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "横浜市",
       "genres": [

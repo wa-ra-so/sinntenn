@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T01:28:51.785Z",
+  "generatedAt": "2026-08-07T02:53:09.510Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -54,19 +54,13 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 13
+      "count": 17
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 千葉県）",
-      "ok": true,
-      "count": 3,
-      "mergedAt": "2026-08-07T01:52:28.072Z"
     }
   ],
   "itemCount": 130,
@@ -252,19 +246,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-04T02:57:41.519Z"
-    },
-    "未経験ok": {
-      "storeName": "未経験OK",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-04T02:57:41.745Z"
     },
     "彦酉幕張ベイパーク彦酉": {
       "storeName": "彦酉 幕張ベイパーク 彦酉",
@@ -564,6 +545,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-06T02:57:22.082Z"
+    },
+    "内定まで最短5日": {
+      "storeName": "内定まで最短5日",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-07T02:53:09.304Z"
     }
   },
   "market": {
@@ -714,6 +708,10 @@
     "船橋市|バー": {
       "count": 55,
       "checkedAt": "2026-08-06T00:52:25.459Z"
+    },
+    "柏市|カフェ": {
+      "count": 21,
+      "checkedAt": "2026-08-07T02:53:09.510Z"
     }
   },
   "items": [
@@ -739,6 +737,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-08-04T02:57:37.537Z"
+    },
+    {
+      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「内定まで最短5日」千葉県・東金市/調…）",
+      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Thu, 06 Aug 2026 11:20:18 GMT",
+      "area": "東金市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "「成田食堂」オープニングスタッフ募集（料理長候補）",
@@ -801,16 +809,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-08-06T00:52:20.230Z"
-    },
-    {
-      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「未経験OK」千葉県・東金市/調理・キ…）",
-      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Wed, 05 Aug 2026 08:17:06 GMT",
-      "area": "東金市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "株式会社折原 オープニングスタッフ募集（【新規オープン】珍しい日本酒に囲まれた角打ち店/カウンター販…）",
@@ -1563,7 +1561,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -1972,7 +1970,7 @@
     {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
-      "source": "千葉日報オンライン",
+      "source": "chibanippo.co.jp",
       "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [

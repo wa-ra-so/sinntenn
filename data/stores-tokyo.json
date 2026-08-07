@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T01:29:02.205Z",
+  "generatedAt": "2026-08-07T02:53:16.868Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 66
+      "count": 70
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -61,12 +61,6 @@
       "query": "https://jp.indeed.com/jobs?q=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95%20%E9%A3%B2%E9%A3%9F%E5%BA%97&l=%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": false,
       "error": "HTTP 403"
-    },
-    {
-      "label": "Indeedコネクタ（オープニングスタッフ 飲食店 東京都）",
-      "ok": true,
-      "count": 4,
-      "mergedAt": "2026-08-07T01:52:34.567Z"
     }
   ],
   "itemCount": 296,
@@ -2702,9 +2696,7 @@
       "source": "Indeed",
       "pubDate": "Wed, 29 Jul 2026 00:00:00 GMT",
       "area": "江東区",
-      "genres": [
-        "カフェ"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-04T00:21:20.351Z"
     },
@@ -3152,9 +3144,7 @@
       "source": "Indeed",
       "pubDate": "Thu, 23 Jul 2026 00:00:00 GMT",
       "area": "中央区",
-      "genres": [
-        "バー"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
@@ -4142,7 +4132,7 @@
       "link": "https://to.indeed.com/aacqqmdbvnhk",
       "source": "Indeed",
       "pubDate": "Thu, 09 Jul 2026 00:00:00 GMT",
-      "area": "港区",
+      "area": "渋谷区",
       "genres": [
         "焼肉"
       ],
@@ -4421,7 +4411,7 @@
     {
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9STG1GU0RBcmYtMEo5QmZGRk11OG1rV0Z6aE1EcmN3bmpSS3JEU3otRGdwOXN0TEdQMXJXb1ZBSFZ2ellfelNZ?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [],
@@ -4686,7 +4676,7 @@
       "link": "https://to.indeed.com/aac8fqddqntt",
       "source": "Indeed",
       "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
-      "area": "渋谷区",
+      "area": "港区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-07T01:52:34.561Z"
@@ -4697,9 +4687,7 @@
       "source": "Indeed",
       "pubDate": "Tue, 30 Jun 2026 00:00:00 GMT",
       "area": "江東区",
-      "genres": [
-        "カフェ"
-      ],
+      "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-27T03:42:55.307Z"
     },
@@ -4756,7 +4744,7 @@
     {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4963,7 +4951,7 @@
     {
       "title": "武蔵小杉で売上No.1を記録した店主が銀座で独立 深夜0時開店の「Girlsbar Mercury」オープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yLUM3TDVpZWRoZ0h1Rml5NUtPUE5VWjNSaURHSlpRSzJ0RVhNQVJWczNHN2FYdnUzZ2JyNU5fcnZYUm0zdm1F?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [],
@@ -5213,7 +5201,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "newscast.jp",
+      "source": "Newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
