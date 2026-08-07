@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T02:53:09.510Z",
+  "generatedAt": "2026-08-07T05:44:19.015Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,19 +24,19 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 6
+      "count": 5
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 8
+      "count": 7
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 17
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -375,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T03:28:58.705Z"
+      "checkedAt": "2026-08-07T05:44:17.979Z"
     },
     "koalatreecafe&dining": {
       "storeName": "Koala Tree Cafe & Dining",
@@ -388,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T03:28:58.706Z"
+      "checkedAt": "2026-08-07T05:44:18.519Z"
     },
     "マチルダステーション浦安望海の街郵便局前": {
       "storeName": "マチルダステーション 浦安望海の街 郵便局前",
@@ -453,7 +453,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T03:28:58.494Z"
+      "checkedAt": "2026-08-07T05:44:18.114Z"
     },
     "学童スタッフ": {
       "storeName": "学童スタッフ",
@@ -651,7 +651,7 @@
     },
     "千葉市中央区|ダイニング": {
       "count": 27,
-      "checkedAt": "2026-07-31T03:28:58.946Z"
+      "checkedAt": "2026-08-07T05:44:18.836Z"
     },
     "千葉市中央区|居酒屋": {
       "count": 153,
@@ -659,23 +659,23 @@
     },
     "南房総市|カフェ": {
       "count": 3,
-      "checkedAt": "2026-07-31T03:28:58.853Z"
+      "checkedAt": "2026-08-07T05:44:18.841Z"
     },
     "市川市|居酒屋": {
       "count": 70,
-      "checkedAt": "2026-07-31T03:28:59.116Z"
+      "checkedAt": "2026-08-07T05:44:19.015Z"
     },
     "千葉市中央区|バー": {
       "count": 66,
-      "checkedAt": "2026-07-31T03:28:58.965Z"
+      "checkedAt": "2026-08-07T05:44:18.685Z"
     },
     "木更津市|カフェ": {
       "count": 9,
-      "checkedAt": "2026-07-31T03:28:58.985Z"
+      "checkedAt": "2026-08-07T05:44:18.847Z"
     },
     "浦安市|カフェ": {
       "count": 13,
-      "checkedAt": "2026-07-31T03:28:59.073Z"
+      "checkedAt": "2026-08-07T05:44:19.007Z"
     },
     "鎌ケ谷市|カフェ": {
       "count": 7,
@@ -683,15 +683,15 @@
     },
     "長柄町|カフェ": {
       "count": 1,
-      "checkedAt": "2026-07-31T03:28:58.830Z"
+      "checkedAt": "2026-08-07T05:44:18.690Z"
     },
     "八街市|レストラン": {
       "count": 8,
-      "checkedAt": "2026-07-31T03:28:58.841Z"
+      "checkedAt": "2026-08-07T05:44:18.687Z"
     },
     "柏市|スナック": {
       "count": 0,
-      "checkedAt": "2026-07-31T03:28:59.077Z"
+      "checkedAt": "2026-08-07T05:44:18.995Z"
     },
     "浦安市|ダイニング": {
       "count": 10,
@@ -716,6 +716,16 @@
   },
   "items": [
     {
+      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「内定まで最短5日」千葉県・東金市/調…）",
+      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
+      "source": "求人ボックス（エンゲージ）",
+      "pubDate": "Fri, 07 Aug 2026 01:36:28 GMT",
+      "area": "東金市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:16.997Z"
+    },
+    {
       "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
       "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
       "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
@@ -737,16 +747,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-08-04T02:57:37.537Z"
-    },
-    {
-      "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「内定まで最短5日」千葉県・東金市/調…）",
-      "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
-      "source": "求人ボックス（エンゲージ）",
-      "pubDate": "Thu, 06 Aug 2026 11:20:18 GMT",
-      "area": "東金市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:16.997Z"
     },
     {
       "title": "「成田食堂」オープニングスタッフ募集（料理長候補）",
@@ -787,6 +787,26 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:29.186Z"
+    },
+    {
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:30 GMT",
+      "area": "流山市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:19:39.874Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（調理見習い）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/23_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:30 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（BOSOSWEETS/店長・サブ・マネージャーの正社員募集/…）",
@@ -917,16 +937,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T07:34:52.657Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Fri, 31 Jul 2026 10:08:23 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:19:39.874Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理見習い）",
@@ -1269,16 +1279,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-31T06:49:26.356Z"
-    },
-    {
-      "title": "「成田食堂」オープニングスタッフ募集（調理見習い）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/23_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:17:10 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（店長候補）",
@@ -1970,7 +1970,7 @@
     {
       "title": "クラフトビール専門カフェが成田空港にオープン 搭乗前に地ビール飲み比べ、千葉県内食材使ったソーセージやライスバーガーも",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TNGNLd0JrMDVlekM2RDY3ZnJ6RDFzZmp5QjlfOTZTSjViQm1qRzc0WmROdzA3WEpNOVpWWF81NzdnbmlmdEFkRnQ5NW90WldjLXpBQTBEVVI?oc=5",
-      "source": "chibanippo.co.jp",
+      "source": "千葉日報オンライン",
       "pubDate": "Fri, 26 Jun 2026 07:00:00 GMT",
       "area": "成田市",
       "genres": [

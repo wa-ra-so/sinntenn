@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T02:53:32.383Z",
+  "generatedAt": "2026-08-07T05:45:09.759Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 7
+      "count": 5
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 55
+      "count": 51
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 7
+      "count": 6
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 110,
+  "itemCount": 112,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -635,7 +635,7 @@
     },
     "越谷市|ダイニング": {
       "count": 16,
-      "checkedAt": "2026-07-31T03:29:27.267Z"
+      "checkedAt": "2026-08-07T05:45:09.363Z"
     },
     "さいたま市浦和区|レストラン": {
       "count": 8,
@@ -659,23 +659,23 @@
     },
     "春日部市|居酒屋": {
       "count": 40,
-      "checkedAt": "2026-07-31T03:29:27.271Z"
+      "checkedAt": "2026-08-07T05:45:09.455Z"
     },
     "さいたま市|寿司": {
       "count": 57,
-      "checkedAt": "2026-07-31T03:29:27.729Z"
+      "checkedAt": "2026-08-07T05:45:09.759Z"
     },
     "鶴ヶ島市|居酒屋": {
       "count": 3,
-      "checkedAt": "2026-07-31T03:29:27.512Z"
+      "checkedAt": "2026-08-07T05:45:09.622Z"
     },
     "深谷市|居酒屋": {
       "count": 19,
-      "checkedAt": "2026-07-31T03:29:27.704Z"
+      "checkedAt": "2026-08-07T05:45:09.499Z"
     },
     "さいたま市浦和区|カフェ": {
       "count": 12,
-      "checkedAt": "2026-07-31T03:29:27.401Z"
+      "checkedAt": "2026-08-07T05:45:09.601Z"
     },
     "加須市|カフェ": {
       "count": 5,
@@ -748,9 +748,35 @@
     "富士見市|居酒屋": {
       "count": 14,
       "checkedAt": "2026-08-07T01:29:17.089Z"
+    },
+    "上尾市|レストラン": {
+      "count": 5,
+      "checkedAt": "2026-08-07T05:45:09.365Z"
     }
   },
   "items": [
+    {
+      "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:48 GMT",
+      "area": "新座市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "株式会社プラチナスペース オープニングスタッフ募集（ホテルレストランのビュッフェでキッチン社員/完全週休2日制で…）",
+      "link": "https://arwrk.net/recruit/a9zf512x1ltl6xy/12284684",
+      "source": "求人ボックス（株式会社プラチナスペース）",
+      "pubDate": "Thu, 06 Aug 2026 02:06:24 GMT",
+      "area": "上尾市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T05:44:50.385Z"
+    },
     {
       "title": "「建デポ 草加八幡店」オープニングスタッフ募集（商品の品出し・レジスタッフ ホームセンター 朝勤/0200c…）",
       "link": "https://q-mate.jp/kendepot/66fc92ef9a494c80ade125283ad6ab4d.html",
@@ -987,16 +1013,6 @@
       "firstSeenAt": "2026-07-14T21:49:40.742Z"
     },
     {
-      "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 30 Jul 2026 08:06:59 GMT",
-      "area": "志木市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:52.638Z"
-    },
-    {
       "title": "「blanc et noir」オープニングスタッフ募集（メイドと執事のコンセプトバーのオープニングスタッフ）",
       "link": "https://to.indeed.com/aa8v6xk449wb",
       "source": "Indeed",
@@ -1087,7 +1103,7 @@
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "フードスタジアム",
+      "source": "food-stadium.com",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "志木市",
       "genres": [
@@ -1237,7 +1253,7 @@
     {
       "title": "関東初出店…JR大宮駅・エキュート大宮にコーヒー店「カフェ・ラデュレ」 マカロン発祥の店「ラデュレ」の世界観を気軽に 店限定の「ドーナツ」と「フィナンシェ」が初登場 24日オープン",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByd3Zaek9kckE4a1ZMeV9NNGotS1pRdWhqekpXSncyaTBEYmpiRVNiMDVTdF9kSVlhY1pQZXJvbkZuY28tNGhCWUlBbw?oc=5",
-      "source": "47news.jp",
+      "source": "47NEWS",
       "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "area": "さいたま市大宮区",
       "genres": [
@@ -1564,6 +1580,16 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:52.264Z"
+    },
+    {
+      "title": "株式会社ルフト・メディカルケア オープニングスタッフ募集（日勤帯で配膳やシーツ交換など/年間休日120日以上/副業・W…）",
+      "link": "https://karu-keru.com/kyujin/285203",
+      "source": "求人ボックス（かる･ける）",
+      "pubDate": "Sat, 11 Jul 2026 02:01:42 GMT",
+      "area": "所沢市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-07T05:44:50.385Z"
     },
     {
       "title": "株式会社TPD オープニングスタッフ募集（ホール/キッチン/フード系 未経験歓迎 高校生も歓迎 週2日…）",
