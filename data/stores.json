@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T10:44:30.614Z",
+  "generatedAt": "2026-08-07T01:28:51.785Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 75
+      "count": 76
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 7
+      "count": 8
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 52
+      "count": 46
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -712,6 +712,29 @@
   },
   "items": [
     {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Thu, 06 Aug 2026 18:59:17 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
+      "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
+      "source": "ホットペッパーグルメ",
+      "pubDate": "Thu, 06 Aug 2026 15:13:30 GMT",
+      "area": "千葉市中央区",
+      "genres": [
+        "居酒屋",
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-04T02:57:37.537Z"
+    },
+    {
       "title": "「成田食堂」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/1_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -732,27 +755,24 @@
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
-      "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1yVS1mc2NiSGR4d1FKYkMxMktzMHVqUmVXMFh4cnBmUU5DYkdEN2d1Sk5uLUhBVjNmQ2F4WlBKOGVubGM2MWFrV3h4ZlpUVk54?oc=5",
-      "source": "ホットペッパーグルメ",
-      "pubDate": "Thu, 06 Aug 2026 01:12:57 GMT",
-      "area": "千葉市中央区",
-      "genres": [
-        "居酒屋",
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-08-04T02:57:37.537Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Wed, 05 Aug 2026 19:02:36 GMT",
-      "area": "習志野市",
+      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（ホールスタッフ）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/11_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:30 GMT",
+      "area": "流山市",
       "genres": [],
       "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+      "firstSeenAt": "2026-07-24T06:30:30.586Z"
+    },
+    {
+      "title": "「成田食堂」オープニングスタッフ募集（調理師）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/2_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:30 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T05:11:29.186Z"
     },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（BOSOSWEETS/店長・サブ・マネージャーの正社員募集/…）",
@@ -893,26 +913,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-21T07:34:52.657Z"
-    },
-    {
-      "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（ホールスタッフ）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/623894/11_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Fri, 31 Jul 2026 10:08:23 GMT",
-      "area": "流山市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-24T06:30:30.586Z"
-    },
-    {
-      "title": "「成田食堂」オープニングスタッフ募集（調理師）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/2_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Fri, 31 Jul 2026 10:08:23 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T05:11:29.186Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（調理師）",
@@ -1185,6 +1185,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-14T23:59:20.599Z"
+    },
+    {
+      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
+      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afce4322fe8",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Thu, 23 Jul 2026 11:00:23 GMT",
+      "area": "成田市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:09.616Z"
     },
     {
       "title": "株式会社イーケーシー オープニングスタッフ募集（韓国料理ホール/オープニング/週休2日/面接確約）",
@@ -1521,7 +1533,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -1534,7 +1546,7 @@
       "title": "南柏駅から徒歩15分ほどの所に中華料理「金東（KANETO）」が5/29（木）オープン",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9QX09hN3BkeXk3dU1XRnFxenhFZ0pIbmNleWhTRmIyQnM3U0p1RFJqano2Ti1rcE4zLWIxYjNPOUhndFhmdkZGTUFrMmM5cW8?oc=5",
       "source": "柏つうしん",
-      "pubDate": "Sun, 12 Jul 2026 00:53:48 GMT",
+      "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
       "area": "柏市",
       "genres": [
         "中華"
@@ -1677,18 +1689,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T07:33:05.349Z"
-    },
-    {
-      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
-      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbd6a9c0396",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Wed, 08 Jul 2026 11:00:18 GMT",
-      "area": "成田市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:23:09.616Z"
     },
     {
       "title": "株式会社弁慶 オープニングスタッフ募集（寿司屋の調理/週2日休み/寿司以外の調理はしない）",
