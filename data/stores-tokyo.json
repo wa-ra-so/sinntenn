@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T09:05:12.556Z",
+  "generatedAt": "2026-08-07T10:57:39.017Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 71
+      "count": 70
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 12
+      "count": 11
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 293,
+  "itemCount": 294,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -882,7 +882,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:44:55.185Z"
+      "checkedAt": "2026-08-07T10:57:38.864Z"
     },
     "ピエール・エルメ・パリ": {
       "storeName": "ピエール・エルメ・パリ",
@@ -895,7 +895,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:44:54.498Z"
+      "checkedAt": "2026-08-07T10:57:38.521Z"
     },
     "清澄白河": {
       "storeName": "清澄白河",
@@ -1207,7 +1207,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:44:54.319Z"
+      "checkedAt": "2026-08-07T10:57:38.433Z"
     },
     "yate": {
       "storeName": "YATE",
@@ -1864,11 +1864,11 @@
     },
     "千代田区|カフェ": {
       "count": 112,
-      "checkedAt": "2026-07-31T10:44:55.436Z"
+      "checkedAt": "2026-08-07T10:57:39.016Z"
     },
     "台東区|レストラン": {
       "count": 34,
-      "checkedAt": "2026-07-31T10:44:55.415Z"
+      "checkedAt": "2026-08-07T10:57:39.004Z"
     },
     "武蔵野市|カフェ": {
       "count": 43,
@@ -2084,6 +2084,16 @@
       "firstSeenAt": "2026-08-07T09:05:08.722Z"
     },
     {
+      "title": "JR東日本グループ／東京・国立に個性的な4店舗集まる新施設、9月から順次開業",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84dGJ4Y0hrNWhWQ1V3d1VKQ0lKVWhIU3VlU2FjLUdsMlBkNURCM1c1SkdBcDRtMmJXU2hFd25jZmI5a0Y2X3RVTEJCQmxEQWNrOFFYZQ?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Thu, 06 Aug 2026 06:56:00 GMT",
+      "area": "国立市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-07T10:57:33.891Z"
+    },
+    {
       "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
       "link": "https://www.hatarako.net/job/9001360160/",
       "source": "求人ボックス（はたらこねっと）",
@@ -2284,7 +2294,7 @@
     {
       "title": "大衆居酒屋とイタリアンのいいとこどり「大衆イタリアンかね子 吉祥寺店」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nbEF1dndlNEtaR3p4MEZnU19SOW83MzlWMkdneF9GQnBJQm5LZVdfN3gxaVpwcTd4QVp5NjIwYWFRZXRWR1RxZVBWTU5MUVRwZm9EeHRKOVBtaVk?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Sun, 02 Aug 2026 22:30:44 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -2937,7 +2947,7 @@
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -3423,6 +3433,18 @@
       "firstSeenAt": "2026-07-17T14:47:14.066Z"
     },
     {
+      "title": "【7/17オープン】自由が丘に新店！フレンチクルーラーとジェラートが楽しめる「フレボタ」（ベティコ） - エキスパート",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUW9ZaGRqSVFNMDN5aGtJMzhZVUFvOU1Ic3NXTTNzRzlxYm9HUFpCMmtQRDZtNzlfOUxMUVFIWFkwUXdUY0JkN3FGUE84Rk84MGRTUG1iVDBoNzJuejdIcmNxbkkxRHI5cWNqd0V5by1oRUlYMGVWRDhQRVp1WTlZNjFBSDl1UXFF?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Fri, 17 Jul 2026 07:00:00 GMT",
+      "area": "目黒区",
+      "genres": [
+        "フレンチ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-18T21:56:04.092Z"
+    },
+    {
       "title": "株式会社フィールドジャパン/ミリネヤンコプチャン上野店 オープニングスタッフ募集（店長/上野・韓国焼肉のオープニング店長/月給30万～+利益還…）",
       "link": "https://en-gage.net/user/search/desc/17475943/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -3445,18 +3467,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-17T07:21:15.281Z"
-    },
-    {
-      "title": "【7/17オープン】自由が丘に新店！フレンチクルーラーとジェラートが楽しめる「フレボタ」（ベティコ） - エキスパート",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUW9ZaGRqSVFNMDN5aGtJMzhZVUFvOU1Ic3NXTTNzRzlxYm9HUFpCMmtQRDZtNzlfOUxMUVFIWFkwUXdUY0JkN3FGUE84Rk84MGRTUG1iVDBoNzJuejdIcmNxbkkxRHI5cWNqd0V5by1oRUlYMGVWRDhQRVp1WTlZNjFBSDl1UXFF?oc=5",
-      "source": "Yahoo!ニュース",
-      "pubDate": "Fri, 17 Jul 2026 03:06:24 GMT",
-      "area": "目黒区",
-      "genres": [
-        "フレンチ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-18T21:56:04.092Z"
     },
     {
       "title": "日本初、吉祥寺にマーモット保護・啓発複合施設「マモテラス」が8月8日にグランドオープン",
@@ -4132,7 +4142,7 @@
     {
       "title": "吉祥寺に名古屋発の厚切り牛タン黒毛和牛食べ放題専門店「焼肉 朧」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWl9KWFFnajA5YkFrRC1aNkNxVUVaMXB2X0cxWnRfM0o1eElNajhxSXQ1U01Lc2NBYkl3MFBVWUEybDlJQ3lqT2pwOVMwTm9KeC1SV1FUOHp2RjQ?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -4295,7 +4305,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "kichifan.com",
+      "source": "吉祥寺ファンページ",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4826,7 +4836,7 @@
     {
       "title": "学芸大学に「シロネリ」がオープン。自家製麺とラビオリ、本格焼酎の居酒屋。自由が丘「ニショク」、池尻大橋「ルリイロ」などイタリアン展開のコローリ新店舗",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ya2VEVlZYYkZnRUdiVzFfVHgwWVdNVFhPZkVtR2VDd0JnMzhmQzg3V0dCWVBpS3RrZkpFMkdtM0l3eHV5LUdzb29NVHRpdlNoOUE?oc=5",
-      "source": "food-stadium.com",
+      "source": "フードスタジアム",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [
@@ -5089,7 +5099,7 @@
     {
       "title": "東京・南青山にニッカウヰスキーのフラッグシップバー 7月オープン、多様な楽しみ方を発信へ",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aOFJLa2Z6bFlCM0tRSlVoVi1ObHowWkZVbjBhSzVwMXZxR044R1Z0QVdWSVpBdWF4OWRWUXM1bTVvdzFYYWxqMXZ2MTZ3ODYwOWJqZTdoem9CZEpfLUVQYw?oc=5",
-      "source": "食品新聞 WEB版",
+      "source": "shokuhin.net",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [
@@ -5177,7 +5187,7 @@
     {
       "title": "スクエニの常設カフェ「Officially Licensed SQUARE ENIX Cafe & Shop SHINJUKU」が本日東京にグランドオープン",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nVnlsUU05Y2xTbjI3cHpBVXMwaFoxZUFJbTJXWDNkZGQtSktlSTVUNWhNRHUtSFVxbnRZNExfMDNGQ1V5OGl3UXc2RHFKNzZNUUJ2VHhMT0xuYzVSVWt6TzJ3c2dkZw?oc=5",
-      "source": "game.watch.impress.co.jp",
+      "source": "GAME Watch",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [

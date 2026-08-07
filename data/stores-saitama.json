@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T09:05:26.309Z",
+  "generatedAt": "2026-08-07T10:57:54.464Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 73
+      "count": 74
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -310,7 +310,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:45:14.599Z"
+      "checkedAt": "2026-08-07T10:57:54.223Z"
     },
     "串焼亭ねぎ東大宮店": {
       "storeName": "串焼亭ねぎ 東大宮店",
@@ -479,7 +479,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:45:14.419Z"
+      "checkedAt": "2026-08-07T10:57:54.336Z"
     },
     "おでん家万昌ざっくばらん": {
       "storeName": "おでん家万昌ざっくばらん",
@@ -492,7 +492,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:45:14.751Z"
+      "checkedAt": "2026-08-07T10:57:54.140Z"
     },
     "和牛焼肉うしまつ": {
       "storeName": "和牛焼肉 うしまつ",
@@ -639,7 +639,7 @@
     },
     "さいたま市浦和区|レストラン": {
       "count": 8,
-      "checkedAt": "2026-07-31T10:45:15.009Z"
+      "checkedAt": "2026-08-07T10:57:54.464Z"
     },
     "さいたま市大宮区|居酒屋": {
       "count": 162,
@@ -764,6 +764,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
+    },
+    {
+      "title": "岩槻商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364841/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:48 GMT",
+      "area": "さいたま市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-25T06:22:51.133Z"
     },
     {
       "title": "株式会社プラチナスペース オープニングスタッフ募集（ホテルレストランのビュッフェでキッチン社員/完全週休2日制で…）",
@@ -1103,7 +1113,7 @@
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "food-stadium.com",
+      "source": "フードスタジアム",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "志木市",
       "genres": [
@@ -1111,16 +1121,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-23T07:36:03.107Z"
-    },
-    {
-      "title": "岩槻商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364841/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Thu, 23 Jul 2026 06:14:52 GMT",
-      "area": "さいたま市岩槻区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-25T06:22:51.133Z"
     },
     {
       "title": "「Grilled Sakana Works」オープニングスタッフ募集（居酒屋の接客/オープニングで年収500万円可）",

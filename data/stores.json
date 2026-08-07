@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T09:05:04.513Z",
+  "generatedAt": "2026-08-07T10:57:30.158Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 47
+      "count": 49
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
@@ -375,7 +375,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:44:44.485Z"
+      "checkedAt": "2026-08-07T10:57:29.711Z"
     },
     "土用の丑の日": {
       "storeName": "土用の丑の日",
@@ -440,7 +440,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-07-31T10:44:43.939Z"
+      "checkedAt": "2026-08-07T10:57:30.157Z"
     },
     "philocoffea旧焙煎所": {
       "storeName": "PHILOCOFFEA旧焙煎所",
