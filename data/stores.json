@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T05:44:19.015Z",
+  "generatedAt": "2026-08-07T07:23:44.384Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "千葉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 76
+      "count": 75
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 130,
+  "itemCount": 128,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -129,32 +129,6 @@
       "capacity": 33,
       "open": "月～金: 16:00～翌0:00 （料理L.O. 23:30 ドリンクL.O. 23:30）土、日、祝日: 15:00～翌0:00 （料理L.O. 23:30 ドリンクL.O. 23:30）",
       "checkedAt": "2026-07-12T03:52:46.223Z"
-    },
-    "寿司一丁八千代緑が丘店": {
-      "storeName": "寿司一丁 八千代緑が丘店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-03T00:49:22.311Z"
-    },
-    "pronto成田空港第2ターミナル店": {
-      "storeName": "PRONTO 成田空港第２ターミナル店",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-03T00:49:22.495Z"
     },
     "barおいでやす": {
       "storeName": "Barおいでやす",
@@ -593,10 +567,6 @@
       "count": 105,
       "checkedAt": "2026-08-03T00:49:23.174Z"
     },
-    "八千代市|寿司": {
-      "count": 5,
-      "checkedAt": "2026-08-03T00:49:23.722Z"
-    },
     "柏市|フレンチ": {
       "count": 8,
       "checkedAt": "2026-08-03T05:51:10.541Z"
@@ -809,6 +779,16 @@
       "firstSeenAt": "2026-07-15T08:30:05.569Z"
     },
     {
+      "title": "「成田食堂」オープニングスタッフ募集（SV）",
+      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
+      "source": "求人ボックス（グルメキャリー首都圏版）",
+      "pubDate": "Thu, 06 Aug 2026 09:03:30 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T08:37:17.709Z"
+    },
+    {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（BOSOSWEETS/店長・サブ・マネージャーの正社員募集/…）",
       "link": "https://agent.ida-mode.com/detail/100451?st=100451",
       "source": "求人ボックス（iDA転職エージェント）",
@@ -947,16 +927,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T07:25:47.132Z"
-    },
-    {
-      "title": "「成田食堂」オープニングスタッフ募集（SV）",
-      "link": "https://www.gourmetcaree.jp/kanto/detail/158085/505489/26_1",
-      "source": "求人ボックス（グルメキャリー首都圏版）",
-      "pubDate": "Fri, 31 Jul 2026 10:08:22 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T08:37:17.709Z"
     },
     {
       "title": "「肉屋の台所セントラルキッチン」オープニングスタッフ募集（SV）",
@@ -2127,28 +2097,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-12T03:20:38.130Z"
-    },
-    {
-      "title": "【寿司一丁】回らない本格寿司を日常価格で！「寿司一丁 八千代緑が丘店」が6/9(火)グランドオープン！",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xanBpeWQzbmkwNHhULUlrOUpCQjZuZUtlSUFSOG1YcDkwWWxqY3lKMXZDMmtGaGFQVjJPMXBhaE9JQXp3RVhQSUxudGFyNkFLanBoWHVtbzdpRnhwak9LaVI4ckFvQXg0SFE?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "area": "八千代市",
-      "genres": [
-        "寿司"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.795Z"
-    },
-    {
-      "title": "【新店】「PRONTO 成田空港第２ターミナル店」が2026年7月17日(金)オープン",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vSDV0ZzdJUDdMd0JvMF9ucXM5UE9aSloyUF9JZUtwZU9rTFBqcWVTc00wakZKcXdGN2lyWnBtbnVhTnhDaG9WNzJXdngxMEF5OGJnZzhDeTZSWXhTNzJWZ3ZuWl9LQXh2RGc?oc=5",
-      "source": "PR TIMES",
-      "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "area": "成田市",
-      "genres": [],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-09T22:38:36.796Z"
     }
   ]
 }

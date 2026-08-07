@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-07T05:44:45.575Z",
+  "generatedAt": "2026-08-07T07:24:00.528Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 97
+      "count": 98
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 125,
+  "itemCount": 124,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -142,19 +142,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-04T02:58:05.716Z"
-    },
-    "レストラン北條": {
-      "storeName": "レストラン北條",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-04T02:58:05.757Z"
     },
     "茶き茶き溝の口": {
       "storeName": "茶き茶き 溝の口",
@@ -603,10 +590,6 @@
       "count": 7,
       "checkedAt": "2026-08-04T02:58:06.175Z"
     },
-    "三浦市|レストラン": {
-      "count": 2,
-      "checkedAt": "2026-08-04T02:58:06.197Z"
-    },
     "横浜市|レストラン": {
       "count": 160,
       "checkedAt": "2026-08-04T02:58:05.991Z"
@@ -742,7 +725,7 @@
     {
       "title": "【神奈川県藤沢市】地域コミュニティを育てるeスポーツゲーミングカフェ「ONeZONE湘南台」がプレオープン",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wUjVMRExscUJPbGZqRmdJc29FcklEY2M3N01XNXJDWXpQczVzUUJlcEtpcHJwRFhzR0k1dG9BbnNjSzRvNFlrRVdkMHVLOHJnZjNZ?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Wed, 05 Aug 2026 05:41:38 GMT",
       "area": "藤沢市",
       "genres": [
@@ -754,7 +737,7 @@
     {
       "title": "【神奈川県鎌倉市】大船仲通り商店街エリアに、海鮮居酒屋「魚貝 とろぼっち 大船」オープン！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zNWJwZ1hDTVF1eGJsOERfdmQ4NVJKSHJKZ0lRVzMxOWI2c21PaUhhMW8xdFBvR0llOEs2ZTdyVll1V2s1akJQWFNVN0dtMm5jZjRZ?oc=5",
-      "source": "straightpress.jp",
+      "source": "STRAIGHT PRESS",
       "pubDate": "Wed, 05 Aug 2026 04:31:35 GMT",
       "area": "鎌倉市",
       "genres": [
@@ -936,9 +919,9 @@
     },
     {
       "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
+      "link": "https://baitona-joshi.jp/shop/2232740/",
       "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Fri, 31 Jul 2026 02:03:25 GMT",
+      "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
       "genres": [
         "居酒屋"
@@ -2107,18 +2090,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.966Z"
-    },
-    {
-      "title": "【三浦市】「レストラン北條」が2026年5月1日グランドオープン！葉山牛専門店「奥鎌倉北條」プロデュース",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUjNGR1p3bFdqQkxIYlYyQllWZXUxU2d5UjJaWXBxYnFjRXZvakFuNDlzWWxJd1k2N3RORnhBUkdDVFk1RzEzSEtfQjJTRER6WFJwNDFoajhXSHFuOF9IMHFmWGdTU2UyRnpV?oc=5",
-      "source": "湘南人",
-      "pubDate": "Mon, 08 Jun 2026 07:00:00 GMT",
-      "area": "三浦市",
-      "genres": [
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:41.965Z"
     }
   ]
 }
