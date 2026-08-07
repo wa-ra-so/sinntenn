@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:24:07.906Z",
+  "generatedAt": "2026-08-07T09:05:26.309Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 74
+      "count": 73
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 50
+      "count": 53
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
@@ -1069,7 +1069,7 @@
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
-      "source": "キャンプファイヤー",
+      "source": "CAMPFIRE (キャンプファイヤー)",
       "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
       "area": "加須市",
       "genres": [
@@ -1103,7 +1103,7 @@
     {
       "title": "神保町に「立呑み中華 猫猫（マオマオ）」がオープン。志木で出会った男子2人組で独立、小皿ポーションの創作中華、多彩な中国茶割りを楽しむ立ち飲み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aQ3BLTU1sZlUwR2tjZzZSQ1pTT0lBNU1JR1l1M1dPbzcybklBbW1hb3dPT1FPZzRlbGlXT216c0JUTENaeFU3V1JyN3B5QXBfWlE?oc=5",
-      "source": "フードスタジアム",
+      "source": "food-stadium.com",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "志木市",
       "genres": [
@@ -1547,7 +1547,7 @@
     {
       "title": "【川口市】東領家に、居酒屋ダイニング「さんすい」が新オープンしていました！メニューと店内の様子も！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RQ3ZPVDBIdWozTXhBMUNQZ0lkakk4Rm5pYmZHdnVnbHMtRl9HRDVFa1pUSzNObXU2U1VsZEFIajNVM1lIOGthOGRROTFPVldXODZ3TjZwQlZaUQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1572,7 +1572,7 @@
     {
       "title": "川口市立美術館に新オープンする「レストラン」の開業日が決定してる！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LYTlvQTEza21rYzVjaC1xbjJoWldLekpTdGRrZ1o5ZTVGVDhOU25IVmR1TzRLcUdIbl9NQjY3MF8xN25ZSm0tbmZiOUZ2Zmk2dXI3WHU3RjlyQQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Sat, 11 Jul 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1628,7 +1628,7 @@
     {
       "title": "【川口市】東領家に居酒屋「さんすい」が新オープンするみたい！本日17時！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9taks0NnludXpWTHhwVm1VVGMxTkpaYWRsYnBaY2d1ZFJsSmJXRzQ0UVFXYjJqRWVaV1BoQmNDOVVXSmxDSjdSZFVGTWFHZ1dzd2R5ak9HenhiZw?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1891,7 +1891,7 @@
     {
       "title": "西川口に、本格イタリアンが楽しめる「369BASE pipi」がリニューアルオープンしていました！",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sdllZUG83MldoalRFSFBxQ0RNbHhhTEhQY2E0UXFLcXEyRWpUc0c4bVBlZ2pCbGhBVDlTV3hPT2lGTDN1Z3J1bTc1aXF2WlNDU0VrLVhBeE5tZw?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1927,7 +1927,7 @@
     {
       "title": "川口リリアに新オープンした「カフェ・ド・デイジイ」で大人な甘さの『チョコレートパフェ』を食べてきた！贅沢なおやつタイムを堪能",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5HOS05ZUZueXVxa1lSWW9qWlZ4eU02ajFjY25QbV9VTkZsRG5CT0ItNXdrZVdkcU5JNm82ajMtaFYwbDVYQ1FBUmp5eWFSX2pBSTItTm5mSFNuQQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -1961,7 +1961,7 @@
     {
       "title": "【川口市】リリアにグランドオープンした「カフェ・ド・デイジイ」で『ふわとろ卵のオムハッシュ』を食べてきたよ",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xME5qdGxrSjM5SzJrSnR6Znk1LVc3dllvZmRVMFZQN0V1UkY4YnozOHA2TDJNeDZMNWlPemltOUFQMFlQMzdaUUNlbkJWRjdrTmczZFBjdmxQZw?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [
@@ -2011,7 +2011,7 @@
     {
       "title": "西川口にイタリアンバル「DA ENZO」が新オープンしたみたい！現役ラガーマンが営むお店とメニューを見てきたよ",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uQ0dSbE5WVW5hOVBpOXhfRVNrQVBra3IxT0lOd0UzWm1BQ1dNa3ZZeEZmOF9QTXRHdkRqR2JPZTJLSkd0QUZpb2tYdXJBSURua2lRUXpWUVhVQQ?oc=5",
-      "source": "kawaguchi-magazine.com",
+      "source": "川口マガジン",
       "pubDate": "Sat, 13 Jun 2026 07:00:00 GMT",
       "area": "川口市",
       "genres": [

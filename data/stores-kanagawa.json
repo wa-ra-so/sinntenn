@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-07T07:24:00.528Z",
+  "generatedAt": "2026-08-07T09:05:19.849Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 98
+      "count": 99
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -24,13 +24,13 @@
       "label": "バー系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 78
+      "count": 79
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 3
+      "count": 4
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -42,13 +42,13 @@
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 2
+      "count": 3
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 39
+      "count": 40
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 124,
+  "itemCount": 125,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -571,6 +571,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-05T06:33:17.039Z"
+    },
+    "大船ルミネウィング": {
+      "storeName": "大船ルミネウィング",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000763830/?vos=nhppalsa000016",
+      "shopName": "麺屋 空海 大船ルミネウィング店",
+      "address": "神奈川県鎌倉市大船１-4-１　大船ルミネウィング7F",
+      "access": "JR東海道本線大船駅 徒歩1分 ",
+      "genre": "ラーメン",
+      "budget": "1501～2000円",
+      "capacity": 28,
+      "open": "月～日、祝日、祝前日: 10:30～21:30 （料理L.O. 21:00 ドリンクL.O. 21:00）",
+      "checkedAt": "2026-08-07T09:05:19.848Z"
     }
   },
   "market": {
@@ -700,6 +713,16 @@
     }
   },
   "items": [
+    {
+      "title": "有隣堂／神奈川県「大船ルミネウィング」に文具・雑貨の新ブランド、11月オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jbVdrTHhvQ2sxUUNxc3g1N2hoYkR0WndTbFkxdkNCM1p1Yng3QzBKRllmZGZuTXhSV1FpY3NmNlgxZFpoallFc3pGSGxuZExLaG9rMg?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Fri, 07 Aug 2026 08:40:00 GMT",
+      "area": "鎌倉市",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-07T09:05:16.372Z"
+    },
     {
       "title": "株式会社はなまる オープニングスタッフ募集（ホールスタッフ/オープニング手当あり器用じゃなくても問題ナシ…）",
       "link": "https://www.hatarako.net/job/9001048325/",
@@ -986,9 +1009,9 @@
     },
     {
       "title": "【神奈川県横浜市】「横浜天然温泉SPA EAS」オープン！没入型サウナや和モダンダイニングが登場",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41WEZmQUZKSnhpQU9FdXg3azluQ3dzTHVPWjJSZ0tFbkNCbGVkOHk5SzVTUHdCWU04aUd0UnBMZTdIYjVjOXpzZFJXaw?oc=5",
-      "source": "ガジェット通信",
-      "pubDate": "Thu, 30 Jul 2026 02:15:35 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yY1dfd3JwMUpDZ2JqYzdlQXU2UXJiOVlSZUlMUjFKeDJqLUE3VkxYU1lQdnBxSHpYZEFBejZzS050TkNDSDVlQjZZNF9CMUhxLW84?oc=5",
+      "source": "STRAIGHT PRESS",
+      "pubDate": "Thu, 30 Jul 2026 02:49:42 GMT",
       "area": "横浜市",
       "genres": [
         "ダイニング"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:23:52.917Z",
+  "generatedAt": "2026-08-07T09:05:12.556Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,13 +30,13 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 11
+      "count": 12
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 25
+      "count": 24
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 76
+      "count": 71
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 292,
+  "itemCount": 293,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -2072,6 +2072,18 @@
       "firstSeenAt": "2026-07-17T00:05:49.210Z"
     },
     {
+      "title": "東京・関東“おしゃれでおいしい”カフェ＆スイーツ特集、2026年オープンのおすすめグルメスポット",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZZ3ZKeUhoWGhXUWhWT21FX0dLTzJaOTJxT1hocHNPLXpRYnJqUlpLbS1pY3RaS1pvaW93Zmo5MFhTOWlCSi1GSFNIYk1kMXA3SFVN?oc=5",
+      "source": "ファッションプレス",
+      "pubDate": "Thu, 06 Aug 2026 10:29:52 GMT",
+      "area": "",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-07T09:05:08.722Z"
+    },
+    {
       "title": "「やき豚とローストビーフの店」オープニングスタッフ募集（キッチンスタッフ/オープニングスタッフ「調理」設立70年以上…）",
       "link": "https://www.hatarako.net/job/9001360160/",
       "source": "求人ボックス（はたらこねっと）",
@@ -2272,7 +2284,7 @@
     {
       "title": "大衆居酒屋とイタリアンのいいとこどり「大衆イタリアンかね子 吉祥寺店」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nbEF1dndlNEtaR3p4MEZnU19SOW83MzlWMkdneF9GQnBJQm5LZVdfN3gxaVpwcTd4QVp5NjIwYWFRZXRWR1RxZVBWTU5MUVRwZm9EeHRKOVBtaVk?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Sun, 02 Aug 2026 22:30:44 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -2925,7 +2937,7 @@
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4120,7 +4132,7 @@
     {
       "title": "吉祥寺に名古屋発の厚切り牛タン黒毛和牛食べ放題専門店「焼肉 朧」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWl9KWFFnajA5YkFrRC1aNkNxVUVaMXB2X0cxWnRfM0o1eElNajhxSXQ1U01Lc2NBYkl3MFBVWUEybDlJQ3lqT2pwOVMwTm9KeC1SV1FUOHp2RjQ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -4283,7 +4295,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4814,7 +4826,7 @@
     {
       "title": "学芸大学に「シロネリ」がオープン。自家製麺とラビオリ、本格焼酎の居酒屋。自由が丘「ニショク」、池尻大橋「ルリイロ」などイタリアン展開のコローリ新店舗",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ya2VEVlZYYkZnRUdiVzFfVHgwWVdNVFhPZkVtR2VDd0JnMzhmQzg3V0dCWVBpS3RrZkpFMkdtM0l3eHV5LUdzb29NVHRpdlNoOUE?oc=5",
-      "source": "フードスタジアム",
+      "source": "food-stadium.com",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "目黒区",
       "genres": [
@@ -5165,7 +5177,7 @@
     {
       "title": "スクエニの常設カフェ「Officially Licensed SQUARE ENIX Cafe & Shop SHINJUKU」が本日東京にグランドオープン",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nVnlsUU05Y2xTbjI3cHpBVXMwaFoxZUFJbTJXWDNkZGQtSktlSTVUNWhNRHUtSFVxbnRZNExfMDNGQ1V5OGl3UXc2RHFKNzZNUUJ2VHhMT0xuYzVSVWt6TzJ3c2dkZw?oc=5",
-      "source": "GAME Watch",
+      "source": "game.watch.impress.co.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
