@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T05:02:41.696Z",
+  "generatedAt": "2026-08-08T07:00:56.151Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 44
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 14
+      "count": 12
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 131,
+  "itemCount": 132,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -731,6 +731,18 @@
       "firstSeenAt": "2026-07-21T22:07:07.423Z"
     },
     {
+      "title": "株式会社イーケーシー オープニングスタッフ募集（韓国料理のキッチン/オープニング/面接確約/未経験可）",
+      "link": "https://grsta.jp/manuscript/0a0602c3-9fd5-1ce7-819f-d83b95e90195",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 07 Aug 2026 11:13:58 GMT",
+      "area": "習志野市",
+      "genres": [
+        "韓国料理"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T22:06:27.312Z"
+    },
+    {
       "title": "株式会社八街未来都市 オープニングスタッフ募集（調理師・調理スタッフ/リゾート内グリルレストラン/洋食調理/…）",
       "link": "https://plusnavi-cooks.com/jobs/restaurant_n146404/",
       "source": "求人ボックス（プラスナビクック）",
@@ -1062,6 +1074,16 @@
       "firstSeenAt": "2026-08-07T01:52:28.062Z"
     },
     {
+      "title": "組員脱退妨害、組長に再発防止命令 千葉県警",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4UElvRUpJTzgxQTk4THRXYUZjbHVZMlJDVk16OTBVX0o5eDNSNi1ETlNmNk1DTVhVZ09ZXzJjZ1EwMGhzNERyaGgwT3UtRVhJRE9FSWhMdlc?oc=5",
+      "source": "千葉日報オンライン",
+      "pubDate": "Wed, 29 Jul 2026 20:00:00 GMT",
+      "area": "",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-08T07:00:52.761Z"
+    },
+    {
       "title": "株式会社　山商 オープニングスタッフ募集（【オープニング】カジュアルな居酒屋のホール　調理スタッフ(正…）",
       "link": "https://to.indeed.com/aarlj84vzc2p",
       "source": "Indeed",
@@ -1284,18 +1306,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T03:15:34.441Z"
-    },
-    {
-      "title": "株式会社イーケーシー オープニングスタッフ募集（韓国料理のキッチン/オープニング/面接確約/未経験可）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc4a252dcc",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:22 GMT",
-      "area": "習志野市",
-      "genres": [
-        "韓国料理"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T22:06:27.312Z"
     },
     {
       "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場のキッチン/オープニング/面接確約/未経験可）",
@@ -1598,7 +1608,7 @@
     {
       "title": "記念日に特化したお洒落カフェが7/28に千葉でオープン！ 「FLOWER CHEERS CAFE(フラワーチアーズカフェ)」",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBYd0k5blpxMWF6aFJEX1FCYVRCbHl2RVR4NEQ4WTFyNHRVYlZtRmlReDZhdTYxYm9KZzJSdGYyUVRGTFNIME01eDk1U0dWUjg?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Mon, 13 Jul 2026 07:00:00 GMT",
       "area": "",
       "genres": [

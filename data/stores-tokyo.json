@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T05:02:50.590Z",
+  "generatedAt": "2026-08-08T07:01:05.247Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 64
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 14
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 296,
+  "itemCount": 293,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -429,19 +429,6 @@
       "open": "",
       "checkedAt": "2026-08-04T02:57:54.893Z"
     },
-    "パークスタンドトーキョー": {
-      "storeName": "パークスタンド トーキョー",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-04T02:57:55.106Z"
-    },
     "sushireona/玲桜奈東京23区に出店予定": {
       "storeName": "Sushi REONA/玲桜奈 東京23区に出店予定",
       "listed": false,
@@ -754,19 +741,6 @@
       "open": "",
       "checkedAt": "2026-08-06T10:44:40.015Z"
     },
-    "雲開キ": {
-      "storeName": "雲開キ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-07T05:44:34.049Z"
-    },
     "銀だこハイボール酒場": {
       "storeName": "銀だこハイボール酒場",
       "listed": true,
@@ -883,19 +857,6 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-07T10:57:38.864Z"
-    },
-    "ピエール・エルメ・パリ": {
-      "storeName": "ピエール・エルメ・パリ",
-      "listed": false,
-      "url": "",
-      "shopName": "",
-      "address": "",
-      "access": "",
-      "genre": "",
-      "budget": "",
-      "capacity": "",
-      "open": "",
-      "checkedAt": "2026-08-07T10:57:38.521Z"
     },
     "清澄白河": {
       "storeName": "清澄白河",
@@ -1888,10 +1849,6 @@
       "count": 417,
       "checkedAt": "2026-08-07T05:44:34.975Z"
     },
-    "千代田区|カフェ": {
-      "count": 112,
-      "checkedAt": "2026-08-07T10:57:39.016Z"
-    },
     "台東区|レストラン": {
       "count": 34,
       "checkedAt": "2026-08-07T10:57:39.004Z"
@@ -2168,7 +2125,7 @@
     {
       "title": "東京国立博物館、館内レストラン3店舗をリニューアル 各店舗の詳細を発表！",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5PdDBjR3BBNFh5S0ZVZURJZW5FZElGd2NQNkFkeGF4N0ZPTlo4YmUySjNtei1yUU9MMGpfSERGUUhVd0luS19MU2dFQ2hmRUE?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Wed, 05 Aug 2026 05:00:00 GMT",
       "area": "国立市",
       "genres": [
@@ -2346,7 +2303,7 @@
     {
       "title": "大衆居酒屋とイタリアンのいいとこどり「大衆イタリアンかね子 吉祥寺店」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nbEF1dndlNEtaR3p4MEZnU19SOW83MzlWMkdneF9GQnBJQm5LZVdfN3gxaVpwcTd4QVp5NjIwYWFRZXRWR1RxZVBWTU5MUVRwZm9EeHRKOVBtaVk?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Sun, 02 Aug 2026 22:30:44 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -2989,7 +2946,7 @@
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4194,7 +4151,7 @@
     {
       "title": "吉祥寺に名古屋発の厚切り牛タン黒毛和牛食べ放題専門店「焼肉 朧」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWl9KWFFnajA5YkFrRC1aNkNxVUVaMXB2X0cxWnRfM0o1eElNajhxSXQ1U01Lc2NBYkl3MFBVWUEybDlJQ3lqT2pwOVMwTm9KeC1SV1FUOHp2RjQ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -4357,7 +4314,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4439,7 +4396,7 @@
     {
       "title": "「ご飯を出さない」スープカレー『10cm SPICE & BUNS 』が南新宿にオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9STG1GU0RBcmYtMEo5QmZGRk11OG1rV0Z6aE1EcmN3bmpSS3JEU3otRGdwOXN0TEdQMXJXb1ZBSFZ2ellfelNZ?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Sat, 04 Jul 2026 07:00:00 GMT",
       "area": "新宿区",
       "genres": [],
@@ -4449,7 +4406,7 @@
     {
       "title": "フレンチクロワッサン専門店「ドレ バイ シャルルアンリ」代官山にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VOEN2dmptM1pBRkR5Ry1VWl9veWhFWGVmbk5oY25oRkVWV2Q1WkNVTTI1Ykc4YjBjbm9OaVJPU2ZZZEN0aGhSTVJLNDRwRFU?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [
@@ -4772,7 +4729,7 @@
     {
       "title": "中野に週1営業のカンボジア料理専門店『CAMRODINNER カンボジア食堂〜アンコール〜』がオープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE16MS1yNXhpaDljdXBnUEZJRXJYWGJCS3ZXQnNIVWlPUmZmcGpwOUxtNXBFNURLR3hseHdEanhtVGVtSzNwVmI0?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Sat, 27 Jun 2026 07:00:00 GMT",
       "area": "中野区",
       "genres": [],
@@ -4979,7 +4936,7 @@
     {
       "title": "武蔵小杉で売上No.1を記録した店主が銀座で独立 深夜0時開店の「Girlsbar Mercury」オープン",
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4yLUM3TDVpZWRoZ0h1Rml5NUtPUE5VWjNSaURHSlpRSzJ0RVhNQVJWczNHN2FYdnUzZ2JyNU5fcnZYUm0zdm1F?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [],
@@ -4999,7 +4956,7 @@
     {
       "title": "スイス発のロースタリーカフェ「MAME Tokyo」日本2号店が千駄ヶ谷にオープン｜レッツエンジョイ東京",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJWHNzcmJjSTlLaDhKN29fTF9Zbm5TN1EzS1lEM1Z4eFFXYWxBOXMzcUVPRWtJSVl4dUZ1bnY5T0ttbHdTVzhMQzhiRU1QMmM?oc=5",
-      "source": "enjoytokyo.jp",
+      "source": "レッツエンジョイ東京",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "",
       "genres": [
@@ -5229,7 +5186,7 @@
     {
       "title": "見た目はピンク、味は本気! かわいいだけじゃない本格スパイスカレー「PEACH HOUSE CAFE」が恵比寿にオープン!!",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aRXRzcUszRFZNZ1dxTzJyUWNaVVh0dXByTkZMQm91Q0J1ZDVaU0xRbExGRHFDNl9uUEpSNjdJVnZuQ3IyNzNINWhHRnpZU3M?oc=5",
-      "source": "Newscast.jp",
+      "source": "newscast.jp",
       "pubDate": "Fri, 12 Jun 2026 07:00:00 GMT",
       "area": "渋谷区",
       "genres": [],
@@ -5379,43 +5336,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:23:15.476Z"
-    },
-    {
-      "title": "倉庫をリノベしたベーカリーカフェ「パークスタンド トーキョー」清澄白河にオープン｜レッツエンジョイ東京",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WQWt3TXNlTkphOGtoTDAyUXQ1UmwyTXlLZnhFaVpyS2w5d3ZGbVRLRmxPVlRLN3Z3RmNsdDYzLWNyYWh1UjlKcmsxZmQxcjQ?oc=5",
-      "source": "レッツエンジョイ東京",
-      "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
-      "area": "江東区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.046Z"
-    },
-    {
-      "title": "恵比寿に「雲開キ」が開業。間借りから始まった居酒屋、渋谷「雲隠レ」に続き実店舗2店舗目。ハレの日レストランが多いエリアで鮮魚を打ち出した日常使いの居酒屋",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQR183ekhUMXVJZ1hPR1htWGZLSUFuM3loTUpUZmJxU015eVVCMnJIcVo2blhSX3BhaVU3NHl0ZWUyNWUza090aTdtYVJZTEplRlE?oc=5",
-      "source": "フードスタジアム",
-      "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
-      "area": "渋谷区",
-      "genres": [
-        "居酒屋",
-        "レストラン"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-16T15:07:03.990Z"
-    },
-    {
-      "title": "カフェを併設した「ピエール・エルメ・パリ」の新店が丸の内にオープン｜レッツエンジョイ東京",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iMVQxYVp2a3h0ajE4OXVva3A5LUdqN3ItbDl2Yi1TczJmR2sxeU13RVFnNWZGbVY0NjB2em5PQlFreS1TZ253S010RlRnZlU?oc=5",
-      "source": "enjoytokyo.jp",
-      "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
-      "area": "千代田区",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-17T07:21:15.286Z"
     }
   ]
 }
