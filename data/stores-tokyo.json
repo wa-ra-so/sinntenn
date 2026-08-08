@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:57:39.017Z",
+  "generatedAt": "2026-08-08T01:57:45.492Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 24
+      "count": 22
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -48,7 +48,7 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 70
+      "count": 66
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 294,
+  "itemCount": 295,
   "hotpepper": {
     "カフェエシュクレ": {
       "storeName": "カフェ エ シュクレ",
@@ -1715,6 +1715,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-07T01:29:02.204Z"
+    },
+    "上野マルイ": {
+      "storeName": "上野マルイ",
+      "listed": true,
+      "url": "https://www.hotpepper.jp/strJ000023326/?vos=nhppalsa000016",
+      "shopName": "マトリョーシカ 上野マルイ店",
+      "address": "東京都台東区上野６－１５－１　上野マルイ９Ｆ",
+      "access": "上野駅徒歩2分",
+      "genre": "洋食",
+      "budget": "2001～3000円",
+      "capacity": 36,
+      "open": "月～日、祝日、祝前日: 11:00～21:30 （料理L.O. 20:30 ドリンクL.O. 20:30）",
+      "checkedAt": "2026-08-08T01:57:44.699Z"
+    },
+    "wagyuyakiniku日山": {
+      "storeName": "WAGYU YAKINIKU 日山",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-08T01:57:45.492Z"
     }
   },
   "market": {
@@ -2029,6 +2055,41 @@
   },
   "items": [
     {
+      "title": "「神戸牛・和牛 鉄板焼き 赤坂 諮玄 はなれ」オープニングスタッフ募集（鉄板料理専門店の店長候補 オープニングスタッフ・独立支援あり）",
+      "link": "https://kyujinbu.com/kisshokichi/detail/post_1078.html",
+      "source": "求人ボックス（SEEDOOR株式会社）",
+      "pubDate": "Fri, 07 Aug 2026 21:33:34 GMT",
+      "area": "港区",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-01T03:27:46.846Z"
+    },
+    {
+      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
+      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
+      "source": "求人ボックス（山二林産株式会社）",
+      "pubDate": "Fri, 07 Aug 2026 20:53:35 GMT",
+      "area": "新宿区",
+      "genres": [
+        "居酒屋",
+        "バー"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T15:05:25.996Z"
+    },
+    {
+      "title": "【8月8日OPEN】老舗精肉店「日山」が恵比寿に焼肉店「WAGYU YAKINIKU 日山」をオープン",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sMmViNlJURHQ5dlNoaWthZGNVSHdIeEdYRDRLQXRhVVBMaHBJUjN5NEVSVS14WFlLaEhxajR3WGRkb2w1YTJ5V2dWVTdwdkdPQ2VLQXBB?oc=5",
+      "source": "フーズチャネル",
+      "pubDate": "Fri, 07 Aug 2026 12:10:54 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "焼肉"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T01:57:38.804Z"
+    },
+    {
       "title": "株式会社ワンダーテーブル オープニングスタッフ募集（ビアホールのホールスタッフ/「オープニング時給1500円～」…）",
       "link": "https://en-gage.net/user/search/desc/16282744/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -2049,19 +2110,6 @@
       "firstSeenAt": "2026-07-25T06:22:34.677Z"
     },
     {
-      "title": "山二林産株式会社 PERFECT BEER STAND新大久保 オープニングスタッフ募集（飲食店/ビアバー・居酒屋業態/のオープニングスタッフ）",
-      "link": "https://job-gear.net/okanouebaraen2/AC0819460766/MDkyujin_d.htm",
-      "source": "求人ボックス（山二林産株式会社）",
-      "pubDate": "Thu, 06 Aug 2026 20:53:37 GMT",
-      "area": "新宿区",
-      "genres": [
-        "居酒屋",
-        "バー"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:25.996Z"
-    },
-    {
       "title": "株式会社ちゃんばら オープニングスタッフ募集（ホテル内和食料理店の店舗スタッフ/オープニング/転勤なし/賞…）",
       "link": "https://grsta.jp/manuscript/0a060183-9fd1-1216-819f-d3151570008a",
       "source": "求人ボックス（グルスタ）",
@@ -2070,18 +2118,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-17T00:05:49.210Z"
-    },
-    {
-      "title": "東京・関東“おしゃれでおいしい”カフェ＆スイーツ特集、2026年オープンのおすすめグルメスポット",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZZ3ZKeUhoWGhXUWhWT21FX0dLTzJaOTJxT1hocHNPLXpRYnJqUlpLbS1pY3RaS1pvaW93Zmo5MFhTOWlCSi1GSFNIYk1kMXA3SFVN?oc=5",
-      "source": "ファッションプレス",
-      "pubDate": "Thu, 06 Aug 2026 10:29:52 GMT",
-      "area": "",
-      "genres": [
-        "カフェ"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-08-07T09:05:08.722Z"
     },
     {
       "title": "JR東日本グループ／東京・国立に個性的な4店舗集まる新施設、9月から順次開業",
@@ -2237,7 +2273,7 @@
       "link": "http://s.baitoru.com/DW0b0Wmz",
       "source": "求人ボックス（baitoru）",
       "pubDate": "Mon, 03 Aug 2026 18:11:10 GMT",
-      "area": "渋谷区",
+      "area": "港区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-04T02:57:46.499Z"
@@ -2452,7 +2488,7 @@
     {
       "title": "【体験レポ】「JIMMY CHOO」が手掛けるストリートカフェが東京・銀座にオープン！ブランド激戦区に登場したロンドン風の空間とは？",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nOUxTel9XYzlHcks0T3NwNUU0RldNZlBNQ0pheUdxU3RqYjVoa1hoTHU5aEFGeEtZcno3UGp0SDJhdWlTXzVyQzJJWjhrbW1BRUFTQ3Rn0gFbQVVfeXFMTnp6WEZRMExRNDNxYlBndFYyeEQ4RW5PLWxMQUdXRDRNTTk1YjdXZnVEWlAwd3pIeHBuLTZucno1YUZLWXhsWUVudGI2b1A5MXVaRXcybUEzRjRVSQ?oc=5",
-      "source": "ウォーカープラス",
+      "source": "walkerplus.com",
       "pubDate": "Fri, 31 Jul 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [
@@ -2701,16 +2737,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-08-04T10:44:42.237Z"
-    },
-    {
-      "title": "「神戸牛・和牛 鉄板焼き 赤坂 諮玄 はなれ」オープニングスタッフ募集（鉄板料理専門店の店長候補 オープニングスタッフ・独立支援あり）",
-      "link": "https://kyujinbu.com/kisshokichi/detail/post_1054.html",
-      "source": "求人ボックス（SEEDOOR株式会社）",
-      "pubDate": "Mon, 27 Jul 2026 21:34:09 GMT",
-      "area": "港区",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-08-01T03:27:46.846Z"
     },
     {
       "title": "【八王子】『串八本舗』姉妹店！気軽に楽しめるカジュアルビストロ『ハチとろ』がオープン",
@@ -3858,6 +3884,16 @@
       "firstSeenAt": "2026-07-30T02:46:07.811Z"
     },
     {
+      "title": "ゴンチャ／東京都台東区「上野マルイ」に新店舗7月17日オープン",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XTG93X3AwamxheE92YnJNb2xPYmNiMXoxUGRkSUtwUEREUDNTSGpHeFlrVy1ZOEptNDc3b3doQXNfU1BaR1pVZl9KTzFYbWZ5OEJBdA?oc=5",
+      "source": "流通ニュース",
+      "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
+      "area": "台東区",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T01:57:38.807Z"
+    },
+    {
       "title": "7月15日(水)、伊勢丹新宿店 洋菓子エリアにガラス張りの厨房を備えたライブ感あふれる空間「マ・パティスリー」誕生！「カフェ エ シュクレ」は全33ブランドフルオープン | 株式会社 三越伊勢丹ホールディングスのプレスリリース",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvMzVVcHlKa21fVHc3Sk94bks1enRaaEQ1OERVX3VLX0FlNmc3MVlsYVczZnpvdERfZ0ZwRWw4TndreG5OY1YyNXRVemxzenNnRmU4S1pNOGFtVnpUakNBczVtUWV3SS02b0E?oc=5",
       "source": "PR TIMES",
@@ -4226,7 +4262,7 @@
     {
       "title": "都内初進出！ 飲茶＆中華/スイーツ食べ放題の「THE BUFFET（ザ ブッフェ）点心甜心 三鷹店」オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xUGVmNk5CcXJJR3hEa09jLThpYUtYbkxVR1lMUEFVR1hyY0Uyc2EzdVFRcDBkRjZ5Qmc2Rk1fYXVfUUh0RWlJRXRQSy02WmVPTkwtQnpWWGxuVVhZZU4wU0ZCaXN3anFwYnc?oc=5",
-      "source": "グルメ Watch",
+      "source": "gourmet.watch.impress.co.jp",
       "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4847,18 +4883,6 @@
       "firstSeenAt": "2026-07-13T15:05:26.040Z"
     },
     {
-      "title": "【東京都渋谷区】「KITAINARI本店」が渋谷ヒカリエへ移転・リニューアルオープン！いなり寿司を堪能",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9obi0wYTVVTlBiRXc1TnZETk1PVWJiOF9PX0FBOFVIU2ZEZEtLMW5aZ1RvQlJLd1NlaEstaFNtb3FyUm9sWVFzNV9USXdQbHZybXhB?oc=5",
-      "source": "STRAIGHT PRESS",
-      "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "area": "渋谷区",
-      "genres": [
-        "寿司"
-      ],
-      "signal": "opening",
-      "firstSeenAt": "2026-07-13T15:05:26.044Z"
-    },
-    {
       "title": "『クーリッシュ専用あんぱん』が登場 三鷹の老舗パン屋とコラボ【詳細】",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oNTZGZUNWTWRzYXU3Q0cwY0Z5cmp4bDVKOTRWQkhha2Y2T1UxS25NbHdyaTdzNjFpVlByYVJiRXcxa2dqbFU3WTY1UEE5dWM2MFZrNzI2bk5tZw?oc=5",
       "source": "オリコンニュース",
@@ -4867,6 +4891,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-28T02:54:13.074Z"
+    },
+    {
+      "title": "【東京都渋谷区】「KITAINARI本店」が渋谷ヒカリエへ移転・リニューアルオープン！いなり寿司を堪能",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fY0RHN1dUc19SSkllcklVMjRlUi1QTzNYbUFqODZ2MzNqVTJDMThrVk9XUzcydTVBTUw1alg5M1Bzc0FRUXdFSnFhSQ?oc=5",
+      "source": "ガジェット通信",
+      "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
+      "area": "渋谷区",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-07-13T15:05:26.044Z"
     },
     {
       "title": "株式会社座御堂 オープニングスタッフ募集（オープニング　銀座発の珈琲店スタッフ）",
@@ -5099,7 +5135,7 @@
     {
       "title": "東京・南青山にニッカウヰスキーのフラッグシップバー 7月オープン、多様な楽しみ方を発信へ",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aOFJLa2Z6bFlCM0tRSlVoVi1ObHowWkZVbjBhSzVwMXZxR044R1Z0QVdWSVpBdWF4OWRWUXM1bTVvdzFYYWxqMXZ2MTZ3ODYwOWJqZTdoem9CZEpfLUVQYw?oc=5",
-      "source": "shokuhin.net",
+      "source": "食品新聞 WEB版",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
       "area": "港区",
       "genres": [

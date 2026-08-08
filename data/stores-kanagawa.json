@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:57:46.949Z",
+  "generatedAt": "2026-08-08T01:57:54.160Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,31 +30,31 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 4
+      "count": 2
     },
     {
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 15
+      "count": 16
     },
     {
       "label": "カフェ系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (カフェ OR スナック OR 創作料理)",
       "ok": true,
-      "count": 3
+      "count": 1
     },
     {
       "label": "バー系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 41
+      "count": 43
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-神奈川県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
       "ok": true,
-      "count": 3
+      "count": 5
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 神奈川県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 125,
+  "itemCount": 126,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -584,6 +584,19 @@
       "capacity": 28,
       "open": "月～日、祝日、祝前日: 10:30～21:30 （料理L.O. 21:00 ドリンクL.O. 21:00）",
       "checkedAt": "2026-08-07T09:05:19.848Z"
+    },
+    "pacifictable": {
+      "storeName": "PACIFIC TABLE",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-08T01:57:54.160Z"
     }
   },
   "market": {
@@ -746,6 +759,18 @@
       "firstSeenAt": "2026-07-13T15:05:41.932Z"
     },
     {
+      "title": "ウェスティンホテル横浜にインターナショナル・ビュッフェ・レストラン「PACIFIC TABLE」がオープン",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkbkpLaUdWVThHZEM4WDVLalJrams2Znp1RGVFSjFJOFBFcllsUFRsLVRTTE9CRVNhd3Q3emVUeE1YazhNUWppTWJzMXd3S1lYLUU4VmVB0gFbQVVfeXFMT1YyMmpJVDZtVmV0S1AxZGtTLXgtUnJ5cWtFaXZQMldubUE3elhpa0Q4VWhBcm9iZE0yWmlZNUVyX0tvQkZtN1dBZlA2bDFQVGlkVzhtc0I4SzNZZw?oc=5",
+      "source": "walkerplus.com",
+      "pubDate": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "area": "横浜市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T01:57:49.466Z"
+    },
+    {
       "title": "【神奈川県藤沢市】地域コミュニティを育てるeスポーツゲーミングカフェ「ONeZONE湘南台」がプレオープン",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wUjVMRExscUJPbGZqRmdJc29FcklEY2M3N01XNXJDWXpQczVzUUJlcEtpcHJwRFhzR0k1dG9BbnNjSzRvNFlrRVdkMHVLOHJnZjNZ?oc=5",
       "source": "STRAIGHT PRESS",
@@ -852,7 +877,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "ウォーカープラス",
+      "source": "walkerplus.com",
       "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
       "area": "",
       "genres": [
@@ -946,7 +971,9 @@
       "source": "求人ボックス（バイトな女子）",
       "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
       "area": "川崎市",
-      "genres": [],
+      "genres": [
+        "居酒屋"
+      ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },

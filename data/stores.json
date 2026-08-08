@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T10:57:30.158Z",
+  "generatedAt": "2026-08-08T01:57:34.150Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "千葉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 49
+      "count": 44
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 11
+      "count": 16
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 128,
+  "itemCount": 131,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -532,6 +532,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-07T02:53:09.304Z"
+    },
+    "andcoffee": {
+      "storeName": "and coffee",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-08T01:57:34.150Z"
     }
   },
   "market": {
@@ -686,6 +699,52 @@
   },
   "items": [
     {
+      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
+      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
+      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
+      "pubDate": "Fri, 07 Aug 2026 20:07:14 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-13T21:46:36.523Z"
+    },
+    {
+      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
+      "link": "https://grsta.jp/manuscript/0a0602c3-9fd5-1ce7-819f-d83bf81a0392",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 07 Aug 2026 11:13:59 GMT",
+      "area": "成田市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-15T02:23:09.616Z"
+    },
+    {
+      "title": "株式会社八街未来都市 オープニングスタッフ募集（調理師・調理スタッフ/リゾート内グリルレストラン/洋食調理/…）",
+      "link": "https://plusnavi-cooks.com/jobs/restaurant_n146404/",
+      "source": "求人ボックス（プラスナビクック）",
+      "pubDate": "Fri, 07 Aug 2026 11:13:33 GMT",
+      "area": "八街市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-08T01:57:28.476Z"
+    },
+    {
+      "title": "柏市根戸の市営住宅そばにカフェ「and coffee」が7/31（木）オープン",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wclJ2TUdQcnZIVEc0UXpMcnFQcWc0bGNOYUU5eFRHc2Y4M3JvS0FEVnpyeEx2Qjl0NkJBa0IyNUR1Q1FOU1FZeGdmTXQyMHM?oc=5",
+      "source": "柏つうしん",
+      "pubDate": "Fri, 07 Aug 2026 08:25:22 GMT",
+      "area": "柏市",
+      "genres": [
+        "カフェ"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T01:57:28.572Z"
+    },
+    {
       "title": "クックビズ株式会社 オープニングスタッフ募集（調理キッチンスタッフ/「内定まで最短5日」千葉県・東金市/調…）",
       "link": "https://en-gage.net/user/search/desc/16650237/?aroute=1705",
       "source": "求人ボックス（エンゲージ）",
@@ -694,16 +753,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-13T15:05:16.997Z"
-    },
-    {
-      "title": "株式会社ジェイ・エス・ビー・フードサービス オープニングスタッフ募集（学生マンションでの調理責任者）",
-      "link": "https://job-gear.net/jsbfs2/AE0713075708/MDkyujin_d.htm",
-      "source": "求人ボックス（株式会社ジェイ･エス･ビー･フードサービス）",
-      "pubDate": "Thu, 06 Aug 2026 18:59:17 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T21:46:36.523Z"
     },
     {
       "title": "大衆酒場レストラン(千葉中央/居酒屋)＜ネット予約可",
@@ -801,7 +850,7 @@
     {
       "title": "船橋市本町2丁目のワインバー内に天然酵母ベーグル専門店「+C Bagel」が7/31（木）オープン",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xTzlmMmV4Qk9TNUxWRDFGTTJwNWpJRjhCazJlY3A3LWJHc0FTMWtmSXBYRGpsTElrSXJuYlk5Z05JS1JYV0h2bFNqVU1GTDE0T3c?oc=5",
-      "source": "船橋つうしん",
+      "source": "funabashi-tsushin.com",
       "pubDate": "Wed, 05 Aug 2026 09:36:57 GMT",
       "area": "船橋市",
       "genres": [
@@ -951,6 +1000,16 @@
       "firstSeenAt": "2026-07-31T03:28:55.180Z"
     },
     {
+      "title": "株式会社赤門 オープニングスタッフ募集（飲食店スタッフ）",
+      "link": "https://akamon-baito.jp/job/-/info/detail/M0000111",
+      "source": "求人ボックス（株式会社赤門）",
+      "pubDate": "Thu, 30 Jul 2026 13:25:36 GMT",
+      "area": "成田市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-08T01:57:28.477Z"
+    },
+    {
       "title": "「マチルダステーション 浦安望海の街 郵便局前」オープニングスタッフ募集（料理長候補）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/147672/674854/1_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
@@ -1031,7 +1090,7 @@
     {
       "title": "船橋市本町に「PHILOCOFFEA旧焙煎所」が7/31（金）オープン、バリスタ世界王者の原点の場所が新カフェに",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54MG9qeEdHMllxdnFHQ0l2YnVpQnFEMV9EaFdFN251QjVnSFlNdTRJWml0TEJ3Sms2Vkh5eXE4M05wcXQ4cUtXSjlnZFJjaUZDbnc?oc=5",
-      "source": "船橋つうしん",
+      "source": "funabashi-tsushin.com",
       "pubDate": "Tue, 28 Jul 2026 07:00:00 GMT",
       "area": "船橋市",
       "genres": [
@@ -1195,18 +1254,6 @@
       "firstSeenAt": "2026-07-14T23:59:20.599Z"
     },
     {
-      "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
-      "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afce4322fe8",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Thu, 23 Jul 2026 11:00:23 GMT",
-      "area": "成田市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T02:23:09.616Z"
-    },
-    {
       "title": "株式会社イーケーシー オープニングスタッフ募集（韓国料理ホール/オープニング/週休2日/面接確約）",
       "link": "https://grsta.jp/manuscript/0a0602cc-9f64-10e1-819f-8afc49702dc9",
       "source": "求人ボックス（グルスタ）",
@@ -1319,7 +1366,7 @@
     {
       "title": "船橋駅南口近くにタコス＆カフェ「サンズ・タケリア」が7/19（日）からオープン、キャッシュレス決済のみ",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZmtLNUJ4bnV0VmwxSFhsaGpURVRlMk9TQVRBWlQ0Z2t3UUI4clcwUlU4dEhmUjRsYWZuNDZvcWZNX05TcjRfYndYWENUSUNCQWc?oc=5",
-      "source": "船橋つうしん",
+      "source": "funabashi-tsushin.com",
       "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
       "area": "船橋市",
       "genres": [
@@ -1683,7 +1730,7 @@
       "link": "https://q-mate.jp/kendepot/cbe75f9a4d9d4bd98720f76f64505b5e.html",
       "source": "求人ボックス（株式会社建デポ人事総務法務部）",
       "pubDate": "Wed, 08 Jul 2026 16:48:42 GMT",
-      "area": "市川市",
+      "area": "船橋市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T07:33:05.349Z"
@@ -1725,7 +1772,7 @@
     {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VaVVPdVpRT1NqRkpMSC10a0QyZlY4RmtzZ2l4WUZFdFdzQUtEWEw2U2ExT3dBclpQQW9acjhVMWlKY3p3MTl4UTBsZ2hFMXhVNlE?oc=5",
-      "source": "船橋つうしん",
+      "source": "funabashi-tsushin.com",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "船橋市",
       "genres": [
