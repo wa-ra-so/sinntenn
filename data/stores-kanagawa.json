@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-08T08:49:19.621Z",
+  "generatedAt": "2026-08-08T10:38:59.103Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 99
+      "count": 98
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 127,
+  "itemCount": 125,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -727,18 +727,6 @@
   },
   "items": [
     {
-      "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
-      "link": "https://baitona-joshi.jp/shop/2232740/?=kbox",
-      "source": "求人ボックス（バイトな女子）",
-      "pubDate": "Sat, 08 Aug 2026 02:09:52 GMT",
-      "area": "川崎市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-25T06:22:43.658Z"
-    },
-    {
       "title": "【開店】「九州とんこつ のげら～ 横浜中華街店」7月15日（水）オープン！",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wbVJKYzhySV8yckxFRTVIUmlPMUNTd09uSUlNN09qbGVDUy1WTXg5Z0lJSUJ4dFhoS1M4ZW1aNmo4WnU1ZTR0LUpiZVlwcHZ0TGxnNnpWbE5lTGM2WHEtVVBGd2Y0LTBQbVBCZl9OSTRNdmRWelF0RQ?oc=5",
       "source": "au Webポータル",
@@ -988,6 +976,18 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T11:31:59.699Z"
+    },
+    {
+      "title": "合同会社Yellow オープニングスタッフ募集（ホールスタッフ/2026年6月OPEN/「落ち着いた雰囲気の…）",
+      "link": "https://baitona-joshi.jp/shop/2232740/",
+      "source": "求人ボックス（バイトな女子）",
+      "pubDate": "Fri, 31 Jul 2026 02:04:06 GMT",
+      "area": "川崎市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-25T06:22:43.658Z"
     },
     {
       "title": "株式会社ワイズテーブルコーポレーション オープニングスタッフ募集（(3月オープンの新ブランド)イタリアンカフェスタッフ）",
@@ -2125,28 +2125,6 @@
       ],
       "signal": "opening",
       "firstSeenAt": "2026-07-13T15:05:41.969Z"
-    },
-    {
-      "title": "OJI株式会社 オープニングスタッフ募集（オープニングスタッフ大募集!未経験OK!飲食店の正社員大募集）",
-      "link": "https://en-gage.net/user/search/desc/9996586/",
-      "source": "求人ボックス（OJI株式会社）",
-      "pubDate": "Tue, 09 Jun 2026 09:47:10 GMT",
-      "area": "藤沢市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-13T15:05:41.932Z"
-    },
-    {
-      "title": "S.H.N株式会社 オープニングスタッフ募集（オープニングスタッフ募集/居酒屋のホール・キッチン/時給13…）",
-      "link": "https://en-gage.net/user/search/desc/14861835/",
-      "source": "求人ボックス（S.H.N株式会社）",
-      "pubDate": "Tue, 09 Jun 2026 09:27:53 GMT",
-      "area": "横浜市",
-      "genres": [
-        "居酒屋"
-      ],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-15T09:53:22.919Z"
     }
   ]
 }
