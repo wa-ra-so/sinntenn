@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T03:40:26.443Z",
+  "generatedAt": "2026-08-08T05:02:41.696Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 15
+      "count": 14
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -710,7 +710,7 @@
     },
     {
       "title": "株式会社一家ホールディングス オープニングスタッフ募集（居酒屋の調理/年休110日/ほぼ残業なし/商品開発可）",
-      "link": "https://grsta.jp/manuscript/0a0602c3-9fd5-1ce7-819f-d83bf81a0392",
+      "link": "https://grsta.jp/manuscript/0a0602c3-9fd5-1ce7-819f-d83bf94d0398",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Fri, 07 Aug 2026 11:13:59 GMT",
       "area": "成田市",
@@ -719,6 +719,16 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:23:09.616Z"
+    },
+    {
+      "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場ホール/オープニング/週休2日/面接確約）",
+      "link": "https://grsta.jp/manuscript/0a0602c3-9fd5-1ce7-819f-d83b95440191",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Fri, 07 Aug 2026 11:13:58 GMT",
+      "area": "習志野市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-21T22:07:07.423Z"
     },
     {
       "title": "株式会社八街未来都市 オープニングスタッフ募集（調理師・調理スタッフ/リゾート内グリルレストラン/洋食調理/…）",
@@ -836,6 +846,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:37:17.709Z"
+    },
+    {
+      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
+      "link": "https://grsta.jp/manuscript/0a0601c4-9fc7-1a60-819f-cdef56c20216",
+      "source": "求人ボックス（グルスタ）",
+      "pubDate": "Wed, 05 Aug 2026 11:09:13 GMT",
+      "area": "松戸市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-07-20T22:05:33.170Z"
     },
     {
       "title": "株式会社エヴァーブルースカイ オープニングスタッフ募集（BOSOSWEETS/店長・サブ・マネージャーの正社員募集/…）",
@@ -1730,7 +1750,7 @@
       "link": "https://q-mate.jp/kendepot/cbe75f9a4d9d4bd98720f76f64505b5e.html",
       "source": "求人ボックス（株式会社建デポ人事総務法務部）",
       "pubDate": "Wed, 08 Jul 2026 16:48:42 GMT",
-      "area": "船橋市",
+      "area": "市川市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-03T07:33:05.349Z"
@@ -1758,16 +1778,6 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:19:39.874Z"
-    },
-    {
-      "title": "株式会社イーケーシー オープニングスタッフ募集（大衆酒場ホール/オープニング/週休2日/面接確約）",
-      "link": "https://grsta.jp/manuscript/0a0600d1-9f3b-1d41-819f-3dbce85b0170",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Wed, 08 Jul 2026 11:00:17 GMT",
-      "area": "習志野市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-21T22:07:07.423Z"
     },
     {
       "title": "船橋駅南口徒歩3分にメキシコ本場仕込みのタコス＆カフェ「サンズ・タケリア」7月中旬オープン見込み",
@@ -1873,16 +1883,6 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-16T22:07:01.084Z"
-    },
-    {
-      "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
-      "link": "https://grsta.jp/manuscript/0a060005-9f22-1c16-819f-3370c9e81375",
-      "source": "求人ボックス（グルスタ）",
-      "pubDate": "Mon, 06 Jul 2026 11:00:21 GMT",
-      "area": "松戸市",
-      "genres": [],
-      "signal": "hiring",
-      "firstSeenAt": "2026-07-20T22:05:33.170Z"
     },
     {
       "title": "「ムーンブルー」オープニングスタッフ募集（≪✧完全新規OPEN!!✧≫推される準備O K?新感覚コンセ…）",

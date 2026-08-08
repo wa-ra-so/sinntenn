@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T03:41:01.104Z",
+  "generatedAt": "2026-08-08T05:03:07.316Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -24,7 +24,7 @@
       "label": "バー系（開店ニュース）",
       "query": "埼玉県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (バー)",
       "ok": true,
-      "count": 75
+      "count": 74
     },
     {
       "label": "居酒屋・ダイニング系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 6
+      "count": 4
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 113,
+  "itemCount": 114,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -571,6 +571,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-08T01:58:03.026Z"
+    },
+    "アズーリアルテ": {
+      "storeName": "アズーリ アルテ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-08T05:03:07.127Z"
     }
   },
   "market": {
@@ -758,10 +771,6 @@
       "count": 110,
       "checkedAt": "2026-08-06T10:45:01.002Z"
     },
-    "富士見市|居酒屋": {
-      "count": 14,
-      "checkedAt": "2026-08-07T01:29:17.089Z"
-    },
     "上尾市|レストラン": {
       "count": 5,
       "checkedAt": "2026-08-07T05:45:09.365Z"
@@ -769,15 +778,31 @@
     "三郷市|居酒屋": {
       "count": 12,
       "checkedAt": "2026-08-08T01:58:03.169Z"
+    },
+    "草加市|居酒屋": {
+      "count": 43,
+      "checkedAt": "2026-08-08T05:03:07.316Z"
     }
   },
   "items": [
+    {
+      "title": "川口市立美術館のレストラン「アズーリ アルテ」がプレオープン！店頭のランチメニューを見てきたよ！武州和牛にパンおかわり",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ScEo5LVpwSmphS1p1U0pvdmZRSmhhbkRDT0NrWDJhWG9zMzROdTFNb2RDeFNYVl8wTXJ6dlFpa2lYcC1RN2dQRlFpTlM1RGl1cURPdmNldFNEQQ?oc=5",
+      "source": "川口マガジン",
+      "pubDate": "Fri, 07 Aug 2026 05:46:37 GMT",
+      "area": "川口市",
+      "genres": [
+        "レストラン"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T05:03:02.847Z"
+    },
     {
       "title": "志木商店/株式会社ギフトホールディングス オープニングスタッフ募集（SV）",
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 06 Aug 2026 09:03:48 GMT",
-      "area": "新座市",
+      "area": "志木市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
@@ -826,10 +851,10 @@
     },
     {
       "title": "株式会社大地 オープニングスタッフ募集（居酒屋の店舗スタッフ/2ヶ月で副店長・月収38万円実績あり）",
-      "link": "https://grsta.jp/manuscript/0a0601c4-9fc7-1a60-819f-cdef564d0215",
+      "link": "https://grsta.jp/manuscript/0a0601c4-9fc7-1a60-819f-cdef55540213",
       "source": "求人ボックス（グルスタ）",
       "pubDate": "Wed, 05 Aug 2026 11:09:13 GMT",
-      "area": "富士見市",
+      "area": "草加市",
       "genres": [
         "居酒屋"
       ],
@@ -1096,7 +1121,7 @@
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
-      "source": "キャンプファイヤー",
+      "source": "CAMPFIRE (キャンプファイヤー)",
       "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
       "area": "加須市",
       "genres": [

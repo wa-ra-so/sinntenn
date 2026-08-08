@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T03:40:50.431Z",
+  "generatedAt": "2026-08-08T05:02:58.769Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -36,7 +36,7 @@
       "label": "専門料理系（オープニング求人）",
       "query": "神奈川県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (焼肉 OR 寿司 OR 割烹 OR 懐石 OR 会席 OR 中華 OR 韓国料理 OR イタリアン OR フレンチ)",
       "ok": true,
-      "count": 16
+      "count": 17
     },
     {
       "label": "カフェ系（オープニング求人）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 126,
+  "itemCount": 128,
   "hotpepper": {
     "鯉恋横丁(こいこいよこちょう)": {
       "storeName": "鯉恋横丁（こいこいよこちょう）",
@@ -597,6 +597,19 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-08T01:57:54.160Z"
+    },
+    "九州とんこつのげら~横浜中華街店": {
+      "storeName": "九州とんこつ のげら～ 横浜中華街店",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-08T05:02:58.768Z"
     }
   },
   "market": {
@@ -726,6 +739,18 @@
     }
   },
   "items": [
+    {
+      "title": "【開店】「九州とんこつ のげら～ 横浜中華街店」7月15日（水）オープン！",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wbVJKYzhySV8yckxFRTVIUmlPMUNTd09uSUlNN09qbGVDUy1WTXg5Z0lJSUJ4dFhoS1M4ZW1aNmo4WnU1ZTR0LUpiZVlwcHZ0TGxnNnpWbE5lTGM2WHEtVVBGd2Y0LTBQbVBCZl9OSTRNdmRWelF0RQ?oc=5",
+      "source": "au Webポータル",
+      "pubDate": "Fri, 07 Aug 2026 21:55:40 GMT",
+      "area": "横浜市中区",
+      "genres": [
+        "中華"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T05:02:54.413Z"
+    },
     {
       "title": "有隣堂／神奈川県「大船ルミネウィング」に文具・雑貨の新ブランド、11月オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jbVdrTHhvQ2sxUUNxc3g1N2hoYkR0WndTbFkxdkNCM1p1Yng3QzBKRllmZGZuTXhSV1FpY3NmNlgxZFpoallFc3pGSGxuZExLaG9rMg?oc=5",
@@ -1182,7 +1207,7 @@
     {
       "title": "「ウェスティンホテル横浜」のインターナショナルビュッフェレストランがオープン1周年！記念ビュッフェを堪能",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBoRFBMSkg1Vm5qNTJGZmZjZ0tHZmZ3bi1DeHlJM0JvMjdxaDdNa1RzeDhaZW96aTdQUUc5NnpBajh0VjFUS0swYmpFbnU?oc=5",
-      "source": "precious.jp",
+      "source": "Precious.jp",
       "pubDate": "Sun, 26 Jul 2026 13:00:00 GMT",
       "area": "横浜市",
       "genres": [
@@ -1995,7 +2020,7 @@
     {
       "title": "戸塚モディ／「はなまるダイニングセレクト」6月24日オープン、総菜・サラダ提供",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51WTBOQ2JoUjZISXBRZzYxdEFucG9RWU1uOVJUeVZ5M0g0RGdfQUpfLWctcHUwdTBBMm4yakszME1yYlVueWZUMjlCRm0tSmZvMVVMTA?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "横浜市戸塚区",
       "genres": [
@@ -2027,9 +2052,19 @@
       "firstSeenAt": "2026-07-13T15:05:41.968Z"
     },
     {
+      "title": "動物出汁不使用とは思えない厚み。話題の新店による心に染みる白煮干し【高座渋谷（神奈川）】（こたろぐ） - エキスパート",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVnNEWk9PNG9ZWkE1bXZTX3B1ZUljN0FjR2VoSUdNSDEzU1B6VFowZllKMTdOb0xBZFMyV1Q0WGYwZmZoZDk4dm9qdWo0TVJ3TVRkQXpYTFRtQ3dCR0d2bGMwTHhVcEJPdXBKY2VQXzVzbWpJUHNUU0RzejBXUWQ0QUM3dDdwbjRK?oc=5",
+      "source": "Yahoo!ニュース",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 GMT",
+      "area": "",
+      "genres": [],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T05:02:54.413Z"
+    },
+    {
       "title": "ゴンチャ／神奈川県小田原市に「ラスカ小田原店」6月25日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10YzFBYnQ4Rl9vNVFjVHBINmZVU0JkZkpJbzg2TTFlR3d3cU5nX0JaUjViVy1XT3lEQUU1TXlBckVERVVIYzhMRkhrRjJiTXl1NGdiRg?oc=5",
-      "source": "ryutsuu.biz",
+      "source": "流通ニュース",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "小田原市",
       "genres": [],
@@ -2129,7 +2164,7 @@
     {
       "title": "【ＰＲ記事】 横浜東急REIホテル、9階レストラン「アンコール」をラウンジスペース「REI Café（レイカフェ）」としてオープン 神奈川県横浜市",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlVEQtTFpvanREWG4zS1hGTVVnQ0tJaUxaVkthUEg2MWdvSVQ2Rm1BeUh5dFI2WXVuWjIxVnd0QXNiS3JZVFdIajBSVkg5bjNrdE1VNVE1YkFHYTZRYk1yUVhn?oc=5",
-      "source": "遊都総研",
+      "source": "yutosoken.com",
       "pubDate": "Tue, 09 Jun 2026 07:00:00 GMT",
       "area": "横浜市",
       "genres": [
