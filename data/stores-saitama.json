@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T07:01:21.990Z",
+  "generatedAt": "2026-08-08T08:49:27.603Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -30,7 +30,7 @@
       "label": "居酒屋・ダイニング系（オープニング求人）",
       "query": "埼玉県 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 4
+      "count": 3
     },
     {
       "label": "専門料理系（オープニング求人）",
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-埼玉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%9F%BC%E7%8E%89%E7%9C%8C",
       "ok": true,
-      "count": 8
+      "count": 5
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 埼玉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 114,
+  "itemCount": 116,
   "hotpepper": {
     "さんすい": {
       "storeName": "さんすい",
@@ -584,6 +584,32 @@
       "capacity": "",
       "open": "",
       "checkedAt": "2026-08-08T05:03:07.127Z"
+    },
+    "つきうさぎ": {
+      "storeName": "つきうさぎ",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-08T08:49:26.921Z"
+    },
+    "炎": {
+      "storeName": "炎",
+      "listed": false,
+      "url": "",
+      "shopName": "",
+      "address": "",
+      "access": "",
+      "genre": "",
+      "budget": "",
+      "capacity": "",
+      "open": "",
+      "checkedAt": "2026-08-08T08:49:27.488Z"
     }
   },
   "market": {
@@ -782,9 +808,29 @@
     "富士見市|居酒屋": {
       "count": 14,
       "checkedAt": "2026-08-08T07:01:21.990Z"
+    },
+    "行田市|居酒屋": {
+      "count": 5,
+      "checkedAt": "2026-08-08T08:49:27.602Z"
+    },
+    "熊谷市|寿司": {
+      "count": 8,
+      "checkedAt": "2026-08-08T08:49:27.603Z"
     }
   },
   "items": [
+    {
+      "title": "【行田市】2027年オープン予定！長野の居酒屋「炎」跡地に、自家焙煎コーヒーショップができるみたいです！",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45ZWg3UnNGX09vaklIU1oyN01KUVg5d2d5ZVRiQXVXVUJPTGtGQ192dnc4NVp4cUZzRERSUHdCT3kyN1dxaUlwcW5MTnZwdWRiY3Z4dk4wN3diQXlhWTdWSjhiLXhVbndw?oc=5",
+      "source": "saitama-city-marathon.jp",
+      "pubDate": "Sat, 08 Aug 2026 08:17:10 GMT",
+      "area": "行田市",
+      "genres": [
+        "居酒屋"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T08:49:23.124Z"
+    },
     {
       "title": "川口市立美術館のレストラン「アズーリ アルテ」がプレオープン！店頭のランチメニューを見てきたよ！武州和牛にパンおかわり",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ScEo5LVpwSmphS1p1U0pvdmZRSmhhbkRDT0NrWDJhWG9zMzROdTFNb2RDeFNYVl8wTXJ6dlFpa2lYcC1RN2dQRlFpTlM1RGl1cURPdmNldFNEQQ?oc=5",
@@ -802,7 +848,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364866/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 06 Aug 2026 09:03:48 GMT",
-      "area": "志木市",
+      "area": "新座市",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T05:11:52.638Z"
@@ -812,7 +858,7 @@
       "link": "https://www.gourmetcaree.jp/kanto/detail/148268/364841/26_1",
       "source": "求人ボックス（グルメキャリー首都圏版）",
       "pubDate": "Thu, 06 Aug 2026 09:03:48 GMT",
-      "area": "さいたま市",
+      "area": "さいたま市岩槻区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-25T06:22:51.133Z"
@@ -860,6 +906,18 @@
       ],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T02:20:08.092Z"
+    },
+    {
+      "title": "【熊谷市】ウサギの看板が目印！大原に”いなり寿司”テイクアウト専門店「つきうさぎ」がオープンするようです！",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ueTF4RDBLWmRKLXFZZ2JiSUN6di1RS1RIOUs0bzVCaGJWSDR5VDNXN0dUTGtfWU5welN3bUxWdUgxUjBrZGNVSXliY1dRY0o2Uy1GYXZ4QzNSdE5zdVp4YzdFVk82THlkOXJr?oc=5",
+      "source": "saitama-city-marathon.jp",
+      "pubDate": "Wed, 05 Aug 2026 10:50:20 GMT",
+      "area": "熊谷市",
+      "genres": [
+        "寿司"
+      ],
+      "signal": "opening",
+      "firstSeenAt": "2026-08-08T08:49:23.126Z"
     },
     {
       "title": "「焼肉セナラ」オープニングスタッフ募集（ホール/キッチン/店長・マネージャー候補 経験不問 人柄採用…）",
@@ -1121,7 +1179,7 @@
     {
       "title": "埼玉県加須市にパグ＆うさぎカフェ「ワンパグ」をオープンしたい！",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xM2NQQVdmSXd3R3B0allwV1p1Ni15SXRPYWNPd3YxZ3dYQ2VPSHpZVTVhLXVoQTJpT2NiWlhNRVVlZzQtRGdoUF9nQkp4RGpZYWlF?oc=5",
-      "source": "camp-fire.jp",
+      "source": "キャンプファイヤー",
       "pubDate": "Sat, 25 Jul 2026 15:34:51 GMT",
       "area": "加須市",
       "genres": [

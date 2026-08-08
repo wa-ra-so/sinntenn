@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T07:00:56.151Z",
+  "generatedAt": "2026-08-08T08:49:05.587Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -54,7 +54,7 @@
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-千葉県）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E5%8D%83%E8%91%89%E7%9C%8C",
       "ok": true,
-      "count": 12
+      "count": 13
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 千葉県）",
@@ -63,7 +63,7 @@
       "error": "HTTP 403"
     }
   ],
-  "itemCount": 132,
+  "itemCount": 133,
   "hotpepper": {
     "サンズ・タケリア": {
       "storeName": "サンズ・タケリア",
@@ -858,6 +858,16 @@
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-07-15T08:37:17.709Z"
+    },
+    {
+      "title": "株式会社LUCK project オープニングスタッフ募集（キッチン/洗い場/店長・マネージャー候補 オープニング募集 …）",
+      "link": "https://saiyo.page/579779/job/158418531/?media=ad_dx_kyujin_box&utm_source=kyujin_box&utm_source=kyujin_box&utm_medium=cpc",
+      "source": "求人ボックス（採用ページコボット）",
+      "pubDate": "Wed, 05 Aug 2026 20:08:41 GMT",
+      "area": "柏市",
+      "genres": [],
+      "signal": "hiring",
+      "firstSeenAt": "2026-08-08T08:49:02.738Z"
     },
     {
       "title": "株式会社大地 オープニングスタッフ募集（焼き鳥屋のホール/月9日休・未経験月給30万円スタート）",
