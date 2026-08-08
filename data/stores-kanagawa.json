@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-08T01:57:54.160Z",
+  "generatedAt": "2026-08-08T03:40:50.431Z",
   "ttlDays": 60,
   "runLog": [
     {
       "label": "居酒屋・ダイニング系（開店ニュース）",
       "query": "神奈川県 (オープン OR 新規開店 OR グランドオープン OR プレオープン) (居酒屋 OR ダイニング OR バル OR レストラン OR ビストロ)",
       "ok": true,
-      "count": 98
+      "count": 100
     },
     {
       "label": "専門料理系（開店ニュース）",
@@ -219,7 +219,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:27:59.941Z"
+      "checkedAt": "2026-08-08T03:40:50.241Z"
     },
     "行きたくなる酒場浜ちゃん": {
       "storeName": "行きたくなる酒場 浜ちゃん",
@@ -245,7 +245,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:28:00.393Z"
+      "checkedAt": "2026-08-08T03:40:50.017Z"
     },
     "はなまるダイニングセレクト": {
       "storeName": "はなまるダイニングセレクト",
@@ -258,7 +258,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:28:00.344Z"
+      "checkedAt": "2026-08-08T03:40:50.241Z"
     },
     "cafebarrieno(リエノ)": {
       "storeName": "Cafe Bar Rieno （リエノ）",
@@ -388,7 +388,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:28:00.244Z"
+      "checkedAt": "2026-08-08T03:40:49.947Z"
     },
     "サ活": {
       "storeName": "サ活",
@@ -630,11 +630,11 @@
     },
     "鎌倉市|バー": {
       "count": 37,
-      "checkedAt": "2026-08-01T03:28:00.579Z"
+      "checkedAt": "2026-08-08T03:40:50.431Z"
     },
     "横浜市戸塚区|ダイニング": {
       "count": 7,
-      "checkedAt": "2026-08-01T03:28:00.570Z"
+      "checkedAt": "2026-08-08T03:40:50.407Z"
     },
     "大和市|焼肉": {
       "count": 23,
@@ -682,7 +682,7 @@
     },
     "川崎市|寿司": {
       "count": 61,
-      "checkedAt": "2026-08-01T03:28:00.589Z"
+      "checkedAt": "2026-08-08T03:40:50.418Z"
     },
     "横浜市港南区|イタリアン": {
       "count": 12,
@@ -761,7 +761,7 @@
     {
       "title": "ウェスティンホテル横浜にインターナショナル・ビュッフェ・レストラン「PACIFIC TABLE」がオープン",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkbkpLaUdWVThHZEM4WDVLalJrams2Znp1RGVFSjFJOFBFcllsUFRsLVRTTE9CRVNhd3Q3emVUeE1YazhNUWppTWJzMXd3S1lYLUU4VmVB0gFbQVVfeXFMT1YyMmpJVDZtVmV0S1AxZGtTLXgtUnJ5cWtFaXZQMldubUE3elhpa0Q4VWhBcm9iZE0yWmlZNUVyX0tvQkZtN1dBZlA2bDFQVGlkVzhtc0I4SzNZZw?oc=5",
-      "source": "walkerplus.com",
+      "source": "ウォーカープラス",
       "pubDate": "Wed, 05 Aug 2026 07:00:00 GMT",
       "area": "横浜市",
       "genres": [
@@ -877,7 +877,7 @@
     {
       "title": "画像1 / 4＞神奈川県にカフェ＆バー併設のプライベートサウナがオープン！豊かな「サ活」を楽しもう！",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ISzNNcXZibnRieUJGU0tzbWxROGl4N3N0SUFGdV9tRENNdmlRZllWZlEtM1ZNT0stTVlhMjdPN0cxcHk0ZVdVS0NZbUF2bjdwcFZQbW9RQXV0UzBZYkJNYVpPdDRBdERqNHp3dTdR?oc=5",
-      "source": "walkerplus.com",
+      "source": "ウォーカープラス",
       "pubDate": "Sun, 02 Aug 2026 17:14:22 GMT",
       "area": "",
       "genres": [
@@ -1182,7 +1182,7 @@
     {
       "title": "「ウェスティンホテル横浜」のインターナショナルビュッフェレストランがオープン1周年！記念ビュッフェを堪能",
       "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBoRFBMSkg1Vm5qNTJGZmZjZ0tHZmZ3bi1DeHlJM0JvMjdxaDdNa1RzeDhaZW96aTdQUUc5NnpBajh0VjFUS0swYmpFbnU?oc=5",
-      "source": "Precious.jp",
+      "source": "precious.jp",
       "pubDate": "Sun, 26 Jul 2026 13:00:00 GMT",
       "area": "横浜市",
       "genres": [
@@ -1995,7 +1995,7 @@
     {
       "title": "戸塚モディ／「はなまるダイニングセレクト」6月24日オープン、総菜・サラダ提供",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51WTBOQ2JoUjZISXBRZzYxdEFucG9RWU1uOVJUeVZ5M0g0RGdfQUpfLWctcHUwdTBBMm4yakszME1yYlVueWZUMjlCRm0tSmZvMVVMTA?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Tue, 23 Jun 2026 07:00:00 GMT",
       "area": "横浜市戸塚区",
       "genres": [
@@ -2029,7 +2029,7 @@
     {
       "title": "ゴンチャ／神奈川県小田原市に「ラスカ小田原店」6月25日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10YzFBYnQ4Rl9vNVFjVHBINmZVU0JkZkpJbzg2TTFlR3d3cU5nX0JaUjViVy1XT3lEQUU1TXlBckVERVVIYzhMRkhrRjJiTXl1NGdiRg?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Thu, 18 Jun 2026 07:00:00 GMT",
       "area": "小田原市",
       "genres": [],

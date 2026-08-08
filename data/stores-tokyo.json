@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T01:57:45.492Z",
+  "generatedAt": "2026-08-08T03:40:39.165Z",
   "ttlDays": 60,
   "runLog": [
     {
@@ -48,13 +48,13 @@
       "label": "バー系（オープニング求人）",
       "query": "東京都 (オープニングスタッフ OR オープニング募集 OR オープニングスタッフ募集) (バー)",
       "ok": true,
-      "count": 66
+      "count": 63
     },
     {
       "label": "求人ボックス（オープニングスタッフ-飲食店の仕事-東京都）",
       "query": "https://xn--pckua2a7gp15o89zb.com/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%83%E3%83%95-%E9%A3%B2%E9%A3%9F%E5%BA%97%E3%81%AE%E4%BB%95%E4%BA%8B-%E6%9D%B1%E4%BA%AC%E9%83%BD",
       "ok": true,
-      "count": 11
+      "count": 15
     },
     {
       "label": "Indeed（オープニングスタッフ 飲食店 東京都）",
@@ -921,7 +921,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:27:51.738Z"
+      "checkedAt": "2026-08-08T03:40:38.965Z"
     },
     "camrodinnerカンボジア食堂〜アンコール〜": {
       "storeName": "CAMRODINNER カンボジア食堂〜アンコール〜",
@@ -934,7 +934,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:27:51.734Z"
+      "checkedAt": "2026-08-08T03:40:39.019Z"
     },
     "マモテラス": {
       "storeName": "マモテラス",
@@ -1441,7 +1441,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:27:51.381Z"
+      "checkedAt": "2026-08-08T03:40:38.718Z"
     },
     "神戸牛・和牛鉄板焼き赤坂諮玄はなれ": {
       "storeName": "神戸牛・和牛 鉄板焼き 赤坂 諮玄 はなれ",
@@ -1454,7 +1454,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:27:51.389Z"
+      "checkedAt": "2026-08-08T03:40:38.980Z"
     },
     "神戸牛・和牛鉄板焼き赤坂諮玄": {
       "storeName": "神戸牛・和牛 鉄板焼き 赤坂 諮玄",
@@ -1467,7 +1467,7 @@
       "budget": "",
       "capacity": "",
       "open": "",
-      "checkedAt": "2026-08-01T03:27:51.888Z"
+      "checkedAt": "2026-08-08T03:40:38.671Z"
     },
     "ふうっと..": {
       "storeName": "ふうっと..",
@@ -2010,7 +2010,7 @@
     },
     "大田区|居酒屋": {
       "count": 200,
-      "checkedAt": "2026-08-01T03:27:52.092Z"
+      "checkedAt": "2026-08-08T03:40:39.164Z"
     },
     "足立区|寿司": {
       "count": 21,
@@ -2122,7 +2122,7 @@
     {
       "title": "JR東日本グループ／東京・国立に個性的な4店舗集まる新施設、9月から順次開業",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84dGJ4Y0hrNWhWQ1V3d1VKQ0lKVWhIU3VlU2FjLUdsMlBkNURCM1c1SkdBcDRtMmJXU2hFd25jZmI5a0Y2X3RVTEJCQmxEQWNrOFFYZQ?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Thu, 06 Aug 2026 06:56:00 GMT",
       "area": "国立市",
       "genres": [],
@@ -2273,7 +2273,7 @@
       "link": "http://s.baitoru.com/DW0b0Wmz",
       "source": "求人ボックス（baitoru）",
       "pubDate": "Mon, 03 Aug 2026 18:11:10 GMT",
-      "area": "港区",
+      "area": "渋谷区",
       "genres": [],
       "signal": "hiring",
       "firstSeenAt": "2026-08-04T02:57:46.499Z"
@@ -2330,7 +2330,7 @@
     {
       "title": "大衆居酒屋とイタリアンのいいとこどり「大衆イタリアンかね子 吉祥寺店」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nbEF1dndlNEtaR3p4MEZnU19SOW83MzlWMkdneF9GQnBJQm5LZVdfN3gxaVpwcTd4QVp5NjIwYWFRZXRWR1RxZVBWTU5MUVRwZm9EeHRKOVBtaVk?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Sun, 02 Aug 2026 22:30:44 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -2488,7 +2488,7 @@
     {
       "title": "【体験レポ】「JIMMY CHOO」が手掛けるストリートカフェが東京・銀座にオープン！ブランド激戦区に登場したロンドン風の空間とは？",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nOUxTel9XYzlHcks0T3NwNUU0RldNZlBNQ0pheUdxU3RqYjVoa1hoTHU5aEFGeEtZcno3UGp0SDJhdWlTXzVyQzJJWjhrbW1BRUFTQ3Rn0gFbQVVfeXFMTnp6WEZRMExRNDNxYlBndFYyeEQ4RW5PLWxMQUdXRDRNTTk1YjdXZnVEWlAwd3pIeHBuLTZucno1YUZLWXhsWUVudGI2b1A5MXVaRXcybUEzRjRVSQ?oc=5",
-      "source": "walkerplus.com",
+      "source": "ウォーカープラス",
       "pubDate": "Fri, 31 Jul 2026 07:00:00 GMT",
       "area": "中央区",
       "genres": [
@@ -2941,7 +2941,7 @@
     {
       "title": "コメダ／「和喫茶おかげ庵 ミーツ国分寺店」7月31日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA5a2N6N0JVZno0dmJnQ29WcmZFbC1TYzREY21rRDBfdHlqZ3BJUzNVdmNtTG02OENZOXh4U1AwQ1VGMFFhRGJvYXJweWctRG5PR0ZaLQ?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT",
       "area": "国分寺市",
       "genres": [],
@@ -2973,7 +2973,7 @@
     {
       "title": "三鷹に新オープン飲茶＆中華とスイーツ食べ放題「THE BUFFET 点心甜心」1649円〜の幸福ループ全貌まとめ",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmUndfQ3dudklGcjVra0MtMjY2ZUdOT0tzNVJhYTdyaDZjbE5EWFB0RHdkWVU0VjAxSzNQR0ZMTWRSWm5uRHZFbUhLQWF2b2QtZC1KYnc5UWw1NjZkMzlJcnB2WWs4TV9TNGc?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -3153,7 +3153,7 @@
     {
       "title": "東京都初出店「THE BUFFET 点心甜心 三鷹店」先行レポ！麻辣湯や小籠包、プレミアムスイーツが楽しめる新スタイル食べ放題",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wT29PcF9rcjZoNXdUOGJNQVgwQlFSbHNWb19Pbi1pbFRna2lBMmhXenc0TDFQajF6UUNLYXNFeGdZRnBjT18xUklwUFVxTHJqOUJoVXJscWZHa0RUaEhJUGVlYS1kNEY4cmc?oc=5",
-      "source": "多摩ポン",
+      "source": "tamapon.com",
       "pubDate": "Wed, 22 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [],
@@ -3886,7 +3886,7 @@
     {
       "title": "ゴンチャ／東京都台東区「上野マルイ」に新店舗7月17日オープン",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XTG93X3AwamxheE92YnJNb2xPYmNiMXoxUGRkSUtwUEREUDNTSGpHeFlrVy1ZOEptNDc3b3doQXNfU1BaR1pVZl9KTzFYbWZ5OEJBdA?oc=5",
-      "source": "流通ニュース",
+      "source": "ryutsuu.biz",
       "pubDate": "Fri, 10 Jul 2026 07:00:00 GMT",
       "area": "台東区",
       "genres": [],
@@ -4178,7 +4178,7 @@
     {
       "title": "吉祥寺に名古屋発の厚切り牛タン黒毛和牛食べ放題専門店「焼肉 朧」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jWl9KWFFnajA5YkFrRC1aNkNxVUVaMXB2X0cxWnRfM0o1eElNajhxSXQ1U01Lc2NBYkl3MFBVWUEybDlJQ3lqT2pwOVMwTm9KeC1SV1FUOHp2RjQ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Wed, 08 Jul 2026 07:00:00 GMT",
       "area": "武蔵野市",
       "genres": [
@@ -4262,7 +4262,7 @@
     {
       "title": "都内初進出！ 飲茶＆中華/スイーツ食べ放題の「THE BUFFET（ザ ブッフェ）点心甜心 三鷹店」オープン",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xUGVmNk5CcXJJR3hEa09jLThpYUtYbkxVR1lMUEFVR1hyY0Uyc2EzdVFRcDBkRjZ5Qmc2Rk1fYXVfUUh0RWlJRXRQSy02WmVPTkwtQnpWWGxuVVhZZU4wU0ZCaXN3anFwYnc?oc=5",
-      "source": "gourmet.watch.impress.co.jp",
+      "source": "グルメ Watch",
       "pubDate": "Tue, 07 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
@@ -4341,7 +4341,7 @@
     {
       "title": "東京都初出店！三鷹に飲茶＆中華とスイーツ食べ放題の「THE BUFFET 点心甜心」がオープンへ",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mRWtsT0xFS2xLYnJ5RnVKU0hUT1JQNnJfRnBkNmNHX2VBUndFY0pCb2VXV0hoYTNfLXVPelJnQTRqTkpQWVk2UGptWTVmOUFhcTFKMXdBZmpkZlEyUGcwVWJNNUtjbTE0RXFZ?oc=5",
-      "source": "吉祥寺ファンページ",
+      "source": "kichifan.com",
       "pubDate": "Mon, 06 Jul 2026 07:00:00 GMT",
       "area": "三鷹市",
       "genres": [
